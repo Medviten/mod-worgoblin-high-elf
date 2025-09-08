@@ -15,80 +15,80 @@ INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entr
 (62105, 0, 0, 0, 0, 0, 'Lord Gideon Blackwood', 'Warlock Trainer', NULL, 62105, 40, 40, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 1.1, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 0, 0, 9, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0);
 
 /*Add display IDs*/
-DELETE FROM `creature_model_info` WHERE `DisplayID` IN (926000, 926001, 926002, 926003, 926004, 926005);
+DELETE FROM `creature_model_info` WHERE `DisplayID` IN (92600, 92601, 92602, 92603, 92604, 92605);
 INSERT INTO `creature_model_info` (`DisplayID`, `BoundingRadius`, `CombatReach`, `Gender`, `DisplayID_Other_Gender`) VALUES
-(926000, 0.406, 1.5, 0, 0), -- Thaddius Dalrymple
-(926001, 0.406, 1.5, 0, 0), -- Oswald Dunsmore
-(926002, 0.406, 1.5, 1, 0), -- Leah Ashcroft
-(926003, 0.406, 1.5, 1, 0), -- Amelia Fearhart
-(926004, 0.406, 1.5, 1, 0), -- Lady Lovelace
-(926005, 0.406, 1.5, 0, 0); -- Lord Gideon Blackwood
+(92600, 0.406, 1.5, 0, 0), -- Thaddius Dalrymple
+(92601, 0.406, 1.5, 0, 0), -- Oswald Dunsmore
+(92602, 0.406, 1.5, 1, 0), -- Leah Ashcroft
+(92603, 0.406, 1.5, 1, 0), -- Amelia Fearhart
+(92604, 0.406, 1.5, 1, 0), -- Lady Lovelace
+(92605, 0.406, 1.5, 0, 0); -- Lord Gideon Blackwood
 
 /*Associate extended display IDs with textures*/
-DELETE FROM `creaturedisplayinfoextra_dbc` WHERE `ID` IN (30, 45, 54, 57, 58, 59);
+DELETE FROM `creaturedisplayinfoextra_dbc` WHERE `ID` IN (62100, 62101, 62102, 62103, 62104, 62105);
 INSERT INTO `creaturedisplayinfoextra_dbc` (`ID`, `DisplayRaceID`, `DisplaySexID`, `SkinID`, `FaceID`, `HairStyleID`, `HairColorID`, `FacialHairID`, `NPCItemDisplay1`, `NPCItemDisplay2`, `NPCItemDisplay3`, `NPCItemDisplay4`, `NPCItemDisplay5`, `NPCItemDisplay6`, `NPCItemDisplay7`, `NPCItemDisplay8`, `NPCItemDisplay9`, `NPCItemDisplay10`, `NPCItemDisplay11`, `Flags`, `BakeName`) VALUES
 /*Thaddius Dalrymple*/
-(30,
+(62100,
 12, 0,
 3, 4, 3, 3, 0,
 0, 0, 0, 12656, 0, 0, 0, 0, 0, 0, 0,
-0, 'CreatureDisplayExtra-30.blp'),
+0, 'CreatureDisplayExtra-62100.blp'),
 /*Oswald Dunsmore*/
-(45,
+(62101,
 12, 0,
 1, 3, 4, 2, 0,
 0, 0, 0, 30868, 0, 0, 0, 0, 0, 0, 0,
-0, 'CreatureDisplayExtra-45.blp'),
+0, 'CreatureDisplayExtra-62101.blp'),
 /*Leah Ashcroft*/
-(54,
+(62102,
 12, 1,
 4, 13, 15, 1, 0,
 0, 0, 0, 12673, 0, 0, 0, 0, 0, 0, 0,
-0, 'CreatureDisplayExtra-54.blp'),
+0, 'CreatureDisplayExtra-62102.blp'),
 /*Amelia Fearhart*/
-(57,
+(62103,
 12, 1,
 7, 5, 13, 0, 0,
 0, 0, 0, 12646, 0, 0, 0, 0, 0, 0, 0,
-0, 'CreatureDisplayExtra-57.blp'),
+0, 'CreatureDisplayExtra-62103.blp'),
 /*Lady Lovelace*/
-(58,
+(62104,
 12, 1,
 8, 2, 7, 4, 0,
 0, 0, 0, 12696, 11533, 0, 0, 0, 0, 0, 0,
-0, 'CreatureDisplayExtra-58.blp'),
+0, 'CreatureDisplayExtra-62104.blp'),
 /*Lord Gideon Blackwood*/
-(59,
+(62105,
 12, 0,
 2, 1, 0, 4, 0,
 0, 0, 0, 0, 25225, 43193, 0, 0, 0, 0, 0,
-0, 'CreatureDisplayExtra-59.blp');
+0, 'CreatureDisplayExtra-62105.blp');
 
 /*Associate display ID with worgen model and extended display ID*/
-DELETE FROM `creaturedisplayinfo_dbc` WHERE `ID` IN (926000, 926001, 926002, 926003, 926004, 926005);
+DELETE FROM `creaturedisplayinfo_dbc` WHERE `ID` IN (92600, 92601, 92602, 92603, 92604, 92605);
 INSERT INTO `creaturedisplayinfo_dbc` (`ID`, `ModelID`, `SoundID`, `ExtendedDisplayInfoID`, `CreatureModelScale`, `CreatureModelAlpha`, `TextureVariation_1`, `TextureVariation_2`, `TextureVariation_3`, `PortraitTextureName`, `BloodLevel`, `BloodID`, `NPCSoundID`, `ParticleColorID`, `CreatureGeosetData`, `ObjectEffectPackageID`) VALUES
 /*Thaddius Dalrymple*/
-(926000, 3141, 0, 30, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
+(92600, 3141, 0, 30, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
 /*Oswald Dunsmore*/
-(926001, 3141, 0, 45, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
+(92601, 3141, 0, 45, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
 /*Leah Ashcroft*/
-(926002, 3142, 0, 54, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
+(92602, 3142, 0, 54, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
 /*Amelia Fearhart*/
-(926003, 3142, 0, 57, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
+(92603, 3142, 0, 57, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
 /*Lady Lovelace*/
-(926004, 3142, 0, 58, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
+(92604, 3142, 0, 58, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0),
 /*Lord Gideon Blackwood*/
-(926005, 3141, 0, 59, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
+(92605, 3141, 0, 59, 1, 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
 
 /*Associate creature IDs with display IDs*/
 DELETE FROM `creature_template_model` WHERE `CreatureID` IN (62100, 62101, 62102, 62103, 62104, 62105);
 INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`) VALUES
-(62100, 0, 926000, 1, 1), -- Thaddius Dalrymple
-(62101, 0, 926001, 1, 1), -- Oswald Dunsmore
-(62102, 0, 926002, 1, 1), -- Leah Ashcroft
-(62103, 0, 926003, 1, 1), -- Amelia Fearhart
-(62104, 0, 926004, 1, 1), -- Lady Lovelace
-(62105, 0, 926005, 1, 1); -- Lord Gideon Blackwood
+(62100, 0, 92600, 1, 1), -- Thaddius Dalrymple
+(62101, 0, 92601, 1, 1), -- Oswald Dunsmore
+(62102, 0, 92602, 1, 1), -- Leah Ashcroft
+(62103, 0, 92603, 1, 1), -- Amelia Fearhart
+(62104, 0, 92604, 1, 1), -- Lady Lovelace
+(62105, 0, 92605, 1, 1); -- Lord Gideon Blackwood
 
 /*Add NPCs to world*/
 DELETE FROM `creature` WHERE `guid` IN (6210000, 6210001, 6210002, 6210003, 6210004, 6210005);
