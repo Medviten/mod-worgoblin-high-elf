@@ -26,7 +26,7 @@ If you choose to manually download the repo, make sure that you delete the -mast
 
 As of right now, the hooks for allowing custom races are not present in AzerothCore. Because of this, you'll have to manually apply the change required to your AzerothCore source.
 
-You can apply the patch with the following commands:
+You can apply the patch with the following commands from the root of your AzerothCore directory:
 
 ```
 git apply --ignore-space-change --ignore-whitespace modules/mod-worgoblin/worgoblin.patch
@@ -40,13 +40,13 @@ Alternatively, you can do it manually through a text editor of your choice by ch
 
 Copy the contents of the DBFilesClient folder (`mod-worgoblin/data/patch/DBFilesClient`) to your AzerothCore `Data/dbc` directory (defined by `DataDir` in `worldserver.conf`). I recommend backing up your dbc folder before overwriting these files.
 
-### 4) Copy the [patch](https://github.com/heyitsbench/mod-worgoblin/tree/master/data/patch) folder (`mod-worgoblin/data/patch`) to your Data folder in your WoW client and rename it to `patch-A.MPQ`
+### 4) Copy [patch-A.MPQ](https://github.com/heyitsbench/mod-worgoblin/tree/master/data/patch) from (`mod-worgoblin/data/patch-A.MPQ`) to your Data folder in your WoW client
 
 ### 4.5) Optional: compatibility patches
 
 #### [Playerbots](https://github.com/liyunfan1223/mod-playerbots)
 
-This patch fixes the problem of bots failing to recognize worgen as an Alliance race (goblins work correctly without the patch) and allows playerbots to spawn as worgen and goblins. You'll have to run the patched `world_playerbots_rpg_races.sql` file found in `mod-playerbots/data/sql/world` for changes to take effect. If you only want to fix worgen faction behavior, use the [playerbots-lite patch](https://github.com/idempotentiation/mod-worgoblin/blob/master/playerbots-lite.patch) (you don't need to run any SQL queries if you use this one).
+This patch fixes the problem of bots failing to recognize worgen as an Alliance race and allows playerbots to spawn as worgen and goblins. If you only want to fix worgen faction behavior, use the [playerbots-lite patch](https://github.com/idempotentiation/mod-worgoblin/blob/master/playerbots-lite.patch).
 
 To apply the patch, copy [playerbots.patch](https://github.com/idempotentiation/mod-worgoblin/blob/master/playerbots.patch) to the root of your Playerbots directory and run the following commands from there:
 
@@ -58,9 +58,9 @@ git commit -m "Add worgoblin patch"
 
 #### [Individual Progression](https://github.com/ZhengPeiRu21/mod-individual-progression)
 
-The individual progression module modifies starting weapon skills, which has the side effect of causing certain classes for worgen and goblins to be unable to use their starting equipment. Additionally, it removes many spells from trainers and reintroduces the quests that were originally required to learn them. Notably, it removes Summon Imp from warlock trainers. Because there are no warlock quests in Teldrassil, this leaves worgen warlocks without any feasible way of learning how to summon their imp.
+The individual progression module modifies starting weapon skills, which has the side effect of causing certain classes for worgen and goblins to be unable to use their starting equipment. Additionally, the module removes many spells from trainers and reintroduces the quests that were originally required to learn them, which leaves worgen warlocks without any feasible way of learning how to summon their imp.
 
-This patch fixes the issues with starting weapon skills, as well as adds a custom quest for worgen warlocks to learn how to summon their imp. After you apply the patch, you must run the patched SQL files on your world database for the changes to take effect. The files changed are `class_trainers.sql`, `starting_skillbars.sql`, and `weapon_skills.sql`, which can all found in `mod-individual-progression/sql/world/base`. Then, add/overwrite the provided DBC files in both your AzerothCore server's `data/dbc` and your client's `Patch-A.MPQ/DBFilesClient` directories.
+This patch fixes the issues with starting weapon skills and adds a custom quest for worgen warlocks to learn Summon Imp. After you apply the patch, add/overwrite the provided DBC files in both your AzerothCore server's `data/dbc` and your client's `Patch-A.MPQ/DBFilesClient` directories.
 
 To apply the patch, copy [individual-progression.patch](https://github.com/idempotentiation/mod-worgoblin/blob/master/individual-progression.patch) to the root of your individual progression directory and run the following commands from there:
 
