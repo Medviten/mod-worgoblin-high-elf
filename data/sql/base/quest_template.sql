@@ -1,9 +1,10 @@
-/*Ensures that faction-restricted quests include worgen and goblins*/
+/* Ensures that faction-restricted quests include worgen and goblins */
 UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE AllowableRaces & 2 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
 UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE AllowableRaces & 1 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
 UPDATE quest_template SET AllowableRaces = 1 WHERE ID = 12742;
 UPDATE quest_template SET AllowableRaces = 2 WHERE ID = 12748;
-/*Allows worgen and goblin to complete race-restricted class quests*/
+
+/* Allows worgen and goblin to complete race-restricted class quests */
 UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (2383); -- Allow goblin warriors to complete orc warrior quests
 UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (3087, 3092, 6061, 6062, 6068, 6069, 6070, 6081, 6082, 6083, 6087, 6088); -- Allow goblin hunters to complete orc hunter quests
 UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (1858, 1859, 1963, 2000, 2379, 3088, 9392); -- Allow goblin rogues to complete orc rogue quests

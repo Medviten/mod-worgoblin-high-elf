@@ -1,4 +1,4 @@
-/*Update achievement criteria involving interactions with all races to include worgen and goblins*/
+/* Update achievement criteria involving interactions with all races to include worgen and goblins */
 DELETE FROM `achievement_criteria_data` WHERE `criteria_id` IN (13473, 13474, 13475, 13476, 13477, 13478);
 INSERT INTO `achievement_criteria_data` (`criteria_id`, `type`, `value1`, `value2`, `ScriptName`) VALUES
 (13473, 2, 0, 9, ''), -- Achievement 2422 (Shake Your Bunny-Maker)

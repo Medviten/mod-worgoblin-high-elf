@@ -1,4 +1,4 @@
-/*Set up action bars of newly created worgen and goblins*/
+/* Set up action bars of newly created worgen and goblins */
 DELETE FROM `playercreateinfo_action` WHERE `race` = 9 OR `race` = 12;
 INSERT INTO `playercreateinfo_action` (`race`, `class`, `button`, `action`) VALUES
 (9, 1, 72, 6603),
@@ -75,7 +75,7 @@ INSERT INTO `playercreateinfo_action` (`race`, `class`, `button`, `action`) VALU
 (12, 6, 3, 45462),
 (12, 6, 4, 45902),
 (12, 6, 5, 47541),
-(12, 6, 9, 68992),
+-- (12, 6, 9, 68992), Darkflight Death Knight
 -- (12, 6, 120, 68996), Two Forms Death Knight
 -- (12, 6, 120, 87840), Running Wild Death Knight
 (12, 8, 0, 133),
