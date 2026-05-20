@@ -691,10 +691,10 @@ index 75e45dd5..d5d6ee96 100644
  -- Innkeeper Fizzgrimble, Tanaris 7733 (Neutral)
  (NULL, 7733, 0, 40, 50),
  -- Master Smith Burninate, Searing Gorge
-diff --git a/src/ChatHelper.cpp b/src/ChatHelper.cpp
+diff --git a/src/Bot/Cmd/ChatHelper.cpp b/src/Bot/Cmd/ChatHelper.cpp
 index 9ba3337f..83c23075 100644
---- a/src/ChatHelper.cpp
-+++ b/src/ChatHelper.cpp
+--- a/src/Bot/Cmd/ChatHelper.cpp
++++ b/src/Bot/Cmd/ChatHelper.cpp
 @@ -181,6 +181,8 @@ ChatHelper::ChatHelper(PlayerbotAI* botAI) : PlayerbotAIAware(botAI)
      races[RACE_UNDEAD_PLAYER] = "Undead";
      races[RACE_BLOODELF] = "Blood Elf";
@@ -704,10 +704,10 @@ index 9ba3337f..83c23075 100644
  }
  
  std::string const ChatHelper::formatMoney(uint32 copper)
-diff --git a/src/PlayerbotAI.cpp b/src/PlayerbotAI.cpp
+diff --git a/src/Bot/PlayerbotAI.cpp b/src/Bot/PlayerbotAI.cpp
 index 5dbe5cb9..0b512ea1 100644
---- a/src/PlayerbotAI.cpp
-+++ b/src/PlayerbotAI.cpp
+--- a/src/Bot/PlayerbotAI.cpp
++++ b/src/Bot/PlayerbotAI.cpp
 @@ -4119,7 +4119,7 @@ bool PlayerbotAI::canDispel(SpellInfo const* spellInfo, uint32 dispelType)
  bool IsAlliance(uint8 race)
  {
@@ -717,10 +717,10 @@ index 5dbe5cb9..0b512ea1 100644
  }
  
  bool PlayerbotAI::HasRealPlayerMaster()
-diff --git a/src/RandomPlayerbotFactory.cpp b/src/RandomPlayerbotFactory.cpp
+diff --git a/src/Bot/Factory/RandomPlayerbotFactory.cpp b/src/Bot/Factory/RandomPlayerbotFactory.cpp
 index 291d6825..d6443b51 100644
---- a/src/RandomPlayerbotFactory.cpp
-+++ b/src/RandomPlayerbotFactory.cpp
+--- a/src/Bot/Factory/RandomPlayerbotFactory.cpp
++++ b/src/Bot/Factory/RandomPlayerbotFactory.cpp
 @@ -43,6 +43,10 @@ constexpr RandomPlayerbotFactory::NameRaceAndGender RandomPlayerbotFactory::Comb
              return static_cast<NameRaceAndGender>(static_cast<uint8>(NameRaceAndGender::DraeneiMale) + gender);
          case RACE_BLOODELF:
@@ -807,10 +807,10 @@ index 291d6825..d6443b51 100644
      }
  }
  
-diff --git a/src/RandomPlayerbotMgr.cpp b/src/RandomPlayerbotMgr.cpp
+diff --git a/src/Bot/RandomPlayerbotMgr.cpp b/src/Bot/RandomPlayerbotMgr.cpp
 index 1b69d7f3..cc3b9a27 100644
---- a/src/RandomPlayerbotMgr.cpp
-+++ b/src/RandomPlayerbotMgr.cpp
+--- a/src/Bot/RandomPlayerbotMgr.cpp
++++ b/src/Bot/RandomPlayerbotMgr.cpp
 @@ -2099,7 +2099,7 @@ void RandomPlayerbotMgr::PrepareAddclassCache()
                      Field* fields = results->Fetch();
                      ObjectGuid guid = ObjectGuid(HighGuid::Player, fields[0].Get<uint32>());
@@ -820,10 +820,10 @@ index 1b69d7f3..cc3b9a27 100644
                      addclassCache[GetTeamClassIdx(isAlliance, claz)].insert(guid);
                      collected++;
                  } while (results->NextRow());
-diff --git a/src/TravelMgr.cpp b/src/TravelMgr.cpp
+diff --git a/src/Mgr/Travel/TravelMgr.cpp b/src/Mgr/Travel/TravelMgr.cpp
 index 69d510b9..15f2c9ae 100644
---- a/src/TravelMgr.cpp
-+++ b/src/TravelMgr.cpp
+--- a/src/Mgr/Travel/TravelMgr.cpp
++++ b/src/Mgr/Travel/TravelMgr.cpp
 @@ -2459,6 +2459,8 @@ void TravelMgr::LoadQuestTravelTable()
          startNames[RACE_TROLL] = "Orc and Troll";
          startNames[RACE_DRAENEI] = "Draenei";
@@ -833,10 +833,10 @@ index 69d510b9..15f2c9ae 100644
  
          for (uint32 i = 0; i < MAX_RACES; i++)
          {
-diff --git a/src/TravelNode.cpp b/src/TravelNode.cpp
+diff --git a/src/Mgr/Travel/TravelNode.cpp b/src/Mgr/Travel/TravelNode.cpp
 index 92f8d152..bfb96af8 100644
---- a/src/TravelNode.cpp
-+++ b/src/TravelNode.cpp
+--- a/src/Mgr/Travel/TravelNode.cpp
++++ b/src/Mgr/Travel/TravelNode.cpp
 @@ -1685,6 +1685,8 @@ void TravelNodeMap::generateStartNodes()
      startNames[RACE_TAUREN] = "Tauren";
      startNames[RACE_GNOME] = "Dwarf and Gnome";
@@ -846,10 +846,10 @@ index 92f8d152..bfb96af8 100644
  
      for (uint32 i = 0; i < MAX_RACES; i++)
      {
-diff --git a/src/factory/PlayerbotFactory.cpp b/src/factory/PlayerbotFactory.cpp
+diff --git a/src/Bot/Factory/PlayerbotFactory.cpp b/src/Bot/Factory/PlayerbotFactory.cpp
 index e239d449..3a7dee17 100644
---- a/src/factory/PlayerbotFactory.cpp
-+++ b/src/factory/PlayerbotFactory.cpp
+--- a/src/Bot/Factory/PlayerbotFactory.cpp
++++ b/src/Bot/Factory/PlayerbotFactory.cpp
 @@ -3088,6 +3088,14 @@ void PlayerbotFactory::InitMounts()
              slow = {33660, 35020, 35022, 35018};
              fast = {35025, 35025, 35027};
@@ -865,10 +865,10 @@ index e239d449..3a7dee17 100644
      }
  
      switch (bot->GetTeamId())
-diff --git a/src/strategy/actions/EmoteAction.cpp b/src/strategy/actions/EmoteAction.cpp
+diff --git a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteAction.cpp
 index ba44424b..93413e17 100644
---- a/src/strategy/actions/EmoteAction.cpp
-+++ b/src/strategy/actions/EmoteAction.cpp
+--- a/src/Ai/Base/Actions/EmoteAction.cpp
++++ b/src/Ai/Base/Actions/EmoteAction.cpp
 @@ -892,6 +892,8 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                  return 2;
              }
@@ -1082,10 +1082,10 @@ index ba44424b..93413e17 100644
              }
          }
      }
-diff --git a/src/strategy/actions/ReviveFromCorpseAction.cpp b/src/strategy/actions/ReviveFromCorpseAction.cpp
+diff --git a/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp b/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
 index 960f438f..ff647a0b 100644
---- a/src/strategy/actions/ReviveFromCorpseAction.cpp
-+++ b/src/strategy/actions/ReviveFromCorpseAction.cpp
+--- a/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
++++ b/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
 @@ -251,9 +251,9 @@ GraveyardStruct const* SpiritHealerAction::GetGrave(bool startZone)
      std::vector<uint32> races;
  
