@@ -1,7 +1,7 @@
-diff --git a/data/sql/world/world_playerbots_rpg_races.sql b/data/sql/world/world_playerbots_rpg_races.sql
+diff --git a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/playerbots_rpg_races.sql
 index 75e45dd5..d5d6ee96 100644
---- a/data/sql/world/world_playerbots_rpg_races.sql
-+++ b/data/sql/world/world_playerbots_rpg_races.sql
+--- a/data/sql/world/base/playerbots_rpg_races.sql
++++ b/data/sql/world/base/playerbots_rpg_races.sql
 @@ -39,17 +39,20 @@ INSERT INTO `playerbots_rpg_races` VALUES
  (NULL, 6734, 3, 10, 20),
  (NULL, 6734, 7, 10, 20),
