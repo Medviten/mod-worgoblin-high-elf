@@ -865,7 +865,7 @@ index dd6957cc..b3ddfe14 100644
 +            {
 +                if (Gender == GENDER_MALE)
 +                    return 10;
-+                
++
 +                return 10;
 +            }
          }
@@ -879,14 +879,14 @@ index dd6957cc..b3ddfe14 100644
 +            {
 +                if (Gender == GENDER_MALE)
 +                    return 10;
-+                
++
 +                return 9;
 +            }
 +            case RACE_GOBLIN:
 +            {
 +                if (Gender == GENDER_MALE)
 +                    return 10;
-+                
++
 +                return 10;
 +            }
          }
