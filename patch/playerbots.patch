@@ -703,14 +703,14 @@ index dd6957cc..b3ddfe14 100644
              }
 +            case RACE_WORGEN:
 +            {
-+                if (Gender == GENDER_MALE):
++                if (Gender == GENDER_MALE)
 +                    return 5;
 +
 +                return 4;
 +            }
 +            case RACE_GOBLIN:
 +            {
-+                if (Gender == GENDER_MALE):
++                if (Gender == GENDER_MALE)
 +                    return 5;
 +
 +                return 5;
