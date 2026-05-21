@@ -981,7 +981,7 @@ index 9d25d4ea..82f9aa6e 100644
 -    startNames[RACE_TROLL] = "Orc and Troll";
 +    startNames[RACE_TROLL] = "Orc, Troll and Goblin";
 +    startNames[RACE_WORGEN] = "Night Elf and Worgen";
-+    startNames[RACE_GOBLN] = "Orc, Troll and Goblin";
++    startNames[RACE_GOBLIN] = "Orc, Troll and Goblin";
  
      for (uint32 i = 0; i < sRaceMgr->GetMaxRaces(); i++)
      {
