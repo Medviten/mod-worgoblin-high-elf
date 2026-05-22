@@ -1,18 +1,18 @@
 /* Add NPC entries */
 DELETE FROM `creature_template` WHERE `entry` IN (62100, 62101, 62102, 62103, 62104, 62105);
-INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_flight`, `detection_range`, `scale`, `rank`, `dmgschool`, `DamageModifier`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `mechanic_immune_mask`, `spell_school_immune_mask`, `flags_extra`, `ScriptName`, `VerifiedBuild`) VALUES
+INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_flight`, `detection_range`, `rank`, `dmgschool`, `DamageModifier`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `CreatureImmunitiesId`, `flags_extra`, `ScriptName`, `VerifiedBuild`) VALUES
 /* Shadowglen Mage Trainer */
-(62100, 0, 0, 0, 0, 0, 'Thaddius Dalrymple', 'Mage Trainer', NULL, 62100, 10, 10, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 1.2, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0),
+(62100, 0, 0, 0, 0, 0, 'Thaddius Dalrymple',   'Mage Trainer',    NULL, 62100, 10, 10, 0, 79, 51, 1, 1.14286, 1, 1, 18, 0, 0, 1.2, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0),
 /* Dolanaar Mage Trainer */
-(62101, 0, 0, 0, 0, 0, 'Oswald Dunsmore', 'Mage Trainer', NULL, 62101, 20, 20, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 0.8, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0),
+(62101, 0, 0, 0, 0, 0, 'Oswald Dunsmore',      'Mage Trainer',    NULL, 62101, 20, 20, 0, 79, 51, 1, 1.14286, 1, 1, 18, 0, 0, 0.8, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0),
 /* Darnassus Mage Trainer */
-(62102, 0, 0, 0, 0, 0, 'Leah Ashcroft', 'Mage Trainer', NULL, 62102, 40, 40, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 1.1, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0),
+(62102, 0, 0, 0, 0, 0, 'Leah Ashcroft',        'Mage Trainer',    NULL, 62102, 40, 40, 0, 79, 51, 1, 1.14286, 1, 1, 18, 0, 0, 1.1, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0),
 /* Shadowglen Warlock Trainer */
-(62103, 0, 0, 0, 0, 0, 'Amelia Fearhart', 'Warlock Trainer', NULL, 62103, 10, 10, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 1.2, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0),
+(62103, 0, 0, 0, 0, 0, 'Amelia Fearhart',      'Warlock Trainer', NULL, 62103, 10, 10, 0, 79, 51, 1, 1.14286, 1, 1, 18, 0, 0, 1.2, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0),
 /* Dolanaar Warlock Trainer */
-(62104, 0, 0, 0, 0, 0, 'Lady Lovelace', 'Warlock Trainer', NULL, 62104, 20, 20, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 0.8, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0),
+(62104, 0, 0, 0, 0, 0, 'Lady Lovelace',        'Warlock Trainer', NULL, 62104, 20, 20, 0, 79, 51, 1, 1.14286, 1, 1, 18, 0, 0, 0.8, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0),
 /* Darnassus Warlock Trainer */
-(62105, 0, 0, 0, 0, 0, 'Lord Gideon Blackwood', 'Warlock Trainer', NULL, 62105, 40, 40, 0, 79, 51, 1, 1.14286, 1, 1, 18, 1, 0, 0, 1.1, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 2, '', 0);
+(62105, 0, 0, 0, 0, 0, 'Lord Gideon Blackwood', 'Warlock Trainer', NULL, 62105, 40, 40, 0, 79, 51, 1, 1.14286, 1, 1, 18, 0, 0, 1.1, 1500, 2000, 1, 1, 1, 768, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0);
 
 /* Add display IDs */
 DELETE FROM `creature_model_info` WHERE `DisplayID` IN (92600, 92601, 92602, 92603, 92604, 92605);
