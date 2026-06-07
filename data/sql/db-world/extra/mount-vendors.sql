@@ -1,3 +1,4 @@
+/*
 DELETE FROM `gossip_menu` WHERE `MenuID` IN (12439, 25000) AND `TextID` IN (17494, 17495, 100000, 100001);
 INSERT INTO gossip_menu (MenuID, TextID) VALUES
 (12439, 17494),
@@ -18,7 +19,7 @@ INSERT INTO `npc_text` (`ID`, `text0_0`, `text0_1`, `BroadcastTextID0`, `lang0`,
 (100000, 'I can teach you how to ride even the most troublesome trikes, assuming you\'ve got the coin to fund it!', 'I can teach you how to ride even the most troublesome trikes, assuming you\'ve got the coin to fund it!', 100000, 0, 1, 0, 1, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (100001, 'I can only teach the skill of riding trikes to goblins, $c.', 'I can only teach the skill of riding trikes to goblins, $c.', 100001, 0, 1, 0, 1, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
-/* FIXME: These are trainers and need to actually be updated elsewhere */
+-- FIXME: These are trainers and need to actually be updated elsewhere 
 DELETE FROM `creature_template` WHERE `entry` IN (48510, 48513);
 INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_flight`, `detection_range`, `rank`, `dmgschool`, `DamageModifier`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `CreatureImmunitiesId`, `flags_extra`, `ScriptName`, `VerifiedBuild`) VALUES
 (48510, 0, 0, 0, 0, 0, 'Kall Worthaton', 'Trike Dealer', NULL, 12439, 45, 45, 0, 29, 131, 1, 1.14286, 1, 1, 20, 1, 0, 1, 2000, 2000, 1, 1, 1, 512, 2048, 0, 0, 7, 134217728, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 2, '', 0),
@@ -47,3 +48,4 @@ DELETE FROM `gossip_menu_option` WHERE `MenuID` IN (12439, 25000);
 INSERT INTO gossip_menu_option (MenuID, OptionID, OptionIcon, OptionText, OptionBroadcastTextID, OptionType, OptionNpcFlag, ActionMenuID, ActionPoiID, BoxCoded, BoxMoney, BoxText, BoxBroadcastTextID, VerifiedBuild) VALUES
 (12439, 0, 1, 'I would like to buy from you.', 14967, 3, 128, 0, 0, 0, 0, NULL, 0, 0),
 (25000, 0, 3, 'I seek training to ride a trike.', 0, 5, 16, 0, 0, 0, 0, NULL, 0, 0);
+*/
