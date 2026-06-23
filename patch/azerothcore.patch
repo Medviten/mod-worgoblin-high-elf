@@ -14,6 +14,41 @@ index 8b6dacc8b..7db50268e 100644
 +    RACE_DRAENEI            = 11, // TITLE Draenei
 +    RACE_WORGEN             = 12, // TITLE Worgen
 -     //RACE_NAGA           = 13,
-+    RACE_HIGHELF             = 13, // TITLE High Elf
++    RACE_HIGHELF           = 13, // TITLE High Elf
      //RACE_BROKEN         = 14,
      //RACE_SKELETON       = 15,
+
+diff --git a/src/server/shared/enuminfo_SharedDefines.cpp b/src/server/shared/enuminfo_SharedDefines.cpp
+index db0951816..071840a0d 100644
+--- a/src/server/shared/enuminfo_SharedDefines.cpp
++++ b/src/server/shared/enuminfo_SharedDefines.cpp
+@@ -42,6 +42,9 @@ AC_API_EXPORT EnumText EnumUtils<Races>::ToString(Races value)
+         case RACE_TROLL: return { "RACE_TROLL", "Troll", "" };
+         case RACE_BLOODELF: return { "RACE_BLOODELF", "Blood Elf", "" };
+         case RACE_DRAENEI: return { "RACE_DRAENEI", "Draenei", "" };
++        case RACE_GOBLIN: return { "RACE_GOBLIN", "Goblin", "" };
++        case RACE_WORGEN: return { "RACE_WORGEN", "Worgen", "" };
++        case RACE_HIGHELF: return { "RACE_HIGHELF", "High Elf", "" };
+         default: throw std::out_of_range("value");
+     }
+ }
+@@ -64,6 +65,9 @@ AC_API_EXPORT Races EnumUtils<Races>::FromIndex(std::size_t index)
+         case 7: return RACE_TROLL;
+         case 8: return RACE_BLOODELF;
+         case 9: return RACE_DRAENEI;
++        case 10: return RACE_GOBLIN;
++        case 11: return RACE_WORGEN;
++        case 12: return RACE_HIGHELF;
+         default: throw std::out_of_range("index");
+     }
+ }
+@@ -83,6 +85,9 @@ AC_API_EXPORT std::size_t EnumUtils<Races>::ToIndex(Races value)
+         case RACE_TROLL: return 7;
+         case RACE_BLOODELF: return 8;
+         case RACE_DRAENEI: return 9;
++        case RACE_GOBLIN: return 10;
++        case RACE_WORGEN: return 11;
++        case RACE_HIGHELF: return 12;
+         default: throw std::out_of_range("value");
+     }
+ }
