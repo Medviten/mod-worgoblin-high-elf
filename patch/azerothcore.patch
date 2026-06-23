@@ -13,6 +13,7 @@ index 8b6dacc8b..7db50268e 100644
 -    //RACE_FEL_ORC        = 12,
 +    RACE_DRAENEI            = 11, // TITLE Draenei
 +    RACE_WORGEN             = 12, // TITLE Worgen
-     //RACE_NAGA           = 13,
+-     //RACE_NAGA           = 13,
++    RACE_HIGHELF             = 13, // TITLE High Elf
      //RACE_BROKEN         = 14,
      //RACE_SKELETON       = 15,
