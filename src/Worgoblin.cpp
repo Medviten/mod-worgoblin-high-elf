@@ -18,7 +18,7 @@ public:
     void OnPlayerLogin(Player* player) override
     {
         if (sConfigMgr->GetOption<bool>("Announce.enable", true))
-            ChatHandler(player->GetSession()).SendSysMessage("This server is running the Worgoblin module.");
+            ChatHandler(player->GetSession()).SendSysMessage("This server is running the Worgoblin and High Elf modules.");
     }
 
     void OnPlayerGetReputationPriceDiscount(Player const* player, FactionTemplateEntry const* factionTemplate, float& discount) override
