@@ -1,7 +1,7 @@
 -- AUTOMATICALLY GENERATED -- DO NOT EDIT!
 
 ABILITY_INFO_HIGHELF1 = "- Enchanting skill increased.";
-ABILITY_INFO_HIGHELF2 = "- May restore mana, energy, or runic power.";
+ABILITY_INFO_HIGHELF2 = "- May restore mana, energy, runic power, or rage.";
 ABILITY_INFO_HIGHELF3 = "- May silence nearby opponents.";
 ABILITY_INFO_HIGHELF4 = "- Resistant to magical damage.";
 ABILITY_INFO_GOBLIN1 = "- Always receive the best possible gold discount, regardless of faction.";
@@ -18,7 +18,7 @@ ABILITY_INFO_WORGEN5 = "- Drop to all fours to run as fast as a wild animal.";
 ABILITY_INFO_WORGEN6 = "- Turn into your currently inactive form.";
 ABILITY_INFO_WORGEN7 = "- Increases critical strike chance by 1%.";
 ABILITY_INFO_BLOODELF1 = "- Enchanting skill increased.";
-ABILITY_INFO_BLOODELF2 = "- May restore mana, energy, or runic power.";
+ABILITY_INFO_BLOODELF2 = "- May restore mana, energy, runic power, or rage.";
 ABILITY_INFO_BLOODELF3 = "- May silence nearby opponents.";
 ABILITY_INFO_BLOODELF4 = "- Resistant to magical damage.";
 ABILITY_INFO_DRAENEI1 = "- Jewelcrafting skill increased.";

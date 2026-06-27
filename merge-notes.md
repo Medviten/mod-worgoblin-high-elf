@@ -1,6 +1,15 @@
 # Notes: Merging Worgoblin and AzerothCore High Elf
 
 ## azerothcore-highelf [repo](https://github.com/abracadaniel22/azerothcore-highelf)
+### files in mod directory
+
+### base mod
+#### playerbots.patch
+This one seems to be very outdated, so I mostly used it as a checklist and just added High Elf entries along the Worgoblin ones instead.
+
+#### highelf.patch
+This one is also outdated, so I mostly used it as a checklist and added High Elf entries to the Worgoblin ones.
+
 ### base mod/client/Data
 I will adopt the Worgoblin practice of using a folder named patch-A.MPQ instead of actual MPQ files. This makes DBCs much easier to work with.
 
@@ -23,7 +32,7 @@ There seem to be three differences:
 2. The patch-t.mpq version contains mappings for Goblins.
 3. The patch-t.mpq version has higher IDs for High Elf mappings.
 
-Since I am merging High Elves into an already working Worgoblin setup, the two first differences are of no consequence for me, but the third might be. The high IDs are [Blood Elf equivalent]+22000, as stated in the sql files. Might be important to know. Also: no overlap with any Worgoblin ID, which is good.
+Since I am merging High Elves into an already working Worgoblin setup, the two first differences are of no consequence for me, but the third might be. The high IDs are [Blood Elf equivalent]+22000, as stated in the patch file. Might be important to know. Also: no overlap with any Worgoblin ID, which is good.
 
 I will take the patch-t.mpq version, extract the mappings for race 12 (High Elf here, Worgen in Worgoblin) and change them to 13 (High Elf in my merger), then merely append them to my working DBC.
 
@@ -33,6 +42,8 @@ Once this is done, I don't need to think about patch-t.mpq and can concentrate o
 
 #### server
 These DBCs are the same as the ones in patch-a.mpq, probably separated for user convenience. I don't need to include them.
+
+---
 
 #### Merging DBCs with Worgoblin ones
 
@@ -136,9 +147,13 @@ These DBCs are the same as the ones in patch-a.mpq, probably separated for user 
 - Increment from 2300
 - 54 High Elf entries
 
+---
+
 ## mod-worgoblin [repo](https://github.com/idempotentiation/mod-worgoblin)
 ### base mod/data/patch-A.MPQ/DBFilesClient
 All AzerothCore High Elf DBCs are also in Worgoblin, but below are the ones that are only in Worgoblin. They should probably have been in AzerothCore High Elf too, but weren't. I will try to include High Elves here as much as possible.
+
+---
 
 #### Adding High Elves to DBCs
 
@@ -177,3 +192,6 @@ All AzerothCore High Elf DBCs are also in Worgoblin, but below are the ones that
 
 ##### SummonProperties.dbc
 - Probably irrelevant for High Elves.
+
+---
+
