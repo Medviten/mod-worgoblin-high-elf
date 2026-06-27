@@ -117,7 +117,8 @@ These DBCs are the same as the ones in patch-a.mpq, probably separated for user 
 - 1 High Elf entry
 
 ##### HelmetGeosetVisData.dbc
-- I don't understand what's going on here, so I won't touch it yet.
+- In this file, racemasks don't work like normal (1 = Human, 2 = Orc, etc.). Instead, Human is 2, Orc is 4, etc., so they're all moved one to the right. That means that whenever the AHE mod adds 4096 to an entry, I need to take the Worgoblin DBC's entry and add 8192 to it.
+- Similarly, where AHE removes 4096 from a negative number, I have to remove 8192 from that number in the Worgoblin DBC.
 
 ##### NameGen.dbc
 - ID conflicts, but ID probably doesn't matter.
