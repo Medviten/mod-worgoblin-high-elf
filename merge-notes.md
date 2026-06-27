@@ -150,8 +150,13 @@ These DBCs are the same as the ones in patch-a.mpq, probably separated for user 
 
 ---
 
+### extras
+With the exception of adding Arcane Torrent to High Elf Warriors, this seems to be all Individual Progression stuff. I don't use that mod myself, and Arcane Torrent is added to Blood Elf Warriors in the updated ARAC I'm merging into this anyway (tested and it works), so I'm skipping this folder for now.
+
+---
+
 ## mod-worgoblin [repo](https://github.com/idempotentiation/mod-worgoblin)
-### base mod/data/patch-A.MPQ/DBFilesClient
+### data/patch-A.MPQ/DBFilesClient
 All AzerothCore High Elf DBCs are also in Worgoblin, but below are the ones that are only in Worgoblin. They should probably have been in AzerothCore High Elf too, but weren't. I will try to include High Elves here as much as possible.
 
 ---
@@ -163,6 +168,7 @@ All AzerothCore High Elf DBCs are also in Worgoblin, but below are the ones that
 
 ##### Achievement_Criteria.dbc
 - Added four lines. More may be needed, but I'm not sure.
+- It looks like 13471 and 13472 have the opposite achievement IDs, so I changed them around.
 
 ##### AnimationData.dbc
 - Probably irrelevant because High Elves are based on Blood Elves.
@@ -196,3 +202,45 @@ All AzerothCore High Elf DBCs are also in Worgoblin, but below are the ones that
 
 ---
 
+### data/sql
+
+#### db-world
+
+#### dbc
+It is tempting to just export the entire DBC and import it into the DB that way, since I just edited them, but I'll try the Worgoblin way first.
+
+##### achievement_criteria_dbc.sql
+- Add new entries from the DBC.
+
+##### chrraces_dbc.sql
+- Add new entries from the DBC.
+
+##### creaturedisplayinfo_dbc.sql
+- Add new entries from the DBC.
+
+##### creaturedisplayinfoextra_dbc.sql
+- Add new entries from the DBC.
+
+##### creaturemodeldata_dbc.sql
+- Irrelevant to AHE.
+
+##### itemdisplayinfo_dbc.sql
+- Irrelevant to AHE.
+
+##### skillline_dbc.sql
+- Irrelevant to AHE.
+
+##### skilllineability_dbc.sql
+- Edit race masks from the DBC.
+
+##### skillraceclassinfo_dbc.sql
+- Edit race masks from the DBC.
+
+##### soundentries_dbc.sql
+- Irrelevant to AHE.
+
+##### spell_dbc.sql
+- Irrelevant to AHE.
+
+##### summonproperties_dbc.sql
+- Irrelevant to AHE.
