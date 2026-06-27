@@ -48,6 +48,8 @@ GlueAmbienceTracks["DEATHKNIGHT"] = "GlueScreenIntro";
 GlueAmbienceTracks["CHARACTERSELECT"] = "GlueScreenIntro";
 GlueAmbienceTracks["GOBLIN"] = "GlueScreenOrcTroll";
 GlueAmbienceTracks["WORGEN"] = "GlueScreenHuman";
+GlueAmbienceTracks["HIGHELF"] = "GlueScreenHuman";
+
 
 -- RaceLights[] duplicates the 3.2.2 color values in the models. Henceforth, the models no longer contain directional lights
 RaceLights = {
@@ -97,6 +99,11 @@ RaceLights = {
         {1,     0,  0.00000,        0.00000,        -1.00000,   1.0,    0.15000,    0.15000,    0.15000,    1.0,    0.00000,    0.00000,    0.00000},
         {1,     0,  -0.74919,       0.35208,        -0.56103,   1.0,    0.00000,    0.00000,    0.00000,    1.0,    0.44706,    0.54510,    0.73725},
         {1,     0,  0.53162,        -0.84340,       0.07780,    1.0,    0.00000,    0.00000,    0.00000,    2.0,    0.55,       0.338625,   0.148825},
+    },
+    HIGHELF = {
+        {1,     0,  -0.82249,       -0.54912,       -0.14822,   1.0,    0.00000,    0.00000,    0.00000,    2.0,    0.581175,   0.50588,    0.42588},
+        {1,     0,  0.00000,        -0.00000,       -1.00000,   1.0,    0.60392,    0.61490,    0.70000,    1.0,    0.00000,    0.00000,    0.00000},
+        {1,     0,  0.02575,        0.86518,        -0.50081,   1.0,    0.00000,    0.00000,    0.00000,    1.0,    0.59137,    0.51745,    0.63471},
     },
 }
 
@@ -382,6 +389,11 @@ end
 -- Function to set the background model for character select and create screens
 function SetBackgroundModel(model, name)
     local nameupper = strupper(name);
+    
+	if (name == "HighElf" or name == "HIGHELF" or name == "High Elf" or name == "HIGH ELF" or name == "HIGH_ELF") then
+		name = "Human";
+	end
+    
     local path = "Interface\\Glues\\Models\\UI_"..name.."\\UI_"..name..".m2";
 	if ( model == CharacterCreate ) then
 		SetCharCustomizeBackground(path);

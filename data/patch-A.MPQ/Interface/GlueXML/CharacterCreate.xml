@@ -414,12 +414,12 @@
 							<Layer level="OVERLAY">
 								<FontString name="CharacterCreateAllianceLabel" inherits="FactionName_Shadow_Huge" text="ALLIANCE">
 									<Anchors>
-										<Anchor point="TOP" relativePoint="TOP" x="-50" y="-20"/>
+										<Anchor point="TOP" relativePoint="TOP" x="-50" y="-10"/>
 									</Anchors>
 								</FontString>
 								<FontString name="CharacterCreateHordeLabel" inherits="FactionName_Shadow_Huge" text="HORDE">
 									<Anchors>
-										<Anchor point="TOP" relativePoint="TOP" x="50" y="-20"/>
+										<Anchor point="TOP" relativePoint="TOP" x="50" y="-10"/>
 									</Anchors>
 								</FontString>
 <!--
@@ -444,7 +444,7 @@
 						<Frames>
                             <CheckButton name="CharacterCreateRaceButton1" inherits="CharacterCreateRaceButtonTemplate" id="1">
 								<Anchors>
-									<Anchor point="TOP" relativePoint="TOP" x="-50" y="-50"/>
+									<Anchor point="TOP" relativePoint="TOP" x="-50" y="-40"/>
 								</Anchors>
 							</CheckButton>
 							<CheckButton name="CharacterCreateRaceButton2" inherits="CharacterCreateRaceButtonTemplate" id="2">
@@ -467,14 +467,19 @@
 									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton4" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
 								</Anchors>
 							</CheckButton>
+							<CheckButton name="CharacterCreateRaceButton6" inherits="CharacterCreateRaceButtonTemplate" id="6">
+								<Anchors>
+									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton5" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
+								</Anchors>
+							</CheckButton>
 							<CheckButton name="CharacterCreateRaceButton7" inherits="CharacterCreateRaceButtonTemplate" id="7">
 								<Anchors>
-									<Anchor point="TOP" relativePoint="TOP" x="50" y="-50"/>
+									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton6" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
 								</Anchors>
 							</CheckButton>
 							<CheckButton name="CharacterCreateRaceButton8" inherits="CharacterCreateRaceButtonTemplate" id="8">
 								<Anchors>
-									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton7" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
+									<Anchor point="TOP" relativePoint="TOP" x="50" y="-40"/>
 								</Anchors>
 							</CheckButton>
 							<CheckButton name="CharacterCreateRaceButton9" inherits="CharacterCreateRaceButtonTemplate" id="9">
@@ -487,19 +492,19 @@
 									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton9" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
 								</Anchors>
 							</CheckButton>
-							<CheckButton name="CharacterCreateRaceButton12" inherits="CharacterCreateRaceButtonTemplate" id="12">
+							<CheckButton name="CharacterCreateRaceButton11" inherits="CharacterCreateRaceButtonTemplate" id="11">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton10" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
 								</Anchors>
 							</CheckButton>
-							<CheckButton name="CharacterCreateRaceButton11" inherits="CharacterCreateRaceButtonTemplate" id="11">
+							<CheckButton name="CharacterCreateRaceButton13" inherits="CharacterCreateRaceButtonTemplate" id="13">
 								<Anchors>
-									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton12" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
+									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton11" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
 								</Anchors>
 							</CheckButton>
-							<CheckButton name="CharacterCreateRaceButton6" inherits="CharacterCreateRaceButtonTemplate" id="6">
+							<CheckButton name="CharacterCreateRaceButton12" inherits="CharacterCreateRaceButtonTemplate" id="12">
 								<Anchors>
-									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton5" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
+									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton13" relativePoint="BOTTOMLEFT" x="0" y="-10"/>
 								</Anchors>
 							</CheckButton>
 							<CheckButton name="CharacterCreateGenderButtonMale" inherits="CharacterCreateGenderButtonTemplate">

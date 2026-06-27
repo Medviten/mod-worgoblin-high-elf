@@ -1,6 +1,0 @@
-[worldserver]
-
-# Enable the module announcing its presence.
-# Default: true
-
-Announce.enable=true

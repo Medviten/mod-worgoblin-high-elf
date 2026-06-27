@@ -1,5 +1,9 @@
 -- AUTOMATICALLY GENERATED -- DO NOT EDIT!
 
+ABILITY_INFO_HIGHELF1 = "- Enchanting skill increased.";
+ABILITY_INFO_HIGHELF2 = "- May restore mana, energy, or runic power.";
+ABILITY_INFO_HIGHELF3 = "- May silence nearby opponents.";
+ABILITY_INFO_HIGHELF4 = "- Resistant to magical damage.";
 ABILITY_INFO_GOBLIN1 = "- Always receive the best possible gold discount, regardless of faction.";
 ABILITY_INFO_GOBLIN2 = "- Alchemy skill increased by 15.";
 ABILITY_INFO_GOBLIN3 = "- Calls in your friend, Gobber, allowing you bank access for 1 min.";
@@ -66,7 +70,7 @@ ACCOUNT_MESSAGE_BODY_URL = "http://support.worldofwarcraft.com/accountmessaging/
 ACCOUNT_MESSAGE_BUTTON_READ = "Mark as read";
 ACCOUNT_MESSAGE_HEADERS_URL = "http://support.worldofwarcraft.com/accountmessaging/getMessageHeaders.xml";
 ACCOUNT_MESSAGE_READ_URL = "http://support.worldofwarcraft.com/accountmessaging/markMessageAsRead.xml";
-ACCOUNT_NAME = "Battle.net Account Name";
+ACCOUNT_NAME = "Account Name";
 ACCOUNT_OPTIONS = "Account Options";
 ADDONS = "AddOns";
 ADDONS_OUT_OF_DATE = "You are running a new version of the game and have interface modifications which are out of date.  Disabling them is recommended.";
@@ -681,6 +685,8 @@ QUEUE_TIME_LEFT_UNKNOWN = "Realm is Full\nPosition in queue: %d\nEstimated time:
 QUIT = "Quit";
 RACE = "Race";
 RACE_CHANGE_IN_PROGRESS = "Updating Race...";
+RACE_INFO_HIGHELF = "Once the proud rulers of Quel'Thalas, the high elves drew strength from the Sunwell's potent magic. Its destruction by the Scourge killed many and led most survivors to become blood elves, consumed by arcane addiction.|n|nYet some rejected this path, scattering across Azeroth to preserve their ancient traditions. They wield magic cautiously, seeking balance and harmony without the Sunwell’s corrupting influence. Scattered and few in number, the high elves strive to preserve their legacy in a world that has largely forgotten them.";
+RACE_INFO_HIGHELF_FEMALE = "Once the proud rulers of Quel'Thalas, the high elves drew strength from the Sunwell's potent magic. Its destruction by the Scourge killed many and led most survivors to become blood elves, consumed by arcane addiction.|n|nYet some rejected this path, scattering across Azeroth to preserve their ancient traditions. They wield magic cautiously, seeking balance and harmony without the Sunwell’s corrupting influence. Scattered and few in number, the high elves strive to preserve their legacy in a world that has largely forgotten them.";
 RACE_INFO_GOBLIN = "Originally the slaves of jungle trolls on the Isle of Kezan, goblins were forced to mine kaja’mite ore out of the volcanic bowels of Mount Kajaro. The trolls used this potent mineral for their voodoo rituals, but it had an unexpected effect on the slaves who were in constant contact with it: kaja’mite generated a startling new cunning and intelligence in the goblin race.";
 RACE_INFO_GOBLIN_FEMALE = "Originally the slaves of jungle trolls on the Isle of Kezan, goblins were forced to mine kaja’mite ore out of the volcanic bowels of Mount Kajaro. The trolls used this potent mineral for their voodoo rituals, but it had an unexpected effect on the slaves who were in constant contact with it: kaja’mite generated a startling new cunning and intelligence in the goblin race.";
 RACE_INFO_WORGEN = "Behind the formidable Greymane Wall, a terrible curse has spread throughout the isolated human nation of Gilneas, transforming many of its stalwart citizens into nightmarish beasts known as worgen. The origins of this curse have been fiercely debated, but only recently has the startling truth come to light.";
