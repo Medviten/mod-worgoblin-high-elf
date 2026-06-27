@@ -95,3 +95,12 @@ INSERT INTO `playercreateinfo_action` (`race`, `class`, `button`, `action`) VALU
 -- (12, 11, 120, 68992), Darkflight Druid
 -- (12, 11, 120, 68996), Two Forms Druid
 -- (12, 11, 120, 87840) Running Wild Druid
+
+--- High Elves copy Blood Elves
+INSERT INTO `playercreateinfo_action`  (`race`, `class`, `button`, `action`, `type`)
+SELECT 13, `class`, `button`, `action`, `type`
+FROM `playercreateinfo_action`
+WHERE race = 10
+  AND NOT EXISTS (
+    SELECT 1 FROM `playercreateinfo_action` WHERE Race = 13
+  );

@@ -1,7 +1,7 @@
-/* Ensures that faction-restricted quests include worgen and goblins */
+/* Ensures that faction-restricted quests include Worgen, Goblins, and High Elves */
 UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE AllowableRaces & 2 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
-UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE AllowableRaces & 1 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
-UPDATE quest_template SET AllowableRaces = 1 WHERE ID = 12742;
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048|4096 WHERE AllowableRaces & 1 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
+UPDATE quest_template SET AllowableRaces = 4097 WHERE ID = 12742;
 UPDATE quest_template SET AllowableRaces = 2 WHERE ID = 12748;
 
 /* Allows worgen and goblin to complete race-restricted class quests */

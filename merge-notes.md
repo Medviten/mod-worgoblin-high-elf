@@ -203,8 +203,59 @@ All AzerothCore High Elf DBCs are also in Worgoblin, but below are the ones that
 ---
 
 ### data/sql
+The biggest difference between Worgoblin and AHE here is that the former uses one SQL file for each table, while the latter uses one big SQL file for the entire database. Also, AHE specifies acore_world, which means it probably won't work if you don't use the default name, so I've adapted it to Worgoblin's style. Might add a single merged SQL when I'm done.
 
 #### db-world
+
+##### achievement_criteria_data.sql
+- Added five lines for High Elves.
+
+##### creature_model_info.sql
+- Irrelevant for AHE.
+
+##### creature_template_models.sql
+- Irrelevant for AHE.
+
+##### creature_template.sql
+- Irrelevant for AHE.
+
+##### item_template.sql
+- Lazily adjusted the values in highelf_post_install_world.sql to include High Elves.
+- Made some weird values include more races. (See original values on the right.)
+
+##### player_race_stats.sql
+- Added "copy Blood Elf values" from highelf_post_install_world.sql.
+
+##### player_totem_model.sql
+- Irrelevant for AHE until I merge ARAC properly.
+
+##### playercreateinfo_action.sql
+- Race 12 -> 13
+- Added "HE copy BE" SQL to the Worgoblin one.
+
+##### playercreateinfo_skills.sql
+- Adjusted racemasks.
+- Weaved remaining High Elf skills into the Worgoblin SQL and adjusted them to that style.
+- Also commented out Guns for High Elves and Bows for Worgen and Goblins because other Hunters in WotLK only start with one ranged weapon skill.
+
+##### playercreateinfo.sql
+- Copied the Worgoblin template for High Elves, but adjusted values to match Humans.
+
+##### quest_template.sql
+- Lazily added High Elf to Human quests alongside Worgen.
+- Adjusted the one exception to also include High Elves.
+
+##### spell_script_names.sql
+- Irrelevant for AHE.
+
+---
+
+#### SQL files not present in Worgoblin
+
+##### conditions.sql
+- Adjusted the racemasks so High Elves can get Human-specific gossip menus.
+
+---
 
 #### dbc
 It is tempting to just export the entire DBC and import it into the DB that way, since I just edited them, but I'll try the Worgoblin way first.
@@ -244,3 +295,8 @@ It is tempting to just export the entire DBC and import it into the DB that way,
 
 ##### summonproperties_dbc.sql
 - Irrelevant to AHE.
+
+---
+
+#### extra
+These don't seem relevant to AHE, possibly except for DK quests, but I'll look into that later.
