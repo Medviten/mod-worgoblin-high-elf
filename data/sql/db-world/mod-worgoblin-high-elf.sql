@@ -1,3 +1,1039 @@
+/* This is just all the base SQL files in one long file for convenience. They are included in (roughly) alphabetical order except for the first (for convenience) and last (because it's so long). */
+
+/* cash-for-trash-fix.sql */
+/* These gray items should be white instead, so the mod-junk-to-gold module doesn't automatically sell them. */
+UPDATE item_template SET Quality = 1 WHERE entry = 6196; --- Noboru's Cudgel (quest item)
+
+
+/* achievement_criteria_data.sql */
+/* Update achievement criteria involving interactions with all races to include Worgen, Goblins, and High Elves */
+DELETE FROM `achievement_criteria_data` WHERE `criteria_id` IN (13473, 13474, 13475, 13476, 13477, 13478);
+INSERT INTO `achievement_criteria_data` (`criteria_id`, `type`, `value1`, `value2`, `ScriptName`) VALUES
+(13473, 2, 0, 9, ''), -- Achievement 2422 (Shake Your Bunny-Maker)
+(13473, 9, 18, 0, ''),
+(13473, 10, 1, 0, ''),
+(13474, 2, 0, 12, ''),
+(13474, 9, 18, 0, ''),
+(13474, 10, 1, 0, ''),
+(13475, 2, 0, 9, ''), -- Achievement 291 (Check Your Head)
+(13476, 2, 0, 12, ''),
+(13477, 21, 0, 9, ''), -- Achievement 1429 (Realm First! Level 80 Goblin)
+(13478, 21, 0, 12, ''), -- Achievement 1430 (Realm First! Level 80 Worgen)
+(13484, 2, 0, 13, ''), -- Achievement 2422 (Shake Your Bunny-Maker)
+(13484, 9, 18, 0, ''),
+(13484, 10, 1, 0, ''),
+(13485, 2, 0, 13, ''), -- Achievement 291 (Check Your Head)
+(13478, 21, 0, 13, ''); -- Achievement 1431 (Realm First! Level 80 High Elf)
+
+
+/* conditions.sql */
+/* Allow Human-exclusive NPC gossip windows to appear for High Elf (contribution by Dasbadman) */
+/* Among other things, this allows High Elves to buy mounts in Elwynn */
+DELETE FROM `conditions` WHERE SourceGroup IN (4004, 4018) AND ConditionTypeOrReference = 16;
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
+(14, 4004, 4859, 0, 0, 16, 0, 4097, 0, 0, 0, 0, 0, '', 'NPC Text - Show text if Player is Human or High Elf'),
+(14, 4004, 5855, 0, 0, 16, 0, 4097, 0, 0, 1, 0, 0, '', 'NPC Text - Show text if Player is Human or High Elf'),
+(14, 4018, 4876, 0, 0, 16, 0, 4097, 0, 0, 0, 0, 0, '', 'Show gossip text if player is a Human or High Elf'),
+(14, 4018, 5861, 0, 0, 16, 0, 4094, 0, 0, 0, 0, 0, '', 'Show gossip text if player is not a Human or High Elf'),
+(15, 4004, 0, 0, 0, 16, 0, 4097, 0, 0, 0, 0, 0, '', 'Gossip Option - Show Option if Player is Human or High Elf'),
+(15, 4018, 0, 0, 0, 16, 0, 4097, 0, 0, 0, 0, 0, '', 'Show gossip option if player is a Human or High Elf');
+
+
+
+/* creature_model_info.sql */
+/* Add model info for mounts and other NPCs */
+DELETE FROM `creature_model_info` WHERE `DisplayID` IN (29422, 29423, 33000, 33001, 32385, 35249, 35250, 36445, 36446, 39095, 39096);
+INSERT INTO `creature_model_info` (`DisplayID`, `BoundingRadius`, `CombatReach`, `Gender`, `DisplayID_Other_Gender`) VALUES
+(29422, 0.406, 1.5, 0, 0), -- Worgen
+(29423, 0.406, 1.5, 1, 0), -- Worgenette
+(32385, 0.2325, 1.5, 0, 0), -- Gobber
+(35249, 0.35, 1.5, 2, 0), -- Trike
+(35250, 0.35, 1.5, 2, 0), -- Quik-trike
+(36445, 0.406, 1.5, 0, 0), -- Lord Harford
+(36446, 0.306, 1.5, 0, 0), -- Gally Lumpstain
+(39095, 1, 1.5, 2, 0), -- Horse
+(39096, 1, 1.5, 2, 0); -- Quik-horse
+
+
+
+/* creature_template_models.sql */
+/* Add models for racial mounts and goblin racial bank NPC */
+DELETE FROM `creature_template_model` WHERE `CreatureID` IN (36613, 46754, 46755, 55272, 55273);
+INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`, `VerifiedBuild`) VALUES
+	(36613, 0, 32385, 1, 1, 12340), -- Gobber
+	(46754, 0, 35249, 1, 1, 12340), -- Goblin Trike
+	(46755, 0, 35250, 1, 1, 12340), -- Goblin Turbo-Trike
+    (55272, 0, 39096, 1, 1, 12340), -- Mountain Horse
+	(55273, 0, 39095, 1, 1, 12340); -- Swift Mountain Horse
+
+
+
+/* creature_template.sql */
+/* Add racial mount NPCs and goblin racial bank NPC */
+DELETE FROM `creature_template` WHERE `entry` IN (36613, 46754, 46755, 55272, 55273);
+INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_flight`, `detection_range`, `rank`, `dmgschool`, `DamageModifier`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `CreatureImmunitiesId`, `flags_extra`, `ScriptName`, `VerifiedBuild`) VALUES
+(36613, 0, 0, 0, 0, 0, 'Gobber',               '',   NULL, 0, 55, 55, 0, 120, 131072, 1, 1.14286, 1, 1, 18, 0, 0, 1, 2000, 2000, 1, 1, 1, 512,      2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 3, 1, 1, 1, 0, 0,   1, 0, 2, '', 0),
+(46754, 0, 0, 0, 0, 0, 'Goblin Trike',         NULL, NULL, 0, 20, 20, 0, 35,  0,      1, 1.38571, 1, 1, 20, 0, 0, 1, 2000, 2000, 1, 1, 1, 33554432, 2048, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 140, 1, 0, 0, '', 0),
+(46755, 0, 0, 0, 0, 0, 'Goblin Turbo-Trike',   NULL, NULL, 0, 40, 40, 0, 35,  0,      1, 1.38571, 1, 1, 20, 0, 0, 1, 2000, 2000, 1, 1, 1, 33554432, 2048, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 140, 1, 0, 0, '', 0),
+(55272, 0, 0, 0, 0, 0, 'Mountain Horse',       NULL, NULL, 0, 20, 20, 0, 35,  0,      1, 1.38571, 1, 1, 20, 0, 0, 1, 2000, 2000, 1, 1, 1, 0,        2048, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 140, 1, 0, 0, '', 0),
+(55273, 0, 0, 0, 0, 0, 'Swift Mountain Horse', NULL, NULL, 0, 40, 40, 0, 35,  0,      1, 1.38571, 1, 1, 20, 0, 0, 1, 2000, 2000, 1, 1, 1, 0,        2048, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 140, 1, 0, 0, '', 0);
+
+
+
+/* player_race_stats.sql */
+/* Set starting stats for Worgen and Goblins */
+DELETE FROM `player_race_stats` WHERE `Race` IN(9, 12, 13);
+INSERT INTO `player_race_stats` (`Race`, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`) VALUES
+(9, -3, 2, 0, 3, -2), -- goblin
+(12, 3, 2, 0, -4, -1); -- worgen
+
+/* High Elves copy Blood Elves */
+INSERT INTO `player_race_stats` (`Race`, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`)
+SELECT
+  13, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`
+FROM player_race_stats AS src
+WHERE src.Race = 10
+  AND NOT EXISTS (
+    SELECT 1 FROM player_race_stats WHERE Race = 13
+  ); -- -3,2,0,3,-2 as of 2026
+
+
+/* playercreateinfo.sql */
+INSERT IGNORE INTO `playercreateinfo` VALUES
+(1, 1, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(1, 2, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(1, 3, 0, 0, -8949.95, -132.493, 83.5312, 0), --- ARAC Human Hunter
+(1, 4, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(1, 5, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(1, 6, 609, 4298, 2355.84, -5664.77, 426.028, 3.65997),
+(1, 7, 0, 12, -8949.95, -132.493, 83.5312, 0), --- ARAC Human Shaman
+(1, 8, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(1, 9, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(1, 11, 0, 12, -8949.95, -132.493, 83.5312, 0), --- ARAC Human Druid
+(2, 1, 1, 14, -618.518, -4251.67, 38.718, 0),
+(2, 2, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Orc Paladin
+(2, 3, 1, 14, -618.518, -4251.67, 38.718, 0),
+(2, 4, 1, 14, -618.518, -4251.67, 38.718, 0),
+(2, 5, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Orc Priest
+(2, 6, 609, 4298, 2358.44, -5666.9, 426.023, 3.65997),
+(2, 7, 1, 14, -618.518, -4251.67, 38.718, 0),
+(2, 8, 1, 14, -618.518, -4215.67, 38.718, 0), --- ARAC Orc Mage
+(2, 9, 1, 14, -618.518, -4251.67, 38.718, 0),
+(2, 11, 1, 14, -618.518, -4215.67, 38.718, 0), --- ARAC Orc Druid
+(3, 1, 0, 1, -6240.32, 331.033, 382.758, 6.17716),
+(3, 2, 0, 1, -6240.32, 331.033, 382.758, 6.17716),
+(3, 3, 0, 1, -6240.32, 331.033, 382.758, 6.17716),
+(3, 4, 0, 1, -6240.32, 331.033, 382.758, 6.17716),
+(3, 5, 0, 1, -6240.32, 331.033, 382.758, 6.17716),
+(3, 6, 609, 4298, 2358.44, -5666.9, 426.023, 3.65997),
+(3, 7, 0, 1, -6240.32, 331.033, 382.758, 6.17716), --- ARAC Dwarf Shaman
+(3, 8, 0, 1, -6240.32, 331.033, 382.758, 6.17716), --- ARAC Dwarf Mage
+(3, 9, 0, 1, -6240.32, 331.033, 382.758, 6.17716), --- ARAC Dwarf Warlock
+(3, 11, 0, 1, -6240.32, 331.033, 382.758, 6.17716), --- ARAC Dwarf Druid
+(4, 1, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(4, 2, 1, 141, 10311.3, 832.463, 1326.41, 5.69632), --- ARAC Night Elf Paladin
+(4, 3, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(4, 4, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(4, 5, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(4, 6, 609, 4298, 2356.21, -5662.21, 426.026, 3.65997),
+(4, 7, 1, 141, 10311.3, 832.463, 1326.41, 5.69632), --- ARAC Night Elf Shaman
+(4, 8, 1, 141, 10311.3, 832.463, 1326.41, 5.69632), --- ARAC Night Elf Mage
+(4, 9, 1, 141, 10311.3, 832.463, 1326.41, 5.69632), --- ARAC Night Elf Warlock
+(4, 11, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(5, 1, 0, 85, 1676.71, 1678.31, 121.67, 2.70526),
+(5, 2, 0, 85, 1676.71, 1678.31, 121.67, 2.70526), --- ARAC Undead Paladin
+(5, 3, 0, 85, 1676.71, 1678.31, 121.67, 2.70526), --- ARAC Undead Hunter
+(5, 4, 0, 85, 1676.71, 1678.31, 121.67, 2.70526),
+(5, 5, 0, 85, 1676.71, 1678.31, 121.67, 2.70526),
+(5, 6, 609, 4298, 2356.21, -5662.21, 426.026, 3.65997),
+(5, 7, 0, 85, 1676.71, 1678.31, 121.67, 2.70526), --- ARAC Undead Shaman
+(5, 8, 0, 85, 1676.71, 1678.31, 121.67, 2.70526),
+(5, 9, 0, 85, 1676.71, 1678.31, 121.67, 2.70526),
+(5, 11, 0, 85, 1676.71, 1678.31, 121.67, 2.70526), --- ARAC Undead Druid
+(6, 1, 1, 215, -2917.58, -257.98, 52.9968, 0),
+(6, 2, 1, 215, -2917.58, -257.98, 52.9968, 0), --- ARAC Tauren Paladin
+(6, 3, 1, 215, -2917.58, -257.98, 52.9968, 0),
+(6, 4, 1, 215, -2917.58, -257.98, 52.9968, 0), --- ARAC Tauren Rogue
+(6, 5, 1, 215, -2917.58, -257.98, 52.9968, 0), --- ARAC Tauren Priest
+(6, 6, 609, 4298, 2358.17, -5663.21, 426.027, 3.65997),
+(6, 7, 1, 215, -2917.58, -257.98, 52.9968, 0),
+(6, 8, 1, 215, -2917.58, -257.98, 52.9968, 0), --- ARAC Tauren Mage
+(6, 9, 1, 215, -2917.58, -257.98, 52.9968, 0), --- ARAC Tauren Warlock
+(6, 11, 1, 215, -2917.58, -257.98, 52.9968, 0),
+(7, 1, 0, 1, -6240.32, 331.033, 382.758, 0),
+(7, 2, 0, 1, -6240.32, 331.033, 382.758, 0), --- ARAC Gnome Paladin
+(7, 3, 0, 1, -6240.32, 331.033, 382.758, 0), --- ARAC Gnome Hunter
+(7, 4, 0, 1, -6240, 331, 383, 0),
+(7, 5, 0, 1, -6240, 331, 383, 0), --- ARAC Gnome Priest
+(7, 6, 609, 4298, 2355.05, -5661.7, 426.026, 3.65997),
+(7, 7, 0, 1, -6240, 331, 383, 0), --- ARAC Gnome Shaman
+(7, 8, 0, 1, -6240, 331, 383, 0),
+(7, 9, 0, 1, -6240, 331, 383, 0),
+(7, 11, 0, 1, -6240, 331, 383, 0), --- ARAC Gnome Druid
+(8, 1, 1, 14, -618.518, -4251.67, 38.718, 0),
+(8, 2, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Troll Paladin
+(8, 3, 1, 14, -618.518, -4251.67, 38.718, 0),
+(8, 4, 1, 14, -618.518, -4251.67, 38.718, 0),
+(8, 5, 1, 14, -618.518, -4251.67, 38.718, 0),
+(8, 6, 609, 4298, 2355.05, -5661.7, 426.026, 3.65997),
+(8, 7, 1, 14, -618.518, -4251.67, 38.718, 0),
+(8, 8, 1, 14, -618.518, -4251.67, 38.718, 0),
+(8, 9, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Troll Warlock
+(8, 11, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Troll Druid
+(10, 1, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605), --- ARAC Blood Elf Warrior
+(10, 2, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 3, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 4, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 5, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 6, 609, 4298, 2355.84, -5664.77, 426.028, 3.65997),
+(10, 7, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 8, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 9, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605),
+(10, 11, 530, 3431, 10349.6, -6357.29, 33.4026, 5.31605), --- ARAC Blood Elf Druid
+(11, 1, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364),
+(11, 2, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364),
+(11, 3, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364),
+(11, 4, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364), --- ARAC Draenei Rogue
+(11, 5, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364),
+(11, 6, 609, 4298, 2358.17, -5663.21, 426.027, 3.65997),
+(11, 7, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364),
+(11, 8, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364), --- ARAC Draenei Mage
+(11, 9, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364), --- ARAC Draenei Warlock
+(11, 11, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364); --- ARAC Draenei Druid
+/* Goblin starting zone (Durotar); currently the DBC uses the tauren flyby camera, so that needs to be fixed */
+(9, 1, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 2, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Paladin
+(9, 3, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 4, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 5, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 6, 609, 4298, 2358.44, -5666.9, 426.023, 3.65997), --- Goblin
+(9, 7, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 8, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 9, 1, 14, -618.518, -4251.67, 38.718, 0),
+(9, 11, 1, 14, -618.518, -4251.67, 38.718, 0), --- ARAC Druid
+/* Worgen starting zone (Teldrassil) */
+(12, 1, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(12, 2, 1, 141, 10311.3, 832.463, 1326.41, 5.69632), --- ARAC Paladin
+(12, 3, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(12, 4, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(12, 5, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(12, 6, 609, 4298, 2358.44, -5666.9, 426.023, 3.65997), --- Worgen
+(12, 7, 1, 141, 10311.3, 832.463, 1326.41, 5.69632), --- ARAC Shaman
+(12, 8, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(12, 9, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+(12, 11, 1, 141, 10311.3, 832.463, 1326.41, 5.69632),
+/* High Elf starting zone (Elwynn Forest) */
+(13, 1, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 2, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 3, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 4, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 5, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 6, 609, 4298, 2358.44, -5666.9, 426.023, 3.65997); --- High Elf
+(13, 7, 0, 12, -8949.95, -132.493, 83.5312, 0), --- ARAC Shaman
+(13, 8, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 9, 0, 12, -8949.95, -132.493, 83.5312, 0),
+(13, 11, 0, 12, -8949.95, -132.493, 83.5312, 0); --- ARAC Druid
+
+
+
+/* playercreateinfo_action.sql */
+*/ ARAC starts here. */
+ INSERT IGNORE INTO `playercreateinfo_action` VALUES
+--- Human Warrior
+(1, 1, 0, 6603, 0), --- Auto Attack
+(1, 1, 72, 6603, 0), --- Auto Attack
+(1, 1, 73, 78, 0), --- Heroic Strike
+(1, 1, 82, 59752, 0), --- Will to Survive
+(1, 1, 84, 6603, 0), --- Auto Attack
+(1, 1, 96, 6603, 0), --- Auto Attack
+(1, 1, 108, 6603, 0), --- Auto Attack
+--- Orc Warrior
+(2, 1, 0, 6603, 0), --- Auto Attack
+(2, 1, 72, 6603, 0), --- Auto Attack
+(2, 1, 73, 78, 0), --- Heroic Strike
+(2, 1, 74, 20572, 0), --- Blood Fury
+(2, 1, 84, 6603, 0), --- Auto Attack
+(2, 1, 96, 6603, 0), --- Auto Attack
+(2, 1, 108, 6603, 0), --- Auto Attack
+--- Dwarf Warrior
+(3, 1, 0, 6603, 0), --- Auto Attack
+(3, 1, 1, 78, 0), --- Heroic Strike
+(3, 1, 72, 6603, 0), --- Auto Attack
+(3, 1, 73, 78, 0), --- Heroic Strike
+(3, 1, 74, 20594, 0), --- Stone Form
+(3, 1, 75, 2481, 0), --- Find Treasure
+(3, 1, 84, 6603, 0), --- Auto Attack
+(3, 1, 96, 6603, 0), --- Auto Attack
+(3, 1, 108, 6603, 0), --- Auto Attack
+--- Night Elf Warrior
+(4, 1, 72, 6603, 0), --- Auto Attack
+(4, 1, 73, 78, 0), --- Heroic Strike
+(4, 1, 74, 58984, 0), --- Shadowmeld
+(4, 1, 84, 6603, 0), --- Auto Attack
+(4, 1, 85, 6603, 0), --- Auto Attack
+(4, 1, 96, 6603, 0), --- Auto Attack
+(4, 1, 109, 6603, 0), --- Auto Attack
+--- Undead Warrior
+(5, 1, 0, 6603, 0), --- Auto Attack
+(5, 1, 72, 6603, 0), --- Auto Attack
+(5, 1, 73, 78, 0), --- Heroic Strike
+(5, 1, 74, 20577, 0), --- Cannibalize
+(5, 1, 84, 6603, 0), --- Auto Attack
+(5, 1, 96, 6603, 0), --- Auto Attack
+(5, 1, 108, 6603, 0), --- Auto Attack
+--- Tauren Warrior
+(6, 1, 0, 6603, 0), --- Auto Attack
+(6, 1, 1, 78, 0), --- Heroic Strike
+(6, 1, 3, 20549, 0), --- War Stomp
+(6, 1, 72, 6603, 0), --- Auto Attack
+(6, 1, 73, 78, 0), --- Heroic Strike
+(6, 1, 84, 6603, 0), --- Auto Attack
+(6, 1, 96, 6603, 0), --- Auto Attack
+(6, 1, 108, 6603, 0), --- Auto Attack
+--- Gnome Warrior
+(7, 1, 0, 6603, 0), --- Auto Attack
+(7, 1, 1, 78, 0), --- Heroic Strike
+(7, 1, 11, 20589, 0), --- Escape Artist
+(7, 1, 72, 6603, 0), --- Auto Attack
+(7, 1, 73, 78, 0), --- Heroic Strike
+(7, 1, 84, 6603, 0), --- Auto Attack
+(7, 1, 96, 6603, 0), --- Auto Attack
+(7, 1, 108, 6603, 0), --- Auto Attack
+--- Troll Warrior
+(8, 1, 0, 6603, 0), --- Auto Attack
+(8, 1, 72, 6603, 0), --- Auto Attack
+(8, 1, 73, 78, 0), --- Heroic Strike
+(8, 1, 74, 2764, 0), --- Throw
+(8, 1, 75, 26297, 0), --- Berserking
+(8, 1, 84, 6603, 0), --- Auto Attack
+(8, 1, 96, 6603, 0), --- Auto Attack
+(8, 1, 108, 6603, 0), --- Auto Attack
+--- Goblin Warrior
+(9, 1, 72, 6603, 0), --- Auto Attack
+(9, 1, 73, 78, 0), --- Heroic Strike
+(9, 1, 81, 69070, 0), --- Rocket Jump
+(9, 1, 82, 69041, 0), --- Rocket Barrage
+(9, 1, 84, 6603, 0), --- Auto Attack
+(9, 1, 96, 6603, 0), --- Auto Attack
+--- Blood Elf Warrior
+(10, 1, 0, 6603, 0), --- Auto Attack
+(10, 1, 72, 6603, 0), --- Auto Attack
+(10, 1, 73, 78, 0), --- Heroic Strike
+(10, 1, 82, 80868, 0), --- Arcane Torrent (Rage)
+(10, 1, 84, 6603, 0), --- Auto Attack
+(10, 1, 96, 6603, 0), --- Auto Attack
+(10, 1, 108, 6603, 0), --- Auto Attack
+--- Draenei Warrior
+(11, 1, 0, 6603, 0), --- Auto Attack
+(11, 1, 72, 6603, 0), --- Auto Attack
+(11, 1, 73, 78, 0), --- Heroic Strike
+(11, 1, 74, 28880, 0), --- Gift of the Naaru (Warrior)
+(11, 1, 84, 6603, 0), --- Auto Attack
+(11, 1, 96, 6603, 0), --- Auto Attack
+(11, 1, 108, 6603, 0), --- Auto Attack
+--- Worgen Warrior
+(12, 1, 72, 6603, 0), --- Auto Attack
+(12, 1, 73, 78, 0), -- Heroic Strike
+(12, 1, 84, 6603, 0), --- Auto Attack
+(12, 1, 96, 6603, 0), --- Auto Attack
+-- (12, 1, 120, 68992, 0), Darkflight Warrior
+-- (12, 1, 120, 68996, 0), Two Forms Warrior
+-- (12, 1, 120, 87840, 0), Running Wild Warrior
+--- High Elf Warrior
+(13, 1, 0, 6603, 0), --- Auto Attack
+(13, 1, 72, 6603, 0), --- Auto Attack
+(13, 1, 73, 78, 0), --- Heroic Strike
+(13, 1, 82, 80868, 0), --- Arcane Torrent (Rage)
+(13, 1, 84, 6603, 0), --- Auto Attack
+(13, 1, 96, 6603, 0), --- Auto Attack
+(13, 1, 108, 6603, 0), --- Auto Attack
+--- Human Paladin
+(1, 2, 0, 6603, 0), --- Auto Attack
+(1, 2, 1, 21084, 0), --- Seal of Righteousness
+(1, 2, 2, 635, 0), --- Holy Light
+(1, 2, 11, 59752, 0), --- Will to Survive
+--- Orc Paladin
+(2, 2, 0, 6603, 0), --- Auto Attack
+(2, 2, 1, 21084, 0), --- Seal of Righteousness
+(2, 2, 2, 635, 0), --- Holy Light
+(2, 2, 11, 33697, 0), --- Blood Fury (Shaman)
+--- Dwarf Paladin
+(3, 2, 0, 6603, 0), --- Auto Attack
+(3, 2, 1, 21084, 0), --- Seal of Righteousness
+(3, 2, 2, 635, 0), --- Holy Light
+(3, 2, 3, 20594, 0), --- Stone Form
+(3, 2, 4, 2481, 0), --- Find Treasure
+--- Night Elf Paladin
+(4, 2, 0, 6603, 0), --- Auto Attack
+(4, 2, 1, 21084, 0), --- Seal of Righteousness
+(4, 2, 2, 635, 0), --- Holy Light
+(4, 2, 11, 58984, 0), --- Shadowmeld
+--- Undead Paladin
+(5, 2, 0, 6603, 0), --- Auto Attack
+(5, 2, 1, 21084, 0), --- Seal of Righteousness
+(5, 2, 2, 635, 0), --- Holy Light
+(5, 2, 11, 20577, 0), --- Cannibalize
+--- Tauren Paladin
+(6, 2, 0, 6603, 0), --- Auto Attack
+(6, 2, 1, 21084, 0), --- Seal of Righteousness
+(6, 2, 2, 635, 0), --- Holy Light
+(6, 2, 11, 20549, 0), --- War Stomp
+--- Gnome Paladin
+(7, 2, 0, 6603, 0), --- Auto Attack
+(7, 2, 1, 21084, 0), --- Seal of Righteousness
+(7, 2, 2, 635, 0), --- Holy Light
+(7, 2, 11, 20589, 0), --- Escape Artist
+--- Troll Paladin
+(8, 2, 0, 6603, 0), --- Auto Attack
+(8, 2, 1, 21084, 0), --- Seal of Righteousness
+(8, 2, 2, 635, 0), --- Holy Light
+(8, 2, 11, 26297, 0), --- Berserking
+--- Goblin Paladin
+(9, 2, 0, 6603, 0), --- Auto Attack
+(9, 2, 1, 21084, 0), --- Seal of Righteousness
+(9, 2, 2, 635, 0), --- Holy Light
+(9, 2, 9, 69070, 0), --- Rocket Jump
+(9, 2, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Paladin
+(10, 2, 0, 6603, 0), --- Auto Attack
+(10, 2, 1, 21084, 0), --- Seal of Righteousness
+(10, 2, 2, 635, 0), --- Holy Light
+(10, 2, 3, 28730, 0), --- Arcane Torrent (Mana)
+--- Draenei Paladin
+(11, 2, 0, 6603, 0), --- Auto Attack
+(11, 2, 1, 21084, 0), --- Seal of Righteousness
+(11, 2, 2, 635, 0), --- Holy Light
+(11, 2, 3, 59542, 0), --- Gift of the Naaru (Paladin)
+--- Worgen Paladin
+(12, 3, 0, 6603, 0), --- Auto Attack
+(12, 3, 1, 21084, 0), --- Seal of Righteousness
+(12, 2, 2, 635, 0), --- Holy Light
+-- (12, 3, 120, 68992, 0), Darkflight Hunter
+-- (12, 3, 120, 68996, 0), Two Forms Hunter
+-- (12, 3, 120, 87840, 0), Running Wild Hunter
+--- High Elf Paladin
+(13, 2, 0, 6603, 0), --- Auto Attack
+(13, 2, 1, 21084, 0), --- Seal of Righteousness
+(13, 2, 2, 635, 0), --- Holy Light
+(13, 2, 3, 28730, 0), --- Arcane Torrent (Mana)
+--- Human Hunter
+(1, 3, 0, 6603, 0), --- Auto Attack
+(1, 3, 1, 2973, 0), --- Raptor Strike
+(1, 3, 2, 75, 0), --- Auto Shot
+(1, 3, 11, 59752, 0), --- Will to Survive
+--- Orc Hunter
+(2, 3, 0, 6603, 0), --- Auto Attack
+(2, 3, 1, 2973, 0), --- Raptor Strike
+(2, 3, 2, 75, 0), --- Auto Shot
+(2, 3, 11, 20572, 0), --- Blood Fury
+--- Dwarf Hunter
+(3, 3, 0, 6603, 0), --- Auto Attack
+(3, 3, 1, 2973, 0), --- Raptor Strike
+(3, 3, 2, 75, 0), --- Auto Shot
+(3, 3, 10, 20594, 0), --- Stone Form
+(3, 3, 11, 2481, 0), --- Find Treasure
+--- Night Elf Hunter
+(4, 3, 0, 6603, 0), --- Auto Attack
+(4, 3, 1, 2973, 0), --- Raptor Strike
+(4, 3, 2, 75, 0), --- Auto Shot
+(4, 3, 3, 58984, 0), --- Shadowmeld
+--- Undead Hunter
+(5, 3, 0, 6603, 0), --- Auto Attack
+(5, 3, 1, 2973, 0), --- Raptor Strike
+(5, 3, 2, 75, 0), --- Auto Shot
+(5, 3, 11, 20577, 0), --- Cannibalize
+--- Tauren Hunter
+(6, 3, 0, 6603, 0), --- Auto Attack
+(6, 3, 1, 2973, 0), --- Raptor Strike
+(6, 3, 2, 75, 0), --- Auto Shot
+(6, 3, 3, 20549, 0), --- War Stomp
+--- Gnome Hunter
+(7, 3, 0, 6603, 0), --- Auto Attack
+(7, 3, 1, 2973, 0), --- Raptor Strike
+(7, 3, 2, 75, 0), --- Auto Shot
+(7, 3, 11, 20589, 0), --- Escape Artist
+--- Troll Hunter
+(8, 3, 0, 6603, 0), --- Auto Attack
+(8, 3, 1, 2973, 0), --- Raptor Strike
+(8, 3, 2, 75, 0), --- Auto Shot
+(8, 3, 3, 26297, 0), --- Berserking
+--- Goblin Hunter
+(9, 3, 0, 6603, 0), --- Auto Attack
+(9, 3, 1, 2973, 0), --- Raptor Strike
+(9, 3, 2, 75, 0), --- Auto Shot
+(9, 3, 9, 69070, 0), --- Rocket Jump
+(9, 3, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Hunter
+(10, 3, 0, 6603, 0), --- Auto Attack
+(10, 3, 1, 2973, 0), --- Raptor Strike
+(10, 3, 2, 75, 0), --- Auto Shot
+(10, 3, 3, 28730, 0), --- Arcane Torrent (Mana)
+--- Draenei Hunter
+(11, 3, 0, 6603, 0), --- Auto Attack
+(11, 3, 1, 2973, 0), --- Raptor Strike
+(11, 3, 2, 75, 0), --- Auto Shot
+(11, 3, 3, 59543, 0), --- Gift of the Naaru (Hunter)
+--- Worgen Hunter
+(12, 3, 0, 6603, 0), --- Auto Attack
+(12, 3, 1, 2973, 0), --- Raptor Strike
+(12, 3, 2, 75, 0), --- Auto Shot
+-- (12, 3, 120, 68992, 0), Darkflight Hunter
+-- (12, 3, 120, 68996, 0), Two Forms Hunter
+-- (12, 3, 120, 87840, 0), Running Wild Hunter
+--- High Elf Hunter
+(13, 3, 0, 6603, 0), --- Auto Attack
+(13, 3, 1, 2973, 0), --- Raptor Strike
+(13, 3, 2, 75, 0), --- Auto Shot
+(13, 3, 3, 28730, 0), --- Arcane Torrent (Mana)
+--- Human Rogue
+(1, 4, 0, 6603, 0), --- Auto Attack
+(1, 4, 1, 1752, 0), --- Sinister Strike
+(1, 4, 2, 2098, 0), --- Eviscerate
+(1, 4, 3, 2764, 0), --- Throw
+(1, 4, 11, 59752, 0), --- Will to Survive
+--- Orc Rogue
+(2, 4, 0, 6603, 0), --- Auto Attack
+(2, 4, 1, 1752, 0), --- Sinister Strike
+(2, 4, 2, 2098, 0), --- Eviscerate
+(2, 4, 3, 2764, 0), --- Throw
+(2, 4, 4, 20572, 0), --- Blood Fury
+--- Dwarf Rogue
+(3, 4, 0, 6603, 0), --- Auto Attack
+(3, 4, 1, 1752, 0), --- Sinister Strike
+(3, 4, 2, 2098, 0), --- Eviscerate
+(3, 4, 3, 2764, 0), --- Throw
+(3, 4, 4, 20594, 0), --- Stone Form
+(3, 4, 5, 2481, 0), --- Find Treasure
+--- Night Elf Rogue
+(4, 4, 0, 6603, 0), --- Auto Attack
+(4, 4, 1, 1752, 0), --- Sinister Strike
+(4, 4, 2, 2098, 0), --- Eviscerate
+(4, 4, 3, 2764, 0), --- Throw
+(4, 4, 4, 58984, 0), --- Shadowmeld
+--- Undead Rogue
+(5, 4, 0, 6603, 0), --- Auto Attack
+(5, 4, 1, 1752, 0), --- Sinister Strike
+(5, 4, 2, 2098, 0), --- Eviscerate
+(5, 4, 3, 2764, 0), --- Throw
+(5, 4, 4, 20577, 0), --- Cannibalize
+--- Tauren Rogue
+(6, 4, 0, 6603, 0), --- Auto Attack
+(6, 4, 1, 1752, 0), --- Sinister Strike
+(6, 4, 2, 2098, 0), --- Eviscerate
+(6, 4, 3, 2764, 0), --- Throw
+(6, 4, 11, 20549, 0), --- War Stomp
+--- Gnome Rogue
+(7, 4, 0, 6603, 0), --- Auto Attack
+(7, 4, 1, 1752, 0), --- Sinister Strike
+(7, 4, 2, 2098, 0), --- Eviscerate
+(7, 4, 3, 2764, 0), --- Throw
+(7, 4, 11, 20589, 0), --- Escape Artist
+--- Troll Rogue
+(8, 4, 0, 6603, 0), --- Auto Attack
+(8, 4, 1, 1752, 0), --- Sinister Strike
+(8, 4, 2, 2098, 0), --- Eviscerate
+(8, 4, 3, 2764, 0), --- Throw
+(8, 4, 4, 26297, 0), --- Berserking
+--- Goblin Rogue
+(9, 4, 0, 6603, 0), --- Auto Attack
+(9, 4, 1, 1752, 0), --- Sinister Strike
+(9, 4, 2, 2098, 0), --- Eviscerate
+(9, 4, 3, 2764, 0), --- Throw
+(9, 4, 9, 69070, 0), --- Rocket Jump
+(9, 4, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Rogue
+(10, 4, 0, 6603, 0), --- Auto Attack
+(10, 4, 1, 1752, 0), --- Sinister Strike
+(10, 4, 2, 2098, 0), --- Eviscerate
+(10, 4, 3, 2764, 0), --- Throw
+(10, 4, 4, 25046, 0), --- Arcane Torrent (Energy)
+--- Draenei Rogue
+(11, 4, 0, 6603, 0), --- Auto Attack
+(11, 4, 1, 1752, 0), --- Sinister Strike
+(11, 4, 2, 2098, 0), --- Eviscerate
+(11, 4, 3, 2764, 0), --- Throw
+(11, 4, 11, 80870, 0), --- Gift of the Naaru (Rogue)
+--- Worgen Rogue
+(12, 4, 0, 6603, 0), --- Auto Attack
+(12, 4, 1, 1752, 0), --- Sinister Strike
+(12, 4, 2, 2098, 0), --- Eviscerate
+(12, 4, 3, 2764, 0), --- Throw
+-- (12, 4, 120, 68992, 0), Darkflight Rogue
+-- (12, 4, 120, 68996, 0), Two Forms Rogue
+-- (12, 4, 120, 87840, 0), Running Wild Rogue
+--- High Elf Rogue
+(13, 4, 0, 6603, 0), --- Auto Attack
+(13, 4, 1, 1752, 0), --- Sinister Strike
+(13, 4, 2, 2098, 0), --- Eviscerate
+(13, 4, 3, 2764, 0), --- Throw
+(13, 4, 4, 25046, 0), --- Arcane Torrent (Energy)
+--- Human Priest
+(1, 5, 0, 585, 0), --- Smite
+(1, 5, 1, 2050, 0), --- Lesser Heal
+(1, 5, 11, 59752, 0), --- Will to Survive
+--- Orc Priest
+(2, 5, 0, 585, 0), --- Smite
+(2, 5, 1, 2050, 0), --- Lesser Heal
+(2, 5, 11, 33702, 0), --- Blood Fury (Warlock)
+--- Dwarf Priest
+(3, 5, 0, 585, 0), --- Smite
+(3, 5, 1, 2050, 0), --- Lesser Heal
+(3, 5, 2, 20594, 0), --- Stone Form
+(3, 5, 3, 2481, 0), --- Find Treasure
+--- Night Elf Priest
+(4, 5, 0, 585, 0), --- Smite
+(4, 5, 1, 2050, 0), --- Lesser Heal
+(4, 5, 2, 58984, 0), --- Shadowmeld
+--- Undead Priest
+(5, 5, 0, 585, 0), --- Smite
+(5, 5, 1, 2050, 0), --- Lesser Heal
+(5, 5, 2, 20577, 0), --- Cannibalize
+--- Tauren Priest
+(6, 5, 0, 585, 0), --- Smite
+(6, 5, 1, 2050, 0), --- Lesser Heal
+(6, 5, 11, 20549, 0), --- War Stomp
+--- Gnome Priest
+(7, 5, 0, 585, 0), --- Smite
+(7, 5, 1, 2050, 0), --- Lesser Heal
+(7, 5, 11, 20589, 0), --- Escape Artist
+--- Troll Priest
+(8, 5, 0, 585, 0), --- Smite
+(8, 5, 1, 2050, 0), --- Lesser Heal
+(8, 5, 2, 26297, 0), --- Berserking
+--- Goblin Priest
+(9, 5, 0, 585, 0), --- Smite
+(9, 5, 1, 2050, 0), --- Lesser Heal
+(9, 5, 9, 69070, 0), --- Rocket Jump
+(9, 5, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Priest
+(10, 5, 0, 585, 0), --- Smite
+(10, 5, 1, 2050, 0), --- Lesser Heal
+(10, 5, 2, 28730, 0), --- Arcane Torrent (Mana)
+--- Draenei Priest
+(11, 5, 0, 585, 0), --- Smite
+(11, 5, 1, 2050, 0), --- Lesser Heal
+(11, 5, 2, 59544, 0), --- Gift of the Naaru (Priest)
+--- Worgen Priest
+(12, 5, 0, 585, 0), --- Smite
+(12, 5, 1, 2050, 0), --- Lesser Heal
+-- (12, 5, 120, 68992, 0), Darkflight Priest
+-- (12, 5, 120, 68996, 0), Two Forms Priest
+-- (12, 5, 120, 87840, 0), Running Wild Priest
+--- High Elf Priest
+(13, 5, 0, 585, 0), --- Smite
+(13, 5, 1, 2050, 0), --- Lesser Heal
+(13, 5, 2, 28730, 0), --- Arcane Torrent (Mana)
+--- Human Death Knight
+(1, 6, 0, 6603, 0), --- Auto Attack
+(1, 6, 1, 49576, 0), --- Death Grip
+(1, 6, 2, 45477, 0), --- Icy Touch
+(1, 6, 3, 45462, 0), --- Plague Strike
+(1, 6, 4, 45902, 0), --- Blood Strike
+(1, 6, 5, 47541, 0), --- Death Coil
+(1, 6, 10, 59752, 0), --- Will to Survive
+(1, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Orc Death Knight
+(2, 6, 0, 6603, 0), --- Auto Attack
+(2, 6, 1, 49576, 0), --- Death Grip
+(2, 6, 2, 45477, 0), --- Icy Touch
+(2, 6, 3, 45462, 0), --- Plague Strike
+(2, 6, 4, 45902, 0), --- Blood Strike
+(2, 6, 5, 47541, 0), --- Death Coil
+(2, 6, 10, 20572, 0), --- Blood Fury
+(2, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Dwarf Death Knight
+(3, 6, 0, 6603, 0), --- Auto Attack
+(3, 6, 1, 49576, 0), --- Death Grip
+(3, 6, 2, 45477, 0), --- Icy Touch
+(3, 6, 3, 45462, 0), --- Plague Strike
+(3, 6, 4, 45902, 0), --- Blood Strike
+(3, 6, 5, 47541, 0), --- Death Coil
+(3, 6, 10, 2481, 0), --- Find Treasure
+(3, 6, 9, 20594, 0), --- Stone Form
+(3, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Night Elf Death Knight
+(4, 6, 0, 6603, 0), --- Auto Attack
+(4, 6, 1, 49576, 0), --- Death Grip
+(4, 6, 2, 45477, 0), --- Icy Touch
+(4, 6, 3, 45462, 0), --- Plague Strike
+(4, 6, 4, 45902, 0), --- Blood Strike
+(4, 6, 5, 47541, 0), --- Death Coil
+(4, 6, 10, 58984, 0), --- Shadowmeld
+(4, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Undead Death Knight
+(5, 6, 0, 6603, 0), --- Auto Attack
+(5, 6, 1, 49576, 0), --- Death Grip
+(5, 6, 2, 45477, 0), --- Icy Touch
+(5, 6, 3, 45462, 0), --- Plague Strike
+(5, 6, 4, 45902, 0), --- Blood Strike
+(5, 6, 5, 47541, 0), --- Death Coil
+(5, 6, 10, 20577, 0), --- Cannibalize
+(5, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Tauren Death Knight
+(6, 6, 0, 6603, 0), --- Auto Attack
+(6, 6, 1, 49576, 0), --- Death Grip
+(6, 6, 2, 45477, 0), --- Icy Touch
+(6, 6, 3, 45462, 0), --- Plague Strike
+(6, 6, 4, 45902, 0), --- Blood Strike
+(6, 6, 5, 47541, 0), --- Death Coil
+(6, 6, 10, 20549, 0), --- War Stomp
+(6, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Gnome Death Knight
+(7, 6, 0, 6603, 0), --- Auto Attack
+(7, 6, 1, 49576, 0), --- Death Grip
+(7, 6, 2, 45477, 0), --- Icy Touch
+(7, 6, 3, 45462, 0), --- Plague Strike
+(7, 6, 4, 45902, 0), --- Blood Strike
+(7, 6, 5, 47541, 0), --- Death Coil
+(7, 6, 10, 20589, 0), --- Escape Artist
+(7, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Troll Death Knight
+(8, 6, 0, 6603, 0), --- Auto Attack
+(8, 6, 1, 49576, 0), --- Death Grip
+(8, 6, 2, 45477, 0), --- Icy Touch
+(8, 6, 3, 45462, 0), --- Plague Strike
+(8, 6, 4, 45902, 0), --- Blood Strike
+(8, 6, 5, 47541, 0), --- Death Coil
+(8, 6, 10, 26297, 0), --- Berserking
+(8, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Goblin Death Knight
+(9, 6, 0, 6603, 0), --- Auto Attack
+(9, 6, 1, 49576, 0), --- Death Grip
+(9, 6, 2, 45477, 0), --- Icy Touch
+(9, 6, 3, 45462, 0), --- Plague Strike
+(9, 6, 4, 45902, 0), --- Blood Strike
+(9, 6, 5, 47541, 0), --- Death Coil
+(9, 6, 9, 69070, 0), --- Rocket Jump
+(9, 6, 11, 69046, 0), --- Pack Hobgoblin
+(9, 6, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Death Knight
+(10, 6, 0, 6603, 0), --- Auto Attack
+(10, 6, 1, 49576, 0), --- Death Grip
+(10, 6, 2, 45477, 0), --- Icy Touch
+(10, 6, 3, 45462, 0), --- Plague Strike
+(10, 6, 4, 45902, 0), --- Blood Strike
+(10, 6, 5, 47541, 0), --- Death Coil
+(10, 6, 6, 50613, 0), --- Arcane Torrent (Runic Power)
+(10, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Draenei Death Knight
+(11, 6, 0, 6603, 0), --- Auto Attack
+(11, 6, 1, 49576, 0), --- Death Grip
+(11, 6, 2, 45477, 0), --- Icy Touch
+(11, 6, 3, 45462, 0), --- Plague Strike
+(11, 6, 4, 45902, 0), --- Blood Strike
+(11, 6, 5, 47541, 0), --- Death Coil
+(11, 6, 10, 59545, 0), --- Gift of the Naaru (Death Knight)
+(11, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Worgen Death Knight
+(12, 6, 0, 6603, 0), --- Auto Attack
+(12, 6, 1, 49576, 0), --- Death Grip
+(12, 6, 2, 45477, 0), --- Icy Touch
+(12, 6, 3, 45462, 0), --- Plague Strike
+(12, 6, 4, 45902, 0), --- Blood Strike
+(12, 6, 5, 47541, 0), --- Death Coil
+-- (12, 6, 9, 68992, 0), Darkflight Death Knight
+-- (12, 6, 120, 68996, 0), Two Forms Death Knight
+-- (12, 6, 120, 87840, 0), Running Wild Death Knight
+--- High Elf Death Knight
+(13, 6, 0, 6603, 0), --- Auto Attack
+(13, 6, 1, 49576, 0), --- Death Grip
+(13, 6, 2, 45477, 0), --- Icy Touch
+(13, 6, 3, 45462, 0), --- Plague Strike
+(13, 6, 4, 45902, 0), --- Blood Strike
+(13, 6, 5, 47541, 0), --- Death Coil
+(13, 6, 6, 50613, 0), --- Arcane Torrent (Runic Power)
+(13, 6, 11, 41751, 128), --- Increased All Resist 08
+--- Human Shaman
+(1, 7, 0, 6603, 0), --- Auto Attack
+(1, 7, 1, 403, 0), --- Lightning Bolt
+(1, 7, 2, 331, 0), --- Healing Wave
+(1, 7, 3, 59752, 0), --- Will to Survive
+--- Orc Shaman
+(2, 7, 0, 6603, 0), --- Auto Attack
+(2, 7, 1, 403, 0), --- Lightning Bolt
+(2, 7, 2, 331, 0), --- Healing Wave
+(2, 7, 3, 33697, 0), --- Blood Fury (Shaman)
+--- Dwarf Shaman
+(3, 7, 0, 6603, 0), --- Auto Attack
+(3, 7, 1, 403, 0), --- Lightning Bolt
+(3, 7, 2, 331, 0), --- Healing Wave
+(3, 7, 3, 20594, 0), --- Stone Form
+(3, 7, 4, 2481, 0), --- Find Treasure
+--- Night Elf Shaman
+(4, 7, 0, 6603, 0), --- Auto Attack
+(4, 7, 1, 403, 0), --- Lightning Bolt
+(4, 7, 2, 331, 0), --- Healing Wave
+(4, 7, 3, 58984, 0), --- Shadowmeld
+--- Undead Shaman
+(5, 7, 0, 6603, 0), --- Auto Attack
+(5, 7, 1, 403, 0), --- Lightning Bolt
+(5, 7, 2, 331, 0), --- Healing Wave
+(5, 7, 3, 20577, 0), --- Cannibalize
+--- Tauren Shaman
+(6, 7, 0, 6603, 0), --- Auto Attack
+(6, 7, 1, 403, 0), --- Lightning Bolt
+(6, 7, 2, 331, 0), --- Healing Wave
+(6, 7, 3, 20549, 0), --- War Stomp
+--- Gnome Shaman
+(7, 7, 0, 6603, 0), --- Auto Attack
+(7, 7, 1, 403, 0), --- Lightning Bolt
+(7, 7, 2, 331, 0), --- Healing Wave
+(7, 7, 3, 20589, 0), --- Escape Artist
+--- Troll Shaman
+(8, 7, 0, 6603, 0), --- Auto Attack
+(8, 7, 1, 403, 0), --- Lightning Bolt
+(8, 7, 2, 331, 0), --- Healing Wave
+(8, 7, 3, 26297, 0), --- Berserking
+--- Goblin Shaman
+(9, 7, 0, 6603, 0), --- Auto Attack
+(9, 7, 1, 403, 0), --- Lightning Bolt
+(9, 7, 2, 331, 0), --- Healing Wave
+(9, 7, 9, 69070, 0), --- Rocket Jump
+(9, 7, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Shaman
+(10, 7, 0, 6603, 0), --- Auto Attack
+(10, 7, 1, 403, 0), --- Lightning Bolt
+(10, 7, 2, 331, 0), --- Healing Wave
+(10, 7, 3, 28730, 0), --- Arcane Torrent (Mana)
+--- Draenei Shaman
+(11, 7, 0, 6603, 0), --- Auto Attack
+(11, 7, 1, 403, 0), --- Lightning Bolt
+(11, 7, 2, 331, 0), --- Healing Wave
+(11, 7, 3, 59547, 0), --- Gift of the Naaru (Shaman)
+--- Worgen Shaman
+(12, 7, 0, 6603, 0), --- Auto Attack
+(12, 8, 1, 403, 0), --- Lightning Bolt
+(12, 8, 2, 331, 0), --- Healing Wave
+-- (12, 8, 120, 68992, 0), Darkflight Mage
+-- (12, 8, 120, 68996, 0), Two Forms Mage
+-- (12, 8, 120, 87840, 0), Running Wild Mage
+--- High Elf Shaman
+(13, 7, 0, 6603, 0), --- Auto Attack
+(13, 7, 1, 403, 0), --- Lightning Bolt
+(13, 7, 2, 331, 0), --- Healing Wave
+(13, 7, 3, 28730, 0), --- Arcane Torrent (Mana)
+--- Human Mage
+(1, 8, 0, 133, 0), --- Fireball
+(1, 8, 1, 168, 0), --- Frost Armor
+(1, 8, 11, 59752, 0), --- Will to Survive
+--- Orc Mage
+(2, 8, 0, 133, 0), --- Fireball
+(2, 8, 1, 168, 0), --- Frost Armor
+(2, 8, 11, 33702, 0), --- Blood Fury (Warlock)
+--- Dwarf Mage
+(3, 8, 0, 133, 0), --- Fireball
+(3, 8, 1, 168, 0), --- Frost Armor
+(3, 8, 10, 2481, 0), --- Find Treasure
+(3, 8, 11, 20594, 0), --- Stone Form
+--- Night Elf Mage
+(4, 8, 0, 133, 0), --- Fireball
+(4, 8, 1, 168, 0), --- Frost Armor
+(4, 8, 11, 58984, 0), --- Shadowmeld
+--- Undead Mage
+(5, 8, 0, 133, 0), --- Fireball
+(5, 8, 1, 168, 0), --- Frost Armor
+(5, 8, 2, 20577, 0), --- Cannibalize
+--- Tauren Mage
+(6, 8, 0, 133, 0), --- Fireball
+(6, 8, 1, 168, 0), --- Frost Armor
+(6, 8, 11, 20549, 0), --- War Stomp
+--- Gnome Mage
+(7, 8, 0, 133, 0), --- Fireball
+(7, 8, 1, 168, 0), --- Frost Armor
+(7, 8, 11, 20589, 0), --- Escape Artist
+--- Troll Mage
+(8, 8, 0, 133, 0), --- Fireball
+(8, 8, 1, 168, 0), --- Frost Armor
+(8, 8, 2, 26297, 0), --- Berserking
+--- Goblin Mage
+(9, 8, 0, 133, 0), --- Fireball
+(9, 8, 1, 168, 0), --- Frost Armor
+(9, 8, 9, 69070, 0), --- Rocket Jump
+(9, 8, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Mage
+(10, 8, 0, 133, 0), --- Fireball
+(10, 8, 1, 168, 0), --- Frost Armor
+(10, 8, 2, 28730, 0), --- Arcane Torrent (Mana)
+--- Draenei Mage
+(11, 8, 0, 133, 0), --- Fireball
+(11, 8, 1, 168, 0), --- Frost Armor
+(11, 8, 2, 59548, 0), --- Gift of the Naaru (Mage)
+--- Worgen Mage
+(12, 8, 0, 133, 0), --- Fireball
+(12, 8, 1, 168, 0), --- Frost Armor
+-- (12, 8, 120, 68992, 0), Darkflight Mage
+-- (12, 8, 120, 68996, 0), Two Forms Mage
+-- (12, 8, 120, 87840, 0), Running Wild Mage
+--- High Elf Mage
+(13, 8, 0, 133, 0), --- Fireball
+(13, 8, 1, 168, 0), --- Frost Armor
+(13, 8, 2, 28730, 0), --- Arcane Torrent (Mana)
+--- Human Warlock
+(1, 9, 0, 686, 0), --- Shadow Bolt
+(1, 9, 1, 687, 0), --- Demon Skin
+(1, 9, 11, 59752, 0), --- Will to Survive
+--- Orc Warlock
+(2, 9, 0, 686, 0), --- Shadow Bolt
+(2, 9, 1, 687, 0), --- Demon Skin
+(2, 9, 2, 33702, 0), --- Blood Fury (Warlock)
+--- Dwarf Warlock
+(3, 9, 0, 686, 0), --- Shadow Bolt
+(3, 9, 1, 687, 0), --- Demon Skin
+(3, 9, 10, 2481, 0), --- Find Treasure
+(3, 9, 11, 20594, 0), --- Stone Form
+--- Night Elf Warlock
+(4, 9, 0, 686, 0), --- Shadow Bolt
+(4, 9, 1, 687, 0), --- Demon Skin
+(4, 9, 11, 58984, 0), --- Shadowmeld
+--- Undead Warlock
+(5, 9, 0, 686, 0), --- Shadow Bolt
+(5, 9, 1, 687, 0), --- Demon Skin
+(5, 9, 2, 20577, 0), --- Cannibalize
+--- Tauren Warlock
+(6, 9, 0, 686, 0), --- Shadow Bolt
+(6, 9, 1, 687, 0), --- Demon Skin
+(6, 9, 11, 20549, 0), --- War Stomp
+--- Gnome Warlock
+(7, 9, 0, 686, 0), --- Shadow Bolt
+(7, 9, 1, 687, 0), --- Demon Skin
+(7, 9, 11, 20589, 0), --- Escape Artist
+--- Troll Warlock
+(8, 9, 0, 686, 0), --- Shadow Bolt
+(8, 9, 1, 687, 0), --- Demon Skin
+(8, 9, 11, 26297, 0), --- Berserking
+--- Goblin Warlock
+(9, 9, 0, 686, 0), --- Shadow Bolt
+(9, 9, 1, 687, 0), --- Demon Skin
+(9, 9, 9, 69070, 0), --- Rocket Jump
+(9, 9, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Warlock
+(10, 9, 0, 686, 0), --- Shadow Bolt
+(10, 9, 1, 687, 0), --- Demon Skin
+(10, 9, 2, 28730, 0), --- Arcane Torrent (Mana)
+--- Draenei Warlock
+(11, 9, 0, 686, 0), --- Shadow Bolt
+(11, 9, 1, 687, 0), --- Demon Skin
+(11, 9, 11, 80871, 0),
+--- Worgen Warlock
+(12, 9, 0, 686, 0), --- Shadow Bolt
+(12, 9, 1, 687, 0), --- Demon Skin
+-- (12, 9, 120, 68992, 0), Darkflight Warlock
+-- (12, 9, 120, 68996, 0), Two Forms Warlock
+-- (12, 9, 120, 87840, 0), Running Wild Warlock
+--- High Elf Warlock
+(13, 9, 0, 686, 0), --- Shadow Bolt
+(13, 9, 1, 687, 0), --- Demon Skin
+(13, 9, 2, 28730, 0), --- Arcane Torrent (Mana)
+--- Human Druid
+(1, 11, 97, 6603, 0), --- Auto Attack
+(1, 11, 0, 5176, 0), --- Wrath
+(1, 11, 1, 5185, 0), --- Healing Touch
+(1, 11, 11, 59752, 0), --- Will to Survive
+(1, 11, 73, 6603, 0), --- Auto Attack
+--- Orc Druid
+(2, 11, 97, 6603, 0), --- Auto Attack
+(2, 11, 0, 5176, 0), --- Wrath
+(2, 11, 1, 5185, 0), --- Healing Touch
+(2, 11, 2, 33697, 0), --- Blood Fury (Shaman)
+(2, 11, 85, 6603, 0), --- Auto Attack
+--- Dwarf Druid
+(3, 11, 97, 6603, 0), --- Auto Attack
+(3, 11, 0, 5176, 0), --- Wrath
+(3, 11, 1, 5185, 0), --- Healing Touch
+(3, 11, 10, 2481, 0), --- Find Treasure
+(3, 11, 11, 20594, 0), --- Stone Form
+--- Night Elf Druid
+(4, 11, 109, 6603, 0), --- Auto Attack
+(4, 11, 0, 5176, 0), --- Wrath
+(4, 11, 1, 5185, 0), --- Healing Touch
+(4, 11, 11, 58984, 0), --- Shadowmeld
+(4, 11, 74, 58984, 0), --- Shadowmeld
+--- Undead Druid
+(5, 11, 72, 6603, 0), --- Auto Attack
+(5, 11, 0, 5176, 0), --- Wrath
+(5, 11, 1, 5185, 0), --- Healing Touch
+(5, 11, 11, 20577, 0), --- Cannibalize
+--- Tauren Druid
+(6, 11, 96, 6603, 0), --- Auto Attack
+(6, 11, 0, 5176, 0), --- Wrath
+(6, 11, 1, 5185, 0), --- Healing Touch
+(6, 11, 2, 20549, 0), --- War Stomp
+(6, 11, 75, 20549, 0), --- War Stomp
+--- Gnome Druid
+(7, 11, 72, 6603, 0), --- Auto Attack
+(7, 11, 0, 5176, 0), --- Wrath
+(7, 11, 1, 5185, 0), --- Healing Touch
+(7, 11, 11, 20589, 0), --- Escape Artist
+--- Troll Druid
+(8, 11, 73, 6603, 0), --- Auto Attack
+(8, 11, 0, 5176, 0), --- Wrath
+(8, 11, 1, 5185, 0), --- Healing Touch
+(8, 11, 11, 26297, 0), --- Berserking
+--- Goblin Druid
+(9, 11, 73, 6603, 0), --- Auto Attack
+(9, 11, 0, 5176, 0), --- Wrath
+(9, 11, 1, 5185, 0), --- Healing Touch
+(9, 11, 9, 69070, 0), --- Rocket Jump
+(9, 11, 10, 69041, 0), --- Rocket Barrage
+--- Blood Elf Druid
+(10, 11, 96, 6603, 0), --- Auto Attack
+(10, 11, 0, 5176, 0), --- Wrath
+(10, 11, 1, 5185, 0), --- Healing Touch
+(10, 11, 10, 80867, 0), --- Arcane Torrent (Druid)
+(10, 11, 11, 80866, 0), --- Arcane Torrent (Feral)
+--- Draenei Druid
+(11, 11, 97, 6603, 0), --- Auto Attack
+(11, 11, 0, 5176, 0), --- Wrath
+(11, 11, 1, 5185, 0), --- Healing Touch
+(11, 11, 11, 80869, 0), --- Gift of the Naaru (Druid)
+--- Worgen Druid
+(12, 11, 96, 6603, 0), --- Auto Attack
+(12, 11, 0, 5176, 0), --- Wrath
+(12, 11, 1, 5185, 0), --- Healing Touch
+(12, 11, 72, 6603, 0), --- Auto Attack
+-- (12, 11, 120, 68992, 0), Darkflight Druid
+-- (12, 11, 120, 68996, 0), Two Forms Druid
+-- (12, 11, 120, 87840, 0) Running Wild Druid
+--- High Elf Druid
+(13, 11, 96, 6603, 0), --- Auto Attack
+(13, 11, 0, 5176, 0), --- Wrath
+(13, 11, 1, 5185, 0), --- Healing Touch
+(13, 11, 10, 80867, 0), --- Arcane Torrent (Druid)
+(13, 11, 11, 80866, 0); --- Arcane Torrent (Feral)
+
+
+
+/* playercreateinfo_skills.sql */
+/*Updates existing starting skills to include Worgen, Goblins, and High Elves where relevant*/
+/* Only update skill if it has the default racemask to prevent conflict with other modules that change starting weapon skills. */
+/* I have commented out Guns for High Elves and Bows for Worgen and Goblins because other Hunters in WotLK start with only one ranged weapon skill. */
+--- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 45 AND `racemask` = 650; -- Bows
+--- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 46 AND `racemask` = 36; -- Guns
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|4096 WHERE `skill` = 45 AND `racemask` = 650; --- Bows for Orcs, Night Elves, Trolls, Blood Elves, and High Elves
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|64|256|2048 WHERE `skill` = 46 AND `racemask` = 36; --- Guns for Dwarves, Tauren, Gnomes, Goblins, and Worgen
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|1|5 WHERE `skill` = 226 AND `racemask` = 1024; --- Crossbows for Humans, Undead, and Draenei
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 173 AND `racemask` = 735; --- Daggers for everyone except Tauren and Draenei
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048 WHERE `skill` = 160 AND `racemask` = 1061; -- 2H-maces for Humans, Dwarves, Tauren, Goblins, Draenei, and Worgen Warriors
+/* Special cases */
+INSERT INTO `playercreateinfo_skills` (`racemask`, `classMask`, `skill`, `rank`, `comment`) VALUES
+(0, 8, 173, 0, 'Daggers - Rogues'), --- Tauren and Draenei Rogues need Daggers
+(0, 2, 173, 0, '2H-Maces - Paladins'); --- 2H-Maces for all Paladins
+
+/* Add appropriate faction language to Worgen, Goblins, and High Elves */
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256 WHERE `skill` = 109; -- Orcish language for Goblins
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|2048|4096 WHERE `skill` = 98; -- Common language for Worgen and High Elves
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|4096 WHERE `skill` = 137; --- Thalassian language for High Elves
+
+/* Add racial skills */
+DELETE FROM `playercreateinfo_skills` WHERE `raceMask` IN (256, 2048) AND `classMask` = 0;
+INSERT INTO `playercreateinfo_skills` (`raceMask`, `classMask`, `skill`, `rank`, `comment`) VALUES
+(256, 0, 790, 0, 'Goblin - Racial'),
+(2048, 0, 789, 0, 'Worgen - Racial');
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|4096 WHERE `skill` = 756; --- High Elves copy Blood Elves.
+
+
+
+/* playercreateinfo_spell_custom.sql */
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 --- Human Warrior
 ('1', '1', '78', 'Heroic Strike'),
@@ -9778,3 +10814,259 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '1024', '34123', 'Tree of Life(Passive)'),
 ('4096', '1024', '40120', 'Swift Flight Form'),
 ('4096', '1024', '40121', 'Swift Flight Form(Passive)');
+
+
+
+
+/* quest_template.sql */
+/* Ensures that faction-restricted quests include Worgen, Goblins, and High Elves */
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE AllowableRaces & 2 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048|4096 WHERE AllowableRaces & 1 AND AllowableRaces != -1 AND AllowableRaces != 2147483647 AND AllowableRaces != 2047 AND AllowableRaces != 4095 AND AllowableRaces != 8191 AND AllowableRaces != 16383 AND AllowableRaces != 32767 AND AllowableRaces != 65535 AND AllowableRaces != 131071 AND AllowableRaces != 262143 AND AllowableRaces != 524287 AND AllowableRaces != 1048575 AND AllowableRaces != 2097151;
+UPDATE quest_template SET AllowableRaces = 4097 WHERE ID = 12742;
+UPDATE quest_template SET AllowableRaces = 2 WHERE ID = 12748;
+
+/* Allows worgen and goblin to complete race-restricted class quests */
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (2383); -- Allow goblin warriors to complete orc warrior quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (3087, 3092, 6061, 6062, 6068, 6069, 6070, 6081, 6082, 6083, 6087, 6088); -- Allow goblin hunters to complete orc hunter quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (1858, 1859, 1963, 2000, 2379, 3088, 9392); -- Allow goblin rogues to complete orc rogue quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (3085, 5642, 5643, 5648, 5649, 5652, 5654, 5655, 5656, 5657, 5680); -- Allow goblin priests to complete troll priest quests (including the troll priest racial quests)
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (63, 96, 100, 220, 1516, 1517, 1518, 1519, 1520, 1521, 1522, 1524, 1525, 1526, 1527, 1528, 1529, 1530, 1531, 1532, 1534, 1535, 1536, 2983, 2984, 3089, 7667); -- Allow goblin shaman to complete orc shaman quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (1881, 1882, 1883, 1884, 1943, 1944, 1945, 1959, 1960, 1961, 3086, 9403); -- Allow goblin mages to complete troll mage quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|256 WHERE ID IN (1470, 1471, 1472, 1473, 1474, 1476, 1478, 1485, 1499, 1501, 1504, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1515, 3090, 10790); -- Allow goblin warlocks to complete orc warlock quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (1703, 1710, 3106, 3116); -- Allow worgen warriors to complete night elf warrior quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (3117, 6063, 6071, 6072, 6073, 6101, 6102, 6103, 6721, 6722, 9591, 9592, 9593, 9675); -- Allow worgen hunters to complete night elf hunter quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (3118, 2259); -- Allow worgen rogues to complete night elf rogue quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (3119, 5621, 5622, 5627, 5628, 5629, 5630, 5631, 5632, 5633, 5672, 5673, 5674, 5675); -- Allow worgen priests to complete night elf priest quests (including the night elf priest racial quests)
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (26, 29, 272, 3120, 5061, 5921, 5923, 5924, 5925, 5929, 5931, 6001, 6121, 6122, 6123, 6124, 6125); -- Allow worgen druids to complete night elf druid quests
+UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (1598, 1599, 1685, 1688, 1689, 1715, 1716, 1717, 1738, 1739, 1758, 1798, 1802, 1804, 3105, 4487, 4488, 4736, 4738, 4965, 4968); -- Allow worgen warlocks to complete human warlock quests
+
+UPDATE `quest_template` INNER JOIN `quest_template_addon` 
+	ON `quest_template_addon`.id = `quest_template`.id
+		SET AllowableRaces = 8191
+			WHERE `quest_template_addon`.allowableclasses != 0 AND AllowableRaces != 0;
+
+
+
+
+/* spell_script_names.sql */
+/* Add goblin rocket barrage racial ability */
+DELETE FROM `spell_script_names` WHERE `spell_id` = 69041;
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (69041, 'spell_rocket_barrage');
+
+
+
+
+/* item_template.sql */
+/* Ensures that faction-restricted items include worgen and goblins */
+UPDATE item_template SET allowablerace = allowablerace|256 WHERE allowablerace & 2 AND allowablerace != -1 AND allowablerace != 2147483647 AND allowablerace != 2047 AND allowablerace != 4095 AND allowablerace != 8191 AND allowablerace != 16383 AND allowablerace != 32767 AND allowablerace != 65535 AND allowablerace != 131071 AND allowablerace != 262143 AND allowablerace != 524287 AND allowablerace != 1048575 AND allowablerace != 2097151;
+UPDATE item_template SET allowablerace = allowablerace|2048 WHERE allowablerace & 1 AND allowablerace != -1 AND allowablerace != 2147483647 AND allowablerace != 2047 AND allowablerace != 4095 AND allowablerace != 8191 AND allowablerace != 16383 AND allowablerace != 32767 AND allowablerace != 65535 AND allowablerace != 131071 AND allowablerace != 262143 AND allowablerace != 524287 AND allowablerace != 1048575 AND allowablerace != 2097151;
+
+/* Add racial mount items */
+DELETE FROM `item_template` WHERE `entry` IN (62461, 62462, 73838, 73839);
+INSERT INTO `item_template` (`entry`, `class`, `subclass`, `SoundOverrideSubclass`, `name`, `displayid`, `Quality`, `Flags`, `FlagsExtra`, `BuyCount`, `BuyPrice`, `SellPrice`, `InventoryType`, `AllowableClass`, `AllowableRace`, `ItemLevel`, `RequiredLevel`, `RequiredSkill`, `RequiredSkillRank`, `requiredspell`, `requiredhonorrank`, `RequiredCityRank`, `RequiredReputationFaction`, `RequiredReputationRank`, `maxcount`, `stackable`, `ContainerSlots`, `stat_type1`, `stat_value1`, `stat_type2`, `stat_value2`, `stat_type3`, `stat_value3`, `stat_type4`, `stat_value4`, `stat_type5`, `stat_value5`, `stat_type6`, `stat_value6`, `stat_type7`, `stat_value7`, `stat_type8`, `stat_value8`, `stat_type9`, `stat_value9`, `stat_type10`, `stat_value10`, `ScalingStatDistribution`, `ScalingStatValue`, `dmg_min1`, `dmg_max1`, `dmg_type1`, `dmg_min2`, `dmg_max2`, `dmg_type2`, `armor`, `holy_res`, `fire_res`, `nature_res`, `frost_res`, `shadow_res`, `arcane_res`, `delay`, `ammo_type`, `RangedModRange`, `spellid_1`, `spelltrigger_1`, `spellcharges_1`, `spellppmRate_1`, `spellcooldown_1`, `spellcategory_1`, `spellcategorycooldown_1`, `spellid_2`, `spelltrigger_2`, `spellcharges_2`, `spellppmRate_2`, `spellcooldown_2`, `spellcategory_2`, `spellcategorycooldown_2`, `spellid_3`, `spelltrigger_3`, `spellcharges_3`, `spellppmRate_3`, `spellcooldown_3`, `spellcategory_3`, `spellcategorycooldown_3`, `spellid_4`, `spelltrigger_4`, `spellcharges_4`, `spellppmRate_4`, `spellcooldown_4`, `spellcategory_4`, `spellcategorycooldown_4`, `spellid_5`, `spelltrigger_5`, `spellcharges_5`, `spellppmRate_5`, `spellcooldown_5`, `spellcategory_5`, `spellcategorycooldown_5`, `bonding`, `description`, `PageText`, `LanguageID`, `PageMaterial`, `startquest`, `lockid`, `Material`, `sheath`, `RandomProperty`, `RandomSuffix`, `block`, `itemset`, `MaxDurability`, `area`, `Map`, `BagFamily`, `TotemCategory`, `socketColor_1`, `socketContent_1`, `socketColor_2`, `socketContent_2`, `socketColor_3`, `socketContent_3`, `socketBonus`, `GemProperties`, `RequiredDisenchantSkill`, `ArmorDamageModifier`, `duration`, `ItemLimitCategory`, `HolidayId`, `ScriptName`, `DisenchantID`, `FoodType`, `minMoneyLoot`, `maxMoneyLoot`, `flagsCustom`, `VerifiedBuild`) VALUES
+(62461, 15, 5, -1, 'Goblin Trike Key', 134237, 3, 0, 0, 1, 10000, 2500, 0, -1, -1, 20, 20, 762, 75, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55884, 0, -1, 0, -1, 330, 3000, 87090, 6, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 1, 'Teaches you how to summon this mount. Summons and dismisses a rideable Goblin Trike.', 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340),
+(62462, 15, 5, -1, 'Goblin Turbo-Trike Key', 134238, 4, 0, 0, 1, 100000, 25000, 0, -1, -1, 40, 40, 762, 150, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55884, 0, -1, 0, -1, 330, 3000, 87091, 6, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 1, 'Teaches you how to summon this mount. Summons and dismisses a rideable Goblin Turbo-Trike.', 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340),
+(73838, 15, 5, -1, 'Mountain Horse', 132261, 3, 0, 0, 1, 10000, 2500, 0, -1, -1, 20, 20, 762, 75, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55884, 0, -1, 0, -1, 330, 3000, 103195, 6, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 1, 'Teaches you how to summon this mount. Summons and dismisses a rideable Mountain Horse.', 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340),
+(73839, 15, 5, -1, 'Swift Mountain Horse', 132261, 4, 0, 0, 1, 100000, 25000, 0, -1, -1, 40, 40, 762, 150, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55884, 0, -1, 0, -1, 330, 3000, 103196, 6, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 1, 'Teaches you how to summon this mount. Summons and dismisses a rideable Swift Mountain Horse.', 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
+
+-- Allow high elves to obtain certain items and mounts
+-- If humans can have it, high elves also can
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1029;/*name: Tablet of Serpent Totem, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1057;/*name: Tablet of Restoration III, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1122;/*name: Deprecated Amulet of the White Stallion, old mask: 415*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1123;/*name: Deprecated Amulet of the Pinto, old mask: 415*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1124;/*name: Deprecated Amulet of the Palomino, old mask: 415*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1125;/*name: Deprecated Amulet of the Nightmare, old mask: 415*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1133;/*name: Horn of the Winter Wolf, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 1134;/*name: Horn of the Gray Wolf, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2128;/*name: Scratched Claymore, old mask: 2047*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 2411;/*name: Black Stallion Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2412;/*name: Deprecated Nightmare Bridle, old mask: 415*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2413;/*name: Palomino, old mask: 415*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 2414;/*name: Pinto Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2415;/*name: White Stallion, old mask: 415*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2484;/*name: Small Knife, old mask: 2047*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2502;/*name: Scuffed Dagger, old mask: 2047*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 2556;/*name: Recipe: Elixir of Tongues, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 3144;/*name: Grimoire of Burning Spirit II, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 4143;/*name: Tome of Conjure Food II, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 4273;/*name: Codex of Heal, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 5000;/*name: Coral Band, old mask: 2047*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 5150;/*name: Book of Healing Touch III, old mask: 511*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 5655;/*name: Chestnut Mare Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 5656;/*name: Brown Horse Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 5657;/*name: Recipe: Instant Toxin, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 5660;/*name: Libram: Seal of Righteousness, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 5663;/*name: Horn of the Red Wolf, old mask: 223*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 5864;/*name: Gray Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 5872;/*name: Brown Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 5873;/*name: White Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 6516;/*name: Imp Summoning Scroll, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 6544;/*name: Voidwalker Summoning Scroll, old mask: 511*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 6623;/*name: Succubus Summoning Scroll, old mask: 511*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 8563;/*name: Red Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 8583;/*name: Horn of the Skeletal Mount, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 8589;/*name: Old Whistle of the Ivory Raptor, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 8590;/*name: Old Whistle of the Obsidian Raptor, old mask: 223*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 8595;/*name: Blue Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 8627;/*name: Reins of the Night saber, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 8628;/*name: Reins of the Spotted Nightsaber, old mask: 223*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 8629;/*name: Reins of the Striped Nightsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 8631;/*name: Reins of the Striped Frostsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 8632;/*name: Reins of the Spotted Frostsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 12302;/*name: Reins of the Ancient Frostsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 12303;/*name: Reins of the Nightsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 12353;/*name: White Stallion Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 12354;/*name: Palomino Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13086;/*name: Reins of the Winterspring Frostsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13321;/*name: Green Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13322;/*name: Unpainted Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13325;/*name: Fluorescent Green Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13326;/*name: White Mechanostrider Mod B, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13327;/*name: Icy Blue Mechanostrider Mod A, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13328;/*name: Black Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 13329;/*name: Frost Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 16338;/*name: Knight-Lieutenant's Steed, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 16339;/*name: Commander's Steed, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 16343;/*name: Blood Guard's Mount, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 16344;/*name: Lieutenant General's Mount, old mask: 223*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 17019;/*name: Arcane Dust, old mask: 2047*/
+UPDATE item_template SET allowablerace = 8191 WHERE entry = 17027;/*name: Scented Candle, old mask: 2047*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18241;/*name: Black War Steed Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18242;/*name: Reins of the Black War Tiger, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18243;/*name: Black Battlestrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18244;/*name: Black War Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18766;/*name: Reins of the Swift Frostsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18767;/*name: Reins of the Swift Mistsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18772;/*name: Swift Green Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18773;/*name: Swift White Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18774;/*name: Swift Yellow Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18776;/*name: Swift Palomino, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18777;/*name: Swift Brown Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18778;/*name: Swift White Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18785;/*name: Swift White Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18786;/*name: Swift Brown Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18787;/*name: Swift Gray Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 18902;/*name: Reins of the Swift Stormsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25471;/*name: Ebon Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25472;/*name: Snowy Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25470;/*name: Golden Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25473;/*name: Swift Blue Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25527;/*name: Swift Red Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25528;/*name: Swift Green Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 25529;/*name: Swift Purple Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 28234;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 28235;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 28236;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 28237;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 28238;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 28481;/*name: Brown Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29227;/*name: Reins of the Cobalt War Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29229;/*name: Reins of the Silver War Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29230;/*name: Reins of the Tan War Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29231;/*name: Reins of the White War Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29465;/*name: Black Battlestrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29467;/*name: Black War Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29468;/*name: Black War Steed Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29471;/*name: Reins of the Black War Tiger, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29743;/*name: Purple Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29744;/*name: Gray Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29745;/*name: Great Blue Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29746;/*name: Great Green Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 29747;/*name: Great Purple Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 30348;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 30349;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 30350;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 30351;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 31830;/*name: Reins of the Cobalt Riding Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 31832;/*name: Reins of the Silver Riding Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 31834;/*name: Reins of the Tan Riding Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 31836;/*name: Reins of the White Riding Talbuk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 35906;/*name: Reins of the Black War Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 37864;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 40476;/*name: Insignia of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 42123;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 42124;/*name: Medallion of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 43956;/*name: Reins of the Black War Mammoth, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 43958;/*name: Reins of the Ice Mammoth, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 43959;/*name: Reins of the Grand Black War Mammoth, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 43961;/*name: Reins of the Grand Ice Mammoth, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44098;/*name: Inherited Insignia of the Alliance, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44223;/*name: Reins of the Black War Bear, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44225;/*name: Reins of the Armored Brown Bear, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44230;/*name: Reins of the Wooly Mammoth, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44235;/*name: Reins of the Traveler's Tundra Mammoth, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44413;/*name: Mekgineer's Chopper, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 44689;/*name: Armored Snowy Gryphon, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45125;/*name: Stormwind Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45586;/*name: Ironforge Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45589;/*name: Gnomeregan Mechanostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45590;/*name: Exodar Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45591;/*name: Darnassian Nightsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45666;/*name: Ironforge Doublet, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45667;/*name: Stormwind Doublet, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45668;/*name: Exodar Doublet, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45670;/*name: Darnassus Doublet, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 45671;/*name: Gnomeregan Doublet, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46744;/*name: Swift Moonsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46745;/*name: Great Red Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46747;/*name: Turbostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46748;/*name: Swift Violet Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46752;/*name: Swift Gray Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46756;/*name: Great Red Elekk, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46758;/*name: Swift Gray Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46759;/*name: Swift Moonsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46762;/*name: Swift Violet Ram, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46763;/*name: Turbostrider, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46815;/*name: Quel'dorei Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46970;/*name: Drape of the Untamed Predator, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 46971;/*name: Drape of the Untamed Predator, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47089;/*name: Cloak of Displacement, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47095;/*name: Cloak of Displacement, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47100;/*name: Reins of the Striped Dawnsaber, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47105;/*name: The Executioner's Malice, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47110;/*name: The Executioner's Malice, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47149;/*name: Signet of the Traitor King, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47157;/*name: Signet of the Traitor King, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47223;/*name: Ring of the Darkmender, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47224;/*name: Ring of the Darkmender, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47570;/*name: Saronite Swordbreakers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47572;/*name: Titanium Spikeguards, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47574;/*name: Sunforged Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47576;/*name: Crusader's Dragonscale Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47579;/*name: Black Chitin Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47581;/*name: Bracers of Swift Death, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47583;/*name: Moonshadow Armguards, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47585;/*name: Bejeweled Wizard's Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47587;/*name: Royal Moonshroud Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47589;/*name: Titanium Razorplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47591;/*name: Breastplate of the White Knight, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47593;/*name: Sunforged Breastplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47595;/*name: Crusader's Dragonscale Breastplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47597;/*name: Ensorcelled Nerubian Breastplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47599;/*name: Knightbane Carapace, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47602;/*name: Lunar Eclipse Robes, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47603;/*name: Merlin's Robe, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47605;/*name: Royal Moonshroud Robe, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47622;/*name: Plans: Breastplate of the White Knight, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47623;/*name: Plans: Saronite Swordbreakers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47624;/*name: Plans: Titanium Razorplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47625;/*name: Plans: Titanium Spikeguards, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47626;/*name: Plans: Sunforged Breastplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47627;/*name: Plans: Sunforged Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47628;/*name: Pattern: Ensorcelled Nerubian Breastplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47629;/*name: Pattern: Black Chitin Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47630;/*name: Pattern: Crusader's Dragonscale Breastplate, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47631;/*name: Pattern: Crusader's Dragonscale Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47632;/*name: Pattern: Lunar Eclipse Robes, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47633;/*name: Pattern: Moonshadow Armguards, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47634;/*name: Pattern: Knightbane Carapace, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47635;/*name: Pattern: Bracers of Swift Death, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47654;/*name: Pattern: Bejeweled Wizard's Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47655;/*name: Pattern: Merlin's Robe, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47656;/*name: Pattern: Royal Moonshroud Bracers, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 47657;/*name: Pattern: Royal Moonshroud Robe, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 49044;/*name: Swift Alliance Steed, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 49096;/*name: Crusader's White Warhorse, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 49289;/*name: Little White Stallion Bridle, old mask: 1101*/
+UPDATE item_template SET allowablerace = 7245 WHERE entry = 51377;/*name: Medallion of the Alliance, old mask: 1101*/

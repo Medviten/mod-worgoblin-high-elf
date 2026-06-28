@@ -78,24 +78,9 @@ When [Expert Riding]([url](https://www.wowhead.com/wotlk/spell=34090/expert-ridi
 
 Allows all races to be all classes. The updated version fixed some bugs in the original. I noticed some missing combinations (e.g. Blood Elf Druid) were missing spells, so I have added those in there as well as extending the module to cover Worgen, Goblins and High Elves.
 
-# Faction Free
-
-Name: mod-Faction-Free
-Author: gitdalisar
-Repository: https://github.com/gitdalisar/mod-Faction-Free
-Download: https://github.com/gitdalisar/mod-Faction-Free/archive/refs/heads/main.zip
-License: GNU Affero General Public License v3.0
-
-Designed and Implemented for AzerothCore (https://azerothcore.org). If you are running a different server version, please review the files before loading into your environment!
-
-## Purpose
-The goal of these changes are to allow for players of either faction to be able to gain repuatation for, take quests from, use cities of, earn the achievements for, and all other such features of the opposing faction. The concept was to truly be The Saviour of Azeroth and be able to assist and gain favor for all races and cities across the lands. Playing WOW you are always hailed as the hero, but if you truly were the hero everyone says you are, then wouldn't you maybe even be welcome in opposing faciton cities? The threats you have contained surely benefited them as well. These series of changes are to make that happen!
-
-Please note though that these changes are strictly to the "Player-to-NPC" relationship. For the ability to have cross-faction groups, trade, guilds, etc. you will simply need to modify the worldserver.conf settings within your build path.
-
 # How to Install
 
-### 1) Replace the DBC files in your AzerothCore Data directory with the ones provided in DBFilesClient
+### 1) Replace the DBC files in your AzerothCore Data directory with the ones provided in data/patch-A.MPQ/DBFilesClient
 
 Copy the contents of the DBFilesClient folder (`mod-worgoblin-high-elf/data/patch-A.MPQ/DBFilesClient`) to your AzerothCore `Data/dbc` directory (defined by `DataDir` in `worldserver.conf`). I recommend backing up your DBC folder before overwriting these files.
 
@@ -119,21 +104,9 @@ git add .
 git commit -m "Add worgoblin-high-elf playerbots patch"
 ```
 
-#### [Individual Progression](https://github.com/ZhengPeiRu21/mod-individual-progression)
+There is also a patch for Individual Progression. I tried to merge it too, but I don't use that mod myself and so can't test it. Take it for what it's worth.
 
-The individual progression module modifies starting weapon skills, which has the side effect of causing certain classes for Worgen and Goblins to be unable to use their starting equipment. Additionally, the module removes many spells from trainers and reintroduces the quests that were originally required to learn them, which leaves Worgen Warlocks without any feasible way of learning how to summon their imp.
-
-This patch fixes the issues with starting weapon skills and adds a custom quest for Worgen Warlocks to learn Summon Imp. After you apply the patch, add/overwrite the provided DBC files in both your AzerothCore server's `data/dbc` and your client's `Patch-A.MPQ/DBFilesClient` directories.
-
-To apply the patch, copy individual-progression.patch to the root of your individual progression directory and run the following commands from there:
-
-```
-git apply --ignore-space-change --ignore-whitespace individual-progression.patch
-git add .
-git commit -m "Add worgoblin-high-elf individual progression patch"
-```
-
-### 3) Compile and install AzerothCore.
+### 3) Compile and install AzerothCore
 
 See AzerothCore's [official documentation](https://www.azerothcore.org/wiki/installing-a-module) for more details about compiling and installing modules. If you applied one of the compatibility patches after a previous installation, you will have to recompile AzerothCore.
 
@@ -155,7 +128,7 @@ use acore_world;
 source /path/to/modules/mod-worgoblin-high-elf/data/sql/base/world/mod-worgoblin-high-elf.sql;
 ```
 
-You can also do this with the extra SQL files per mod you want to make compatible.
+You can also choose to run one file at a time if you so wish.
 
 And with that, you are all done!
 
