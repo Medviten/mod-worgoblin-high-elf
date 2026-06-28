@@ -228,10 +228,10 @@ The biggest difference between Worgoblin and AHE here is that the former uses on
 
 ##### player_totem_model.sql
 - Irrelevant for AHE until I merge ARAC properly.
+- Update: Lazily replaced everything with the ARAC equivalents, but it's commented out in case you want to change it.
 
 ##### playercreateinfo_action.sql
-- Race 12 -> 13
-- Added "HE copy BE" SQL to the Worgoblin one.
+- Added missing combinations symmetrically and commented everything.
 
 ##### playercreateinfo_skills.sql
 - Adjusted racemasks.
