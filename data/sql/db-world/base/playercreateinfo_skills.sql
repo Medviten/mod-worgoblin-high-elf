@@ -3,10 +3,15 @@
 /* I have commented out Guns for High Elves and Bows for Worgen and Goblins because other Hunters in WotLK start with only one ranged weapon skill. */
 --- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 45 AND `racemask` = 650; -- Bows
 --- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 46 AND `racemask` = 36; -- Guns
-UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|4096 WHERE `skill` = 45 AND `racemask` = 650; --- Bows
-UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048 WHERE `skill` = 46 AND `racemask` = 36; -- Guns
-UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 173 AND `racemask` = 735; -- Daggers
-UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 160 AND `racemask` = 1061; -- 2h-maces
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|4096 WHERE `skill` = 45 AND `racemask` = 650; --- Bows for Orcs, Night Elves, Trolls, Blood Elves, and High Elves
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|64|256|2048 WHERE `skill` = 46 AND `racemask` = 36; --- Guns for Dwarves, Tauren, Gnomes, Goblins, and Worgen
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|1|5 WHERE `skill` = 226 AND `racemask` = 1024; --- Crossbows for Humans, Undead, and Draenei
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048|4096 WHERE `skill` = 173 AND `racemask` = 735; --- Daggers for everyone except Tauren and Draenei
+UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256|2048 WHERE `skill` = 160 AND `racemask` = 1061; -- 2H-maces for Humans, Dwarves, Tauren, Goblins, Draenei, and Worgen Warriors
+/* Special cases */
+INSERT INTO `playercreateinfo_skills` (`racemask`, `classMask`, `skill`, `rank`, `comment`) VALUES
+(0, 8, 173, 0, 'Daggers - Rogues'), --- Tauren and Draenei Rogues need Daggers
+(0, 2, 173, 0, '2H-Maces - Paladins'); --- 2H-Maces for all Paladins
 
 /* Add appropriate faction language to Worgen, Goblins, and High Elves */
 UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|256 WHERE `skill` = 109; -- Orcish language for Goblins

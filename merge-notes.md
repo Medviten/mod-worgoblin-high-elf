@@ -236,7 +236,8 @@ The biggest difference between Worgoblin and AHE here is that the former uses on
 ##### playercreateinfo_skills.sql
 - Adjusted racemasks.
 - Weaved remaining High Elf skills into the Worgoblin SQL and adjusted them to that style.
-- Also commented out Guns for High Elves and Bows for Worgen and Goblins because other Hunters in WotLK only start with one ranged weapon skill.
+- Commented out Guns for High Elves and Bows for Worgen and Goblins because other Hunters in WotLK only start with one ranged weapon skill.
+- By default, ARAC just makes every race able to use the same weapons for each class from the start, and you can still run that SQL if you want that, but I edited it so it's less of a dramatic change.
 
 ##### playercreateinfo.sql
 - Copied the Worgoblin template for High Elves, but adjusted values to match Humans.
