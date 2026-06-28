@@ -18,3 +18,8 @@ UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (3118
 UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (3119, 5621, 5622, 5627, 5628, 5629, 5630, 5631, 5632, 5633, 5672, 5673, 5674, 5675); -- Allow worgen priests to complete night elf priest quests (including the night elf priest racial quests)
 UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (26, 29, 272, 3120, 5061, 5921, 5923, 5924, 5925, 5929, 5931, 6001, 6121, 6122, 6123, 6124, 6125); -- Allow worgen druids to complete night elf druid quests
 UPDATE quest_template SET AllowableRaces = AllowableRaces|2048 WHERE ID IN (1598, 1599, 1685, 1688, 1689, 1715, 1716, 1717, 1738, 1739, 1758, 1798, 1802, 1804, 3105, 4487, 4488, 4736, 4738, 4965, 4968); -- Allow worgen warlocks to complete human warlock quests
+
+UPDATE `quest_template` INNER JOIN `quest_template_addon` 
+	ON `quest_template_addon`.id = `quest_template`.id
+		SET AllowableRaces = 8191
+			WHERE `quest_template_addon`.allowableclasses != 0 AND AllowableRaces != 0;

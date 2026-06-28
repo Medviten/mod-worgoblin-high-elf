@@ -245,6 +245,7 @@ The biggest difference between Worgoblin and AHE here is that the former uses on
 ##### quest_template.sql
 - Lazily added High Elf to Human quests alongside Worgen.
 - Adjusted the one exception to also include High Elves.
+- Added the ARAC fix at the end, sloppily.
 
 ##### spell_script_names.sql
 - Irrelevant for AHE.
