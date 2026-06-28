@@ -256,6 +256,12 @@ The biggest difference between Worgoblin and AHE here is that the former uses on
 ##### conditions.sql
 - Adjusted the racemasks so High Elves can get Human-specific gossip menus.
 
+### playercreateinfo_spell_custom.sql
+- Not sure how important this one is, but I noticed some missing combinations: Draenei Rogue & Druid (and some skills were not listed for Warlock). This mod includes extra racials for Draenei and Blood Elves to accommodate their new class combinations, so I added them to each class in order.
+- Some spells seem not to exist, and others have been removed from the game. Some look wrong. I still left them as they were, with notes.
+- Some spells are only included for certain race/class combinations. I suspect this is an oversight, but I've left it as is for now.
+- I added Goblin classes from Orc, Worgen and High Elf from Human, except racials.
+
 ---
 
 #### dbc
