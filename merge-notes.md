@@ -130,10 +130,11 @@ These DBCs are the same as the ones in patch-a.mpq, probably separated for user 
 - 394 High Elf entries
 
 ##### SkillLineAbility.dbc
-- No new IDs, but many changed entries
+- No new IDs, but many changed entries (and I think ID doesn't matter for this)
 - Add High Elf to "all races" (4095 -> 8191)
 - Add High Elf to Alliance (3149 -> 7245)
 - Add High Elf to any other appropriate field (value + 4096)
+- ARAC has specific masks for Arcane Torrent and Shadow Resistance. I used those, but added High Elves to the former.
 
 ##### SkillRaceClassInfo.dbc
 - No new IDs, but many changed entries
@@ -327,8 +328,10 @@ These don't seem relevant to AHE, possibly except for DK quests, but I'll look i
 - Adapted combinations for Worgoblin and AHE.
 
 #### SkillRaceClassInfo.dbc
+- Tried to cover all the same combinations as ARAC, but I'm wary of deleting existing entries, so mine is more cluttered.
 
 #### Spell.dbc
+- Seems to be no ID conflicts, so I think I was able to add all the new spells to my DBC.
 
 #### SpellCategory.dbc
-
+None of the mods I've merged so far has actually used this file, so I guess I'll just use it as-is.
