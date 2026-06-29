@@ -1,0 +1,393 @@
+diff -ruN originals/azerothcore-wotlk/src/server/game/Entities/Player/PlayerTaxi.cpp merged/azerothcore_wotlk/src/server/game/Entities/Player/PlayerTaxi.cpp
+--- originals/azerothcore-wotlk/src/server/game/Entities/Player/PlayerTaxi.cpp	2026-06-29 15:12:32.439405200 +0200
++++ merged/azerothcore_wotlk/src/server/game/Entities/Player/PlayerTaxi.cpp	2026-06-29 15:11:13.388486400 +0200
+@@ -67,6 +67,16 @@
+         case RACE_DRAENEI:
+             SetTaximaskNode(94);
+             break;     // Draenei
++        case RACE_GOBLIN:
++            SetTaximaskNode(23);
++            break;     // Goblin
++        case RACE_WORGEN:
++            SetTaximaskNode(26);
++            SetTaximaskNode(27);
++            break;     // Worgen
++        case RACE_HIGHELF:
++            SetTaximaskNode(2);
++            break;     // High Elf
+     }
+ 
+     // new continent starting masks (It will be accessible only at new map)
+diff -ruN originals/azerothcore-wotlk/src/server/game/Globals/ObjectMgr.cpp merged/azerothcore_wotlk/src/server/game/Globals/ObjectMgr.cpp
+--- originals/azerothcore-wotlk/src/server/game/Globals/ObjectMgr.cpp	2026-06-29 14:54:51.353569400 +0200
++++ merged/azerothcore_wotlk/src/server/game/Globals/ObjectMgr.cpp	2026-06-29 15:15:35.582813700 +0200
+@@ -4867,7 +4867,7 @@
+                     continue;
+ 
+                 // skip expansion races if not playing with expansion
+-                if (sWorld->getIntConfig(CONFIG_EXPANSION) < EXPANSION_THE_BURNING_CRUSADE && (race == RACE_BLOODELF || race == RACE_DRAENEI))
++                if (sWorld->getIntConfig(CONFIG_EXPANSION) < EXPANSION_THE_BURNING_CRUSADE && (race == RACE_BLOODELF || race == RACE_DRAENEI || race == RACE_GOBLIN || race == RACE_WORGEN || race == RACE_HIGHELF))
+                     continue;
+ 
+                 // skip expansion classes if not playing with expansion
+diff -ruN originals/azerothcore-wotlk/src/server/game/Handlers/CharacterHandler.cpp merged/azerothcore_wotlk/src/server/game/Handlers/CharacterHandler.cpp
+--- originals/azerothcore-wotlk/src/server/game/Handlers/CharacterHandler.cpp	2026-06-26 17:27:34.202487200 +0200
++++ merged/azerothcore_wotlk/src/server/game/Handlers/CharacterHandler.cpp	2026-06-29 15:17:01.111546700 +0200
+@@ -2219,6 +2219,9 @@
+             case RACE_BLOODELF:
+                 stmt->SetData(1, 137);
+                 break;
++            case RACE_HIGHELF:
++                stmt->SetData(1, 137);
++                break;
+             }
+ 
+             trans->Append(stmt);
+diff -ruN originals/azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp merged/azerothcore_wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp
+--- originals/azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp	2026-06-29 15:28:25.877191500 +0200
++++ merged/azerothcore_wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp	2026-06-29 15:28:15.981892500 +0200
+@@ -2311,10 +2311,18 @@
+                                 case RACE_BLOODELF:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 17829 : 17830);
+                                     break;
++                                // High Elf
++                                case RACE_HIGHELF:
++                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 17829 : 17830);
++                                    break;
+                                 // Orc
+                                 case RACE_ORC:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10139 : 10140);
+                                     break;
++                                // Goblin
++                                case RACE_GOBLIN:
++                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 10139 : 10140); // Orc ones
++                                    break;
+                                 // Troll
+                                 case RACE_TROLL:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10135 : 10134);
+@@ -2343,6 +2351,10 @@
+                                 case RACE_HUMAN:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138);
+                                     break;
++                                // Worgen
++                                case RACE_HUMAN:
++                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138); // Human ones
++                                    break;
+                                 // Night Elf
+                                 case RACE_NIGHTELF:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10143 : 10144);
+@@ -2370,10 +2382,18 @@
+                                 case RACE_BLOODELF:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25032 : 25043);
+                                     break;
++                                // High Elf
++                                case RACE_HIGHELF:
++                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 25032 : 25043);
++                                    break;
+                                 // Orc
+                                 case RACE_ORC:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25039 : 25050);
+                                     break;
++                                // Goblin
++                                case RACE_GOBLIN:
++                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 25039 : 25050); // Orc ones
++                                    break;
+                                 // Troll
+                                 case RACE_TROLL:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25041 : 25052);
+@@ -2402,6 +2422,10 @@
+                                 case RACE_HUMAN:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25037 : 25048);
+                                     break;
++                                // Worgen
++                                case RACE_WORGEN:
++                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 25037 : 25048); // Human ones
++                                    break;
+                                 // Night Elf
+                                 case RACE_NIGHTELF:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25038 : 25049);
+@@ -2426,6 +2450,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     if (urand(0, 1))
+                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21839 : 21838);
+                                     else
+@@ -2474,6 +2499,7 @@
+                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21853 : 21852);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     if (urand(0, 1))
+                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21859 : 21858);
+                                     else
+@@ -2514,6 +2540,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18793 : 18785);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2538,6 +2565,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18799 : 18798);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18801 : 18800);
+                                     break;
+                                 case DisplayRace::NightElf:
+@@ -2556,6 +2584,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19170 : 19169);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2580,6 +2609,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19176 : 19175);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19178 : 19177);
+                                     break;
+                                 case DisplayRace::NightElf:
+@@ -2598,6 +2628,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18841 : 18840);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2622,6 +2653,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18847 : 18846);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18860 : 18858);
+                                     break;
+                                 case DisplayRace::NightElf:
+@@ -2640,6 +2672,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22361 : 22360);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2664,6 +2697,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22367 : 22366);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22371 : 22370);
+                                     break;
+                                 case DisplayRace::NightElf:
+@@ -2682,6 +2716,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 21086 : 21085);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2706,6 +2741,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 16448 : 16447);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 16433 : 16412);
+                                     break;
+                                 case DisplayRace::NightElf:
+@@ -2724,6 +2760,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24508 : 24519);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2748,6 +2785,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24511 : 24522);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24513 : 24524);
+                                     break;
+                                 case DisplayRace::NightElf:
+@@ -2766,6 +2804,7 @@
+                             switch (target->GetDisplayRace())
+                             {
+                                 case DisplayRace::BloodElf:
++                                case DisplayRace::HighElf:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25032 : 25043);
+                                     break;
+                                 case DisplayRace::Orc:
+@@ -2790,6 +2829,7 @@
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25035 : 25046);
+                                     break;
+                                 case DisplayRace::Human:
++                                case DisplayRace::Worgen:
+                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25037 : 25048);
+                                     break;
+                                 case DisplayRace::NightElf:
+diff -ruN originals/azerothcore-wotlk/src/server/scripts/Commands/cs_misc.cpp merged/azerothcore_wotlk/src/server/scripts/Commands/cs_misc.cpp
+--- originals/azerothcore-wotlk/src/server/scripts/Commands/cs_misc.cpp	2026-06-29 14:54:51.387777300 +0200
++++ merged/azerothcore_wotlk/src/server/scripts/Commands/cs_misc.cpp	2026-06-29 15:30:21.348062500 +0200
+@@ -2326,6 +2326,15 @@
+             case RACE_DRAENEI:
+                 raceStr = "Draenei";
+                 break;
++            case RACE_GOBLIN:
++                raceStr = "Goblin";
++                break;
++            case RACE_WORGEN:
++                raceStr = "Worgen";
++                break;
++            case RACE_HIGHELF:
++                raceStr = "High Elf";
++                break;
+         }
+ 
+         switch (classid)
+diff -ruN originals/azerothcore-wotlk/src/server/scripts/Commands/cs_modify.cpp merged/azerothcore_wotlk/src/server/scripts/Commands/cs_modify.cpp
+--- originals/azerothcore-wotlk/src/server/scripts/Commands/cs_modify.cpp	2026-06-26 17:27:34.466097000 +0200
++++ merged/azerothcore_wotlk/src/server/scripts/Commands/cs_modify.cpp	2026-06-28 23:40:30.353330000 +0200
+@@ -487,7 +487,7 @@
+     //Edit Player or Creature Scale
+     static bool HandleModifyScaleCommand(ChatHandler* handler, float scale)
+     {
+-        if (scale > 10.0f || scale < 0.1f)
++        if (scale > 1000.0f || scale < 0.001f)
+         {
+             handler->SendErrorMessage(LANG_BAD_VALUE);
+             return false;
+diff -ruN originals/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ScarletEnclave/chapter1.cpp merged/azerothcore_wotlk/src/server/scripts/EasternKingdoms/ScarletEnclave/chapter1.cpp
+--- originals/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ScarletEnclave/chapter1.cpp	2026-06-26 17:27:34.528788300 +0200
++++ merged/azerothcore_wotlk/src/server/scripts/EasternKingdoms/ScarletEnclave/chapter1.cpp	2026-06-25 00:08:46.451545400 +0200
+@@ -330,8 +330,24 @@
+         uint32 spellId;
+         switch (target->GetDisplayId())
+         {
++            /*
++To find out High Elf IDs, use query:
++select extra.id from db_CreatureModelData_12340 md,  db_CreatureDisplayInfo_12340 di, db_CreatureDisplayInfoExtra_12340 extra  WHERE md.id = di.modelid 
++and di.ExtendedDisplayInfoID = extra.ID
++and di.id=25369 // this id is for blood elf female below
++
++then make note of the ID and add 22000 (because the High Elves CreatureDisplayInfoExtra IDS were created from blood elves + 22000)
++in our example, first query returned 17211
++select di.id from db_CreatureModelData_12340 md,  db_CreatureDisplayInfo_12340 di, db_CreatureDisplayInfoExtra_12340 extra  WHERE md.id = di.modelid 
++and di.ExtendedDisplayInfoID = extra.ID
++and extra.id = 17211+22000
++
++second query gives you the ID of the High Elf Model. However I am not sure if this is needed, since it's NPC. May not be needed after all.
++            */
+             case 25369: spellId = 51552; break; // bloodelf female
+             case 25373: spellId = 51551; break; // bloodelf male
++            case 33924: spellId = 51552; break; // highelf female
++            case 33925: spellId = 51551; break; // highelf male
+             case 25363: spellId = 51542; break; // draenei female
+             case 25357: spellId = 51541; break; // draenei male
+             case 25361: spellId = 51537; break; // dwarf female
+diff -ruN originals/azerothcore-wotlk/src/server/scripts/Pet/pet_generic.cpp merged/azerothcore_wotlk/src/server/scripts/Pet/pet_generic.cpp
+--- originals/azerothcore-wotlk/src/server/scripts/Pet/pet_generic.cpp	2026-06-26 17:27:34.825000300 +0200
++++ merged/azerothcore_wotlk/src/server/scripts/Pet/pet_generic.cpp	2026-06-29 15:44:35.430209800 +0200
+@@ -141,7 +141,10 @@
+     {RACE_GNOME,         {2779, 63396, "Gnomeregan Champion's Pennant"}},
+     {RACE_TROLL,         {2784, 63399, "Darkspear Champion's Pennant"}},
+     {RACE_BLOODELF,      {2785, 63403, "Silvermoon Champion's Pennant"}},
+-    {RACE_DRAENEI,       {2778, 63423, "Exodar Champion's Pennant"}}
++    {RACE_DRAENEI,       {2778, 63423, "Exodar Champion's Pennant"}},
++    {RACE_GOBLIN,        {2783, 63433, "Orgrimmar Champion's Pennant"}},
++    {RACE_WORGEN,        {2777, 63406, "Darnassus Champion's Pennant"}},
++    {RACE_HIGHELF,       {2781, 62594, "Stormwind Champion's Pennant"}}
+ };
+ 
+ struct npc_pet_gen_argent_pony_bridle : public ScriptedAI
+diff -ruN originals/azerothcore-wotlk/src/server/shared/enuminfo_SharedDefines.cpp merged/azerothcore_wotlk/src/server/shared/enuminfo_SharedDefines.cpp
+--- originals/azerothcore-wotlk/src/server/shared/enuminfo_SharedDefines.cpp	2026-06-29 15:46:46.380132200 +0200
++++ merged/azerothcore_wotlk/src/server/shared/enuminfo_SharedDefines.cpp	2026-06-25 00:23:48.919403200 +0200
+@@ -42,6 +42,9 @@
+         case RACE_TROLL: return { "RACE_TROLL", "Troll", "" };
+         case RACE_BLOODELF: return { "RACE_BLOODELF", "Blood Elf", "" };
+         case RACE_DRAENEI: return { "RACE_DRAENEI", "Draenei", "" };
++        case RACE_GOBLIN: return { "RACE_GOBLIN", "Goblin", "" };
++        case RACE_WORGEN: return { "RACE_WORGEN", "Worgen", "" };
++        case RACE_HIGHELF: return { "RACE_HIGHELF", "High Elf", "" };
+         default: throw std::out_of_range("value");
+     }
+ }
+@@ -64,6 +67,9 @@
+         case 7: return RACE_TROLL;
+         case 8: return RACE_BLOODELF;
+         case 9: return RACE_DRAENEI;
++        case 10: return RACE_GOBLIN;
++        case 11: return RACE_WORGEN;
++        case 12: return RACE_HIGHELF;
+         default: throw std::out_of_range("index");
+     }
+ }
+@@ -83,6 +89,9 @@
+         case RACE_TROLL: return 7;
+         case RACE_BLOODELF: return 8;
+         case RACE_DRAENEI: return 9;
++        case RACE_GOBLIN: return 10;
++        case RACE_WORGEN: return 11;
++        case RACE_HIGHELF: return 12;
+         default: throw std::out_of_range("value");
+     }
+ }
+diff -ruN originals/azerothcore-wotlk/src/server/shared/SharedDefines.h merged/azerothcore_wotlk/src/server/shared/SharedDefines.h
+--- originals/azerothcore-wotlk/src/server/shared/SharedDefines.h	2026-06-26 17:27:34.863277500 +0200
++++ merged/azerothcore_wotlk/src/server/shared/SharedDefines.h	2026-06-25 00:20:25.410044200 +0200
+@@ -76,11 +76,11 @@
+     RACE_TAUREN             = 6,  // TITLE Tauren
+     RACE_GNOME              = 7,  // TITLE Gnome
+     RACE_TROLL              = 8,  // TITLE Troll
+-    //RACE_GOBLIN             = 9,
++    RACE_GOBLIN             = 9,  // TITLE Goblin
+     RACE_BLOODELF           = 10, // TITLE Blood Elf
+-    RACE_DRAENEI            = 11 //, TITLE Draenei
+-    //RACE_FEL_ORC        = 12,
+-    //RACE_NAGA           = 13,
++    RACE_DRAENEI            = 11, // TITLE Draenei
++    RACE_WORGEN             = 12, // TITLE Worgen
++    RACE_HIGHELF            = 13  //, TITLE High Elf
+     //RACE_BROKEN         = 14,
+     //RACE_SKELETON       = 15,
+     //RACE_VRYKUL         = 16,
+@@ -88,7 +88,8 @@
+     //RACE_FOREST_TROLL   = 18,
+     //RACE_TAUNKA         = 19,
+     //RACE_NORTHREND_SKELETON = 20,
+-    //RACE_ICE_TROLL      = 21
++    //RACE_ICE_TROLL      = 21,
++    //RACE_NAGA           = 22
+ };
+ 
+ // DisplayRace values from CreatureDisplayInfoExtra.dbc
+@@ -106,8 +107,8 @@
+     Goblin            = 9,
+     BloodElf          = 10,
+     Draenei           = 11,
+-    FelOrc            = 12,
+-    Naga              = 13,
++    Worgen            = 12,
++    HighElf           = 13,
+     Broken            = 14,
+     Skeleton          = 15,
+     Vrykul            = 16,
+@@ -115,7 +116,8 @@
+     ForestTroll       = 18,
+     Taunka            = 19,
+     NorthrendSkeleton = 20,
+-    IceTroll          = 21
++    IceTroll          = 21,
++    Naga              = 22
+ };
+ 
+ // Class value is index in ChrClasses.dbc
