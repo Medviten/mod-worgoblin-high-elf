@@ -3701,55 +3701,55 @@ void PlayerbotFactory::InitMounts()
             slow = {470, 6648, 458, 472};
             fast = {23228, 23227, 23229};
             break;
-            case RACE_ORC:
+        case RACE_ORC:
             slow = {6654, 6653, 580};
             fast = {23250, 23252, 23251};
             break;
-            case RACE_DWARF:
+        case RACE_DWARF:
             slow = {6899, 6777, 6898};
             fast = {23238, 23239, 23240};
             break;
-            case RACE_NIGHTELF:
+        case RACE_NIGHTELF:
             slow = {10789, 8394, 10793};
             fast = {23219, 23220, 63637};
             break;
-            case RACE_UNDEAD_PLAYER:
+        case RACE_UNDEAD_PLAYER:
             slow = {17463, 17464, 17462};
             fast = {17465, 23246, 66846};
             break;
-            case RACE_TAUREN:
+        case RACE_TAUREN:
             slow = {18990, 18989, 64657};
             fast = {23249, 23248, 23247};
             break;
-            case RACE_GNOME:
+        case RACE_GNOME:
             slow = {10969, 17453, 10873, 17454};
             fast = {23225, 23223, 23222};
             break;
-            case RACE_TROLL:
+        case RACE_TROLL:
             slow = {10796, 10799, 8395};
             fast = {23241, 23242, 23243};
             break;
-            case RACE_DRAENEI:
+        case RACE_DRAENEI:
             slow = {34406, 35711, 35710};
             fast = {35713, 35712, 35714};
             break;
-            case RACE_BLOODELF:
+        case RACE_BLOODELF:
             slow = {33660, 35020, 35022, 35018};
             fast = {35025, 35025, 35027};
             break;
-            case RACE_GOBLIN:
+        case RACE_GOBLIN:
             slow = {87090};
             fast = {87091};
             break;
-            case RACE_WORGEN:
+        case RACE_WORGEN:
             slow = {103195};
             fast = {103196};
             break;
-            case RACE_HIGHELF:
+        case RACE_HIGHELF:
             slow = {470, 6648, 458, 472};
             fast = {23228, 23227, 23229};
             break;
-            default:
+        default:
             if (bot->GetTeamId() == TEAM_HORDE)
             { // Orc mounts
                 slow = {470, 6648, 458, 472};
