@@ -45,7 +45,7 @@ diff -ruN originals/azerothcore-wotlk/src/server/game/Handlers/CharacterHandler.
              trans->Append(stmt);
 diff -ruN originals/azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp merged/azerothcore_wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp
 --- originals/azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp	2026-06-29 15:28:25.877191500 +0200
-+++ merged/azerothcore_wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp	2026-06-29 15:28:15.981892500 +0200
++++ merged/azerothcore_wotlk/src/server/game/Spells/Auras/SpellAuraEffects.cpp	2026-06-29 20:55:08.713884800 +0200
 @@ -2311,10 +2311,18 @@
                                  case RACE_BLOODELF:
                                      target->SetDisplayId(target->getGender() == GENDER_MALE ? 17829 : 17830);
@@ -70,7 +70,7 @@ diff -ruN originals/azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffe
                                      target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138);
                                      break;
 +                                // Worgen
-+                                case RACE_HUMAN:
++                                case RACE_WORGEN:
 +                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138); // Human ones
 +                                    break;
                                  // Night Elf

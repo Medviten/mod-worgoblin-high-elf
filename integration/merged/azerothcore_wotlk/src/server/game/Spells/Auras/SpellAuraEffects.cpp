@@ -2352,7 +2352,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138);
                                     break;
                                 // Worgen
-                                case RACE_HUMAN:
+                                case RACE_WORGEN:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138); // Human ones
                                     break;
                                 // Night Elf
