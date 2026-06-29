@@ -2329,7 +2329,7 @@ public:
             case RACE_GOBLIN:
                 raceStr = "Goblin";
                 break;
-            case RACE_Worgen:
+            case RACE_WORGEN:
                 raceStr = "Worgen";
                 break;
             case RACE_HIGHELF:
@@ -2501,7 +2501,7 @@ public:
 
         if (isAlive)
         {
-            handler->PSendSysMessage(LANG_RESPAWN_GUID_CREATURE_ALIVE, spawnId, creData->id1);
+            handler->PSendSysMessage(LANG_RESPAWN_GUID_CREATURE_ALIVE, spawnId, creData->id);
             return true;
         }
 
@@ -2517,7 +2517,7 @@ public:
             time_t now = GameTime::GetGameTime().count();
             map->SaveCreatureRespawnTime(spawnId, now);
         }
-        handler->PSendSysMessage(LANG_RESPAWN_GUID_CREATURE_QUEUED, spawnId, creData->id1);
+        handler->PSendSysMessage(LANG_RESPAWN_GUID_CREATURE_QUEUED, spawnId, creData->id);
         return true;
     }
 
@@ -2617,7 +2617,7 @@ public:
         for (auto const& [spawnId, creature] : map->GetCreatureBySpawnIdStore())
         {
             CreatureData const* data = sObjectMgr->GetCreatureData(spawnId);
-            if (!data || data->id1 != entry)
+            if (!data || data->id != entry)
                 continue;
             if (creature->isDead())
                 deadCreatures.push_back(creature);
@@ -2633,7 +2633,7 @@ public:
         for (auto const& [spawnId, respawnTime] : map->GetCreatureRespawnTimes())
         {
             CreatureData const* data = sObjectMgr->GetCreatureData(spawnId);
-            if (!data || data->id1 != entry)
+            if (!data || data->id != entry)
                 continue;
             if (sPoolMgr->IsPartOfAPool<Creature>(spawnId))
                 continue;

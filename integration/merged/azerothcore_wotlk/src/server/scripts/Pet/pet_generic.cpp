@@ -141,10 +141,10 @@ static std::unordered_map<uint8, argentPonyBanner> argentBanners = {
     {RACE_GNOME,         {2779, 63396, "Gnomeregan Champion's Pennant"}},
     {RACE_TROLL,         {2784, 63399, "Darkspear Champion's Pennant"}},
     {RACE_BLOODELF,      {2785, 63403, "Silvermoon Champion's Pennant"}},
-    {RACE_DRAENEI,       {2778, 63423, "Exodar Champion's Pennant"}}
+    {RACE_DRAENEI,       {2778, 63423, "Exodar Champion's Pennant"}},
     {RACE_GOBLIN,        {2783, 63433, "Orgrimmar Champion's Pennant"}},
     {RACE_WORGEN,        {2777, 63406, "Darnassus Champion's Pennant"}},
-    {RACE_HIGHELF,       {2781, 62594, "Stormwind Champion's Pennant"}},
+    {RACE_HIGHELF,       {2781, 62594, "Stormwind Champion's Pennant"}}
 };
 
 struct npc_pet_gen_argent_pony_bridle : public ScriptedAI

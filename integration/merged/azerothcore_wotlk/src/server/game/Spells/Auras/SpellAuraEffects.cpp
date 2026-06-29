@@ -847,7 +847,9 @@ void AuraEffect::ApplySpellMod(Unit* target, bool apply)
                     Aura* aura = iter->second->GetBase();
                     // only passive and permament auras-active auras should have amount set on spellcast and not be affected
                     // if aura is casted by others, it will not be affected
-                    if ((aura->IsPassive() || aura->IsPermanent()) && aura->GetCasterGUID() == guid && aura->GetSpellInfo()->IsAffectedBySpellMod(m_spellmod))
+                    if ((aura->IsPassive() || aura->IsPermanent()) && aura->GetCasterGUID() == guid &&
+                        aura->GetSpellInfo()->CheckShapeshift(target->GetShapeshiftForm()) == SPELL_CAST_OK &&
+                        aura->GetSpellInfo()->IsAffectedBySpellMod(m_spellmod))
                     {
                         if (GetMiscValue() == SPELLMOD_ALL_EFFECTS)
                         {
@@ -2350,7 +2352,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138);
                                     break;
                                 // Worgen
-                                case RACE_WORGEN:
+                                case RACE_HUMAN:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10137 : 10138); // Human ones
                                     break;
                                 // Night Elf
@@ -2455,7 +2457,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21841 : 21840);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     if (urand(0, 1))
                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21867 : 21866);
                                     else
@@ -2543,7 +2544,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18793 : 18785);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18805 : 18804);
                                     break;
                                 case DisplayRace::Troll:
@@ -2588,7 +2588,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19170 : 19169);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19182 : 19181);
                                     break;
                                 case DisplayRace::Troll:
@@ -2633,7 +2632,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18841 : 18840);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18870 : 18869);
                                     break;
                                 case DisplayRace::Troll:
@@ -2678,7 +2676,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22361 : 22360);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22375 : 22374);
                                     break;
                                 case DisplayRace::Troll:
@@ -2723,7 +2720,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 21086 : 21085);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 16438 : 16436);
                                     break;
                                 case DisplayRace::Troll:
@@ -2768,7 +2764,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24508 : 24519);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24515 : 24526);
                                     break;
                                 case DisplayRace::Troll:
@@ -2813,7 +2808,6 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25032 : 25043);
                                     break;
                                 case DisplayRace::Orc:
-                                case DisplayRace::Goblin:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25039 : 25050);
                                     break;
                                 case DisplayRace::Troll:
@@ -4292,15 +4286,18 @@ void AuraEffect::HandleModPercentStat(AuraApplication const* aurApp, uint8 mode,
 
     for (int32 i = STAT_STRENGTH; i < MAX_STATS; ++i)
     {
-        if (apply)
-            target->ApplyStatPctModifier(UnitMods(UNIT_MOD_STAT_START + i), BASE_PCT, float(GetAmount()));
-        else
+        if (GetMiscValue() == i || GetMiscValue() == -1)
         {
-            float amount = target->GetTotalAuraMultiplier(SPELL_AURA_MOD_PERCENT_STAT, [i](AuraEffect const* aurEff)
+            if (apply)
+                target->ApplyStatPctModifier(UnitMods(UNIT_MOD_STAT_START + i), BASE_PCT, float(GetAmount()));
+            else
             {
-                return (aurEff->GetMiscValue() == i || aurEff->GetMiscValue() == -1);
-            });
-            target->SetStatPctModifier(UnitMods(UNIT_MOD_STAT_START + i), BASE_PCT, amount);
+                float amount = target->GetTotalAuraMultiplier(SPELL_AURA_MOD_PERCENT_STAT, [i](AuraEffect const* aurEff)
+                {
+                    return (aurEff->GetMiscValue() == i || aurEff->GetMiscValue() == -1);
+                });
+                target->SetStatPctModifier(UnitMods(UNIT_MOD_STAT_START + i), BASE_PCT, amount);
+            }
         }
     }
 }
