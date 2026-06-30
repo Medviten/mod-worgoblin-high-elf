@@ -15,4 +15,4 @@ INSERT INTO `achievement_criteria_data` (`criteria_id`, `type`, `value1`, `value
 (13484, 9, 18, 0, ''),
 (13484, 10, 1, 0, ''),
 (13485, 2, 0, 13, ''), -- Achievement 291 (Check Your Head)
-(13478, 21, 0, 13, ''); -- Achievement 1431 (Realm First! Level 80 High Elf)
+(13486, 21, 0, 13, ''); -- Achievement 1431 (Realm First! Level 80 High Elf)

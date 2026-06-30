@@ -1,5 +1,5 @@
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
---- Human Warrior
+-- Human Warrior
 ('1', '1', '78', 'Heroic Strike'),
 ('1', '1', '81', 'Dodge'),
 ('1', '1', '107', 'Block'),
@@ -77,11 +77,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '1', '23920', 'Spell Reflection'),
 ('1', '1', '469', 'Commanding Shout'),
 ('1', '1', '3411', 'Intervene'),
-('1', '1', '25212', 'Hamstring'), --- Only 9?
+('1', '1', '25212', 'Hamstring'), -- Only 9?
 ('1', '1', '674', 'Dual Wield'),
-('1', '1', '750', 'Plate Armor'), --- Only 19?
-('1', '1', '12678', 'Stance Mastery'), --- Only 9?
---- Human Paladin
+('1', '1', '750', 'Plate Armor'), -- Only 19?
+('1', '1', '12678', 'Stance Mastery'), -- Only 9?
+-- Human Paladin
 ('1', '2', '81', 'Dodge'),
 ('1', '2', '107', 'Block'),
 ('1', '2', '198', 'One-Handed Maces'),
@@ -123,10 +123,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '2', '27762', 'Libram'),
 ('1', '2', '27149', 'Devotion Aura'),
 ('1', '2', '27136', 'Holy Light'),
-('1', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('1', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('1', '2', '27140', 'Blessing of Might'),
 ('1', '2', '20271', 'Judgement of Light'),
-('1', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('1', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('1', '2', '10308', 'Hammer of Justice'),
 ('1', '2', '10278', 'Hand of Protection'),
 ('1', '2', '27154', 'Lay on Hands'),
@@ -142,35 +142,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '2', '27137', 'Flash of Light'),
 ('1', '2', '5502', 'Sense Undead'),
 ('1', '2', '19746', 'Concentration Aura'),
-('1', '2', '31895', 'Seal of Justice'), --- Removed?
+('1', '2', '31895', 'Seal of Justice'), -- Removed?
 ('1', '2', '5627', 'Turn Undead'), -- Removed?
 ('1', '2', '1038', 'Hand of Salvation'),
 ('1', '2', '27151', 'Shadow Resistance Aura'),
 ('1', '2', '19752', 'Divine Intervention'),
-('1', '2', '27160', 'Seal of Light'), --- Removed?
+('1', '2', '27160', 'Seal of Light'), -- Removed?
 ('1', '2', '27152', 'Frost Resistance Aura'),
-('1', '2', '1020', 'Divine Shield'), --- Removed?
+('1', '2', '1020', 'Divine Shield'), -- Removed?
 ('1', '2', '27153', 'Fire Resistance Aura'),
-('1', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('1', '2', '27144', 'Blessing of Light'), --- Removed?
+('1', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('1', '2', '27144', 'Blessing of Light'), -- Removed?
 ('1', '2', '4987', 'Cleanse'),
 ('1', '2', '27180', 'Hammer of Wrath'),
-('1', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('1', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('1', '2', '27139', 'Holy Wrath'),
 ('1', '2', '27141', 'Greater Blessing of Might'),
 ('1', '2', '10326', 'Turn Evil'),
 ('1', '2', '27143', 'Greater Blessing of Wisdom'),
 ('1', '2', '25898', 'Greater Blessing of Kings'),
-('1', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('1', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('1', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('1', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('1', '2', '32223', 'Crusader Aura'),
-('1', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('1', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('1', '2', '31884', 'Avenging Wrath'),
 ('1', '2', '750', 'Plate Armor'),
 ('1', '2', '3127', 'Parry'),
-('1', '2', '23214', 'Charger'), --- Only 9?
-('1', '2', '31801', 'Seal of Vengeance'), --- Only 9?
---- Human Hunter
+('1', '2', '23214', 'Charger'), -- Only 9?
+('1', '2', '31801', 'Seal of Vengeance'), -- Only 9?
+-- Human Hunter
 ('1', '4', '75', 'Auto Shot'),
 ('1', '4', '81', 'Dodge'),
 ('1', '4', '196', 'One-Handed Axes'),
@@ -218,7 +218,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '4', '13163', 'Aspect of the Monkey'),
 ('1', '4', '13358', 'Defensive State(DND)'),
 ('1', '4', '13809', 'Frost Trap'),
-('1', '4', '14268', 'Alliance Flag'), --- What?
+('1', '4', '14268', 'Alliance Flag'), -- What?
 ('1', '4', '14311', 'Freezing Trap'),
 ('1', '4', '14325', 'Hunters Mark'),
 ('1', '4', '14327', 'Scare Beast'),
@@ -240,11 +240,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '4', '22810', 'Opening - No Text'),
 ('1', '4', '24949', 'Defensive State 2(DND)'),
 ('1', '4', '27014', 'Raptor Strike'),
-('1', '4', '27015', 'Disengage'), --- Removed?
+('1', '4', '27015', 'Disengage'), -- Removed?
 ('1', '4', '27016', 'Serpent Sting'),
-('1', '4', '27018', 'Viper Sting'), --- Removed?
+('1', '4', '27018', 'Viper Sting'), -- Removed?
 ('1', '4', '27019', 'Arcane Shot'),
-('1', '4', '27020', 'Distracting Shot'), --- Removed?
+('1', '4', '27020', 'Distracting Shot'), -- Removed?
 ('1', '4', '27021', 'Multi-Shot'),
 ('1', '4', '27022', 'Volley'),
 ('1', '4', '27023', 'Immolation Trap'),
@@ -259,7 +259,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '4', '34477', 'Misdirection'),
 ('1', '4', '34600', 'Snake Trap'),
 ('1', '4', '36916', 'Mongoose Bite'),
---- Human Rogue
+-- Human Rogue
 ('1', '8', '81', 'Dodge'),
 ('1', '8', '203', 'Unarmed'),
 ('1', '8', '204', 'Defense'),
@@ -298,9 +298,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '8', '21652', 'Closing'),
 ('1', '8', '22027', 'Remove Insignia'),
 ('1', '8', '22810', 'Opening - No Text'),
-('1', '8', '26865', 'Eviscerate'), --- Only 9?
-('1', '8', '26862', 'Sinister Strike'), --- Only 9?
-('1', '8', '1787', 'Stealth'), --- Only 9?
+('1', '8', '26865', 'Eviscerate'), -- Only 9?
+('1', '8', '26862', 'Sinister Strike'), -- Only 9?
+('1', '8', '1787', 'Stealth'), -- Only 9?
 ('1', '8', '26863', 'Backstab'),
 ('1', '8', '921', 'Pick Pocket'),
 ('1', '8', '38764', 'Gouge'),
@@ -311,7 +311,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '8', '38768', 'Kick'),
 ('1', '8', '26866', 'Expose Armor'),
 ('1', '8', '26884', 'Garrote'),
-('1', '8', '27448', 'Feint'), --- Only 8?
+('1', '8', '27448', 'Feint'), -- Only 8?
 ('1', '8', '1804', 'Pick Lock'),
 ('1', '8', '27441', 'Ambush'),
 ('1', '8', '2842', 'Poisons'),
@@ -329,14 +329,14 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '8', '8643', 'Kidney Shot'),
 ('1', '8', '3127', 'Parry'),
 ('1', '8', '674', 'Dual Wield'),
-('1', '8', '3776', 'Green Leather Bracers'), --- What?
-('1', '8', '9186', null), --- Removed?
-('1', '8', '21927', 'Natures Ally'), --- What?
-('1', '8', '22054', 'QAEnchant Bracer +7 Intellect'), --- What?
-('1', '8', '22055', null), --- Removed?
+('1', '8', '3776', 'Green Leather Bracers'), -- What?
+('1', '8', '9186', null), -- Removed?
+('1', '8', '21927', 'Natures Ally'), -- What?
+('1', '8', '22054', 'QAEnchant Bracer +7 Intellect'), -- What?
+('1', '8', '22055', null), -- Removed?
 ('1', '8', '2836', 'Detect Traps'),
-('1', '8', '1860', 'Safe Fall'), --- Removed?
---- Human Priest
+('1', '8', '1860', 'Safe Fall'), -- Removed?
+-- Human Priest
 ('1', '16', '81', 'Dodge'),
 ('1', '16', '198', 'One-Handed Maces'),
 ('1', '16', '203', 'Unarmed'),
@@ -376,7 +376,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '16', '25364', 'Smite'),
 ('1', '16', '25368', 'Shadow Word: Pain'),
 ('1', '16', '25218', 'Power Word: Shield'),
-('1', '16', '25429', 'Fade'), --- Removed?
+('1', '16', '25429', 'Fade'), -- Removed?
 ('1', '16', '25222', 'Renew'),
 ('1', '16', '25375', 'Mind Blast'),
 ('1', '16', '25435', 'Resurrection'),
@@ -387,11 +387,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '16', '6346', 'Fear Ward'),
 ('1', '16', '25235', 'Flash Heal'),
 ('1', '16', '25384', 'Holy Fire'),
-('1', '16', '25596', 'Mind Soothe'), --- Removed?
+('1', '16', '25596', 'Mind Soothe'), -- Removed?
 ('1', '16', '10955', 'Shackle Undead'),
 ('1', '16', '10909', 'Mind Vision'),
-('1', '16', '25380', 'Mana Burn'), --- Removed?
-('1', '16', '10912', 'Mind Control'), --- Removed?
+('1', '16', '25380', 'Mana Burn'), -- Removed?
+('1', '16', '10912', 'Mind Control'), -- Removed?
 ('1', '16', '25308', 'Prayer of Healing'),
 ('1', '16', '25433', 'Shadow Protection'),
 ('1', '16', '552', 'Abolish Disease'),
@@ -405,10 +405,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '16', '34433', 'Shadowfiend'),
 ('1', '16', '33076', 'Prayer of Mending'),
 ('1', '16', '32375', 'Mass Dispel'),
-('1', '16', '25441', 'Feedback'), --- Removed? Only 4?
+('1', '16', '25441', 'Feedback'), -- Removed? Only 4?
 ('1', '16', '25312', 'Divine Spirit'),
-('1', '16', '25437', 'Desperate Prayer'), --- Only 5?
---- Human Shaman
+('1', '16', '25437', 'Desperate Prayer'), -- Only 5?
+-- Human Shaman
 ('1', '64', '81', 'Dodge'),
 ('1', '64', '107', 'Block'),
 ('1', '64', '131', 'Water Breathing'),
@@ -430,7 +430,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '64', '2484', 'Earthbind Totem'),
 ('1', '64', '2645', 'Ghost Wolf'),
 ('1', '64', '2825', 'Bloodlust'),
-('1', '64', '2870', 'Cure Disease'), --- Removed?
+('1', '64', '2870', 'Cure Disease'), -- Removed?
 ('1', '64', '2894', 'Fire Elemental Totem'),
 ('1', '64', '3050', 'Detect'),
 ('1', '64', '3365', 'Opening'),
@@ -465,7 +465,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '64', '21652', 'Closing'),
 ('1', '64', '22027', 'Remove Insignia'),
 ('1', '64', '22810', 'Opening - No Text'),
-('1', '64', '25359', 'Grace of Air Totem'), --- Removed?
+('1', '64', '25359', 'Grace of Air Totem'), -- Removed?
 ('1', '64', '25396', 'Healing Wave'),
 ('1', '64', '25420', 'Lesser Healing Wave'),
 ('1', '64', '25423', 'Chain Heal'),
@@ -474,7 +474,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '64', '25457', 'Flame Shock'),
 ('1', '64', '25464', 'Frost Shock'),
 ('1', '64', '25472', 'Lightning Shield'),
-('1', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('1', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('1', '64', '25489', 'Flametongue Weapon'),
 ('1', '64', '25500', 'Frostbrand Weapon'),
 ('1', '64', '25505', 'Windfury Weapon'),
@@ -490,13 +490,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '64', '25567', 'Healing Stream Totem'),
 ('1', '64', '25570', 'Mana Spring Totem'),
 ('1', '64', '25574', 'Nature Resistance Totem'),
-('1', '64', '25577', 'Windwall Totem'), --- Removed?
-('1', '64', '25587', 'Windfury Totem'), --- Removed?
-('1', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('1', '64', '25577', 'Windwall Totem'), -- Removed?
+('1', '64', '25587', 'Windfury Totem'), -- Removed?
+('1', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('1', '64', '27763', 'Totem'),
 ('1', '64', '33736', 'Water Shield'),
 ('1', '64', '36936', 'Totemic Recall'),
---- Human Mage
+-- Human Mage
 ('1', '128', '81', 'Dodge'),
 ('1', '128', '133', 'Fireball'),
 ('1', '128', '168', 'Frost Armor'),
@@ -534,9 +534,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '128', '22810', 'Opening - No Text'),
 ('1', '128', '27126', 'Arcane Intellect'),
 ('1', '128', '27070', 'Fireball'),
-('1', '128', '22018', null), --- Removed?
+('1', '128', '22018', null), -- Removed?
 ('1', '128', '27072', 'Frostbolt'),
-('1', '128', '22019', null), --- Removed?
+('1', '128', '22019', null), -- Removed?
 ('1', '128', '27079', 'Fire Blast'),
 ('1', '128', '38704', 'Arcane Missiles'),
 ('1', '128', '28272', 'Polymorph (Pig)'),
@@ -569,7 +569,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '128', '43987', 'Ritual of Refreshment'),
 ('1', '128', '30449', 'Spellsteal'),
 ('1', '128', '27087', 'Cone of Cold'),
---- Human Warlock
+-- Human Warlock
 ('1', '256', '81', 'Dodge'),
 ('1', '256', '203', 'Unarmed'),
 ('1', '256', '204', 'Defense'),
@@ -605,7 +605,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '256', '21652', 'Closing'),
 ('1', '256', '22027', 'Remove Insignia'),
 ('1', '256', '22810', 'Opening - No Text'),
-('1', '256', '27215', 'Immolate'), --- Only 9?
+('1', '256', '27215', 'Immolate'), -- Only 9?
 ('1', '256', '27209', 'Shadow Bolt'),
 ('1', '256', '27216', 'Corruption'),
 ('1', '256', '30909', 'Curse of Weakness'),
@@ -615,7 +615,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '256', '27230', 'Create Healthstone'),
 ('1', '256', '27217', 'Drain Soul'),
 ('1', '256', '27259', 'Health Funnel'),
-('1', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('1', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('1', '256', '27220', 'Drain Life'),
 ('1', '256', '5697', 'Unending Breath'),
 ('1', '256', '27238', 'Create Soulstone'),
@@ -624,7 +624,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '256', '27212', 'Rain of Fire'),
 ('1', '256', '698', 'Ritual of Summoning'),
 ('1', '256', '5500', 'Sense Demons'),
-('1', '256', '30908', 'Drain Mana'), --- Removed?
+('1', '256', '30908', 'Drain Mana'), -- Removed?
 ('1', '256', '11719', 'Curse of Tongues'),
 ('1', '256', '132', 'Detect Invisibility'),
 ('1', '256', '18647', 'Banish'),
@@ -636,7 +636,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '256', '27250', 'Create Firestone'),
 ('1', '256', '17928', 'Howl of Terror'),
 ('1', '256', '27223', 'Death Coil'),
-('1', '256', '27229', 'Curse of Shadow'), --- Removed?
+('1', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('1', '256', '30545', 'Soul Fire'),
 ('1', '256', '30910', 'Curse of Doom'),
 ('1', '256', '18540', 'Ritual of Doom'),
@@ -649,9 +649,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '256', '688', 'Summon Imp'),
 ('1', '256', '697', 'Summon Voidwalker'),
 ('1', '256', '712', 'Summon Succubus'),
-('1', '256', '691', 'Summon Felhunter'), --- 10 of this?
+('1', '256', '691', 'Summon Felhunter'), -- 10 of this?
 ('1', '256', '126', 'Eye of Kilrogg'),
---- Human Druid
+-- Human Druid
 ('1', '1024', '81', 'Dodge'),
 ('1', '1024', '203', 'Unarmed'),
 ('1', '1024', '204', 'Defense'),
@@ -724,13 +724,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '1024', '26990', 'Mark of the Wild'),
 ('1', '1024', '26991', 'Gift of the Wild'),
 ('1', '1024', '26992', 'Thorns'),
-('1', '1024', '26993', 'Faerie Fire'), --- Removed?
+('1', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('1', '1024', '26994', 'Rebirth'),
 ('1', '1024', '26995', 'Soothe Animal'),
 ('1', '1024', '26996', 'Maul'),
 ('1', '1024', '26997', 'Swipe (Bear)'),
 ('1', '1024', '26998', 'Demoralizing Roar'),
-('1', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('1', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('1', '1024', '27000', 'Claw'),
 ('1', '1024', '27002', 'Shred'),
 ('1', '1024', '27003', 'Rake'),
@@ -749,7 +749,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1', '1024', '34123', 'Tree of Life(Passive)'),
 ('1', '1024', '40120', 'Swift Flight Form'),
 ('1', '1024', '40121', 'Swift Flight Form(Passive)'),
---- Orc Warrior
+-- Orc Warrior
 ('2', '1', '78', 'Heroic Strike'),
 ('2', '1', '81', 'Dodge'),
 ('2', '1', '107', 'Block'),
@@ -830,7 +830,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '1', '674', 'Dual Wield'),
 ('2', '1', '750', 'Plate Armor'),
 ('2', '1', '12678', 'Stance Mastery'),
---- Orc Paladin
+-- Orc Paladin
 ('2', '2', '81', 'Dodge'),
 ('2', '2', '107', 'Block'),
 ('2', '2', '198', 'One-Handed Maces'),
@@ -841,7 +841,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '2', '635', 'Holy Light'),
 ('2', '2', '669', 'Language Orcish'),
 ('2', '2', '750', 'Plate Armor'),
-('2', '2', '1020', 'Divine Shield'), --- Removed?
+('2', '2', '1020', 'Divine Shield'), -- Removed?
 ('2', '2', '1038', 'Hand of Salvation'),
 ('2', '2', '1044', 'Hand of Freedom'),
 ('2', '2', '2382', 'Generic'),
@@ -885,7 +885,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '2', '22810', 'Opening - No Text'),
 ('2', '2', '23214', 'Charger'),
 ('2', '2', '25780', 'Righteous Fury'),
-('2', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('2', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('2', '2', '25898', 'Greater Blessing of Kings'),
 ('2', '2', '27136', 'Holy Light'),
 ('2', '2', '27137', 'Flash of Light'),
@@ -895,30 +895,30 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '2', '27141', 'Greater Blessing of Might'),
 ('2', '2', '27142', 'Blessing of Wisdom'),
 ('2', '2', '27143', 'Greater Blessing of Wisdom'),
-('2', '2', '27144', 'Blessing of Light'), --- Removed?
-('2', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('2', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('2', '2', '27144', 'Blessing of Light'), -- Removed?
+('2', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('2', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('2', '2', '27149', 'Devotion Aura'),
 ('2', '2', '27150', 'Retribution Aura'),
 ('2', '2', '27151', 'Shadow Resistance Aura'),
 ('2', '2', '27152', 'Frost Resistance Aura'),
 ('2', '2', '27153', 'Fire Resistance Aura'),
 ('2', '2', '27154', 'Lay on Hands'),
-('2', '2', '27155', 'Seal of Righteousness'), --- Removed?
-('2', '2', '27158', 'Seal of the Crusader'), --- Removed?
-('2', '2', '27160', 'Seal of Light'), --- Removed?
-('2', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('2', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('2', '2', '27155', 'Seal of Righteousness'), -- Removed?
+('2', '2', '27158', 'Seal of the Crusader'), -- Removed?
+('2', '2', '27160', 'Seal of Light'), -- Removed?
+('2', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('2', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('2', '2', '27173', 'Consecration'),
 ('2', '2', '27180', 'Hammer of Wrath'),
 ('2', '2', '27762', 'Libram'),
 ('2', '2', '31789', 'Righteous Defense'),
 ('2', '2', '31801', 'Seal of Vengeance'),
 ('2', '2', '31884', 'Avenging Wrath'),
-('2', '2', '31895', 'Seal of Justice'), --- Removed?
+('2', '2', '31895', 'Seal of Justice'), -- Removed?
 ('2', '2', '32223', 'Crusader Aura'),
 ('2', '2', '33776', 'Spiritual Attunement'),
---- Orc Hunter
+-- Orc Hunter
 ('2', '4', '75', 'Auto Shot'),
 ('2', '4', '81', 'Dodge'),
 ('2', '4', '196', 'One-Handed Axes'),
@@ -970,9 +970,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '4', '982', 'Revive Pet'),
 ('2', '4', '1515', 'Tame Beast'),
 ('2', '4', '19883', 'Track Humanoids'),
-('2', '4', '27020', 'Distracting Shot'), --- Removed?
+('2', '4', '27020', 'Distracting Shot'), -- Removed?
 ('2', '4', '27046', 'Mend Pet'),
-('2', '4', '14268', 'Alliance Flag'), --- What?
+('2', '4', '14268', 'Alliance Flag'), -- What?
 ('2', '4', '6197', 'Eagle Eye'),
 ('2', '4', '1002', 'Eyes of the Beast'),
 ('2', '4', '14327', 'Scare Beast'),
@@ -981,7 +981,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '4', '27021', 'Multi-Shot'),
 ('2', '4', '19884', 'Track Undead'),
 ('2', '4', '5118', 'Aspect of the Cheetah'),
-('2', '4', '27015', 'Disengage'), --- Removed?
+('2', '4', '27015', 'Disengage'), -- Removed?
 ('2', '4', '14311', 'Freezing Trap'),
 ('2', '4', '3043', 'Scorpid Sting'),
 ('2', '4', '1462', 'Beast Lore'),
@@ -994,7 +994,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '4', '1543', 'Flare'),
 ('2', '4', '19878', 'Track Demons'),
 ('2', '4', '27025', 'Explosive Trap'),
-('2', '4', '27018', 'Viper Sting'), --- Removed?
+('2', '4', '27018', 'Viper Sting'), -- Removed?
 ('2', '4', '13159', 'Aspect of the Pack'),
 ('2', '4', '19882', 'Track Giants'),
 ('2', '4', '27022', 'Volley'),
@@ -1008,9 +1008,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '4', '34477', 'Misdirection'),
 ('2', '4', '674', 'Dual Wield'),
 ('2', '4', '8737', 'Mail'),
-('2', '4', '5149', 'Beast Training'), --- Only 8?
+('2', '4', '5149', 'Beast Training'), -- Only 8?
 ('2', '4', '3127', 'Parry'),
---- Orc Rogue
+-- Orc Rogue
 ('2', '8', '81', 'Dodge'),
 ('2', '8', '203', 'Unarmed'),
 ('2', '8', '204', 'Defense'),
@@ -1080,13 +1080,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '8', '3127', 'Parry'),
 ('2', '8', '674', 'Dual Wield'),
 ('2', '8', '3776', 'Green Leather Bracers'),
-('2', '8', '9186', null), --- Removed?
+('2', '8', '9186', null), -- Removed?
 ('2', '8', '21927', 'Natures Ally'),
 ('2', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('2', '8', '22055', null), --- Removed?
+('2', '8', '22055', null), -- Removed?
 ('2', '8', '2836', 'Detect Traps'),
 ('2', '8', '1860', 'Safe Fall'),
---- Orc Priest
+-- Orc Priest
 ('2', '16', '669', 'Language Orcish'),
 ('2', '16', '20572', 'Blood Fury'),
 ('2', '16', '20573', 'Hardiness'),
@@ -1125,7 +1125,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '16', '25364', 'Smite'),
 ('2', '16', '25368', 'Shadow Word: Pain'),
 ('2', '16', '25218', 'Power Word: Shield'),
-('2', '16', '25429', 'Fade'), --- Removed?
+('2', '16', '25429', 'Fade'), -- Removed?
 ('2', '16', '25222', 'Renew'),
 ('2', '16', '25375', 'Mind Blast'),
 ('2', '16', '25435', 'Resurrection'),
@@ -1136,11 +1136,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '16', '6346', 'Fear Ward'),
 ('2', '16', '25235', 'Flash Heal'),
 ('2', '16', '25384', 'Holy Fire'),
-('2', '16', '25596', 'Mind Soothe'), --- Removed?
+('2', '16', '25596', 'Mind Soothe'), -- Removed?
 ('2', '16', '10955', 'Shackle Undead'),
 ('2', '16', '10909', 'Mind Vision'),
-('2', '16', '25380', 'Mana Burn'), --- Removed?
-('2', '16', '10912', 'Mind Control'), --- Removed?
+('2', '16', '25380', 'Mana Burn'), -- Removed?
+('2', '16', '10912', 'Mind Control'), -- Removed?
 ('2', '16', '25308', 'Prayer of Healing'),
 ('2', '16', '25433', 'Shadow Protection'),
 ('2', '16', '552', 'Abolish Disease'),
@@ -1154,10 +1154,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '16', '34433', 'Shadowfiend'),
 ('2', '16', '33076', 'Prayer of Mending'),
 ('2', '16', '32375', 'Mass Dispel'),
-('2', '16', '25441', 'Feedback'), --- Removed?
+('2', '16', '25441', 'Feedback'), -- Removed?
 ('2', '16', '25312', 'Divine Spirit'),
 ('2', '16', '25437', 'Desperate Prayer'),
---- Orc Shaman
+-- Orc Shaman
 ('2', '64', '81', 'Dodge'),
 ('2', '64', '107', 'Block'),
 ('2', '64', '198', 'One-Handed Maces'),
@@ -1197,7 +1197,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '64', '33697', 'Blood Fury'),
 ('2', '64', '25396', 'Healing Wave'),
 ('2', '64', '25449', 'Lightning Bolt'),
-('2', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('2', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('2', '64', '25454', 'Earth Shock'),
 ('2', '64', '25509', 'Stoneskin Totem'),
 ('2', '64', '2484', 'Earthbind Totem'),
@@ -1217,7 +1217,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '64', '2645', 'Ghost Wolf'),
 ('2', '64', '25567', 'Healing Stream Totem'),
 ('2', '64', '25420', 'Lesser Healing Wave'),
-('2', '64', '2870', 'Cure Disease'), --- Removed?
+('2', '64', '2870', 'Cure Disease'), -- Removed?
 ('2', '64', '8166', 'Poison Cleansing Totem'),
 ('2', '64', '131', 'Water Breathing'),
 ('2', '64', '25560', 'Frost Resistance Totem'),
@@ -1233,22 +1233,22 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '64', '36936', 'Totemic Recall'),
 ('2', '64', '25505', 'Windfury Weapon'),
 ('2', '64', '421', 'Chain Lightning'),
-('2', '64', '25587', 'Windfury Totem'), --- Removed?
+('2', '64', '25587', 'Windfury Totem'), -- Removed?
 ('2', '64', '6495', 'Sentry Totem'),
-('2', '64', '25577', 'Windwall Totem'), --- Removed?
+('2', '64', '25577', 'Windwall Totem'), -- Removed?
 ('2', '64', '8170', 'Cleansing Totem'),
 ('2', '64', '25423', 'Chain Heal'),
-('2', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('2', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('2', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('2', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('2', '64', '33736', 'Water Shield'),
 ('2', '64', '3738', 'Wrath of Air Totem'),
 ('2', '64', '2062', 'Earth Elemental Totem'),
 ('2', '64', '2894', 'Fire Elemental Totem'),
-('2', '64', '2825', 'Bloodlust'), --- Only 9?
-('2', '64', '25442', 'Chain Lightning'), --- Only 6?
+('2', '64', '2825', 'Bloodlust'), -- Only 9?
+('2', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('2', '64', '8737', 'Mail'),
-('2', '64', '20608', 'Reincarnation'), --- Only 6?
---- Orc Mage
+('2', '64', '20608', 'Reincarnation'), -- Only 6?
+-- Orc Mage
 ('2', '128', '669', 'Language Orcish'),
 ('2', '128', '20572', 'Blood Fury'),
 ('2', '128', '20573', 'Hardiness'),
@@ -1320,7 +1320,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '128', '43987', 'Ritual of Refreshment'),
 ('2', '128', '30449', 'Spellsteal'),
 ('2', '128', '27087', 'Cone of Cold'),
---- Orc Warlock
+-- Orc Warlock
 ('2', '256', '81', 'Dodge'),
 ('2', '256', '203', 'Unarmed'),
 ('2', '256', '204', 'Defense'),
@@ -1365,7 +1365,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '256', '27230', 'Create Healthstone'),
 ('2', '256', '27217', 'Drain Soul'),
 ('2', '256', '27259', 'Health Funnel'),
-('2', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('2', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('2', '256', '27220', 'Drain Life'),
 ('2', '256', '5697', 'Unending Breath'),
 ('2', '256', '27238', 'Create Soulstone'),
@@ -1374,7 +1374,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '256', '27212', 'Rain of Fire'),
 ('2', '256', '698', 'Ritual of Summoning'),
 ('2', '256', '5500', 'Sense Demons'),
-('2', '256', '30908', 'Drain Mana'), --- Removed?
+('2', '256', '30908', 'Drain Mana'), -- Removed?
 ('2', '256', '11719', 'Curse of Tongues'),
 ('2', '256', '132', 'Detect Invisibility'),
 ('2', '256', '18647', 'Banish'),
@@ -1386,7 +1386,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '256', '27250', 'Create Firestone'),
 ('2', '256', '17928', 'Howl of Terror'),
 ('2', '256', '27223', 'Death Coil'),
-('2', '256', '27229', 'Curse of Shadow'), --- Removed?
+('2', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('2', '256', '30545', 'Soul Fire'),
 ('2', '256', '30910', 'Curse of Doom'),
 ('2', '256', '18540', 'Ritual of Doom'),
@@ -1401,7 +1401,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '256', '712', 'Summon Succubus'),
 ('2', '256', '691', 'Summon Felhunter'),
 ('2', '256', '126', 'Eye of Kilrogg'),
---- Orc Druid
+-- Orc Druid
 ('2', '1024', '669', 'Language Orcish'),
 ('2', '1024', '20572', 'Blood Fury'),
 ('2', '1024', '20573', 'Hardiness'),
@@ -1469,7 +1469,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '1024', '8983', 'Bash'),
 ('2', '1024', '8946', 'Cure Poison'),
 ('2', '1024', '26997', 'Swipe (Bear)'),
-('2', '1024', '26993', 'Faerie Fire'), --- Removed?
+('2', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('2', '1024', '18658', 'Hibernate'),
 ('2', '1024', '27000', 'Claw'),
 ('2', '1024', '9913', 'Prowl'),
@@ -1489,7 +1489,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '1024', '24248', 'Ferocious Bite'),
 ('2', '1024', '27005', 'Ravage'),
 ('2', '1024', '5225', 'Track Humanoids'),
-('2', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('2', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('2', '1024', '27012', 'Hurricane'),
 ('2', '1024', '27006', 'Pounce'),
 ('2', '1024', '29166', 'Innervate'),
@@ -1500,7 +1500,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2', '1024', '33745', 'Lacerate'),
 ('2', '1024', '33786', 'Cyclone'),
 ('2', '1024', '20719', 'Feline Grace'),
---- Dwarf Warrior
+-- Dwarf Warrior
 ('4', '1', '78', 'Heroic Strike'),
 ('4', '1', '81', 'Dodge'),
 ('4', '1', '107', 'Block'),
@@ -1582,7 +1582,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '1', '674', 'Dual Wield'),
 ('4', '1', '750', 'Plate Armor'),
 ('4', '1', '12678', 'Stance Mastery'),
---- Dwarf Paladin
+-- Dwarf Paladin
 ('4', '2', '81', 'Dodge'),
 ('4', '2', '107', 'Block'),
 ('4', '2', '198', 'One-Handed Maces'),
@@ -1624,10 +1624,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '2', '27762', 'Libram'),
 ('4', '2', '27149', 'Devotion Aura'),
 ('4', '2', '27136', 'Holy Light'),
-('4', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('4', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('4', '2', '27140', 'Blessing of Might'),
 ('4', '2', '20271', 'Judgement of Light'),
-('4', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('4', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('4', '2', '10308', 'Hammer of Justice'),
 ('4', '2', '10278', 'Hand of Protection'),
 ('4', '2', '27154', 'Lay on Hands'),
@@ -1643,35 +1643,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '2', '27137', 'Flash of Light'),
 ('4', '2', '5502', 'Sense Undead'),
 ('4', '2', '19746', 'Concentration Aura'),
-('4', '2', '31895', 'Seal of Justice'), --- Removed?
+('4', '2', '31895', 'Seal of Justice'), -- Removed?
 ('4', '2', '5627', 'Turn Undead'), -- Removed?
 ('4', '2', '1038', 'Hand of Salvation'),
 ('4', '2', '27151', 'Shadow Resistance Aura'),
 ('4', '2', '19752', 'Divine Intervention'),
-('4', '2', '27160', 'Seal of Light'), --- Removed?
+('4', '2', '27160', 'Seal of Light'), -- Removed?
 ('4', '2', '27152', 'Frost Resistance Aura'),
-('4', '2', '1020', 'Divine Shield'), --- Removed?
+('4', '2', '1020', 'Divine Shield'), -- Removed?
 ('4', '2', '27153', 'Fire Resistance Aura'),
-('4', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('4', '2', '27144', 'Blessing of Light'), --- Removed?
+('4', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('4', '2', '27144', 'Blessing of Light'), -- Removed?
 ('4', '2', '4987', 'Cleanse'),
 ('4', '2', '27180', 'Hammer of Wrath'),
-('4', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('4', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('4', '2', '27139', 'Holy Wrath'),
 ('4', '2', '27141', 'Greater Blessing of Might'),
 ('4', '2', '10326', 'Turn Evil'),
 ('4', '2', '27143', 'Greater Blessing of Wisdom'),
 ('4', '2', '25898', 'Greater Blessing of Kings'),
-('4', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('4', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('4', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('4', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('4', '2', '32223', 'Crusader Aura'),
-('4', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('4', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('4', '2', '31884', 'Avenging Wrath'),
 ('4', '2', '750', 'Plate Armor'),
 ('4', '2', '3127', 'Parry'),
 ('4', '2', '23214', 'Charger'),
 ('4', '2', '31801', 'Seal of Vengeance'),
---- Dwarf Hunter
+-- Dwarf Hunter
 ('4', '4', '75', 'Auto Shot'),
 ('4', '4', '81', 'Dodge'),
 ('4', '4', '196', 'One-Handed Axes'),
@@ -1724,9 +1724,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '4', '982', 'Revive Pet'),
 ('4', '4', '1515', 'Tame Beast'),
 ('4', '4', '19883', 'Track Humanoids'),
-('4', '4', '27020', 'Distracting Shot'), --- Removed?
+('4', '4', '27020', 'Distracting Shot'), -- Removed?
 ('4', '4', '27046', 'Mend Pet'),
-('4', '4', '14268', 'Alliance Flag'), --- What?
+('4', '4', '14268', 'Alliance Flag'), -- What?
 ('4', '4', '6197', 'Eagle Eye'),
 ('4', '4', '1002', 'Eyes of the Beast'),
 ('4', '4', '14327', 'Scare Beast'),
@@ -1735,7 +1735,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '4', '27021', 'Multi-Shot'),
 ('4', '4', '19884', 'Track Undead'),
 ('4', '4', '5118', 'Aspect of the Cheetah'),
-('4', '4', '27015', 'Disengage'), --- Removed?
+('4', '4', '27015', 'Disengage'), -- Removed?
 ('4', '4', '14311', 'Freezing Trap'),
 ('4', '4', '3043', 'Scorpid Sting'),
 ('4', '4', '1462', 'Beast Lore'),
@@ -1748,7 +1748,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '4', '1543', 'Flare'),
 ('4', '4', '19878', 'Track Demons'),
 ('4', '4', '27025', 'Explosive Trap'),
-('4', '4', '27018', 'Viper Sting'), --- Removed?
+('4', '4', '27018', 'Viper Sting'), -- Removed?
 ('4', '4', '13159', 'Aspect of the Pack'),
 ('4', '4', '19882', 'Track Giants'),
 ('4', '4', '27022', 'Volley'),
@@ -1764,7 +1764,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '4', '8737', 'Mail'),
 ('4', '4', '5149', 'Beast Training'),
 ('4', '4', '3127', 'Parry'),
---- Dwarf Rogue
+-- Dwarf Rogue
 ('4', '8', '81', 'Dodge'),
 ('4', '8', '203', 'Unarmed'),
 ('4', '8', '204', 'Defense'),
@@ -1835,13 +1835,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '8', '3127', 'Parry'),
 ('4', '8', '674', 'Dual Wield'),
 ('4', '8', '3776', 'Green Leather Bracers'),
-('4', '8', '9186', null), --- Removed?
+('4', '8', '9186', null), -- Removed?
 ('4', '8', '21927', 'Natures Ally'),
 ('4', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('4', '8', '22055', null), --- Removed?
+('4', '8', '22055', null), -- Removed?
 ('4', '8', '2836', 'Detect Traps'),
 ('4', '8', '1860', 'Safe Fall'),
---- Dwarf Priest
+-- Dwarf Priest
 ('4', '16', '81', 'Dodge'),
 ('4', '16', '198', 'One-Handed Maces'),
 ('4', '16', '203', 'Unarmed'),
@@ -1881,7 +1881,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '16', '25364', 'Smite'),
 ('4', '16', '25368', 'Shadow Word: Pain'),
 ('4', '16', '25218', 'Power Word: Shield'),
-('4', '16', '25429', 'Fade'), --- Removed?
+('4', '16', '25429', 'Fade'), -- Removed?
 ('4', '16', '25222', 'Renew'),
 ('4', '16', '25375', 'Mind Blast'),
 ('4', '16', '25435', 'Resurrection'),
@@ -1892,11 +1892,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '16', '6346', 'Fear Ward'),
 ('4', '16', '25235', 'Flash Heal'),
 ('4', '16', '25384', 'Holy Fire'),
-('4', '16', '25596', 'Mind Soothe'), --- Removed?
+('4', '16', '25596', 'Mind Soothe'), -- Removed?
 ('4', '16', '10955', 'Shackle Undead'),
 ('4', '16', '10909', 'Mind Vision'),
-('4', '16', '25380', 'Mana Burn'), --- Removed?
-('4', '16', '10912', 'Mind Control'), --- Removed?
+('4', '16', '25380', 'Mana Burn'), -- Removed?
+('4', '16', '10912', 'Mind Control'), -- Removed?
 ('4', '16', '25308', 'Prayer of Healing'),
 ('4', '16', '25433', 'Shadow Protection'),
 ('4', '16', '552', 'Abolish Disease'),
@@ -1912,7 +1912,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '16', '32375', 'Mass Dispel'),
 ('4', '16', '25312', 'Divine Spirit'),
 ('4', '16', '25437', 'Desperate Prayer'),
---- Dwarf Shaman
+-- Dwarf Shaman
 ('4', '64', '672', 'Language Dwarven'),
 ('4', '64', '2481', 'Find Treasure'),
 ('4', '64', '20594', 'Stoneform'),
@@ -1953,7 +1953,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '64', '27763', 'Totem'),
 ('4', '64', '25396', 'Healing Wave'),
 ('4', '64', '25449', 'Lightning Bolt'),
-('4', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('4', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('4', '64', '25454', 'Earth Shock'),
 ('4', '64', '25509', 'Stoneskin Totem'),
 ('4', '64', '2484', 'Earthbind Totem'),
@@ -1973,7 +1973,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '64', '2645', 'Ghost Wolf'),
 ('4', '64', '25567', 'Healing Stream Totem'),
 ('4', '64', '25420', 'Lesser Healing Wave'),
-('4', '64', '2870', 'Cure Disease'), --- Removed?
+('4', '64', '2870', 'Cure Disease'), -- Removed?
 ('4', '64', '8166', 'Poison Cleansing Totem'),
 ('4', '64', '131', 'Water Breathing'),
 ('4', '64', '25560', 'Frost Resistance Totem'),
@@ -1989,19 +1989,19 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '64', '36936', 'Totemic Recall'),
 ('4', '64', '25505', 'Windfury Weapon'),
 ('4', '64', '421', 'Chain Lightning'),
-('4', '64', '25587', 'Windfury Totem'), --- Removed?
+('4', '64', '25587', 'Windfury Totem'), -- Removed?
 ('4', '64', '6495', 'Sentry Totem'),
-('4', '64', '25577', 'Windwall Totem'), --- Removed?
+('4', '64', '25577', 'Windwall Totem'), -- Removed?
 ('4', '64', '8170', 'Cleansing Totem'),
 ('4', '64', '25423', 'Chain Heal'),
-('4', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('4', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('4', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('4', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('4', '64', '33736', 'Water Shield'),
 ('4', '64', '3738', 'Wrath of Air Totem'),
 ('4', '64', '2062', 'Earth Elemental Totem'),
 ('4', '64', '2894', 'Fire Elemental Totem'),
 ('4', '64', '2825', 'Bloodlust'),
---- Dwarf Mage
+-- Dwarf Mage
 ('4', '128', '672', 'Language Dwarven'),
 ('4', '128', '2481', 'Find Treasure'),
 ('4', '128', '20594', 'Stoneform'),
@@ -2074,7 +2074,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '128', '43987', 'Ritual of Refreshment'),
 ('4', '128', '30449', 'Spellsteal'),
 ('4', '128', '27087', 'Cone of Cold'),
---- Dwarf Warlock
+-- Dwarf Warlock
 ('4', '256', '672', 'Language Dwarven'),
 ('4', '256', '2481', 'Find Treasure'),
 ('4', '256', '20594', 'Stoneform'),
@@ -2120,7 +2120,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '256', '27230', 'Create Healthstone'),
 ('4', '256', '27217', 'Drain Soul'),
 ('4', '256', '27259', 'Health Funnel'),
-('4', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('4', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('4', '256', '27220', 'Drain Life'),
 ('4', '256', '5697', 'Unending Breath'),
 ('4', '256', '27238', 'Create Soulstone'),
@@ -2129,7 +2129,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '256', '27212', 'Rain of Fire'),
 ('4', '256', '698', 'Ritual of Summoning'),
 ('4', '256', '5500', 'Sense Demons'),
-('4', '256', '30908', 'Drain Mana'), --- Removed?
+('4', '256', '30908', 'Drain Mana'), -- Removed?
 ('4', '256', '11719', 'Curse of Tongues'),
 ('4', '256', '132', 'Detect Invisibility'),
 ('4', '256', '18647', 'Banish'),
@@ -2141,7 +2141,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '256', '27250', 'Create Firestone'),
 ('4', '256', '17928', 'Howl of Terror'),
 ('4', '256', '27223', 'Death Coil'),
-('4', '256', '27229', 'Curse of Shadow'), --- Removed?
+('4', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('4', '256', '30545', 'Soul Fire'),
 ('4', '256', '30910', 'Curse of Doom'),
 ('4', '256', '18540', 'Ritual of Doom'),
@@ -2156,7 +2156,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '256', '712', 'Summon Succubus'),
 ('4', '256', '691', 'Summon Felhunter'),
 ('4', '256', '126', 'Eye of Kilrogg'),
---- Dwarf Druid
+-- Dwarf Druid
 ('4', '1024', '672', 'Language Dwarven'),
 ('4', '1024', '2481', 'Find Treasure'),
 ('4', '1024', '20594', 'Stoneform'),
@@ -2225,7 +2225,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '1024', '8983', 'Bash'),
 ('4', '1024', '8946', 'Cure Poison'),
 ('4', '1024', '26997', 'Swipe (Bear)'),
-('4', '1024', '26993', 'Faerie Fire'), --- Removed?
+('4', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('4', '1024', '18658', 'Hibernate'),
 ('4', '1024', '27000', 'Claw'),
 ('4', '1024', '9913', 'Prowl'),
@@ -2245,7 +2245,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '1024', '24248', 'Ferocious Bite'),
 ('4', '1024', '27005', 'Ravage'),
 ('4', '1024', '5225', 'Track Humanoids'),
-('4', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('4', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('4', '1024', '27012', 'Hurricane'),
 ('4', '1024', '27006', 'Pounce'),
 ('4', '1024', '29166', 'Innervate'),
@@ -2255,7 +2255,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4', '1024', '33763', 'Lifebloom'),
 ('4', '1024', '33745', 'Lacerate'),
 ('4', '1024', '33786', 'Cyclone'),
---- Night Elf Warrior
+-- Night Elf Warrior
 ('8', '1', '78', 'Heroic Strike'),
 ('8', '1', '81', 'Dodge'),
 ('8', '1', '107', 'Block'),
@@ -2338,7 +2338,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '1', '674', 'Dual Wield'),
 ('8', '1', '750', 'Plate Armor'),
 ('8', '1', '12678', 'Stance Mastery'),
---- Night Elf Paladin
+-- Night Elf Paladin
 ('8', '2', '671', 'Language Darnassian'),
 ('8', '2', '20580', 'Shadowmeld'),
 ('8', '2', '20582', 'Quickness'),
@@ -2381,10 +2381,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '2', '27762', 'Libram'),
 ('8', '2', '27149', 'Devotion Aura'),
 ('8', '2', '27136', 'Holy Light'),
-('8', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('8', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('8', '2', '27140', 'Blessing of Might'),
 ('8', '2', '20271', 'Judgement of Light'),
-('8', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('8', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('8', '2', '10308', 'Hammer of Justice'),
 ('8', '2', '10278', 'Hand of Protection'),
 ('8', '2', '27154', 'Lay on Hands'),
@@ -2400,35 +2400,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '2', '27137', 'Flash of Light'),
 ('8', '2', '5502', 'Sense Undead'),
 ('8', '2', '19746', 'Concentration Aura'),
-('8', '2', '31895', 'Seal of Justice'), --- Removed?
+('8', '2', '31895', 'Seal of Justice'), -- Removed?
 ('8', '2', '5627', 'Turn Undead'), -- Removed?
 ('8', '2', '1038', 'Hand of Salvation'),
 ('8', '2', '27151', 'Shadow Resistance Aura'),
 ('8', '2', '19752', 'Divine Intervention'),
-('8', '2', '27160', 'Seal of Light'), --- Removed?
+('8', '2', '27160', 'Seal of Light'), -- Removed?
 ('8', '2', '27152', 'Frost Resistance Aura'),
-('8', '2', '1020', 'Divine Shield'), --- Removed?
+('8', '2', '1020', 'Divine Shield'), -- Removed?
 ('8', '2', '27153', 'Fire Resistance Aura'),
-('8', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('8', '2', '27144', 'Blessing of Light'), --- Removed?
+('8', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('8', '2', '27144', 'Blessing of Light'), -- Removed?
 ('8', '2', '4987', 'Cleanse'),
 ('8', '2', '27180', 'Hammer of Wrath'),
-('8', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('8', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('8', '2', '27139', 'Holy Wrath'),
 ('8', '2', '27141', 'Greater Blessing of Might'),
 ('8', '2', '10326', 'Turn Evil'),
 ('8', '2', '27143', 'Greater Blessing of Wisdom'),
 ('8', '2', '25898', 'Greater Blessing of Kings'),
-('8', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('8', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('8', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('8', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('8', '2', '32223', 'Crusader Aura'),
-('8', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('8', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('8', '2', '31884', 'Avenging Wrath'),
 ('8', '2', '750', 'Plate Armor'),
 ('8', '2', '3127', 'Parry'),
 ('8', '2', '23214', 'Charger'),
 ('8', '2', '31801', 'Seal of Vengeance'),
---- Night Elf Hunter
+-- Night Elf Hunter
 ('8', '4', '75', 'Auto Shot'),
 ('8', '4', '81', 'Dodge'),
 ('8', '4', '203', 'Unarmed'),
@@ -2482,9 +2482,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '4', '982', 'Revive Pet'),
 ('8', '4', '1515', 'Tame Beast'),
 ('8', '4', '19883', 'Track Humanoids'),
-('8', '4', '27020', 'Distracting Shot'), --- Removed?
+('8', '4', '27020', 'Distracting Shot'), -- Removed?
 ('8', '4', '27046', 'Mend Pet'),
-('8', '4', '14268', 'Alliance Flag'), --- What?
+('8', '4', '14268', 'Alliance Flag'), -- What?
 ('8', '4', '6197', 'Eagle Eye'),
 ('8', '4', '1002', 'Eyes of the Beast'),
 ('8', '4', '14327', 'Scare Beast'),
@@ -2493,7 +2493,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '4', '27021', 'Multi-Shot'),
 ('8', '4', '19884', 'Track Undead'),
 ('8', '4', '5118', 'Aspect of the Cheetah'),
-('8', '4', '27015', 'Disengage'), --- Removed?
+('8', '4', '27015', 'Disengage'), -- Removed?
 ('8', '4', '14311', 'Freezing Trap'),
 ('8', '4', '3043', 'Scorpid Sting'),
 ('8', '4', '1462', 'Beast Lore'),
@@ -2506,7 +2506,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '4', '1543', 'Flare'),
 ('8', '4', '19878', 'Track Demons'),
 ('8', '4', '27025', 'Explosive Trap'),
-('8', '4', '27018', 'Viper Sting'), --- Removed?
+('8', '4', '27018', 'Viper Sting'), -- Removed?
 ('8', '4', '13159', 'Aspect of the Pack'),
 ('8', '4', '19882', 'Track Giants'),
 ('8', '4', '27022', 'Volley'),
@@ -2521,7 +2521,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '4', '674', 'Dual Wield'),
 ('8', '4', '8737', 'Mail'),
 ('8', '4', '5149', 'Beast Training'),
---- Night Elf Rogue
+-- Night Elf Rogue
 ('8', '8', '81', 'Dodge'),
 ('8', '8', '203', 'Unarmed'),
 ('8', '8', '204', 'Defense'),
@@ -2573,8 +2573,8 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '8', '11305', 'Sprint'),
 ('8', '8', '38768', 'Kick'),
 ('8', '8', '26866', 'Expose Armor'),
-('8', '8', '426884', 'Shoot'), --- Removed?
-('8', '8', '427448', null), --- Removed?
+('8', '8', '426884', 'Shoot'), -- Removed?
+('8', '8', '427448', null), -- Removed?
 ('8', '8', '1804', 'Pick Lock'),
 ('8', '8', '27441', 'Ambush'),
 ('8', '8', '2842', 'Poisons'),
@@ -2593,13 +2593,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '8', '3127', 'Parry'),
 ('8', '8', '674', 'Dual Wield'),
 ('8', '8', '3776', 'Green Leather Bracers'),
-('8', '8', '9186', null), --- Removed?
+('8', '8', '9186', null), -- Removed?
 ('8', '8', '21927', 'Natures Ally'),
 ('8', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('8', '8', '22055', null), --- Removed?
+('8', '8', '22055', null), -- Removed?
 ('8', '8', '2836', 'Detect Traps'),
 ('8', '8', '1860', 'Safe Fall'),
---- Night Elf Priest
+-- Night Elf Priest
 ('8', '16', '81', 'Dodge'),
 ('8', '16', '198', 'One-Handed Maces'),
 ('8', '16', '203', 'Unarmed'),
@@ -2640,7 +2640,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '16', '25364', 'Smite'),
 ('8', '16', '25368', 'Shadow Word: Pain'),
 ('8', '16', '25218', 'Power Word: Shield'),
-('8', '16', '25429', 'Fade'), --- Removed?
+('8', '16', '25429', 'Fade'), -- Removed?
 ('8', '16', '25222', 'Renew'),
 ('8', '16', '25375', 'Mind Blast'),
 ('8', '16', '25435', 'Resurrection'),
@@ -2651,11 +2651,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '16', '6346', 'Fear Ward'),
 ('8', '16', '25235', 'Flash Heal'),
 ('8', '16', '25384', 'Holy Fire'),
-('8', '16', '25596', 'Mind Soothe'), --- Removed?
+('8', '16', '25596', 'Mind Soothe'), -- Removed?
 ('8', '16', '10955', 'Shackle Undead'),
 ('8', '16', '10909', 'Mind Vision'),
-('8', '16', '25380', 'Mana Burn'), --- Removed?
-('8', '16', '10912', 'Mind Control'), --- Removed?
+('8', '16', '25380', 'Mana Burn'), -- Removed?
+('8', '16', '10912', 'Mind Control'), -- Removed?
 ('8', '16', '25308', 'Prayer of Healing'),
 ('8', '16', '25433', 'Shadow Protection'),
 ('8', '16', '552', 'Abolish Disease'),
@@ -2671,7 +2671,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '16', '32375', 'Mass Dispel'),
 ('8', '16', '25312', 'Divine Spirit'),
 ('8', '4', '3127', 'Parry'),
---- Night Elf Shaman
+-- Night Elf Shaman
 ('8', '64', '671', 'Language Darnassian'),
 ('8', '64', '20580', 'Shadowmeld'),
 ('8', '64', '20582', 'Quickness'),
@@ -2713,7 +2713,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '64', '27763', 'Totem'),
 ('8', '64', '25396', 'Healing Wave'),
 ('8', '64', '25449', 'Lightning Bolt'),
-('8', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('8', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('8', '64', '25454', 'Earth Shock'),
 ('8', '64', '25509', 'Stoneskin Totem'),
 ('8', '64', '2484', 'Earthbind Totem'),
@@ -2733,7 +2733,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '64', '2645', 'Ghost Wolf'),
 ('8', '64', '25567', 'Healing Stream Totem'),
 ('8', '64', '25420', 'Lesser Healing Wave'),
-('8', '64', '2870', 'Cure Disease'), --- Removed?
+('8', '64', '2870', 'Cure Disease'), -- Removed?
 ('8', '64', '8166', 'Poison Cleansing Totem'),
 ('8', '64', '131', 'Water Breathing'),
 ('8', '64', '25560', 'Frost Resistance Totem'),
@@ -2749,19 +2749,19 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '64', '36936', 'Totemic Recall'),
 ('8', '64', '25505', 'Windfury Weapon'),
 ('8', '64', '421', 'Chain Lightning'),
-('8', '64', '25587', 'Windfury Totem'), --- Removed?
+('8', '64', '25587', 'Windfury Totem'), -- Removed?
 ('8', '64', '6495', 'Sentry Totem'),
-('8', '64', '25577', 'Windwall Totem'), --- Removed?
+('8', '64', '25577', 'Windwall Totem'), -- Removed?
 ('8', '64', '8170', 'Cleansing Totem'),
 ('8', '64', '25423', 'Chain Heal'),
-('8', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('8', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('8', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('8', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('8', '64', '33736', 'Water Shield'),
 ('8', '64', '3738', 'Wrath of Air Totem'),
 ('8', '64', '2062', 'Earth Elemental Totem'),
 ('8', '64', '2894', 'Fire Elemental Totem'),
 ('8', '64', '2825', 'Bloodlust'),
---- Night Elf Mage
+-- Night Elf Mage
 ('8', '128', '81', 'Dodge'),
 ('8', '128', '133', 'Fireball'),
 ('8', '128', '168', 'Frost Armor'),
@@ -2835,7 +2835,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '128', '20583', 'Nature Resistance'),
 ('8', '128', '20585', 'Wisp Spirit'),
 ('8', '128', '21009', 'Shadowmeld Passive'),
---- Night Elf Warlock
+-- Night Elf Warlock
 ('8', '256', '671', 'Language Darnassian'),
 ('8', '256', '20580', 'Shadowmeld'),
 ('8', '256', '20582', 'Quickness'),
@@ -2882,7 +2882,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '256', '27230', 'Create Healthstone'),
 ('8', '256', '27217', 'Drain Soul'),
 ('8', '256', '27259', 'Health Funnel'),
-('8', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('8', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('8', '256', '27220', 'Drain Life'),
 ('8', '256', '5697', 'Unending Breath'),
 ('8', '256', '27238', 'Create Soulstone'),
@@ -2891,7 +2891,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '256', '27212', 'Rain of Fire'),
 ('8', '256', '698', 'Ritual of Summoning'),
 ('8', '256', '5500', 'Sense Demons'),
-('8', '256', '30908', 'Drain Mana'), --- Removed?
+('8', '256', '30908', 'Drain Mana'), -- Removed?
 ('8', '256', '11719', 'Curse of Tongues'),
 ('8', '256', '132', 'Detect Invisibility'),
 ('8', '256', '18647', 'Banish'),
@@ -2903,7 +2903,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '256', '27250', 'Create Firestone'),
 ('8', '256', '17928', 'Howl of Terror'),
 ('8', '256', '27223', 'Death Coil'),
-('8', '256', '27229', 'Curse of Shadow'), --- Removed?
+('8', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('8', '256', '30545', 'Soul Fire'),
 ('8', '256', '30910', 'Curse of Doom'),
 ('8', '256', '18540', 'Ritual of Doom'),
@@ -2918,7 +2918,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '256', '712', 'Summon Succubus'),
 ('8', '256', '691', 'Summon Felhunter'),
 ('8', '256', '126', 'Eye of Kilrogg'),
---- Night Elf Druid
+-- Night Elf Druid
 ('8', '1024', '81', 'Dodge'),
 ('8', '1024', '203', 'Unarmed'),
 ('8', '1024', '204', 'Defense'),
@@ -2967,7 +2967,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '1024', '33948', 'Flight Form(Passive)'),
 ('8', '1024', '34123', 'Tree of Life(Passive)'),
 ('8', '1024', '40121', 'Swift Flight Form(Passive)'),
-('8', '1024', '26979', 'Healing Touch'), --- Only 9?
+('8', '1024', '26979', 'Healing Touch'), -- Only 9?
 ('8', '1024', '26990', 'Mark of the Wild'),
 ('8', '1024', '26985', 'Wrath'),
 ('8', '1024', '26988', 'Moonfire'),
@@ -2988,7 +2988,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '1024', '8983', 'Bash'),
 ('8', '1024', '8946', 'Cure Poison'),
 ('8', '1024', '26997', 'Swipe (Bear)'),
-('8', '1024', '26993', 'Faerie Fire'), --- Removed?
+('8', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('8', '1024', '18658', 'Hibernate'),
 ('8', '1024', '27000', 'Claw'),
 ('8', '1024', '9913', 'Prowl'),
@@ -3008,7 +3008,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '1024', '24248', 'Ferocious Bite'),
 ('8', '1024', '27005', 'Ravage'),
 ('8', '1024', '5225', 'Track Humanoids'),
-('8', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('8', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('8', '1024', '27012', 'Hurricane'),
 ('8', '1024', '27006', 'Pounce'),
 ('8', '1024', '29166', 'Innervate'),
@@ -3019,7 +3019,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('8', '1024', '33745', 'Lacerate'),
 ('8', '1024', '33786', 'Cyclone'),
 ('8', '1024', '20719', 'Feline Grace'),
---- Undead Warrior
+-- Undead Warrior
 ('16', '1', '78', 'Heroic Strike'),
 ('16', '1', '81', 'Dodge'),
 ('16', '1', '107', 'Block'),
@@ -3101,7 +3101,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '1', '674', 'Dual Wield'),
 ('16', '1', '750', 'Plate Armor'),
 ('16', '1', '12678', 'Stance Mastery'),
---- Undead Paladin
+-- Undead Paladin
 ('16', '2', '5227', 'Underwater Breathing'),
 ('16', '2', '7744', 'Will of the Forsaken'),
 ('16', '2', '17737', 'Language Gutterspeak'),
@@ -3143,10 +3143,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '2', '27762', 'Libram'),
 ('16', '2', '27149', 'Devotion Aura'),
 ('16', '2', '27136', 'Holy Light'),
-('16', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('16', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('16', '2', '27140', 'Blessing of Might'),
 ('16', '2', '20271', 'Judgement of Light'),
-('16', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('16', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('16', '2', '10308', 'Hammer of Justice'),
 ('16', '2', '10278', 'Hand of Protection'),
 ('16', '2', '27154', 'Lay on Hands'),
@@ -3162,35 +3162,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '2', '27137', 'Flash of Light'),
 ('16', '2', '5502', 'Sense Undead'),
 ('16', '2', '19746', 'Concentration Aura'),
-('16', '2', '31895', 'Seal of Justice'), --- Removed?
+('16', '2', '31895', 'Seal of Justice'), -- Removed?
 ('16', '2', '5627', 'Turn Undead'), -- Removed?
 ('16', '2', '1038', 'Hand of Salvation'),
 ('16', '2', '27151', 'Shadow Resistance Aura'),
 ('16', '2', '19752', 'Divine Intervention'),
-('16', '2', '27160', 'Seal of Light'), --- Removed?
+('16', '2', '27160', 'Seal of Light'), -- Removed?
 ('16', '2', '27152', 'Frost Resistance Aura'),
-('16', '2', '1020', 'Divine Shield'), --- Removed?
+('16', '2', '1020', 'Divine Shield'), -- Removed?
 ('16', '2', '27153', 'Fire Resistance Aura'),
-('16', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('16', '2', '27144', 'Blessing of Light'), --- Removed?
+('16', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('16', '2', '27144', 'Blessing of Light'), -- Removed?
 ('16', '2', '4987', 'Cleanse'),
 ('16', '2', '27180', 'Hammer of Wrath'),
-('16', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('16', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('16', '2', '27139', 'Holy Wrath'),
 ('16', '2', '27141', 'Greater Blessing of Might'),
 ('16', '2', '10326', 'Turn Evil'),
 ('16', '2', '27143', 'Greater Blessing of Wisdom'),
 ('16', '2', '25898', 'Greater Blessing of Kings'),
-('16', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('16', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('16', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('16', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('16', '2', '32223', 'Crusader Aura'),
-('16', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('16', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('16', '2', '31884', 'Avenging Wrath'),
 ('16', '2', '750', 'Plate Armor'),
 ('16', '2', '3127', 'Parry'),
 ('16', '2', '23214', 'Charger'),
 ('16', '2', '31801', 'Seal of Vengeance'),
---- Undead Hunter
+-- Undead Hunter
 ('16', '4', '5227', 'Underwater Breathing'),
 ('16', '4', '7744', 'Will of the Forsaken'),
 ('16', '4', '17737', 'Language Gutterspeak'),
@@ -3244,9 +3244,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '4', '982', 'Revive Pet'),
 ('16', '4', '1515', 'Tame Beast'),
 ('16', '4', '19883', 'Track Humanoids'),
-('16', '4', '27020', 'Distracting Shot'), --- Removed?
+('16', '4', '27020', 'Distracting Shot'), -- Removed?
 ('16', '4', '27046', 'Mend Pet'),
-('16', '4', '14268', 'Alliance Flag'), --- What?
+('16', '4', '14268', 'Alliance Flag'), -- What?
 ('16', '4', '6197', 'Eagle Eye'),
 ('16', '4', '1002', 'Eyes of the Beast'),
 ('16', '4', '14327', 'Scare Beast'),
@@ -3255,7 +3255,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '4', '27021', 'Multi-Shot'),
 ('16', '4', '19884', 'Track Undead'),
 ('16', '4', '5118', 'Aspect of the Cheetah'),
-('16', '4', '27015', 'Disengage'), --- Removed?
+('16', '4', '27015', 'Disengage'), -- Removed?
 ('16', '4', '14311', 'Freezing Trap'),
 ('16', '4', '3043', 'Scorpid Sting'),
 ('16', '4', '1462', 'Beast Lore'),
@@ -3268,7 +3268,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '4', '1543', 'Flare'),
 ('16', '4', '19878', 'Track Demons'),
 ('16', '4', '27025', 'Explosive Trap'),
-('16', '4', '27018', 'Viper Sting'), --- Removed?
+('16', '4', '27018', 'Viper Sting'), -- Removed?
 ('16', '4', '13159', 'Aspect of the Pack'),
 ('16', '4', '19882', 'Track Giants'),
 ('16', '4', '27022', 'Volley'),
@@ -3284,7 +3284,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '4', '8737', 'Mail'),
 ('16', '4', '5149', 'Beast Training'),
 ('16', '4', '3127', 'Parry'),
---- Undead Rogue
+-- Undead Rogue
 ('16', '8', '81', 'Dodge'),
 ('16', '8', '203', 'Unarmed'),
 ('16', '8', '204', 'Defense'),
@@ -3355,13 +3355,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '8', '3127', 'Parry'),
 ('16', '8', '674', 'Dual Wield'),
 ('16', '8', '3776', 'Green Leather Bracers'),
-('16', '8', '9186', null), --- Removed?
+('16', '8', '9186', null), -- Removed?
 ('16', '8', '21927', 'Natures Ally'),
 ('16', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('16', '8', '22055', null), --- Removed?
+('16', '8', '22055', null), -- Removed?
 ('16', '8', '2836', 'Detect Traps'),
 ('16', '8', '1860', 'Safe Fall'),
---- Undead Priest
+-- Undead Priest
 ('16', '16', '81', 'Dodge'),
 ('16', '16', '198', 'One-Handed Maces'),
 ('16', '16', '203', 'Unarmed'),
@@ -3401,7 +3401,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '16', '25364', 'Smite'),
 ('16', '16', '25368', 'Shadow Word: Pain'),
 ('16', '16', '25218', 'Power Word: Shield'),
-('16', '16', '25429', 'Fade'), --- Removed?
+('16', '16', '25429', 'Fade'), -- Removed?
 ('16', '16', '25222', 'Renew'),
 ('16', '16', '25375', 'Mind Blast'),
 ('16', '16', '25435', 'Resurrection'),
@@ -3412,11 +3412,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '16', '6346', 'Fear Ward'),
 ('16', '16', '25235', 'Flash Heal'),
 ('16', '16', '25384', 'Holy Fire'),
-('16', '16', '25596', 'Mind Soothe'), --- Removed?
+('16', '16', '25596', 'Mind Soothe'), -- Removed?
 ('16', '16', '10955', 'Shackle Undead'),
 ('16', '16', '10909', 'Mind Vision'),
-('16', '16', '25380', 'Mana Burn'), --- Removed?
-('16', '16', '10912', 'Mind Control'), --- Removed?
+('16', '16', '25380', 'Mana Burn'), -- Removed?
+('16', '16', '10912', 'Mind Control'), -- Removed?
 ('16', '16', '25308', 'Prayer of Healing'),
 ('16', '16', '25433', 'Shadow Protection'),
 ('16', '16', '552', 'Abolish Disease'),
@@ -3431,7 +3431,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '16', '33076', 'Prayer of Mending'),
 ('16', '16', '32375', 'Mass Dispel'),
 ('16', '16', '25312', 'Divine Spirit'),
---- Undead Shaman
+-- Undead Shaman
 ('16', '64', '5227', 'Underwater Breathing'),
 ('16', '64', '7744', 'Will of the Forsaken'),
 ('16', '64', '17737', 'Language Gutterspeak'),
@@ -3472,7 +3472,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '64', '27763', 'Totem'),
 ('16', '64', '25396', 'Healing Wave'),
 ('16', '64', '25449', 'Lightning Bolt'),
-('16', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('16', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('16', '64', '25454', 'Earth Shock'),
 ('16', '64', '25509', 'Stoneskin Totem'),
 ('16', '64', '2484', 'Earthbind Totem'),
@@ -3492,7 +3492,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '64', '2645', 'Ghost Wolf'),
 ('16', '64', '25567', 'Healing Stream Totem'),
 ('16', '64', '25420', 'Lesser Healing Wave'),
-('16', '64', '2870', 'Cure Disease'), --- Removed?
+('16', '64', '2870', 'Cure Disease'), -- Removed?
 ('16', '64', '8166', 'Poison Cleansing Totem'),
 ('16', '64', '131', 'Water Breathing'),
 ('16', '64', '25560', 'Frost Resistance Totem'),
@@ -3508,22 +3508,22 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '64', '36936', 'Totemic Recall'),
 ('16', '64', '25505', 'Windfury Weapon'),
 ('16', '64', '421', 'Chain Lightning'),
-('16', '64', '25587', 'Windfury Totem'), --- Removed?
+('16', '64', '25587', 'Windfury Totem'), -- Removed?
 ('16', '64', '6495', 'Sentry Totem'),
-('16', '64', '25577', 'Windwall Totem'), --- Removed?
+('16', '64', '25577', 'Windwall Totem'), -- Removed?
 ('16', '64', '8170', 'Cleansing Totem'),
 ('16', '64', '25423', 'Chain Heal'),
-('16', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('16', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('16', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('16', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('16', '64', '33736', 'Water Shield'),
 ('16', '64', '3738', 'Wrath of Air Totem'),
 ('16', '64', '2062', 'Earth Elemental Totem'),
 ('16', '64', '2894', 'Fire Elemental Totem'),
 ('16', '64', '2825', 'Bloodlust'),
-('16', '64', '25442', 'Chain Lightning'), --- Only 6?
+('16', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('16', '64', '8737', 'Mail'),
 ('16', '64', '20608', 'Reincarnation'),
---- Undead Mage
+-- Undead Mage
 ('16', '128', '81', 'Dodge'),
 ('16', '128', '133', 'Fireball'),
 ('16', '128', '168', 'Frost Armor'),
@@ -3596,7 +3596,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '128', '43987', 'Ritual of Refreshment'),
 ('16', '128', '30449', 'Spellsteal'),
 ('16', '128', '27087', 'Cone of Cold'),
---- Undead Warlock
+-- Undead Warlock
 ('16', '256', '81', 'Dodge'),
 ('16', '256', '203', 'Unarmed'),
 ('16', '256', '204', 'Defense'),
@@ -3642,7 +3642,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '256', '27230', 'Create Healthstone'),
 ('16', '256', '27217', 'Drain Soul'),
 ('16', '256', '27259', 'Health Funnel'),
-('16', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('16', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('16', '256', '27220', 'Drain Life'),
 ('16', '256', '5697', 'Unending Breath'),
 ('16', '256', '27238', 'Create Soulstone'),
@@ -3651,7 +3651,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '256', '27212', 'Rain of Fire'),
 ('16', '256', '698', 'Ritual of Summoning'),
 ('16', '256', '5500', 'Sense Demons'),
-('16', '256', '30908', 'Drain Mana'), --- Removed?
+('16', '256', '30908', 'Drain Mana'), -- Removed?
 ('16', '256', '11719', 'Curse of Tongues'),
 ('16', '256', '132', 'Detect Invisibility'),
 ('16', '256', '18647', 'Banish'),
@@ -3663,7 +3663,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '256', '27250', 'Create Firestone'),
 ('16', '256', '17928', 'Howl of Terror'),
 ('16', '256', '27223', 'Death Coil'),
-('16', '256', '27229', 'Curse of Shadow'), --- Removed?
+('16', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('16', '256', '30545', 'Soul Fire'),
 ('16', '256', '30910', 'Curse of Doom'),
 ('16', '256', '18540', 'Ritual of Doom'),
@@ -3678,7 +3678,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '256', '712', 'Summon Succubus'),
 ('16', '256', '691', 'Summon Felhunter'),
 ('16', '256', '126', 'Eye of Kilrogg'),
---- Undead Druid
+-- Undead Druid
 ('16', '1024', '5227', 'Underwater Breathing'),
 ('16', '1024', '7744', 'Will of the Forsaken'),
 ('16', '1024', '17737', 'Language Gutterspeak'),
@@ -3747,7 +3747,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '1024', '8983', 'Bash'),
 ('16', '1024', '8946', 'Cure Poison'),
 ('16', '1024', '26997', 'Swipe (Bear)'),
-('16', '1024', '26993', 'Faerie Fire'), --- Removed?
+('16', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('16', '1024', '18658', 'Hibernate'),
 ('16', '1024', '27000', 'Claw'),
 ('16', '1024', '9913', 'Prowl'),
@@ -3767,7 +3767,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '1024', '24248', 'Ferocious Bite'),
 ('16', '1024', '27005', 'Ravage'),
 ('16', '1024', '5225', 'Track Humanoids'),
-('16', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('16', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('16', '1024', '27012', 'Hurricane'),
 ('16', '1024', '27006', 'Pounce'),
 ('16', '1024', '29166', 'Innervate'),
@@ -3778,7 +3778,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('16', '1024', '33745', 'Lacerate'),
 ('16', '1024', '33786', 'Cyclone'),
 ('16', '1024', '20719', 'Feline Grace'),
---- Tauren Warrior
+-- Tauren Warrior
 ('32', '1', '78', 'Heroic Strike'),
 ('32', '1', '81', 'Dodge'),
 ('32', '1', '107', 'Block'),
@@ -3860,7 +3860,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '1', '674', 'Dual Wield'),
 ('32', '1', '750', 'Plate Armor'),
 ('32', '1', '12678', 'Stance Mastery'),
---- Tauren Hunter
+-- Tauren Hunter
 ('32', '4', '75', 'Auto Shot'),
 ('32', '4', '81', 'Dodge'),
 ('32', '4', '196', 'One-Handed Axes'),
@@ -3913,9 +3913,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '4', '982', 'Revive Pet'),
 ('32', '4', '1515', 'Tame Beast'),
 ('32', '4', '19883', 'Track Humanoids'),
-('32', '4', '27020', 'Distracting Shot'), --- Removed?
+('32', '4', '27020', 'Distracting Shot'), -- Removed?
 ('32', '4', '27046', 'Mend Pet'),
-('32', '4', '14268', 'Alliance Flag'), --- What?
+('32', '4', '14268', 'Alliance Flag'), -- What?
 ('32', '4', '6197', 'Eagle Eye'),
 ('32', '4', '1002', 'Eyes of the Beast'),
 ('32', '4', '14327', 'Scare Beast'),
@@ -3924,7 +3924,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '4', '27021', 'Multi-Shot'),
 ('32', '4', '19884', 'Track Undead'),
 ('32', '4', '5118', 'Aspect of the Cheetah'),
-('32', '4', '27015', 'Disengage'), --- Removed?
+('32', '4', '27015', 'Disengage'), -- Removed?
 ('32', '4', '14311', 'Freezing Trap'),
 ('32', '4', '3043', 'Scorpid Sting'),
 ('32', '4', '1462', 'Beast Lore'),
@@ -3937,7 +3937,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '4', '1543', 'Flare'),
 ('32', '4', '19878', 'Track Demons'),
 ('32', '4', '27025', 'Explosive Trap'),
-('32', '4', '27018', 'Viper Sting'), --- Removed?
+('32', '4', '27018', 'Viper Sting'), -- Removed?
 ('32', '4', '13159', 'Aspect of the Pack'),
 ('32', '4', '19882', 'Track Giants'),
 ('32', '4', '27022', 'Volley'),
@@ -3953,7 +3953,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '4', '8737', 'Mail'),
 ('32', '4', '5149', 'Beast Training'),
 ('32', '4', '3127', 'Parry'),
---- Tauren Paladin
+-- Tauren Paladin
 ('32', '2', '670', 'Language Taurahe'),
 ('32', '2', '20549', 'War Stomp'),
 ('32', '2', '20550', 'Endurance'),
@@ -3995,10 +3995,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '2', '27762', 'Libram'),
 ('32', '2', '27149', 'Devotion Aura'),
 ('32', '2', '27136', 'Holy Light'),
-('32', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('32', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('32', '2', '27140', 'Blessing of Might'),
 ('32', '2', '20271', 'Judgement of Light'),
-('32', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('32', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('32', '2', '10308', 'Hammer of Justice'),
 ('32', '2', '10278', 'Hand of Protection'),
 ('32', '2', '27154', 'Lay on Hands'),
@@ -4014,35 +4014,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '2', '27137', 'Flash of Light'),
 ('32', '2', '5502', 'Sense Undead'),
 ('32', '2', '19746', 'Concentration Aura'),
-('32', '2', '31895', 'Seal of Justice'), --- Removed?
+('32', '2', '31895', 'Seal of Justice'), -- Removed?
 ('32', '2', '5627', 'Turn Undead'), -- Removed?
 ('32', '2', '1038', 'Hand of Salvation'),
 ('32', '2', '27151', 'Shadow Resistance Aura'),
 ('32', '2', '19752', 'Divine Intervention'),
-('32', '2', '27160', 'Seal of Light'), --- Removed?
+('32', '2', '27160', 'Seal of Light'), -- Removed?
 ('32', '2', '27152', 'Frost Resistance Aura'),
-('32', '2', '1020', 'Divine Shield'), --- Removed?
+('32', '2', '1020', 'Divine Shield'), -- Removed?
 ('32', '2', '27153', 'Fire Resistance Aura'),
-('32', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('32', '2', '27144', 'Blessing of Light'), --- Removed?
+('32', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('32', '2', '27144', 'Blessing of Light'), -- Removed?
 ('32', '2', '4987', 'Cleanse'),
 ('32', '2', '27180', 'Hammer of Wrath'),
-('32', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('32', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('32', '2', '27139', 'Holy Wrath'),
 ('32', '2', '27141', 'Greater Blessing of Might'),
 ('32', '2', '10326', 'Turn Evil'),
 ('32', '2', '27143', 'Greater Blessing of Wisdom'),
 ('32', '2', '25898', 'Greater Blessing of Kings'),
-('32', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('32', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('32', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('32', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('32', '2', '32223', 'Crusader Aura'),
-('32', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('32', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('32', '2', '31884', 'Avenging Wrath'),
 ('32', '2', '750', 'Plate Armor'),
 ('32', '2', '3127', 'Parry'),
 ('32', '2', '23214', 'Charger'),
 ('32', '2', '31801', 'Seal of Vengeance'),
---- Tauren Rogue
+-- Tauren Rogue
 ('32', '8', '670', 'Language Taurahe'),
 ('32', '8', '20549', 'War Stomp'),
 ('32', '8', '20550', 'Endurance'),
@@ -4113,13 +4113,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '8', '3127', 'Parry'),
 ('32', '8', '674', 'Dual Wield'),
 ('32', '8', '3776', 'Green Leather Bracers'),
-('32', '8', '9186', null), --- Removed?
+('32', '8', '9186', null), -- Removed?
 ('32', '8', '21927', 'Natures Ally'),
 ('32', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('32', '8', '22055', null), --- Removed?
+('32', '8', '22055', null), -- Removed?
 ('32', '8', '2836', 'Detect Traps'),
 ('32', '8', '1860', 'Safe Fall'),
---- Tauren Priest
+-- Tauren Priest
 ('32', '16', '670', 'Language Taurahe'),
 ('32', '16', '20549', 'War Stomp'),
 ('32', '16', '20550', 'Endurance'),
@@ -4159,7 +4159,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '16', '25364', 'Smite'),
 ('32', '16', '25368', 'Shadow Word: Pain'),
 ('32', '16', '25218', 'Power Word: Shield'),
-('32', '16', '25429', 'Fade'), --- Removed?
+('32', '16', '25429', 'Fade'), -- Removed?
 ('32', '16', '25222', 'Renew'),
 ('32', '16', '25375', 'Mind Blast'),
 ('32', '16', '25435', 'Resurrection'),
@@ -4170,11 +4170,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '16', '6346', 'Fear Ward'),
 ('32', '16', '25235', 'Flash Heal'),
 ('32', '16', '25384', 'Holy Fire'),
-('32', '16', '25596', 'Mind Soothe'), --- Removed?
+('32', '16', '25596', 'Mind Soothe'), -- Removed?
 ('32', '16', '10955', 'Shackle Undead'),
 ('32', '16', '10909', 'Mind Vision'),
-('32', '16', '25380', 'Mana Burn'), --- Removed?
-('32', '16', '10912', 'Mind Control'), --- Removed?
+('32', '16', '25380', 'Mana Burn'), -- Removed?
+('32', '16', '10912', 'Mind Control'), -- Removed?
 ('32', '16', '25308', 'Prayer of Healing'),
 ('32', '16', '25433', 'Shadow Protection'),
 ('32', '16', '552', 'Abolish Disease'),
@@ -4188,10 +4188,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '16', '34433', 'Shadowfiend'),
 ('32', '16', '33076', 'Prayer of Mending'),
 ('32', '16', '32375', 'Mass Dispel'),
-('32', '16', '25441', 'Feedback'), --- Removed?
+('32', '16', '25441', 'Feedback'), -- Removed?
 ('32', '16', '25312', 'Divine Spirit'),
 ('32', '16', '25437', 'Desperate Prayer'),
---- Tauren Shaman
+-- Tauren Shaman
 ('32', '64', '81', 'Dodge'),
 ('32', '64', '107', 'Block'),
 ('32', '64', '198', 'One-Handed Maces'),
@@ -4232,7 +4232,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '64', '27763', 'Totem'),
 ('32', '64', '25396', 'Healing Wave'),
 ('32', '64', '25449', 'Lightning Bolt'),
-('32', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('32', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('32', '64', '25454', 'Earth Shock'),
 ('32', '64', '25509', 'Stoneskin Totem'),
 ('32', '64', '2484', 'Earthbind Totem'),
@@ -4252,7 +4252,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '64', '2645', 'Ghost Wolf'),
 ('32', '64', '25567', 'Healing Stream Totem'),
 ('32', '64', '25420', 'Lesser Healing Wave'),
-('32', '64', '2870', 'Cure Disease'), --- Removed?
+('32', '64', '2870', 'Cure Disease'), -- Removed?
 ('32', '64', '8166', 'Poison Cleansing Totem'),
 ('32', '64', '131', 'Water Breathing'),
 ('32', '64', '25560', 'Frost Resistance Totem'),
@@ -4268,22 +4268,22 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '64', '36936', 'Totemic Recall'),
 ('32', '64', '25505', 'Windfury Weapon'),
 ('32', '64', '421', 'Chain Lightning'),
-('32', '64', '25587', 'Windfury Totem'), --- Removed?
+('32', '64', '25587', 'Windfury Totem'), -- Removed?
 ('32', '64', '6495', 'Sentry Totem'),
-('32', '64', '25577', 'Windwall Totem'), --- Removed?
+('32', '64', '25577', 'Windwall Totem'), -- Removed?
 ('32', '64', '8170', 'Cleansing Totem'),
 ('32', '64', '25423', 'Chain Heal'),
-('32', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('32', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('32', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('32', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('32', '64', '33736', 'Water Shield'),
 ('32', '64', '3738', 'Wrath of Air Totem'),
 ('32', '64', '2062', 'Earth Elemental Totem'),
 ('32', '64', '2894', 'Fire Elemental Totem'),
 ('32', '64', '2825', 'Bloodlust'),
-('32', '64', '25442', 'Chain Lightning'), --- Only 6?
+('32', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('32', '64', '8737', 'Mail'),
 ('32', '64', '20608', 'Reincarnation'),
---- Tauren Mage
+-- Tauren Mage
 ('32', '128', '670', 'Language Taurahe'),
 ('32', '128', '20549', 'War Stomp'),
 ('32', '128', '20550', 'Endurance'),
@@ -4356,7 +4356,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '128', '43987', 'Ritual of Refreshment'),
 ('32', '128', '30449', 'Spellsteal'),
 ('32', '128', '27087', 'Cone of Cold'),
---- Tauren Warlock
+-- Tauren Warlock
 ('32', '256', '670', 'Language Taurahe'),
 ('32', '256', '20549', 'War Stomp'),
 ('32', '256', '20550', 'Endurance'),
@@ -4402,7 +4402,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '256', '27230', 'Create Healthstone'),
 ('32', '256', '27217', 'Drain Soul'),
 ('32', '256', '27259', 'Health Funnel'),
-('32', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('32', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('32', '256', '27220', 'Drain Life'),
 ('32', '256', '5697', 'Unending Breath'),
 ('32', '256', '27238', 'Create Soulstone'),
@@ -4411,7 +4411,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '256', '27212', 'Rain of Fire'),
 ('32', '256', '698', 'Ritual of Summoning'),
 ('32', '256', '5500', 'Sense Demons'),
-('32', '256', '30908', 'Drain Mana'), --- Removed?
+('32', '256', '30908', 'Drain Mana'), -- Removed?
 ('32', '256', '11719', 'Curse of Tongues'),
 ('32', '256', '132', 'Detect Invisibility'),
 ('32', '256', '18647', 'Banish'),
@@ -4423,7 +4423,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '256', '27250', 'Create Firestone'),
 ('32', '256', '17928', 'Howl of Terror'),
 ('32', '256', '27223', 'Death Coil'),
-('32', '256', '27229', 'Curse of Shadow'), --- Removed?
+('32', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('32', '256', '30545', 'Soul Fire'),
 ('32', '256', '30910', 'Curse of Doom'),
 ('32', '256', '18540', 'Ritual of Doom'),
@@ -4438,7 +4438,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '256', '712', 'Summon Succubus'),
 ('32', '256', '691', 'Summon Felhunter'),
 ('32', '256', '126', 'Eye of Kilrogg'),
---- Tauren Druid
+-- Tauren Druid
 ('32', '1024', '81', 'Dodge'),
 ('32', '1024', '198', 'One-Handed Maces'),
 ('32', '1024', '203', 'Unarmed'),
@@ -4507,7 +4507,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '1024', '8983', 'Bash'),
 ('32', '1024', '8946', 'Cure Poison'),
 ('32', '1024', '26997', 'Swipe (Bear)'),
-('32', '1024', '26993', 'Faerie Fire'), --- Removed?
+('32', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('32', '1024', '18658', 'Hibernate'),
 ('32', '1024', '27000', 'Claw'),
 ('32', '1024', '9913', 'Prowl'),
@@ -4527,7 +4527,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '1024', '24248', 'Ferocious Bite'),
 ('32', '1024', '27005', 'Ravage'),
 ('32', '1024', '5225', 'Track Humanoids'),
-('32', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('32', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('32', '1024', '27012', 'Hurricane'),
 ('32', '1024', '27006', 'Pounce'),
 ('32', '1024', '29166', 'Innervate'),
@@ -4537,8 +4537,8 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('32', '1024', '33763', 'Lifebloom'),
 ('32', '1024', '33745', 'Lacerate'),
 ('32', '1024', '33786', 'Cyclone'),
-('32', '1024', '20719', 'Feline Grace'), --- Only 5?
---- Gnome Warrior
+('32', '1024', '20719', 'Feline Grace'), -- Only 5?
+-- Gnome Warrior
 ('64', '1', '78', 'Heroic Strike'),
 ('64', '1', '81', 'Dodge'),
 ('64', '1', '107', 'Block'),
@@ -4620,7 +4620,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '1', '674', 'Dual Wield'),
 ('64', '1', '750', 'Plate Armor'),
 ('64', '1', '12678', 'Stance Mastery'),
---- Gnome Paladin
+-- Gnome Paladin
 ('64', '2', '7340', 'Language Gnomish'),
 ('64', '2', '20589', 'Escape Artist'),
 ('64', '2', '20591', 'Expansive Mind'),
@@ -4663,10 +4663,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '2', '27762', 'Libram'),
 ('64', '2', '27149', 'Devotion Aura'),
 ('64', '2', '27136', 'Holy Light'),
-('64', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('64', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('64', '2', '27140', 'Blessing of Might'),
 ('64', '2', '20271', 'Judgement of Light'),
-('64', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('64', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('64', '2', '10308', 'Hammer of Justice'),
 ('64', '2', '10278', 'Hand of Protection'),
 ('64', '2', '27154', 'Lay on Hands'),
@@ -4682,35 +4682,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '2', '27137', 'Flash of Light'),
 ('64', '2', '5502', 'Sense Undead'),
 ('64', '2', '19746', 'Concentration Aura'),
-('64', '2', '31895', 'Seal of Justice'), --- Removed?
+('64', '2', '31895', 'Seal of Justice'), -- Removed?
 ('64', '2', '5627', 'Turn Undead'), -- Removed?
 ('64', '2', '1038', 'Hand of Salvation'),
 ('64', '2', '27151', 'Shadow Resistance Aura'),
 ('64', '2', '19752', 'Divine Intervention'),
-('64', '2', '27160', 'Seal of Light'), --- Removed?
+('64', '2', '27160', 'Seal of Light'), -- Removed?
 ('64', '2', '27152', 'Frost Resistance Aura'),
-('64', '2', '1020', 'Divine Shield'), --- Removed?
+('64', '2', '1020', 'Divine Shield'), -- Removed?
 ('64', '2', '27153', 'Fire Resistance Aura'),
-('64', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('64', '2', '27144', 'Blessing of Light'), --- Removed?
+('64', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('64', '2', '27144', 'Blessing of Light'), -- Removed?
 ('64', '2', '4987', 'Cleanse'),
 ('64', '2', '27180', 'Hammer of Wrath'),
-('64', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('64', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('64', '2', '27139', 'Holy Wrath'),
 ('64', '2', '27141', 'Greater Blessing of Might'),
 ('64', '2', '10326', 'Turn Evil'),
 ('64', '2', '27143', 'Greater Blessing of Wisdom'),
 ('64', '2', '25898', 'Greater Blessing of Kings'),
-('64', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('64', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('64', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('64', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('64', '2', '32223', 'Crusader Aura'),
-('64', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('64', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('64', '2', '31884', 'Avenging Wrath'),
 ('64', '2', '750', 'Plate Armor'),
 ('64', '2', '3127', 'Parry'),
 ('64', '2', '23214', 'Charger'),
 ('64', '2', '31801', 'Seal of Vengeance'),
---- Gnome Hunter
+-- Gnome Hunter
 ('64', '4', '7340', 'Language Gnomish'),
 ('64', '4', '20589', 'Escape Artist'),
 ('64', '4', '20591', 'Expansive Mind'),
@@ -4764,9 +4764,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '4', '982', 'Revive Pet'),
 ('64', '4', '1515', 'Tame Beast'),
 ('64', '4', '19883', 'Track Humanoids'),
-('64', '4', '27020', 'Distracting Shot'), --- Removed?
+('64', '4', '27020', 'Distracting Shot'), -- Removed?
 ('64', '4', '27046', 'Mend Pet'),
-('64', '4', '14268', 'Alliance Flag'), --- What?
+('64', '4', '14268', 'Alliance Flag'), -- What?
 ('64', '4', '6197', 'Eagle Eye'),
 ('64', '4', '1002', 'Eyes of the Beast'),
 ('64', '4', '14327', 'Scare Beast'),
@@ -4775,7 +4775,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '4', '27021', 'Multi-Shot'),
 ('64', '4', '19884', 'Track Undead'),
 ('64', '4', '5118', 'Aspect of the Cheetah'),
-('64', '4', '27015', 'Disengage'), --- Removed?
+('64', '4', '27015', 'Disengage'), -- Removed?
 ('64', '4', '14311', 'Freezing Trap'),
 ('64', '4', '3043', 'Scorpid Sting'),
 ('64', '4', '1462', 'Beast Lore'),
@@ -4788,7 +4788,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '4', '1543', 'Flare'),
 ('64', '4', '19878', 'Track Demons'),
 ('64', '4', '27025', 'Explosive Trap'),
-('64', '4', '27018', 'Viper Sting'), --- Removed?
+('64', '4', '27018', 'Viper Sting'), -- Removed?
 ('64', '4', '13159', 'Aspect of the Pack'),
 ('64', '4', '19882', 'Track Giants'),
 ('64', '4', '27022', 'Volley'),
@@ -4800,7 +4800,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '4', '34026', 'Kill Command'),
 ('64', '4', '34600', 'Snake Trap'),
 ('64', '4', '34477', 'Misdirection'),
---- Gnome Rogue
+-- Gnome Rogue
 ('64', '8', '81', 'Dodge'),
 ('64', '8', '203', 'Unarmed'),
 ('64', '8', '204', 'Defense'),
@@ -4871,13 +4871,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '8', '3127', 'Parry'),
 ('64', '8', '674', 'Dual Wield'),
 ('64', '8', '3776', 'Green Leather Bracers'),
-('64', '8', '9186', null), --- Removed?
+('64', '8', '9186', null), -- Removed?
 ('64', '8', '21927', 'Natures Ally'),
 ('64', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('64', '8', '22055', null), --- Removed?
+('64', '8', '22055', null), -- Removed?
 ('64', '8', '2836', 'Detect Traps'),
 ('64', '8', '1860', 'Safe Fall'),
---- Gnome Priest
+-- Gnome Priest
 ('64', '16', '7340', 'Language Gnomish'),
 ('64', '16', '20589', 'Escape Artist'),
 ('64', '16', '20591', 'Expansive Mind'),
@@ -4917,7 +4917,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '16', '25364', 'Smite'),
 ('64', '16', '25368', 'Shadow Word: Pain'),
 ('64', '16', '25218', 'Power Word: Shield'),
-('64', '16', '25429', 'Fade'), --- Removed?
+('64', '16', '25429', 'Fade'), -- Removed?
 ('64', '16', '25222', 'Renew'),
 ('64', '16', '25375', 'Mind Blast'),
 ('64', '16', '25435', 'Resurrection'),
@@ -4928,11 +4928,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '16', '6346', 'Fear Ward'),
 ('64', '16', '25235', 'Flash Heal'),
 ('64', '16', '25384', 'Holy Fire'),
-('64', '16', '25596', 'Mind Soothe'), --- Removed?
+('64', '16', '25596', 'Mind Soothe'), -- Removed?
 ('64', '16', '10955', 'Shackle Undead'),
 ('64', '16', '10909', 'Mind Vision'),
-('64', '16', '25380', 'Mana Burn'), --- Removed?
-('64', '16', '10912', 'Mind Control'), --- Removed?
+('64', '16', '25380', 'Mana Burn'), -- Removed?
+('64', '16', '10912', 'Mind Control'), -- Removed?
 ('64', '16', '25308', 'Prayer of Healing'),
 ('64', '16', '25433', 'Shadow Protection'),
 ('64', '16', '552', 'Abolish Disease'),
@@ -4946,10 +4946,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '16', '34433', 'Shadowfiend'),
 ('64', '16', '33076', 'Prayer of Mending'),
 ('64', '16', '32375', 'Mass Dispel'),
-('64', '16', '25441', 'Feedback'), --- Removed?
+('64', '16', '25441', 'Feedback'), -- Removed?
 ('64', '16', '25312', 'Divine Spirit'),
 ('64', '16', '25437', 'Desperate Prayer'),
---- Gnome Shaman
+-- Gnome Shaman
 ('64', '64', '7340', 'Language Gnomish'),
 ('64', '64', '20589', 'Escape Artist'),
 ('64', '64', '20591', 'Expansive Mind'),
@@ -4990,7 +4990,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '64', '27763', 'Totem'),
 ('64', '64', '25396', 'Healing Wave'),
 ('64', '64', '25449', 'Lightning Bolt'),
-('64', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('64', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('64', '64', '25454', 'Earth Shock'),
 ('64', '64', '25509', 'Stoneskin Totem'),
 ('64', '64', '2484', 'Earthbind Totem'),
@@ -5010,7 +5010,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '64', '2645', 'Ghost Wolf'),
 ('64', '64', '25567', 'Healing Stream Totem'),
 ('64', '64', '25420', 'Lesser Healing Wave'),
-('64', '64', '2870', 'Cure Disease'), --- Removed?
+('64', '64', '2870', 'Cure Disease'), -- Removed?
 ('64', '64', '8166', 'Poison Cleansing Totem'),
 ('64', '64', '131', 'Water Breathing'),
 ('64', '64', '25560', 'Frost Resistance Totem'),
@@ -5026,19 +5026,19 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '64', '36936', 'Totemic Recall'),
 ('64', '64', '25505', 'Windfury Weapon'),
 ('64', '64', '421', 'Chain Lightning'),
-('64', '64', '25587', 'Windfury Totem'), --- Removed?
+('64', '64', '25587', 'Windfury Totem'), -- Removed?
 ('64', '64', '6495', 'Sentry Totem'),
-('64', '64', '25577', 'Windwall Totem'), --- Removed?
+('64', '64', '25577', 'Windwall Totem'), -- Removed?
 ('64', '64', '8170', 'Cleansing Totem'),
 ('64', '64', '25423', 'Chain Heal'),
-('64', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('64', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('64', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('64', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('64', '64', '33736', 'Water Shield'),
 ('64', '64', '3738', 'Wrath of Air Totem'),
 ('64', '64', '2062', 'Earth Elemental Totem'),
 ('64', '64', '2894', 'Fire Elemental Totem'),
 ('64', '64', '2825', 'Bloodlust'),
---- Gnome Mage
+-- Gnome Mage
 ('64', '128', '81', 'Dodge'),
 ('64', '128', '133', 'Fireball'),
 ('64', '128', '168', 'Frost Armor'),
@@ -5111,7 +5111,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '128', '43987', 'Ritual of Refreshment'),
 ('64', '128', '30449', 'Spellsteal'),
 ('64', '128', '27087', 'Cone of Cold'),
---- Gnome Warlock
+-- Gnome Warlock
 ('64', '256', '81', 'Dodge'),
 ('64', '256', '203', 'Unarmed'),
 ('64', '256', '204', 'Defense'),
@@ -5157,7 +5157,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '256', '27230', 'Create Healthstone'),
 ('64', '256', '27217', 'Drain Soul'),
 ('64', '256', '27259', 'Health Funnel'),
-('64', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('64', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('64', '256', '27220', 'Drain Life'),
 ('64', '256', '5697', 'Unending Breath'),
 ('64', '256', '27238', 'Create Soulstone'),
@@ -5166,7 +5166,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '256', '27212', 'Rain of Fire'),
 ('64', '256', '698', 'Ritual of Summoning'),
 ('64', '256', '5500', 'Sense Demons'),
-('64', '256', '30908', 'Drain Mana'), --- Removed?
+('64', '256', '30908', 'Drain Mana'), -- Removed?
 ('64', '256', '11719', 'Curse of Tongues'),
 ('64', '256', '132', 'Detect Invisibility'),
 ('64', '256', '18647', 'Banish'),
@@ -5178,7 +5178,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '256', '27250', 'Create Firestone'),
 ('64', '256', '17928', 'Howl of Terror'),
 ('64', '256', '27223', 'Death Coil'),
-('64', '256', '27229', 'Curse of Shadow'), --- Removed?
+('64', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('64', '256', '30545', 'Soul Fire'),
 ('64', '256', '30910', 'Curse of Doom'),
 ('64', '256', '18540', 'Ritual of Doom'),
@@ -5193,7 +5193,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '256', '712', 'Summon Succubus'),
 ('64', '256', '691', 'Summon Felhunter'),
 ('64', '256', '126', 'Eye of Kilrogg'),
---- Gnome Druid
+-- Gnome Druid
 ('64', '1024', '7340', 'Language Gnomish'),
 ('64', '1024', '20589', 'Escape Artist'),
 ('64', '1024', '20591', 'Expansive Mind'),
@@ -5262,7 +5262,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '1024', '8983', 'Bash'),
 ('64', '1024', '8946', 'Cure Poison'),
 ('64', '1024', '26997', 'Swipe (Bear)'),
-('64', '1024', '26993', 'Faerie Fire'), --- Removed?
+('64', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('64', '1024', '18658', 'Hibernate'),
 ('64', '1024', '27000', 'Claw'),
 ('64', '1024', '9913', 'Prowl'),
@@ -5282,7 +5282,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '1024', '24248', 'Ferocious Bite'),
 ('64', '1024', '27005', 'Ravage'),
 ('64', '1024', '5225', 'Track Humanoids'),
-('64', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('64', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('64', '1024', '27012', 'Hurricane'),
 ('64', '1024', '27006', 'Pounce'),
 ('64', '1024', '29166', 'Innervate'),
@@ -5292,7 +5292,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('64', '1024', '33763', 'Lifebloom'),
 ('64', '1024', '33745', 'Lacerate'),
 ('64', '1024', '33786', 'Cyclone'),
---- Troll Warrior
+-- Troll Warrior
 ('128', '1', '78', 'Heroic Strike'),
 ('128', '1', '81', 'Dodge'),
 ('128', '1', '107', 'Block'),
@@ -5376,7 +5376,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '1', '674', 'Dual Wield'),
 ('128', '1', '750', 'Plate Armor'),
 ('128', '1', '12678', 'Stance Mastery'),
---- Troll Hunter
+-- Troll Hunter
 ('128', '4', '75', 'Auto Shot'),
 ('128', '4', '81', 'Dodge'),
 ('128', '4', '196', 'One-Handed Axes'),
@@ -5430,9 +5430,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '4', '982', 'Revive Pet'),
 ('128', '4', '1515', 'Tame Beast'),
 ('128', '4', '19883', 'Track Humanoids'),
-('128', '4', '27020', 'Distracting Shot'), --- Removed?
+('128', '4', '27020', 'Distracting Shot'), -- Removed?
 ('128', '4', '27046', 'Mend Pet'),
-('128', '4', '14268', 'Alliance Flag'), --- What?
+('128', '4', '14268', 'Alliance Flag'), -- What?
 ('128', '4', '6197', 'Eagle Eye'),
 ('128', '4', '1002', 'Eyes of the Beast'),
 ('128', '4', '14327', 'Scare Beast'),
@@ -5441,7 +5441,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '4', '27021', 'Multi-Shot'),
 ('128', '4', '19884', 'Track Undead'),
 ('128', '4', '5118', 'Aspect of the Cheetah'),
-('128', '4', '27015', 'Disengage'), --- Removed?
+('128', '4', '27015', 'Disengage'), -- Removed?
 ('128', '4', '14311', 'Freezing Trap'),
 ('128', '4', '3043', 'Scorpid Sting'),
 ('128', '4', '1462', 'Beast Lore'),
@@ -5454,7 +5454,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '4', '1543', 'Flare'),
 ('128', '4', '19878', 'Track Demons'),
 ('128', '4', '27025', 'Explosive Trap'),
-('128', '4', '27018', 'Viper Sting'), --- Removed?
+('128', '4', '27018', 'Viper Sting'), -- Removed?
 ('128', '4', '13159', 'Aspect of the Pack'),
 ('128', '4', '19882', 'Track Giants'),
 ('128', '4', '27022', 'Volley'),
@@ -5470,7 +5470,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '4', '8737', 'Mail'),
 ('128', '4', '5149', 'Beast Training'),
 ('128', '4', '3127', 'Parry'),
---- Troll Paladin
+-- Troll Paladin
 ('128', '2', '7341', 'Language Troll'),
 ('128', '2', '20555', 'Regeneration'),
 ('128', '2', '20557', 'Beast Slaying'),
@@ -5513,10 +5513,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '2', '27762', 'Libram'),
 ('128', '2', '27149', 'Devotion Aura'),
 ('128', '2', '27136', 'Holy Light'),
-('128', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('128', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('128', '2', '27140', 'Blessing of Might'),
 ('128', '2', '20271', 'Judgement of Light'),
-('128', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('128', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('128', '2', '10308', 'Hammer of Justice'),
 ('128', '2', '10278', 'Hand of Protection'),
 ('128', '2', '27154', 'Lay on Hands'),
@@ -5532,35 +5532,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '2', '27137', 'Flash of Light'),
 ('128', '2', '5502', 'Sense Undead'),
 ('128', '2', '19746', 'Concentration Aura'),
-('128', '2', '31895', 'Seal of Justice'), --- Removed?
+('128', '2', '31895', 'Seal of Justice'), -- Removed?
 ('128', '2', '5627', 'Turn Undead'), -- Removed?
 ('128', '2', '1038', 'Hand of Salvation'),
 ('128', '2', '27151', 'Shadow Resistance Aura'),
 ('128', '2', '19752', 'Divine Intervention'),
-('128', '2', '27160', 'Seal of Light'), --- Removed?
+('128', '2', '27160', 'Seal of Light'), -- Removed?
 ('128', '2', '27152', 'Frost Resistance Aura'),
-('128', '2', '1020', 'Divine Shield'), --- Removed?
+('128', '2', '1020', 'Divine Shield'), -- Removed?
 ('128', '2', '27153', 'Fire Resistance Aura'),
-('128', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('128', '2', '27144', 'Blessing of Light'), --- Removed?
+('128', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('128', '2', '27144', 'Blessing of Light'), -- Removed?
 ('128', '2', '4987', 'Cleanse'),
 ('128', '2', '27180', 'Hammer of Wrath'),
-('128', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('128', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('128', '2', '27139', 'Holy Wrath'),
 ('128', '2', '27141', 'Greater Blessing of Might'),
 ('128', '2', '10326', 'Turn Evil'),
 ('128', '2', '27143', 'Greater Blessing of Wisdom'),
 ('128', '2', '25898', 'Greater Blessing of Kings'),
-('128', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('128', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('128', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('128', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('128', '2', '32223', 'Crusader Aura'),
-('128', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('128', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('128', '2', '31884', 'Avenging Wrath'),
 ('128', '2', '750', 'Plate Armor'),
 ('128', '2', '3127', 'Parry'),
 ('128', '2', '23214', 'Charger'),
 ('128', '2', '31801', 'Seal of Vengeance'),
---- Troll Rogue
+-- Troll Rogue
 ('128', '8', '81', 'Dodge'),
 ('128', '8', '203', 'Unarmed'),
 ('128', '8', '204', 'Defense'),
@@ -5632,13 +5632,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '8', '3127', 'Parry'),
 ('128', '8', '674', 'Dual Wield'),
 ('128', '8', '3776', 'Green Leather Bracers'),
-('128', '8', '9186', null), --- Removed?
+('128', '8', '9186', null), -- Removed?
 ('128', '8', '21927', 'Natures Ally'),
 ('128', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('128', '8', '22055', null), --- Removed?
+('128', '8', '22055', null), -- Removed?
 ('128', '8', '2836', 'Detect Traps'),
 ('128', '8', '1860', 'Safe Fall'),
---- Troll Priest
+-- Troll Priest
 ('128', '16', '81', 'Dodge'),
 ('128', '16', '198', 'One-Handed Maces'),
 ('128', '16', '203', 'Unarmed'),
@@ -5679,7 +5679,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '16', '25364', 'Smite'),
 ('128', '16', '25368', 'Shadow Word: Pain'),
 ('128', '16', '25218', 'Power Word: Shield'),
-('128', '16', '25429', 'Fade'), --- Removed?
+('128', '16', '25429', 'Fade'), -- Removed?
 ('128', '16', '25222', 'Renew'),
 ('128', '16', '25375', 'Mind Blast'),
 ('128', '16', '25435', 'Resurrection'),
@@ -5690,11 +5690,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '16', '6346', 'Fear Ward'),
 ('128', '16', '25235', 'Flash Heal'),
 ('128', '16', '25384', 'Holy Fire'),
-('128', '16', '25596', 'Mind Soothe'), --- Removed?
+('128', '16', '25596', 'Mind Soothe'), -- Removed?
 ('128', '16', '10955', 'Shackle Undead'),
 ('128', '16', '10909', 'Mind Vision'),
-('128', '16', '25380', 'Mana Burn'), --- Removed?
-('128', '16', '10912', 'Mind Control'), --- Removed?
+('128', '16', '25380', 'Mana Burn'), -- Removed?
+('128', '16', '10912', 'Mind Control'), -- Removed?
 ('128', '16', '25308', 'Prayer of Healing'),
 ('128', '16', '25433', 'Shadow Protection'),
 ('128', '16', '552', 'Abolish Disease'),
@@ -5709,7 +5709,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '16', '33076', 'Prayer of Mending'),
 ('128', '16', '32375', 'Mass Dispel'),
 ('128', '16', '25312', 'Divine Spirit'),
---- Troll Shaman
+-- Troll Shaman
 ('128', '64', '81', 'Dodge'),
 ('128', '64', '107', 'Block'),
 ('128', '64', '198', 'One-Handed Maces'),
@@ -5751,7 +5751,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '64', '27763', 'Totem'),
 ('128', '64', '25396', 'Healing Wave'),
 ('128', '64', '25449', 'Lightning Bolt'),
-('128', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('128', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('128', '64', '25454', 'Earth Shock'),
 ('128', '64', '25509', 'Stoneskin Totem'),
 ('128', '64', '2484', 'Earthbind Totem'),
@@ -5771,7 +5771,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '64', '2645', 'Ghost Wolf'),
 ('128', '64', '25567', 'Healing Stream Totem'),
 ('128', '64', '25420', 'Lesser Healing Wave'),
-('128', '64', '2870', 'Cure Disease'), --- Removed?
+('128', '64', '2870', 'Cure Disease'), -- Removed?
 ('128', '64', '8166', 'Poison Cleansing Totem'),
 ('128', '64', '131', 'Water Breathing'),
 ('128', '64', '25560', 'Frost Resistance Totem'),
@@ -5787,22 +5787,22 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '64', '36936', 'Totemic Recall'),
 ('128', '64', '25505', 'Windfury Weapon'),
 ('128', '64', '421', 'Chain Lightning'),
-('128', '64', '25587', 'Windfury Totem'), --- Removed?
+('128', '64', '25587', 'Windfury Totem'), -- Removed?
 ('128', '64', '6495', 'Sentry Totem'),
-('128', '64', '25577', 'Windwall Totem'), --- Removed?
+('128', '64', '25577', 'Windwall Totem'), -- Removed?
 ('128', '64', '8170', 'Cleansing Totem'),
 ('128', '64', '25423', 'Chain Heal'),
-('128', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('128', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('128', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('128', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('128', '64', '33736', 'Water Shield'),
 ('128', '64', '3738', 'Wrath of Air Totem'),
 ('128', '64', '2062', 'Earth Elemental Totem'),
 ('128', '64', '2894', 'Fire Elemental Totem'),
 ('128', '64', '2825', 'Bloodlust'),
-('128', '64', '25442', 'Chain Lightning'), --- Only 6?
+('128', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('128', '64', '8737', 'Mail'),
 ('128', '64', '20608', 'Reincarnation'),
---- Troll Mage
+-- Troll Mage
 ('128', '128', '81', 'Dodge'),
 ('128', '128', '133', 'Fireball'),
 ('128', '128', '168', 'Frost Armor'),
@@ -5876,7 +5876,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '128', '43987', 'Ritual of Refreshment'),
 ('128', '128', '30449', 'Spellsteal'),
 ('128', '128', '27087', 'Cone of Cold'),
---- Troll Warlock
+-- Troll Warlock
 ('128', '256', '7341', 'Language Troll'),
 ('128', '256', '20555', 'Regeneration'),
 ('128', '256', '20557', 'Beast Slaying'),
@@ -5923,7 +5923,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '256', '27230', 'Create Healthstone'),
 ('128', '256', '27217', 'Drain Soul'),
 ('128', '256', '27259', 'Health Funnel'),
-('128', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('128', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('128', '256', '27220', 'Drain Life'),
 ('128', '256', '5697', 'Unending Breath'),
 ('128', '256', '27238', 'Create Soulstone'),
@@ -5932,7 +5932,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '256', '27212', 'Rain of Fire'),
 ('128', '256', '698', 'Ritual of Summoning'),
 ('128', '256', '5500', 'Sense Demons'),
-('128', '256', '30908', 'Drain Mana'), --- Removed?
+('128', '256', '30908', 'Drain Mana'), -- Removed?
 ('128', '256', '11719', 'Curse of Tongues'),
 ('128', '256', '132', 'Detect Invisibility'),
 ('128', '256', '18647', 'Banish'),
@@ -5944,7 +5944,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '256', '27250', 'Create Firestone'),
 ('128', '256', '17928', 'Howl of Terror'),
 ('128', '256', '27223', 'Death Coil'),
-('128', '256', '27229', 'Curse of Shadow'), --- Removed?
+('128', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('128', '256', '30545', 'Soul Fire'),
 ('128', '256', '30910', 'Curse of Doom'),
 ('128', '256', '18540', 'Ritual of Doom'),
@@ -5959,7 +5959,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '256', '712', 'Summon Succubus'),
 ('128', '256', '691', 'Summon Felhunter'),
 ('128', '256', '126', 'Eye of Kilrogg'),
---- Troll Druid
+-- Troll Druid
 ('128', '1024', '7341', 'Language Troll'),
 ('128', '1024', '20555', 'Regeneration'),
 ('128', '1024', '20557', 'Beast Slaying'),
@@ -6029,7 +6029,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '1024', '8983', 'Bash'),
 ('128', '1024', '8946', 'Cure Poison'),
 ('128', '1024', '26997', 'Swipe (Bear)'),
-('128', '1024', '26993', 'Faerie Fire'), --- Removed?
+('128', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('128', '1024', '18658', 'Hibernate'),
 ('128', '1024', '27000', 'Claw'),
 ('128', '1024', '9913', 'Prowl'),
@@ -6049,7 +6049,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '1024', '24248', 'Ferocious Bite'),
 ('128', '1024', '27005', 'Ravage'),
 ('128', '1024', '5225', 'Track Humanoids'),
-('128', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('128', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('128', '1024', '27012', 'Hurricane'),
 ('128', '1024', '27006', 'Pounce'),
 ('128', '1024', '29166', 'Innervate'),
@@ -6060,7 +6060,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('128', '1024', '33745', 'Lacerate'),
 ('128', '1024', '33786', 'Cyclone'),
 ('128', '1024', '20719', 'Feline Grace'),
---- Goblin Warrior
+-- Goblin Warrior
 ('256', '1', '78', 'Heroic Strike'),
 ('256', '1', '81', 'Dodge'),
 ('256', '1', '107', 'Block'),
@@ -6143,7 +6143,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '1', '674', 'Dual Wield'),
 ('256', '1', '750', 'Plate Armor'),
 ('256', '1', '12678', 'Stance Mastery'),
---- Goblin Paladin
+-- Goblin Paladin
 ('256', '2', '81', 'Dodge'),
 ('256', '2', '107', 'Block'),
 ('256', '2', '198', 'One-Handed Maces'),
@@ -6154,7 +6154,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '2', '635', 'Holy Light'),
 ('256', '2', '669', 'Language Orcish'),
 ('256', '2', '750', 'Plate Armor'),
-('256', '2', '1020', 'Divine Shield'), --- Removed?
+('256', '2', '1020', 'Divine Shield'), -- Removed?
 ('256', '2', '1038', 'Hand of Salvation'),
 ('256', '2', '1044', 'Hand of Freedom'),
 ('256', '2', '2382', 'Generic'),
@@ -6200,7 +6200,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '2', '22810', 'Opening - No Text'),
 ('256', '2', '23214', 'Charger'),
 ('256', '2', '25780', 'Righteous Fury'),
-('256', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('256', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('256', '2', '25898', 'Greater Blessing of Kings'),
 ('256', '2', '27136', 'Holy Light'),
 ('256', '2', '27137', 'Flash of Light'),
@@ -6210,30 +6210,30 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '2', '27141', 'Greater Blessing of Might'),
 ('256', '2', '27142', 'Blessing of Wisdom'),
 ('256', '2', '27143', 'Greater Blessing of Wisdom'),
-('256', '2', '27144', 'Blessing of Light'), --- Removed?
-('256', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('256', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('256', '2', '27144', 'Blessing of Light'), -- Removed?
+('256', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('256', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('256', '2', '27149', 'Devotion Aura'),
 ('256', '2', '27150', 'Retribution Aura'),
 ('256', '2', '27151', 'Shadow Resistance Aura'),
 ('256', '2', '27152', 'Frost Resistance Aura'),
 ('256', '2', '27153', 'Fire Resistance Aura'),
 ('256', '2', '27154', 'Lay on Hands'),
-('256', '2', '27155', 'Seal of Righteousness'), --- Removed?
-('256', '2', '27158', 'Seal of the Crusader'), --- Removed?
-('256', '2', '27160', 'Seal of Light'), --- Removed?
-('256', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('256', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('256', '2', '27155', 'Seal of Righteousness'), -- Removed?
+('256', '2', '27158', 'Seal of the Crusader'), -- Removed?
+('256', '2', '27160', 'Seal of Light'), -- Removed?
+('256', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('256', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('256', '2', '27173', 'Consecration'),
 ('256', '2', '27180', 'Hammer of Wrath'),
 ('256', '2', '27762', 'Libram'),
 ('256', '2', '31789', 'Righteous Defense'),
 ('256', '2', '31801', 'Seal of Vengeance'),
 ('256', '2', '31884', 'Avenging Wrath'),
-('256', '2', '31895', 'Seal of Justice'), --- Removed?
+('256', '2', '31895', 'Seal of Justice'), -- Removed?
 ('256', '2', '32223', 'Crusader Aura'),
 ('256', '2', '33776', 'Spiritual Attunement'),
---- Goblin Hunter
+-- Goblin Hunter
 ('256', '4', '75', 'Auto Shot'),
 ('256', '4', '81', 'Dodge'),
 ('256', '4', '196', 'One-Handed Axes'),
@@ -6287,9 +6287,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '4', '982', 'Revive Pet'),
 ('256', '4', '1515', 'Tame Beast'),
 ('256', '4', '19883', 'Track Humanoids'),
-('256', '4', '27020', 'Distracting Shot'), --- Removed?
+('256', '4', '27020', 'Distracting Shot'), -- Removed?
 ('256', '4', '27046', 'Mend Pet'),
-('256', '4', '14268', 'Alliance Flag'), --- What?
+('256', '4', '14268', 'Alliance Flag'), -- What?
 ('256', '4', '6197', 'Eagle Eye'),
 ('256', '4', '1002', 'Eyes of the Beast'),
 ('256', '4', '14327', 'Scare Beast'),
@@ -6298,7 +6298,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '4', '27021', 'Multi-Shot'),
 ('256', '4', '19884', 'Track Undead'),
 ('256', '4', '5118', 'Aspect of the Cheetah'),
-('256', '4', '27015', 'Disengage'), --- Removed?
+('256', '4', '27015', 'Disengage'), -- Removed?
 ('256', '4', '14311', 'Freezing Trap'),
 ('256', '4', '3043', 'Scorpid Sting'),
 ('256', '4', '1462', 'Beast Lore'),
@@ -6311,7 +6311,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '4', '1543', 'Flare'),
 ('256', '4', '19878', 'Track Demons'),
 ('256', '4', '27025', 'Explosive Trap'),
-('256', '4', '27018', 'Viper Sting'), --- Removed?
+('256', '4', '27018', 'Viper Sting'), -- Removed?
 ('256', '4', '13159', 'Aspect of the Pack'),
 ('256', '4', '19882', 'Track Giants'),
 ('256', '4', '27022', 'Volley'),
@@ -6325,9 +6325,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '4', '34477', 'Misdirection'),
 ('256', '4', '674', 'Dual Wield'),
 ('256', '4', '8737', 'Mail'),
-('256', '4', '5149', 'Beast Training'), --- Only 8?
+('256', '4', '5149', 'Beast Training'), -- Only 8?
 ('256', '4', '3127', 'Parry'),
---- Goblin Rogue
+-- Goblin Rogue
 ('256', '8', '81', 'Dodge'),
 ('256', '8', '203', 'Unarmed'),
 ('256', '8', '204', 'Defense'),
@@ -6399,13 +6399,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '8', '3127', 'Parry'),
 ('256', '8', '674', 'Dual Wield'),
 ('256', '8', '3776', 'Green Leather Bracers'),
-('256', '8', '9186', null), --- Removed?
+('256', '8', '9186', null), -- Removed?
 ('256', '8', '21927', 'Natures Ally'),
 ('256', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('256', '8', '22055', null), --- Removed?
+('256', '8', '22055', null), -- Removed?
 ('256', '8', '2836', 'Detect Traps'),
 ('256', '8', '1860', 'Safe Fall'),
---- Goblin Priest
+-- Goblin Priest
 ('256', '16', '669', 'Language Orcish'),
 ('256', '16', '69041', 'Rocket Barrage'),
 ('256', '16', '69042', 'Time is Money'),
@@ -6446,7 +6446,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '16', '25364', 'Smite'),
 ('256', '16', '25368', 'Shadow Word: Pain'),
 ('256', '16', '25218', 'Power Word: Shield'),
-('256', '16', '25429', 'Fade'), --- Removed?
+('256', '16', '25429', 'Fade'), -- Removed?
 ('256', '16', '25222', 'Renew'),
 ('256', '16', '25375', 'Mind Blast'),
 ('256', '16', '25435', 'Resurrection'),
@@ -6457,11 +6457,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '16', '6346', 'Fear Ward'),
 ('256', '16', '25235', 'Flash Heal'),
 ('256', '16', '25384', 'Holy Fire'),
-('256', '16', '25596', 'Mind Soothe'), --- Removed?
+('256', '16', '25596', 'Mind Soothe'), -- Removed?
 ('256', '16', '10955', 'Shackle Undead'),
 ('256', '16', '10909', 'Mind Vision'),
-('256', '16', '25380', 'Mana Burn'), --- Removed?
-('256', '16', '10912', 'Mind Control'), --- Removed?
+('256', '16', '25380', 'Mana Burn'), -- Removed?
+('256', '16', '10912', 'Mind Control'), -- Removed?
 ('256', '16', '25308', 'Prayer of Healing'),
 ('256', '16', '25433', 'Shadow Protection'),
 ('256', '16', '552', 'Abolish Disease'),
@@ -6475,10 +6475,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '16', '34433', 'Shadowfiend'),
 ('256', '16', '33076', 'Prayer of Mending'),
 ('256', '16', '32375', 'Mass Dispel'),
-('256', '16', '25441', 'Feedback'), --- Removed?
+('256', '16', '25441', 'Feedback'), -- Removed?
 ('256', '16', '25312', 'Divine Spirit'),
 ('256', '16', '25437', 'Desperate Prayer'),
---- Goblin Shaman
+-- Goblin Shaman
 ('256', '64', '81', 'Dodge'),
 ('256', '64', '107', 'Block'),
 ('256', '64', '198', 'One-Handed Maces'),
@@ -6520,7 +6520,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '64', '27763', 'Totem'),
 ('256', '64', '25396', 'Healing Wave'),
 ('256', '64', '25449', 'Lightning Bolt'),
-('256', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('256', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('256', '64', '25454', 'Earth Shock'),
 ('256', '64', '25509', 'Stoneskin Totem'),
 ('256', '64', '2484', 'Earthbind Totem'),
@@ -6540,7 +6540,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '64', '2645', 'Ghost Wolf'),
 ('256', '64', '25567', 'Healing Stream Totem'),
 ('256', '64', '25420', 'Lesser Healing Wave'),
-('256', '64', '2870', 'Cure Disease'), --- Removed?
+('256', '64', '2870', 'Cure Disease'), -- Removed?
 ('256', '64', '8166', 'Poison Cleansing Totem'),
 ('256', '64', '131', 'Water Breathing'),
 ('256', '64', '25560', 'Frost Resistance Totem'),
@@ -6556,22 +6556,22 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '64', '36936', 'Totemic Recall'),
 ('256', '64', '25505', 'Windfury Weapon'),
 ('256', '64', '421', 'Chain Lightning'),
-('256', '64', '25587', 'Windfury Totem'), --- Removed?
+('256', '64', '25587', 'Windfury Totem'), -- Removed?
 ('256', '64', '6495', 'Sentry Totem'),
-('256', '64', '25577', 'Windwall Totem'), --- Removed?
+('256', '64', '25577', 'Windwall Totem'), -- Removed?
 ('256', '64', '8170', 'Cleansing Totem'),
 ('256', '64', '25423', 'Chain Heal'),
-('256', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('256', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('256', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('256', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('256', '64', '33736', 'Water Shield'),
 ('256', '64', '3738', 'Wrath of Air Totem'),
 ('256', '64', '2062', 'Earth Elemental Totem'),
 ('256', '64', '2894', 'Fire Elemental Totem'),
-('256', '64', '2825', 'Bloodlust'), --- Only 9?
-('256', '64', '25442', 'Chain Lightning'), --- Only 6?
+('256', '64', '2825', 'Bloodlust'), -- Only 9?
+('256', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('256', '64', '8737', 'Mail'),
-('256', '64', '20608', 'Reincarnation'), --- Only 6?
---- Goblin Mage
+('256', '64', '20608', 'Reincarnation'), -- Only 6?
+-- Goblin Mage
 ('256', '128', '669', 'Language Orcish'),
 ('256', '128', '69041', 'Rocket Barrage'),
 ('256', '128', '69042', 'Time is Money'),
@@ -6645,7 +6645,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '128', '43987', 'Ritual of Refreshment'),
 ('256', '128', '30449', 'Spellsteal'),
 ('256', '128', '27087', 'Cone of Cold'),
---- Goblin Warlock
+-- Goblin Warlock
 ('256', '256', '81', 'Dodge'),
 ('256', '256', '203', 'Unarmed'),
 ('256', '256', '204', 'Defense'),
@@ -6692,7 +6692,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '256', '27230', 'Create Healthstone'),
 ('256', '256', '27217', 'Drain Soul'),
 ('256', '256', '27259', 'Health Funnel'),
-('256', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('256', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('256', '256', '27220', 'Drain Life'),
 ('256', '256', '5697', 'Unending Breath'),
 ('256', '256', '27238', 'Create Soulstone'),
@@ -6701,7 +6701,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '256', '27212', 'Rain of Fire'),
 ('256', '256', '698', 'Ritual of Summoning'),
 ('256', '256', '5500', 'Sense Demons'),
-('256', '256', '30908', 'Drain Mana'), --- Removed?
+('256', '256', '30908', 'Drain Mana'), -- Removed?
 ('256', '256', '11719', 'Curse of Tongues'),
 ('256', '256', '132', 'Detect Invisibility'),
 ('256', '256', '18647', 'Banish'),
@@ -6713,7 +6713,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '256', '27250', 'Create Firestone'),
 ('256', '256', '17928', 'Howl of Terror'),
 ('256', '256', '27223', 'Death Coil'),
-('256', '256', '27229', 'Curse of Shadow'), --- Removed?
+('256', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('256', '256', '30545', 'Soul Fire'),
 ('256', '256', '30910', 'Curse of Doom'),
 ('256', '256', '18540', 'Ritual of Doom'),
@@ -6728,7 +6728,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '256', '712', 'Summon Succubus'),
 ('256', '256', '691', 'Summon Felhunter'),
 ('256', '256', '126', 'Eye of Kilrogg'),
---- Goblin Druid
+-- Goblin Druid
 ('256', '1024', '669', 'Language Orcish'),
 ('256', '1024', '69041', 'Rocket Barrage'),
 ('256', '1024', '69042', 'Time is Money'),
@@ -6798,7 +6798,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '1024', '8983', 'Bash'),
 ('256', '1024', '8946', 'Cure Poison'),
 ('256', '1024', '26997', 'Swipe (Bear)'),
-('256', '1024', '26993', 'Faerie Fire'), --- Removed?
+('256', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('256', '1024', '18658', 'Hibernate'),
 ('256', '1024', '27000', 'Claw'),
 ('256', '1024', '9913', 'Prowl'),
@@ -6818,7 +6818,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '1024', '24248', 'Ferocious Bite'),
 ('256', '1024', '27005', 'Ravage'),
 ('256', '1024', '5225', 'Track Humanoids'),
-('256', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('256', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('256', '1024', '27012', 'Hurricane'),
 ('256', '1024', '27006', 'Pounce'),
 ('256', '1024', '29166', 'Innervate'),
@@ -6829,7 +6829,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('256', '1024', '33745', 'Lacerate'),
 ('256', '1024', '33786', 'Cyclone'),
 ('256', '1024', '20719', 'Feline Grace'),
---- Blood Elf Warrior
+-- Blood Elf Warrior
 ('512', '1', '78', 'Heroic Strike'),
 ('512', '1', '81', 'Dodge'),
 ('512', '1', '107', 'Block'),
@@ -6872,7 +6872,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '1', '202', 'Two-Handed Swords'),
 ('512', '1', '813', 'Language Thalassian'),
 ('512', '1', '822', 'Magic Resistance'),
-('512', '1', '28730', 'Arcane Torrent'), --- Maybe 80867 or 80868?
+('512', '1', '28730', 'Arcane Torrent'), -- Maybe 80867 or 80868?
 ('512', '1', '28877', 'Arcane Affinity'),
 ('512', '1', '2048', 'Battle Shout'),
 ('512', '1', '30324', 'Heroic Strike'),
@@ -6907,7 +6907,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '1', '23920', 'Spell Reflection'),
 ('512', '1', '469', 'Commanding Shout'),
 ('512', '1', '3411', 'Intervene'),
---- Blood Elf Paladin
+-- Blood Elf Paladin
 ('512', '2', '81', 'Dodge'),
 ('512', '2', '107', 'Block'),
 ('512', '2', '201', 'One-Handed Swords'),
@@ -6948,10 +6948,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '2', '28877', 'Arcane Affinity'),
 ('512', '2', '27149', 'Devotion Aura'),
 ('512', '2', '27136', 'Holy Light'),
-('512', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('512', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('512', '2', '27140', 'Blessing of Might'),
 ('512', '2', '20271', 'Judgement of Light'),
-('512', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('512', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('512', '2', '10308', 'Hammer of Justice'),
 ('512', '2', '10278', 'Hand of Protection'),
 ('512', '2', '27154', 'Lay on Hands'),
@@ -6967,34 +6967,34 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '2', '27137', 'Flash of Light'),
 ('512', '2', '5502', 'Sense Undead'),
 ('512', '2', '19746', 'Concentration Aura'),
-('512', '2', '31895', 'Seal of Justice'), --- Removed?
+('512', '2', '31895', 'Seal of Justice'), -- Removed?
 ('512', '2', '5627', 'Turn Undead'), -- Removed?
 ('512', '2', '1038', 'Hand of Salvation'),
 ('512', '2', '27151', 'Shadow Resistance Aura'),
 ('512', '2', '19752', 'Divine Intervention'),
-('512', '2', '27160', 'Seal of Light'), --- Removed?
+('512', '2', '27160', 'Seal of Light'), -- Removed?
 ('512', '2', '27152', 'Frost Resistance Aura'),
-('512', '2', '1020', 'Divine Shield'), --- Removed?
+('512', '2', '1020', 'Divine Shield'), -- Removed?
 ('512', '2', '27153', 'Fire Resistance Aura'),
-('512', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('512', '2', '27144', 'Blessing of Light'), --- Removed?
+('512', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('512', '2', '27144', 'Blessing of Light'), -- Removed?
 ('512', '2', '4987', 'Cleanse'),
 ('512', '2', '27180', 'Hammer of Wrath'),
-('512', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('512', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('512', '2', '27139', 'Holy Wrath'),
 ('512', '2', '27141', 'Greater Blessing of Might'),
 ('512', '2', '10326', 'Turn Evil'),
 ('512', '2', '27143', 'Greater Blessing of Wisdom'),
 ('512', '2', '25898', 'Greater Blessing of Kings'),
-('512', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('512', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('512', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('512', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('512', '2', '32223', 'Crusader Aura'),
-('512', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('512', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('512', '2', '31884', 'Avenging Wrath'),
 ('512', '2', '750', 'Plate Armor'),
 ('512', '2', '3127', 'Parry'),
-('512', '2', '34767', 'Summon Charger'), --- Only 1?
---- Blood Elf Hunter
+('512', '2', '34767', 'Summon Charger'), -- Only 1?
+-- Blood Elf Hunter
 ('512', '4', '75', 'Auto Shot'),
 ('512', '4', '81', 'Dodge'),
 ('512', '4', '203', 'Unarmed'),
@@ -7046,9 +7046,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '4', '982', 'Revive Pet'),
 ('512', '4', '1515', 'Tame Beast'),
 ('512', '4', '19883', 'Track Humanoids'),
-('512', '4', '27020', 'Distracting Shot'), --- Removed?
+('512', '4', '27020', 'Distracting Shot'), -- Removed?
 ('512', '4', '27046', 'Mend Pet'),
-('512', '4', '14268', 'Alliance Flag'), --- What?
+('512', '4', '14268', 'Alliance Flag'), -- What?
 ('512', '4', '6197', 'Eagle Eye'),
 ('512', '4', '1002', 'Eyes of the Beast'),
 ('512', '4', '14327', 'Scare Beast'),
@@ -7057,7 +7057,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '4', '27021', 'Multi-Shot'),
 ('512', '4', '19884', 'Track Undead'),
 ('512', '4', '5118', 'Aspect of the Cheetah'),
-('512', '4', '27015', 'Disengage'), --- Removed?
+('512', '4', '27015', 'Disengage'), -- Removed?
 ('512', '4', '14311', 'Freezing Trap'),
 ('512', '4', '3043', 'Scorpid Sting'),
 ('512', '4', '1462', 'Beast Lore'),
@@ -7070,7 +7070,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '4', '1543', 'Flare'),
 ('512', '4', '19878', 'Track Demons'),
 ('512', '4', '27025', 'Explosive Trap'),
-('512', '4', '27018', 'Viper Sting'), --- Removed?
+('512', '4', '27018', 'Viper Sting'), -- Removed?
 ('512', '4', '13159', 'Aspect of the Pack'),
 ('512', '4', '19882', 'Track Giants'),
 ('512', '4', '27022', 'Volley'),
@@ -7086,7 +7086,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '4', '8737', 'Mail'),
 ('512', '4', '5149', 'Beast Training'),
 ('512', '4', '3127', 'Parry'),
---- Blood Elf Rogue
+-- Blood Elf Rogue
 ('512', '8', '81', 'Dodge'),
 ('512', '8', '203', 'Unarmed'),
 ('512', '8', '204', 'Defense'),
@@ -7156,13 +7156,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '8', '3127', 'Parry'),
 ('512', '8', '674', 'Dual Wield'),
 ('512', '8', '3776', 'Green Leather Bracers'),
-('512', '8', '9186', null), --- Removed?
+('512', '8', '9186', null), -- Removed?
 ('512', '8', '21927', 'Natures Ally'),
 ('512', '8', '22054', 'QAEnchant Bracer +7 Intellect'),
-('512', '8', '22055', null), --- Removed?
+('512', '8', '22055', null), -- Removed?
 ('512', '8', '2836', 'Detect Traps'),
 ('512', '8', '1860', 'Safe Fall'),
---- Blood Elf Priest
+-- Blood Elf Priest
 ('512', '16', '81', 'Dodge'),
 ('512', '16', '198', 'One-Handed Maces'),
 ('512', '16', '203', 'Unarmed'),
@@ -7201,7 +7201,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '16', '25364', 'Smite'),
 ('512', '16', '25368', 'Shadow Word: Pain'),
 ('512', '16', '25218', 'Power Word: Shield'),
-('512', '16', '25429', 'Fade'), --- Removed?
+('512', '16', '25429', 'Fade'), -- Removed?
 ('512', '16', '25222', 'Renew'),
 ('512', '16', '25375', 'Mind Blast'),
 ('512', '16', '25435', 'Resurrection'),
@@ -7212,11 +7212,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '16', '6346', 'Fear Ward'),
 ('512', '16', '25235', 'Flash Heal'),
 ('512', '16', '25384', 'Holy Fire'),
-('512', '16', '25596', 'Mind Soothe'), --- Removed?
+('512', '16', '25596', 'Mind Soothe'), -- Removed?
 ('512', '16', '10955', 'Shackle Undead'),
 ('512', '16', '10909', 'Mind Vision'),
-('512', '16', '25380', 'Mana Burn'), --- Removed?
-('512', '16', '10912', 'Mind Control'), --- Removed?
+('512', '16', '25380', 'Mana Burn'), -- Removed?
+('512', '16', '10912', 'Mind Control'), -- Removed?
 ('512', '16', '25308', 'Prayer of Healing'),
 ('512', '16', '25433', 'Shadow Protection'),
 ('512', '16', '552', 'Abolish Disease'),
@@ -7231,7 +7231,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '16', '33076', 'Prayer of Mending'),
 ('512', '16', '32375', 'Mass Dispel'),
 ('512', '16', '25312', 'Divine Spirit'),
----- Blood Elf Shaman
+-- Blood Elf Shaman
 ('512', '64', '81', 'Dodge'),
 ('512', '64', '107', 'Block'),
 ('512', '64', '198', 'One-Handed Maces'),
@@ -7267,7 +7267,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '64', '27763', 'Totem'),
 ('512', '64', '25396', 'Healing Wave'),
 ('512', '64', '25449', 'Lightning Bolt'),
-('512', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('512', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('512', '64', '25454', 'Earth Shock'),
 ('512', '64', '25509', 'Stoneskin Totem'),
 ('512', '64', '2484', 'Earthbind Totem'),
@@ -7287,7 +7287,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '64', '2645', 'Ghost Wolf'),
 ('512', '64', '25567', 'Healing Stream Totem'),
 ('512', '64', '25420', 'Lesser Healing Wave'),
-('512', '64', '2870', 'Cure Disease'), --- Removed?
+('512', '64', '2870', 'Cure Disease'), -- Removed?
 ('512', '64', '8166', 'Poison Cleansing Totem'),
 ('512', '64', '131', 'Water Breathing'),
 ('512', '64', '25560', 'Frost Resistance Totem'),
@@ -7303,26 +7303,26 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '64', '36936', 'Totemic Recall'),
 ('512', '64', '25505', 'Windfury Weapon'),
 ('512', '64', '421', 'Chain Lightning'),
-('512', '64', '25587', 'Windfury Totem'), --- Removed?
+('512', '64', '25587', 'Windfury Totem'), -- Removed?
 ('512', '64', '6495', 'Sentry Totem'),
-('512', '64', '25577', 'Windwall Totem'), --- Removed?
+('512', '64', '25577', 'Windwall Totem'), -- Removed?
 ('512', '64', '8170', 'Cleansing Totem'),
 ('512', '64', '25423', 'Chain Heal'),
-('512', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('512', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('512', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('512', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('512', '64', '33736', 'Water Shield'),
 ('512', '64', '3738', 'Wrath of Air Totem'),
 ('512', '64', '2062', 'Earth Elemental Totem'),
 ('512', '64', '2894', 'Fire Elemental Totem'),
 ('512', '64', '2825', 'Bloodlust'),
-('512', '64', '25442', 'Chain Lightning'), --- Only 6?
+('512', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('512', '64', '8737', 'Mail'),
 ('512', '64', '20608', 'Reincarnation'),
 ('512', '64', '813', 'Language Thalassian'),
 ('512', '64', '822', 'Magic Resistance'),
 ('512', '64', '28730', 'Arcane Torrent'),
 ('512', '64', '28877', 'Arcane Affinity'),
---- Blood Elf Mage
+-- Blood Elf Mage
 ('512', '128', '81', 'Dodge'),
 ('512', '128', '133', 'Fireball'),
 ('512', '128', '168', 'Frost Armor'),
@@ -7394,7 +7394,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '128', '43987', 'Ritual of Refreshment'),
 ('512', '128', '30449', 'Spellsteal'),
 ('512', '128', '27087', 'Cone of Cold'),
---- Blood Elf Warlock
+-- Blood Elf Warlock
 ('512', '256', '81', 'Dodge'),
 ('512', '256', '203', 'Unarmed'),
 ('512', '256', '204', 'Defense'),
@@ -7435,7 +7435,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '256', '712', 'Summon Succubus'),
 ('512', '256', '691', 'Summon Felhunter'),
 ('512', '256', '126', 'Eye of Kilrogg'),
---- Blood Elf Druid
+-- Blood Elf Druid
 ('512', '1024', '20719', 'Feline Grace'),
 ('512', '1024', '26979', 'Healing Touch'),
 ('512', '1024', '26990', 'Mark of the Wild'),
@@ -7458,7 +7458,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '1024', '8983', 'Bash'),
 ('512', '1024', '8946', 'Cure Poison'),
 ('512', '1024', '26997', 'Swipe (Bear)'),
-('512', '1024', '26993', 'Faerie Fire'), --- Removed?
+('512', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('512', '1024', '18658', 'Hibernate'),
 ('512', '1024', '27000', 'Claw'),
 ('512', '1024', '9913', 'Prowl'),
@@ -7478,7 +7478,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '1024', '24248', 'Ferocious Bite'),
 ('512', '1024', '27005', 'Ravage'),
 ('512', '1024', '5225', 'Track Humanoids'),
-('512', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('512', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('512', '1024', '27012', 'Hurricane'),
 ('512', '1024', '27006', 'Pounce'),
 ('512', '1024', '29166', 'Innervate'),
@@ -7534,7 +7534,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('512', '1024', '33948', 'Flight Form(Passive)'),
 ('512', '1024', '34123', 'Tree of Life(Passive)'),
 ('512', '1024', '40121', 'Swift Flight Form(Passive)'),
---- Draenei Warrior
+-- Draenei Warrior
 ('1024', '1', '78', 'Heroic Strike'),
 ('1024', '1', '81', 'Dodge'),
 ('1024', '1', '107', 'Block'),
@@ -7616,7 +7616,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '1', '674', 'Dual Wield'),
 ('1024', '1', '750', 'Plate Armor'),
 ('1024', '1', '12678', 'Stance Mastery'),
---- Draenei Paladin
+-- Draenei Paladin
 ('1024', '2', '81', 'Dodge'),
 ('1024', '2', '107', 'Block'),
 ('1024', '2', '198', 'One-Handed Maces'),
@@ -7658,10 +7658,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '2', '29932', 'Language Draenei'),
 ('1024', '2', '27149', 'Devotion Aura'),
 ('1024', '2', '27136', 'Holy Light'),
-('1024', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('1024', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('1024', '2', '27140', 'Blessing of Might'),
 ('1024', '2', '20271', 'Judgement of Light'),
-('1024', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('1024', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('1024', '2', '10308', 'Hammer of Justice'),
 ('1024', '2', '10278', 'Hand of Protection'),
 ('1024', '2', '27154', 'Lay on Hands'),
@@ -7677,35 +7677,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '2', '27137', 'Flash of Light'),
 ('1024', '2', '5502', 'Sense Undead'),
 ('1024', '2', '19746', 'Concentration Aura'),
-('1024', '2', '31895', 'Seal of Justice'), --- Removed?
+('1024', '2', '31895', 'Seal of Justice'), -- Removed?
 ('1024', '2', '5627', 'Turn Undead'), -- Removed?
 ('1024', '2', '1038', 'Hand of Salvation'),
 ('1024', '2', '27151', 'Shadow Resistance Aura'),
 ('1024', '2', '19752', 'Divine Intervention'),
-('1024', '2', '27160', 'Seal of Light'), --- Removed?
+('1024', '2', '27160', 'Seal of Light'), -- Removed?
 ('1024', '2', '27152', 'Frost Resistance Aura'),
-('1024', '2', '1020', 'Divine Shield'), --- Removed?
+('1024', '2', '1020', 'Divine Shield'), -- Removed?
 ('1024', '2', '27153', 'Fire Resistance Aura'),
-('1024', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('1024', '2', '27144', 'Blessing of Light'), --- Removed?
+('1024', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('1024', '2', '27144', 'Blessing of Light'), -- Removed?
 ('1024', '2', '4987', 'Cleanse'),
 ('1024', '2', '27180', 'Hammer of Wrath'),
-('1024', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('1024', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('1024', '2', '27139', 'Holy Wrath'),
 ('1024', '2', '27141', 'Greater Blessing of Might'),
 ('1024', '2', '10326', 'Turn Evil'),
 ('1024', '2', '27143', 'Greater Blessing of Wisdom'),
 ('1024', '2', '25898', 'Greater Blessing of Kings'),
-('1024', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('1024', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('1024', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('1024', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('1024', '2', '32223', 'Crusader Aura'),
-('1024', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('1024', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('1024', '2', '31884', 'Avenging Wrath'),
 ('1024', '2', '750', 'Plate Armor'),
 ('1024', '2', '3127', 'Parry'),
 ('1024', '2', '23214', 'Charger'),
 ('1024', '2', '31801', 'Seal of Vengeance'),
---- Draenei Hunter
+-- Draenei Hunter
 ('1024', '4', '75', 'Auto Shot'),
 ('1024', '4', '81', 'Dodge'),
 ('1024', '4', '201', 'One-Handed Swords'),
@@ -7758,9 +7758,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '4', '982', 'Revive Pet'),
 ('1024', '4', '1515', 'Tame Beast'),
 ('1024', '4', '19883', 'Track Humanoids'),
-('1024', '4', '27020', 'Distracting Shot'), --- Removed?
+('1024', '4', '27020', 'Distracting Shot'), -- Removed?
 ('1024', '4', '27046', 'Mend Pet'),
-('1024', '4', '14268', 'Alliance Flag'), --- What?
+('1024', '4', '14268', 'Alliance Flag'), -- What?
 ('1024', '4', '6197', 'Eagle Eye'),
 ('1024', '4', '1002', 'Eyes of the Beast'),
 ('1024', '4', '14327', 'Scare Beast'),
@@ -7769,7 +7769,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '4', '27021', 'Multi-Shot'),
 ('1024', '4', '19884', 'Track Undead'),
 ('1024', '4', '5118', 'Aspect of the Cheetah'),
-('1024', '4', '27015', 'Disengage'), --- Removed?
+('1024', '4', '27015', 'Disengage'), -- Removed?
 ('1024', '4', '14311', 'Freezing Trap'),
 ('1024', '4', '3043', 'Scorpid Sting'),
 ('1024', '4', '1462', 'Beast Lore'),
@@ -7782,7 +7782,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '4', '1543', 'Flare'),
 ('1024', '4', '19878', 'Track Demons'),
 ('1024', '4', '27025', 'Explosive Trap'),
-('1024', '4', '27018', 'Viper Sting'), --- Removed?
+('1024', '4', '27018', 'Viper Sting'), -- Removed?
 ('1024', '4', '13159', 'Aspect of the Pack'),
 ('1024', '4', '19882', 'Track Giants'),
 ('1024', '4', '27022', 'Volley'),
@@ -7798,7 +7798,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '4', '8737', 'Mail'),
 ('1024', '4', '5149', 'Beast Training'),
 ('1024', '4', '3127', 'Parry'),
---- Draenei Rogue
+-- Draenei Rogue
 ('1024', '8', '81', 'Dodge'),
 ('1024', '8', '203', 'Unarmed'),
 ('1024', '8', '204', 'Defense'),
@@ -7837,9 +7837,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '8', '21652', 'Closing'),
 ('1024', '8', '22027', 'Remove Insignia'),
 ('1024', '8', '22810', 'Opening - No Text'),
-('1024', '8', '26865', 'Eviscerate'), --- Only 9?
-('1024', '8', '26862', 'Sinister Strike'), --- Only 9?
-('1024', '8', '1787', 'Stealth'), --- Only 9?
+('1024', '8', '26865', 'Eviscerate'), -- Only 9?
+('1024', '8', '26862', 'Sinister Strike'), -- Only 9?
+('1024', '8', '1787', 'Stealth'), -- Only 9?
 ('1024', '8', '26863', 'Backstab'),
 ('1024', '8', '921', 'Pick Pocket'),
 ('1024', '8', '38764', 'Gouge'),
@@ -7850,7 +7850,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '8', '38768', 'Kick'),
 ('1024', '8', '26866', 'Expose Armor'),
 ('1024', '8', '26884', 'Garrote'),
-('1024', '8', '27448', 'Feint'), --- Only 8?
+('1024', '8', '27448', 'Feint'), -- Only 8?
 ('1024', '8', '1804', 'Pick Lock'),
 ('1024', '8', '27441', 'Ambush'),
 ('1024', '8', '2842', 'Poisons'),
@@ -7868,14 +7868,14 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '8', '8643', 'Kidney Shot'),
 ('1024', '8', '3127', 'Parry'),
 ('1024', '8', '674', 'Dual Wield'),
-('1024', '8', '3776', 'Green Leather Bracers'), --- What?
-('1024', '8', '9186', null), --- Removed?
-('1024', '8', '21927', 'Natures Ally'), --- What?
-('1024', '8', '22054', 'QAEnchant Bracer +7 Intellect'), --- What?
-('1024', '8', '22055', null), --- Removed?
+('1024', '8', '3776', 'Green Leather Bracers'), -- What?
+('1024', '8', '9186', null), -- Removed?
+('1024', '8', '21927', 'Natures Ally'), -- What?
+('1024', '8', '22054', 'QAEnchant Bracer +7 Intellect'), -- What?
+('1024', '8', '22055', null), -- Removed?
 ('1024', '8', '2836', 'Detect Traps'),
-('1024', '8', '1860', 'Safe Fall'), --- Removed?
---- Draenei Priest
+('1024', '8', '1860', 'Safe Fall'), -- Removed?
+-- Draenei Priest
 ('1024', '16', '81', 'Dodge'),
 ('1024', '16', '198', 'One-Handed Maces'),
 ('1024', '16', '203', 'Unarmed'),
@@ -7915,7 +7915,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '16', '25364', 'Smite'),
 ('1024', '16', '25368', 'Shadow Word: Pain'),
 ('1024', '16', '25218', 'Power Word: Shield'),
-('1024', '16', '25429', 'Fade'), --- Removed?
+('1024', '16', '25429', 'Fade'), -- Removed?
 ('1024', '16', '25222', 'Renew'),
 ('1024', '16', '25375', 'Mind Blast'),
 ('1024', '16', '25435', 'Resurrection'),
@@ -7926,11 +7926,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '16', '6346', 'Fear Ward'),
 ('1024', '16', '25235', 'Flash Heal'),
 ('1024', '16', '25384', 'Holy Fire'),
-('1024', '16', '25596', 'Mind Soothe'), --- Removed?
+('1024', '16', '25596', 'Mind Soothe'), -- Removed?
 ('1024', '16', '10955', 'Shackle Undead'),
 ('1024', '16', '10909', 'Mind Vision'),
-('1024', '16', '25380', 'Mana Burn'), --- Removed?
-('1024', '16', '10912', 'Mind Control'), --- Removed?
+('1024', '16', '25380', 'Mana Burn'), -- Removed?
+('1024', '16', '10912', 'Mind Control'), -- Removed?
 ('1024', '16', '25308', 'Prayer of Healing'),
 ('1024', '16', '25433', 'Shadow Protection'),
 ('1024', '16', '552', 'Abolish Disease'),
@@ -7945,7 +7945,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '16', '33076', 'Prayer of Mending'),
 ('1024', '16', '32375', 'Mass Dispel'),
 ('1024', '16', '25312', 'Divine Spirit'),
---- Draenei Shaman
+-- Draenei Shaman
 ('1024', '64', '81', 'Dodge'),
 ('1024', '64', '107', 'Block'),
 ('1024', '64', '198', 'One-Handed Maces'),
@@ -7986,7 +7986,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '64', '29932', 'Language Draenei'),
 ('1024', '64', '25396', 'Healing Wave'),
 ('1024', '64', '25449', 'Lightning Bolt'),
-('1024', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('1024', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('1024', '64', '25454', 'Earth Shock'),
 ('1024', '64', '25509', 'Stoneskin Totem'),
 ('1024', '64', '2484', 'Earthbind Totem'),
@@ -8006,7 +8006,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '64', '2645', 'Ghost Wolf'),
 ('1024', '64', '25567', 'Healing Stream Totem'),
 ('1024', '64', '25420', 'Lesser Healing Wave'),
-('1024', '64', '2870', 'Cure Disease'), --- Removed?
+('1024', '64', '2870', 'Cure Disease'), -- Removed?
 ('1024', '64', '8166', 'Poison Cleansing Totem'),
 ('1024', '64', '131', 'Water Breathing'),
 ('1024', '64', '25560', 'Frost Resistance Totem'),
@@ -8022,22 +8022,22 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '64', '36936', 'Totemic Recall'),
 ('1024', '64', '25505', 'Windfury Weapon'),
 ('1024', '64', '421', 'Chain Lightning'),
-('1024', '64', '25587', 'Windfury Totem'), --- Removed?
+('1024', '64', '25587', 'Windfury Totem'), -- Removed?
 ('1024', '64', '6495', 'Sentry Totem'),
-('1024', '64', '25577', 'Windwall Totem'), --- Removed?
+('1024', '64', '25577', 'Windwall Totem'), -- Removed?
 ('1024', '64', '8170', 'Cleansing Totem'),
 ('1024', '64', '25423', 'Chain Heal'),
-('1024', '64', '25359', 'Grace of Air Totem'), --- Removed?
-('1024', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('1024', '64', '25359', 'Grace of Air Totem'), -- Removed?
+('1024', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('1024', '64', '33736', 'Water Shield'),
 ('1024', '64', '3738', 'Wrath of Air Totem'),
 ('1024', '64', '2062', 'Earth Elemental Totem'),
 ('1024', '64', '2894', 'Fire Elemental Totem'),
-('1024', '64', '32182', 'Heroism'), --- Only 1?
-('1024', '64', '25442', 'Chain Lightning'), --- Only 6?
+('1024', '64', '32182', 'Heroism'), -- Only 1?
+('1024', '64', '25442', 'Chain Lightning'), -- Only 6?
 ('1024', '64', '8737', 'Mail'),
 ('1024', '64', '20608', 'Reincarnation'),
---- Draenei Mage
+-- Draenei Mage
 ('1024', '128', '81', 'Dodge'),
 ('1024', '128', '133', 'Fireball'),
 ('1024', '128', '168', 'Frost Armor'),
@@ -8110,7 +8110,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '128', '43987', 'Ritual of Refreshment'),
 ('1024', '128', '30449', 'Spellsteal'),
 ('1024', '128', '27087', 'Cone of Cold'),
---- Draenei Warlock
+-- Draenei Warlock
 ('1024', '256', '81', 'Dodge'),
 ('1024', '256', '203', 'Unarmed'),
 ('1024', '256', '204', 'Defense'),
@@ -8156,7 +8156,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '256', '27230', 'Create Healthstone'),
 ('1024', '256', '27217', 'Drain Soul'),
 ('1024', '256', '27259', 'Health Funnel'),
-('1024', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('1024', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('1024', '256', '27220', 'Drain Life'),
 ('1024', '256', '5697', 'Unending Breath'),
 ('1024', '256', '27238', 'Create Soulstone'),
@@ -8165,7 +8165,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '256', '27212', 'Rain of Fire'),
 ('1024', '256', '698', 'Ritual of Summoning'),
 ('1024', '256', '5500', 'Sense Demons'),
-('1024', '256', '30908', 'Drain Mana'), --- Removed?
+('1024', '256', '30908', 'Drain Mana'), -- Removed?
 ('1024', '256', '11719', 'Curse of Tongues'),
 ('1024', '256', '132', 'Detect Invisibility'),
 ('1024', '256', '18647', 'Banish'),
@@ -8177,7 +8177,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '256', '27250', 'Create Firestone'),
 ('1024', '256', '17928', 'Howl of Terror'),
 ('1024', '256', '27223', 'Death Coil'),
-('1024', '256', '27229', 'Curse of Shadow'), --- Removed?
+('1024', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('1024', '256', '30545', 'Soul Fire'),
 ('1024', '256', '30910', 'Curse of Doom'),
 ('1024', '256', '18540', 'Ritual of Doom'),
@@ -8191,7 +8191,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '256', '697', 'Summon Voidwalker'),
 ('1024', '256', '712', 'Summon Succubus'),
 ('1024', '256', '691', 'Summon Felhunter'),
---- Draenei Druid
+-- Draenei Druid
 ('1024', '1024', '81', 'Dodge'),
 ('1024', '1024', '203', 'Unarmed'),
 ('1024', '1024', '204', 'Defense'),
@@ -8265,13 +8265,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '1024', '26990', 'Mark of the Wild'),
 ('1024', '1024', '26991', 'Gift of the Wild'),
 ('1024', '1024', '26992', 'Thorns'),
-('1024', '1024', '26993', 'Faerie Fire'), --- Removed?
+('1024', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('1024', '1024', '26994', 'Rebirth'),
 ('1024', '1024', '26995', 'Soothe Animal'),
 ('1024', '1024', '26996', 'Maul'),
 ('1024', '1024', '26997', 'Swipe (Bear)'),
 ('1024', '1024', '26998', 'Demoralizing Roar'),
-('1024', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('1024', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('1024', '1024', '27000', 'Claw'),
 ('1024', '1024', '27002', 'Shred'),
 ('1024', '1024', '27003', 'Rake'),
@@ -8290,7 +8290,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('1024', '1024', '34123', 'Tree of Life(Passive)'),
 ('1024', '1024', '40120', 'Swift Flight Form'),
 ('1024', '1024', '40121', 'Swift Flight Form(Passive)'),
---- Worgen Warrior
+-- Worgen Warrior
 ('2048', '1', '78', 'Heroic Strike'),
 ('2048', '1', '81', 'Dodge'),
 ('2048', '1', '107', 'Block'),
@@ -8367,11 +8367,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '1', '23920', 'Spell Reflection'),
 ('2048', '1', '469', 'Commanding Shout'),
 ('2048', '1', '3411', 'Intervene'),
-('2048', '1', '25212', 'Hamstring'), --- Only 9?
+('2048', '1', '25212', 'Hamstring'), -- Only 9?
 ('2048', '1', '674', 'Dual Wield'),
-('2048', '1', '750', 'Plate Armor'), --- Only 19?
-('2048', '1', '12678', 'Stance Mastery'), --- Only 9?
---- Worgen Paladin
+('2048', '1', '750', 'Plate Armor'), -- Only 19?
+('2048', '1', '12678', 'Stance Mastery'), -- Only 9?
+-- Worgen Paladin
 ('2048', '2', '81', 'Dodge'),
 ('2048', '2', '107', 'Block'),
 ('2048', '2', '198', 'One-Handed Maces'),
@@ -8412,10 +8412,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '2', '27762', 'Libram'),
 ('2048', '2', '27149', 'Devotion Aura'),
 ('2048', '2', '27136', 'Holy Light'),
-('2048', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('2048', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('2048', '2', '27140', 'Blessing of Might'),
 ('2048', '2', '20271', 'Judgement of Light'),
-('2048', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('2048', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('2048', '2', '10308', 'Hammer of Justice'),
 ('2048', '2', '10278', 'Hand of Protection'),
 ('2048', '2', '27154', 'Lay on Hands'),
@@ -8431,35 +8431,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '2', '27137', 'Flash of Light'),
 ('2048', '2', '5502', 'Sense Undead'),
 ('2048', '2', '19746', 'Concentration Aura'),
-('2048', '2', '31895', 'Seal of Justice'), --- Removed?
+('2048', '2', '31895', 'Seal of Justice'), -- Removed?
 ('2048', '2', '5627', 'Turn Undead'), -- Removed?
 ('2048', '2', '1038', 'Hand of Salvation'),
 ('2048', '2', '27151', 'Shadow Resistance Aura'),
 ('2048', '2', '19752', 'Divine Intervention'),
-('2048', '2', '27160', 'Seal of Light'), --- Removed?
+('2048', '2', '27160', 'Seal of Light'), -- Removed?
 ('2048', '2', '27152', 'Frost Resistance Aura'),
-('2048', '2', '1020', 'Divine Shield'), --- Removed?
+('2048', '2', '1020', 'Divine Shield'), -- Removed?
 ('2048', '2', '27153', 'Fire Resistance Aura'),
-('2048', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('2048', '2', '27144', 'Blessing of Light'), --- Removed?
+('2048', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('2048', '2', '27144', 'Blessing of Light'), -- Removed?
 ('2048', '2', '4987', 'Cleanse'),
 ('2048', '2', '27180', 'Hammer of Wrath'),
-('2048', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('2048', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('2048', '2', '27139', 'Holy Wrath'),
 ('2048', '2', '27141', 'Greater Blessing of Might'),
 ('2048', '2', '10326', 'Turn Evil'),
 ('2048', '2', '27143', 'Greater Blessing of Wisdom'),
 ('2048', '2', '25898', 'Greater Blessing of Kings'),
-('2048', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('2048', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('2048', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('2048', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('2048', '2', '32223', 'Crusader Aura'),
-('2048', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('2048', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('2048', '2', '31884', 'Avenging Wrath'),
 ('2048', '2', '750', 'Plate Armor'),
 ('2048', '2', '3127', 'Parry'),
-('2048', '2', '23214', 'Charger'), --- Only 9?
-('2048', '2', '31801', 'Seal of Vengeance'), --- Only 9?
---- Worgen Hunter
+('2048', '2', '23214', 'Charger'), -- Only 9?
+('2048', '2', '31801', 'Seal of Vengeance'), -- Only 9?
+-- Worgen Hunter
 ('2048', '4', '75', 'Auto Shot'),
 ('2048', '4', '81', 'Dodge'),
 ('2048', '4', '196', 'One-Handed Axes'),
@@ -8507,7 +8507,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '4', '13163', 'Aspect of the Monkey'),
 ('2048', '4', '13358', 'Defensive State(DND)'),
 ('2048', '4', '13809', 'Frost Trap'),
-('2048', '4', '14268', 'Alliance Flag'), --- What?
+('2048', '4', '14268', 'Alliance Flag'), -- What?
 ('2048', '4', '14311', 'Freezing Trap'),
 ('2048', '4', '14325', 'Hunters Mark'),
 ('2048', '4', '14327', 'Scare Beast'),
@@ -8529,11 +8529,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '4', '22810', 'Opening - No Text'),
 ('2048', '4', '24949', 'Defensive State 2(DND)'),
 ('2048', '4', '27014', 'Raptor Strike'),
-('2048', '4', '27015', 'Disengage'), --- Removed?
+('2048', '4', '27015', 'Disengage'), -- Removed?
 ('2048', '4', '27016', 'Serpent Sting'),
-('2048', '4', '27018', 'Viper Sting'), --- Removed?
+('2048', '4', '27018', 'Viper Sting'), -- Removed?
 ('2048', '4', '27019', 'Arcane Shot'),
-('2048', '4', '27020', 'Distracting Shot'), --- Removed?
+('2048', '4', '27020', 'Distracting Shot'), -- Removed?
 ('2048', '4', '27021', 'Multi-Shot'),
 ('2048', '4', '27022', 'Volley'),
 ('2048', '4', '27023', 'Immolation Trap'),
@@ -8548,7 +8548,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '4', '34477', 'Misdirection'),
 ('2048', '4', '34600', 'Snake Trap'),
 ('2048', '4', '36916', 'Mongoose Bite'),
---- Worgen Rogue
+-- Worgen Rogue
 ('2048', '8', '81', 'Dodge'),
 ('2048', '8', '203', 'Unarmed'),
 ('2048', '8', '204', 'Defense'),
@@ -8586,9 +8586,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '8', '21652', 'Closing'),
 ('2048', '8', '22027', 'Remove Insignia'),
 ('2048', '8', '22810', 'Opening - No Text'),
-('2048', '8', '26865', 'Eviscerate'), --- Only 9?
-('2048', '8', '26862', 'Sinister Strike'), --- Only 9?
-('2048', '8', '1787', 'Stealth'), --- Only 9?
+('2048', '8', '26865', 'Eviscerate'), -- Only 9?
+('2048', '8', '26862', 'Sinister Strike'), -- Only 9?
+('2048', '8', '1787', 'Stealth'), -- Only 9?
 ('2048', '8', '26863', 'Backstab'),
 ('2048', '8', '921', 'Pick Pocket'),
 ('2048', '8', '38764', 'Gouge'),
@@ -8599,7 +8599,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '8', '38768', 'Kick'),
 ('2048', '8', '26866', 'Expose Armor'),
 ('2048', '8', '26884', 'Garrote'),
-('2048', '8', '27448', 'Feint'), --- Only 8?
+('2048', '8', '27448', 'Feint'), -- Only 8?
 ('2048', '8', '1804', 'Pick Lock'),
 ('2048', '8', '27441', 'Ambush'),
 ('2048', '8', '2842', 'Poisons'),
@@ -8617,14 +8617,14 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '8', '8643', 'Kidney Shot'),
 ('2048', '8', '3127', 'Parry'),
 ('2048', '8', '674', 'Dual Wield'),
-('2048', '8', '3776', 'Green Leather Bracers'), --- What?
-('2048', '8', '9186', null), --- Removed?
-('2048', '8', '21927', 'Natures Ally'), --- What?
-('2048', '8', '22054', 'QAEnchant Bracer +7 Intellect'), --- What?
-('2048', '8', '22055', null), --- Removed?
+('2048', '8', '3776', 'Green Leather Bracers'), -- What?
+('2048', '8', '9186', null), -- Removed?
+('2048', '8', '21927', 'Natures Ally'), -- What?
+('2048', '8', '22054', 'QAEnchant Bracer +7 Intellect'), -- What?
+('2048', '8', '22055', null), -- Removed?
 ('2048', '8', '2836', 'Detect Traps'),
-('2048', '8', '1860', 'Safe Fall'), --- Removed?
---- Worgen Priest
+('2048', '8', '1860', 'Safe Fall'), -- Removed?
+-- Worgen Priest
 ('2048', '16', '81', 'Dodge'),
 ('2048', '16', '198', 'One-Handed Maces'),
 ('2048', '16', '203', 'Unarmed'),
@@ -8663,7 +8663,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '16', '25364', 'Smite'),
 ('2048', '16', '25368', 'Shadow Word: Pain'),
 ('2048', '16', '25218', 'Power Word: Shield'),
-('2048', '16', '25429', 'Fade'), --- Removed?
+('2048', '16', '25429', 'Fade'), -- Removed?
 ('2048', '16', '25222', 'Renew'),
 ('2048', '16', '25375', 'Mind Blast'),
 ('2048', '16', '25435', 'Resurrection'),
@@ -8674,11 +8674,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '16', '6346', 'Fear Ward'),
 ('2048', '16', '25235', 'Flash Heal'),
 ('2048', '16', '25384', 'Holy Fire'),
-('2048', '16', '25596', 'Mind Soothe'), --- Removed?
+('2048', '16', '25596', 'Mind Soothe'), -- Removed?
 ('2048', '16', '10955', 'Shackle Undead'),
 ('2048', '16', '10909', 'Mind Vision'),
-('2048', '16', '25380', 'Mana Burn'), --- Removed?
-('2048', '16', '10912', 'Mind Control'), --- Removed?
+('2048', '16', '25380', 'Mana Burn'), -- Removed?
+('2048', '16', '10912', 'Mind Control'), -- Removed?
 ('2048', '16', '25308', 'Prayer of Healing'),
 ('2048', '16', '25433', 'Shadow Protection'),
 ('2048', '16', '552', 'Abolish Disease'),
@@ -8692,10 +8692,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '16', '34433', 'Shadowfiend'),
 ('2048', '16', '33076', 'Prayer of Mending'),
 ('2048', '16', '32375', 'Mass Dispel'),
-('2048', '16', '25441', 'Feedback'), --- Removed? Only 4?
+('2048', '16', '25441', 'Feedback'), -- Removed? Only 4?
 ('2048', '16', '25312', 'Divine Spirit'),
-('2048', '16', '25437', 'Desperate Prayer'), --- Only 5?
---- Worgen Shaman
+('2048', '16', '25437', 'Desperate Prayer'), -- Only 5?
+-- Worgen Shaman
 ('2048', '64', '81', 'Dodge'),
 ('2048', '64', '107', 'Block'),
 ('2048', '64', '131', 'Water Breathing'),
@@ -8717,7 +8717,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '64', '2484', 'Earthbind Totem'),
 ('2048', '64', '2645', 'Ghost Wolf'),
 ('2048', '64', '2825', 'Bloodlust'),
-('2048', '64', '2870', 'Cure Disease'), --- Removed?
+('2048', '64', '2870', 'Cure Disease'), -- Removed?
 ('2048', '64', '2894', 'Fire Elemental Totem'),
 ('2048', '64', '3050', 'Detect'),
 ('2048', '64', '3365', 'Opening'),
@@ -8752,7 +8752,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '64', '21652', 'Closing'),
 ('2048', '64', '22027', 'Remove Insignia'),
 ('2048', '64', '22810', 'Opening - No Text'),
-('2048', '64', '25359', 'Grace of Air Totem'), --- Removed?
+('2048', '64', '25359', 'Grace of Air Totem'), -- Removed?
 ('2048', '64', '25396', 'Healing Wave'),
 ('2048', '64', '25420', 'Lesser Healing Wave'),
 ('2048', '64', '25423', 'Chain Heal'),
@@ -8761,7 +8761,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '64', '25457', 'Flame Shock'),
 ('2048', '64', '25464', 'Frost Shock'),
 ('2048', '64', '25472', 'Lightning Shield'),
-('2048', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('2048', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('2048', '64', '25489', 'Flametongue Weapon'),
 ('2048', '64', '25500', 'Frostbrand Weapon'),
 ('2048', '64', '25505', 'Windfury Weapon'),
@@ -8777,13 +8777,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '64', '25567', 'Healing Stream Totem'),
 ('2048', '64', '25570', 'Mana Spring Totem'),
 ('2048', '64', '25574', 'Nature Resistance Totem'),
-('2048', '64', '25577', 'Windwall Totem'), --- Removed?
-('2048', '64', '25587', 'Windfury Totem'), --- Removed?
-('2048', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('2048', '64', '25577', 'Windwall Totem'), -- Removed?
+('2048', '64', '25587', 'Windfury Totem'), -- Removed?
+('2048', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('2048', '64', '27763', 'Totem'),
 ('2048', '64', '33736', 'Water Shield'),
 ('2048', '64', '36936', 'Totemic Recall'),
---- Worgen Mage
+-- Worgen Mage
 ('2048', '128', '81', 'Dodge'),
 ('2048', '128', '133', 'Fireball'),
 ('2048', '128', '168', 'Frost Armor'),
@@ -8820,9 +8820,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '128', '22810', 'Opening - No Text'),
 ('2048', '128', '27126', 'Arcane Intellect'),
 ('2048', '128', '27070', 'Fireball'),
-('2048', '128', '22018', null), --- Removed?
+('2048', '128', '22018', null), -- Removed?
 ('2048', '128', '27072', 'Frostbolt'),
-('2048', '128', '22019', null), --- Removed?
+('2048', '128', '22019', null), -- Removed?
 ('2048', '128', '27079', 'Fire Blast'),
 ('2048', '128', '38704', 'Arcane Missiles'),
 ('2048', '128', '28272', 'Polymorph (Pig)'),
@@ -8855,7 +8855,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '128', '43987', 'Ritual of Refreshment'),
 ('2048', '128', '30449', 'Spellsteal'),
 ('2048', '128', '27087', 'Cone of Cold'),
---- Worgen Warlock
+-- Worgen Warlock
 ('2048', '256', '81', 'Dodge'),
 ('2048', '256', '203', 'Unarmed'),
 ('2048', '256', '204', 'Defense'),
@@ -8890,7 +8890,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '256', '21652', 'Closing'),
 ('2048', '256', '22027', 'Remove Insignia'),
 ('2048', '256', '22810', 'Opening - No Text'),
-('2048', '256', '27215', 'Immolate'), --- Only 9?
+('2048', '256', '27215', 'Immolate'), -- Only 9?
 ('2048', '256', '27209', 'Shadow Bolt'),
 ('2048', '256', '27216', 'Corruption'),
 ('2048', '256', '30909', 'Curse of Weakness'),
@@ -8900,7 +8900,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '256', '27230', 'Create Healthstone'),
 ('2048', '256', '27217', 'Drain Soul'),
 ('2048', '256', '27259', 'Health Funnel'),
-('2048', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('2048', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('2048', '256', '27220', 'Drain Life'),
 ('2048', '256', '5697', 'Unending Breath'),
 ('2048', '256', '27238', 'Create Soulstone'),
@@ -8909,7 +8909,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '256', '27212', 'Rain of Fire'),
 ('2048', '256', '698', 'Ritual of Summoning'),
 ('2048', '256', '5500', 'Sense Demons'),
-('2048', '256', '30908', 'Drain Mana'), --- Removed?
+('2048', '256', '30908', 'Drain Mana'), -- Removed?
 ('2048', '256', '11719', 'Curse of Tongues'),
 ('2048', '256', '132', 'Detect Invisibility'),
 ('2048', '256', '18647', 'Banish'),
@@ -8921,7 +8921,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '256', '27250', 'Create Firestone'),
 ('2048', '256', '17928', 'Howl of Terror'),
 ('2048', '256', '27223', 'Death Coil'),
-('2048', '256', '27229', 'Curse of Shadow'), --- Removed?
+('2048', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('2048', '256', '30545', 'Soul Fire'),
 ('2048', '256', '30910', 'Curse of Doom'),
 ('2048', '256', '18540', 'Ritual of Doom'),
@@ -8934,9 +8934,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '256', '688', 'Summon Imp'),
 ('2048', '256', '697', 'Summon Voidwalker'),
 ('2048', '256', '712', 'Summon Succubus'),
-('2048', '256', '691', 'Summon Felhunter'), --- 10 of this?
+('2048', '256', '691', 'Summon Felhunter'), -- 10 of this?
 ('2048', '256', '126', 'Eye of Kilrogg'),
---- Worgen Druid
+-- Worgen Druid
 ('2048', '1024', '81', 'Dodge'),
 ('2048', '1024', '203', 'Unarmed'),
 ('2048', '1024', '204', 'Defense'),
@@ -9009,13 +9009,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '1024', '26990', 'Mark of the Wild'),
 ('2048', '1024', '26991', 'Gift of the Wild'),
 ('2048', '1024', '26992', 'Thorns'),
-('2048', '1024', '26993', 'Faerie Fire'), --- Removed?
+('2048', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('2048', '1024', '26994', 'Rebirth'),
 ('2048', '1024', '26995', 'Soothe Animal'),
 ('2048', '1024', '26996', 'Maul'),
 ('2048', '1024', '26997', 'Swipe (Bear)'),
 ('2048', '1024', '26998', 'Demoralizing Roar'),
-('2048', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('2048', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('2048', '1024', '27000', 'Claw'),
 ('2048', '1024', '27002', 'Shred'),
 ('2048', '1024', '27003', 'Rake'),
@@ -9034,7 +9034,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('2048', '1024', '34123', 'Tree of Life(Passive)'),
 ('2048', '1024', '40120', 'Swift Flight Form'),
 ('2048', '1024', '40121', 'Swift Flight Form(Passive)'),
---- High Elf Warrior
+-- High Elf Warrior
 ('4096', '1', '78', 'Heroic Strike'),
 ('4096', '1', '81', 'Dodge'),
 ('4096', '1', '107', 'Block'),
@@ -9070,7 +9070,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '1', '9125', 'Generic'),
 ('4096', '1', '813', 'Language Thalassian'),
 ('4096', '1', '822', 'Magic Resistance'),
-('4096', '1', '28730', 'Arcane Torrent (rage)'), --- Maybe 80867 or 80868?
+('4096', '1', '28730', 'Arcane Torrent (rage)'), -- Maybe 80867 or 80868?
 ('4096', '1', '28877', 'Arcane Affinity'),
 ('4096', '1', '21156', 'Battle Stance Passive'),
 ('4096', '1', '21651', 'Opening'),
@@ -9111,11 +9111,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '1', '23920', 'Spell Reflection'),
 ('4096', '1', '469', 'Commanding Shout'),
 ('4096', '1', '3411', 'Intervene'),
-('4096', '1', '25212', 'Hamstring'), --- Only 9?
+('4096', '1', '25212', 'Hamstring'), -- Only 9?
 ('4096', '1', '674', 'Dual Wield'),
-('4096', '1', '750', 'Plate Armor'), --- Only 19?
-('4096', '1', '12678', 'Stance Mastery'), --- Only 9?
---- High Elf Paladin
+('4096', '1', '750', 'Plate Armor'), -- Only 19?
+('4096', '1', '12678', 'Stance Mastery'), -- Only 9?
+-- High Elf Paladin
 ('4096', '2', '81', 'Dodge'),
 ('4096', '2', '107', 'Block'),
 ('4096', '2', '198', 'One-Handed Maces'),
@@ -9156,10 +9156,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '2', '27762', 'Libram'),
 ('4096', '2', '27149', 'Devotion Aura'),
 ('4096', '2', '27136', 'Holy Light'),
-('4096', '2', '27155', 'Seal of Righteousness'), --- Removed?
+('4096', '2', '27155', 'Seal of Righteousness'), -- Removed?
 ('4096', '2', '27140', 'Blessing of Might'),
 ('4096', '2', '20271', 'Judgement of Light'),
-('4096', '2', '27158', 'Seal of the Crusader'), --- Removed?
+('4096', '2', '27158', 'Seal of the Crusader'), -- Removed?
 ('4096', '2', '10308', 'Hammer of Justice'),
 ('4096', '2', '10278', 'Hand of Protection'),
 ('4096', '2', '27154', 'Lay on Hands'),
@@ -9175,35 +9175,35 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '2', '27137', 'Flash of Light'),
 ('4096', '2', '5502', 'Sense Undead'),
 ('4096', '2', '19746', 'Concentration Aura'),
-('4096', '2', '31895', 'Seal of Justice'), --- Removed?
+('4096', '2', '31895', 'Seal of Justice'), -- Removed?
 ('4096', '2', '5627', 'Turn Undead'), -- Removed?
 ('4096', '2', '1038', 'Hand of Salvation'),
 ('4096', '2', '27151', 'Shadow Resistance Aura'),
 ('4096', '2', '19752', 'Divine Intervention'),
-('4096', '2', '27160', 'Seal of Light'), --- Removed?
+('4096', '2', '27160', 'Seal of Light'), -- Removed?
 ('4096', '2', '27152', 'Frost Resistance Aura'),
-('4096', '2', '1020', 'Divine Shield'), --- Removed?
+('4096', '2', '1020', 'Divine Shield'), -- Removed?
 ('4096', '2', '27153', 'Fire Resistance Aura'),
-('4096', '2', '27166', 'Seal of Wisdom'), --- Removed?
-('4096', '2', '27144', 'Blessing of Light'), --- Removed?
+('4096', '2', '27166', 'Seal of Wisdom'), -- Removed?
+('4096', '2', '27144', 'Blessing of Light'), -- Removed?
 ('4096', '2', '4987', 'Cleanse'),
 ('4096', '2', '27180', 'Hammer of Wrath'),
-('4096', '2', '27148', 'Blessing of Sacrifice'), --- Removed?
+('4096', '2', '27148', 'Blessing of Sacrifice'), -- Removed?
 ('4096', '2', '27139', 'Holy Wrath'),
 ('4096', '2', '27141', 'Greater Blessing of Might'),
 ('4096', '2', '10326', 'Turn Evil'),
 ('4096', '2', '27143', 'Greater Blessing of Wisdom'),
 ('4096', '2', '25898', 'Greater Blessing of Kings'),
-('4096', '2', '27145', 'Greater Blessing of Light'), --- Removed?
-('4096', '2', '25895', 'Greater Blessing of Salvation'), --- Removed?
+('4096', '2', '27145', 'Greater Blessing of Light'), -- Removed?
+('4096', '2', '25895', 'Greater Blessing of Salvation'), -- Removed?
 ('4096', '2', '32223', 'Crusader Aura'),
-('4096', '2', '27169', 'Greater Blessing of Sanctuary'), --- Removed?
+('4096', '2', '27169', 'Greater Blessing of Sanctuary'), -- Removed?
 ('4096', '2', '31884', 'Avenging Wrath'),
 ('4096', '2', '750', 'Plate Armor'),
 ('4096', '2', '3127', 'Parry'),
-('4096', '2', '23214', 'Charger'), --- Only 9?
-('4096', '2', '31801', 'Seal of Vengeance'), --- Only 9?
---- High Elf Hunter
+('4096', '2', '23214', 'Charger'), -- Only 9?
+('4096', '2', '31801', 'Seal of Vengeance'), -- Only 9?
+-- High Elf Hunter
 ('4096', '4', '75', 'Auto Shot'),
 ('4096', '4', '81', 'Dodge'),
 ('4096', '4', '196', 'One-Handed Axes'),
@@ -9251,7 +9251,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '4', '13163', 'Aspect of the Monkey'),
 ('4096', '4', '13358', 'Defensive State(DND)'),
 ('4096', '4', '13809', 'Frost Trap'),
-('4096', '4', '14268', 'Alliance Flag'), --- What?
+('4096', '4', '14268', 'Alliance Flag'), -- What?
 ('4096', '4', '14311', 'Freezing Trap'),
 ('4096', '4', '14325', 'Hunters Mark'),
 ('4096', '4', '14327', 'Scare Beast'),
@@ -9273,11 +9273,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '4', '22810', 'Opening - No Text'),
 ('4096', '4', '24949', 'Defensive State 2(DND)'),
 ('4096', '4', '27014', 'Raptor Strike'),
-('4096', '4', '27015', 'Disengage'), --- Removed?
+('4096', '4', '27015', 'Disengage'), -- Removed?
 ('4096', '4', '27016', 'Serpent Sting'),
-('4096', '4', '27018', 'Viper Sting'), --- Removed?
+('4096', '4', '27018', 'Viper Sting'), -- Removed?
 ('4096', '4', '27019', 'Arcane Shot'),
-('4096', '4', '27020', 'Distracting Shot'), --- Removed?
+('4096', '4', '27020', 'Distracting Shot'), -- Removed?
 ('4096', '4', '27021', 'Multi-Shot'),
 ('4096', '4', '27022', 'Volley'),
 ('4096', '4', '27023', 'Immolation Trap'),
@@ -9292,7 +9292,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '4', '34477', 'Misdirection'),
 ('4096', '4', '34600', 'Snake Trap'),
 ('4096', '4', '36916', 'Mongoose Bite'),
---- High Elf Rogue
+-- High Elf Rogue
 ('4096', '8', '81', 'Dodge'),
 ('4096', '8', '203', 'Unarmed'),
 ('4096', '8', '204', 'Defense'),
@@ -9323,16 +9323,16 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '8', '16092', 'Defensive State(DND)'),
 ('4096', '8', '813', 'Language Thalassian'),
 ('4096', '8', '822', 'Magic Resistance'),
-('4096', '8', '25046', 'Arcane Torrent'), --- Maybe 80867 or 80868?
+('4096', '8', '25046', 'Arcane Torrent'), -- Maybe 80867 or 80868?
 ('4096', '8', '28877', 'Arcane Affinity'),
 ('4096', '8', '21184', 'Rogue Passive(DND)'),
 ('4096', '8', '21651', 'Opening'),
 ('4096', '8', '21652', 'Closing'),
 ('4096', '8', '22027', 'Remove Insignia'),
 ('4096', '8', '22810', 'Opening - No Text'),
-('4096', '8', '26865', 'Eviscerate'), --- Only 9?
-('4096', '8', '26862', 'Sinister Strike'), --- Only 9?
-('4096', '8', '1787', 'Stealth'), --- Only 9?
+('4096', '8', '26865', 'Eviscerate'), -- Only 9?
+('4096', '8', '26862', 'Sinister Strike'), -- Only 9?
+('4096', '8', '1787', 'Stealth'), -- Only 9?
 ('4096', '8', '26863', 'Backstab'),
 ('4096', '8', '921', 'Pick Pocket'),
 ('4096', '8', '38764', 'Gouge'),
@@ -9343,7 +9343,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '8', '38768', 'Kick'),
 ('4096', '8', '26866', 'Expose Armor'),
 ('4096', '8', '26884', 'Garrote'),
-('4096', '8', '27448', 'Feint'), --- Only 8?
+('4096', '8', '27448', 'Feint'), -- Only 8?
 ('4096', '8', '1804', 'Pick Lock'),
 ('4096', '8', '27441', 'Ambush'),
 ('4096', '8', '2842', 'Poisons'),
@@ -9361,14 +9361,14 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '8', '8643', 'Kidney Shot'),
 ('4096', '8', '3127', 'Parry'),
 ('4096', '8', '674', 'Dual Wield'),
-('4096', '8', '3776', 'Green Leather Bracers'), --- What?
-('4096', '8', '9186', null), --- Removed?
-('4096', '8', '21927', 'Natures Ally'), --- What?
-('4096', '8', '22054', 'QAEnchant Bracer +7 Intellect'), --- What?
-('4096', '8', '22055', null), --- Removed?
+('4096', '8', '3776', 'Green Leather Bracers'), -- What?
+('4096', '8', '9186', null), -- Removed?
+('4096', '8', '21927', 'Natures Ally'), -- What?
+('4096', '8', '22054', 'QAEnchant Bracer +7 Intellect'), -- What?
+('4096', '8', '22055', null), -- Removed?
 ('4096', '8', '2836', 'Detect Traps'),
-('4096', '8', '1860', 'Safe Fall'), --- Removed?
---- High Elf Priest
+('4096', '8', '1860', 'Safe Fall'), -- Removed?
+-- High Elf Priest
 ('4096', '16', '81', 'Dodge'),
 ('4096', '16', '198', 'One-Handed Maces'),
 ('4096', '16', '203', 'Unarmed'),
@@ -9407,7 +9407,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '16', '25364', 'Smite'),
 ('4096', '16', '25368', 'Shadow Word: Pain'),
 ('4096', '16', '25218', 'Power Word: Shield'),
-('4096', '16', '25429', 'Fade'), --- Removed?
+('4096', '16', '25429', 'Fade'), -- Removed?
 ('4096', '16', '25222', 'Renew'),
 ('4096', '16', '25375', 'Mind Blast'),
 ('4096', '16', '25435', 'Resurrection'),
@@ -9418,11 +9418,11 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '16', '6346', 'Fear Ward'),
 ('4096', '16', '25235', 'Flash Heal'),
 ('4096', '16', '25384', 'Holy Fire'),
-('4096', '16', '25596', 'Mind Soothe'), --- Removed?
+('4096', '16', '25596', 'Mind Soothe'), -- Removed?
 ('4096', '16', '10955', 'Shackle Undead'),
 ('4096', '16', '10909', 'Mind Vision'),
-('4096', '16', '25380', 'Mana Burn'), --- Removed?
-('4096', '16', '10912', 'Mind Control'), --- Removed?
+('4096', '16', '25380', 'Mana Burn'), -- Removed?
+('4096', '16', '10912', 'Mind Control'), -- Removed?
 ('4096', '16', '25308', 'Prayer of Healing'),
 ('4096', '16', '25433', 'Shadow Protection'),
 ('4096', '16', '552', 'Abolish Disease'),
@@ -9436,10 +9436,10 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '16', '34433', 'Shadowfiend'),
 ('4096', '16', '33076', 'Prayer of Mending'),
 ('4096', '16', '32375', 'Mass Dispel'),
-('4096', '16', '25441', 'Feedback'), --- Removed? Only 4?
+('4096', '16', '25441', 'Feedback'), -- Removed? Only 4?
 ('4096', '16', '25312', 'Divine Spirit'),
-('4096', '16', '25437', 'Desperate Prayer'), --- Only 5?
---- High Elf Shaman
+('4096', '16', '25437', 'Desperate Prayer'), -- Only 5?
+-- High Elf Shaman
 ('4096', '64', '81', 'Dodge'),
 ('4096', '64', '107', 'Block'),
 ('4096', '64', '131', 'Water Breathing'),
@@ -9461,7 +9461,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '64', '2484', 'Earthbind Totem'),
 ('4096', '64', '2645', 'Ghost Wolf'),
 ('4096', '64', '2825', 'Bloodlust'),
-('4096', '64', '2870', 'Cure Disease'), --- Removed?
+('4096', '64', '2870', 'Cure Disease'), -- Removed?
 ('4096', '64', '2894', 'Fire Elemental Totem'),
 ('4096', '64', '3050', 'Detect'),
 ('4096', '64', '3365', 'Opening'),
@@ -9496,7 +9496,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '64', '21652', 'Closing'),
 ('4096', '64', '22027', 'Remove Insignia'),
 ('4096', '64', '22810', 'Opening - No Text'),
-('4096', '64', '25359', 'Grace of Air Totem'), --- Removed?
+('4096', '64', '25359', 'Grace of Air Totem'), -- Removed?
 ('4096', '64', '25396', 'Healing Wave'),
 ('4096', '64', '25420', 'Lesser Healing Wave'),
 ('4096', '64', '25423', 'Chain Heal'),
@@ -9505,7 +9505,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '64', '25457', 'Flame Shock'),
 ('4096', '64', '25464', 'Frost Shock'),
 ('4096', '64', '25472', 'Lightning Shield'),
-('4096', '64', '25485', 'Rockbiter Weapon'), --- Removed?
+('4096', '64', '25485', 'Rockbiter Weapon'), -- Removed?
 ('4096', '64', '25489', 'Flametongue Weapon'),
 ('4096', '64', '25500', 'Frostbrand Weapon'),
 ('4096', '64', '25505', 'Windfury Weapon'),
@@ -9521,13 +9521,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '64', '25567', 'Healing Stream Totem'),
 ('4096', '64', '25570', 'Mana Spring Totem'),
 ('4096', '64', '25574', 'Nature Resistance Totem'),
-('4096', '64', '25577', 'Windwall Totem'), --- Removed?
-('4096', '64', '25587', 'Windfury Totem'), --- Removed?
-('4096', '64', '25908', 'Tranquil Air Totem'), --- Removed?
+('4096', '64', '25577', 'Windwall Totem'), -- Removed?
+('4096', '64', '25587', 'Windfury Totem'), -- Removed?
+('4096', '64', '25908', 'Tranquil Air Totem'), -- Removed?
 ('4096', '64', '27763', 'Totem'),
 ('4096', '64', '33736', 'Water Shield'),
 ('4096', '64', '36936', 'Totemic Recall'),
---- High Elf Mage
+-- High Elf Mage
 ('4096', '128', '81', 'Dodge'),
 ('4096', '128', '133', 'Fireball'),
 ('4096', '128', '168', 'Frost Armor'),
@@ -9564,9 +9564,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '128', '22810', 'Opening - No Text'),
 ('4096', '128', '27126', 'Arcane Intellect'),
 ('4096', '128', '27070', 'Fireball'),
-('4096', '128', '22018', null), --- Removed?
+('4096', '128', '22018', null), -- Removed?
 ('4096', '128', '27072', 'Frostbolt'),
-('4096', '128', '22019', null), --- Removed?
+('4096', '128', '22019', null), -- Removed?
 ('4096', '128', '27079', 'Fire Blast'),
 ('4096', '128', '38704', 'Arcane Missiles'),
 ('4096', '128', '28272', 'Polymorph (Pig)'),
@@ -9599,7 +9599,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '128', '43987', 'Ritual of Refreshment'),
 ('4096', '128', '30449', 'Spellsteal'),
 ('4096', '128', '27087', 'Cone of Cold'),
---- High Elf Warlock
+-- High Elf Warlock
 ('4096', '256', '81', 'Dodge'),
 ('4096', '256', '203', 'Unarmed'),
 ('4096', '256', '204', 'Defense'),
@@ -9634,7 +9634,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '256', '21652', 'Closing'),
 ('4096', '256', '22027', 'Remove Insignia'),
 ('4096', '256', '22810', 'Opening - No Text'),
-('4096', '256', '27215', 'Immolate'), --- Only 9?
+('4096', '256', '27215', 'Immolate'), -- Only 9?
 ('4096', '256', '27209', 'Shadow Bolt'),
 ('4096', '256', '27216', 'Corruption'),
 ('4096', '256', '30909', 'Curse of Weakness'),
@@ -9644,7 +9644,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '256', '27230', 'Create Healthstone'),
 ('4096', '256', '27217', 'Drain Soul'),
 ('4096', '256', '27259', 'Health Funnel'),
-('4096', '256', '27226', 'Curse of Recklessness'), --- Removed?
+('4096', '256', '27226', 'Curse of Recklessness'), -- Removed?
 ('4096', '256', '27220', 'Drain Life'),
 ('4096', '256', '5697', 'Unending Breath'),
 ('4096', '256', '27238', 'Create Soulstone'),
@@ -9653,7 +9653,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '256', '27212', 'Rain of Fire'),
 ('4096', '256', '698', 'Ritual of Summoning'),
 ('4096', '256', '5500', 'Sense Demons'),
-('4096', '256', '30908', 'Drain Mana'), --- Removed?
+('4096', '256', '30908', 'Drain Mana'), -- Removed?
 ('4096', '256', '11719', 'Curse of Tongues'),
 ('4096', '256', '132', 'Detect Invisibility'),
 ('4096', '256', '18647', 'Banish'),
@@ -9665,7 +9665,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '256', '27250', 'Create Firestone'),
 ('4096', '256', '17928', 'Howl of Terror'),
 ('4096', '256', '27223', 'Death Coil'),
-('4096', '256', '27229', 'Curse of Shadow'), --- Removed?
+('4096', '256', '27229', 'Curse of Shadow'), -- Removed?
 ('4096', '256', '30545', 'Soul Fire'),
 ('4096', '256', '30910', 'Curse of Doom'),
 ('4096', '256', '18540', 'Ritual of Doom'),
@@ -9678,9 +9678,9 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '256', '688', 'Summon Imp'),
 ('4096', '256', '697', 'Summon Voidwalker'),
 ('4096', '256', '712', 'Summon Succubus'),
-('4096', '256', '691', 'Summon Felhunter'), --- 10 of this?
+('4096', '256', '691', 'Summon Felhunter'), -- 10 of this?
 ('4096', '256', '126', 'Eye of Kilrogg'),
---- High Elf Druid
+-- High Elf Druid
 ('4096', '1024', '81', 'Dodge'),
 ('4096', '1024', '203', 'Unarmed'),
 ('4096', '1024', '204', 'Defense'),
@@ -9731,7 +9731,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '1024', '18960', 'Teleport: Moonglade'),
 ('4096', '1024', '813', 'Language Thalassian'),
 ('4096', '1024', '822', 'Magic Resistance'),
-('4096', '1024', '28730', 'Arcane Torrent'), --- Maybe also 80866?
+('4096', '1024', '28730', 'Arcane Torrent'), -- Maybe also 80866?
 ('4096', '1024', '28877', 'Arcane Affinity'),
 ('4096', '1024', '21178', 'Bear Form(Passive2)'),
 ('4096', '1024', '21651', 'Opening'),
@@ -9753,13 +9753,13 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 ('4096', '1024', '26990', 'Mark of the Wild'),
 ('4096', '1024', '26991', 'Gift of the Wild'),
 ('4096', '1024', '26992', 'Thorns'),
-('4096', '1024', '26993', 'Faerie Fire'), --- Removed?
+('4096', '1024', '26993', 'Faerie Fire'), -- Removed?
 ('4096', '1024', '26994', 'Rebirth'),
 ('4096', '1024', '26995', 'Soothe Animal'),
 ('4096', '1024', '26996', 'Maul'),
 ('4096', '1024', '26997', 'Swipe (Bear)'),
 ('4096', '1024', '26998', 'Demoralizing Roar'),
-('4096', '1024', '26999', 'Frenzied Regeneration'), --- Removed?
+('4096', '1024', '26999', 'Frenzied Regeneration'), -- Removed?
 ('4096', '1024', '27000', 'Claw'),
 ('4096', '1024', '27002', 'Shred'),
 ('4096', '1024', '27003', 'Rake'),
