@@ -1,4 +1,3 @@
-*/ ARAC starts here. */
  INSERT IGNORE INTO `playercreateinfo_action` VALUES
 -- Human Warrior
 (1, 1, 0, 6603, 0), -- Auto Attack
