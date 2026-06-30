@@ -1,6 +1,6 @@
 void Add_Worgoblin();
 
-void Addmod_worgoblinScripts()
+void Addmod_worgoblin_high_elfScripts()
 {
     Add_Worgoblin();
 }
