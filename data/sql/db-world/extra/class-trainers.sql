@@ -1,4 +1,4 @@
-/* Add NPC entries */
+/* Add NPC entries (broken with new core update)
 DELETE FROM `creature_template` WHERE `entry` IN (62100, 62101, 62102, 62103, 62104, 62105);
 INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_flight`, `detection_range`, `rank`, `dmgschool`, `DamageModifier`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `CreatureImmunitiesId`, `flags_extra`, `ScriptName`, `VerifiedBuild`) VALUES
 /* Shadowglen Mage Trainer */
@@ -168,3 +168,4 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 (15, 62105, 0, 0, 0, 15, 0, 256, 0, 0, 0, 0, 0, '', 'Show gossip if player is a warlock'), -- Warlock training
 (15, 62105, 1, 0, 0, 15, 0, 256, 0, 0, 0, 0, 0, '', 'Show gossip if player is a warlock'), -- Unlearn talents
 (15, 62105, 2, 0, 0, 15, 0, 256, 0, 0, 0, 0, 0, '', 'Show gossip if player is a warlock'); -- Learn dual spec
+*/
