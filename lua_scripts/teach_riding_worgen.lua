@@ -1,22 +1,20 @@
-local RACE_WORGEN = 12
+local Common = require("worgoblin_common")
+
 local CLASS_DEATH_KNIGHT = 6
 
-local APPRENTICE_RIDING = 33388
-local JOURNEYMAN_RIDING = 33391
-
 local function GrantWorgenRiding(player)
-    if player:GetRace() ~= RACE_WORGEN then
+    if not Common.IsWorgen(player) then
         return
     end
 
-    if player:HasSpell(APPRENTICE_RIDING) or player:HasSpell(JOURNEYMAN_RIDING) then
+    if Common.HasAnyRiding(player) then
         return -- already has riding from some path, don't touch it
     end
 
     if player:GetClass() == CLASS_DEATH_KNIGHT then
         return
     elseif player:GetLevel() >= 20 then
-        player:LearnSpell(APPRENTICE_RIDING)
+        player:LearnSpell(Common.APPRENTICE_RIDING)
     end
 end
 

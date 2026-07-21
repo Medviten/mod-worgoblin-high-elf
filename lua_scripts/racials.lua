@@ -5,15 +5,13 @@
     two native riding-skill spells, and the player is a Worgen, teach the
     correct gendered custom speed spell and drop the old one if upgrading.
 
-    Native riding spells (static WotLK content, do not change per-core):
-        33388 = Apprentice Riding   (75 skill,  60% speed)
-        33391 = Journeyman Riding   (150 skill, 100% speed)
+    Native riding spell IDs and the Worgen race ID live in worgoblin_common.
 ]]
 
-local RACE_WORGEN = 12
+local Common = require("worgoblin_common")
 
-local RIDE_APPRENTICE_SPELL = 33388
-local RIDE_JOURNEYMAN_SPELL = 33391
+local RIDE_APPRENTICE_SPELL = Common.APPRENTICE_RIDING
+local RIDE_JOURNEYMAN_SPELL = Common.JOURNEYMAN_RIDING
 
 local WORGEN_APPRENTICE_MALE   = 87840
 local WORGEN_APPRENTICE_FEMALE = 87841
@@ -30,7 +28,7 @@ local function GetGenderedSpells(player)
 end
 
 local function ApplyRunningWildTier(player, tier)
-    if player:GetRace() ~= RACE_WORGEN then
+    if not Common.IsWorgen(player) then
         return
     end
 
@@ -85,7 +83,7 @@ RegisterSpellEvent(RIDE_JOURNEYMAN_SPELL, 2, OnCastRidingSpell("journeyman")) --
 -- tier (e.g. granted via SQL/.learn/character import) without ever passing
 -- through OnLearnSpell above.
 local function OnLogin(event, player)
-    if player:GetRace() ~= RACE_WORGEN then
+    if not Common.IsWorgen(player) then
         return
     end
 
