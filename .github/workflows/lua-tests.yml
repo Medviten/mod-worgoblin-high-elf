@@ -1,0 +1,18 @@
+name: lua-tests
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+
+jobs:
+  busted:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua and LuaRocks
+        run: sudo apt-get update && sudo apt-get install -y lua5.1 luarocks
+      - name: Install busted
+        run: sudo luarocks install busted
+      - name: Run unit tests
+        run: busted

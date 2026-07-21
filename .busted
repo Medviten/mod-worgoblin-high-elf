@@ -1,0 +1,8 @@
+return {
+    default = {
+        verbose = true,
+        ["lpath"] = "./?.lua;./?/init.lua",
+        ROOT = { "spec" },
+        pattern = "_spec",
+    },
+}

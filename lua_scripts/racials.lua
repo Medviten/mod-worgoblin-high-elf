@@ -98,3 +98,20 @@ end
 
 RegisterPlayerEvent(44, OnLearnSpell) -- PLAYER_EVENT_ON_LEARN_SPELL
 RegisterPlayerEvent(3, OnLogin)       -- PLAYER_EVENT_ON_LOGIN
+
+-- Expose the internal helpers so they can be unit tested. Eluna ignores the
+-- return value of a script, so this has no effect on the live server.
+return {
+    RACE_WORGEN = RACE_WORGEN,
+    RIDE_APPRENTICE_SPELL = RIDE_APPRENTICE_SPELL,
+    RIDE_JOURNEYMAN_SPELL = RIDE_JOURNEYMAN_SPELL,
+    WORGEN_APPRENTICE_MALE = WORGEN_APPRENTICE_MALE,
+    WORGEN_APPRENTICE_FEMALE = WORGEN_APPRENTICE_FEMALE,
+    WORGEN_JOURNEYMAN_MALE = WORGEN_JOURNEYMAN_MALE,
+    WORGEN_JOURNEYMAN_FEMALE = WORGEN_JOURNEYMAN_FEMALE,
+    GetGenderedSpells = GetGenderedSpells,
+    ApplyRunningWildTier = ApplyRunningWildTier,
+    OnLearnSpell = OnLearnSpell,
+    OnCastRidingSpell = OnCastRidingSpell,
+    OnLogin = OnLogin,
+}

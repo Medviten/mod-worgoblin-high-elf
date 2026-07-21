@@ -24,3 +24,13 @@ end
 RegisterPlayerEvent(13, function(event, player, oldLevel) -- ON_LEVEL_CHANGE
     GrantWorgenRiding(player)
 end)
+
+-- Expose the internal helper so it can be unit tested. Eluna ignores the
+-- return value of a script, so this has no effect on the live server.
+return {
+    RACE_WORGEN = RACE_WORGEN,
+    CLASS_DEATH_KNIGHT = CLASS_DEATH_KNIGHT,
+    APPRENTICE_RIDING = APPRENTICE_RIDING,
+    JOURNEYMAN_RIDING = JOURNEYMAN_RIDING,
+    GrantWorgenRiding = GrantWorgenRiding,
+}
