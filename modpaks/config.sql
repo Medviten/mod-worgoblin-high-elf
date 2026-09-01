@@ -46,9 +46,9 @@ SET @MagharOrcMask     = 1 << (14 - 1);  -- race ID 14 → 8192
 SET @OgreMask          = 1 << (15 - 1);  -- race ID 15 → 16384
 
 -- Factions
-SET @AllianceMask        = @HumanMask    | @DwarfMask  | @NightElfMask | @GnomeMask | @DraeneiMask  | @WorgenMask   | @HighElfMask
-SET @HordeMask           = @OrcMask      | @UndeadMask | @TaurenMask   | @TrollMask | @GoblinMask   | @BloodElfMask | @MagharOrcMask | @OgreMask
-SET @PlayableRaceMask    = @AllianceMask | @HordeMask
+SET @AllianceMask        = @HumanMask    | @DwarfMask  | @NightElfMask | @GnomeMask | @DraeneiMask  | @WorgenMask   | @HighElfMask;
+SET @HordeMask           = @OrcMask      | @UndeadMask | @TaurenMask   | @TrollMask | @GoblinMask   | @BloodElfMask | @MagharOrcMask | @OgreMask;
+SET @PlayableRaceMask    = @AllianceMask | @HordeMask;
 
 -- Helmet RaceMasks
 SET @HumanHelmetMask     = 1 << 1;   -- race ID 1  → 2
@@ -93,7 +93,7 @@ SET @WarlockMask       = 1 << (9 - 1);  -- class ID 9  → 256
 -- SET @MonkMask          = 1 << (10 - 1); -- class ID 11 → 512
 SET @DruidMask         = 1 << (11 - 1); -- class ID 11 → 1024
 
-SET @AllClassMask      = @WarriorMask | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask
+SET @AllClassMask      = @WarriorMask | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
 
 -- Druid Forms
 SET @CatForm           =  1;
