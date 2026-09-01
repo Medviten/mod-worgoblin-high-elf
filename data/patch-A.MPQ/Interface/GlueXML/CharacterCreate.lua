@@ -1,5 +1,5 @@
 CHARACTER_FACING_INCREMENT = 2;
-MAX_RACES = 14;
+MAX_RACES = 15;
 MAX_CLASSES_PER_RACE = 10;
 NUM_CHAR_CUSTOMIZATIONS = 5;
 MIN_CHAR_NAME_LENGTH = 2;
@@ -27,36 +27,35 @@ RACE_ICON_TCOORDS = {
 	["DWARF_MALE"]		= {0.125, 0.25, 0, 0.25},
 	["GNOME_MALE"]		= {0.25, 0.375, 0, 0.25},
 	["NIGHTELF_MALE"]	= {0.375, 0.5, 0, 0.25},
+	["DRAENEI_MALE"]	= {0.5, 0.625, 0, 0.25},
+   	["WORGEN_MALE"]   	= {0.625, 0.750, 0, 0.25},
+    ["HIGHELF_MALE"]    = {0.750, 0.875, 0, 0.25},
 	
 	["TAUREN_MALE"]		= {0, 0.125, 0.25, 0.5},
 	["SCOURGE_MALE"]	= {0.125, 0.25, 0.25, 0.5},
 	["TROLL_MALE"]		= {0.25, 0.375, 0.25, 0.5},
 	["ORC_MALE"]		= {0.375, 0.5, 0.25, 0.5},
+	["BLOODELF_MALE"]	= {0.5, 0.625, 0.25, 0.5},
+	["GOBLIN_MALE"]    	= {0.625, 0.750, 0.25, 0.5},
+	["MAGHAR_MALE"]     = {0.750, 0.875, 0.25, 0.5},
+	["OGRE_MALE"]       = {0.875, 1.0, 0.25, 0.5},
 
 	["HUMAN_FEMALE"]	= {0, 0.125, 0.5, 0.75},  
 	["DWARF_FEMALE"]	= {0.125, 0.25, 0.5, 0.75},
 	["GNOME_FEMALE"]	= {0.25, 0.375, 0.5, 0.75},
 	["NIGHTELF_FEMALE"]	= {0.375, 0.5, 0.5, 0.75},
+	["DRAENEI_FEMALE"]	= {0.5, 0.625, 0.5, 0.75},
+   	["WORGEN_FEMALE"]  	= {0.625, 0.750, 0.5, 0.75},
+    ["HIGHELF_FEMALE"]  = {0.750, 0.875, 0.5, 0.75},
 	
 	["TAUREN_FEMALE"]	= {0, 0.125, 0.75, 1.0},   
 	["SCOURGE_FEMALE"]	= {0.125, 0.25, 0.75, 1.0}, 
 	["TROLL_FEMALE"]	= {0.25, 0.375, 0.75, 1.0}, 
 	["ORC_FEMALE"]		= {0.375, 0.5, 0.75, 1.0}, 
-
-	["BLOODELF_MALE"]	= {0.5, 0.625, 0.25, 0.5},
 	["BLOODELF_FEMALE"]	= {0.5, 0.625, 0.75, 1.0}, 
-	["DRAENEI_MALE"]	= {0.5, 0.625, 0, 0.25},
-	["DRAENEI_FEMALE"]	= {0.5, 0.625, 0.5, 0.75},
-
-   	["GOBLIN_MALE"]     	= {0.625, 0.750, 0.25, 0.5},
-   	["GOBLIN_FEMALE"]   	= {0.625, 0.750, 0.75, 1.0},
-   	["WORGEN_MALE"]     	= {0.625, 0.750, 0, 0.25},
-   	["WORGEN_FEMALE"]   	= {0.625, 0.750, 0.5, 0.75},
-
-    ["HIGHELF_MALE"]        = {0.750, 0.875, 0, 0.25},
-    ["HIGHELF_FEMALE"]    = {0.750, 0.875, 0.5, 0.75},
-	["MAGHAR_MALE"]        = {0.750, 0.875, 0.25, 0.5},
-    ["MAGHAR_FEMALE"]    = {0.750, 0.875, 0.75, 1.0},
+   	["GOBLIN_FEMALE"]  	= {0.625, 0.750, 0.75, 1.0},
+    ["MAGHAR_FEMALE"]   = {0.750, 0.875, 0.75, 1.0},
+    ["OGRE_FEMALE"]     = {0.875, 1.0, 0.75, 1.0},
 };
 CLASS_ICON_TCOORDS = {
 	["WARRIOR"]	= {0, 0.25, 0, 0.25},

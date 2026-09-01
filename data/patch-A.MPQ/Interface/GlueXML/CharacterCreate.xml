@@ -442,6 +442,10 @@
 							</Layer>
 						</Layers>
 						<Frames>
+<!--
+								The Alliance is always enumerated first.
+								1: Human, 2: Dwarf, 3: Night Elf, 4: Gnome, 5: Draenei, 6: Worgen, 7: High Elf
+-->
                             <CheckButton name="CharacterCreateRaceButton1" inherits="CharacterCreateRaceButtonTemplate" id="1">
 								<Anchors>
 									<Anchor point="TOP" relativePoint="TOP" x="-72.5" y="-50"/>
@@ -477,6 +481,10 @@
 									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton5" relativePoint="BOTTOMLEFT" x="0" y="-21"/>
 								</Anchors>
 							</CheckButton>
+<!--
+								The Horde is always enumerated last.
+								8: Orc, 9: Undead, 10: Tauren, 11: Troll, 13: Blood Elf, 12: Goblin, 14: Mag'har Orc, 15: Ogre
+-->
 							<CheckButton name="CharacterCreateRaceButton8" inherits="CharacterCreateRaceButtonTemplate" id="8">
 								<Anchors>
 									<Anchor point="TOP" relativePoint="TOP" x="27.5" y="-50"/>
@@ -510,6 +518,11 @@
 							<CheckButton name="CharacterCreateRaceButton14" inherits="CharacterCreateRaceButtonTemplate" id="14">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton13" relativePoint="BOTTOMLEFT" x="0" y="-21"/>
+								</Anchors>
+							</CheckButton>
+							<CheckButton name="CharacterCreateRaceButton15" inherits="CharacterCreateRaceButtonTemplate" id="15">
+								<Anchors>
+									<Anchor point="TOPLEFT" relativeTo="CharacterCreateRaceButton12" relativePoint="BOTTOMLEFT" x="0" y="-21"/>
 								</Anchors>
 							</CheckButton>
 							<CheckButton name="CharacterCreateGenderButtonMale" inherits="CharacterCreateGenderButtonTemplate">

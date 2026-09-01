@@ -50,6 +50,7 @@ GlueAmbienceTracks["GOBLIN"] = "GlueScreenOrcTroll";
 GlueAmbienceTracks["WORGEN"] = "GlueScreenHuman";
 GlueAmbienceTracks["HIGHELF"] = "GlueScreenHuman";
 GlueAmbienceTracks["MAGHAR"] = "GlueScreenOrcTroll";
+GlueAmbienceTracks["OGRE"] = "GlueScreenOrcTroll";
 
 
 -- RaceLights[] duplicates the 3.2.2 color values in the models. Henceforth, the models no longer contain directional lights
@@ -111,6 +112,11 @@ RaceLights = {
 		{1,     0,  -0.74919,       0.35208,        -0.56103,   1.0,    0.00000,    0.00000,    0.00000,    1.0,    0.44706,    0.54510,    0.73725},
 		{1,     0,  0.53162,        -0.84340,       0.07780,    1.0,    0.00000,    0.00000,    0.00000,    2.0,    0.55,       0.338625,   0.148825},
 	},
+    OGRE = {
+        {1,     0,  0.00000,        0.00000,        -1.00000,   1.0,    0.15000,    0.15000,    0.15000,    1.0,    0.00000,    0.00000,    0.00000},
+        {1,     0,  -0.74919,       0.35208,        -0.56103,   1.0,    0.00000,    0.00000,    0.00000,    1.0,    0.44706,    0.54510,    0.73725},
+        {1,     0,  0.53162,        -0.84340,       0.07780,    1.0,    0.00000,    0.00000,    0.00000,    2.0,    0.55,       0.338625,   0.148825},
+    },
 }
 
 -- indicies for adding lights ModelFFX:Add*Light
@@ -400,7 +406,7 @@ function SetBackgroundModel(model, name)
 		name = "Human";
 	end
 
-	if (name == "Maghar" or name == "MAGHAR" or name == "Mag'har" or name == "MAG'HAR") then
+	if (name == "Maghar" or name == "MAGHAR" or name == "Mag'har" or name == "MAG'HAR" or name == "Ogre" or name == "OGRE") then
 		name = "Orc";
 	end
     
