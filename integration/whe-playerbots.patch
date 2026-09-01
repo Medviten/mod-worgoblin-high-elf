@@ -1,6 +1,6 @@
-diff -ruN originals/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql merged/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql
---- originals/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql	2026-06-25 00:27:27.320598400 +0200
-+++ merged/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql	2026-08-28 15:15:14.232540100 +0200
+diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/playerbots_rpg_races.sql
+--- a/data/sql/world/base/playerbots_rpg_races.sql	2026-06-25 00:27:27.320598400 +0200
++++ b/data/sql/world/base/playerbots_rpg_races.sql	2026-08-28 15:15:14.232540100 +0200
 @@ -23,12 +23,14 @@
  -- Draenei Bloodmyst Isle
  (NULL, 17553, 11, 10, 20),
@@ -913,9 +913,9 @@ diff -ruN originals/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql 
 -(NULL, 6807, 15, 90, 90)
 +(NULL, 6807, 35, 90, 90)
  ;
-diff -ruN originals/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp merged/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp
---- originals/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp	2026-06-25 00:29:46.435141700 +0200
-+++ merged/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp	2026-08-28 15:17:16.630974900 +0200
+diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteAction.cpp
+--- a/src/Ai/Base/Actions/EmoteAction.cpp	2026-06-25 00:29:46.435141700 +0200
++++ b/src/Ai/Base/Actions/EmoteAction.cpp	2026-08-28 15:17:16.630974900 +0200
 @@ -891,6 +891,9 @@
                  return 2;
              }
@@ -1223,9 +1223,9 @@ diff -ruN originals/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp merged/mo
          }
      }
  
-diff -ruN originals/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp merged/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
---- originals/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-06-25 00:30:20.486201100 +0200
-+++ merged/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-08-28 15:17:52.800692200 +0200
+diff -ruN a/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp b/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
+--- a/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-06-25 00:30:20.486201100 +0200
++++ b/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-08-28 15:17:52.800692200 +0200
 @@ -252,9 +252,9 @@
      std::vector<uint32> races;
  
@@ -1238,9 +1238,9 @@ diff -ruN originals/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cp
  
      float graveDistance = -1;
  
-diff -ruN originals/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp merged/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp
---- originals/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp	2026-06-25 00:31:00.898342300 +0200
-+++ merged/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp	2026-08-28 15:18:39.236502500 +0200
+diff -ruN a/src/Bot/Cmd/ChatHelper.cpp b/src/Bot/Cmd/ChatHelper.cpp
+--- a/src/Bot/Cmd/ChatHelper.cpp	2026-06-25 00:31:00.898342300 +0200
++++ b/src/Bot/Cmd/ChatHelper.cpp	2026-08-28 15:18:39.236502500 +0200
 @@ -181,6 +181,11 @@
      races[RACE_UNDEAD_PLAYER] = "Undead";
      races[RACE_BLOODELF] = "Blood Elf";
@@ -1253,9 +1253,9 @@ diff -ruN originals/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp merged/mod-playerb
  }
  
  std::string const ChatHelper::formatMoney(uint32 copper)
-diff -ruN originals/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp merged/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp
---- originals/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp	2026-06-25 00:31:34.168169300 +0200
-+++ merged/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp	2026-08-28 15:20:09.859893200 +0200
+diff -ruN a/src/Bot/Factory/PlayerbotFactory.cpp b/src/Bot/Factory/PlayerbotFactory.cpp
+--- a/src/Bot/Factory/PlayerbotFactory.cpp	2026-06-25 00:31:34.168169300 +0200
++++ b/src/Bot/Factory/PlayerbotFactory.cpp	2026-08-28 15:20:09.859893200 +0200
 @@ -3737,6 +3737,26 @@
              slow = {33660, 35020, 35022, 35018};
              fast = {35025, 35025, 35027};
@@ -1283,9 +1283,9 @@ diff -ruN originals/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp merged/m
          default:
              if (bot->GetTeamId() == TEAM_HORDE)
              { // Orc mounts
-diff -ruN originals/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp merged/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp
---- originals/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-06-25 00:43:38.059201100 +0200
-+++ merged/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-08-28 15:21:58.706338100 +0200
+diff -ruN a/src/Bot/Factory/RandomPlayerbotFactory.cpp b/src/Bot/Factory/RandomPlayerbotFactory.cpp
+--- a/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-06-25 00:43:38.059201100 +0200
++++ b/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-08-28 15:21:58.706338100 +0200
 @@ -29,9 +29,14 @@
          case RACE_GNOME:      baseIndex = NameRaceAndGender::GnomeMale; break;
          case RACE_TROLL:      baseIndex = NameRaceAndGender::TrollMale; break;
@@ -1301,9 +1301,9 @@ diff -ruN originals/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp me
          default:
              baseIndex = NameRaceAndGender::GenericMale;
              break;
-diff -ruN originals/mod-playerbots/src/Bot/PlayerbotAI.cpp merged/mod-playerbots/src/Bot/PlayerbotAI.cpp
---- originals/mod-playerbots/src/Bot/PlayerbotAI.cpp	2026-06-29 16:28:53.181532700 +0200
-+++ merged/mod-playerbots/src/Bot/PlayerbotAI.cpp	2026-06-29 16:31:03.518952700 +0200
+diff -ruN a/src/Bot/PlayerbotAI.cpp b/src/Bot/PlayerbotAI.cpp
+--- a/src/Bot/PlayerbotAI.cpp	2026-06-29 16:28:53.181532700 +0200
++++ b/src/Bot/PlayerbotAI.cpp	2026-06-29 16:31:03.518952700 +0200
 @@ -4392,7 +4392,7 @@
  bool IsAlliance(uint8 race)
  {
@@ -1313,9 +1313,9 @@ diff -ruN originals/mod-playerbots/src/Bot/PlayerbotAI.cpp merged/mod-playerbots
  }
  
  Player* PlayerbotAI::FindNewMaster()
-diff -ruN originals/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp merged/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp
---- originals/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 14:54:19.446469100 +0200
-+++ merged/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 16:32:12.187140400 +0200
+diff -ruN a/src/Bot/RandomPlayerbotMgr.cpp b/src/Bot/RandomPlayerbotMgr.cpp
+--- a/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 14:54:19.446469100 +0200
++++ b/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 16:32:12.187140400 +0200
 @@ -1742,7 +1742,7 @@
                      Field* fields = results->Fetch();
                      ObjectGuid guid = ObjectGuid(HighGuid::Player, fields[0].Get<uint32>());
@@ -1325,9 +1325,9 @@ diff -ruN originals/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp merged/mod-pla
                      addclassCache[GetTeamClassIdx(isAlliance, claz)].insert(guid);
                      collected++;
                  } while (results->NextRow());
-diff -ruN originals/mod-playerbots/src/Mgr/Travel/TravelNode.cpp merged/mod-playerbots/src/Mgr/Travel/TravelNode.cpp
---- originals/mod-playerbots/src/Mgr/Travel/TravelNode.cpp	2026-06-29 14:54:19.458461600 +0200
-+++ merged/mod-playerbots/src/Mgr/Travel/TravelNode.cpp	2026-08-28 15:24:05.604920100 +0200
+diff -ruN a/src/Mgr/Travel/TravelNode.cpp b/src/Mgr/Travel/TravelNode.cpp
+--- a/src/Mgr/Travel/TravelNode.cpp	2026-06-29 14:54:19.458461600 +0200
++++ b/src/Mgr/Travel/TravelNode.cpp	2026-08-28 15:24:05.604920100 +0200
 @@ -1653,14 +1653,18 @@
  void TravelNodeMap::generateStartNodes()
  {
