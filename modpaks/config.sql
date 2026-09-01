@@ -45,22 +45,27 @@ SET @HighElfMask       = 1 << (13 - 1);  -- race ID 13 → 4096
 SET @MagharOrcMask     = 1 << (14 - 1);  -- race ID 14 → 8192
 SET @OgreMask          = 1 << (15 - 1);  -- race ID 15 → 16384
 
+-- Factions
+SET @AllianceMask        = @HumanMask    | @DwarfMask  | @NightElfMask | @GnomeMask | @DraeneiMask  | @WorgenMask   | @HighElfMask
+SET @HordeMask           = @OrcMask      | @UndeadMask | @TaurenMask   | @TrollMask | @GoblinMask   | @BloodElfMask | @MagharOrcMask | @OgreMask
+SET @PlayableRaceMask    = @AllianceMask | @HordeMask
+
 -- Helmet RaceMasks
-SET @HumanHelmetMask         = 1 << 1;   -- race ID 1  → 2
-SET @OrcHelmetMask           = 1 << 2;   -- race ID 2  → 4
-SET @DwarfHelmetMask         = 1 << 3;   -- race ID 3  → 8
-SET @NightElfHelmetMask      = 1 << 4;   -- race ID 4  → 16
-SET @UndeadHelmetMask        = 1 << 5;   -- race ID 5  → 32
-SET @TaurenHelmetMask        = 1 << 6;   -- race ID 6  → 64
-SET @GnomeHelmetMask         = 1 << 7;   -- race ID 7  → 128
-SET @TrollHelmetMask         = 1 << 8;   -- race ID 8  → 256
-SET @GoblinHelmetMask        = 1 << 9;   -- race ID 9  → 512
-SET @GoblinHelmetMask        = 1 << 10;  -- race ID 10 → 1024
-SET @DraeneiHelmetMask       = 1 << 11;  -- race ID 11 → 2048
-SET @WorgenHelmetMask        = 1 << 12;  -- race ID 12 → 4096
-SET @HighElfHelmetMask       = 1 << 13;  -- race ID 13 → 8192
-SET @MagharOrcHelmetMask     = 1 << 14;  -- race ID 14 → 16384
-SET @OgreHelmetMask          = 1 << 15;  -- race ID 15 → 32768
+SET @HumanHelmetMask     = 1 << 1;   -- race ID 1  → 2
+SET @OrcHelmetMask       = 1 << 2;   -- race ID 2  → 4
+SET @DwarfHelmetMask     = 1 << 3;   -- race ID 3  → 8
+SET @NightElfHelmetMask  = 1 << 4;   -- race ID 4  → 16
+SET @UndeadHelmetMask    = 1 << 5;   -- race ID 5  → 32
+SET @TaurenHelmetMask    = 1 << 6;   -- race ID 6  → 64
+SET @GnomeHelmetMask     = 1 << 7;   -- race ID 7  → 128
+SET @TrollHelmetMask     = 1 << 8;   -- race ID 8  → 256
+SET @GoblinHelmetMask    = 1 << 9;   -- race ID 9  → 512
+SET @GoblinHelmetMask    = 1 << 10;  -- race ID 10 → 1024
+SET @DraeneiHelmetMask   = 1 << 11;  -- race ID 11 → 2048
+SET @WorgenHelmetMask    = 1 << 12;  -- race ID 12 → 4096
+SET @HighElfHelmetMask   = 1 << 13;  -- race ID 13 → 8192
+SET @MagharOrcHelmetMask = 1 << 14;  -- race ID 14 → 16384
+SET @OgreHelmetMask      = 1 << 15;  -- race ID 15 → 32768
 
 -- Classes
 SET @Warrior           =    1;
@@ -87,6 +92,8 @@ SET @MageMask          = 1 << (8 - 1);  -- class ID 8  → 128
 SET @WarlockMask       = 1 << (9 - 1);  -- class ID 9  → 256
 -- SET @MonkMask          = 1 << (10 - 1); -- class ID 11 → 512
 SET @DruidMask         = 1 << (11 - 1); -- class ID 11 → 1024
+
+SET @AllClassMask      = @WarriorMask | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask
 
 -- Druid Forms
 SET @CatForm           =  1;
