@@ -85,17 +85,17 @@ SET @Warlock           =  256;
 SET @Druid             = 1024;
 
 -- ClassMasks
-SET @WarriorMask       = 1 << (1 - 1);  -- class ID 1  → 1
-SET @PaladinMask       = 1 << (2 - 1);  -- class ID 2  → 2
-SET @HunterMask        = 1 << (3 - 1);  -- class ID 3  → 4
-SET @RogueMask         = 1 << (4 - 1);  -- class ID 4  → 8
-SET @PriestMask        = 1 << (5 - 1);  -- class ID 5  → 16
-SET @DeathKnightMask   = 1 << (6 - 1);  -- class ID 6  → 32
-SET @ShamanMask        = 1 << (7 - 1);  -- class ID 7  → 64
-SET @MageMask          = 1 << (8 - 1);  -- class ID 8  → 128
-SET @WarlockMask       = 1 << (9 - 1);  -- class ID 9  → 256
--- SET @MonkMask          = 1 << (10 - 1); -- class ID 11 → 512
-SET @DruidMask         = 1 << (11 - 1); -- class ID 11 → 1024
+SET @WarriorMask       = 1 << (@Warrior     - 1);  -- class ID 1  → 1
+SET @PaladinMask       = 1 << (@Paladin     - 1);  -- class ID 2  → 2
+SET @HunterMask        = 1 << (@Hunter      - 1);  -- class ID 3  → 4
+SET @RogueMask         = 1 << (@Rogue       - 1);  -- class ID 4  → 8
+SET @PriestMask        = 1 << (@Priest      - 1);  -- class ID 5  → 16
+SET @DeathKnightMask   = 1 << (@DeathKnight - 1);  -- class ID 6  → 32
+SET @ShamanMask        = 1 << (@Shaman      - 1);  -- class ID 7  → 64
+SET @MageMask          = 1 << (@Mage        - 1);  -- class ID 8  → 128
+SET @WarlockMask       = 1 << (@Warlock     - 1);  -- class ID 9  → 256
+-- SET @MonkMask          = 1 << (@Monk        - 1); -- class ID 10 → 512
+SET @DruidMask         = 1 << (@Druid       - 1); -- class ID 11 → 1024
 
 SET @AllClassMask      = @WarriorMask | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
 SET @ManaClassMask     = @PaladinMask | @HunterMask | @PriestMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
