@@ -11,3 +11,5 @@ UPDATE `vocaluisounds` SET `race_id` = @Tuskarr           WHERE `race_id` = 18;
 UPDATE `vocaluisounds` SET `race_id` = @Taunka            WHERE `race_id` = 19;
 UPDATE `vocaluisounds` SET `race_id` = @NorthrendSkeleton WHERE `race_id` = 20;
 UPDATE `vocaluisounds` SET `race_id` = @IceTroll          WHERE `race_id` = 21;
+
+-- id: 848

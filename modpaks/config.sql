@@ -1,3 +1,7 @@
+-- Miscellaneous
+SET @Male              =    0;
+SET @Female            =    1;
+
 -- Playable Races
 SET @Human             =    1;
 SET @Orc               =    2;
@@ -94,6 +98,7 @@ SET @WarlockMask       = 1 << (9 - 1);  -- class ID 9  → 256
 SET @DruidMask         = 1 << (11 - 1); -- class ID 11 → 1024
 
 SET @AllClassMask      = @WarriorMask | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
+SET @ManaClassMask     = @PaladinMask | @HunterMask | @PriestMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
 
 -- Druid Forms
 SET @CatForm           =  1;

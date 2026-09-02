@@ -10,3 +10,9 @@ UPDATE `charhairtextures` SET `race` = @Tuskarr           WHERE `race` = 18;
 UPDATE `charhairtextures` SET `race` = @Taunka            WHERE `race` = 19;
 UPDATE `charhairtextures` SET `race` = @NorthrendSkeleton WHERE `race` = 20;
 UPDATE `charhairtextures` SET `race` = @IceTroll          WHERE `race` = 21;
+
+/*
+Original range:
+82–93
+98–101
+*/
