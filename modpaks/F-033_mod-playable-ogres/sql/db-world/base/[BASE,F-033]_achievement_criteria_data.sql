@@ -1,4 +1,3 @@
-SET @Ogre = 15;
 /* Update achievement criteria involving interactions with all races to include Ogres */
 REPLACE INTO `achievement_criteria_data` (
     `criteria_id`, -- ID from Achievement_Criteria.dbc

@@ -1,6 +1,11 @@
 -- Miscellaneous
 SET @Male              =    0;
 SET @Female            =    1;
+SET @Skin              =    0;
+SET @Face              =    1;
+SET @FacialHair        =    2;
+SET @Hair              =    3;
+SET @Underwear         =    4;
 
 -- Playable Races
 SET @Human             =    1;
@@ -50,8 +55,9 @@ SET @MagharOrcMask     = 1 << (14 - 1);  -- race ID 14 → 8192
 SET @OgreMask          = 1 << (15 - 1);  -- race ID 15 → 16384
 
 -- Factions
-SET @AllianceMask        = @HumanMask    | @DwarfMask  | @NightElfMask | @GnomeMask | @DraeneiMask  | @WorgenMask   | @HighElfMask;
-SET @HordeMask           = @OrcMask      | @UndeadMask | @TaurenMask   | @TrollMask | @GoblinMask   | @BloodElfMask | @MagharOrcMask | @OgreMask;
+SET @AllianceMask        = @HumanMask    | @DwarfMask  | @NightElfMask | @GnomeMask  | @DraeneiMask   | @WorgenMask   | @HighElfMask;
+SET @HordeMask           = @OrcMask      | @UndeadMask | @TaurenMask   | @TrollMask  | @GoblinMask    | @BloodElfMask | @MagharOrcMask | @OgreMask;
+SET @UndercityMask       = @UndeadMask   | @BloodElfMask; -- Mostly for reputation split
 SET @PlayableRaceMask    = @AllianceMask | @HordeMask;
 
 -- Helmet RaceMasks

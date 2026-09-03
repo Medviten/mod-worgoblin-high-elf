@@ -1,5 +1,3 @@
-SET @Ogre   = 15;
-SET @Tauren =  6;
 /* Ogres copy Tauren */
 INSERT INTO `player_race_stats` (`Race`, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`)
 SELECT

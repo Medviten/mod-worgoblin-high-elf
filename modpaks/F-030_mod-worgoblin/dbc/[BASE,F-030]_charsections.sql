@@ -1,28 +1,4 @@
--- charsections: 1642 inserts, 0 updates, 22 deletes
-
--- Deletions
--- DELETE FROM `charsections` WHERE `id` = 4681;
--- DELETE FROM `charsections` WHERE `id` = 4682;
--- DELETE FROM `charsections` WHERE `id` = 4683;
--- DELETE FROM `charsections` WHERE `id` = 4684;
--- DELETE FROM `charsections` WHERE `id` = 4685;
--- DELETE FROM `charsections` WHERE `id` = 4686;
--- DELETE FROM `charsections` WHERE `id` = 5143;
--- DELETE FROM `charsections` WHERE `id` = 5144;
--- DELETE FROM `charsections` WHERE `id` = 5145;
--- DELETE FROM `charsections` WHERE `id` = 5146;
--- DELETE FROM `charsections` WHERE `id` = 5147;
--- DELETE FROM `charsections` WHERE `id` = 5148;
--- DELETE FROM `charsections` WHERE `id` = 5149;
--- DELETE FROM `charsections` WHERE `id` = 5150;
--- DELETE FROM `charsections` WHERE `id` = 5151;
--- DELETE FROM `charsections` WHERE `id` = 5152;
--- DELETE FROM `charsections` WHERE `id` = 5433;
--- DELETE FROM `charsections` WHERE `id` = 5434;
--- DELETE FROM `charsections` WHERE `id` = 5441;
--- DELETE FROM `charsections` WHERE `id` = 5442;
--- DELETE FROM `charsections` WHERE `id` = 5443;
--- DELETE FROM `charsections` WHERE `id` = 5444;
+-- charsections: 1642 inserts, 0 updates, 0 deletes
 
 -- New entries
 -- DELETE FROM `charsections` WHERE `id` = 20000;

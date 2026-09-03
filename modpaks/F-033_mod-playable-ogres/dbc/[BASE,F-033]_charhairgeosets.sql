@@ -2,6 +2,6 @@
 
 -- New entries
 DELETE FROM `charhairgeosets` WHERE `id` = 650;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (650, 15, 0, 0, 0, 1);
+INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (650, @Ogre, @Male, 0, 0, 1);
 DELETE FROM `charhairgeosets` WHERE `id` = 651;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (651, 15, 1, 0, 0, 1);
+INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (651, @Ogre, @Female, 0, 0, 1);

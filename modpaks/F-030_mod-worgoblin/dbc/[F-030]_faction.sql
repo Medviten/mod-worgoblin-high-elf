@@ -12,7 +12,7 @@ INSERT INTO `faction` (`id`, `reputation_index`, `reputation_race_mask_1`, `repu
 
 -- Aldor/Scryer reputation race mask fix
 UPDATE `faction` SET
-  `reputation_race_mask_1` = `reputation_race_mask_1` | 256 | 2048,
+  `reputation_race_mask_1` = `reputation_race_mask_1` | @Goblin | @Worgoblin,
   `reputation_race_mask_2` = 0,
   `reputation_race_mask_3` = 0,
   `reputation_flags_1` = 16,

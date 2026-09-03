@@ -7,14 +7,14 @@
 -- race 15 and pick up the same columns explicitly.
 -- Idempotent: safe to re-run
 
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | 32768, `hide_geoset_5` = `hide_geoset_5` | 32768 WHERE `id` = 246;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_2` = `hide_geoset_2` | 32768, `hide_geoset_3` = `hide_geoset_3` | 32768, `hide_geoset_4` = `hide_geoset_4` | 32768 WHERE `id` = 247;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | 32768, `hide_geoset_2` = `hide_geoset_2` | 32768, `hide_geoset_3` = `hide_geoset_3` | 32768, `hide_geoset_4` = `hide_geoset_4` | 32768, `hide_geoset_5` = `hide_geoset_5` | 32768 WHERE `id` = 248;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | 32768 WHERE `id` = 249;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | 32768, `hide_geoset_5` = `hide_geoset_5` | 32768 WHERE `id` = 265;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | 32768, `hide_geoset_2` = `hide_geoset_2` | 32768, `hide_geoset_3` = `hide_geoset_3` | 32768, `hide_geoset_4` = `hide_geoset_4` | 32768, `hide_geoset_5` = `hide_geoset_5` | 32768 WHERE `id` = 368;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_2` = `hide_geoset_2` | 32768, `hide_geoset_3` = `hide_geoset_3` | 32768, `hide_geoset_4` = `hide_geoset_4` | 32768 WHERE `id` = 369;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_7` = `hide_geoset_7` | 32768 WHERE `id` = 370;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_5` = `hide_geoset_5` | 32768, `hide_geoset_6` = `hide_geoset_6` | 32768 WHERE `id` = 371;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_5` = `hide_geoset_5` | 32768 WHERE `id` = 372;
-UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | 32768, `hide_geoset_5` = `hide_geoset_5` | 32768 WHERE `id` = 376;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | @OgreHelmetMask, `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask WHERE `id` = 246;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_2` = `hide_geoset_2` | @OgreHelmetMask, `hide_geoset_3` = `hide_geoset_3` | @OgreHelmetMask, `hide_geoset_4` = `hide_geoset_4` | @OgreHelmetMask WHERE `id` = 247;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | @OgreHelmetMask, `hide_geoset_2` = `hide_geoset_2` | @OgreHelmetMask, `hide_geoset_3` = `hide_geoset_3` | @OgreHelmetMask, `hide_geoset_4` = `hide_geoset_4` | @OgreHelmetMask, `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask WHERE `id` = 248;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | @OgreHelmetMask WHERE `id` = 249;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | @OgreHelmetMask, `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask WHERE `id` = 265;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | @OgreHelmetMask, `hide_geoset_2` = `hide_geoset_2` | @OgreHelmetMask, `hide_geoset_3` = `hide_geoset_3` | @OgreHelmetMask, `hide_geoset_4` = `hide_geoset_4` | @OgreHelmetMask, `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask WHERE `id` = 368;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_2` = `hide_geoset_2` | @OgreHelmetMask, `hide_geoset_3` = `hide_geoset_3` | @OgreHelmetMask, `hide_geoset_4` = `hide_geoset_4` | @OgreHelmetMask WHERE `id` = 369;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_7` = `hide_geoset_7` | @OgreHelmetMask WHERE `id` = 370;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask, `hide_geoset_6` = `hide_geoset_6` | @OgreHelmetMask WHERE `id` = 371;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask WHERE `id` = 372;
+UPDATE `helmetgeosetvisdata` SET `hide_geoset_1` = `hide_geoset_1` | @OgreHelmetMask, `hide_geoset_5` = `hide_geoset_5` | @OgreHelmetMask WHERE `id` = 376;

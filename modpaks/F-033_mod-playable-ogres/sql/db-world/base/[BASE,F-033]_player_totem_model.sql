@@ -1,4 +1,3 @@
-SET @Ogre = 15;
 -- Horde default totems is the Orc ones.
 SET @OgreFireTotem := 30758;
 SET @OgreEarthTotem := 30757;

@@ -1,14 +1,3 @@
-SET @Ogre        = 15;
-SET @Warrior     =  1;
-SET @Paladin     =  2;
-SET @Hunter      =  3;
-SET @Rogue       =  4;
-SET @Priest      =  5;
-SET @DeathKnight =  6;
-SET @Shaman      =  7;
-SET @Mage        =  8;
-SET @Warlock     =  9;
-SET @Druid       = 11;
 INSERT IGNORE INTO `playercreateinfo_action` VALUES
 -- Ogre Warrior
 (@Ogre, @Warrior, 72, 6603, 0), -- Auto Attack (SpecialA: Battle Stance)
