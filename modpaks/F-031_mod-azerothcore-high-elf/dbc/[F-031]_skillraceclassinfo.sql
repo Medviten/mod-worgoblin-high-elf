@@ -1,8 +1,6 @@
-SET @HighElf = 4096;
-
 -- skillraceclassinfo: 0 inserts, 104 updates, 0 deletes
 DELETE FROM `skillraceclassinfo` WHERE `id` = 1140; -- Skill 791: Racial - High Elf
-INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (1140, 791, @HighElf, 1535, 1170, 0, 0, 0);
+INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (1140, 791, @HighElf, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @HighElf WHERE `id` = 21; -- Skill 293: Plate Mail

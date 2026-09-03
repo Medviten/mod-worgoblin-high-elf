@@ -1,5 +1,3 @@
-SET @BloodElf = 10;
-SET @HighElf = 13;
 /* High Elves copy Blood Elf stats */
 INSERT INTO `player_race_stats` (`Race`, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`)
 SELECT

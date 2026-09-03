@@ -1,4 +1,3 @@
-SET @HighElf = 13;
 /* Update achievement criteria involving interactions with all races to include Worgen, Goblins, and High Elves */
 REPLACE INTO `achievement_criteria_data` (
     `criteria_id`, -- ID from Achievement_Criteria.dbc

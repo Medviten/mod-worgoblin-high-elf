@@ -1,4 +1,3 @@
-SET @HighElf = 13;
 -- Alliance default totems is the Dwarf ones
 SET @HighElfFireTotem := 30754;
 SET @HighElfEarthTotem := 30753;

@@ -1,14 +1,3 @@
-SET @HighElfMask     = 4096;
-SET @WarriorMask     =    1;
-SET @PaladinMask     =    2;
-SET @HunterMask      =    4;
-SET @RogueMask       =    8;
-SET @PriestMask      =   16;
-SET @DeathKnightMask =   32;
-SET @ShamanMask      =   64;
-SET @MageMask        =  128;
-SET @WarlockMask     =  256;
-SET @DruidMask       = 1024;
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 -- High Elf Warrior
 (@HighElfMask, @WarriorMask, '78', 'Heroic Strike'),

@@ -1,5 +1,3 @@
-SET @HighElfMask = 13;
-SET @PaladinMask
 /*Updates existing starting skills to include High Elves where relevant*/
 /* I have commented out Guns for High Elves because other Hunters in WotLK start with only one ranged weapon skill. */
 -- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @HighElfMask WHERE `skill` = 46; -- Guns

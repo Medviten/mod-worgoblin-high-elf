@@ -1,10 +1,10 @@
 -- [F-031] mod-azerothcore-high-elf: creaturedisplayinfo: 2 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `creaturedisplayinfo` WHERE `id` = 94222;
-INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (94222, 2208, 0, 45433, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
-DELETE FROM `creaturedisplayinfo` WHERE `id` = 94223;
-INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (94223, 2209, 0, 45434, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
+DELETE FROM `creaturedisplayinfo` WHERE `id` = @HighElfMaleDisplay;
+INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (@HighElfMaleDisplay, @HighElfMaleModel, 0, @HighElfMaleDisplayExtra, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
+DELETE FROM `creaturedisplayinfo` WHERE `id` = @HighElfFemaleDisplay;
+INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (@HighElfFemaleDisplay, @HighElfFemaleModel, 0, @HighElfFemaleDisplayExtra, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
 /* Probably not needed
 DELETE FROM `creaturedisplayinfo` WHERE `id` = 32755;
 INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (32755, 55, 0, 22348, '1.0000000000000000', 128, '', '', '', '', 1, 0, 0, 0, 0, 0);
