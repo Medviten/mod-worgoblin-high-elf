@@ -170,15 +170,15 @@ SET @OgreHelmetMask              = 1 << 15;  -- race ID 15 → 32768
 -- Classes
 SET @Warrior                   =    1;
 SET @Paladin                   =    2;
-SET @Hunter                    =    4;
-SET @Rogue                     =    8;
-SET @Priest                    =   16;
-SET @DeathKnight               =   32;
-SET @Shaman                    =   64;
-SET @Mage                      =  128;
-SET @Warlock                   =  256;
--- SET @Monk                      = 512;
-SET @Druid                     = 1024;
+SET @Hunter                    =    3;
+SET @Rogue                     =    4;
+SET @Priest                    =    5;
+SET @DeathKnight               =    6;
+SET @Shaman                    =    7;
+SET @Mage                      =    8;
+SET @Warlock                   =    9;
+-- SET @Monk                      =   10;
+SET @Druid                     =   11;
 
 -- ClassMasks
 SET @WarriorMask               = 1 << (@Warrior     - 1);  -- class ID 1  → 1
