@@ -1,49 +1,49 @@
 /* Ensures that faction-restricted items include high elves */
-UPDATE `item_template` SET `allowablerace` = `allowablerace`| @HighElf WHERE `allowablerace` & @HumanMask; -- AND `allowablerace` != -1 AND `allowablerace` != 2147483647 AND `allowablerace` != 2047 AND `allowablerace` != 4095 AND `allowablerace` != 16383 AND `allowablerace` != 32767 AND `allowablerace` != 65535 AND `allowablerace` != 131071 AND `allowablerace` != 262143 AND `allowablerace` != 524287 AND `allowablerace` != 1048575 AND `allowablerace` != 2097151;
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE `allowablerace` & @HumanMask; -- AND `allowablerace` != -1 AND `allowablerace` != 2147483647 AND `allowablerace` != 2047 AND `allowablerace` != 4095 AND `allowablerace` != 16383 AND `allowablerace` != 32767 AND `allowablerace` != 65535 AND `allowablerace` != 131071 AND `allowablerace` != 262143 AND `allowablerace` != 524287 AND `allowablerace` != 1048575 AND `allowablerace` != 2097151;
 
 /* Allow high elves to obtain certain items and mounts
 If humans can have it, high elves also can (this section is probably redundant) */
 /*
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1029; -- Tablet of Serpent Totem, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1057; -- Tablet of Restoration III, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1122; -- Deprecated Amulet of the White Stallion, old mask: 415
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1123; -- Deprecated Amulet of the Pinto, old mask: 415
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1124; -- Deprecated Amulet of the Palomino, old mask: 415
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1125; -- Deprecated Amulet of the Nightmare, old mask: 415
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1133; -- Horn of the Winter Wolf, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 1134; -- Horn of the Gray Wolf, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2128; -- Scratched Claymore, old mask: 2047
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1029; -- Tablet of Serpent Totem, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1057; -- Tablet of Restoration III, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1122; -- Deprecated Amulet of the White Stallion, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1123; -- Deprecated Amulet of the Pinto, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1124; -- Deprecated Amulet of the Palomino, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1125; -- Deprecated Amulet of the Nightmare, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1133; -- Horn of the Winter Wolf, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 1134; -- Horn of the Gray Wolf, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2128; -- Scratched Claymore, old mask: 2047
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 2411; -- Black Stallion Bridle, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2412; -- Deprecated Nightmare Bridle, old mask: 415
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2413; -- Palomino, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2412; -- Deprecated Nightmare Bridle, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2413; -- Palomino, old mask: 415
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 2414; -- Pinto Bridle, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2415; -- White Stallion, old mask: 415
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2484; -- Small Knife, old mask: 2047
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2502; -- Scuffed Dagger, old mask: 2047
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 2556; -- Recipe: Elixir of Tongues, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 3144; -- Grimoire of Burning Spirit II, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 4143; -- Tome of Conjure Food II, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 4273; -- Codex of Heal, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 5000; -- Coral Band, old mask: 2047
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 5150; -- Book of Healing Touch III, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2415; -- White Stallion, old mask: 415
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2484; -- Small Knife, old mask: 2047
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2502; -- Scuffed Dagger, old mask: 2047
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 2556; -- Recipe: Elixir of Tongues, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 3144; -- Grimoire of Burning Spirit II, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 4143; -- Tome of Conjure Food II, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 4273; -- Codex of Heal, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 5000; -- Coral Band, old mask: 2047
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 5150; -- Book of Healing Touch III, old mask: 511
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 5655; -- Chestnut Mare Bridle, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 5656; -- Brown Horse Bridle, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 5657; -- Recipe: Instant Toxin, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 5660; -- Libram: Seal of Righteousness, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 5663; -- Horn of the Red Wolf, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 5657; -- Recipe: Instant Toxin, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 5660; -- Libram: Seal of Righteousness, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 5663; -- Horn of the Red Wolf, old mask: 223
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 5864; -- Gray Ram, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 5872; -- Brown Ram, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 5873; -- White Ram, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 6516; -- Imp Summoning Scroll, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 6544; -- Voidwalker Summoning Scroll, old mask: 511
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 6623; -- Succubus Summoning Scroll, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 6516; -- Imp Summoning Scroll, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 6544; -- Voidwalker Summoning Scroll, old mask: 511
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 6623; -- Succubus Summoning Scroll, old mask: 511
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 8563; -- Red Mechanostrider, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 8583; -- Horn of the Skeletal Mount, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 8589; -- Old Whistle of the Ivory Raptor, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 8590; -- Old Whistle of the Obsidian Raptor, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 8583; -- Horn of the Skeletal Mount, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 8589; -- Old Whistle of the Ivory Raptor, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 8590; -- Old Whistle of the Obsidian Raptor, old mask: 223
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 8595; -- Blue Mechanostrider, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 8627; -- Reins of the Night saber, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 8628; -- Reins of the Spotted Nightsaber, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 8627; -- Reins of the Night saber, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 8628; -- Reins of the Spotted Nightsaber, old mask: 223
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 8629; -- Reins of the Striped Nightsaber, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 8631; -- Reins of the Striped Frostsaber, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 8632; -- Reins of the Spotted Frostsaber, old mask: 1101
@@ -59,12 +59,12 @@ UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 13326; -- White 
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 13327; -- Icy Blue Mechanostrider Mod A, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 13328; -- Black Ram, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 13329; -- Frost Ram, old mask: 1101
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 16338; -- Knight-Lieutenant's Steed, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 16339; -- Commander's Steed, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 16343; -- Blood Guard's Mount, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 16344; -- Lieutenant General's Mount, old mask: 223
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 17019; -- Arcane Dust, old mask: 2047
-UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElf WHERE entry = 17027; -- Scented Candle, old mask: 2047
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 16338; -- Knight-Lieutenant's Steed, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 16339; -- Commander's Steed, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 16343; -- Blood Guard's Mount, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 16344; -- Lieutenant General's Mount, old mask: 223
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 17019; -- Arcane Dust, old mask: 2047
+UPDATE `item_template` SET `allowablerace` = `allowablerace` | @HighElfMask WHERE entry = 17027; -- Scented Candle, old mask: 2047
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 18241; -- Black War Steed Bridle, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 18242; -- Reins of the Black War Tiger, old mask: 1101
 UPDATE `item_template` SET `allowablerace` = 7245 WHERE entry = 18243; -- Black Battlestrider, old mask: 1101

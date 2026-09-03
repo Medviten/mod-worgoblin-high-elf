@@ -1,8 +1,3 @@
-SET @GoblinMask  =  256;
-SET @WorgenMask  = 2048;
-SET @PaladinMask =    2;
-SET @ShamanMask  =   64;
-SET @DruidMask   = 1024;
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 -- Goblin Paladin
 (@GoblinMask, @PaladinMask, '669', 'Language Orcish'),

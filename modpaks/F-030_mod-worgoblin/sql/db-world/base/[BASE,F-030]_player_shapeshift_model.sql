@@ -1,11 +1,3 @@
-SET @Troll             =  8;
-SET @Worgen            = 12;
-SET @CatForm           =  1;
-SET @BearForm          =  5;
-SET @DireBearForm      =  8;
-SET @SwiftFlightForm   = 27;
-SET @FlightForm        = 29;
-SET @MoonkinForm       = 31;
 REPLACE INTO `player_shapeshift_model` (
     `ShapeshiftID`, -- ID from SpellShapeshiftForm.dbc or spellshapeshiftform_dbc
     `RaceID`, -- ID from ChrRaces.dbc or chrraces_dbc

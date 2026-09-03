@@ -1,5 +1,3 @@
-SET @GoblinMask =  9;
-SET @WorgenMask = 12;
 /*Updates existing starting skills to include Worgen and Goblins where relevant*/
 -- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @GoblinMask | @WorgenMask WHERE `skill` = 45; -- Bows
 UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @GoblinMask | @WorgenMask WHERE `skill` = 46; -- Guns

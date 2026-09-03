@@ -14,4 +14,4 @@ UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @OgreMask WHERE `
 /* Add racial skills */
 DELETE FROM `playercreateinfo_skills` WHERE `raceMask` IN (16384) AND `classMask` = 0;
 INSERT IGNORE INTO `playercreateinfo_skills` (`raceMask`, `classMask`, `skill`, `rank`, `comment`) VALUES
-(@OgreMask, 0, 793, 0, 'Ogre - Racial');
+(@OgreMask, 0, @OgreRacials, 0, 'Ogre - Racial');

@@ -1,15 +1,3 @@
-SET @GoblinMask      =    9;
-SET @WorgenMask      =   12;
-SET @WarriorMask     =    1;
-SET @PaladinMask     =    2;
-SET @HunterMask      =    4;
-SET @RogueMask       =    8;
-SET @PriestMask      =   16;
-SET @DeathKnightMask =   32;
-SET @ShamanMask      =   64;
-SET @MageMask        =  128;
-SET @WarlockMask     =  256;
-SET @DruidMask       = 1024;
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 -- Goblin Warrior
 (@GoblinMask, @WarriorMask, '669', 'Language Orcish'),
