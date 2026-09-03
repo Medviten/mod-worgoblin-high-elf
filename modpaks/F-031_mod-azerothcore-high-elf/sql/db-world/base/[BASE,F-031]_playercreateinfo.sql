@@ -8,6 +8,6 @@ INSERT IGNORE INTO `playercreateinfo` VALUES
 (@HighElf, @Shaman, @EasternKingdoms, @ElwynnForest, -8949.95, -132.493, 83.5312, 0), -- High Elf Shaman (ARAC)
 (@HighElf, @Mage, @EasternKingdoms, @ElwynnForest, -8949.95, -132.493, 83.5312, 0), -- High Elf Mage
 (@HighElf, @Warlock, @EasternKingdoms, @ElwynnForest, -8949.95, -132.493, 83.5312, 0), -- High Elf Warlock
-(@HighElf, @Druid, @EasternKingdoms, @ElwynnForest, -8949.95, -132.493, 83.5312, 0); -- High Elf Druid (ARAC)
+(@HighElf, @Druid, @EasternKingdoms, @ElwynnForest, -8949.95, -132.493, 83.5312, 0), -- High Elf Druid (ARAC)
 
-(@HighElf, @DeathKnight, @Northrend, @ScarletEnclave, 2358.44, -5666.9, 426.023, 3.65997), -- High Elf Death Knight
+(@HighElf, @DeathKnight, @Northrend, @ScarletEnclave, 2358.44, -5666.9, 426.023, 3.65997); -- High Elf Death Knight

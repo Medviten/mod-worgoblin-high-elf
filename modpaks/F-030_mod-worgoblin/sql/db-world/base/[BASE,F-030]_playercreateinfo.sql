@@ -17,6 +17,6 @@ INSERT IGNORE INTO `playercreateinfo` VALUES
 (@Worgen, @Priest, @Kalimdor, @Teldrassil, 10311.3, 832.463, 1326.41, 5.69632), -- Worgen Priest
 (@Worgen, @Mage, @Kalimdor, @Teldrassil, 10311.3, 832.463, 1326.41, 5.69632), -- Worgen Mage
 (@Worgen, @Warlock, @Kalimdor, @Teldrassil, 10311.3, 832.463, 1326.41, 5.69632), -- Worgen Warlock
-(@Worgen, @Druid, @Kalimdor, @Teldrassil, 10311.3, 832.463, 1326.41, 5.69632); -- Worgen Druid
+(@Worgen, @Druid, @Kalimdor, @Teldrassil, 10311.3, 832.463, 1326.41, 5.69632), -- Worgen Druid
 
-(@Worgen, @DeathKnight, @Northrend, @ScarletEnclave, 2358.44, -5666.9, 426.023, 3.65997), -- Worgen Death Knight
+(@Worgen, @DeathKnight, @Northrend, @ScarletEnclave, 2358.44, -5666.9, 426.023, 3.65997); -- Worgen Death Knight
