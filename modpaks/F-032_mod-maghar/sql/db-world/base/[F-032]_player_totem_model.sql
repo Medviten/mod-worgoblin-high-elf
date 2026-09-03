@@ -1,4 +1,3 @@
-SET @MagharOrc = 14;
 -- Horde default totems is the Orc ones.
 SET @MagharOrcFireTotem := 30758;
 SET @MagharOrcEarthTotem := 30757;

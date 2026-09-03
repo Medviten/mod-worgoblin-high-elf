@@ -1,5 +1,3 @@
-SET @MagharOrc = 14;
-SET @TravelForm = 3;
 REPLACE INTO `player_shapeshift_model` (
     `ShapeshiftID`, -- ID from SpellShapeshiftForm.dbc or spellshapeshiftform_dbc
     `RaceID`, -- ID from ChrRaces.dbc or chrraces_dbc

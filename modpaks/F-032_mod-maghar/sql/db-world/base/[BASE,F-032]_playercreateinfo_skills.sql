@@ -1,8 +1,6 @@
-SET @MagharOrcMask   = 8192;
-SET @PaladinMask     =    2;
 /*Updates existing starting skills to include Mag'har Orcs where relevant*/
 /* I have commented out Guns because other Hunters in WotLK start with only one ranged weapon skill. */
--- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`|@MagharOrcMask WHERE `skill` = 46; -- Guns
+-- UPDATE `playercreateinfo_skills` SET `racemask` = `racemask`| @MagharOrcMask WHERE `skill` = 46; -- Guns
 UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @MagharOrcMask WHERE `skill` = 45; -- Bows
 UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @MagharOrcMask WHERE `skill` = 173; -- Daggers
 

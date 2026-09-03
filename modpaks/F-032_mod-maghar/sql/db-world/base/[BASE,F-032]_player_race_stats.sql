@@ -1,5 +1,3 @@
-SET @Orc = 2;
-SET @MagharOrc = 14;
 /* Mag'har Orcs copy Orcs */
 INSERT INTO `player_race_stats` (`Race`, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`)
 SELECT

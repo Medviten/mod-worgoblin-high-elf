@@ -1,5 +1,4 @@
-SET @MagharOrc = 14;
-/* Update achievement criteria involving interactions with all races to include Worgen, Goblins, and High Elves */
+/* Update achievement criteria involving interactions with all races to include Mag'har Orcs */
 REPLACE INTO `achievement_criteria_data` (
     `criteria_id`, -- ID from Achievement_Criteria.dbc
     `type`, -- Determines how value1 and value2 are used (0–23)
