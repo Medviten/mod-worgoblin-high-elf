@@ -199,6 +199,7 @@ SET @NonDKMask                 = @AllClassMask & ~@DeathKnightMask;
 
 -- Druid Forms
 SET @CatForm                   =  1;
+SET @TreeForm                  =  2;
 SET @TravelForm                =  3;
 SET @BearForm                  =  5;
 SET @DireBearForm              =  8;
