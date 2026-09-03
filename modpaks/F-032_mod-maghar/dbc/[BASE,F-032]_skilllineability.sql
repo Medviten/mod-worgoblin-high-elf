@@ -4,7 +4,7 @@
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31459; -- Ancestral Call
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31460; -- Savage Blood
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31461; -- Sympathetic Vigor
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31462; -- Unwavering Will
+UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31462; -- Unwavering Will (Open Skies?)
 
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 590;

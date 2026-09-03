@@ -2,9 +2,9 @@
 
 -- New entries
 DELETE FROM `skillraceclassinfo` WHERE `id` = 971; -- worgen racials
-INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (971, 789, @WorgenMask, 1469, 1170, 0, 0, 0);
+INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (971, @WorgenRacials, @WorgenMask, @AllClassMask, 1170, 0, 0, 0);
 DELETE FROM `skillraceclassinfo` WHERE `id` = 972; -- goblin racials
-INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (972, 790, @GoblinMask, 509, 1170, 0, 0, 0);
+INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (972, @GoblinRacials, @GoblinMask, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @GoblinMask | @WorgenMask WHERE `id` = 21; -- skill: 293 (plate mail)

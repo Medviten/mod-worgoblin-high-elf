@@ -2,7 +2,7 @@
 
 -- New entries (racials will go here)
 -- DELETE FROM `skilllineability` WHERE `id` = 31463;
--- INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`, `required_classes`, `excluded_races`, `excluded_classes`, `min_skill_value`, `spell_parent_id`, `acquire_method`, `skill_grey_level`, `skill_yellow_level`, `character_points_1`, `character_points_2`) VALUES (31463, 793, spellID, 16384, 1535, 0, 0, 1, 0, 2, 0, 0, 0, 0);
+-- INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`, `required_classes`, `excluded_races`, `excluded_classes`, `min_skill_value`, `spell_parent_id`, `acquire_method`, `skill_grey_level`, `skill_yellow_level`, `character_points_1`, `character_points_2`) VALUES (31463, @OgreRacials, spellID, @OgreMask, @AllClassMask, 0, 0, 1, 0, 2, 0, 0, 0, 0);
 
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @OgreMask WHERE `id` = 592;

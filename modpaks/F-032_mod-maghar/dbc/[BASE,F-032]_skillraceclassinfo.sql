@@ -2,7 +2,7 @@
 
 -- New entries
 DELETE FROM `skillraceclassinfo` WHERE `id` = 1141; -- Skill 792: Racial - Mag'har Orc
-INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (1141, 792, @MagharOrcMask, 1535, 1170, 0, 0, 0);
+INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (1141, @MagharOrcRacials, @MagharOrcMask, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 21; -- Skill 293: Plate Mail

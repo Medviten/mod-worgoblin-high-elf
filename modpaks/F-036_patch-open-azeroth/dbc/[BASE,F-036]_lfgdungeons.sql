@@ -3,4 +3,4 @@
 -- To customize, create [F-036]_lfgdungeons.sql with overrides
 
 -- lfgdungeons: 0 inserts, 1 updates, 0 deletes
-UPDATE `lfgdungeons` SET `map_id` = 0 WHERE `id` = 200;
+UPDATE `lfgdungeons` SET `map_id` = @EasternKingdoms WHERE `id` = 200;

@@ -2,7 +2,7 @@
 
 -- New entries
 DELETE FROM `skillraceclassinfo` WHERE `id` = 1142; -- Skill 793: Racial - Ogre
-INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (1142, 793, @Ogre, 1535, 1170, 0, 0, 0);
+INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES (1142, @OgreRacials, @OgreMask, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @OgreMask WHERE `id` = 21; -- Skill 293: Plate Mail
