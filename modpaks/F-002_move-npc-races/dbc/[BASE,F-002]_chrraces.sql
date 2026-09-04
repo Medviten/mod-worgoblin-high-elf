@@ -1,5 +1,6 @@
 -- [F-030] move_npc_races: chrraces: 0 inserts, 10 updates, 0 deletes
 
+DELETE FROM `chrraces` WHERE `id` IN (@FelOrc, @Naga, @Broken, @Skeleton, @Vrykul, @Tuskarr, @ForestTroll, @Taunka, @NorthrendSkeleton, @IceTroll);
 UPDATE `chrraces` SET `id` = @FelOrc            WHERE `id` = 12;
 UPDATE `chrraces` SET `id` = @Naga              WHERE `id` = 13;
 UPDATE `chrraces` SET `id` = @Skeleton          WHERE `id` = 14;
