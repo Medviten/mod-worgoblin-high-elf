@@ -1,15 +1,15 @@
 -- [F-030] mod-worgoblin: charsections
 
-UPDATE `charsections` SET `id` = @FelOrc            WHERE `id` = 12;
-UPDATE `charsections` SET `id` = @Naga              WHERE `id` = 13;
-UPDATE `charsections` SET `id` = @Broken            WHERE `id` = 14;
-UPDATE `charsections` SET `id` = @Skeleton          WHERE `id` = 15;
-UPDATE `charsections` SET `id` = @Vrykul            WHERE `id` = 16;
-UPDATE `charsections` SET `id` = @Tuskarr           WHERE `id` = 17;
-UPDATE `charsections` SET `id` = @ForestTroll       WHERE `id` = 18;
-UPDATE `charsections` SET `id` = @Taunka            WHERE `id` = 19;
-UPDATE `charsections` SET `id` = @NorthrendSkeleton WHERE `id` = 20;
-UPDATE `charsections` SET `id` = @IceTroll          WHERE `id` = 21;
+UPDATE `charsections` SET `race` = @FelOrc            WHERE `race` = 12;
+UPDATE `charsections` SET `race` = @Naga              WHERE `race` = 13;
+UPDATE `charsections` SET `race` = @Broken            WHERE `race` = 14;
+UPDATE `charsections` SET `race` = @Skeleton          WHERE `race` = 15;
+UPDATE `charsections` SET `race` = @Vrykul            WHERE `race` = 16;
+UPDATE `charsections` SET `race` = @Tuskarr           WHERE `race` = 17;
+UPDATE `charsections` SET `race` = @ForestTroll       WHERE `race` = 18;
+UPDATE `charsections` SET `race` = @Taunka            WHERE `race` = 19;
+UPDATE `charsections` SET `race` = @NorthrendSkeleton WHERE `race` = 20;
+UPDATE `charsections` SET `race` = @IceTroll          WHERE `race` = 21;
 
 /*
 Original range:
