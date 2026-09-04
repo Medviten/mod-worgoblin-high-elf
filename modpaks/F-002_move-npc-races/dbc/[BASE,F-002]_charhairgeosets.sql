@@ -1,5 +1,6 @@
 -- [F-30] mod-worgoblin: charhairgeosets
 
+DELETE FROM `charhairgeosets` WHERE `race` IN (@FelOrc, @Naga, @Broken, @Skeleton, @Vrykul, @Tuskarr, @ForestTroll, @Taunka, @NorthrendSkeleton, @IceTroll);
 UPDATE `charhairgeosets` SET `id` = @FelOrc            WHERE `id` = 12;
 UPDATE `charhairgeosets` SET `id` = @Naga              WHERE `id` = 13;
 UPDATE `charhairgeosets` SET `id` = @Broken            WHERE `id` = 14;
