@@ -1,58 +1,62 @@
--- [F-029] mod-arac: skilllineability: 0 inserts, 38 updates, 0 deletes
+-- [F-029] mod-arac: skilllineability: 25 inserts, 47 updates, 0 deletes
 
-CREATE TEMPORARY TABLE `excluded_race_masks` (
-    `race_mask` BIGINT UNSIGNED PRIMARY KEY
-);
-
-INSERT INTO `excluded_race_masks` (`race_mask`) VALUES
-    (4294967295),
-    (2047),
-    (4095),
-    (16383),
-    (32767),
-    (65535),
-    (131071),
-    (262143),
-    (524287),
-    (1048575),
-    (2097151);
+-- New entries (Blood Elf and Draenei ARAC racials)
+DELETE FROM `skilllineability` WHERE `id` IN (31450, 31451, 31452, 31453, 31454, 31455, 31456, 31457, 31458); -- Spell: 
+INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`, `required_classes`, `excluded_races`, `excluded_classes`, `min_skill_value`, `spell_parent_id`, `acquire_method`, `skill_grey_level`, `skill_yellow_level`, `character_points_1`, `character_points_2`) VALUES
+    (31450, 756, 80866, @BloodElfMask, @DruidMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Arcane Torrent (Druid Feral)
+    (31451, 756, 80867, @BloodElfMask, @DruidMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Arcane Torrent (Druid Mana)
+    (31452, 756, 80868, @BloodElfMask, @WarriorMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Arcane Torrent (rage)
+    (31453, 760, 80869, @DraeneiMask, @DruidMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Gift of the Naaru (Druid)
+    (31454, 760, 80870, @DraeneiMask, @RogueMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Gift of the Naaru (Rogue)
+    (31455, 760, 80871, @DraeneiMask, @WarlockMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Gift of the Naaru (Warlock)
+    (31456, 760, 80872, @DraeneiMask, @DruidMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Shadow Resistance (Druid)
+    (31457, 760, 80873, @DraeneiMask, @RogueMask, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Shadow Resistance (Rogue)
+    (31458, 760, 80874, @DraeneiMask, @WarlockMask, 0, 0, 1, 0, 2, 0, 0, 0, 0); -- Shadow Resistance (Warlock)
 
 -- Changed values
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 7594 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 12518 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 13151 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @BloodElfMask, `required_classes` = `required_classes` | @ManaClassMask & ~@DruidMask WHERE `id` = 14013 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_classes` = `required_classes` | @WarriorMask | @PaladinMask | @HunterMask | @RogueMask | @DeathKnightMask WHERE `id` = 14022 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_classes` = `required_classes` | @PriestMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask WHERE `id` = 14023 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14779 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 14784 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14787 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14788 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14795 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_classes` = `required_classes` | @PriestMask | @MageMask | @WarlockMask WHERE `id` = 15034 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_classes` = `required_classes` | @PaladinMask | @ShamanMask | @DruidMask WHERE `id` = 15035 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 15252 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 15253 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @BloodElfMask WHERE `id` = 17510 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 18299 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 18308 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 18311 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 18314 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 20089 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 20090 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 20091 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask  WHERE `id` = 20092 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = `required_races` | @Draenei WHERE `id` = 20171 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_classes` = 0 WHERE `id` = 20665 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 756, `spell_id` = 80865, `required_races` = @BloodElfMask, `acquire_method` = 2 WHERE `id` = 20684 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 756, `spell_id` = 80866, `required_races` = @BloodElfMask, `required_classes` = @DruidMask, `acquire_method` = 2 WHERE `id` = 20685 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 756, `spell_id` = 80867, `required_races` = @BloodElfMask, `required_classes` = @DruidMask, `acquire_method` = 2 WHERE `id` = 20686 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 756, `spell_id` = 80868, `required_races` = @BloodElfMask, `required_classes` = @WarriorMask, `acquire_method` = 2 WHERE `id` = 20687 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 760, `spell_id` = 80869, `required_races` = @DraeneiMask, `required_classes` = @DruidMask, `acquire_method` = 2 WHERE `id` = 20688 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 760, `spell_id` = 80870, `required_races` = @DraeneiMask, `required_classes` = @RogueMask, `acquire_method` = 2 WHERE `id` = 20689 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 760, `spell_id` = 80871, `required_races` = @DraeneiMask, `required_classes` = @WarlockMask, `acquire_method` = 2 WHERE `id` = 20690 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 760, `spell_id` = 80872, `required_races` = @DraeneiMask, `required_classes` = @DruidMask, `acquire_method` = 2 WHERE `id` = 20691 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 760, `spell_id` = 80873, `required_races` = @DraeneiMask, `required_classes` = @RogueMask, `acquire_method` = 2 WHERE `id` = 20692 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `skill_line` = 760, `spell_id` = 80874, `required_races` = @DraeneiMask, `required_classes` = @WarlockMask, `acquire_method` = 2 WHERE `id` = 20693 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = 0 WHERE `id` = 20867 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
-UPDATE `skilllineability` SET `required_races` = 0 WHERE `id` = 20868 AND `required_races` NOT IN (SELECT `race_mask` FROM `excluded_race_masks`);
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 590; -- Spell: 668 (Language: Common)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 592; -- Spell: 669 (Language: Orcish)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 3269; -- Spell: 3565 (Teleport: Darnassus)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 3270; -- Spell: 3562 (Teleport: Ironforge)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 3272; -- Spell: 3561 (Teleport: Stormwind)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 5989; -- Spell: 11419 (Portal: Darnassus)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 5990; -- Spell: 11416 (Portal: Ironforge)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 5992; -- Spell: 10059 (Portal: Stormwind)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 7594; -- Spell: 13819 (Warhorse)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 12518; -- Spell: 23214 (Charger)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 13151; -- Spell: 2825 (Bloodlust)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @BloodElfMask, `required_classes` = `required_classes` | (@ManaClassMask & ~@DruidMask) WHERE `id` = 14013; -- Spell: 28730 (Arcane Torrent [mana])
+UPDATE `skilllineability` SET `required_classes` = `required_classes` | @RogueMask WHERE `id` = 14022; -- Spell: 6562 (Heroic Presence [Warrior, Paladin, Hunter, Death Knight])
+UPDATE `skilllineability` SET `required_classes` = `required_classes` | @WarlockMask | @DruidMask WHERE `id` = 14023; -- Spell: 28878 (Heroic Presence [Priest, Shaman, Mage])
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14779; -- Spell: 31801 (Seal of Vengeance)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 14784; -- Spell: 31898 (Judgement of Blood)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @PlayableRaceMask WHERE `id` = 14787; -- Spell: 31803 (Holy Vengeance – proc of Seal of Vengeance)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14788; -- Spell: 31804 (Judgement of Vengeance)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14795; -- Spell: 32182 (Heroism)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14815; -- Spell: 32271 (Teleport: Exodar)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 14817; -- Spell: 32266 (Portal: Exodar)
+UPDATE `skilllineability` SET `required_classes` = `required_classes` | @Priest | @Mage WHERE `id` = 15034; -- Spell: 33702 (Blood Fury [Warlock])
+UPDATE `skilllineability` SET `required_classes` = `required_classes` | @Paladin | @Druid WHERE `id` = 15035; -- Spell: 33697 (Blood Fury [Shaman])
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 15040; -- Spell: 33690 (Teleport: Shattrath)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 15041; -- Spell: 33691 (Portal: Shattrath)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 15252; -- Spell: 34767 (Summon Charger)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 15253; -- Spell: 34769 (Summon Warhorse)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 16999; -- Spell: 49359 (Teleport: Theramore)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 17004; -- Spell: 49360 (Portal: Theramore)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @BloodElfMask WHERE `id` = 17510; -- Spell: 50613 (Arcane Torrent [Death Knight])
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 18299; -- Spell: 53726 (Judgement of the Martyr)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 18308; -- Spell: 53733 (Judgement of Corruption)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 18311; -- Spell: 53736 (Seal of Corruption)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 18314; -- Spell: 53742 (Blood Corruption)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 20089; -- Spell: 23214 (Charger)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 20090; -- Spell: 34767 (Summon Charger)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 20091; -- Spell: 13819 (Warhorse)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HordeMask WHERE `id` = 20092; -- Spell: 34769 (Summon Warhorse)
+UPDATE `skilllineability` SET `required_races` = `required_races` | 1024 WHERE `id` = 20171; -- Spell: 59539 (Shadow Resistance [Death Knight])
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 20283; -- Spell: 60424 (Mekgineer's Chopper)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @AllianceMask WHERE `id` = 20289; -- Spell: 60867 (Mekgineer's Chopper)
+UPDATE `skilllineability` SET `required_classes` =  0 WHERE `id` = 20665; -- Spell: 21009 (Elusiveness)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @PlayableRaceMask WHERE `id` = 20867; -- Spell: 63645 (Activate Primary Spec)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @PlayableRaceMask WHERE `id` = 20868; -- Spell: 63644 (Activate Secondary Spec)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @PlayableRaceMask WHERE `id` = 21723; -- Spell: 75460 (N/A?)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @PlayableRaceMask WHERE `id` = 21724; -- Spell: 75461 (Flame Shock Passive)

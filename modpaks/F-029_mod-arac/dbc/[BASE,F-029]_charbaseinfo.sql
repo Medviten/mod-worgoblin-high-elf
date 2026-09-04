@@ -1,79 +1,105 @@
--- [F-029] mod-arac: charbaseinfo: 38 inserts, 0 updates, 0 deletes
+-- [F-029] mod-arac: charbaseinfo: 38 (new) inserts, 0 updates, 0 deletes
 
--- New entries
-DELETE FROM `charbaseinfo` WHERE `race` = @Human AND `class` = @Hunter;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Human, @Hunter);
-DELETE FROM `charbaseinfo` WHERE `race` = @Human AND `class` = @Shaman;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Human, @Shaman);
-DELETE FROM `charbaseinfo` WHERE `race` = @Human AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Human, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @Orc AND `class` = @Paladin;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Orc, @Paladin);
-DELETE FROM `charbaseinfo` WHERE `race` = @Orc AND `class` = @Priest;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Orc, @Priest);
-DELETE FROM `charbaseinfo` WHERE `race` = @Orc AND `class` = @Mage;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Orc, @Mage);
-DELETE FROM `charbaseinfo` WHERE `race` = @Orc AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Orc, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @Dwarf AND `class` = @Shaman;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Dwarf, @Shaman);
-DELETE FROM `charbaseinfo` WHERE `race` = @Dwarf AND `class` = @Mage;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Dwarf, @Mage);
-DELETE FROM `charbaseinfo` WHERE `race` = @Dwarf AND `class` = @Warlock;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Dwarf, @Warlock);
-DELETE FROM `charbaseinfo` WHERE `race` = @Dwarf AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Dwarf, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @NightElf AND `class` = @Paladin;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@NightElf, @Paladin);
-DELETE FROM `charbaseinfo` WHERE `race` = @NightElf AND `class` = @Shaman;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@NightElf, @Shaman);
-DELETE FROM `charbaseinfo` WHERE `race` = @NightElf AND `class` = @Mage;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@NightElf, @Mage);
-DELETE FROM `charbaseinfo` WHERE `race` = @NightElf AND `class` = @Warlock;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@NightElf, @Warlock);
-DELETE FROM `charbaseinfo` WHERE `race` = @Undead AND `class` = @Paladin;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Undead, @Paladin);
-DELETE FROM `charbaseinfo` WHERE `race` = @Undead AND `class` = @Hunter;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Undead, @Hunter);
-DELETE FROM `charbaseinfo` WHERE `race` = @Undead AND `class` = @Shaman;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Undead, @Shaman);
-DELETE FROM `charbaseinfo` WHERE `race` = @Undead AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Undead, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @Tauren AND `class` = @Paladin;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Tauren, @Paladin);
-DELETE FROM `charbaseinfo` WHERE `race` = @Tauren AND `class` = @Rogue;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Tauren, @Rogue);
-DELETE FROM `charbaseinfo` WHERE `race` = @Tauren AND `class` = @Priest;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Tauren, @Priest);
-DELETE FROM `charbaseinfo` WHERE `race` = @Tauren AND `class` = @Mage;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Tauren, @Mage);
-DELETE FROM `charbaseinfo` WHERE `race` = @Tauren AND `class` = @Warlock;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Tauren, @Warlock);
-DELETE FROM `charbaseinfo` WHERE `race` = @Gnome AND `class` = @Paladin;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Gnome, @Paladin);
-DELETE FROM `charbaseinfo` WHERE `race` = @Gnome AND `class` = @Hunter;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Gnome, @Hunter);
-DELETE FROM `charbaseinfo` WHERE `race` = @Gnome AND `class` = @Priest;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Gnome, @Priest);
-DELETE FROM `charbaseinfo` WHERE `race` = @Gnome AND `class` = @Shaman;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Gnome, @Shaman);
-DELETE FROM `charbaseinfo` WHERE `race` = @Gnome AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Gnome, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @Troll AND `class` = @Paladin;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Troll, @Paladin);
-DELETE FROM `charbaseinfo` WHERE `race` = @Troll AND `class` = @Warlock;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Troll, @Warlock);
-DELETE FROM `charbaseinfo` WHERE `race` = @Troll AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Troll, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @BloodElf AND `class` = @Warrior;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@BloodElf, @Warrior);
-DELETE FROM `charbaseinfo` WHERE `race` = @BloodElf AND `class` = @Shaman;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@BloodElf, @Shaman);
-DELETE FROM `charbaseinfo` WHERE `race` = @BloodElf AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@BloodElf, @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @Draenei AND `class` = @Rogue;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Draenei, @Rogue);
-DELETE FROM `charbaseinfo` WHERE `race` = @Draenei AND `class` = @Warlock;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Draenei, @Warlock);
-DELETE FROM `charbaseinfo` WHERE `race` = @Draenei AND `class` = @Druid;
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES (@Draenei, @Druid);
+-- Clean slate + 100 inserts
+DELETE FROM `charbaseinfo` WHERE `class` in (@Warrior, @Paladin, @Hunter, @Rogue, @Priest, @DeathKnight, @Shaman, @Mage, @Warlock, @Druid);
+INSERT INTO `charbaseinfo` (`race`, `class`) VALUES
+    (@Human, @Warrior),
+    (@Human, @Paladin),
+    (@Human, @Hunter),
+    (@Human, @Rogue),
+    (@Human, @Priest),
+    (@Human, @DeathKnight),
+    (@Human, @Shaman),
+    (@Human, @Mage),
+    (@Human, @Warlock),
+    (@Human, @Druid),
+    (@Orc, @Warrior),
+    (@Orc, @Paladin),
+    (@Orc, @Hunter),
+    (@Orc, @Rogue),
+    (@Orc, @Priest),
+    (@Orc, @DeathKnight),
+    (@Orc, @Shaman),
+    (@Orc, @Mage),
+    (@Orc, @Warlock),
+    (@Orc, @Druid),
+    (@Dwarf, @Warrior),
+    (@Dwarf, @Paladin),
+    (@Dwarf, @Hunter),
+    (@Dwarf, @Rogue),
+    (@Dwarf, @Priest),
+    (@Dwarf, @DeathKnight),
+    (@Dwarf, @Shaman),
+    (@Dwarf, @Mage),
+    (@Dwarf, @Warlock),
+    (@Dwarf, @Druid),
+    (@NightElf, @Warrior),
+    (@NightElf, @Paladin),
+    (@NightElf, @Hunter),
+    (@NightElf, @Rogue),
+    (@NightElf, @Priest),
+    (@NightElf, @DeathKnight),
+    (@NightElf, @Shaman),
+    (@NightElf, @Mage),
+    (@NightElf, @Warlock),
+    (@NightElf, @Druid),
+    (@Undead, @Warrior),
+    (@Undead, @Paladin),
+    (@Undead, @Hunter),
+    (@Undead, @Rogue),
+    (@Undead, @Priest),
+    (@Undead, @DeathKnight),
+    (@Undead, @Shaman),
+    (@Undead, @Mage),
+    (@Undead, @Warlock),
+    (@Undead, @Druid),
+    (@Tauren, @Warrior),
+    (@Tauren, @Paladin),
+    (@Tauren, @Hunter),
+    (@Tauren, @Rogue),
+    (@Tauren, @Priest),
+    (@Tauren, @DeathKnight),
+    (@Tauren, @Shaman),
+    (@Tauren, @Mage),
+    (@Tauren, @Warlock),
+    (@Tauren, @Druid),
+    (@Gnome, @Warrior),
+    (@Gnome, @Paladin),
+    (@Gnome, @Hunter),
+    (@Gnome, @Rogue),
+    (@Gnome, @Priest),
+    (@Gnome, @DeathKnight),
+    (@Gnome, @Shaman),
+    (@Gnome, @Mage),
+    (@Gnome, @Warlock),
+    (@Gnome, @Druid),
+    (@Troll, @Warrior),
+    (@Troll, @Paladin),
+    (@Troll, @Hunter),
+    (@Troll, @Rogue),
+    (@Troll, @Priest),
+    (@Troll, @DeathKnight),
+    (@Troll, @Shaman),
+    (@Troll, @Mage),
+    (@Troll, @Warlock),
+    (@Troll, @Druid),
+    (@BloodElf, @Warrior),
+    (@BloodElf, @Paladin),
+    (@BloodElf, @Hunter),
+    (@BloodElf, @Rogue),
+    (@BloodElf, @Priest),
+    (@BloodElf, @DeathKnight),
+    (@BloodElf, @Shaman),
+    (@BloodElf, @Mage),
+    (@BloodElf, @Warlock),
+    (@BloodElf, @Druid),
+    (@Draenei, @Warrior),
+    (@Draenei, @Paladin),
+    (@Draenei, @Hunter),
+    (@Draenei, @Rogue),
+    (@Draenei, @Priest),
+    (@Draenei, @DeathKnight),
+    (@Draenei, @Shaman),
+    (@Draenei, @Mage),
+    (@Draenei, @Warlock),
+    (@Draenei, @Druid);

@@ -9284,3 +9284,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- SpellDescriptionVariableID
 	0 -- SpellDifficultyID
 );
+
+UPDATE `spell` SET `category` = 0, `recovery_time` = 120000, `category_recovery_time` = 0 WHERE `id` = 68992;
+UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `effect_misc_value_a_1` = 55277, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` = 68995;
+UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `interrupt_flags` = 31, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `effect_misc_value_a_1` = 55276, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_subtext_flags` = 16712172, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` = 68996;
