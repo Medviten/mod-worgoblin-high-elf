@@ -94,7 +94,7 @@ UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask WH
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask WHERE `id` = 622; -- Skill: 172 (Two-Handed Axes)
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @TaurenMask WHERE `id` = 624; -- Skill: 160 (Two-Handed Maces)
 UPDATE `skillraceclassinfo` SET `race_mask` = 262111 WHERE `id` = 625; -- Skill: 160 (Two-Handed Maces) UNCHANGED?
-UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask, `class_mask` = 1 WHERE `id` = 628; -- Skill: 44 (Axes [Rogue])
+UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask /*, `class_mask` = 1 */ WHERE `id` = 628; -- Skill: 44 (Axes [Rogue])
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask WHERE `id` = 630; -- Skill: 44 (Axes [Warrior])
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask WHERE `id` = 632; -- Skill: 173 (Daggers [Rogue])
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @PlayableRaceMask WHERE `id` = 634; -- Skill: 173 (Daggers [Warrior])
