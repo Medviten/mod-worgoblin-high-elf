@@ -17,7 +17,8 @@ INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_displ
 DELETE FROM `creaturedisplayinfo` WHERE `id` = 94225; -- female undead
 INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (94225, 58, 0, 45436, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0);
 
-/* NPC Races */
+/* NPC Races (don't work and all except fel orc crash the client) */
+/*
 DELETE FROM `creaturedisplayinfo` WHERE `id` = 94228; -- female fel orc
 INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (94228, 2298, 0, 14488, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
 DELETE FROM `creaturedisplayinfo` WHERE `id` = 94229; -- male naga
@@ -54,3 +55,4 @@ DELETE FROM `creaturedisplayinfo` WHERE `id` = 94244; -- male ice troll
 INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (94244, 2942, 0, 45456, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
 DELETE FROM `creaturedisplayinfo` WHERE `id` = 94245; -- female ice troll (second male model placeholder)
 INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES (94245, 2943, 0, 45457, '1.0000000000000000', 255, '', '', '', '', 1, 0, 0, 0, 0, 0);
+*/
