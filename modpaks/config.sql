@@ -223,8 +223,8 @@ SET @Kezan                    = 4737;
 SET @LostIsles                = 4720;
 
 SET @Outland                  =  530;
-SET @AzuremystIsle            = 3524;
-SET @EversongWoods            = 3430;
+SET @AzuremystIsle            = 3526;
+SET @EversongWoods            = 3431;
 
 SET @Northrend                =  609;
 SET @ScarletEnclave           = 4298;
