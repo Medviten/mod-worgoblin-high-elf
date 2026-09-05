@@ -55,51 +55,57 @@ SET @MagharOrcMask               = 1 << (14 - 1);  -- race ID 14 → 8192
 SET @OgreMask                    = 1 << (15 - 1);  -- race ID 15 → 16384
 
 -- New Race Models
-SET @WorgenMaleModel             = 3141; -- bipedal
-SET @WorgenFemaleModel           = 3142; -- bipedal
-SET @WorgenWildMaleModel         = 3626; -- quadrupedal
-SET @WorgenWildFemaleModel       = 3627; -- quadrupedal
-SET @GilneanMaleModel            =   49; -- human
-SET @GilneanFemaleModel          =   50; -- human
-SET @HighElfMaleModel            = 2208; -- blood elf
-SET @HighElfFemaleModel          = 2209; -- blood elf
-SET @MagharOrcMaleModel          =   51; -- orc
-SET @MagharOrcFemaleModel        =   52; -- orc
-SET @OgreMaleModel               = 4892; -- one head (physical type)
-SET @OgreFemaleModel             = 4893; -- two heads (magic type)
+SET @WorgenMaleModel             =  3141; -- bipedal
+SET @WorgenFemaleModel           =  3142; -- bipedal
+SET @WorgenWildMaleModel         =  3626; -- quadrupedal
+SET @WorgenWildFemaleModel       =  3627; -- quadrupedal
+SET @GilneanMaleModel            =    49; -- human
+SET @GilneanFemaleModel          =    50; -- human
+SET @HighElfMaleModel            =  2208; -- blood elf
+SET @HighElfFemaleModel          =  2209; -- blood elf
+SET @MagharOrcMaleModel          =    51; -- orc
+SET @MagharOrcFemaleModel        =    52; -- orc
+SET @OgreMaleModel               =  4892; -- one head (physical type)
+SET @OgreFemaleModel             =  4893; -- two heads (magic type)
 
 -- Display IDs
-SET @WorgenMaleDisplay           = 29422;
-SET @WorgenFemaleDisplay         = 29423;
-SET @WorgenWildMaleDisplay       = 94133;
-SET @WorgenWildFemaleDisplay     = 94134;
-SET @GilneanMaleDisplay          = 94135;
-SET @GilneanFemaleDisplay        = 94136;
-SET @HighElfMaleDisplay          = 94222;
-SET @HighElfFemaleDisplay        = 94223;
-SET @MagharOrcMaleDisplay        = 94226;
-SET @MagharOrcFemaleDisplay      = 94227;
-SET @OgreMaleDisplay             = 62110;
-SET @OgreFemaleDisplay           = 62111;
+SET @WorgenMaleDisplay           =  29422;
+SET @WorgenFemaleDisplay         =  29423;
+SET @WorgenWildMaleDisplay       =  94133;
+SET @WorgenWildFemaleDisplay     =  94134;
+SET @GilneanMaleDisplay          =  94135;
+SET @GilneanFemaleDisplay        =  94136;
+SET @HighElfMaleDisplay          =  94222;
+SET @HighElfFemaleDisplay        =  94223;
+SET @MagharOrcMaleDisplay        =  94226;
+SET @MagharOrcFemaleDisplay      =  94227;
+SET @OgreMaleDisplay             =  62110;
+SET @OgreFemaleDisplay           =  62111;
 
 -- CreatureDisplayInfoExtra
-SET @WorgenMaleDisplayExtra      = 45424;
-SET @WorgenFemaleDisplayExtra    = 45425;
-SET @GilneanMaleDisplayExtra     = 13749;
-SET @GilneanFemaleDisplayExtra   = 13750;
-SET @HighElfMaleDisplayExtra     = 45433;
-SET @HighElfFemaleDisplayExtra   = 45434;
-SET @MagharOrcMaleDisplayExtra   = 45437;
-SET @MagharOrcFemaleDisplayExtra = 45438;
-SET @OgreMaleDisplayExtra        = 45439;
-SET @OgreFemaleDisplayExtra      = 45440;
+SET @WorgenMaleDisplayExtra      =  45424;
+SET @WorgenFemaleDisplayExtra    =  45425;
+SET @GilneanMaleDisplayExtra     =  13749;
+SET @GilneanFemaleDisplayExtra   =  13750;
+SET @HighElfMaleDisplayExtra     =  45433;
+SET @HighElfFemaleDisplayExtra   =  45434;
+SET @MagharOrcMaleDisplayExtra   =  45437;
+SET @MagharOrcFemaleDisplayExtra =  45438;
+SET @OgreMaleDisplayExtra        =  45439;
+SET @OgreFemaleDisplayExtra      =  45440;
+
+-- creature_template
+SET @WorgenWildMaleTemplate      =  55274;
+SET @WorgenWildFemaleTemplate    =  55275;
+SET @GilneanMaleTemplate         =  55276;
+SET @GilneanFemaleTemplate       =  55277;
 
 -- Racial skills
-SET @WorgenRacials               = 789;
-SET @GoblinRacials               = 790;
-SET @HighElfRacials              = 791;
-SET @MagharOrcRacials            = 792;
-SET @OgreRacials                 = 793;
+SET @WorgenRacials               =    789;
+SET @GoblinRacials               =    790;
+SET @HighElfRacials              =    791;
+SET @MagharOrcRacials            =    792;
+SET @OgreRacials                 =    793;
 
 -- Racial spells
 SET @WorgenRacial1               =  68975; -- Viciousness
