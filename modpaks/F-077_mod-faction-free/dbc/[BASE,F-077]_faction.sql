@@ -1,0 +1,41 @@
+-- faction: 0 inserts, 38 updates, 0 deletes
+
+-- Changed values
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 47;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 54;
+UPDATE `faction` SET `reputation_base_2` = 3500, `reputation_flags_2` = 25 WHERE `id` = 67;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 68;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 69;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 72;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 76;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 81;
+UPDATE `faction` SET `reputation_base_2` = 3300, `reputation_flags_2` = 25 WHERE `id` = 469;
+UPDATE `faction` SET `reputation_base_2` = 150, `reputation_flags_2` = 20 WHERE `id` = 471;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 509;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 510;
+UPDATE `faction` SET `reputation_base_2` = 3100, `reputation_flags_2` = 273 WHERE `id` = 530;
+UPDATE `faction` SET `reputation_base_1` = 0, `reputation_flags_1` = 0 WHERE `id` = 589;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 729;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 730;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 889;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 890;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 24 WHERE `id` = 891;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 24 WHERE `id` = 892;
+UPDATE `faction` SET `reputation_base_2` = 400, `reputation_flags_2` = 273 WHERE `id` = 911;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 922;
+UPDATE `faction` SET `reputation_base_2` = 3000, `reputation_flags_2` = 273 WHERE `id` = 930;
+UPDATE `faction` SET `reputation_base_2` = -500, `reputation_flags_2` = 16 WHERE `id` = 941;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 946;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 947;
+UPDATE `faction` SET `reputation_base_2` = -1200, `reputation_flags_2` = 16 WHERE `id` = 978;
+UPDATE `faction` SET `reputation_flags_2` = 136 WHERE `id` = 1037;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1050;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 152 WHERE `id` = 1052;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1064;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1067;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1068;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 4 WHERE `id` = 1082;
+UPDATE `faction` SET `reputation_base_1` = 0, `reputation_flags_1` = 16 WHERE `id` = 1085;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1094;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1124;
+UPDATE `faction` SET `reputation_base_2` = 0, `reputation_flags_2` = 16 WHERE `id` = 1126;
