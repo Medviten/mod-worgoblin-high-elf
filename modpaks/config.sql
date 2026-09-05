@@ -168,63 +168,63 @@ SET @MagharOrcHelmetMask         = 1 << 14;  -- race ID 14 → 16384
 SET @OgreHelmetMask              = 1 << 15;  -- race ID 15 → 32768
 
 -- Classes
-SET @Warrior                   =    1;
-SET @Paladin                   =    2;
-SET @Hunter                    =    3;
-SET @Rogue                     =    4;
-SET @Priest                    =    5;
-SET @DeathKnight               =    6;
-SET @Shaman                    =    7;
-SET @Mage                      =    8;
-SET @Warlock                   =    9;
--- SET @Monk                      =   10;
-SET @Druid                     =   11;
+SET @Warrior                     =    1;
+SET @Paladin                     =    2;
+SET @Hunter                      =    3;
+SET @Rogue                       =    4;
+SET @Priest                      =    5;
+SET @DeathKnight                 =    6;
+SET @Shaman                      =    7;
+SET @Mage                        =    8;
+SET @Warlock                     =    9;
+-- SET @Monk                        =   10;
+SET @Druid                       =   11;
 
 -- ClassMasks
-SET @WarriorMask               = 1 << (@Warrior     - 1);  -- class ID 1  → 1
-SET @PaladinMask               = 1 << (@Paladin     - 1);  -- class ID 2  → 2
-SET @HunterMask                = 1 << (@Hunter      - 1);  -- class ID 3  → 4
-SET @RogueMask                 = 1 << (@Rogue       - 1);  -- class ID 4  → 8
-SET @PriestMask                = 1 << (@Priest      - 1);  -- class ID 5  → 16
-SET @DeathKnightMask           = 1 << (@DeathKnight - 1);  -- class ID 6  → 32
-SET @ShamanMask                = 1 << (@Shaman      - 1);  -- class ID 7  → 64
-SET @MageMask                  = 1 << (@Mage        - 1);  -- class ID 8  → 128
-SET @WarlockMask               = 1 << (@Warlock     - 1);  -- class ID 9  → 256
--- SET @MonkMask                  = 1 << (@Monk        - 1); -- class ID 10 → 512
-SET @DruidMask                 = 1 << (@Druid       - 1); -- class ID 11 → 1024
+SET @WarriorMask                 = 1 << (@Warrior     - 1);  -- class ID 1  → 1
+SET @PaladinMask                 = 1 << (@Paladin     - 1);  -- class ID 2  → 2
+SET @HunterMask                  = 1 << (@Hunter      - 1);  -- class ID 3  → 4
+SET @RogueMask                   = 1 << (@Rogue       - 1);  -- class ID 4  → 8
+SET @PriestMask                  = 1 << (@Priest      - 1);  -- class ID 5  → 16
+SET @DeathKnightMask             = 1 << (@DeathKnight - 1);  -- class ID 6  → 32
+SET @ShamanMask                  = 1 << (@Shaman      - 1);  -- class ID 7  → 64
+SET @MageMask                    = 1 << (@Mage        - 1);  -- class ID 8  → 128
+SET @WarlockMask                 = 1 << (@Warlock     - 1);  -- class ID 9  → 256
+-- SET @MonkMask                    = 1 << (@Monk        - 1); -- class ID 10 → 512
+SET @DruidMask                   = 1 << (@Druid       - 1); -- class ID 11 → 1024
 
-SET @AllClassMask              = @WarriorMask  | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
-SET @ManaClassMask             = @PaladinMask  | @HunterMask | @PriestMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
-SET @NonDKMask                 = @AllClassMask & ~@DeathKnightMask;
+SET @AllClassMask                = @WarriorMask  | @PaladinMask | @HunterMask | @RogueMask | @PriestMask | @DeathKnightMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
+SET @ManaClassMask               = @PaladinMask  | @HunterMask | @PriestMask | @ShamanMask | @MageMask | @WarlockMask | @DruidMask;
+SET @NonDKMask                   = @AllClassMask & ~@DeathKnightMask;
 
 -- Druid Forms
-SET @CatForm                   =  1;
-SET @TreeForm                  =  2;
-SET @TravelForm                =  3;
-SET @BearForm                  =  5;
-SET @DireBearForm              =  8;
-SET @SwiftFlightForm           = 27;
-SET @FlightForm                = 29;
-SET @MoonkinForm               = 31;
+SET @CatForm                     =  1;
+SET @TreeForm                    =  2;
+SET @TravelForm                  =  3;
+SET @BearForm                    =  5;
+SET @DireBearForm                =  8;
+SET @SwiftFlightForm             = 27;
+SET @FlightForm                  = 29;
+SET @MoonkinForm                 = 31;
 
 -- Locations
-SET @EasternKingdoms          =    0;
-SET @DunMorogh                =    1;
-SET @ElwynnForest             =   12;
-SET @TirisfalGlades           =   85;
-SET @Gilneas                  = 4714;
-SET @GilneasCity              = 4755;
+SET @EasternKingdoms             =    0;
+SET @DunMorogh                   =    1;
+SET @ElwynnForest                =   12;
+SET @TirisfalGlades              =   85;
+SET @Gilneas                     = 4714;
+SET @GilneasCity                 = 4755;
 
-SET @Kalimdor                 =    1;
-SET @Durotar                  =   14;
-SET @Teldrassil               =  141;
-SET @Mulgore                  =  215;
-SET @Kezan                    = 4737;
-SET @LostIsles                = 4720;
+SET @Kalimdor                    =    1;
+SET @Durotar                     =   14;
+SET @Teldrassil                  =  141;
+SET @Mulgore                     =  215;
+SET @Kezan                       = 4737;
+SET @LostIsles                   = 4720;
 
-SET @Outland                  =  530;
-SET @AzuremystIsle            = 3526;
-SET @EversongWoods            = 3431;
+SET @Outland                     =  530;
+SET @AzuremystIsle               = 3526;
+SET @EversongWoods               = 3431;
 
-SET @Northrend                =  609;
-SET @ScarletEnclave           = 4298;
+SET @Northrend                   =  609;
+SET @ScarletEnclave              = 4298;
