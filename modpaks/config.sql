@@ -123,8 +123,10 @@ SET @MagharOrcRacial3            = 110003; -- Sympathetic Vigor
 SET @MagharOrcRacial4            = 110004; -- Unwavering Will (maybe change to Open Skies: 10% mounted speed boost?)
 
 -- Factions
-SET @AllianceMask                = @HumanMask    | @DwarfMask  | @NightElfMask | @GnomeMask  | @DraeneiMask   | @WorgenMask   | @HighElfMask;
-SET @HordeMask                   = @OrcMask      | @UndeadMask | @TaurenMask   | @TrollMask  | @GoblinMask    | @BloodElfMask | @MagharOrcMask | @OgreMask;
+SET @BaseAllianceMask            = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask  | @DraeneiMask;
+SET @BaseHordeMask               = @OrcMask          | @UndeadMask | @TaurenMask    | @TrollMask  | @BloodElfMask;
+SET @AllianceMask                = @BaseAllianceMask | @WorgenMask | @HighElfMask;
+SET @HordeMask                   = @BaseHordeMask    | @GoblinMask | @MagharOrcMask | @OgreMask;
 SET @UndercityMask               = @UndeadMask   | @BloodElfMask; -- Mostly for easy reputation split
 SET @BarrensBros                 = @HordeMask    & ~@UndercityMask; -- Mostly for easy reputation split
 SET @PlayableRaceMask            = @AllianceMask | @HordeMask;
