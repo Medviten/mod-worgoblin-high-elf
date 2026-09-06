@@ -4734,7 +4734,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	"", -- Description_Lang_itIT
 	"", -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
-	"Ground speed increased by $s1%.", -- AuraDescription_Lang_enUS
+	"Ground speed increased by $s2%.", -- AuraDescription_Lang_enUS
 	"", -- AuraDescription_Lang_enGB
 	"", -- AuraDescription_Lang_koKR
 	"", -- AuraDescription_Lang_frFR
