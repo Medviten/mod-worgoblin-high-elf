@@ -61,3 +61,4 @@ config-windows.json
 dbctool
 # Generated artifact (superseded by Zeppelin-Craft cli/lib/spell_editor_views.py)
 spell_editor_views.sql
+tools/dbctool
