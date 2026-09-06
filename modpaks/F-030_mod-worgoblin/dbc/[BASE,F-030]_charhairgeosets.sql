@@ -1,133 +1,68 @@
 -- charhairgeosets: 62 inserts, 0 updates, 6 deletes
 
--- Deletions
--- DELETE FROM `charhairgeosets` WHERE `id` = 241;
--- DELETE FROM `charhairgeosets` WHERE `id` = 242;
--- DELETE FROM `charhairgeosets` WHERE `id` = 243;
--- DELETE FROM `charhairgeosets` WHERE `id` = 244;
-
 -- New entries
--- DELETE FROM `charhairgeosets` WHERE `id` = 500;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (500, 9, 0, 0, 19, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 501;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (501, 9, 0, 1, 2, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 502;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (502, 9, 1, 0, 2, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 503;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (503, 9, 1, 1, 3, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 504;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (504, 9, 0, 2, 3, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 505;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (505, 9, 0, 3, 4, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 506;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (506, 9, 0, 4, 5, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 507;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (507, 9, 1, 2, 4, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 508;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (508, 9, 1, 3, 5, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 509;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (509, 9, 1, 4, 6, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 510;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (510, 9, 1, 5, 7, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 511;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (511, 9, 1, 6, 8, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 512;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (512, 9, 1, 7, 9, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 513;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (513, 9, 1, 8, 10, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 514;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (514, 9, 1, 9, 11, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 515;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (515, 9, 1, 10, 12, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 516;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (516, 9, 1, 11, 13, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 517;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (517, 9, 1, 12, 14, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 518;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (518, 9, 1, 13, 15, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 519;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (519, 9, 1, 14, 16, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 520;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (520, 9, 1, 15, 17, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 521;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (521, 9, 1, 16, 18, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 522;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (522, 9, 0, 5, 6, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 523;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (523, 9, 0, 6, 7, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 524;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (524, 9, 0, 7, 8, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 525;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (525, 9, 0, 9, 10, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 526;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (526, 9, 0, 10, 11, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 527;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (527, 9, 0, 8, 9, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 528;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (528, 9, 0, 11, 12, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 529;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (529, 9, 0, 12, 13, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 530;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (530, 9, 0, 13, 14, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 531;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (531, 9, 0, 14, 15, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 532;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (532, 9, 0, 15, 16, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 533;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (533, 9, 0, 16, 17, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 534;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (534, 9, 0, 17, 18, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 536;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (536, 12, 0, 2, 4, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 537;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (537, 12, 0, 0, 2, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 538;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (538, 12, 0, 1, 3, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 539;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (539, 12, 0, 3, 5, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 540;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (540, 12, 0, 6, 8, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 541;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (541, 12, 0, 4, 6, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 542;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (542, 12, 0, 5, 7, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 543;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (543, 12, 0, 9, 11, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 544;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (544, 12, 0, 7, 9, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 545;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (545, 12, 0, 8, 10, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 546;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (546, 12, 0, 10, 12, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 547;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (547, 12, 0, 11, 13, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 548;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (548, 12, 1, 1, 2, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 549;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (549, 12, 1, 2, 3, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 550;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (550, 12, 1, 3, 4, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 551;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (551, 12, 1, 4, 5, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 552;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (552, 12, 1, 5, 6, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 553;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (553, 12, 1, 6, 7, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 554;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (554, 12, 1, 7, 8, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 555;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (555, 12, 1, 8, 9, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 556;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (556, 12, 1, 9, 10, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 557;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (557, 12, 1, 10, 11, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 558;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (558, 12, 1, 11, 12, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 559;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (559, 12, 1, 12, 13, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 560;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (560, 12, 1, 13, 14, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 561;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (561, 12, 1, 14, 15, 0);
--- DELETE FROM `charhairgeosets` WHERE `id` = 562;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (562, 12, 1, 15, 16, 0);
+DELETE FROM `charhairgeosets` WHERE `id` BETWEEN 500 AND 534; -- 535 is absent for some reason
+DELETE FROM `charhairgeosets` WHERE `id` BETWEEN 536 AND 562; -- probably not important, but just in case
+INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES
+(500, @Goblin, @Male, 0, 19, 0),
+(501, @Goblin, @Male, 1, 2, 0),
+(502, @Goblin, @Female, 0, 2, 0),
+(503, @Goblin, @Female, 1, 3, 0),
+(504, @Goblin, @Male, 2, 3, 0),
+(505, @Goblin, @Male, 3, 4, 0),
+(506, @Goblin, @Male, 4, 5, 0),
+(507, @Goblin, @Female, 2, 4, 0),
+(508, @Goblin, @Female, 3, 5, 0),
+(509, @Goblin, @Female, 4, 6, 0),
+(510, @Goblin, @Female, 5, 7, 0),
+(511, @Goblin, @Female, 6, 8, 0),
+(512, @Goblin, @Female, 7, 9, 0),
+(513, @Goblin, @Female, 8, 10, 0),
+(514, @Goblin, @Female, 9, 11, 0),
+(515, @Goblin, @Female, 10, 12, 0),
+(516, @Goblin, @Female, 11, 13, 0),
+(517, @Goblin, @Female, 12, 14, 0),
+(518, @Goblin, @Female, 13, 15, 0),
+(519, @Goblin, @Female, 14, 16, 0),
+(520, @Goblin, @Female, 15, 17, 0),
+(521, @Goblin, @Female, 16, 18, 0),
+(522, @Goblin, @Male, 5, 6, 0),
+(523, @Goblin, @Male, 6, 7, 0),
+(524, @Goblin, @Male, 7, 8, 0),
+(525, @Goblin, @Male, 9, 10, 0),
+(526, @Goblin, @Male, 10, 11, 0),
+(527, @Goblin, @Male, 8, 9, 0),
+(528, @Goblin, @Male, 11, 12, 0),
+(529, @Goblin, @Male, 12, 13, 0),
+(530, @Goblin, @Male, 13, 14, 0),
+(531, @Goblin, @Male, 14, 15, 0),
+(532, @Goblin, @Male, 15, 16, 0),
+(533, @Goblin, @Male, 16, 17, 0),
+(534, @Goblin, @Male, 17, 18, 0),
+(536, @Worgen, @Male, 2, 4, 0),
+(537, @Worgen, @Male, 0, 2, 0),
+(538, @Worgen, @Male, 1, 3, 0),
+(539, @Worgen, @Male, 3, 5, 0),
+(540, @Worgen, @Male, 6, 8, 0),
+(541, @Worgen, @Male, 4, 6, 0),
+(542, @Worgen, @Male, 5, 7, 0),
+(543, @Worgen, @Male, 9, 11, 0),
+(544, @Worgen, @Male, 7, 9, 0),
+(545, @Worgen, @Male, 8, 10, 0),
+(546, @Worgen, @Male, 10, 12, 0),
+(547, @Worgen, @Male, 11, 13, 0),
+(548, @Worgen, @Female, 1, 2, 0),
+(549, @Worgen, @Female, 2, 3, 0),
+(550, @Worgen, @Female, 3, 4, 0),
+(551, @Worgen, @Female, 4, 5, 0),
+(552, @Worgen, @Female, 5, 6, 0),
+(553, @Worgen, @Female, 6, 7, 0),
+(554, @Worgen, @Female, 7, 8, 0),
+(555, @Worgen, @Female, 8, 9, 0),
+(556, @Worgen, @Female, 9, 10, 0),
+(557, @Worgen, @Female, 10, 11, 0),
+(558, @Worgen, @Female, 11, 12, 0),
+(559, @Worgen, @Female, 12, 13, 0),
+(560, @Worgen, @Female, 13, 14, 0),
+(561, @Worgen, @Female, 14, 15, 0),
+(562, @Worgen, @Female, 15, 16, 0);

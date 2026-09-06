@@ -1,195 +1,99 @@
--- characterfacialhairstyles: 284 inserts, 41 updates, 2 deletes
-
--- Deletions
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 0;
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 0;
+-- characterfacialhairstyles: 94 inserts, 0 updates, 0 deletes
 
 -- New entries
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 0;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 0, 6, 11, 2, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 1;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 1, 5, 10, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 2;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 2, 2, 9, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 3;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 3, 3, 8, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 4;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 4, 2, 7, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 5;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 5, 5, 6, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 6;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 6, 4, 5, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 7;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 7, 3, 4, 9, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 8;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 8, 2, 3, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 9;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 9, 5, 2, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 10;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 10, 4, 11, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 11;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 11, 3, 10, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 12;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 12, 5, 9, 2, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 13;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 13, 6, 8, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 14;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 14, 5, 7, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 15;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 15, 4, 6, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 16;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 16, 3, 5, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 17;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 17, 4, 4, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 18;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 18, 6, 3, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 19;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 19, 5, 2, 9, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 20;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 20, 4, 11, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 21;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 21, 2, 10, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 22;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 22, 3, 9, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 23;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 23, 5, 8, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 0 AND `variation_id` = 24;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 0, 24, 2, 7, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 0;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 0, 6, 11, 2, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 1;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 1, 5, 10, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 2;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 2, 2, 9, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 3;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 3, 3, 8, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 4;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 4, 2, 7, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 5;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 5, 5, 6, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 6;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 6, 4, 5, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 7;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 7, 3, 4, 9, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 8;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 8, 2, 3, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 9;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 9, 5, 2, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 10;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 10, 4, 11, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 11;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 11, 3, 10, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 12;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 12, 5, 9, 2, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 13;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 13, 6, 8, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 14;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 14, 5, 7, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 15;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 15, 4, 6, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 16;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 16, 3, 5, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 17;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 17, 4, 4, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 18;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 18, 6, 3, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 19;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 19, 5, 2, 9, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 20;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 20, 4, 11, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 21;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 21, 2, 10, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 22;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 22, 3, 9, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 23;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 23, 5, 8, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 9 AND `gender` = 1 AND `variation_id` = 24;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (9, 1, 24, 6, 6, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 1;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 1, 2, 0, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 2;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 2, 3, 0, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 3;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 3, 4, 0, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 4;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 4, 5, 0, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 5;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 5, 6, 0, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 6;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 6, 7, 0, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 7;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 7, 8, 0, 9, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 8;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 8, 9, 0, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 9;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 9, 10, 0, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 10;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 10, 11, 0, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 11;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 11, 12, 0, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 12;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 12, 2, 0, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 13;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 13, 3, 0, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 14;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 14, 4, 0, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 15;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 15, 5, 0, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 17;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 17, 7, 0, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 18;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 18, 8, 0, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 19;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 19, 9, 0, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 20;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 20, 10, 0, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 21;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 21, 11, 0, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 22;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 22, 12, 0, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 0 AND `variation_id` = 23;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 0, 23, 13, 0, 2, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 1;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 1, 2, 0, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 2;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 2, 3, 0, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 3;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 3, 4, 0, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 4;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 4, 5, 0, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 5;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 5, 6, 0, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 6;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 6, 7, 0, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 7;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 7, 8, 0, 9, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 8;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 8, 9, 0, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 9;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 9, 10, 0, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 10;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 10, 11, 0, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 11;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 11, 12, 0, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 12;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 12, 2, 0, 13, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 13;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 13, 3, 0, 12, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 14;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 14, 4, 0, 11, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 15;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 15, 5, 0, 10, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 17;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 17, 7, 0, 8, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 18;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 18, 8, 0, 7, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 19;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 19, 9, 0, 6, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 20;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 20, 10, 0, 5, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 21;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 21, 11, 0, 4, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 22;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 22, 12, 0, 3, 0, 0);
--- DELETE FROM `characterfacialhairstyles` WHERE `race` = 12 AND `gender` = 1 AND `variation_id` = 23;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (12, 1, 23, 13, 0, 2, 0, 0);
+DELETE FROM `characterfacialhairstyles` WHERE `race` IN (@Goblin, @Worgen);
+INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES
+(@Goblin, @Male, 0, 6, 11, 2, 0, 0),
+(@Goblin, @Male, 1, 5, 10, 3, 0, 0),
+(@Goblin, @Male, 2, 2, 9, 4, 0, 0),
+(@Goblin, @Male, 3, 3, 8, 5, 0, 0),
+(@Goblin, @Male, 4, 2, 7, 6, 0, 0),
+(@Goblin, @Male, 5, 5, 6, 7, 0, 0),
+(@Goblin, @Male, 6, 4, 5, 8, 0, 0),
+(@Goblin, @Male, 7, 3, 4, 9, 0, 0),
+(@Goblin, @Male, 8, 2, 3, 10, 0, 0),
+(@Goblin, @Male, 9, 5, 2, 11, 0, 0),
+(@Goblin, @Male, 10, 4, 11, 12, 0, 0),
+(@Goblin, @Male, 11, 3, 10, 13, 0, 0),
+(@Goblin, @Male, 12, 5, 9, 2, 0, 0),
+(@Goblin, @Male, 13, 6, 8, 3, 0, 0),
+(@Goblin, @Male, 14, 5, 7, 4, 0, 0),
+(@Goblin, @Male, 15, 4, 6, 5, 0, 0),
+(@Goblin, @Male, 16, 3, 5, 6, 0, 0),
+(@Goblin, @Male, 17, 4, 4, 7, 0, 0),
+(@Goblin, @Male, 18, 6, 3, 8, 0, 0),
+(@Goblin, @Male, 19, 5, 2, 9, 0, 0),
+(@Goblin, @Male, 20, 4, 11, 10, 0, 0),
+(@Goblin, @Male, 21, 2, 10, 11, 0, 0),
+(@Goblin, @Male, 22, 3, 9, 12, 0, 0),
+(@Goblin, @Male, 23, 5, 8, 13, 0, 0),
+(@Goblin, @Male, 24, 2, 7, 13, 0, 0),
+(@Goblin, @Female, 0, 6, 11, 2, 0, 0),
+(@Goblin, @Female, 1, 5, 10, 3, 0, 0),
+(@Goblin, @Female, 2, 2, 9, 4, 0, 0),
+(@Goblin, @Female, 3, 3, 8, 5, 0, 0),
+(@Goblin, @Female, 4, 2, 7, 6, 0, 0),
+(@Goblin, @Female, 5, 5, 6, 7, 0, 0),
+(@Goblin, @Female, 6, 4, 5, 8, 0, 0),
+(@Goblin, @Female, 7, 3, 4, 9, 0, 0),
+(@Goblin, @Female, 8, 2, 3, 10, 0, 0),
+(@Goblin, @Female, 9, 5, 2, 11, 0, 0),
+(@Goblin, @Female, 10, 4, 11, 12, 0, 0),
+(@Goblin, @Female, 11, 3, 10, 13, 0, 0),
+(@Goblin, @Female, 12, 5, 9, 2, 0, 0),
+(@Goblin, @Female, 13, 6, 8, 3, 0, 0),
+(@Goblin, @Female, 14, 5, 7, 4, 0, 0),
+(@Goblin, @Female, 15, 4, 6, 5, 0, 0),
+(@Goblin, @Female, 16, 3, 5, 6, 0, 0),
+(@Goblin, @Female, 17, 4, 4, 7, 0, 0),
+(@Goblin, @Female, 18, 6, 3, 8, 0, 0),
+(@Goblin, @Female, 19, 5, 2, 9, 0, 0),
+(@Goblin, @Female, 20, 4, 11, 10, 0, 0),
+(@Goblin, @Female, 21, 2, 10, 11, 0, 0),
+(@Goblin, @Female, 22, 3, 9, 12, 0, 0),
+(@Goblin, @Female, 23, 5, 8, 13, 0, 0),
+(@Goblin, @Female, 24, 6, 6, 6, 0, 0),
+(@Worgen, @Male, 1, 2, 0, 3, 0, 0),
+(@Worgen, @Male, 2, 3, 0, 4, 0, 0),
+(@Worgen, @Male, 3, 4, 0, 5, 0, 0),
+(@Worgen, @Male, 4, 5, 0, 6, 0, 0),
+(@Worgen, @Male, 5, 6, 0, 7, 0, 0),
+(@Worgen, @Male, 6, 7, 0, 8, 0, 0),
+(@Worgen, @Male, 7, 8, 0, 9, 0, 0),
+(@Worgen, @Male, 8, 9, 0, 10, 0, 0),
+(@Worgen, @Male, 9, 10, 0, 11, 0, 0),
+(@Worgen, @Male, 10, 11, 0, 12, 0, 0),
+(@Worgen, @Male, 11, 12, 0, 13, 0, 0),
+(@Worgen, @Male, 12, 2, 0, 13, 0, 0),
+(@Worgen, @Male, 13, 3, 0, 12, 0, 0),
+(@Worgen, @Male, 14, 4, 0, 11, 0, 0),
+(@Worgen, @Male, 15, 5, 0, 10, 0, 0),
+(@Worgen, @Male, 17, 7, 0, 8, 0, 0),
+(@Worgen, @Male, 18, 8, 0, 7, 0, 0),
+(@Worgen, @Male, 19, 9, 0, 6, 0, 0),
+(@Worgen, @Male, 20, 10, 0, 5, 0, 0),
+(@Worgen, @Male, 21, 11, 0, 4, 0, 0),
+(@Worgen, @Male, 22, 12, 0, 3, 0, 0),
+(@Worgen, @Male, 23, 13, 0, 2, 0, 0),
+(@Worgen, @Female, 1, 2, 0, 3, 0, 0),
+(@Worgen, @Female, 2, 3, 0, 4, 0, 0),
+(@Worgen, @Female, 3, 4, 0, 5, 0, 0),
+(@Worgen, @Female, 4, 5, 0, 6, 0, 0),
+(@Worgen, @Female, 5, 6, 0, 7, 0, 0),
+(@Worgen, @Female, 6, 7, 0, 8, 0, 0),
+(@Worgen, @Female, 7, 8, 0, 9, 0, 0),
+(@Worgen, @Female, 8, 9, 0, 10, 0, 0),
+(@Worgen, @Female, 9, 10, 0, 11, 0, 0),
+(@Worgen, @Female, 10, 11, 0, 12, 0, 0),
+(@Worgen, @Female, 11, 12, 0, 13, 0, 0),
+(@Worgen, @Female, 12, 2, 0, 13, 0, 0),
+(@Worgen, @Female, 13, 3, 0, 12, 0, 0),
+(@Worgen, @Female, 14, 4, 0, 11, 0, 0),
+(@Worgen, @Female, 15, 5, 0, 10, 0, 0),
+(@Worgen, @Female, 17, 7, 0, 8, 0, 0),
+(@Worgen, @Female, 18, 8, 0, 7, 0, 0),
+(@Worgen, @Female, 19, 9, 0, 6, 0, 0),
+(@Worgen, @Female, 20, 10, 0, 5, 0, 0),
+(@Worgen, @Female, 21, 11, 0, 4, 0, 0),
+(@Worgen, @Female, 22, 12, 0, 3, 0, 0),
+(@Worgen, @Female, 23, 13, 0, 2, 0, 0);

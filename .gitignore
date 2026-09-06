@@ -5,6 +5,7 @@
 #
 
 annotate_skillraceclassinfo.py
+annotate_skilllineability.py
 .directory
 .mailmap
 *.orig

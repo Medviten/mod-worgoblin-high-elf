@@ -51,6 +51,7 @@ GlueAmbienceTracks["WORGEN"] = "GlueScreenHuman";
 GlueAmbienceTracks["HIGHELF"] = "GlueScreenHuman";
 GlueAmbienceTracks["MAGHAR"] = "GlueScreenOrcTroll";
 GlueAmbienceTracks["OGRE"] = "GlueScreenOrcTroll";
+GlueAmbienceTracks["DARKIRONDWARF"] = "GlueScreenDwarfGnome";
 
 
 -- RaceLights[] duplicates the 3.2.2 color values in the models. Henceforth, the models no longer contain directional lights
@@ -116,6 +117,10 @@ RaceLights = {
         {1,     0,  0.00000,        0.00000,        -1.00000,   1.0,    0.15000,    0.15000,    0.15000,    1.0,    0.00000,    0.00000,    0.00000},
         {1,     0,  -0.74919,       0.35208,        -0.56103,   1.0,    0.00000,    0.00000,    0.00000,    1.0,    0.44706,    0.54510,    0.73725},
         {1,     0,  0.53162,        -0.84340,       0.07780,    1.0,    0.00000,    0.00000,    0.00000,    2.0,    0.55,       0.338625,   0.148825},
+    },
+    DARKIRONDWARF = {
+		{1,     0,  -0.00000,       -0.00000,       -1.00000,   1.0,    0.30000,    0.30000,    0.30000,    0.0,    0.00000,    0.00000,    0.00000},
+        {1,     0,  -0.88314,       0.42916,        -0.18945,   1.0,    0.00000,    0.00000,    0.00000,    2.0,    0.44706,    0.67451,    0.760785},
     },
 }
 
@@ -409,7 +414,11 @@ function SetBackgroundModel(model, name)
 	if (name == "Maghar" or name == "MAGHAR" or name == "Mag'har" or name == "MAG'HAR" or name == "Ogre" or name == "OGRE") then
 		name = "Orc";
 	end
-    
+
+	if (name == "DarkIronDwarf" or name == "DARKIRONDWARF" or name == "Dark Iron Dwarf" or name == "DARK IRON DWARF" or name == "DARK_IRON_DWARF") then
+		name = "Dwarf";
+	end
+
     local path = "Interface\\Glues\\Models\\UI_"..name.."\\UI_"..name..".m2";
 	if ( model == CharacterCreate ) then
 		SetCharCustomizeBackground(path);

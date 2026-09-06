@@ -1,1055 +1,542 @@
 -- emotestextsound: 526 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `emotestextsound` WHERE `id` = 567;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (567, 19, 23, 1, 18761);
-DELETE FROM `emotestextsound` WHERE `id` = 569;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (569, 21, 23, 1, 18643);
-DELETE FROM `emotestextsound` WHERE `id` = 570;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (570, 26, 23, 1, 18647);
-DELETE FROM `emotestextsound` WHERE `id` = 571;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (571, 55, 23, 1, 18764);
-DELETE FROM `emotestextsound` WHERE `id` = 574;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (574, 66, 23, 1, 18771);
-DELETE FROM `emotestextsound` WHERE `id` = 575;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (575, 67, 23, 1, 18772);
-DELETE FROM `emotestextsound` WHERE `id` = 576;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (576, 97, 23, 1, 18779);
-DELETE FROM `emotestextsound` WHERE `id` = 577;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (577, 102, 23, 1, 18764);
-DELETE FROM `emotestextsound` WHERE `id` = 578;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (578, 183, 23, 1, 18775);
-DELETE FROM `emotestextsound` WHERE `id` = 579;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (579, 264, 23, 1, 18780);
-DELETE FROM `emotestextsound` WHERE `id` = 580;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (580, 303, 23, 1, 18766);
-DELETE FROM `emotestextsound` WHERE `id` = 581;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (581, 304, 23, 1, 18767);
-DELETE FROM `emotestextsound` WHERE `id` = 582;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (582, 305, 23, 1, 18642);
-DELETE FROM `emotestextsound` WHERE `id` = 583;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (583, 306, 23, 1, 18758);
-DELETE FROM `emotestextsound` WHERE `id` = 584;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (584, 323, 23, 1, 18774);
-DELETE FROM `emotestextsound` WHERE `id` = 585;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (585, 324, 23, 1, 18760);
-DELETE FROM `emotestextsound` WHERE `id` = 586;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (586, 325, 23, 1, 18781);
-DELETE FROM `emotestextsound` WHERE `id` = 587;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (587, 326, 23, 1, 18762);
-DELETE FROM `emotestextsound` WHERE `id` = 588;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (588, 327, 23, 1, 18773);
-DELETE FROM `emotestextsound` WHERE `id` = 589;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (589, 328, 23, 1, 18759);
-DELETE FROM `emotestextsound` WHERE `id` = 590;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (590, 329, 23, 1, 18778);
-DELETE FROM `emotestextsound` WHERE `id` = 591;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (591, 453, 23, 1, 18783);
-DELETE FROM `emotestextsound` WHERE `id` = 594;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (594, 26, 23, 0, 18974);
-DELETE FROM `emotestextsound` WHERE `id` = 595;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (595, 324, 23, 0, 19014);
-DELETE FROM `emotestextsound` WHERE `id` = 596;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (596, 326, 23, 0, 19016);
-DELETE FROM `emotestextsound` WHERE `id` = 597;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (597, 55, 23, 0, 19017);
-DELETE FROM `emotestextsound` WHERE `id` = 598;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (598, 306, 23, 0, 19012);
-DELETE FROM `emotestextsound` WHERE `id` = 599;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (599, 303, 23, 0, 19018);
-DELETE FROM `emotestextsound` WHERE `id` = 600;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (600, 304, 23, 0, 19019);
-DELETE FROM `emotestextsound` WHERE `id` = 601;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (601, 323, 23, 0, 19025);
-DELETE FROM `emotestextsound` WHERE `id` = 602;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (602, 327, 23, 0, 19024);
-DELETE FROM `emotestextsound` WHERE `id` = 603;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (603, 19, 23, 0, 19015);
-DELETE FROM `emotestextsound` WHERE `id` = 604;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (604, 66, 23, 0, 19022);
-DELETE FROM `emotestextsound` WHERE `id` = 605;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (605, 97, 23, 0, 19029);
-DELETE FROM `emotestextsound` WHERE `id` = 606;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (606, 325, 23, 0, 19031);
-DELETE FROM `emotestextsound` WHERE `id` = 607;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (607, 453, 23, 0, 19033);
-DELETE FROM `emotestextsound` WHERE `id` = 608;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (608, 67, 23, 0, 19023);
-DELETE FROM `emotestextsound` WHERE `id` = 609;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (609, 183, 23, 0, 19026);
-DELETE FROM `emotestextsound` WHERE `id` = 610;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (610, 264, 23, 0, 19030);
-DELETE FROM `emotestextsound` WHERE `id` = 611;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (611, 21, 23, 0, 18972);
-DELETE FROM `emotestextsound` WHERE `id` = 612;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (612, 305, 23, 0, 18971);
-DELETE FROM `emotestextsound` WHERE `id` = 613;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (613, 329, 23, 0, 19028);
-DELETE FROM `emotestextsound` WHERE `id` = 614;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (614, 328, 23, 0, 19013);
-DELETE FROM `emotestextsound` WHERE `id` = 616;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (616, 26, 9, 0, 19091);
-DELETE FROM `emotestextsound` WHERE `id` = 617;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (617, 307, 9, 0, 19086);
-DELETE FROM `emotestextsound` WHERE `id` = 618;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (618, 324, 9, 0, 19132);
-DELETE FROM `emotestextsound` WHERE `id` = 619;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (619, 326, 9, 0, 19134);
-DELETE FROM `emotestextsound` WHERE `id` = 620;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (620, 55, 9, 0, 19135);
-DELETE FROM `emotestextsound` WHERE `id` = 621;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (621, 306, 9, 0, 19130);
-DELETE FROM `emotestextsound` WHERE `id` = 622;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (622, 303, 9, 0, 19136);
-DELETE FROM `emotestextsound` WHERE `id` = 623;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (623, 304, 9, 0, 19137);
-DELETE FROM `emotestextsound` WHERE `id` = 624;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (624, 323, 9, 0, 19142);
-DELETE FROM `emotestextsound` WHERE `id` = 625;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (625, 327, 9, 0, 19141);
-DELETE FROM `emotestextsound` WHERE `id` = 626;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (626, 19, 9, 0, 19133);
-DELETE FROM `emotestextsound` WHERE `id` = 627;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (627, 66, 9, 0, 19139);
-DELETE FROM `emotestextsound` WHERE `id` = 628;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (628, 97, 9, 0, 19146);
-DELETE FROM `emotestextsound` WHERE `id` = 629;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (629, 325, 9, 0, 19148);
-DELETE FROM `emotestextsound` WHERE `id` = 630;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (630, 453, 9, 0, 19152);
-DELETE FROM `emotestextsound` WHERE `id` = 631;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (631, 67, 9, 0, 19140);
-DELETE FROM `emotestextsound` WHERE `id` = 632;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (632, 183, 9, 0, 19143);
-DELETE FROM `emotestextsound` WHERE `id` = 633;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (633, 264, 9, 0, 19147);
-DELETE FROM `emotestextsound` WHERE `id` = 634;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (634, 21, 9, 0, 19089);
-DELETE FROM `emotestextsound` WHERE `id` = 635;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (635, 305, 9, 0, 19088);
-DELETE FROM `emotestextsound` WHERE `id` = 636;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (636, 329, 9, 0, 19145);
-DELETE FROM `emotestextsound` WHERE `id` = 637;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (637, 328, 9, 0, 19131);
-DELETE FROM `emotestextsound` WHERE `id` = 638;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (638, 26, 9, 1, 19199);
-DELETE FROM `emotestextsound` WHERE `id` = 639;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (639, 307, 9, 1, 19197);
-DELETE FROM `emotestextsound` WHERE `id` = 640;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (640, 324, 9, 1, 19241);
-DELETE FROM `emotestextsound` WHERE `id` = 641;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (641, 326, 9, 1, 19243);
-DELETE FROM `emotestextsound` WHERE `id` = 642;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (642, 55, 9, 1, 19244);
-DELETE FROM `emotestextsound` WHERE `id` = 643;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (643, 306, 9, 1, 19239);
-DELETE FROM `emotestextsound` WHERE `id` = 644;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (644, 303, 9, 1, 19245);
-DELETE FROM `emotestextsound` WHERE `id` = 645;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (645, 304, 9, 1, 19246);
-DELETE FROM `emotestextsound` WHERE `id` = 646;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (646, 323, 9, 1, 19252);
-DELETE FROM `emotestextsound` WHERE `id` = 647;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (647, 327, 9, 1, 19251);
-DELETE FROM `emotestextsound` WHERE `id` = 648;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (648, 19, 9, 1, 19242);
-DELETE FROM `emotestextsound` WHERE `id` = 649;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (649, 66, 9, 1, 19249);
-DELETE FROM `emotestextsound` WHERE `id` = 650;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (650, 97, 9, 1, 19256);
-DELETE FROM `emotestextsound` WHERE `id` = 651;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (651, 325, 9, 1, 19258);
-DELETE FROM `emotestextsound` WHERE `id` = 652;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (652, 453, 9, 1, 19260);
-DELETE FROM `emotestextsound` WHERE `id` = 653;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (653, 67, 9, 1, 19250);
-DELETE FROM `emotestextsound` WHERE `id` = 654;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (654, 183, 9, 1, 19253);
-DELETE FROM `emotestextsound` WHERE `id` = 655;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (655, 264, 9, 1, 19257);
-DELETE FROM `emotestextsound` WHERE `id` = 656;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (656, 21, 9, 1, 19202);
-DELETE FROM `emotestextsound` WHERE `id` = 657;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (657, 305, 9, 1, 19198);
-DELETE FROM `emotestextsound` WHERE `id` = 658;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (658, 329, 9, 1, 19255);
-DELETE FROM `emotestextsound` WHERE `id` = 659;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (659, 328, 9, 1, 19240);
-DELETE FROM `emotestextsound` WHERE `id` = 660;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (660, 26, 12, 0, 19299);
-DELETE FROM `emotestextsound` WHERE `id` = 661;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (661, 307, 12, 0, 19295);
-DELETE FROM `emotestextsound` WHERE `id` = 662;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (662, 324, 12, 0, 19339);
-DELETE FROM `emotestextsound` WHERE `id` = 663;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (663, 326, 12, 0, 19341);
-DELETE FROM `emotestextsound` WHERE `id` = 664;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (664, 55, 12, 0, 19343);
-DELETE FROM `emotestextsound` WHERE `id` = 665;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (665, 306, 12, 0, 19337);
-DELETE FROM `emotestextsound` WHERE `id` = 666;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (666, 303, 12, 0, 19344);
-DELETE FROM `emotestextsound` WHERE `id` = 667;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (667, 304, 12, 0, 19346);
-DELETE FROM `emotestextsound` WHERE `id` = 668;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (668, 323, 12, 0, 19352);
-DELETE FROM `emotestextsound` WHERE `id` = 669;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (669, 327, 12, 0, 19351);
-DELETE FROM `emotestextsound` WHERE `id` = 670;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (670, 19, 12, 0, 19340);
-DELETE FROM `emotestextsound` WHERE `id` = 671;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (671, 66, 12, 0, 19349);
-DELETE FROM `emotestextsound` WHERE `id` = 672;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (672, 97, 12, 0, 19356);
-DELETE FROM `emotestextsound` WHERE `id` = 673;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (673, 325, 12, 0, 19358);
-DELETE FROM `emotestextsound` WHERE `id` = 674;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (674, 453, 12, 0, 19360);
-DELETE FROM `emotestextsound` WHERE `id` = 675;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (675, 67, 12, 0, 19350);
-DELETE FROM `emotestextsound` WHERE `id` = 676;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (676, 183, 12, 0, 19353);
-DELETE FROM `emotestextsound` WHERE `id` = 677;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (677, 21, 12, 0, 19296);
-DELETE FROM `emotestextsound` WHERE `id` = 678;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (678, 329, 12, 0, 19355);
-DELETE FROM `emotestextsound` WHERE `id` = 679;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (679, 328, 12, 0, 19338);
-DELETE FROM `emotestextsound` WHERE `id` = 680;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (680, 26, 12, 1, 19378);
-DELETE FROM `emotestextsound` WHERE `id` = 681;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (681, 307, 12, 1, 19366);
-DELETE FROM `emotestextsound` WHERE `id` = 682;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (682, 324, 12, 1, 19429);
-DELETE FROM `emotestextsound` WHERE `id` = 683;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (683, 326, 12, 1, 19433);
-DELETE FROM `emotestextsound` WHERE `id` = 684;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (684, 55, 12, 1, 19434);
-DELETE FROM `emotestextsound` WHERE `id` = 685;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (685, 306, 12, 1, 19426);
-DELETE FROM `emotestextsound` WHERE `id` = 686;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (686, 303, 12, 1, 19435);
-DELETE FROM `emotestextsound` WHERE `id` = 687;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (687, 323, 12, 1, 19440);
-DELETE FROM `emotestextsound` WHERE `id` = 688;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (688, 327, 12, 1, 19439);
-DELETE FROM `emotestextsound` WHERE `id` = 689;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (689, 19, 12, 1, 19431);
-DELETE FROM `emotestextsound` WHERE `id` = 690;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (690, 66, 12, 1, 19437);
-DELETE FROM `emotestextsound` WHERE `id` = 691;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (691, 97, 12, 1, 19443);
-DELETE FROM `emotestextsound` WHERE `id` = 692;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (692, 325, 12, 1, 19446);
-DELETE FROM `emotestextsound` WHERE `id` = 693;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (693, 453, 12, 1, 19450);
-DELETE FROM `emotestextsound` WHERE `id` = 694;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (694, 67, 12, 1, 19438);
-DELETE FROM `emotestextsound` WHERE `id` = 695;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (695, 305, 12, 1, 19373);
-DELETE FROM `emotestextsound` WHERE `id` = 696;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (696, 329, 12, 1, 19441);
-DELETE FROM `emotestextsound` WHERE `id` = 697;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (697, 328, 12, 1, 19428);
-DELETE FROM `emotestextsound` WHERE `id` = 698;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (698, 304, 12, 1, 19516);
-DELETE FROM `emotestextsound` WHERE `id` = 699;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (699, 21, 12, 1, 19517);
-DELETE FROM `emotestextsound` WHERE `id` = 700;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (700, 305, 12, 0, 19296);
-DELETE FROM `emotestextsound` WHERE `id` = 701;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (701, 102, 23, 0, 19017);
-DELETE FROM `emotestextsound` WHERE `id` = 702;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (702, 102, 12, 0, 19343);
-DELETE FROM `emotestextsound` WHERE `id` = 703;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (703, 102, 12, 1, 19434);
-DELETE FROM `emotestextsound` WHERE `id` = 704;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (704, 102, 9, 1, 19244);
-DELETE FROM `emotestextsound` WHERE `id` = 705;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (705, 102, 9, 0, 19135);
-DELETE FROM `emotestextsound` WHERE `id` = 706;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (706, 264, 12, 0, 19357);
-DELETE FROM `emotestextsound` WHERE `id` = 707;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (707, 264, 12, 1, 19445);
-DELETE FROM `emotestextsound` WHERE `id` = 708;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (708, 307, 23, 0, 23329);
-DELETE FROM `emotestextsound` WHERE `id` = 709;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (709, 307, 23, 1, 23328);
-DELETE FROM `emotestextsound` WHERE `id` = 716;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (716, 75, 12, 0, 21448);
-DELETE FROM `emotestextsound` WHERE `id` = 717;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (717, 75, 9, 0, 19144);
-DELETE FROM `emotestextsound` WHERE `id` = 718;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (718, 75, 12, 1, 22449);
-DELETE FROM `emotestextsound` WHERE `id` = 719;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (719, 75, 9, 1, 19254);
-DELETE FROM `emotestextsound` WHERE `id` = 720;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (720, 75, 23, 0, 19027);
-DELETE FROM `emotestextsound` WHERE `id` = 721;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (721, 75, 23, 1, 18777);
-DELETE FROM `emotestextsound` WHERE `id` = 722;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (722, 75, 3, 1, 25251);
-DELETE FROM `emotestextsound` WHERE `id` = 723;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (723, 75, 3, 0, 25252);
-DELETE FROM `emotestextsound` WHERE `id` = 724;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (724, 75, 7, 1, 25253);
-DELETE FROM `emotestextsound` WHERE `id` = 725;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (725, 75, 7, 0, 25254);
-DELETE FROM `emotestextsound` WHERE `id` = 726;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (726, 75, 1, 1, 25255);
-DELETE FROM `emotestextsound` WHERE `id` = 727;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (727, 75, 1, 0, 25256);
-DELETE FROM `emotestextsound` WHERE `id` = 728;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (728, 75, 4, 1, 25257);
-DELETE FROM `emotestextsound` WHERE `id` = 729;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (729, 75, 4, 0, 25258);
-DELETE FROM `emotestextsound` WHERE `id` = 730;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (730, 75, 2, 1, 25259);
-DELETE FROM `emotestextsound` WHERE `id` = 731;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (731, 75, 2, 0, 25260);
-DELETE FROM `emotestextsound` WHERE `id` = 732;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (732, 75, 6, 1, 25261);
-DELETE FROM `emotestextsound` WHERE `id` = 733;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (733, 75, 6, 0, 25262);
-DELETE FROM `emotestextsound` WHERE `id` = 734;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (734, 75, 8, 1, 25263);
-DELETE FROM `emotestextsound` WHERE `id` = 735;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (735, 75, 8, 0, 25264);
-DELETE FROM `emotestextsound` WHERE `id` = 736;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (736, 75, 5, 1, 25265);
-DELETE FROM `emotestextsound` WHERE `id` = 737;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (737, 75, 5, 0, 25266);
-DELETE FROM `emotestextsound` WHERE `id` = 738;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (738, 75, 10, 0, 25268);
-DELETE FROM `emotestextsound` WHERE `id` = 739;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (739, 75, 10, 1, 25267);
-DELETE FROM `emotestextsound` WHERE `id` = 740;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (740, 75, 11, 0, 25270);
-DELETE FROM `emotestextsound` WHERE `id` = 741;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (741, 75, 11, 1, 25269);
-DELETE FROM `emotestextsound` WHERE `id` = 742;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (742, 60, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 743;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (743, 60, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 744;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (744, 60, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 745;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (745, 60, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 746;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (746, 60, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 747;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (747, 60, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 748;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (748, 60, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 749;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (749, 60, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 750;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (750, 60, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 751;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (751, 60, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 752;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (752, 60, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 753;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (753, 60, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 754;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (754, 60, 2, 0, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 755;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (755, 60, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 756;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (756, 60, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 757;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (757, 60, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 758;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (758, 60, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 759;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (759, 60, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 760;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (760, 60, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 761;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (761, 60, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 762;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (762, 60, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 763;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (763, 60, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 765;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (765, 60, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 766;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (766, 60, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 767;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (767, 60, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 768;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (768, 31, 10, 1, 9647);
-DELETE FROM `emotestextsound` WHERE `id` = 769;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (769, 31, 10, 0, 9651);
-DELETE FROM `emotestextsound` WHERE `id` = 770;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (770, 31, 11, 1, 9676);
-DELETE FROM `emotestextsound` WHERE `id` = 771;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (771, 31, 11, 0, 9701);
-DELETE FROM `emotestextsound` WHERE `id` = 772;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (772, 31, 3, 1, 6895);
-DELETE FROM `emotestextsound` WHERE `id` = 773;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (773, 31, 3, 0, 6901);
-DELETE FROM `emotestextsound` WHERE `id` = 774;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (774, 31, 7, 1, 6906);
-DELETE FROM `emotestextsound` WHERE `id` = 775;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (775, 31, 7, 0, 6911);
-DELETE FROM `emotestextsound` WHERE `id` = 776;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (776, 31, 1, 1, 6916);
-DELETE FROM `emotestextsound` WHERE `id` = 777;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (777, 31, 1, 0, 6921);
-DELETE FROM `emotestextsound` WHERE `id` = 778;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (778, 31, 4, 1, 6926);
-DELETE FROM `emotestextsound` WHERE `id` = 779;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (779, 31, 4, 0, 6931);
-DELETE FROM `emotestextsound` WHERE `id` = 780;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (780, 31, 2, 1, 6936);
-DELETE FROM `emotestextsound` WHERE `id` = 781;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (781, 31, 2, 0, 6941);
-DELETE FROM `emotestextsound` WHERE `id` = 782;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (782, 31, 6, 1, 6946);
-DELETE FROM `emotestextsound` WHERE `id` = 783;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (783, 31, 6, 0, 6951);
-DELETE FROM `emotestextsound` WHERE `id` = 784;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (784, 31, 8, 1, 6956);
-DELETE FROM `emotestextsound` WHERE `id` = 785;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (785, 31, 8, 0, 6961);
-DELETE FROM `emotestextsound` WHERE `id` = 786;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (786, 31, 5, 1, 6967);
-DELETE FROM `emotestextsound` WHERE `id` = 787;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (787, 31, 5, 0, 6972);
-DELETE FROM `emotestextsound` WHERE `id` = 788;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (788, 31, 23, 1, 18648);
-DELETE FROM `emotestextsound` WHERE `id` = 789;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (789, 31, 23, 0, 18975);
-DELETE FROM `emotestextsound` WHERE `id` = 790;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (790, 31, 12, 1, 23321);
-DELETE FROM `emotestextsound` WHERE `id` = 791;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (791, 31, 12, 0, 23326);
-DELETE FROM `emotestextsound` WHERE `id` = 792;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (792, 31, 9, 1, 19200);
-DELETE FROM `emotestextsound` WHERE `id` = 793;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (793, 31, 9, 0, 19092);
-DELETE FROM `emotestextsound` WHERE `id` = 794;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (794, 22, 10, 1, 9646);
-DELETE FROM `emotestextsound` WHERE `id` = 795;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (795, 22, 10, 0, 9650);
-DELETE FROM `emotestextsound` WHERE `id` = 796;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (796, 22, 11, 1, 9675);
-DELETE FROM `emotestextsound` WHERE `id` = 797;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (797, 22, 11, 0, 9700);
-DELETE FROM `emotestextsound` WHERE `id` = 798;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (798, 22, 3, 1, 6896);
-DELETE FROM `emotestextsound` WHERE `id` = 799;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (799, 22, 3, 0, 6899);
-DELETE FROM `emotestextsound` WHERE `id` = 800;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (800, 22, 7, 1, 6904);
-DELETE FROM `emotestextsound` WHERE `id` = 801;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (801, 22, 7, 0, 6909);
-DELETE FROM `emotestextsound` WHERE `id` = 802;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (802, 22, 1, 1, 6914);
-DELETE FROM `emotestextsound` WHERE `id` = 803;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (803, 22, 1, 0, 6919);
-DELETE FROM `emotestextsound` WHERE `id` = 804;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (804, 22, 4, 1, 6924);
-DELETE FROM `emotestextsound` WHERE `id` = 805;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (805, 22, 4, 0, 6929);
-DELETE FROM `emotestextsound` WHERE `id` = 806;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (806, 22, 2, 1, 6934);
-DELETE FROM `emotestextsound` WHERE `id` = 807;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (807, 22, 2, 0, 6939);
-DELETE FROM `emotestextsound` WHERE `id` = 808;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (808, 22, 6, 1, 6944);
-DELETE FROM `emotestextsound` WHERE `id` = 809;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (809, 22, 6, 0, 6949);
-DELETE FROM `emotestextsound` WHERE `id` = 810;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (810, 22, 8, 1, 6954);
-DELETE FROM `emotestextsound` WHERE `id` = 811;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (811, 22, 8, 0, 6959);
-DELETE FROM `emotestextsound` WHERE `id` = 812;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (812, 22, 5, 1, 6965);
-DELETE FROM `emotestextsound` WHERE `id` = 813;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (813, 22, 5, 0, 6970);
-DELETE FROM `emotestextsound` WHERE `id` = 814;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (814, 22, 23, 1, 18645);
-DELETE FROM `emotestextsound` WHERE `id` = 815;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (815, 22, 23, 0, 18973);
-DELETE FROM `emotestextsound` WHERE `id` = 816;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (816, 22, 12, 1, 23322);
-DELETE FROM `emotestextsound` WHERE `id` = 817;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (817, 22, 12, 0, 23327);
-DELETE FROM `emotestextsound` WHERE `id` = 818;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (818, 22, 9, 1, 19201);
-DELETE FROM `emotestextsound` WHERE `id` = 819;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (819, 22, 9, 0, 19090);
-DELETE FROM `emotestextsound` WHERE `id` = 820;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (820, 136, 10, 1, 9646);
-DELETE FROM `emotestextsound` WHERE `id` = 821;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (821, 136, 10, 0, 9650);
-DELETE FROM `emotestextsound` WHERE `id` = 822;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (822, 136, 11, 1, 9675);
-DELETE FROM `emotestextsound` WHERE `id` = 823;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (823, 136, 11, 0, 9700);
-DELETE FROM `emotestextsound` WHERE `id` = 824;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (824, 136, 3, 1, 6896);
-DELETE FROM `emotestextsound` WHERE `id` = 825;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (825, 136, 3, 0, 6899);
-DELETE FROM `emotestextsound` WHERE `id` = 826;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (826, 136, 7, 1, 6904);
-DELETE FROM `emotestextsound` WHERE `id` = 827;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (827, 136, 7, 0, 6909);
-DELETE FROM `emotestextsound` WHERE `id` = 828;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (828, 136, 1, 1, 6914);
-DELETE FROM `emotestextsound` WHERE `id` = 829;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (829, 136, 1, 0, 6919);
-DELETE FROM `emotestextsound` WHERE `id` = 830;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (830, 136, 4, 0, 6929);
-DELETE FROM `emotestextsound` WHERE `id` = 831;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (831, 136, 2, 1, 6934);
-DELETE FROM `emotestextsound` WHERE `id` = 832;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (832, 136, 2, 0, 6939);
-DELETE FROM `emotestextsound` WHERE `id` = 833;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (833, 136, 6, 1, 6944);
-DELETE FROM `emotestextsound` WHERE `id` = 834;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (834, 136, 6, 0, 6949);
-DELETE FROM `emotestextsound` WHERE `id` = 835;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (835, 136, 8, 1, 6954);
-DELETE FROM `emotestextsound` WHERE `id` = 836;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (836, 136, 8, 0, 6959);
-DELETE FROM `emotestextsound` WHERE `id` = 837;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (837, 136, 5, 1, 6965);
-DELETE FROM `emotestextsound` WHERE `id` = 838;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (838, 136, 5, 0, 6970);
-DELETE FROM `emotestextsound` WHERE `id` = 839;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (839, 136, 23, 1, 18645);
-DELETE FROM `emotestextsound` WHERE `id` = 840;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (840, 136, 23, 0, 18973);
-DELETE FROM `emotestextsound` WHERE `id` = 842;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (842, 136, 12, 1, 23322);
-DELETE FROM `emotestextsound` WHERE `id` = 843;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (843, 136, 12, 0, 23327);
-DELETE FROM `emotestextsound` WHERE `id` = 844;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (844, 136, 4, 1, 6924);
-DELETE FROM `emotestextsound` WHERE `id` = 845;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (845, 136, 9, 1, 19201);
-DELETE FROM `emotestextsound` WHERE `id` = 846;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (846, 136, 9, 0, 19090);
-DELETE FROM `emotestextsound` WHERE `id` = 847;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (847, 60, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 874;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (874, 65, 10, 0, 9651);
-DELETE FROM `emotestextsound` WHERE `id` = 875;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (875, 65, 10, 1, 9647);
-DELETE FROM `emotestextsound` WHERE `id` = 876;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (876, 143, 10, 1, 9647);
-DELETE FROM `emotestextsound` WHERE `id` = 877;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (877, 31, 10, 0, 9651);
-DELETE FROM `emotestextsound` WHERE `id` = 878;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (878, 65, 11, 0, 9701);
-DELETE FROM `emotestextsound` WHERE `id` = 879;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (879, 143, 11, 0, 9701);
-DELETE FROM `emotestextsound` WHERE `id` = 880;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (880, 65, 11, 1, 9676);
-DELETE FROM `emotestextsound` WHERE `id` = 881;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (881, 143, 11, 1, 9676);
-DELETE FROM `emotestextsound` WHERE `id` = 882;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (882, 65, 3, 1, 6895);
-DELETE FROM `emotestextsound` WHERE `id` = 883;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (883, 143, 3, 1, 6895);
-DELETE FROM `emotestextsound` WHERE `id` = 884;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (884, 31, 3, 0, 6901);
-DELETE FROM `emotestextsound` WHERE `id` = 885;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (885, 143, 3, 0, 6901);
-DELETE FROM `emotestextsound` WHERE `id` = 886;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (886, 65, 23, 1, 18648);
-DELETE FROM `emotestextsound` WHERE `id` = 887;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (887, 143, 23, 1, 18648);
-DELETE FROM `emotestextsound` WHERE `id` = 888;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (888, 65, 23, 0, 18975);
-DELETE FROM `emotestextsound` WHERE `id` = 889;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (889, 31, 23, 0, 18975);
-DELETE FROM `emotestextsound` WHERE `id` = 890;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (890, 65, 7, 1, 6906);
-DELETE FROM `emotestextsound` WHERE `id` = 891;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (891, 143, 7, 1, 6906);
-DELETE FROM `emotestextsound` WHERE `id` = 892;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (892, 65, 7, 0, 6911);
-DELETE FROM `emotestextsound` WHERE `id` = 893;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (893, 143, 7, 0, 6911);
-DELETE FROM `emotestextsound` WHERE `id` = 894;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (894, 65, 9, 1, 19200);
-DELETE FROM `emotestextsound` WHERE `id` = 895;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (895, 143, 9, 1, 19200);
-DELETE FROM `emotestextsound` WHERE `id` = 896;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (896, 65, 9, 0, 19092);
-DELETE FROM `emotestextsound` WHERE `id` = 897;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (897, 143, 9, 0, 19092);
-DELETE FROM `emotestextsound` WHERE `id` = 898;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (898, 65, 1, 1, 6916);
-DELETE FROM `emotestextsound` WHERE `id` = 899;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (899, 143, 1, 1, 6916);
-DELETE FROM `emotestextsound` WHERE `id` = 900;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (900, 65, 1, 0, 6921);
-DELETE FROM `emotestextsound` WHERE `id` = 901;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (901, 143, 1, 0, 6921);
-DELETE FROM `emotestextsound` WHERE `id` = 902;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (902, 65, 4, 1, 6926);
-DELETE FROM `emotestextsound` WHERE `id` = 903;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (903, 143, 4, 1, 6926);
-DELETE FROM `emotestextsound` WHERE `id` = 904;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (904, 65, 4, 0, 6931);
-DELETE FROM `emotestextsound` WHERE `id` = 905;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (905, 143, 4, 0, 6931);
-DELETE FROM `emotestextsound` WHERE `id` = 906;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (906, 65, 2, 1, 6936);
-DELETE FROM `emotestextsound` WHERE `id` = 907;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (907, 143, 2, 1, 6936);
-DELETE FROM `emotestextsound` WHERE `id` = 908;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (908, 65, 2, 0, 6941);
-DELETE FROM `emotestextsound` WHERE `id` = 909;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (909, 143, 2, 0, 6941);
-DELETE FROM `emotestextsound` WHERE `id` = 910;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (910, 65, 6, 1, 6946);
-DELETE FROM `emotestextsound` WHERE `id` = 911;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (911, 143, 6, 1, 6946);
-DELETE FROM `emotestextsound` WHERE `id` = 912;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (912, 65, 6, 0, 6951);
-DELETE FROM `emotestextsound` WHERE `id` = 913;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (913, 143, 6, 0, 6951);
-DELETE FROM `emotestextsound` WHERE `id` = 914;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (914, 65, 8, 1, 6956);
-DELETE FROM `emotestextsound` WHERE `id` = 915;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (915, 143, 8, 1, 6956);
-DELETE FROM `emotestextsound` WHERE `id` = 916;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (916, 65, 8, 0, 6961);
-DELETE FROM `emotestextsound` WHERE `id` = 917;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (917, 143, 8, 0, 6961);
-DELETE FROM `emotestextsound` WHERE `id` = 918;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (918, 65, 5, 0, 6972);
-DELETE FROM `emotestextsound` WHERE `id` = 919;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (919, 143, 5, 0, 6972);
-DELETE FROM `emotestextsound` WHERE `id` = 920;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (920, 65, 5, 1, 6967);
-DELETE FROM `emotestextsound` WHERE `id` = 921;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (921, 143, 5, 1, 6967);
-DELETE FROM `emotestextsound` WHERE `id` = 922;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (922, 65, 12, 1, 23321);
-DELETE FROM `emotestextsound` WHERE `id` = 923;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (923, 143, 12, 1, 23321);
-DELETE FROM `emotestextsound` WHERE `id` = 924;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (924, 65, 12, 0, 23326);
-DELETE FROM `emotestextsound` WHERE `id` = 925;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (925, 143, 12, 0, 23326);
-DELETE FROM `emotestextsound` WHERE `id` = 926;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (926, 76, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 927;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (927, 76, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 928;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (928, 76, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 929;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (929, 76, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 930;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (930, 76, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 931;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (931, 76, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 932;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (932, 76, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 933;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (933, 76, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 934;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (934, 76, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 935;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (935, 76, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 936;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (936, 76, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 937;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (937, 76, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 938;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (938, 76, 2, 0, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 939;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (939, 76, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 940;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (940, 76, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 941;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (941, 76, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 942;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (942, 76, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 943;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (943, 76, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 944;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (944, 76, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 945;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (945, 76, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 946;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (946, 76, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 947;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (947, 76, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 948;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (948, 76, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 949;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (949, 76, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 950;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (950, 76, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 951;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (951, 76, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 952;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (952, 20, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 953;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (953, 20, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 954;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (954, 20, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 955;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (955, 20, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 956;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (956, 20, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 957;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (957, 20, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 958;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (958, 20, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 959;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (959, 20, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 960;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (960, 20, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 961;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (961, 20, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 962;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (962, 20, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 963;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (963, 20, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 964;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (964, 20, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 965;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (965, 20, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 966;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (966, 20, 2, 0, 6943);
+DELETE FROM `emotestextsound` WHERE `id` = 567; -- Gilnean female
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 569 AND 571; -- Gilnean female
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 574 AND 591; -- Gilnean female
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 594 AND 614; -- Gilnean male
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 616 AND 709; -- Goblin male, female (638 on), Worgen male (660 on), female (680 on), Gilnean
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 716 AND 763; -- There are stock races in there too – not sure why
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 765 AND 840;
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 842 AND 847;
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 874 AND 966;
 DELETE FROM `emotestextsound` WHERE `id` = 979;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (979, 20, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 981;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (981, 20, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 982;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (982, 20, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 983;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (983, 20, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 984;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (984, 20, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 985;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (985, 20, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 986;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (986, 20, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 987;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (987, 20, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 988;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (988, 20, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 989;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (989, 20, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 990;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (990, 20, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 991;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (991, 45, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 992;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (992, 45, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 993;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (993, 45, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 994;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (994, 45, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 995;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (995, 45, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 996;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (996, 45, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 997;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (997, 45, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 998;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (998, 45, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 999;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (999, 45, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 1000;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1000, 45, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 1001;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1001, 45, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 1002;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1002, 45, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 1003;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1003, 45, 2, 0, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 1004;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1004, 45, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 1005;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1005, 45, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 1006;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1006, 45, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 1007;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1007, 45, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 1008;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1008, 45, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 1009;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1009, 45, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 1010;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1010, 45, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 1011;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1011, 45, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 1012;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1012, 45, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 1013;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1013, 45, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 1014;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1014, 45, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 1015;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1015, 45, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 1016;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1016, 45, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 1017;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1017, 47, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 1018;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1018, 47, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 1019;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1019, 47, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 1020;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1020, 47, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 1021;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1021, 47, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 1022;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1022, 47, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 1023;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1023, 47, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 1024;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1024, 47, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 1025;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1025, 47, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 1026;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1026, 47, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 1027;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1027, 47, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 1028;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1028, 47, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 1029;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1029, 47, 2, 0, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 1030;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1030, 47, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 1031;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1031, 47, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 1032;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1032, 47, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 1033;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1033, 47, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 1034;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1034, 47, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 1035;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1035, 47, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 1036;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1036, 47, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 1037;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1037, 47, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 1038;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1038, 47, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 1039;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1039, 47, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 1040;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1040, 47, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 1041;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1041, 47, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 1042;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1042, 47, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 1043;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1043, 52, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 1044;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1044, 52, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 1045;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1045, 52, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 1046;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1046, 52, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 1047;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1047, 52, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 1048;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1048, 52, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 1049;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1049, 52, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 1050;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1050, 52, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 1051;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1051, 52, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 1052;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1052, 52, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 1053;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1053, 52, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 1054;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1054, 52, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 1055;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1055, 52, 2, 0, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 1056;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1056, 52, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 1057;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1057, 52, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 1058;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1058, 52, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 1059;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1059, 52, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 1060;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1060, 52, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 1061;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1061, 52, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 1062;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1062, 52, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 1063;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1063, 52, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 1064;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1064, 52, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 1065;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1065, 52, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 1066;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1066, 52, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 1067;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1067, 52, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 1068;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1068, 52, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 1069;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1069, 85, 23, 0, 7914);
-DELETE FROM `emotestextsound` WHERE `id` = 1070;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1070, 85, 23, 1, 26566);
-DELETE FROM `emotestextsound` WHERE `id` = 1071;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1071, 85, 12, 0, 7922);
-DELETE FROM `emotestextsound` WHERE `id` = 1072;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1072, 85, 12, 1, 26567);
-DELETE FROM `emotestextsound` WHERE `id` = 1073;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1073, 85, 9, 0, 7918);
-DELETE FROM `emotestextsound` WHERE `id` = 1074;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1074, 85, 9, 1, 10577);
-DELETE FROM `emotestextsound` WHERE `id` = 1075;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1075, 104, 23, 0, 26561);
-DELETE FROM `emotestextsound` WHERE `id` = 1076;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1076, 104, 23, 1, 26560);
-DELETE FROM `emotestextsound` WHERE `id` = 1077;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1077, 104, 12, 0, 26551);
-DELETE FROM `emotestextsound` WHERE `id` = 1078;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1078, 104, 12, 1, 26550);
-DELETE FROM `emotestextsound` WHERE `id` = 1079;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1079, 104, 9, 0, 26553);
-DELETE FROM `emotestextsound` WHERE `id` = 1080;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1080, 104, 9, 1, 26552);
-DELETE FROM `emotestextsound` WHERE `id` = 1081;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1081, 14, 9, 0, 26556);
-DELETE FROM `emotestextsound` WHERE `id` = 1082;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1082, 14, 9, 1, 26557);
-DELETE FROM `emotestextsound` WHERE `id` = 1083;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1083, 14, 12, 0, 26554);
-DELETE FROM `emotestextsound` WHERE `id` = 1084;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1084, 14, 12, 1, 26555);
-DELETE FROM `emotestextsound` WHERE `id` = 1085;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1085, 14, 23, 0, 26559);
-DELETE FROM `emotestextsound` WHERE `id` = 1086;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1086, 14, 23, 1, 26558);
-DELETE FROM `emotestextsound` WHERE `id` = 1087;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1087, 106, 23, 1, 7931);
-DELETE FROM `emotestextsound` WHERE `id` = 1088;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1088, 106, 23, 0, 7932);
-DELETE FROM `emotestextsound` WHERE `id` = 1089;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1089, 106, 12, 0, 7940);
-DELETE FROM `emotestextsound` WHERE `id` = 1090;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1090, 106, 12, 1, 7939);
-DELETE FROM `emotestextsound` WHERE `id` = 1091;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1091, 106, 9, 1, 10578);
-DELETE FROM `emotestextsound` WHERE `id` = 1092;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1092, 106, 9, 0, 10576);
-DELETE FROM `emotestextsound` WHERE `id` = 1093;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1093, 183, 12, 1, 26568);
-DELETE FROM `emotestextsound` WHERE `id` = 1094;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1094, 23, 4, 1, 6928);
-DELETE FROM `emotestextsound` WHERE `id` = 1095;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1095, 23, 4, 0, 6933);
-DELETE FROM `emotestextsound` WHERE `id` = 1096;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1096, 23, 10, 0, 9652);
-DELETE FROM `emotestextsound` WHERE `id` = 1097;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1097, 23, 10, 1, 9648);
-DELETE FROM `emotestextsound` WHERE `id` = 1098;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1098, 23, 11, 0, 9702);
-DELETE FROM `emotestextsound` WHERE `id` = 1099;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1099, 23, 11, 1, 9677);
-DELETE FROM `emotestextsound` WHERE `id` = 1100;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1100, 23, 3, 1, 6894);
-DELETE FROM `emotestextsound` WHERE `id` = 1101;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1101, 23, 3, 0, 6903);
-DELETE FROM `emotestextsound` WHERE `id` = 1102;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1102, 23, 7, 0, 6913);
-DELETE FROM `emotestextsound` WHERE `id` = 1103;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1103, 23, 7, 1, 6908);
-DELETE FROM `emotestextsound` WHERE `id` = 1104;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1104, 23, 1, 1, 6918);
-DELETE FROM `emotestextsound` WHERE `id` = 1105;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1105, 23, 1, 0, 6923);
-DELETE FROM `emotestextsound` WHERE `id` = 1106;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1106, 23, 2, 0, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 1107;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1107, 23, 2, 1, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 1108;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1108, 23, 6, 1, 6948);
-DELETE FROM `emotestextsound` WHERE `id` = 1109;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1109, 23, 6, 0, 6953);
-DELETE FROM `emotestextsound` WHERE `id` = 1110;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1110, 23, 8, 1, 6958);
-DELETE FROM `emotestextsound` WHERE `id` = 1111;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1111, 23, 8, 0, 6963);
-DELETE FROM `emotestextsound` WHERE `id` = 1112;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1112, 23, 5, 1, 6969);
-DELETE FROM `emotestextsound` WHERE `id` = 1113;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1113, 23, 5, 0, 6974);
-DELETE FROM `emotestextsound` WHERE `id` = 1114;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1114, 23, 23, 1, 18770);
-DELETE FROM `emotestextsound` WHERE `id` = 1115;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1115, 23, 23, 0, 19021);
-DELETE FROM `emotestextsound` WHERE `id` = 1116;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1116, 23, 12, 1, 23319);
-DELETE FROM `emotestextsound` WHERE `id` = 1117;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1117, 23, 9, 1, 19248);
-DELETE FROM `emotestextsound` WHERE `id` = 1118;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1118, 23, 9, 0, 23330);
-DELETE FROM `emotestextsound` WHERE `id` = 1119;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1119, 23, 12, 0, 19348);
-DELETE FROM `emotestextsound` WHERE `id` = 1121;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1121, 58, 4, 1, 6927);
-DELETE FROM `emotestextsound` WHERE `id` = 1122;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1122, 58, 4, 0, 6932);
-DELETE FROM `emotestextsound` WHERE `id` = 1123;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1123, 58, 10, 0, 9874);
-DELETE FROM `emotestextsound` WHERE `id` = 1124;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1124, 58, 10, 1, 9873);
-DELETE FROM `emotestextsound` WHERE `id` = 1125;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1125, 58, 11, 0, 9876);
-DELETE FROM `emotestextsound` WHERE `id` = 1126;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1126, 58, 11, 1, 9875);
-DELETE FROM `emotestextsound` WHERE `id` = 1127;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1127, 58, 3, 1, 6898);
-DELETE FROM `emotestextsound` WHERE `id` = 1128;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1128, 58, 3, 0, 6902);
-DELETE FROM `emotestextsound` WHERE `id` = 1129;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1129, 58, 7, 0, 6912);
-DELETE FROM `emotestextsound` WHERE `id` = 1130;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1130, 58, 7, 1, 6907);
-DELETE FROM `emotestextsound` WHERE `id` = 1131;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1131, 58, 1, 1, 6917);
-DELETE FROM `emotestextsound` WHERE `id` = 1132;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1132, 58, 1, 0, 6922);
-DELETE FROM `emotestextsound` WHERE `id` = 1133;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1133, 58, 2, 0, 6942);
-DELETE FROM `emotestextsound` WHERE `id` = 1134;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1134, 58, 2, 1, 6937);
-DELETE FROM `emotestextsound` WHERE `id` = 1135;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1135, 58, 6, 1, 6947);
-DELETE FROM `emotestextsound` WHERE `id` = 1136;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1136, 58, 6, 0, 6952);
-DELETE FROM `emotestextsound` WHERE `id` = 1137;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1137, 58, 8, 1, 6957);
-DELETE FROM `emotestextsound` WHERE `id` = 1138;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1138, 58, 8, 0, 6962);
-DELETE FROM `emotestextsound` WHERE `id` = 1139;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1139, 58, 5, 1, 6968);
-DELETE FROM `emotestextsound` WHERE `id` = 1140;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1140, 58, 5, 0, 6973);
-DELETE FROM `emotestextsound` WHERE `id` = 1141;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1141, 58, 23, 1, 23296);
-DELETE FROM `emotestextsound` WHERE `id` = 1142;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1142, 58, 23, 0, 19020);
-DELETE FROM `emotestextsound` WHERE `id` = 1143;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1143, 58, 12, 1, 23320);
-DELETE FROM `emotestextsound` WHERE `id` = 1144;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1144, 58, 9, 1, 19247);
-DELETE FROM `emotestextsound` WHERE `id` = 1145;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1145, 58, 9, 0, 19138);
-DELETE FROM `emotestextsound` WHERE `id` = 1146;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (1146, 58, 12, 0, 23325);
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 981 AND 1119;
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 1121 AND 1146;
+INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES
+(567, 19, @Gilnean, @Female, 18761),
+(569, 21, @Gilnean, @Female, 18643),
+(570, 26, @Gilnean, @Female, 18647),
+(571, 55, @Gilnean, @Female, 18764),
+(574, 66, @Gilnean, @Female, 18771),
+(575, 67, @Gilnean, @Female, 18772),
+(576, 97, @Gilnean, @Female, 18779),
+(577, 102, @Gilnean, @Female, 18764),
+(578, 183, @Gilnean, @Female, 18775),
+(579, 264, @Gilnean, @Female, 18780),
+(580, 303, @Gilnean, @Female, 18766),
+(581, 304, @Gilnean, @Female, 18767),
+(582, 305, @Gilnean, @Female, 18642),
+(583, 306, @Gilnean, @Female, 18758),
+(584, 323, @Gilnean, @Female, 18774),
+(585, 324, @Gilnean, @Female, 18760),
+(586, 325, @Gilnean, @Female, 18781),
+(587, 326, @Gilnean, @Female, 18762),
+(588, 327, @Gilnean, @Female, 18773),
+(589, 328, @Gilnean, @Female, 18759),
+(590, 329, @Gilnean, @Female, 18778),
+(591, 453, @Gilnean, @Female, 18783),
+(594, 26, @Gilnean, @Male, 18974),
+(595, 324, @Gilnean, @Male, 19014),
+(596, 326, @Gilnean, @Male, 19016),
+(597, 55, @Gilnean, @Male, 19017),
+(598, 306, @Gilnean, @Male, 19012),
+(599, 303, @Gilnean, @Male, 19018),
+(600, 304, @Gilnean, @Male, 19019),
+(601, 323, @Gilnean, @Male, 19025),
+(602, 327, @Gilnean, @Male, 19024),
+(603, 19, @Gilnean, @Male, 19015),
+(604, 66, @Gilnean, @Male, 19022),
+(605, 97, @Gilnean, @Male, 19029),
+(606, 325, @Gilnean, @Male, 19031),
+(607, 453, @Gilnean, @Male, 19033),
+(608, 67, @Gilnean, @Male, 19023),
+(609, 183, @Gilnean, @Male, 19026),
+(610, 264, @Gilnean, @Male, 19030),
+(611, 21, @Gilnean, @Male, 18972),
+(612, 305, @Gilnean, @Male, 18971),
+(613, 329, @Gilnean, @Male, 19028),
+(614, 328, @Gilnean, @Male, 19013),
+(616, 26, @Goblin, @Male, 19091),
+(617, 307, @Goblin, @Male, 19086),
+(618, 324, @Goblin, @Male, 19132),
+(619, 326, @Goblin, @Male, 19134),
+(620, 55, @Goblin, @Male, 19135),
+(621, 306, @Goblin, @Male, 19130),
+(622, 303, @Goblin, @Male, 19136),
+(623, 304, @Goblin, @Male, 19137),
+(624, 323, @Goblin, @Male, 19142),
+(625, 327, @Goblin, @Male, 19141),
+(626, 19, @Goblin, @Male, 19133),
+(627, 66, @Goblin, @Male, 19139),
+(628, 97, @Goblin, @Male, 19146),
+(629, 325, @Goblin, @Male, 19148),
+(630, 453, @Goblin, @Male, 19152),
+(631, 67, @Goblin, @Male, 19140),
+(632, 183, @Goblin, @Male, 19143),
+(633, 264, @Goblin, @Male, 19147),
+(634, 21, @Goblin, @Male, 19089),
+(635, 305, @Goblin, @Male, 19088),
+(636, 329, @Goblin, @Male, 19145),
+(637, 328, @Goblin, @Male, 19131),
+(638, 26, @Goblin, @Female, 19199),
+(639, 307, @Goblin, @Female, 19197),
+(640, 324, @Goblin, @Female, 19241),
+(641, 326, @Goblin, @Female, 19243),
+(642, 55, @Goblin, @Female, 19244),
+(643, 306, @Goblin, @Female, 19239),
+(644, 303, @Goblin, @Female, 19245),
+(645, 304, @Goblin, @Female, 19246),
+(646, 323, @Goblin, @Female, 19252),
+(647, 327, @Goblin, @Female, 19251),
+(648, 19, @Goblin, @Female, 19242),
+(649, 66, @Goblin, @Female, 19249),
+(650, 97, @Goblin, @Female, 19256),
+(651, 325, @Goblin, @Female, 19258),
+(652, 453, @Goblin, @Female, 19260),
+(653, 67, @Goblin, @Female, 19250),
+(654, 183, @Goblin, @Female, 19253),
+(655, 264, @Goblin, @Female, 19257),
+(656, 21, @Goblin, @Female, 19202),
+(657, 305, @Goblin, @Female, 19198),
+(658, 329, @Goblin, @Female, 19255),
+(659, 328, @Goblin, @Female, 19240),
+(660, 26, @Worgen, @Male, 19299),
+(661, 307, @Worgen, @Male, 19295),
+(662, 324, @Worgen, @Male, 19339),
+(663, 326, @Worgen, @Male, 19341),
+(664, 55, @Worgen, @Male, 19343),
+(665, 306, @Worgen, @Male, 19337),
+(666, 303, @Worgen, @Male, 19344),
+(667, 304, @Worgen, @Male, 19346),
+(668, 323, @Worgen, @Male, 19352),
+(669, 327, @Worgen, @Male, 19351),
+(670, 19, @Worgen, @Male, 19340),
+(671, 66, @Worgen, @Male, 19349),
+(672, 97, @Worgen, @Male, 19356),
+(673, 325, @Worgen, @Male, 19358),
+(674, 453, @Worgen, @Male, 19360),
+(675, 67, @Worgen, @Male, 19350),
+(676, 183, @Worgen, @Male, 19353),
+(677, 21, @Worgen, @Male, 19296),
+(678, 329, @Worgen, @Male, 19355),
+(679, 328, @Worgen, @Male, 19338),
+(680, 26, @Worgen, @Female, 19378),
+(681, 307, @Worgen, @Female, 19366),
+(682, 324, @Worgen, @Female, 19429),
+(683, 326, @Worgen, @Female, 19433),
+(684, 55, @Worgen, @Female, 19434),
+(685, 306, @Worgen, @Female, 19426),
+(686, 303, @Worgen, @Female, 19435),
+(687, 323, @Worgen, @Female, 19440),
+(688, 327, @Worgen, @Female, 19439),
+(689, 19, @Worgen, @Female, 19431),
+(690, 66, @Worgen, @Female, 19437),
+(691, 97, @Worgen, @Female, 19443),
+(692, 325, @Worgen, @Female, 19446),
+(693, 453, @Worgen, @Female, 19450),
+(694, 67, @Worgen, @Female, 19438),
+(695, 305, @Worgen, @Female, 19373),
+(696, 329, @Worgen, @Female, 19441),
+(697, 328, @Worgen, @Female, 19428),
+(698, 304, @Worgen, @Female, 19516),
+(699, 21, @Worgen, @Female, 19517),
+(700, 305, @Worgen, @Male, 19296),
+(701, 102, @Gilnean, @Male, 19017),
+(702, 102, @Worgen, @Male, 19343),
+(703, 102, @Worgen, @Female, 19434),
+(704, 102, @Goblin, @Female, 19244),
+(705, 102, @Goblin, @Male, 19135),
+(706, 264, @Worgen, @Male, 19357),
+(707, 264, @Worgen, @Female, 19445),
+(708, 307, @Gilnean, @Male, 23329),
+(709, 307, @Gilnean, @Female, 23328),
+(716, 75, @Worgen, @Male, 21448),
+(717, 75, @Goblin, @Male, 19144),
+(718, 75, @Worgen, @Female, 22449),
+(719, 75, @Goblin, @Female, 19254),
+(720, 75, @Gilnean, @Male, 19027),
+(721, 75, @Gilnean, @Female, 18777),
+(722, 75, @Dwarf, @Female, 25251),
+(723, 75, @Dwarf, @Male, 25252),
+(724, 75, @Gnome, @Female, 25253),
+(725, 75, @Gnome, @Male, 25254),
+(726, 75, @Human, @Female, 25255),
+(727, 75, @Human, @Male, 25256),
+(728, 75, @NightElf, @Female, 25257),
+(729, 75, @NightElf, @Male, 25258),
+(730, 75, @Orc, @Female, 25259),
+(731, 75, @Orc, @Male, 25260),
+(732, 75, @Tauren, @Female, 25261),
+(733, 75, @Tauren, @Male, 25262),
+(734, 75, @Troll, @Female, 25263),
+(735, 75, @Troll, @Male, 25264),
+(736, 75, @Undead, @Female, 25265),
+(737, 75, @Undead, @Male, 25266),
+(738, 75, @BloodElf, @Male, 25268),
+(739, 75, @BloodElf, @Female, 25267),
+(740, 75, @Draenei, @Male, 25270),
+(741, 75, @Draenei, @Female, 25269),
+(742, 60, @NightElf, @Female, 6928),
+(743, 60, @NightElf, @Male, 6933),
+(744, 60, @BloodElf, @Male, 9652),
+(745, 60, @BloodElf, @Female, 9648),
+(746, 60, @Draenei, @Male, 9702),
+(747, 60, @Draenei, @Female, 9677),
+(748, 60, @Dwarf, @Female, 6894),
+(749, 60, @Dwarf, @Male, 6903),
+(750, 60, @Gnome, @Male, 6913),
+(751, 60, @Gnome, @Female, 6908),
+(752, 60, @Human, @Female, 6918),
+(753, 60, @Human, @Male, 6923),
+(754, 60, @Orc, @Male, 6943),
+(755, 60, @Orc, @Female, 6938),
+(756, 60, @Tauren, @Female, 6948),
+(757, 60, @Tauren, @Male, 6953),
+(758, 60, @Troll, @Female, 6958),
+(759, 60, @Troll, @Male, 6963),
+(760, 60, @Undead, @Female, 6969),
+(761, 60, @Undead, @Male, 6974),
+(762, 60, @Gilnean, @Female, 18770),
+(763, 60, @Gilnean, @Male, 19021),
+(765, 60, @Worgen, @Female, 23319),
+(766, 60, @Goblin, @Female, 19248),
+(767, 60, @Goblin, @Male, 23330),
+(768, 31, @BloodElf, @Female, 9647),
+(769, 31, @BloodElf, @Male, 9651),
+(770, 31, @Draenei, @Female, 9676),
+(771, 31, @Draenei, @Male, 9701),
+(772, 31, @Dwarf, @Female, 6895),
+(773, 31, @Dwarf, @Male, 6901),
+(774, 31, @Gnome, @Female, 6906),
+(775, 31, @Gnome, @Male, 6911),
+(776, 31, @Human, @Female, 6916),
+(777, 31, @Human, @Male, 6921),
+(778, 31, @NightElf, @Female, 6926),
+(779, 31, @NightElf, @Male, 6931),
+(780, 31, @Orc, @Female, 6936),
+(781, 31, @Orc, @Male, 6941),
+(782, 31, @Tauren, @Female, 6946),
+(783, 31, @Tauren, @Male, 6951),
+(784, 31, @Troll, @Female, 6956),
+(785, 31, @Troll, @Male, 6961),
+(786, 31, @Undead, @Female, 6967),
+(787, 31, @Undead, @Male, 6972),
+(788, 31, @Gilnean, @Female, 18648),
+(789, 31, @Gilnean, @Male, 18975),
+(790, 31, @Worgen, @Female, 23321),
+(791, 31, @Worgen, @Male, 23326),
+(792, 31, @Goblin, @Female, 19200),
+(793, 31, @Goblin, @Male, 19092),
+(794, 22, @BloodElf, @Female, 9646),
+(795, 22, @BloodElf, @Male, 9650),
+(796, 22, @Draenei, @Female, 9675),
+(797, 22, @Draenei, @Male, 9700),
+(798, 22, @Dwarf, @Female, 6896),
+(799, 22, @Dwarf, @Male, 6899),
+(800, 22, @Gnome, @Female, 6904),
+(801, 22, @Gnome, @Male, 6909),
+(802, 22, @Human, @Female, 6914),
+(803, 22, @Human, @Male, 6919),
+(804, 22, @NightElf, @Female, 6924),
+(805, 22, @NightElf, @Male, 6929),
+(806, 22, @Orc, @Female, 6934),
+(807, 22, @Orc, @Male, 6939),
+(808, 22, @Tauren, @Female, 6944),
+(809, 22, @Tauren, @Male, 6949),
+(810, 22, @Troll, @Female, 6954),
+(811, 22, @Troll, @Male, 6959),
+(812, 22, @Undead, @Female, 6965),
+(813, 22, @Undead, @Male, 6970),
+(814, 22, @Gilnean, @Female, 18645),
+(815, 22, @Gilnean, @Male, 18973),
+(816, 22, @Worgen, @Female, 23322),
+(817, 22, @Worgen, @Male, 23327),
+(818, 22, @Goblin, @Female, 19201),
+(819, 22, @Goblin, @Male, 19090),
+(820, 136, @BloodElf, @Female, 9646),
+(821, 136, @BloodElf, @Male, 9650),
+(822, 136, @Draenei, @Female, 9675),
+(823, 136, @Draenei, @Male, 9700),
+(824, 136, @Dwarf, @Female, 6896),
+(825, 136, @Dwarf, @Male, 6899),
+(826, 136, @Gnome, @Female, 6904),
+(827, 136, @Gnome, @Male, 6909),
+(828, 136, @Human, @Female, 6914),
+(829, 136, @Human, @Male, 6919),
+(830, 136, @NightElf, @Male, 6929),
+(831, 136, @Orc, @Female, 6934),
+(832, 136, @Orc, @Male, 6939),
+(833, 136, @Tauren, @Female, 6944),
+(834, 136, @Tauren, @Male, 6949),
+(835, 136, @Troll, @Female, 6954),
+(836, 136, @Troll, @Male, 6959),
+(837, 136, @Undead, @Female, 6965),
+(838, 136, @Undead, @Male, 6970),
+(839, 136, @Gilnean, @Female, 18645),
+(840, 136, @Gilnean, @Male, 18973),
+(842, 136, @Worgen, @Female, 23322),
+(843, 136, @Worgen, @Male, 23327),
+(844, 136, @NightElf, @Female, 6924),
+(845, 136, @Goblin, @Female, 19201),
+(846, 136, @Goblin, @Male, 19090),
+(847, 60, @Worgen, @Male, 19348),
+(874, 65, @BloodElf, @Male, 9651),
+(875, 65, @BloodElf, @Female, 9647),
+(876, 143, @BloodElf, @Female, 9647),
+(877, 31, @BloodElf, @Male, 9651),
+(878, 65, @Draenei, @Male, 9701),
+(879, 143, @Draenei, @Male, 9701),
+(880, 65, @Draenei, @Female, 9676),
+(881, 143, @Draenei, @Female, 9676),
+(882, 65, @Dwarf, @Female, 6895),
+(883, 143, @Dwarf, @Female, 6895),
+(884, 31, @Dwarf, @Male, 6901),
+(885, 143, @Dwarf, @Male, 6901),
+(886, 65, @Gilnean, @Female, 18648),
+(887, 143, @Gilnean, @Female, 18648),
+(888, 65, @Gilnean, @Male, 18975),
+(889, 31, @Gilnean, @Male, 18975),
+(890, 65, @Gnome, @Female, 6906),
+(891, 143, @Gnome, @Female, 6906),
+(892, 65, @Gnome, @Male, 6911),
+(893, 143, @Gnome, @Male, 6911),
+(894, 65, @Goblin, @Female, 19200),
+(895, 143, @Goblin, @Female, 19200),
+(896, 65, @Goblin, @Male, 19092),
+(897, 143, @Goblin, @Male, 19092),
+(898, 65, @Human, @Female, 6916),
+(899, 143, @Human, @Female, 6916),
+(900, 65, @Human, @Male, 6921),
+(901, 143, @Human, @Male, 6921),
+(902, 65, @NightElf, @Female, 6926),
+(903, 143, @NightElf, @Female, 6926),
+(904, 65, @NightElf, @Male, 6931),
+(905, 143, @NightElf, @Male, 6931),
+(906, 65, @Orc, @Female, 6936),
+(907, 143, @Orc, @Female, 6936),
+(908, 65, @Orc, @Male, 6941),
+(909, 143, @Orc, @Male, 6941),
+(910, 65, @Tauren, @Female, 6946),
+(911, 143, @Tauren, @Female, 6946),
+(912, 65, @Tauren, @Male, 6951),
+(913, 143, @Tauren, @Male, 6951),
+(914, 65, @Troll, @Female, 6956),
+(915, 143, @Troll, @Female, 6956),
+(916, 65, @Troll, @Male, 6961),
+(917, 143, @Troll, @Male, 6961),
+(918, 65, @Undead, @Male, 6972),
+(919, 143, @Undead, @Male, 6972),
+(920, 65, @Undead, @Female, 6967),
+(921, 143, @Undead, @Female, 6967),
+(922, 65, @Worgen, @Female, 23321),
+(923, 143, @Worgen, @Female, 23321),
+(924, 65, @Worgen, @Male, 23326),
+(925, 143, @Worgen, @Male, 23326),
+(926, 76, @BloodElf, @Female, 9648),
+(927, 76, @BloodElf, @Male, 9652),
+(928, 76, @Draenei, @Female, 9677),
+(929, 76, @Draenei, @Male, 9702),
+(930, 76, @Worgen, @Male, 19348),
+(931, 76, @Worgen, @Female, 23319),
+(932, 76, @Undead, @Male, 6974),
+(933, 76, @Undead, @Female, 6969),
+(934, 76, @Troll, @Male, 6963),
+(935, 76, @Troll, @Female, 6958),
+(936, 76, @Tauren, @Male, 6953),
+(937, 76, @Tauren, @Female, 6948),
+(938, 76, @Orc, @Male, 6943),
+(939, 76, @Orc, @Female, 6938),
+(940, 76, @NightElf, @Male, 6933),
+(941, 76, @NightElf, @Female, 6928),
+(942, 76, @Human, @Male, 6923),
+(943, 76, @Human, @Female, 6918),
+(944, 76, @Goblin, @Male, 23330),
+(945, 76, @Goblin, @Female, 19248),
+(946, 76, @Gnome, @Male, 6913),
+(947, 76, @Gnome, @Female, 6908),
+(948, 76, @Gilnean, @Male, 19021),
+(949, 76, @Gilnean, @Female, 18770),
+(950, 76, @Dwarf, @Male, 6903),
+(951, 76, @Dwarf, @Female, 6894),
+(952, 20, @Dwarf, @Male, 6903),
+(953, 20, @Dwarf, @Female, 6894),
+(954, 20, @Draenei, @Male, 9702),
+(955, 20, @Draenei, @Female, 9677),
+(956, 20, @BloodElf, @Male, 9652),
+(957, 20, @BloodElf, @Female, 9648),
+(958, 20, @Human, @Female, 6918),
+(959, 20, @Goblin, @Male, 23330),
+(960, 20, @Goblin, @Female, 19248),
+(961, 20, @Gnome, @Male, 6913),
+(962, 20, @Gnome, @Female, 6908),
+(963, 20, @Gilnean, @Female, 18770),
+(964, 20, @Gilnean, @Male, 19021),
+(965, 20, @Tauren, @Male, 6953),
+(966, 20, @Orc, @Male, 6943),
+(979, 20, @Orc, @Female, 6938),
+(981, 20, @Human, @Male, 6923),
+(982, 20, @NightElf, @Male, 6933),
+(983, 20, @NightElf, @Female, 6928),
+(984, 20, @Tauren, @Female, 6948),
+(985, 20, @Troll, @Male, 6963),
+(986, 20, @Troll, @Female, 6958),
+(987, 20, @Undead, @Male, 6974),
+(988, 20, @Undead, @Female, 6969),
+(989, 20, @Worgen, @Male, 19348),
+(990, 20, @Worgen, @Female, 23319),
+(991, 45, @NightElf, @Female, 6928),
+(992, 45, @NightElf, @Male, 6933),
+(993, 45, @BloodElf, @Male, 9652),
+(994, 45, @BloodElf, @Female, 9648),
+(995, 45, @Draenei, @Male, 9702),
+(996, 45, @Draenei, @Female, 9677),
+(997, 45, @Dwarf, @Female, 6894),
+(998, 45, @Dwarf, @Male, 6903),
+(999, 45, @Gnome, @Male, 6913),
+(1000, 45, @Gnome, @Female, 6908),
+(1001, 45, @Human, @Female, 6918),
+(1002, 45, @Human, @Male, 6923),
+(1003, 45, @Orc, @Male, 6943),
+(1004, 45, @Orc, @Female, 6938),
+(1005, 45, @Tauren, @Female, 6948),
+(1006, 45, @Tauren, @Male, 6953),
+(1007, 45, @Troll, @Female, 6958),
+(1008, 45, @Troll, @Male, 6963),
+(1009, 45, @Undead, @Female, 6969),
+(1010, 45, @Undead, @Male, 6974),
+(1011, 45, @Gilnean, @Female, 18770),
+(1012, 45, @Gilnean, @Male, 19021),
+(1013, 45, @Worgen, @Female, 23319),
+(1014, 45, @Goblin, @Female, 19248),
+(1015, 45, @Goblin, @Male, 23330),
+(1016, 45, @Worgen, @Male, 19348),
+(1017, 47, @NightElf, @Female, 6928),
+(1018, 47, @NightElf, @Male, 6933),
+(1019, 47, @BloodElf, @Male, 9652),
+(1020, 47, @BloodElf, @Female, 9648),
+(1021, 47, @Draenei, @Male, 9702),
+(1022, 47, @Draenei, @Female, 9677),
+(1023, 47, @Dwarf, @Female, 6894),
+(1024, 47, @Dwarf, @Male, 6903),
+(1025, 47, @Gnome, @Male, 6913),
+(1026, 47, @Gnome, @Female, 6908),
+(1027, 47, @Human, @Female, 6918),
+(1028, 47, @Human, @Male, 6923),
+(1029, 47, @Orc, @Male, 6943),
+(1030, 47, @Orc, @Female, 6938),
+(1031, 47, @Tauren, @Female, 6948),
+(1032, 47, @Tauren, @Male, 6953),
+(1033, 47, @Troll, @Female, 6958),
+(1034, 47, @Troll, @Male, 6963),
+(1035, 47, @Undead, @Female, 6969),
+(1036, 47, @Undead, @Male, 6974),
+(1037, 47, @Gilnean, @Female, 18770),
+(1038, 47, @Gilnean, @Male, 19021),
+(1039, 47, @Worgen, @Female, 23319),
+(1040, 47, @Goblin, @Female, 19248),
+(1041, 47, @Goblin, @Male, 23330),
+(1042, 47, @Worgen, @Male, 19348),
+(1043, 52, @NightElf, @Female, 6928),
+(1044, 52, @NightElf, @Male, 6933),
+(1045, 52, @BloodElf, @Male, 9652),
+(1046, 52, @BloodElf, @Female, 9648),
+(1047, 52, @Draenei, @Male, 9702),
+(1048, 52, @Draenei, @Female, 9677),
+(1049, 52, @Dwarf, @Female, 6894),
+(1050, 52, @Dwarf, @Male, 6903),
+(1051, 52, @Gnome, @Male, 6913),
+(1052, 52, @Gnome, @Female, 6908),
+(1053, 52, @Human, @Female, 6918),
+(1054, 52, @Human, @Male, 6923),
+(1055, 52, @Orc, @Male, 6943),
+(1056, 52, @Orc, @Female, 6938),
+(1057, 52, @Tauren, @Female, 6948),
+(1058, 52, @Tauren, @Male, 6953),
+(1059, 52, @Troll, @Female, 6958),
+(1060, 52, @Troll, @Male, 6963),
+(1061, 52, @Undead, @Female, 6969),
+(1062, 52, @Undead, @Male, 6974),
+(1063, 52, @Gilnean, @Female, 18770),
+(1064, 52, @Gilnean, @Male, 19021),
+(1065, 52, @Worgen, @Female, 23319),
+(1066, 52, @Goblin, @Female, 19248),
+(1067, 52, @Goblin, @Male, 23330),
+(1068, 52, @Worgen, @Male, 19348),
+(1069, 85, @Gilnean, @Male, 7914),
+(1070, 85, @Gilnean, @Female, 26566),
+(1071, 85, @Worgen, @Male, 7922),
+(1072, 85, @Worgen, @Female, 26567),
+(1073, 85, @Goblin, @Male, 7918),
+(1074, 85, @Goblin, @Female, 10577),
+(1075, 104, @Gilnean, @Male, 26561),
+(1076, 104, @Gilnean, @Female, 26560),
+(1077, 104, @Worgen, @Male, 26551),
+(1078, 104, @Worgen, @Female, 26550),
+(1079, 104, @Goblin, @Male, 26553),
+(1080, 104, @Goblin, @Female, 26552),
+(1081, 14, @Goblin, @Male, 26556),
+(1082, 14, @Goblin, @Female, 26557),
+(1083, 14, @Worgen, @Male, 26554),
+(1084, 14, @Worgen, @Female, 26555),
+(1085, 14, @Gilnean, @Male, 26559),
+(1086, 14, @Gilnean, @Female, 26558),
+(1087, 106, @Gilnean, @Female, 7931),
+(1088, 106, @Gilnean, @Male, 7932),
+(1089, 106, @Worgen, @Male, 7940),
+(1090, 106, @Worgen, @Female, 7939),
+(1091, 106, @Goblin, @Female, 10578),
+(1092, 106, @Goblin, @Male, 10576),
+(1093, 183, @Worgen, @Female, 26568),
+(1094, 23, @NightElf, @Female, 6928),
+(1095, 23, @NightElf, @Male, 6933),
+(1096, 23, @BloodElf, @Male, 9652),
+(1097, 23, @BloodElf, @Female, 9648),
+(1098, 23, @Draenei, @Male, 9702),
+(1099, 23, @Draenei, @Female, 9677),
+(1100, 23, @Dwarf, @Female, 6894),
+(1101, 23, @Dwarf, @Male, 6903),
+(1102, 23, @Gnome, @Male, 6913),
+(1103, 23, @Gnome, @Female, 6908),
+(1104, 23, @Human, @Female, 6918),
+(1105, 23, @Human, @Male, 6923),
+(1106, 23, @Orc, @Male, 6943),
+(1107, 23, @Orc, @Female, 6938),
+(1108, 23, @Tauren, @Female, 6948),
+(1109, 23, @Tauren, @Male, 6953),
+(1110, 23, @Troll, @Female, 6958),
+(1111, 23, @Troll, @Male, 6963),
+(1112, 23, @Undead, @Female, 6969),
+(1113, 23, @Undead, @Male, 6974),
+(1114, 23, @Gilnean, @Female, 18770),
+(1115, 23, @Gilnean, @Male, 19021),
+(1116, 23, @Worgen, @Female, 23319),
+(1117, 23, @Goblin, @Female, 19248),
+(1118, 23, @Goblin, @Male, 23330),
+(1119, 23, @Worgen, @Male, 19348),
+(1121, 58, @NightElf, @Female, 6927),
+(1122, 58, @NightElf, @Male, 6932),
+(1123, 58, @BloodElf, @Male, 9874),
+(1124, 58, @BloodElf, @Female, 9873),
+(1125, 58, @Draenei, @Male, 9876),
+(1126, 58, @Draenei, @Female, 9875),
+(1127, 58, @Dwarf, @Female, 6898),
+(1128, 58, @Dwarf, @Male, 6902),
+(1129, 58, @Gnome, @Male, 6912),
+(1130, 58, @Gnome, @Female, 6907),
+(1131, 58, @Human, @Female, 6917),
+(1132, 58, @Human, @Male, 6922),
+(1133, 58, @Orc, @Male, 6942),
+(1134, 58, @Orc, @Female, 6937),
+(1135, 58, @Tauren, @Female, 6947),
+(1136, 58, @Tauren, @Male, 6952),
+(1137, 58, @Troll, @Female, 6957),
+(1138, 58, @Troll, @Male, 6962),
+(1139, 58, @Undead, @Female, 6968),
+(1140, 58, @Undead, @Male, 6973),
+(1141, 58, @Gilnean, @Female, 23296),
+(1142, 58, @Gilnean, @Male, 19020),
+(1143, 58, @Worgen, @Female, 23320),
+(1144, 58, @Goblin, @Female, 19247),
+(1145, 58, @Goblin, @Male, 19138),
+(1146, 58, @Worgen, @Male, 23325);

@@ -1,3287 +1,1648 @@
 -- charsections: 1642 inserts, 0 updates, 0 deletes
 
 -- New entries
--- DELETE FROM `charsections` WHERE `id` = 20000;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20000, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_00.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_00_Extra.blp', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20001;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20001, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_01.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_01_Extra.blp', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20002;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20002, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_02.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_02_Extra.blp', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20003;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20003, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_03.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_03_Extra.blp', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20004;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20004, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_04.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_04_Extra.blp', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20005;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20005, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_05.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_05_Extra.blp', '', 5, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 20006;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20006, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_06.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_06_Extra.blp', '', 5, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 20007;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20007, 12, 0, 0, 'Character\\Worgen\\Male\\WorgenMaleSkin00_07.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_07_Extra.blp', '', 5, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 20008;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20008, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_00.blp', '', 1, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20009;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20009, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_01.blp', '', 1, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20010;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20010, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_02.blp', '', 1, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20011;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20011, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_03.blp', '', 1, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20012;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20012, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_04.blp', '', 1, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20013;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20013, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_05.blp', '', 5, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 20014;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20014, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_06.blp', '', 5, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 20015;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20015, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_07.blp', '', 5, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 20016;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20016, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_00.blp', '', 1, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 20017;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20017, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_01.blp', '', 1, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 20018;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20018, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_02.blp', '', 1, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 20019;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20019, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_03.blp', '', 1, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 20020;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20020, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_04.blp', '', 1, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 20021;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20021, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_00.blp', '', 1, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 20022;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20022, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_01.blp', '', 1, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 20023;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20023, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_02.blp', '', 1, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 20024;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20024, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_03.blp', '', 1, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 20025;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20025, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_04.blp', '', 1, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 20026;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20026, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_00.blp', '', 1, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 20027;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20027, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_01.blp', '', 1, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 20028;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20028, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_02.blp', '', 1, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 20029;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20029, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_03.blp', '', 1, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 20030;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20030, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_04.blp', '', 1, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 20031;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20031, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_00.blp', '', 1, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 20032;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20032, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_01.blp', '', 1, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 20033;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20033, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_02.blp', '', 1, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 20034;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20034, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_03.blp', '', 1, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 20035;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20035, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_04.blp', '', 1, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 20036;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20036, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_00.blp', '', 5, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 20037;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20037, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_01.blp', '', 5, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 20038;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20038, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_02.blp', '', 5, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 20039;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20039, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_03.blp', '', 5, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 20040;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20040, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_04.blp', '', 5, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 20041;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20041, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_00.blp', '', 5, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 20042;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20042, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_01.blp', '', 5, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 20043;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20043, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_02.blp', '', 5, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 20044;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20044, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_03.blp', '', 5, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 20045;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20045, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_04.blp', '', 5, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 20046;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20046, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_00.blp', '', 5, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 20047;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20047, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_01.blp', '', 5, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 20048;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20048, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_02.blp', '', 5, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 20049;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20049, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_03.blp', '', 5, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 20050;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20050, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_04.blp', '', 5, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 20051;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20051, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_00.blp', '', 5, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 20052;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20052, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_01.blp', '', 5, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 20053;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20053, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_02.blp', '', 5, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 20054;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20054, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_03.blp', '', 5, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 20055;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20055, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_04.blp', '', 5, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 20056;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20056, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_00.blp', '', 5, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 20057;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20057, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_01.blp', '', 5, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 20058;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20058, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_02.blp', '', 5, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 20059;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20059, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_03.blp', '', 5, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 20060;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20060, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_04.blp', '', 5, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 20061;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20061, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower10_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper10_05.blp', '', 5, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 20062;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20062, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower10_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper10_06.blp', '', 5, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 20063;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20063, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower10_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper10_07.blp', '', 5, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 20064;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20064, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower11_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper11_05.blp', '', 5, 11, 5);
--- DELETE FROM `charsections` WHERE `id` = 20065;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20065, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower11_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper11_06.blp', '', 5, 11, 6);
--- DELETE FROM `charsections` WHERE `id` = 20066;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20066, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower11_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper11_07.blp', '', 5, 11, 7);
--- DELETE FROM `charsections` WHERE `id` = 20067;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20067, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower12_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper12_05.blp', '', 5, 12, 5);
--- DELETE FROM `charsections` WHERE `id` = 20068;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20068, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower12_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper12_06.blp', '', 5, 12, 6);
--- DELETE FROM `charsections` WHERE `id` = 20069;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20069, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower12_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper12_07.blp', '', 5, 12, 7);
--- DELETE FROM `charsections` WHERE `id` = 20070;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20070, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower13_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper13_05.blp', '', 5, 13, 5);
--- DELETE FROM `charsections` WHERE `id` = 20071;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20071, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower13_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper13_06.blp', '', 5, 13, 6);
--- DELETE FROM `charsections` WHERE `id` = 20072;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20072, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower13_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper13_07.blp', '', 5, 13, 7);
--- DELETE FROM `charsections` WHERE `id` = 20073;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20073, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower14_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper14_05.blp', '', 5, 14, 5);
--- DELETE FROM `charsections` WHERE `id` = 20074;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20074, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower14_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper14_06.blp', '', 5, 14, 6);
--- DELETE FROM `charsections` WHERE `id` = 20075;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20075, 12, 0, 1, 'Character\\Worgen\\Male\\WorgenMaleFaceLower14_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper14_07.blp', '', 5, 14, 7);
--- DELETE FROM `charsections` WHERE `id` = 20076;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20076, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair00_00.blp', 'Character\\Worgen\\FacialUpperHair00_00.blp', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20077;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20077, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair00_01.blp', 'Character\\Worgen\\FacialUpperHair00_01.blp', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20078;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20078, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair00_02.blp', 'Character\\Worgen\\FacialUpperHair00_02.blp', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20079;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20079, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair00_03.blp', 'Character\\Worgen\\FacialUpperHair00_03.blp', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20080;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20080, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair00_04.blp', 'Character\\Worgen\\FacialUpperHair00_04.blp', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20081;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20081, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair01_00.blp', 'Character\\Worgen\\FacialUpperHair01_00.blp', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 20082;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20082, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair01_01.blp', 'Character\\Worgen\\FacialUpperHair01_01.blp', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 20083;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20083, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair01_02.blp', 'Character\\Worgen\\FacialUpperHair01_02.blp', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 20084;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20084, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair01_03.blp', 'Character\\Worgen\\FacialUpperHair01_03.blp', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 20085;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20085, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair01_04.blp', 'Character\\Worgen\\FacialUpperHair01_04.blp', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 20086;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20086, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair02_00.blp', 'Character\\Worgen\\FacialUpperHair02_00.blp', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 20087;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20087, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair02_01.blp', 'Character\\Worgen\\FacialUpperHair02_01.blp', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 20088;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20088, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair02_02.blp', 'Character\\Worgen\\FacialUpperHair02_02.blp', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 20089;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20089, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair02_03.blp', 'Character\\Worgen\\FacialUpperHair02_03.blp', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 20090;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20090, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair02_04.blp', 'Character\\Worgen\\FacialUpperHair02_04.blp', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 20091;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20091, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair03_00.blp', 'Character\\Worgen\\FacialUpperHair03_00.blp', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 20092;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20092, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair03_01.blp', 'Character\\Worgen\\FacialUpperHair03_01.blp', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 20093;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20093, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair03_02.blp', 'Character\\Worgen\\FacialUpperHair03_02.blp', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 20094;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20094, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair03_03.blp', 'Character\\Worgen\\FacialUpperHair03_03.blp', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 20095;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20095, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair03_04.blp', 'Character\\Worgen\\FacialUpperHair03_04.blp', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 20096;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20096, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair04_00.blp', 'Character\\Worgen\\FacialUpperHair04_00.blp', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 20097;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20097, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair04_01.blp', 'Character\\Worgen\\FacialUpperHair04_01.blp', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 20098;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20098, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair04_02.blp', 'Character\\Worgen\\FacialUpperHair04_02.blp', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 20099;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20099, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair04_03.blp', 'Character\\Worgen\\FacialUpperHair04_03.blp', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 20100;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20100, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair04_04.blp', 'Character\\Worgen\\FacialUpperHair04_04.blp', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 20101;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20101, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair05_00.blp', 'Character\\Worgen\\FacialUpperHair05_00.blp', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 20102;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20102, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair05_01.blp', 'Character\\Worgen\\FacialUpperHair05_01.blp', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 20103;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20103, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair05_02.blp', 'Character\\Worgen\\FacialUpperHair05_02.blp', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 20104;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20104, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair05_03.blp', 'Character\\Worgen\\FacialUpperHair05_03.blp', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 20105;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20105, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair05_04.blp', 'Character\\Worgen\\FacialUpperHair05_04.blp', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 20106;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20106, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair06_00.blp', 'Character\\Worgen\\FacialUpperHair06_00.blp', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 20107;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20107, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair06_01.blp', 'Character\\Worgen\\FacialUpperHair06_01.blp', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 20108;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20108, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair06_02.blp', 'Character\\Worgen\\FacialUpperHair06_02.blp', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 20109;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20109, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair06_03.blp', 'Character\\Worgen\\FacialUpperHair06_03.blp', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 20110;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20110, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair06_04.blp', 'Character\\Worgen\\FacialUpperHair06_04.blp', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 20111;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20111, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair07_00.blp', 'Character\\Worgen\\FacialUpperHair07_00.blp', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 20112;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20112, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair07_01.blp', 'Character\\Worgen\\FacialUpperHair07_01.blp', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 20113;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20113, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair07_02.blp', 'Character\\Worgen\\FacialUpperHair07_02.blp', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 20114;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20114, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair07_03.blp', 'Character\\Worgen\\FacialUpperHair07_03.blp', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 20115;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20115, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair07_04.blp', 'Character\\Worgen\\FacialUpperHair07_04.blp', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 20116;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20116, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair08_00.blp', 'Character\\Worgen\\FacialUpperHair08_00.blp', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 20117;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20117, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair08_01.blp', 'Character\\Worgen\\FacialUpperHair08_01.blp', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 20118;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20118, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair08_02.blp', 'Character\\Worgen\\FacialUpperHair08_02.blp', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 20119;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20119, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair08_03.blp', 'Character\\Worgen\\FacialUpperHair08_03.blp', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 20120;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20120, 12, 0, 2, 'Character\\Worgen\\FacialLowerHair08_04.blp', 'Character\\Worgen\\FacialUpperHair08_04.blp', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 20121;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20121, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20122;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20122, 12, 0, 3, '', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20123;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20123, 12, 0, 3, '', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20124;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20124, 12, 0, 3, '', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20125;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20125, 12, 0, 3, '', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20126;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20126, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 20127;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20127, 12, 0, 3, '', '', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 20128;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20128, 12, 0, 3, '', '', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 20129;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20129, 12, 0, 3, '', '', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 20130;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20130, 12, 0, 3, '', '', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 20131;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20131, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 20132;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20132, 12, 0, 3, '', '', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 20133;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20133, 12, 0, 3, '', '', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 20134;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20134, 12, 0, 3, '', '', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 20135;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20135, 12, 0, 3, '', '', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 20136;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20136, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 20137;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20137, 12, 0, 3, '', '', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 20138;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20138, 12, 0, 3, '', '', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 20139;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20139, 12, 0, 3, '', '', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 20140;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20140, 12, 0, 3, '', '', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 20141;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20141, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 20142;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20142, 12, 0, 3, '', '', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 20143;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20143, 12, 0, 3, '', '', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 20144;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20144, 12, 0, 3, '', '', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 20145;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20145, 12, 0, 3, '', '', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 20146;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20146, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 20147;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20147, 12, 0, 3, '', '', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 20148;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20148, 12, 0, 3, '', '', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 20149;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20149, 12, 0, 3, '', '', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 20150;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20150, 12, 0, 3, '', '', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 20151;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20151, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 20152;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20152, 12, 0, 3, '', '', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 20153;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20153, 12, 0, 3, '', '', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 20154;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20154, 12, 0, 3, '', '', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 20155;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20155, 12, 0, 3, '', '', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 20156;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20156, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 20157;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20157, 12, 0, 3, '', '', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 20158;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20158, 12, 0, 3, '', '', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 20159;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20159, 12, 0, 3, '', '', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 20160;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20160, 12, 0, 3, '', '', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 20161;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20161, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 20162;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20162, 12, 0, 3, '', '', '', 18, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 20163;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20163, 12, 0, 3, '', '', '', 18, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 20164;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20164, 12, 0, 3, '', '', '', 18, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 20165;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20165, 12, 0, 3, '', '', '', 18, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 20166;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20166, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 20167;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20167, 12, 0, 3, '', '', '', 18, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 20168;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20168, 12, 0, 3, '', '', '', 18, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 20169;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20169, 12, 0, 3, '', '', '', 18, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 20170;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20170, 12, 0, 3, '', '', '', 18, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 20171;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20171, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 20172;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20172, 12, 0, 3, '', '', '', 18, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 20173;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20173, 12, 0, 3, '', '', '', 18, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 20174;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20174, 12, 0, 3, '', '', '', 18, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 20175;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20175, 12, 0, 3, '', '', '', 18, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 20176;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20176, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 20177;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20177, 12, 0, 3, '', '', '', 18, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 20178;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20178, 12, 0, 3, '', '', '', 18, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 20179;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20179, 12, 0, 3, '', '', '', 18, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 20180;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20180, 12, 0, 3, '', '', '', 18, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 20181;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20181, 12, 0, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 12, 0);
--- DELETE FROM `charsections` WHERE `id` = 20182;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20182, 12, 0, 3, '', '', '', 18, 12, 1);
--- DELETE FROM `charsections` WHERE `id` = 20183;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20183, 12, 0, 3, '', '', '', 18, 12, 2);
--- DELETE FROM `charsections` WHERE `id` = 20184;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20184, 12, 0, 3, '', '', '', 18, 12, 3);
--- DELETE FROM `charsections` WHERE `id` = 20185;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20185, 12, 0, 3, '', '', '', 18, 12, 4);
--- DELETE FROM `charsections` WHERE `id` = 20186;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20186, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20187;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20187, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20188;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20188, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20189;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20189, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20190;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20190, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20191;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20191, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_dk.blp', '', '', 5, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 20192;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20192, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_dk.blp', '', '', 5, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 20193;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20193, 12, 0, 4, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_dk.blp', '', '', 5, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 20194;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20194, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_00.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_00_EXTRA.BLP', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20195;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20195, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_01.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_01_EXTRA.BLP', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20196;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20196, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_02.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_02_EXTRA.BLP', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20197;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20197, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_03.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_03_EXTRA.BLP', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20198;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20198, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_04.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_04_EXTRA.BLP', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20199;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20199, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_05.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_05_EXTRA.BLP', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 20200;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20200, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_06.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_06_EXTRA.BLP', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 20201;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20201, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_07.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_07_EXTRA.BLP', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 20202;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20202, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_08.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_08_EXTRA.BLP', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 20203;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20203, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_09.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_09_EXTRA.BLP', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 20204;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20204, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_10.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_10_EXTRA.BLP', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 20205;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20205, 12, 1, 0, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_11.BLP', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_11_EXTRA.BLP', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 20206;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20206, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_00.blp', '', 1, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20207;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20207, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_01.blp', '', 1, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20208;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20208, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_02.blp', '', 1, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20209;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20209, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_03.blp', '', 1, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20210;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20210, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_04.blp', '', 1, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20211;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20211, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_05.blp', '', 1, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 20212;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20212, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_06.blp', '', 1, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 20213;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20213, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_07.blp', '', 1, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 20214;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20214, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_08.blp', '', 1, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 20215;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20215, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_00.blp', '', 1, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 20216;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20216, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_01.blp', '', 1, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 20217;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20217, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_02.blp', '', 1, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 20218;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20218, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_03.blp', '', 1, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 20219;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20219, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_04.blp', '', 1, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 20220;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20220, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_05.blp', '', 1, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 20221;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20221, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_06.blp', '', 1, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 20222;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20222, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_07.blp', '', 1, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 20223;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20223, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_08.blp', '', 1, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 20224;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20224, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_00.blp', '', 1, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 20225;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20225, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_01.blp', '', 1, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 20226;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20226, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_02.blp', '', 1, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 20227;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20227, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_03.blp', '', 1, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 20228;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20228, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_04.blp', '', 1, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 20229;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20229, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_05.blp', '', 1, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 20230;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20230, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_06.blp', '', 1, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 20231;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20231, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_07.blp', '', 1, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 20232;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20232, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_08.blp', '', 1, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 20233;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20233, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_00.blp', '', 1, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 20234;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20234, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_01.blp', '', 1, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 20235;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20235, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_02.blp', '', 1, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 20236;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20236, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_03.blp', '', 1, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 20237;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20237, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_04.blp', '', 1, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 20238;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20238, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_05.blp', '', 1, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 20239;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20239, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_06.blp', '', 1, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 20240;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20240, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_07.blp', '', 1, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 20241;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20241, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_08.blp', '', 1, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 20242;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20242, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_00.blp', '', 1, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 20243;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20243, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_01.blp', '', 1, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 20244;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20244, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_02.blp', '', 1, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 20245;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20245, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_03.blp', '', 1, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 20246;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20246, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_04.blp', '', 1, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 20247;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20247, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_05.blp', '', 1, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 20248;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20248, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_06.blp', '', 1, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 20249;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20249, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_07.blp', '', 1, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 20250;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20250, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_08.blp', '', 1, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 20251;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20251, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_00.blp', '', 1, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 20252;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20252, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_01.blp', '', 1, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 20253;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20253, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_02.blp', '', 1, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 20254;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20254, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_03.blp', '', 1, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 20255;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20255, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_04.blp', '', 1, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 20256;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20256, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_05.blp', '', 1, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 20257;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20257, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_06.blp', '', 1, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 20258;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20258, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_07.blp', '', 1, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 20259;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20259, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_08.blp', '', 1, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 20260;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20260, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_00.blp', '', 1, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 20261;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20261, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_01.blp', '', 1, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 20262;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20262, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_02.blp', '', 1, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 20263;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20263, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_03.blp', '', 1, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 20264;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20264, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_04.blp', '', 1, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 20265;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20265, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_05.blp', '', 1, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 20266;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20266, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_06.blp', '', 1, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 20267;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20267, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_07.blp', '', 1, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 20268;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20268, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_08.blp', '', 1, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 20269;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20269, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_00.blp', '', 1, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 20270;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20270, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_01.blp', '', 1, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 20271;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20271, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_02.blp', '', 1, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 20272;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20272, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_03.blp', '', 1, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 20273;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20273, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_04.blp', '', 1, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 20274;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20274, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_05.blp', '', 1, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 20275;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20275, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_06.blp', '', 1, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 20276;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20276, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_07.blp', '', 1, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 20277;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20277, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_08.blp', '', 1, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 20278;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20278, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_09.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_09.blp', '', 5, 7, 9);
--- DELETE FROM `charsections` WHERE `id` = 20279;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20279, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_10.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_10.blp', '', 5, 7, 10);
--- DELETE FROM `charsections` WHERE `id` = 20280;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20280, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_11.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_11.blp', '', 5, 7, 11);
--- DELETE FROM `charsections` WHERE `id` = 20281;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20281, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_00.blp', '', 1, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 20282;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20282, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_01.blp', '', 1, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 20283;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20283, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_02.blp', '', 1, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 20284;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20284, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_03.blp', '', 1, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 20285;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20285, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_04.blp', '', 1, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 20286;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20286, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_05.blp', '', 1, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 20287;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20287, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_06.blp', '', 1, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 20288;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20288, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_07.blp', '', 1, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 20289;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20289, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_08.blp', '', 1, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 20290;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20290, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_00.blp', '', 1, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 20291;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20291, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_01.blp', '', 1, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 20292;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20292, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_02.blp', '', 1, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 20293;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20293, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_03.blp', '', 1, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 20294;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20294, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_04.blp', '', 1, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 20295;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20295, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_05.blp', '', 1, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 20296;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20296, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_06.blp', '', 1, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 20297;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20297, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_07.blp', '', 1, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 20298;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20298, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_08.blp', '', 1, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 20299;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20299, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_09.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_09.blp', '', 5, 9, 9);
--- DELETE FROM `charsections` WHERE `id` = 20300;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20300, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_10.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_10.blp', '', 5, 9, 10);
--- DELETE FROM `charsections` WHERE `id` = 20301;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20301, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_11.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_11.blp', '', 5, 9, 11);
--- DELETE FROM `charsections` WHERE `id` = 20302;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20302, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_00.blp', '', 1, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 20303;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20303, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_01.blp', '', 1, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 20304;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20304, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_02.blp', '', 1, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 20305;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20305, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_03.blp', '', 1, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 20306;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20306, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_04.blp', '', 1, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 20307;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20307, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_05.blp', '', 1, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 20308;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20308, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_06.blp', '', 1, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 20309;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20309, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_07.blp', '', 1, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 20310;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20310, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_08.blp', '', 1, 10, 8);
--- DELETE FROM `charsections` WHERE `id` = 20311;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20311, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_00.blp', '', 1, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 20312;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20312, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_01.blp', '', 1, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 20313;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20313, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_02.blp', '', 1, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 20314;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20314, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_03.blp', '', 1, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 20315;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20315, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_04.blp', '', 1, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 20316;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20316, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_05.blp', '', 1, 11, 5);
--- DELETE FROM `charsections` WHERE `id` = 20317;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20317, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_06.blp', '', 1, 11, 6);
--- DELETE FROM `charsections` WHERE `id` = 20318;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20318, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_07.blp', '', 1, 11, 7);
--- DELETE FROM `charsections` WHERE `id` = 20319;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20319, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_08.blp', '', 1, 11, 8);
--- DELETE FROM `charsections` WHERE `id` = 20320;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20320, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_00.blp', '', 1, 12, 0);
--- DELETE FROM `charsections` WHERE `id` = 20321;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20321, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_01.blp', '', 1, 12, 1);
--- DELETE FROM `charsections` WHERE `id` = 20322;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20322, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_02.blp', '', 1, 12, 2);
--- DELETE FROM `charsections` WHERE `id` = 20323;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20323, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_03.blp', '', 1, 12, 3);
--- DELETE FROM `charsections` WHERE `id` = 20324;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20324, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_04.blp', '', 1, 12, 4);
--- DELETE FROM `charsections` WHERE `id` = 20325;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20325, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_05.blp', '', 1, 12, 5);
--- DELETE FROM `charsections` WHERE `id` = 20326;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20326, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_06.blp', '', 1, 12, 6);
--- DELETE FROM `charsections` WHERE `id` = 20327;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20327, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_07.blp', '', 1, 12, 7);
--- DELETE FROM `charsections` WHERE `id` = 20328;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20328, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_08.blp', '', 1, 12, 8);
--- DELETE FROM `charsections` WHERE `id` = 20329;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20329, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_00.blp', '', 1, 13, 0);
--- DELETE FROM `charsections` WHERE `id` = 20330;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20330, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_01.blp', '', 1, 13, 1);
--- DELETE FROM `charsections` WHERE `id` = 20331;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20331, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_02.blp', '', 1, 13, 2);
--- DELETE FROM `charsections` WHERE `id` = 20332;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20332, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_03.blp', '', 1, 13, 3);
--- DELETE FROM `charsections` WHERE `id` = 20333;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20333, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_04.blp', '', 1, 13, 4);
--- DELETE FROM `charsections` WHERE `id` = 20334;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20334, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_05.blp', '', 1, 13, 5);
--- DELETE FROM `charsections` WHERE `id` = 20335;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20335, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_06.blp', '', 1, 13, 6);
--- DELETE FROM `charsections` WHERE `id` = 20336;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20336, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_07.blp', '', 1, 13, 7);
--- DELETE FROM `charsections` WHERE `id` = 20337;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20337, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_08.blp', '', 1, 13, 8);
--- DELETE FROM `charsections` WHERE `id` = 20338;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20338, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_09.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_09.blp', '', 5, 13, 9);
--- DELETE FROM `charsections` WHERE `id` = 20339;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20339, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_10.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_10.blp', '', 5, 13, 10);
--- DELETE FROM `charsections` WHERE `id` = 20340;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20340, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_11.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_11.blp', '', 5, 13, 11);
--- DELETE FROM `charsections` WHERE `id` = 20341;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20341, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_00.blp', '', 5, 14, 0);
--- DELETE FROM `charsections` WHERE `id` = 20342;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20342, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_01.blp', '', 5, 14, 1);
--- DELETE FROM `charsections` WHERE `id` = 20343;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20343, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_02.blp', '', 5, 14, 2);
--- DELETE FROM `charsections` WHERE `id` = 20344;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20344, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_03.blp', '', 5, 14, 3);
--- DELETE FROM `charsections` WHERE `id` = 20345;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20345, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_04.blp', '', 5, 14, 4);
--- DELETE FROM `charsections` WHERE `id` = 20346;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20346, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_05.blp', '', 5, 14, 5);
--- DELETE FROM `charsections` WHERE `id` = 20347;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20347, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_06.blp', '', 5, 14, 6);
--- DELETE FROM `charsections` WHERE `id` = 20348;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20348, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_07.blp', '', 5, 14, 7);
--- DELETE FROM `charsections` WHERE `id` = 20349;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20349, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_08.blp', '', 5, 14, 8);
--- DELETE FROM `charsections` WHERE `id` = 20350;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20350, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_00.blp', '', 5, 15, 0);
--- DELETE FROM `charsections` WHERE `id` = 20351;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20351, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_01.blp', '', 5, 15, 1);
--- DELETE FROM `charsections` WHERE `id` = 20352;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20352, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_02.blp', '', 5, 15, 2);
--- DELETE FROM `charsections` WHERE `id` = 20353;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20353, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_03.blp', '', 5, 15, 3);
--- DELETE FROM `charsections` WHERE `id` = 20354;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20354, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_04.blp', '', 5, 15, 4);
--- DELETE FROM `charsections` WHERE `id` = 20355;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20355, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_05.blp', '', 5, 15, 5);
--- DELETE FROM `charsections` WHERE `id` = 20356;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20356, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_06.blp', '', 5, 15, 6);
--- DELETE FROM `charsections` WHERE `id` = 20357;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20357, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_07.blp', '', 5, 15, 7);
--- DELETE FROM `charsections` WHERE `id` = 20358;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20358, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_08.blp', '', 5, 15, 8);
--- DELETE FROM `charsections` WHERE `id` = 20359;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20359, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_00.blp', '', 5, 16, 0);
--- DELETE FROM `charsections` WHERE `id` = 20360;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20360, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_01.blp', '', 5, 16, 1);
--- DELETE FROM `charsections` WHERE `id` = 20361;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20361, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_02.blp', '', 5, 16, 2);
--- DELETE FROM `charsections` WHERE `id` = 20362;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20362, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_03.blp', '', 5, 16, 3);
--- DELETE FROM `charsections` WHERE `id` = 20363;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20363, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_04.blp', '', 5, 16, 4);
--- DELETE FROM `charsections` WHERE `id` = 20364;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20364, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_05.blp', '', 5, 16, 5);
--- DELETE FROM `charsections` WHERE `id` = 20365;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20365, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_06.blp', '', 5, 16, 6);
--- DELETE FROM `charsections` WHERE `id` = 20366;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20366, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_07.blp', '', 5, 16, 7);
--- DELETE FROM `charsections` WHERE `id` = 20367;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20367, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_08.blp', '', 5, 16, 8);
--- DELETE FROM `charsections` WHERE `id` = 20368;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20368, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_00.blp', '', 5, 17, 0);
--- DELETE FROM `charsections` WHERE `id` = 20369;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20369, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_01.blp', '', 5, 17, 1);
--- DELETE FROM `charsections` WHERE `id` = 20370;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20370, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_02.blp', '', 5, 17, 2);
--- DELETE FROM `charsections` WHERE `id` = 20371;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20371, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_03.blp', '', 5, 17, 3);
--- DELETE FROM `charsections` WHERE `id` = 20372;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20372, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_04.blp', '', 5, 17, 4);
--- DELETE FROM `charsections` WHERE `id` = 20373;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20373, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_05.blp', '', 5, 17, 5);
--- DELETE FROM `charsections` WHERE `id` = 20374;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20374, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_06.blp', '', 5, 17, 6);
--- DELETE FROM `charsections` WHERE `id` = 20375;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20375, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_07.blp', '', 5, 17, 7);
--- DELETE FROM `charsections` WHERE `id` = 20376;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20376, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_08.blp', '', 5, 17, 8);
--- DELETE FROM `charsections` WHERE `id` = 20377;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20377, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_00.blp', '', 5, 18, 0);
--- DELETE FROM `charsections` WHERE `id` = 20378;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20378, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_01.blp', '', 5, 18, 1);
--- DELETE FROM `charsections` WHERE `id` = 20379;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20379, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_02.blp', '', 5, 18, 2);
--- DELETE FROM `charsections` WHERE `id` = 20380;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20380, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_03.blp', '', 5, 18, 3);
--- DELETE FROM `charsections` WHERE `id` = 20381;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20381, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_04.blp', '', 5, 18, 4);
--- DELETE FROM `charsections` WHERE `id` = 20382;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20382, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_05.blp', '', 5, 18, 5);
--- DELETE FROM `charsections` WHERE `id` = 20383;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20383, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_06.blp', '', 5, 18, 6);
--- DELETE FROM `charsections` WHERE `id` = 20384;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20384, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_07.blp', '', 5, 18, 7);
--- DELETE FROM `charsections` WHERE `id` = 20385;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20385, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_08.blp', '', 5, 18, 8);
--- DELETE FROM `charsections` WHERE `id` = 20386;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20386, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_00.blp', '', 5, 19, 0);
--- DELETE FROM `charsections` WHERE `id` = 20387;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20387, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_01.blp', '', 5, 19, 1);
--- DELETE FROM `charsections` WHERE `id` = 20388;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20388, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_02.blp', '', 5, 19, 2);
--- DELETE FROM `charsections` WHERE `id` = 20389;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20389, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_03.blp', '', 5, 19, 3);
--- DELETE FROM `charsections` WHERE `id` = 20390;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20390, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_04.blp', '', 5, 19, 4);
--- DELETE FROM `charsections` WHERE `id` = 20391;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20391, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_05.blp', '', 5, 19, 5);
--- DELETE FROM `charsections` WHERE `id` = 20392;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20392, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_06.blp', '', 5, 19, 6);
--- DELETE FROM `charsections` WHERE `id` = 20393;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20393, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_07.blp', '', 5, 19, 7);
--- DELETE FROM `charsections` WHERE `id` = 20394;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20394, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_08.blp', '', 5, 19, 8);
--- DELETE FROM `charsections` WHERE `id` = 20395;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20395, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_00.blp', '', 5, 20, 0);
--- DELETE FROM `charsections` WHERE `id` = 20396;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20396, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_01.blp', '', 5, 20, 1);
--- DELETE FROM `charsections` WHERE `id` = 20397;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20397, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_02.blp', '', 5, 20, 2);
--- DELETE FROM `charsections` WHERE `id` = 20398;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20398, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_03.blp', '', 5, 20, 3);
--- DELETE FROM `charsections` WHERE `id` = 20399;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20399, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_04.blp', '', 5, 20, 4);
--- DELETE FROM `charsections` WHERE `id` = 20400;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20400, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_05.blp', '', 5, 20, 5);
--- DELETE FROM `charsections` WHERE `id` = 20401;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20401, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_06.blp', '', 5, 20, 6);
--- DELETE FROM `charsections` WHERE `id` = 20402;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20402, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_07.blp', '', 5, 20, 7);
--- DELETE FROM `charsections` WHERE `id` = 20403;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20403, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_08.blp', '', 5, 20, 8);
--- DELETE FROM `charsections` WHERE `id` = 20404;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20404, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_00.blp', '', 5, 21, 0);
--- DELETE FROM `charsections` WHERE `id` = 20405;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20405, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_01.blp', '', 5, 21, 1);
--- DELETE FROM `charsections` WHERE `id` = 20406;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20406, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_02.blp', '', 5, 21, 2);
--- DELETE FROM `charsections` WHERE `id` = 20407;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20407, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_03.blp', '', 5, 21, 3);
--- DELETE FROM `charsections` WHERE `id` = 20408;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20408, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_04.blp', '', 5, 21, 4);
--- DELETE FROM `charsections` WHERE `id` = 20409;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20409, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_05.blp', '', 5, 21, 5);
--- DELETE FROM `charsections` WHERE `id` = 20410;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20410, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_06.blp', '', 5, 21, 6);
--- DELETE FROM `charsections` WHERE `id` = 20411;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20411, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_07.blp', '', 5, 21, 7);
--- DELETE FROM `charsections` WHERE `id` = 20412;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20412, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_08.blp', '', 5, 21, 8);
--- DELETE FROM `charsections` WHERE `id` = 20413;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20413, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_00.blp', '', 5, 14, 0);
--- DELETE FROM `charsections` WHERE `id` = 20414;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20414, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_01.blp', '', 5, 14, 1);
--- DELETE FROM `charsections` WHERE `id` = 20415;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20415, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_02.blp', '', 5, 14, 2);
--- DELETE FROM `charsections` WHERE `id` = 20416;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20416, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_03.blp', '', 5, 14, 3);
--- DELETE FROM `charsections` WHERE `id` = 20417;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20417, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_04.blp', '', 5, 14, 4);
--- DELETE FROM `charsections` WHERE `id` = 20418;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20418, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_05.blp', '', 5, 14, 5);
--- DELETE FROM `charsections` WHERE `id` = 20419;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20419, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_06.blp', '', 5, 14, 6);
--- DELETE FROM `charsections` WHERE `id` = 20420;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20420, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_07.blp', '', 5, 14, 7);
--- DELETE FROM `charsections` WHERE `id` = 20421;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20421, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_08.blp', '', 5, 14, 8);
--- DELETE FROM `charsections` WHERE `id` = 20422;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20422, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_00.blp', '', 5, 23, 0);
--- DELETE FROM `charsections` WHERE `id` = 20423;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20423, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_01.blp', '', 5, 23, 1);
--- DELETE FROM `charsections` WHERE `id` = 20424;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20424, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_02.blp', '', 5, 23, 2);
--- DELETE FROM `charsections` WHERE `id` = 20425;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20425, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_03.blp', '', 5, 23, 3);
--- DELETE FROM `charsections` WHERE `id` = 20426;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20426, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_04.blp', '', 5, 23, 4);
--- DELETE FROM `charsections` WHERE `id` = 20427;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20427, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_05.blp', '', 5, 23, 5);
--- DELETE FROM `charsections` WHERE `id` = 20428;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20428, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_06.blp', '', 5, 23, 6);
--- DELETE FROM `charsections` WHERE `id` = 20429;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20429, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_07.blp', '', 5, 23, 7);
--- DELETE FROM `charsections` WHERE `id` = 20430;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20430, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_08.blp', '', 5, 23, 8);
--- DELETE FROM `charsections` WHERE `id` = 20431;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20431, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_00.blp', '', 5, 16, 0);
--- DELETE FROM `charsections` WHERE `id` = 20432;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20432, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_01.blp', '', 5, 16, 1);
--- DELETE FROM `charsections` WHERE `id` = 20433;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20433, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_02.blp', '', 5, 16, 2);
--- DELETE FROM `charsections` WHERE `id` = 20434;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20434, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_03.blp', '', 5, 16, 3);
--- DELETE FROM `charsections` WHERE `id` = 20435;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20435, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_04.blp', '', 5, 16, 4);
--- DELETE FROM `charsections` WHERE `id` = 20436;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20436, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_05.blp', '', 5, 16, 5);
--- DELETE FROM `charsections` WHERE `id` = 20437;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20437, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_06.blp', '', 5, 16, 6);
--- DELETE FROM `charsections` WHERE `id` = 20438;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20438, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_07.blp', '', 5, 16, 7);
--- DELETE FROM `charsections` WHERE `id` = 20439;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20439, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_08.blp', '', 5, 16, 8);
--- DELETE FROM `charsections` WHERE `id` = 20440;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20440, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_00.blp', '', 5, 25, 0);
--- DELETE FROM `charsections` WHERE `id` = 20441;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20441, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_01.blp', '', 5, 25, 1);
--- DELETE FROM `charsections` WHERE `id` = 20442;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20442, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_02.blp', '', 5, 25, 2);
--- DELETE FROM `charsections` WHERE `id` = 20443;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20443, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_03.blp', '', 5, 25, 3);
--- DELETE FROM `charsections` WHERE `id` = 20444;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20444, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_04.blp', '', 5, 25, 4);
--- DELETE FROM `charsections` WHERE `id` = 20445;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20445, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_05.blp', '', 5, 25, 5);
--- DELETE FROM `charsections` WHERE `id` = 20446;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20446, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_06.blp', '', 5, 25, 6);
--- DELETE FROM `charsections` WHERE `id` = 20447;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20447, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_07.blp', '', 5, 25, 7);
--- DELETE FROM `charsections` WHERE `id` = 20448;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20448, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_08.blp', '', 5, 25, 8);
--- DELETE FROM `charsections` WHERE `id` = 20449;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20449, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_00.blp', '', 5, 26, 0);
--- DELETE FROM `charsections` WHERE `id` = 20450;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20450, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_01.blp', '', 5, 26, 1);
--- DELETE FROM `charsections` WHERE `id` = 20451;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20451, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_02.blp', '', 5, 26, 2);
--- DELETE FROM `charsections` WHERE `id` = 20452;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20452, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_03.blp', '', 5, 26, 3);
--- DELETE FROM `charsections` WHERE `id` = 20453;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20453, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_04.blp', '', 5, 26, 4);
--- DELETE FROM `charsections` WHERE `id` = 20454;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20454, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_05.blp', '', 5, 26, 5);
--- DELETE FROM `charsections` WHERE `id` = 20455;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20455, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_06.blp', '', 5, 26, 6);
--- DELETE FROM `charsections` WHERE `id` = 20456;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20456, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_07.blp', '', 5, 26, 7);
--- DELETE FROM `charsections` WHERE `id` = 20457;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20457, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_08.blp', '', 5, 26, 8);
--- DELETE FROM `charsections` WHERE `id` = 20458;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20458, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_00.blp', '', 5, 27, 0);
--- DELETE FROM `charsections` WHERE `id` = 20459;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20459, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_01.blp', '', 5, 27, 1);
--- DELETE FROM `charsections` WHERE `id` = 20460;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20460, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_02.blp', '', 5, 27, 2);
--- DELETE FROM `charsections` WHERE `id` = 20461;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20461, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_03.blp', '', 5, 27, 3);
--- DELETE FROM `charsections` WHERE `id` = 20462;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20462, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_04.blp', '', 5, 27, 4);
--- DELETE FROM `charsections` WHERE `id` = 20463;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20463, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_05.blp', '', 5, 27, 5);
--- DELETE FROM `charsections` WHERE `id` = 20464;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20464, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_06.blp', '', 5, 27, 6);
--- DELETE FROM `charsections` WHERE `id` = 20465;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20465, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_07.blp', '', 5, 27, 7);
--- DELETE FROM `charsections` WHERE `id` = 20466;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20466, 12, 1, 1, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_08.blp', '', 5, 27, 8);
--- DELETE FROM `charsections` WHERE `id` = 20467;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20467, 12, 1, 2, '', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20468;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20468, 12, 1, 2, '', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20469;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20469, 12, 1, 2, '', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20470;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20470, 12, 1, 2, '', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20471;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20471, 12, 1, 2, '', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20472;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20472, 12, 1, 2, '', '', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 20473;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20473, 12, 1, 2, '', '', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 20474;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20474, 12, 1, 2, '', '', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 20475;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20475, 12, 1, 2, '', '', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 20476;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20476, 12, 1, 2, '', '', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 20477;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20477, 12, 1, 2, '', '', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 20478;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20478, 12, 1, 2, '', '', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 20479;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20479, 12, 1, 2, '', '', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 20480;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20480, 12, 1, 2, '', '', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 20481;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20481, 12, 1, 2, '', '', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 20482;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20482, 12, 1, 2, '', '', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 20483;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20483, 12, 1, 2, '', '', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 20484;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20484, 12, 1, 2, '', '', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 20485;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20485, 12, 1, 2, '', '', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 20486;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20486, 12, 1, 2, '', '', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 20487;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20487, 12, 1, 2, '', '', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 20488;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20488, 12, 1, 2, '', '', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 20489;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20489, 12, 1, 2, '', '', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 20490;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20490, 12, 1, 2, '', '', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 20491;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20491, 12, 1, 2, '', '', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 20492;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20492, 12, 1, 2, '', '', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 20493;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20493, 12, 1, 2, '', '', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 20494;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20494, 12, 1, 2, '', '', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 20495;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20495, 12, 1, 2, '', '', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 20496;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20496, 12, 1, 2, '', '', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 20497;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20497, 12, 1, 2, '', '', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 20498;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20498, 12, 1, 2, '', '', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 20499;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20499, 12, 1, 2, '', '', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 20500;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20500, 12, 1, 2, '', '', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 20501;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20501, 12, 1, 2, '', '', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 20502;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20502, 12, 1, 2, '', '', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 20503;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20503, 12, 1, 2, '', '', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 20504;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20504, 12, 1, 2, '', '', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 20505;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20505, 12, 1, 2, '', '', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 20506;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20506, 12, 1, 2, '', '', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 20507;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20507, 12, 1, 2, '', '', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 20508;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20508, 12, 1, 2, '', '', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 20509;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20509, 12, 1, 2, '', '', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 20510;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20510, 12, 1, 2, '', '', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 20511;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20511, 12, 1, 2, '', '', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 20512;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20512, 12, 1, 2, '', '', '', 17, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 20513;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20513, 12, 1, 2, '', '', '', 17, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 20514;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20514, 12, 1, 2, '', '', '', 17, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 20515;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20515, 12, 1, 2, '', '', '', 17, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 20516;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20516, 12, 1, 2, '', '', '', 17, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 20517;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20517, 12, 1, 2, '', '', '', 17, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 20518;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20518, 12, 1, 2, '', '', '', 17, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 20519;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20519, 12, 1, 2, '', '', '', 17, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 20520;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20520, 12, 1, 2, '', '', '', 17, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 20521;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20521, 12, 1, 2, '', '', '', 17, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 20522;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20522, 12, 1, 2, '', '', '', 17, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 20523;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20523, 12, 1, 2, '', '', '', 17, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 20524;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20524, 12, 1, 2, '', '', '', 17, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 20525;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20525, 12, 1, 2, '', '', '', 17, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 20526;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20526, 12, 1, 2, '', '', '', 17, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 20527;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20527, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20528;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20528, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20529;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20529, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20530;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20530, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20531;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20531, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20532;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20532, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 20533;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20533, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 20534;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20534, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 20535;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20535, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 20536;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20536, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 20537;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20537, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 20538;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20538, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 20539;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20539, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 20540;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20540, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 20541;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20541, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 20542;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20542, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 20543;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20543, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 20544;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20544, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 20545;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20545, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 20546;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20546, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 20547;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20547, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 20548;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20548, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 20549;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20549, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 20550;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20550, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 20551;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20551, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 20552;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20552, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 20553;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20553, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 20554;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20554, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 20555;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20555, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 20556;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20556, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 20557;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20557, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 20558;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20558, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 20559;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20559, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 20560;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20560, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 20561;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20561, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 20562;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20562, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 20563;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20563, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 20564;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20564, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 20565;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20565, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 20566;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20566, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 20567;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20567, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 20568;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20568, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 20569;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20569, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 20570;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20570, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 20571;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20571, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 20572;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20572, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 20573;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20573, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 20574;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20574, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 20575;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20575, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 20576;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20576, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 20577;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20577, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 20578;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20578, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 20579;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20579, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 20580;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20580, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 20581;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20581, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 20582;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20582, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 20583;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20583, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 20584;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20584, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 20585;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20585, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 20586;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20586, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 20587;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20587, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 12, 0);
--- DELETE FROM `charsections` WHERE `id` = 20588;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20588, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 12, 1);
--- DELETE FROM `charsections` WHERE `id` = 20589;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20589, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 12, 2);
--- DELETE FROM `charsections` WHERE `id` = 20590;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20590, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 12, 3);
--- DELETE FROM `charsections` WHERE `id` = 20591;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20591, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 12, 4);
--- DELETE FROM `charsections` WHERE `id` = 20592;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20592, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 13, 0);
--- DELETE FROM `charsections` WHERE `id` = 20593;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20593, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 13, 1);
--- DELETE FROM `charsections` WHERE `id` = 20594;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20594, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 13, 2);
--- DELETE FROM `charsections` WHERE `id` = 20595;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20595, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 13, 3);
--- DELETE FROM `charsections` WHERE `id` = 20596;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20596, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 13, 4);
--- DELETE FROM `charsections` WHERE `id` = 20597;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20597, 12, 1, 3, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 14, 0);
--- DELETE FROM `charsections` WHERE `id` = 20598;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20598, 12, 1, 3, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 14, 1);
--- DELETE FROM `charsections` WHERE `id` = 20599;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20599, 12, 1, 3, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 14, 2);
--- DELETE FROM `charsections` WHERE `id` = 20600;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20600, 12, 1, 3, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 14, 3);
--- DELETE FROM `charsections` WHERE `id` = 20601;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20601, 12, 1, 3, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 14, 4);
--- DELETE FROM `charsections` WHERE `id` = 20602;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20602, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 20603;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20603, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 20604;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20604, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 20605;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20605, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 20606;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20606, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 20607;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20607, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 20608;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20608, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 20609;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20609, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 20610;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20610, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 20611;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20611, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_dk.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_dk.blp', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 20612;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20612, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_dk.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_dk.blp', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 20613;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (20613, 12, 1, 4, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_dk.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_dk.blp', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23000;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23000, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23001;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23001, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_01.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23002;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23002, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_02.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23003;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23003, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_03.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23004;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23004, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_04.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23005;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23005, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_05.blp', '', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23006;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23006, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_06.blp', '', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23007;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23007, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_07.blp', '', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23008;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23008, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_08.blp', '', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23009;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23009, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_09.blp', '', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23010;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23010, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_10.blp', '', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23011;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23011, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_11.blp', '', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23012;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23012, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_100.blp', '', '', 8, 0, 12);
--- DELETE FROM `charsections` WHERE `id` = 23013;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23013, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_101.blp', '', '', 8, 0, 13);
--- DELETE FROM `charsections` WHERE `id` = 23014;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23014, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_102.blp', '', '', 8, 0, 14);
--- DELETE FROM `charsections` WHERE `id` = 23015;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23015, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_103.blp', '', '', 8, 0, 15);
--- DELETE FROM `charsections` WHERE `id` = 23016;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23016, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_104.blp', '', '', 8, 0, 16);
--- DELETE FROM `charsections` WHERE `id` = 23017;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23017, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_105.blp', '', '', 8, 0, 17);
--- DELETE FROM `charsections` WHERE `id` = 23018;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23018, 9, 0, 0, 'Character\\Goblin\\Male\\GoblinMaleSkin00_106.blp', '', '', 8, 0, 18);
--- DELETE FROM `charsections` WHERE `id` = 23019;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23019, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_00.blp', '', 1, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23020;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23020, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_01.blp', '', 1, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23021;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23021, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_02.blp', '', 1, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23022;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23022, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_03.blp', '', 1, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23023;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23023, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_04.blp', '', 1, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23024;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23024, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_05.blp', '', 1, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23025;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23025, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_06.blp', '', 1, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23026;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23026, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_07.blp', '', 1, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23027;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23027, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_08.blp', '', 1, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23028;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23028, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_09.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_09.blp', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23029;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23029, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_10.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_10.blp', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23030;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23030, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_11.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_11.blp', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23031;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23031, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_00.blp', '', 1, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 23032;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23032, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_01.blp', '', 1, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 23033;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23033, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_02.blp', '', 1, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 23034;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23034, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_03.blp', '', 1, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 23035;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23035, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_04.blp', '', 1, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 23036;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23036, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_05.blp', '', 1, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 23037;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23037, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_06.blp', '', 1, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 23038;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23038, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_07.blp', '', 1, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 23039;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23039, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_08.blp', '', 1, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 23040;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23040, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_09.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_09.blp', '', 5, 1, 9);
--- DELETE FROM `charsections` WHERE `id` = 23041;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23041, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_10.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_10.blp', '', 5, 1, 10);
--- DELETE FROM `charsections` WHERE `id` = 23042;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23042, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_11.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_11.blp', '', 5, 1, 11);
--- DELETE FROM `charsections` WHERE `id` = 23043;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23043, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_00.blp', '', 1, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 23044;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23044, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_01.blp', '', 1, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 23045;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23045, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_02.blp', '', 1, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 23046;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23046, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_03.blp', '', 1, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 23047;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23047, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_04.blp', '', 1, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 23048;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23048, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_05.blp', '', 1, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 23049;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23049, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_06.blp', '', 1, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 23050;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23050, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_07.blp', '', 1, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 23051;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23051, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_08.blp', '', 1, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 23052;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23052, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_09.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_09.blp', '', 5, 2, 9);
--- DELETE FROM `charsections` WHERE `id` = 23053;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23053, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_10.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_10.blp', '', 5, 2, 10);
--- DELETE FROM `charsections` WHERE `id` = 23054;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23054, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_11.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_11.blp', '', 5, 2, 11);
--- DELETE FROM `charsections` WHERE `id` = 23055;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23055, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_00.blp', '', 1, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 23056;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23056, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_01.blp', '', 1, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 23057;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23057, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_02.blp', '', 1, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 23058;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23058, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_03.blp', '', 1, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 23059;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23059, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_04.blp', '', 1, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 23060;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23060, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_05.blp', '', 1, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 23061;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23061, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_06.blp', '', 1, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 23062;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23062, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_07.blp', '', 1, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 23063;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23063, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_08.blp', '', 1, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 23064;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23064, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_00.blp', '', 1, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 23065;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23065, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_01.blp', '', 1, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 23066;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23066, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_02.blp', '', 1, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 23067;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23067, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_03.blp', '', 1, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 23068;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23068, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_04.blp', '', 1, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 23069;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23069, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_05.blp', '', 1, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 23070;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23070, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_06.blp', '', 1, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 23071;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23071, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_07.blp', '', 1, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 23072;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23072, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_08.blp', '', 1, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 23073;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23073, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_12.blp', '', 5, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 23074;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23074, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_13.blp', '', 5, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 23075;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23075, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_14.blp', '', 5, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 23076;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23076, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_15.blp', '', 5, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 23077;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23077, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_16.blp', '', 5, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 23078;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23078, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_17.blp', '', 5, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 23079;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23079, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_18.blp', '', 5, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 23080;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23080, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_19.blp', '', 5, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 23081;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23081, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_20.blp', '', 5, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 23082;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23082, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_12.blp', '', 5, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 23083;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23083, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_13.blp', '', 5, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 23084;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23084, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_14.blp', '', 5, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 23085;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23085, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_15.blp', '', 5, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 23086;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23086, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_16.blp', '', 5, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 23087;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23087, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_17.blp', '', 5, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 23088;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23088, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_18.blp', '', 5, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 23089;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23089, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_19.blp', '', 5, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 23090;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23090, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_20.blp', '', 5, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 23091;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23091, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_12.blp', '', 5, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 23092;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23092, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_13.blp', '', 5, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 23093;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23093, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_14.blp', '', 5, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 23094;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23094, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_15.blp', '', 5, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 23095;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23095, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_16.blp', '', 5, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 23096;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23096, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_17.blp', '', 5, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 23097;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23097, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_18.blp', '', 5, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 23098;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23098, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_19.blp', '', 5, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 23099;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23099, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_20.blp', '', 5, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 23100;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23100, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_12.blp', '', 5, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 23101;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23101, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_13.blp', '', 5, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 23102;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23102, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_14.blp', '', 5, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 23103;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23103, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_15.blp', '', 5, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 23104;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23104, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_16.blp', '', 5, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 23105;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23105, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_17.blp', '', 5, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 23106;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23106, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_18.blp', '', 5, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 23107;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23107, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_19.blp', '', 5, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 23108;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23108, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_20.blp', '', 5, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 23109;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23109, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_12.blp', '', 5, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 23110;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23110, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_13.blp', '', 5, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 23111;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23111, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_14.blp', '', 5, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 23112;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23112, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_15.blp', '', 5, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 23113;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23113, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_16.blp', '', 5, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 23114;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23114, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_17.blp', '', 5, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 23115;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23115, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_18.blp', '', 5, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 23116;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23116, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_19.blp', '', 5, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 23117;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23117, 9, 0, 1, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_20.blp', '', 5, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 23118;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23118, 9, 0, 2, '', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23119;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23119, 9, 0, 2, '', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23120;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23120, 9, 0, 2, '', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23121;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23121, 9, 0, 2, '', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23122;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23122, 9, 0, 2, '', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23123;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23123, 9, 0, 2, '', '', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23124;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23124, 9, 0, 2, '', '', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23125;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23125, 9, 0, 2, '', '', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23126;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23126, 9, 0, 2, '', '', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23127;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23127, 9, 0, 2, '', '', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23128;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23128, 9, 0, 2, '', '', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23129;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23129, 9, 0, 2, '', '', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23130;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23130, 9, 0, 2, '', '', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 23131;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23131, 9, 0, 2, '', '', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 23132;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23132, 9, 0, 2, '', '', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 23133;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23133, 9, 0, 2, '', '', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 23134;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23134, 9, 0, 2, '', '', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 23135;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23135, 9, 0, 2, '', '', '', 17, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 23136;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23136, 9, 0, 2, '', '', '', 17, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 23137;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23137, 9, 0, 2, '', '', '', 17, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 23138;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23138, 9, 0, 2, '', '', '', 17, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 23139;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23139, 9, 0, 2, '', '', '', 5, 1, 9);
--- DELETE FROM `charsections` WHERE `id` = 23140;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23140, 9, 0, 2, '', '', '', 5, 1, 10);
--- DELETE FROM `charsections` WHERE `id` = 23141;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23141, 9, 0, 2, '', '', '', 5, 1, 11);
--- DELETE FROM `charsections` WHERE `id` = 23142;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23142, 9, 0, 2, '', '', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 23143;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23143, 9, 0, 2, '', '', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 23144;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23144, 9, 0, 2, '', '', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 23145;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23145, 9, 0, 2, '', '', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 23146;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23146, 9, 0, 2, '', '', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 23147;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23147, 9, 0, 2, '', '', '', 17, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 23148;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23148, 9, 0, 2, '', '', '', 17, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 23149;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23149, 9, 0, 2, '', '', '', 17, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 23150;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23150, 9, 0, 2, '', '', '', 17, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 23151;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23151, 9, 0, 2, '', '', '', 5, 2, 9);
--- DELETE FROM `charsections` WHERE `id` = 23152;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23152, 9, 0, 2, '', '', '', 5, 2, 10);
--- DELETE FROM `charsections` WHERE `id` = 23153;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23153, 9, 0, 2, '', '', '', 5, 2, 11);
--- DELETE FROM `charsections` WHERE `id` = 23154;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23154, 9, 0, 2, '', '', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 23155;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23155, 9, 0, 2, '', '', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 23156;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23156, 9, 0, 2, '', '', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 23157;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23157, 9, 0, 2, '', '', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 23158;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23158, 9, 0, 2, '', '', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 23159;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23159, 9, 0, 2, '', '', '', 17, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 23160;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23160, 9, 0, 2, '', '', '', 17, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 23161;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23161, 9, 0, 2, '', '', '', 17, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 23162;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23162, 9, 0, 2, '', '', '', 17, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 23163;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23163, 9, 0, 2, '', '', '', 5, 3, 9);
--- DELETE FROM `charsections` WHERE `id` = 23164;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23164, 9, 0, 2, '', '', '', 5, 3, 10);
--- DELETE FROM `charsections` WHERE `id` = 23165;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23165, 9, 0, 2, '', '', '', 5, 3, 11);
--- DELETE FROM `charsections` WHERE `id` = 23166;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23166, 9, 0, 2, '', '', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 23167;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23167, 9, 0, 2, '', '', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 23168;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23168, 9, 0, 2, '', '', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 23169;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23169, 9, 0, 2, '', '', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 23170;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23170, 9, 0, 2, '', '', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 23171;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23171, 9, 0, 2, '', '', '', 17, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 23172;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23172, 9, 0, 2, '', '', '', 17, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 23173;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23173, 9, 0, 2, '', '', '', 17, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 23174;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23174, 9, 0, 2, '', '', '', 17, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 23175;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23175, 9, 0, 2, '', '', '', 5, 4, 9);
--- DELETE FROM `charsections` WHERE `id` = 23176;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23176, 9, 0, 2, '', '', '', 5, 4, 10);
--- DELETE FROM `charsections` WHERE `id` = 23177;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23177, 9, 0, 2, '', '', '', 5, 4, 11);
--- DELETE FROM `charsections` WHERE `id` = 23178;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23178, 9, 0, 2, '', '', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 23179;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23179, 9, 0, 2, '', '', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 23180;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23180, 9, 0, 2, '', '', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 23181;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23181, 9, 0, 2, '', '', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 23182;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23182, 9, 0, 2, '', '', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 23183;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23183, 9, 0, 2, '', '', '', 17, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 23184;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23184, 9, 0, 2, '', '', '', 17, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 23185;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23185, 9, 0, 2, '', '', '', 17, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 23186;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23186, 9, 0, 2, '', '', '', 17, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 23187;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23187, 9, 0, 2, '', '', '', 5, 5, 9);
--- DELETE FROM `charsections` WHERE `id` = 23188;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23188, 9, 0, 2, '', '', '', 5, 5, 10);
--- DELETE FROM `charsections` WHERE `id` = 23189;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23189, 9, 0, 2, '', '', '', 5, 5, 11);
--- DELETE FROM `charsections` WHERE `id` = 23190;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23190, 9, 0, 2, '', '', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 23191;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23191, 9, 0, 2, '', '', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 23192;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23192, 9, 0, 2, '', '', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 23193;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23193, 9, 0, 2, '', '', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 23194;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23194, 9, 0, 2, '', '', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 23195;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23195, 9, 0, 2, '', '', '', 17, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 23196;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23196, 9, 0, 2, '', '', '', 17, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 23197;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23197, 9, 0, 2, '', '', '', 17, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 23198;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23198, 9, 0, 2, '', '', '', 17, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 23199;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23199, 9, 0, 2, '', '', '', 5, 6, 9);
--- DELETE FROM `charsections` WHERE `id` = 23200;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23200, 9, 0, 2, '', '', '', 5, 6, 10);
--- DELETE FROM `charsections` WHERE `id` = 23201;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23201, 9, 0, 2, '', '', '', 5, 6, 11);
--- DELETE FROM `charsections` WHERE `id` = 23202;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23202, 9, 0, 2, '', '', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 23203;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23203, 9, 0, 2, '', '', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 23204;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23204, 9, 0, 2, '', '', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 23205;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23205, 9, 0, 2, '', '', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 23206;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23206, 9, 0, 2, '', '', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 23207;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23207, 9, 0, 2, '', '', '', 17, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 23208;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23208, 9, 0, 2, '', '', '', 17, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 23209;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23209, 9, 0, 2, '', '', '', 17, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 23210;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23210, 9, 0, 2, '', '', '', 17, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 23211;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23211, 9, 0, 2, '', '', '', 5, 7, 9);
--- DELETE FROM `charsections` WHERE `id` = 23212;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23212, 9, 0, 2, '', '', '', 5, 7, 10);
--- DELETE FROM `charsections` WHERE `id` = 23213;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23213, 9, 0, 2, '', '', '', 5, 7, 11);
--- DELETE FROM `charsections` WHERE `id` = 23214;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23214, 9, 0, 2, '', '', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 23215;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23215, 9, 0, 2, '', '', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 23216;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23216, 9, 0, 2, '', '', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 23217;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23217, 9, 0, 2, '', '', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 23218;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23218, 9, 0, 2, '', '', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 23219;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23219, 9, 0, 2, '', '', '', 17, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 23220;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23220, 9, 0, 2, '', '', '', 17, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 23221;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23221, 9, 0, 2, '', '', '', 17, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 23222;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23222, 9, 0, 2, '', '', '', 17, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 23223;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23223, 9, 0, 2, '', '', '', 5, 8, 9);
--- DELETE FROM `charsections` WHERE `id` = 23224;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23224, 9, 0, 2, '', '', '', 5, 8, 10);
--- DELETE FROM `charsections` WHERE `id` = 23225;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23225, 9, 0, 2, '', '', '', 5, 8, 11);
--- DELETE FROM `charsections` WHERE `id` = 23226;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23226, 9, 0, 2, '', '', '', 17, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 23227;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23227, 9, 0, 2, '', '', '', 17, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 23228;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23228, 9, 0, 2, '', '', '', 17, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 23229;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23229, 9, 0, 2, '', '', '', 17, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 23230;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23230, 9, 0, 2, '', '', '', 17, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 23231;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23231, 9, 0, 2, '', '', '', 17, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 23232;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23232, 9, 0, 2, '', '', '', 17, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 23233;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23233, 9, 0, 2, '', '', '', 17, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 23234;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23234, 9, 0, 2, '', '', '', 17, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 23235;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23235, 9, 0, 2, '', '', '', 5, 9, 9);
--- DELETE FROM `charsections` WHERE `id` = 23236;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23236, 9, 0, 2, '', '', '', 5, 9, 10);
--- DELETE FROM `charsections` WHERE `id` = 23237;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23237, 9, 0, 2, '', '', '', 5, 9, 11);
--- DELETE FROM `charsections` WHERE `id` = 23238;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23238, 9, 0, 2, '', '', '', 17, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 23239;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23239, 9, 0, 2, '', '', '', 17, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 23240;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23240, 9, 0, 2, '', '', '', 17, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 23241;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23241, 9, 0, 2, '', '', '', 17, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 23242;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23242, 9, 0, 2, '', '', '', 17, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 23243;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23243, 9, 0, 2, '', '', '', 17, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 23244;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23244, 9, 0, 2, '', '', '', 17, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 23245;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23245, 9, 0, 2, '', '', '', 17, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 23246;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23246, 9, 0, 2, '', '', '', 17, 10, 8);
--- DELETE FROM `charsections` WHERE `id` = 23247;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23247, 9, 0, 2, '', '', '', 5, 10, 9);
--- DELETE FROM `charsections` WHERE `id` = 23248;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23248, 9, 0, 2, '', '', '', 5, 10, 10);
--- DELETE FROM `charsections` WHERE `id` = 23249;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23249, 9, 0, 2, '', '', '', 5, 10, 11);
--- DELETE FROM `charsections` WHERE `id` = 23250;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23250, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23251;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23251, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23252;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23252, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23253;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23253, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23254;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23254, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23255;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23255, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23256;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23256, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23257;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23257, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23258;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23258, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23259;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23259, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23260;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23260, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23261;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23261, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23262;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23262, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 23263;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23263, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 23264;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23264, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 23265;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23265, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 23266;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23266, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 23267;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23267, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 23268;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23268, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 23269;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23269, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 23270;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23270, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 23271;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23271, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 1, 9);
--- DELETE FROM `charsections` WHERE `id` = 23272;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23272, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 1, 10);
--- DELETE FROM `charsections` WHERE `id` = 23273;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23273, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 1, 11);
--- DELETE FROM `charsections` WHERE `id` = 23274;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23274, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 23275;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23275, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 23276;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23276, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 23277;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23277, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 23278;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23278, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 23279;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23279, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 23280;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23280, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 23281;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23281, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 23282;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23282, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 23283;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23283, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 2, 9);
--- DELETE FROM `charsections` WHERE `id` = 23284;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23284, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 2, 10);
--- DELETE FROM `charsections` WHERE `id` = 23285;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23285, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 2, 11);
--- DELETE FROM `charsections` WHERE `id` = 23286;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23286, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 23287;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23287, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 23288;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23288, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 23289;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23289, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 23290;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23290, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 23291;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23291, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 23292;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23292, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 23293;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23293, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 23294;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23294, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 23295;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23295, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 3, 9);
--- DELETE FROM `charsections` WHERE `id` = 23296;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23296, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 3, 10);
--- DELETE FROM `charsections` WHERE `id` = 23297;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23297, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 3, 11);
--- DELETE FROM `charsections` WHERE `id` = 23298;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23298, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 23299;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23299, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 23300;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23300, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 23301;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23301, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 23302;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23302, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 23303;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23303, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 23304;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23304, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 23305;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23305, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 23306;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23306, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 23307;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23307, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 4, 9);
--- DELETE FROM `charsections` WHERE `id` = 23308;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23308, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 4, 10);
--- DELETE FROM `charsections` WHERE `id` = 23309;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23309, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 4, 11);
--- DELETE FROM `charsections` WHERE `id` = 23310;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23310, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 23311;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23311, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 23312;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23312, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 23313;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23313, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 23314;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23314, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 23315;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23315, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 23316;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23316, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 23317;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23317, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 23318;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23318, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 23319;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23319, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 5, 9);
--- DELETE FROM `charsections` WHERE `id` = 23320;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23320, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 5, 10);
--- DELETE FROM `charsections` WHERE `id` = 23321;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23321, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 5, 11);
--- DELETE FROM `charsections` WHERE `id` = 23322;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23322, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 23323;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23323, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 23324;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23324, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 23325;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23325, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 23326;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23326, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 23327;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23327, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 23328;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23328, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 23329;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23329, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 23330;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23330, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 23331;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23331, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 6, 9);
--- DELETE FROM `charsections` WHERE `id` = 23332;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23332, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 6, 10);
--- DELETE FROM `charsections` WHERE `id` = 23333;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23333, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 6, 11);
--- DELETE FROM `charsections` WHERE `id` = 23334;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23334, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 23335;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23335, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 23336;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23336, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 23337;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23337, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 23338;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23338, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 23339;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23339, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 23340;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23340, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 23341;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23341, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 23342;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23342, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 23343;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23343, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 7, 9);
--- DELETE FROM `charsections` WHERE `id` = 23344;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23344, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 7, 10);
--- DELETE FROM `charsections` WHERE `id` = 23345;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23345, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 7, 11);
--- DELETE FROM `charsections` WHERE `id` = 23346;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23346, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 23347;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23347, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 23348;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23348, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 23349;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23349, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 23350;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23350, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 23351;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23351, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 23352;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23352, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 23353;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23353, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 23354;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23354, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 23355;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23355, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 8, 9);
--- DELETE FROM `charsections` WHERE `id` = 23356;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23356, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 8, 10);
--- DELETE FROM `charsections` WHERE `id` = 23357;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23357, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 8, 11);
--- DELETE FROM `charsections` WHERE `id` = 23358;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23358, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 23359;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23359, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 23360;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23360, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 23361;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23361, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 23362;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23362, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 23363;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23363, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 23364;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23364, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 23365;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23365, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 23366;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23366, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 23367;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23367, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 9, 9);
--- DELETE FROM `charsections` WHERE `id` = 23368;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23368, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 9, 10);
--- DELETE FROM `charsections` WHERE `id` = 23369;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23369, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 9, 11);
--- DELETE FROM `charsections` WHERE `id` = 23370;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23370, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 23371;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23371, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 23372;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23372, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 23373;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23373, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 23374;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23374, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 23375;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23375, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 23376;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23376, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 23377;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23377, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 23378;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23378, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 10, 8);
--- DELETE FROM `charsections` WHERE `id` = 23379;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23379, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 10, 9);
--- DELETE FROM `charsections` WHERE `id` = 23380;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23380, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 10, 10);
--- DELETE FROM `charsections` WHERE `id` = 23381;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23381, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 10, 11);
--- DELETE FROM `charsections` WHERE `id` = 23382;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23382, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 23383;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23383, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 23384;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23384, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 23385;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23385, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 23386;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23386, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 23387;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23387, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 11, 5);
--- DELETE FROM `charsections` WHERE `id` = 23388;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23388, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 11, 6);
--- DELETE FROM `charsections` WHERE `id` = 23389;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23389, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 11, 7);
--- DELETE FROM `charsections` WHERE `id` = 23390;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23390, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 11, 8);
--- DELETE FROM `charsections` WHERE `id` = 23391;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23391, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 11, 9);
--- DELETE FROM `charsections` WHERE `id` = 23392;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23392, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 11, 10);
--- DELETE FROM `charsections` WHERE `id` = 23393;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23393, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 11, 11);
--- DELETE FROM `charsections` WHERE `id` = 23394;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23394, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 12, 0);
--- DELETE FROM `charsections` WHERE `id` = 23395;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23395, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 12, 1);
--- DELETE FROM `charsections` WHERE `id` = 23396;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23396, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 12, 2);
--- DELETE FROM `charsections` WHERE `id` = 23397;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23397, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 12, 3);
--- DELETE FROM `charsections` WHERE `id` = 23398;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23398, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 12, 4);
--- DELETE FROM `charsections` WHERE `id` = 23399;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23399, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 12, 5);
--- DELETE FROM `charsections` WHERE `id` = 23400;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23400, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 12, 6);
--- DELETE FROM `charsections` WHERE `id` = 23401;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23401, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 12, 7);
--- DELETE FROM `charsections` WHERE `id` = 23402;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23402, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 12, 8);
--- DELETE FROM `charsections` WHERE `id` = 23403;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23403, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 12, 9);
--- DELETE FROM `charsections` WHERE `id` = 23404;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23404, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 12, 10);
--- DELETE FROM `charsections` WHERE `id` = 23405;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23405, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 12, 11);
--- DELETE FROM `charsections` WHERE `id` = 23406;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23406, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 13, 0);
--- DELETE FROM `charsections` WHERE `id` = 23407;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23407, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 13, 1);
--- DELETE FROM `charsections` WHERE `id` = 23408;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23408, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 13, 2);
--- DELETE FROM `charsections` WHERE `id` = 23409;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23409, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 13, 3);
--- DELETE FROM `charsections` WHERE `id` = 23410;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23410, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 13, 4);
--- DELETE FROM `charsections` WHERE `id` = 23411;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23411, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 13, 5);
--- DELETE FROM `charsections` WHERE `id` = 23412;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23412, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 13, 6);
--- DELETE FROM `charsections` WHERE `id` = 23413;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23413, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 13, 7);
--- DELETE FROM `charsections` WHERE `id` = 23414;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23414, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 13, 8);
--- DELETE FROM `charsections` WHERE `id` = 23415;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23415, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 13, 9);
--- DELETE FROM `charsections` WHERE `id` = 23416;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23416, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 13, 10);
--- DELETE FROM `charsections` WHERE `id` = 23417;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23417, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 13, 11);
--- DELETE FROM `charsections` WHERE `id` = 23418;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23418, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 14, 0);
--- DELETE FROM `charsections` WHERE `id` = 23419;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23419, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 14, 1);
--- DELETE FROM `charsections` WHERE `id` = 23420;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23420, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 14, 2);
--- DELETE FROM `charsections` WHERE `id` = 23421;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23421, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 14, 3);
--- DELETE FROM `charsections` WHERE `id` = 23422;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23422, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 14, 4);
--- DELETE FROM `charsections` WHERE `id` = 23423;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23423, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 14, 5);
--- DELETE FROM `charsections` WHERE `id` = 23424;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23424, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 14, 6);
--- DELETE FROM `charsections` WHERE `id` = 23425;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23425, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 14, 7);
--- DELETE FROM `charsections` WHERE `id` = 23426;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23426, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 14, 8);
--- DELETE FROM `charsections` WHERE `id` = 23427;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23427, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 14, 9);
--- DELETE FROM `charsections` WHERE `id` = 23428;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23428, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 14, 10);
--- DELETE FROM `charsections` WHERE `id` = 23429;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23429, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 14, 11);
--- DELETE FROM `charsections` WHERE `id` = 23430;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23430, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 15, 0);
--- DELETE FROM `charsections` WHERE `id` = 23431;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23431, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 15, 1);
--- DELETE FROM `charsections` WHERE `id` = 23432;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23432, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 15, 2);
--- DELETE FROM `charsections` WHERE `id` = 23433;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23433, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 15, 3);
--- DELETE FROM `charsections` WHERE `id` = 23434;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23434, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 15, 4);
--- DELETE FROM `charsections` WHERE `id` = 23435;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23435, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 15, 5);
--- DELETE FROM `charsections` WHERE `id` = 23436;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23436, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 15, 6);
--- DELETE FROM `charsections` WHERE `id` = 23437;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23437, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 15, 7);
--- DELETE FROM `charsections` WHERE `id` = 23438;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23438, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 15, 8);
--- DELETE FROM `charsections` WHERE `id` = 23439;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23439, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 15, 9);
--- DELETE FROM `charsections` WHERE `id` = 23440;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23440, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 15, 10);
--- DELETE FROM `charsections` WHERE `id` = 23441;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23441, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 15, 11);
--- DELETE FROM `charsections` WHERE `id` = 23442;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23442, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 16, 0);
--- DELETE FROM `charsections` WHERE `id` = 23443;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23443, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 16, 1);
--- DELETE FROM `charsections` WHERE `id` = 23444;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23444, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 16, 2);
--- DELETE FROM `charsections` WHERE `id` = 23445;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23445, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 16, 3);
--- DELETE FROM `charsections` WHERE `id` = 23446;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23446, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 16, 4);
--- DELETE FROM `charsections` WHERE `id` = 23447;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23447, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 16, 5);
--- DELETE FROM `charsections` WHERE `id` = 23448;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23448, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 16, 6);
--- DELETE FROM `charsections` WHERE `id` = 23449;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23449, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 16, 7);
--- DELETE FROM `charsections` WHERE `id` = 23450;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23450, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 16, 8);
--- DELETE FROM `charsections` WHERE `id` = 23451;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23451, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 16, 9);
--- DELETE FROM `charsections` WHERE `id` = 23452;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23452, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 16, 10);
--- DELETE FROM `charsections` WHERE `id` = 23453;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23453, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 16, 11);
--- DELETE FROM `charsections` WHERE `id` = 23454;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23454, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 17, 0);
--- DELETE FROM `charsections` WHERE `id` = 23455;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23455, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 17, 1);
--- DELETE FROM `charsections` WHERE `id` = 23456;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23456, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 17, 2);
--- DELETE FROM `charsections` WHERE `id` = 23457;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23457, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 17, 3);
--- DELETE FROM `charsections` WHERE `id` = 23458;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23458, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 17, 4);
--- DELETE FROM `charsections` WHERE `id` = 23459;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23459, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 17, 5);
--- DELETE FROM `charsections` WHERE `id` = 23460;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23460, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 17, 6);
--- DELETE FROM `charsections` WHERE `id` = 23461;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23461, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 17, 7);
--- DELETE FROM `charsections` WHERE `id` = 23462;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23462, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 17, 8);
--- DELETE FROM `charsections` WHERE `id` = 23463;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23463, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 17, 9);
--- DELETE FROM `charsections` WHERE `id` = 23464;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23464, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 17, 10);
--- DELETE FROM `charsections` WHERE `id` = 23465;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23465, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 17, 11);
--- DELETE FROM `charsections` WHERE `id` = 23466;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23466, 9, 0, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 18, 0);
--- DELETE FROM `charsections` WHERE `id` = 23467;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23467, 9, 0, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 18, 1);
--- DELETE FROM `charsections` WHERE `id` = 23468;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23468, 9, 0, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 18, 2);
--- DELETE FROM `charsections` WHERE `id` = 23469;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23469, 9, 0, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 18, 3);
--- DELETE FROM `charsections` WHERE `id` = 23470;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23470, 9, 0, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 18, 4);
--- DELETE FROM `charsections` WHERE `id` = 23471;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23471, 9, 0, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 18, 5);
--- DELETE FROM `charsections` WHERE `id` = 23472;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23472, 9, 0, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 18, 6);
--- DELETE FROM `charsections` WHERE `id` = 23473;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23473, 9, 0, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 18, 7);
--- DELETE FROM `charsections` WHERE `id` = 23474;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23474, 9, 0, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 18, 8);
--- DELETE FROM `charsections` WHERE `id` = 23475;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23475, 9, 0, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 18, 9);
--- DELETE FROM `charsections` WHERE `id` = 23476;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23476, 9, 0, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 18, 10);
--- DELETE FROM `charsections` WHERE `id` = 23477;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23477, 9, 0, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 18, 11);
--- DELETE FROM `charsections` WHERE `id` = 23478;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23478, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23479;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23479, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_01.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23480;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23480, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_02.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23481;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23481, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_03.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23482;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23482, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_04.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23483;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23483, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_05.blp', '', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23484;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23484, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_06.blp', '', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23485;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23485, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_07.blp', '', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23486;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23486, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_08.blp', '', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23487;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23487, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_09.blp', '', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23488;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23488, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_10.blp', '', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23489;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23489, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_11.blp', '', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23490;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23490, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_100.blp', '', '', 8, 0, 12);
--- DELETE FROM `charsections` WHERE `id` = 23491;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23491, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_101.blp', '', '', 8, 0, 13);
--- DELETE FROM `charsections` WHERE `id` = 23492;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23492, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_102.blp', '', '', 8, 0, 14);
--- DELETE FROM `charsections` WHERE `id` = 23493;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23493, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_103.blp', '', '', 8, 0, 15);
--- DELETE FROM `charsections` WHERE `id` = 23494;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23494, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_104.blp', '', '', 8, 0, 16);
--- DELETE FROM `charsections` WHERE `id` = 23495;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23495, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_105.blp', '', '', 8, 0, 17);
--- DELETE FROM `charsections` WHERE `id` = 23496;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23496, 9, 0, 4, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_106.blp', '', '', 8, 0, 18);
--- DELETE FROM `charsections` WHERE `id` = 23497;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23497, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23498;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23498, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_01.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23499;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23499, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_02.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23500;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23500, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_03.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23501;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23501, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_04.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23502;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23502, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_05.blp', '', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23503;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23503, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_06.blp', '', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23504;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23504, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_07.blp', '', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23505;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23505, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_08.blp', '', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23506;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23506, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_09.blp', '', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23507;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23507, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_10.blp', '', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23508;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23508, 9, 1, 0, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_11.blp', '', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23509;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23509, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_00.blp', '', 1, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23510;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23510, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_01.blp', '', 1, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23511;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23511, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_02.blp', '', 1, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23512;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23512, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_03.blp', '', 1, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23513;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23513, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_04.blp', '', 1, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23514;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23514, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_05.blp', '', 1, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23515;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23515, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_06.blp', '', 1, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23516;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23516, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_07.blp', '', 1, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23517;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23517, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_08.blp', '', 1, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23518;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23518, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_09.blp', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23519;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23519, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_10.blp', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23520;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23520, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_11.blp', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23521;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23521, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_00.blp', '', 1, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 23522;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23522, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_01.blp', '', 1, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 23523;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23523, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_02.blp', '', 1, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 23524;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23524, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_03.blp', '', 1, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 23525;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23525, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_04.blp', '', 1, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 23526;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23526, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_05.blp', '', 1, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 23527;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23527, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_06.blp', '', 1, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 23528;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23528, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_07.blp', '', 1, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 23529;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23529, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_08.blp', '', 1, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 23530;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23530, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_00.blp', '', 1, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 23531;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23531, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_01.blp', '', 1, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 23532;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23532, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_02.blp', '', 1, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 23533;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23533, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_03.blp', '', 1, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 23534;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23534, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_04.blp', '', 1, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 23535;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23535, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_05.blp', '', 1, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 23536;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23536, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_06.blp', '', 1, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 23537;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23537, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_07.blp', '', 1, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 23538;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23538, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_08.blp', '', 1, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 23539;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23539, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_00.blp', '', 1, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 23540;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23540, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_01.blp', '', 1, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 23541;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23541, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_02.blp', '', 1, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 23542;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23542, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_03.blp', '', 1, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 23543;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23543, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_04.blp', '', 1, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 23544;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23544, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_05.blp', '', 1, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 23545;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23545, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_06.blp', '', 1, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 23546;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23546, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_07.blp', '', 1, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 23547;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23547, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_08.blp', '', 1, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 23548;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23548, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_00.blp', '', 1, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 23549;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23549, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_01.blp', '', 1, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 23550;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23550, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_02.blp', '', 1, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 23551;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23551, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_03.blp', '', 1, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 23552;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23552, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_04.blp', '', 1, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 23553;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23553, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_05.blp', '', 1, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 23554;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23554, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_06.blp', '', 1, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 23555;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23555, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_07.blp', '', 1, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 23556;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23556, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_08.blp', '', 1, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 23557;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23557, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_00.blp', '', 1, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 23558;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23558, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_01.blp', '', 1, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 23559;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23559, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_02.blp', '', 1, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 23560;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23560, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_03.blp', '', 1, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 23561;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23561, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_04.blp', '', 1, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 23562;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23562, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_05.blp', '', 1, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 23563;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23563, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_06.blp', '', 1, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 23564;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23564, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_07.blp', '', 1, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 23565;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23565, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_08.blp', '', 1, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 23566;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23566, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_00.blp', '', 1, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 23567;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23567, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_01.blp', '', 1, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 23568;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23568, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_02.blp', '', 1, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 23569;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23569, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_03.blp', '', 1, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 23570;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23570, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_04.blp', '', 1, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 23571;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23571, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_05.blp', '', 1, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 23572;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23572, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_06.blp', '', 1, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 23573;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23573, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_07.blp', '', 1, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 23574;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23574, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_08.blp', '', 1, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 23575;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23575, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_09.blp', '', 5, 6, 9);
--- DELETE FROM `charsections` WHERE `id` = 23576;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23576, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_10.blp', '', 5, 6, 10);
--- DELETE FROM `charsections` WHERE `id` = 23577;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23577, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_11.blp', '', 5, 6, 11);
--- DELETE FROM `charsections` WHERE `id` = 23578;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23578, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_00.blp', '', 1, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 23579;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23579, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_01.blp', '', 1, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 23580;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23580, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_02.blp', '', 1, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 23581;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23581, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_03.blp', '', 1, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 23582;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23582, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_04.blp', '', 1, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 23583;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23583, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_05.blp', '', 1, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 23584;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23584, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_06.blp', '', 1, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 23585;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23585, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_07.blp', '', 1, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 23586;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23586, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_08.blp', '', 1, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 23587;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23587, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_00.blp', '', 1, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 23588;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23588, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_01.blp', '', 1, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 23589;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23589, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_02.blp', '', 1, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 23590;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23590, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_03.blp', '', 1, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 23591;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23591, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_04.blp', '', 1, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 23592;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23592, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_05.blp', '', 1, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 23593;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23593, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_06.blp', '', 1, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 23594;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23594, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_07.blp', '', 1, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 23595;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23595, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_08.blp', '', 1, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 23596;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23596, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_00.blp', '', 1, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 23597;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23597, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_01.blp', '', 1, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 23598;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23598, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_02.blp', '', 1, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 23599;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23599, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_03.blp', '', 1, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 23600;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23600, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_04.blp', '', 1, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 23601;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23601, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_05.blp', '', 1, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 23602;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23602, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_06.blp', '', 1, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 23603;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23603, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_07.blp', '', 1, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 23604;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23604, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_08.blp', '', 1, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 23605;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23605, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_09.blp', '', 5, 9, 9);
--- DELETE FROM `charsections` WHERE `id` = 23606;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23606, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_10.blp', '', 5, 9, 10);
--- DELETE FROM `charsections` WHERE `id` = 23607;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23607, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_11.blp', '', 5, 9, 11);
--- DELETE FROM `charsections` WHERE `id` = 23608;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23608, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_00.blp', '', 5, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 23609;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23609, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_01.blp', '', 5, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 23610;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23610, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_02.blp', '', 5, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 23611;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23611, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_03.blp', '', 5, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 23612;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23612, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_04.blp', '', 5, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 23613;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23613, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_05.blp', '', 5, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 23614;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23614, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_06.blp', '', 5, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 23615;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23615, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_07.blp', '', 5, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 23616;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23616, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_08.blp', '', 5, 10, 8);
--- DELETE FROM `charsections` WHERE `id` = 23617;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23617, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_00.blp', '', 5, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 23618;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23618, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_01.blp', '', 5, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 23619;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23619, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_02.blp', '', 5, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 23620;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23620, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_03.blp', '', 5, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 23621;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23621, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_04.blp', '', 5, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 23622;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23622, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_05.blp', '', 5, 11, 5);
--- DELETE FROM `charsections` WHERE `id` = 23623;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23623, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_06.blp', '', 5, 11, 6);
--- DELETE FROM `charsections` WHERE `id` = 23624;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23624, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_07.blp', '', 5, 11, 7);
--- DELETE FROM `charsections` WHERE `id` = 23625;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23625, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_08.blp', '', 5, 11, 8);
--- DELETE FROM `charsections` WHERE `id` = 23626;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23626, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_00.blp', '', 5, 12, 0);
--- DELETE FROM `charsections` WHERE `id` = 23627;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23627, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_01.blp', '', 5, 12, 1);
--- DELETE FROM `charsections` WHERE `id` = 23628;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23628, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_02.blp', '', 5, 12, 2);
--- DELETE FROM `charsections` WHERE `id` = 23629;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23629, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_03.blp', '', 5, 12, 3);
--- DELETE FROM `charsections` WHERE `id` = 23630;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23630, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_04.blp', '', 5, 12, 4);
--- DELETE FROM `charsections` WHERE `id` = 23631;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23631, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_05.blp', '', 5, 12, 5);
--- DELETE FROM `charsections` WHERE `id` = 23632;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23632, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_06.blp', '', 5, 12, 6);
--- DELETE FROM `charsections` WHERE `id` = 23633;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23633, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_07.blp', '', 5, 12, 7);
--- DELETE FROM `charsections` WHERE `id` = 23634;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23634, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_08.blp', '', 5, 12, 8);
--- DELETE FROM `charsections` WHERE `id` = 23635;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23635, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_00.blp', '', 5, 13, 0);
--- DELETE FROM `charsections` WHERE `id` = 23636;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23636, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_01.blp', '', 5, 13, 1);
--- DELETE FROM `charsections` WHERE `id` = 23637;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23637, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_02.blp', '', 5, 13, 2);
--- DELETE FROM `charsections` WHERE `id` = 23638;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23638, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_03.blp', '', 5, 13, 3);
--- DELETE FROM `charsections` WHERE `id` = 23639;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23639, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_04.blp', '', 5, 13, 4);
--- DELETE FROM `charsections` WHERE `id` = 23640;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23640, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_05.blp', '', 5, 13, 5);
--- DELETE FROM `charsections` WHERE `id` = 23641;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23641, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_06.blp', '', 5, 13, 6);
--- DELETE FROM `charsections` WHERE `id` = 23642;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23642, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_07.blp', '', 5, 13, 7);
--- DELETE FROM `charsections` WHERE `id` = 23643;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23643, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_08.blp', '', 5, 13, 8);
--- DELETE FROM `charsections` WHERE `id` = 23644;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23644, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_00.blp', '', 5, 14, 0);
--- DELETE FROM `charsections` WHERE `id` = 23645;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23645, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_01.blp', '', 5, 14, 1);
--- DELETE FROM `charsections` WHERE `id` = 23646;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23646, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_02.blp', '', 5, 14, 2);
--- DELETE FROM `charsections` WHERE `id` = 23647;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23647, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_03.blp', '', 5, 14, 3);
--- DELETE FROM `charsections` WHERE `id` = 23648;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23648, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_04.blp', '', 5, 14, 4);
--- DELETE FROM `charsections` WHERE `id` = 23649;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23649, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_05.blp', '', 5, 14, 5);
--- DELETE FROM `charsections` WHERE `id` = 23650;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23650, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_06.blp', '', 5, 14, 6);
--- DELETE FROM `charsections` WHERE `id` = 23651;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23651, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_07.blp', '', 5, 14, 7);
--- DELETE FROM `charsections` WHERE `id` = 23652;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23652, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_08.blp', '', 5, 14, 8);
--- DELETE FROM `charsections` WHERE `id` = 23653;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23653, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_00.blp', '', 5, 15, 0);
--- DELETE FROM `charsections` WHERE `id` = 23654;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23654, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_01.blp', '', 5, 15, 1);
--- DELETE FROM `charsections` WHERE `id` = 23655;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23655, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_02.blp', '', 5, 15, 2);
--- DELETE FROM `charsections` WHERE `id` = 23656;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23656, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_03.blp', '', 5, 15, 3);
--- DELETE FROM `charsections` WHERE `id` = 23657;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23657, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_04.blp', '', 5, 15, 4);
--- DELETE FROM `charsections` WHERE `id` = 23658;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23658, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_05.blp', '', 5, 15, 5);
--- DELETE FROM `charsections` WHERE `id` = 23659;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23659, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_06.blp', '', 5, 15, 6);
--- DELETE FROM `charsections` WHERE `id` = 23660;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23660, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_07.blp', '', 5, 15, 7);
--- DELETE FROM `charsections` WHERE `id` = 23661;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23661, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_08.blp', '', 5, 15, 8);
--- DELETE FROM `charsections` WHERE `id` = 23662;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23662, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_00.blp', '', 5, 16, 0);
--- DELETE FROM `charsections` WHERE `id` = 23663;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23663, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_01.blp', '', 5, 16, 1);
--- DELETE FROM `charsections` WHERE `id` = 23664;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23664, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_02.blp', '', 5, 16, 2);
--- DELETE FROM `charsections` WHERE `id` = 23665;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23665, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_03.blp', '', 5, 16, 3);
--- DELETE FROM `charsections` WHERE `id` = 23666;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23666, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_04.blp', '', 5, 16, 4);
--- DELETE FROM `charsections` WHERE `id` = 23667;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23667, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_05.blp', '', 5, 16, 5);
--- DELETE FROM `charsections` WHERE `id` = 23668;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23668, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_06.blp', '', 5, 16, 6);
--- DELETE FROM `charsections` WHERE `id` = 23669;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23669, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_07.blp', '', 5, 16, 7);
--- DELETE FROM `charsections` WHERE `id` = 23670;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23670, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_08.blp', '', 5, 16, 8);
--- DELETE FROM `charsections` WHERE `id` = 23671;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23671, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_00.blp', '', 5, 17, 0);
--- DELETE FROM `charsections` WHERE `id` = 23672;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23672, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_01.blp', '', 5, 17, 1);
--- DELETE FROM `charsections` WHERE `id` = 23673;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23673, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_02.blp', '', 5, 17, 2);
--- DELETE FROM `charsections` WHERE `id` = 23674;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23674, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_03.blp', '', 5, 17, 3);
--- DELETE FROM `charsections` WHERE `id` = 23675;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23675, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_04.blp', '', 5, 17, 4);
--- DELETE FROM `charsections` WHERE `id` = 23676;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23676, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_05.blp', '', 5, 17, 5);
--- DELETE FROM `charsections` WHERE `id` = 23677;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23677, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_06.blp', '', 5, 17, 6);
--- DELETE FROM `charsections` WHERE `id` = 23678;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23678, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_07.blp', '', 5, 17, 7);
--- DELETE FROM `charsections` WHERE `id` = 23679;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23679, 9, 1, 1, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_08.blp', '', 5, 17, 8);
--- DELETE FROM `charsections` WHERE `id` = 23680;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23680, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 1, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23681;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23681, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 1, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23682;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23682, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 1, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23683;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23683, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 1, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23684;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23684, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 1, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23685;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23685, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 1, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23686;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23686, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 1, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23687;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23687, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 1, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23688;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23688, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 1, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23689;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23689, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23690;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23690, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23691;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23691, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23692;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23692, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 23693;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23693, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 23694;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23694, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 23695;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23695, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 23696;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23696, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 23697;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23697, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 23698;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23698, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 23699;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23699, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 23700;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23700, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 23701;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23701, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 1, 9);
--- DELETE FROM `charsections` WHERE `id` = 23702;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23702, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 1, 10);
--- DELETE FROM `charsections` WHERE `id` = 23703;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23703, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 1, 11);
--- DELETE FROM `charsections` WHERE `id` = 23704;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23704, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 23705;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23705, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 23706;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23706, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 23707;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23707, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 23708;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23708, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 23709;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23709, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 23710;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23710, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 23711;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23711, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 23712;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23712, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 23713;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23713, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 2, 9);
--- DELETE FROM `charsections` WHERE `id` = 23714;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23714, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 2, 10);
--- DELETE FROM `charsections` WHERE `id` = 23715;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23715, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 2, 11);
--- DELETE FROM `charsections` WHERE `id` = 23716;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23716, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 23717;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23717, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 23718;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23718, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 23719;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23719, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 23720;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23720, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 23721;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23721, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 23722;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23722, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 23723;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23723, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 23724;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23724, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 23725;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23725, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 3, 9);
--- DELETE FROM `charsections` WHERE `id` = 23726;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23726, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 3, 10);
--- DELETE FROM `charsections` WHERE `id` = 23727;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23727, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 3, 11);
--- DELETE FROM `charsections` WHERE `id` = 23728;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23728, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 23729;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23729, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 23730;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23730, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 23731;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23731, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 23732;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23732, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 23733;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23733, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 23734;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23734, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 23735;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23735, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 23736;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23736, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 23737;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23737, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 4, 9);
--- DELETE FROM `charsections` WHERE `id` = 23738;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23738, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 4, 10);
--- DELETE FROM `charsections` WHERE `id` = 23739;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23739, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 4, 11);
--- DELETE FROM `charsections` WHERE `id` = 23740;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23740, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 23741;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23741, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 23742;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23742, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 23743;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23743, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 23744;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23744, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 23745;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23745, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 23746;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23746, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 23747;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23747, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 23748;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23748, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 23749;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23749, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 5, 9);
--- DELETE FROM `charsections` WHERE `id` = 23750;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23750, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 5, 10);
--- DELETE FROM `charsections` WHERE `id` = 23751;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23751, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 5, 11);
--- DELETE FROM `charsections` WHERE `id` = 23752;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23752, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 23753;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23753, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 23754;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23754, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 23755;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23755, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 23756;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23756, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 23757;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23757, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 23758;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23758, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 23759;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23759, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 23760;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23760, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 23761;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23761, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 6, 9);
--- DELETE FROM `charsections` WHERE `id` = 23762;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23762, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 6, 10);
--- DELETE FROM `charsections` WHERE `id` = 23763;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23763, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 6, 11);
--- DELETE FROM `charsections` WHERE `id` = 23764;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23764, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 23765;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23765, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 23766;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23766, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 23767;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23767, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 23768;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23768, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 23769;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23769, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 23770;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23770, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 23771;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23771, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 23772;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23772, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 23773;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23773, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 7, 9);
--- DELETE FROM `charsections` WHERE `id` = 23774;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23774, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 7, 10);
--- DELETE FROM `charsections` WHERE `id` = 23775;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23775, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 7, 11);
--- DELETE FROM `charsections` WHERE `id` = 23776;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23776, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 23777;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23777, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 23778;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23778, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 23779;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23779, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 23780;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23780, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 23781;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23781, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 23782;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23782, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 23783;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23783, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 23784;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23784, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 23785;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23785, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 8, 9);
--- DELETE FROM `charsections` WHERE `id` = 23786;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23786, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 8, 10);
--- DELETE FROM `charsections` WHERE `id` = 23787;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23787, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 8, 11);
--- DELETE FROM `charsections` WHERE `id` = 23788;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23788, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 23789;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23789, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 23790;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23790, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 23791;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23791, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 23792;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23792, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 23793;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23793, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 23794;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23794, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 23795;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23795, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 23796;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23796, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 23797;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23797, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 9, 9);
--- DELETE FROM `charsections` WHERE `id` = 23798;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23798, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 9, 10);
--- DELETE FROM `charsections` WHERE `id` = 23799;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23799, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 9, 11);
--- DELETE FROM `charsections` WHERE `id` = 23800;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23800, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 23801;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23801, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 23802;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23802, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 23803;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23803, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 23804;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23804, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 23805;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23805, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 23806;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23806, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 23807;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23807, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 23808;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23808, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 10, 8);
--- DELETE FROM `charsections` WHERE `id` = 23809;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23809, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 10, 9);
--- DELETE FROM `charsections` WHERE `id` = 23810;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23810, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 10, 10);
--- DELETE FROM `charsections` WHERE `id` = 23811;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23811, 9, 1, 2, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 10, 11);
--- DELETE FROM `charsections` WHERE `id` = 23812;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23812, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 23813;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23813, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 23814;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23814, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 23815;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23815, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 23816;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23816, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 23817;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23817, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 23818;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23818, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 23819;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23819, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 23820;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23820, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 23821;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23821, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 23822;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23822, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 23823;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23823, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 0, 11);
--- DELETE FROM `charsections` WHERE `id` = 23824;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23824, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 1, 0);
--- DELETE FROM `charsections` WHERE `id` = 23825;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23825, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 1, 1);
--- DELETE FROM `charsections` WHERE `id` = 23826;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23826, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 1, 2);
--- DELETE FROM `charsections` WHERE `id` = 23827;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23827, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 1, 3);
--- DELETE FROM `charsections` WHERE `id` = 23828;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23828, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 1, 4);
--- DELETE FROM `charsections` WHERE `id` = 23829;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23829, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 1, 5);
--- DELETE FROM `charsections` WHERE `id` = 23830;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23830, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 1, 6);
--- DELETE FROM `charsections` WHERE `id` = 23831;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23831, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 1, 7);
--- DELETE FROM `charsections` WHERE `id` = 23832;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23832, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 1, 8);
--- DELETE FROM `charsections` WHERE `id` = 23833;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23833, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 1, 9);
--- DELETE FROM `charsections` WHERE `id` = 23834;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23834, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 1, 10);
--- DELETE FROM `charsections` WHERE `id` = 23835;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23835, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 1, 11);
--- DELETE FROM `charsections` WHERE `id` = 23836;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23836, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 2, 0);
--- DELETE FROM `charsections` WHERE `id` = 23837;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23837, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 2, 1);
--- DELETE FROM `charsections` WHERE `id` = 23838;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23838, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 2, 2);
--- DELETE FROM `charsections` WHERE `id` = 23839;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23839, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 2, 3);
--- DELETE FROM `charsections` WHERE `id` = 23840;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23840, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 2, 4);
--- DELETE FROM `charsections` WHERE `id` = 23841;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23841, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 2, 5);
--- DELETE FROM `charsections` WHERE `id` = 23842;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23842, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 2, 6);
--- DELETE FROM `charsections` WHERE `id` = 23843;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23843, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 2, 7);
--- DELETE FROM `charsections` WHERE `id` = 23844;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23844, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 2, 8);
--- DELETE FROM `charsections` WHERE `id` = 23845;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23845, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 2, 9);
--- DELETE FROM `charsections` WHERE `id` = 23846;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23846, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 2, 10);
--- DELETE FROM `charsections` WHERE `id` = 23847;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23847, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 2, 11);
--- DELETE FROM `charsections` WHERE `id` = 23848;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23848, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 3, 0);
--- DELETE FROM `charsections` WHERE `id` = 23849;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23849, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 3, 1);
--- DELETE FROM `charsections` WHERE `id` = 23850;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23850, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 3, 2);
--- DELETE FROM `charsections` WHERE `id` = 23851;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23851, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 3, 3);
--- DELETE FROM `charsections` WHERE `id` = 23852;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23852, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 3, 4);
--- DELETE FROM `charsections` WHERE `id` = 23853;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23853, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 3, 5);
--- DELETE FROM `charsections` WHERE `id` = 23854;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23854, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 3, 6);
--- DELETE FROM `charsections` WHERE `id` = 23855;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23855, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 3, 7);
--- DELETE FROM `charsections` WHERE `id` = 23856;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23856, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 3, 8);
--- DELETE FROM `charsections` WHERE `id` = 23857;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23857, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 3, 9);
--- DELETE FROM `charsections` WHERE `id` = 23858;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23858, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 3, 10);
--- DELETE FROM `charsections` WHERE `id` = 23859;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23859, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 3, 11);
--- DELETE FROM `charsections` WHERE `id` = 23860;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23860, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 4, 0);
--- DELETE FROM `charsections` WHERE `id` = 23861;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23861, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 4, 1);
--- DELETE FROM `charsections` WHERE `id` = 23862;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23862, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 4, 2);
--- DELETE FROM `charsections` WHERE `id` = 23863;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23863, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 4, 3);
--- DELETE FROM `charsections` WHERE `id` = 23864;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23864, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 4, 4);
--- DELETE FROM `charsections` WHERE `id` = 23865;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23865, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 4, 5);
--- DELETE FROM `charsections` WHERE `id` = 23866;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23866, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 4, 6);
--- DELETE FROM `charsections` WHERE `id` = 23867;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23867, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 4, 7);
--- DELETE FROM `charsections` WHERE `id` = 23868;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23868, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 4, 8);
--- DELETE FROM `charsections` WHERE `id` = 23869;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23869, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 4, 9);
--- DELETE FROM `charsections` WHERE `id` = 23870;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23870, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 4, 10);
--- DELETE FROM `charsections` WHERE `id` = 23871;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23871, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 4, 11);
--- DELETE FROM `charsections` WHERE `id` = 23872;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23872, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 5, 0);
--- DELETE FROM `charsections` WHERE `id` = 23873;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23873, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 5, 1);
--- DELETE FROM `charsections` WHERE `id` = 23874;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23874, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 5, 2);
--- DELETE FROM `charsections` WHERE `id` = 23875;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23875, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 5, 3);
--- DELETE FROM `charsections` WHERE `id` = 23876;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23876, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 5, 4);
--- DELETE FROM `charsections` WHERE `id` = 23877;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23877, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 5, 5);
--- DELETE FROM `charsections` WHERE `id` = 23878;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23878, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 5, 6);
--- DELETE FROM `charsections` WHERE `id` = 23879;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23879, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 5, 7);
--- DELETE FROM `charsections` WHERE `id` = 23880;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23880, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 5, 8);
--- DELETE FROM `charsections` WHERE `id` = 23881;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23881, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 5, 9);
--- DELETE FROM `charsections` WHERE `id` = 23882;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23882, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 5, 10);
--- DELETE FROM `charsections` WHERE `id` = 23883;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23883, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 5, 11);
--- DELETE FROM `charsections` WHERE `id` = 23884;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23884, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 6, 0);
--- DELETE FROM `charsections` WHERE `id` = 23885;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23885, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 6, 1);
--- DELETE FROM `charsections` WHERE `id` = 23886;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23886, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 6, 2);
--- DELETE FROM `charsections` WHERE `id` = 23887;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23887, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 6, 3);
--- DELETE FROM `charsections` WHERE `id` = 23888;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23888, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 6, 4);
--- DELETE FROM `charsections` WHERE `id` = 23889;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23889, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 6, 5);
--- DELETE FROM `charsections` WHERE `id` = 23890;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23890, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 6, 6);
--- DELETE FROM `charsections` WHERE `id` = 23891;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23891, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 6, 7);
--- DELETE FROM `charsections` WHERE `id` = 23892;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23892, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 6, 8);
--- DELETE FROM `charsections` WHERE `id` = 23893;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23893, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 6, 9);
--- DELETE FROM `charsections` WHERE `id` = 23894;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23894, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 6, 10);
--- DELETE FROM `charsections` WHERE `id` = 23895;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23895, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 6, 11);
--- DELETE FROM `charsections` WHERE `id` = 23896;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23896, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 7, 0);
--- DELETE FROM `charsections` WHERE `id` = 23897;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23897, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 7, 1);
--- DELETE FROM `charsections` WHERE `id` = 23898;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23898, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 7, 2);
--- DELETE FROM `charsections` WHERE `id` = 23899;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23899, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 7, 3);
--- DELETE FROM `charsections` WHERE `id` = 23900;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23900, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 7, 4);
--- DELETE FROM `charsections` WHERE `id` = 23901;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23901, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 7, 5);
--- DELETE FROM `charsections` WHERE `id` = 23902;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23902, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 7, 6);
--- DELETE FROM `charsections` WHERE `id` = 23903;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23903, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 7, 7);
--- DELETE FROM `charsections` WHERE `id` = 23904;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23904, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 7, 8);
--- DELETE FROM `charsections` WHERE `id` = 23905;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23905, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 7, 9);
--- DELETE FROM `charsections` WHERE `id` = 23906;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23906, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 7, 10);
--- DELETE FROM `charsections` WHERE `id` = 23907;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23907, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 7, 11);
--- DELETE FROM `charsections` WHERE `id` = 23908;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23908, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 8, 0);
--- DELETE FROM `charsections` WHERE `id` = 23909;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23909, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 8, 1);
--- DELETE FROM `charsections` WHERE `id` = 23910;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23910, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 8, 2);
--- DELETE FROM `charsections` WHERE `id` = 23911;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23911, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 8, 3);
--- DELETE FROM `charsections` WHERE `id` = 23912;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23912, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 8, 4);
--- DELETE FROM `charsections` WHERE `id` = 23913;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23913, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 8, 5);
--- DELETE FROM `charsections` WHERE `id` = 23914;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23914, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 8, 6);
--- DELETE FROM `charsections` WHERE `id` = 23915;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23915, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 8, 7);
--- DELETE FROM `charsections` WHERE `id` = 23916;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23916, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 8, 8);
--- DELETE FROM `charsections` WHERE `id` = 23917;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23917, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 8, 9);
--- DELETE FROM `charsections` WHERE `id` = 23918;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23918, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 8, 10);
--- DELETE FROM `charsections` WHERE `id` = 23919;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23919, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 8, 11);
--- DELETE FROM `charsections` WHERE `id` = 23920;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23920, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 9, 0);
--- DELETE FROM `charsections` WHERE `id` = 23921;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23921, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 9, 1);
--- DELETE FROM `charsections` WHERE `id` = 23922;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23922, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 9, 2);
--- DELETE FROM `charsections` WHERE `id` = 23923;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23923, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 9, 3);
--- DELETE FROM `charsections` WHERE `id` = 23924;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23924, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 9, 4);
--- DELETE FROM `charsections` WHERE `id` = 23925;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23925, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 9, 5);
--- DELETE FROM `charsections` WHERE `id` = 23926;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23926, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 9, 6);
--- DELETE FROM `charsections` WHERE `id` = 23927;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23927, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 9, 7);
--- DELETE FROM `charsections` WHERE `id` = 23928;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23928, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 9, 8);
--- DELETE FROM `charsections` WHERE `id` = 23929;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23929, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 9, 9);
--- DELETE FROM `charsections` WHERE `id` = 23930;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23930, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 9, 10);
--- DELETE FROM `charsections` WHERE `id` = 23931;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23931, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 9, 11);
--- DELETE FROM `charsections` WHERE `id` = 23932;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23932, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 10, 0);
--- DELETE FROM `charsections` WHERE `id` = 23933;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23933, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 10, 1);
--- DELETE FROM `charsections` WHERE `id` = 23934;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23934, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 10, 2);
--- DELETE FROM `charsections` WHERE `id` = 23935;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23935, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 10, 3);
--- DELETE FROM `charsections` WHERE `id` = 23936;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23936, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 10, 4);
--- DELETE FROM `charsections` WHERE `id` = 23937;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23937, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 10, 5);
--- DELETE FROM `charsections` WHERE `id` = 23938;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23938, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 10, 6);
--- DELETE FROM `charsections` WHERE `id` = 23939;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23939, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 10, 7);
--- DELETE FROM `charsections` WHERE `id` = 23940;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23940, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 10, 8);
--- DELETE FROM `charsections` WHERE `id` = 23941;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23941, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 10, 9);
--- DELETE FROM `charsections` WHERE `id` = 23942;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23942, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 10, 10);
--- DELETE FROM `charsections` WHERE `id` = 23943;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23943, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 10, 11);
--- DELETE FROM `charsections` WHERE `id` = 23944;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23944, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 11, 0);
--- DELETE FROM `charsections` WHERE `id` = 23945;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23945, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 11, 1);
--- DELETE FROM `charsections` WHERE `id` = 23946;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23946, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 11, 2);
--- DELETE FROM `charsections` WHERE `id` = 23947;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23947, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 11, 3);
--- DELETE FROM `charsections` WHERE `id` = 23948;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23948, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 11, 4);
--- DELETE FROM `charsections` WHERE `id` = 23949;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23949, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 11, 5);
--- DELETE FROM `charsections` WHERE `id` = 23950;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23950, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 11, 6);
--- DELETE FROM `charsections` WHERE `id` = 23951;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23951, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 11, 7);
--- DELETE FROM `charsections` WHERE `id` = 23952;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23952, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 11, 8);
--- DELETE FROM `charsections` WHERE `id` = 23953;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23953, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 11, 9);
--- DELETE FROM `charsections` WHERE `id` = 23954;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23954, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 11, 10);
--- DELETE FROM `charsections` WHERE `id` = 23955;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23955, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 11, 11);
--- DELETE FROM `charsections` WHERE `id` = 23956;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23956, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 12, 0);
--- DELETE FROM `charsections` WHERE `id` = 23957;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23957, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 12, 1);
--- DELETE FROM `charsections` WHERE `id` = 23958;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23958, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 12, 2);
--- DELETE FROM `charsections` WHERE `id` = 23959;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23959, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 12, 3);
--- DELETE FROM `charsections` WHERE `id` = 23960;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23960, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 12, 4);
--- DELETE FROM `charsections` WHERE `id` = 23961;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23961, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 12, 5);
--- DELETE FROM `charsections` WHERE `id` = 23962;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23962, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 12, 6);
--- DELETE FROM `charsections` WHERE `id` = 23963;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23963, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 12, 7);
--- DELETE FROM `charsections` WHERE `id` = 23964;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23964, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 12, 8);
--- DELETE FROM `charsections` WHERE `id` = 23965;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23965, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 12, 9);
--- DELETE FROM `charsections` WHERE `id` = 23966;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23966, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 12, 10);
--- DELETE FROM `charsections` WHERE `id` = 23967;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23967, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 12, 11);
--- DELETE FROM `charsections` WHERE `id` = 23968;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23968, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 13, 0);
--- DELETE FROM `charsections` WHERE `id` = 23969;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23969, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 13, 1);
--- DELETE FROM `charsections` WHERE `id` = 23970;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23970, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 13, 2);
--- DELETE FROM `charsections` WHERE `id` = 23971;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23971, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 13, 3);
--- DELETE FROM `charsections` WHERE `id` = 23972;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23972, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 13, 4);
--- DELETE FROM `charsections` WHERE `id` = 23973;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23973, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 13, 5);
--- DELETE FROM `charsections` WHERE `id` = 23974;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23974, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 13, 6);
--- DELETE FROM `charsections` WHERE `id` = 23975;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23975, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 13, 7);
--- DELETE FROM `charsections` WHERE `id` = 23976;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23976, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 13, 8);
--- DELETE FROM `charsections` WHERE `id` = 23977;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23977, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 13, 9);
--- DELETE FROM `charsections` WHERE `id` = 23978;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23978, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 13, 10);
--- DELETE FROM `charsections` WHERE `id` = 23979;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23979, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 13, 11);
--- DELETE FROM `charsections` WHERE `id` = 23980;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23980, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 14, 0);
--- DELETE FROM `charsections` WHERE `id` = 23981;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23981, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 14, 1);
--- DELETE FROM `charsections` WHERE `id` = 23982;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23982, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 14, 2);
--- DELETE FROM `charsections` WHERE `id` = 23983;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23983, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 14, 3);
--- DELETE FROM `charsections` WHERE `id` = 23984;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23984, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 14, 4);
--- DELETE FROM `charsections` WHERE `id` = 23985;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23985, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 14, 5);
--- DELETE FROM `charsections` WHERE `id` = 23986;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23986, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 14, 6);
--- DELETE FROM `charsections` WHERE `id` = 23987;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23987, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 14, 7);
--- DELETE FROM `charsections` WHERE `id` = 23988;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23988, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 14, 8);
--- DELETE FROM `charsections` WHERE `id` = 23989;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23989, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 14, 9);
--- DELETE FROM `charsections` WHERE `id` = 23990;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23990, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 14, 10);
--- DELETE FROM `charsections` WHERE `id` = 23991;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23991, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 14, 11);
--- DELETE FROM `charsections` WHERE `id` = 23992;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23992, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 15, 0);
--- DELETE FROM `charsections` WHERE `id` = 23993;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23993, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 15, 1);
--- DELETE FROM `charsections` WHERE `id` = 23994;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23994, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 15, 2);
--- DELETE FROM `charsections` WHERE `id` = 23995;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23995, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 15, 3);
--- DELETE FROM `charsections` WHERE `id` = 23996;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23996, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 15, 4);
--- DELETE FROM `charsections` WHERE `id` = 23997;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23997, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 15, 5);
--- DELETE FROM `charsections` WHERE `id` = 23998;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23998, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 15, 6);
--- DELETE FROM `charsections` WHERE `id` = 23999;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (23999, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 15, 7);
--- DELETE FROM `charsections` WHERE `id` = 24000;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24000, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 15, 8);
--- DELETE FROM `charsections` WHERE `id` = 24001;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24001, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 15, 9);
--- DELETE FROM `charsections` WHERE `id` = 24002;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24002, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 15, 10);
--- DELETE FROM `charsections` WHERE `id` = 24003;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24003, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 15, 11);
--- DELETE FROM `charsections` WHERE `id` = 24004;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24004, 9, 1, 3, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 16, 0);
--- DELETE FROM `charsections` WHERE `id` = 24005;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24005, 9, 1, 3, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 16, 1);
--- DELETE FROM `charsections` WHERE `id` = 24006;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24006, 9, 1, 3, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 16, 2);
--- DELETE FROM `charsections` WHERE `id` = 24007;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24007, 9, 1, 3, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 16, 3);
--- DELETE FROM `charsections` WHERE `id` = 24008;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24008, 9, 1, 3, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 16, 4);
--- DELETE FROM `charsections` WHERE `id` = 24009;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24009, 9, 1, 3, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 16, 5);
--- DELETE FROM `charsections` WHERE `id` = 24010;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24010, 9, 1, 3, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 16, 6);
--- DELETE FROM `charsections` WHERE `id` = 24011;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24011, 9, 1, 3, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 16, 7);
--- DELETE FROM `charsections` WHERE `id` = 24012;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24012, 9, 1, 3, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 16, 8);
--- DELETE FROM `charsections` WHERE `id` = 24013;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24013, 9, 1, 3, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 16, 9);
--- DELETE FROM `charsections` WHERE `id` = 24014;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24014, 9, 1, 3, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 16, 10);
--- DELETE FROM `charsections` WHERE `id` = 24015;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24015, 9, 1, 3, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 16, 11);
--- DELETE FROM `charsections` WHERE `id` = 24016;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24016, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_00.blp', '', 17, 0, 0);
--- DELETE FROM `charsections` WHERE `id` = 24017;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24017, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_01.blp', '', 17, 0, 1);
--- DELETE FROM `charsections` WHERE `id` = 24018;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24018, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_02.blp', '', 17, 0, 2);
--- DELETE FROM `charsections` WHERE `id` = 24019;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24019, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_03.blp', '', 17, 0, 3);
--- DELETE FROM `charsections` WHERE `id` = 24020;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24020, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_04.blp', '', 17, 0, 4);
--- DELETE FROM `charsections` WHERE `id` = 24021;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24021, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_05.blp', '', 17, 0, 5);
--- DELETE FROM `charsections` WHERE `id` = 24022;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24022, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_06.blp', '', 17, 0, 6);
--- DELETE FROM `charsections` WHERE `id` = 24023;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24023, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_07.blp', '', 17, 0, 7);
--- DELETE FROM `charsections` WHERE `id` = 24024;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24024, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_08.blp', '', 17, 0, 8);
--- DELETE FROM `charsections` WHERE `id` = 24025;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24025, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_09.blp', '', 5, 0, 9);
--- DELETE FROM `charsections` WHERE `id` = 24026;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24026, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_10.blp', '', 5, 0, 10);
--- DELETE FROM `charsections` WHERE `id` = 24027;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (24027, 9, 1, 4, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_11.blp', '', 5, 0, 11);
+DELETE FROM `charsections` WHERE `id` BETWEEN 20000 AND 20613; -- Worgen
+DELETE FROM `charsections` WHERE `id` BETWEEN 23000 AND 24027; -- Goblin
+INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES
+(20000, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_00.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_00_Extra.blp', '', 17, 0, 0),
+(20001, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_01.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_01_Extra.blp', '', 17, 0, 1),
+(20002, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_02.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_02_Extra.blp', '', 17, 0, 2),
+(20003, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_03.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_03_Extra.blp', '', 17, 0, 3),
+(20004, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_04.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_04_Extra.blp', '', 17, 0, 4),
+(20005, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_05.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_05_Extra.blp', '', 5, 0, 5),
+(20006, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_06.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_06_Extra.blp', '', 5, 0, 6),
+(20007, @Worgen, @Male, @Skin, 'Character\\Worgen\\Male\\WorgenMaleSkin00_07.blp', 'Character\\Worgen\\Male\\WorgenMaleSkin00_07_Extra.blp', '', 5, 0, 7),
+(20008, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_00.blp', '', 1, 0, 0),
+(20009, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_01.blp', '', 1, 0, 1),
+(20010, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_02.blp', '', 1, 0, 2),
+(20011, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_03.blp', '', 1, 0, 3),
+(20012, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_04.blp', '', 1, 0, 4),
+(20013, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_05.blp', '', 5, 0, 5),
+(20014, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_06.blp', '', 5, 0, 6),
+(20015, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower00_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper00_07.blp', '', 5, 0, 7),
+(20016, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_00.blp', '', 1, 1, 0),
+(20017, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_01.blp', '', 1, 1, 1),
+(20018, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_02.blp', '', 1, 1, 2),
+(20019, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_03.blp', '', 1, 1, 3),
+(20020, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower01_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper01_04.blp', '', 1, 1, 4),
+(20021, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_00.blp', '', 1, 2, 0),
+(20022, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_01.blp', '', 1, 2, 1),
+(20023, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_02.blp', '', 1, 2, 2),
+(20024, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_03.blp', '', 1, 2, 3),
+(20025, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower02_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper02_04.blp', '', 1, 2, 4),
+(20026, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_00.blp', '', 1, 3, 0),
+(20027, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_01.blp', '', 1, 3, 1),
+(20028, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_02.blp', '', 1, 3, 2),
+(20029, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_03.blp', '', 1, 3, 3),
+(20030, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower03_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper03_04.blp', '', 1, 3, 4),
+(20031, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_00.blp', '', 1, 4, 0),
+(20032, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_01.blp', '', 1, 4, 1),
+(20033, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_02.blp', '', 1, 4, 2),
+(20034, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_03.blp', '', 1, 4, 3),
+(20035, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower04_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper04_04.blp', '', 1, 4, 4),
+(20036, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_00.blp', '', 5, 5, 0),
+(20037, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_01.blp', '', 5, 5, 1),
+(20038, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_02.blp', '', 5, 5, 2),
+(20039, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_03.blp', '', 5, 5, 3),
+(20040, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower05_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper05_04.blp', '', 5, 5, 4),
+(20041, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_00.blp', '', 5, 6, 0),
+(20042, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_01.blp', '', 5, 6, 1),
+(20043, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_02.blp', '', 5, 6, 2),
+(20044, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_03.blp', '', 5, 6, 3),
+(20045, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower06_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper06_04.blp', '', 5, 6, 4),
+(20046, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_00.blp', '', 5, 7, 0),
+(20047, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_01.blp', '', 5, 7, 1),
+(20048, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_02.blp', '', 5, 7, 2),
+(20049, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_03.blp', '', 5, 7, 3),
+(20050, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower07_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper07_04.blp', '', 5, 7, 4),
+(20051, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_00.blp', '', 5, 8, 0),
+(20052, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_01.blp', '', 5, 8, 1),
+(20053, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_02.blp', '', 5, 8, 2),
+(20054, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_03.blp', '', 5, 8, 3),
+(20055, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower08_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper08_04.blp', '', 5, 8, 4),
+(20056, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_00.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_00.blp', '', 5, 9, 0),
+(20057, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_01.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_01.blp', '', 5, 9, 1),
+(20058, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_02.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_02.blp', '', 5, 9, 2),
+(20059, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_03.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_03.blp', '', 5, 9, 3),
+(20060, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower09_04.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper09_04.blp', '', 5, 9, 4),
+(20061, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower10_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper10_05.blp', '', 5, 10, 5),
+(20062, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower10_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper10_06.blp', '', 5, 10, 6),
+(20063, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower10_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper10_07.blp', '', 5, 10, 7),
+(20064, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower11_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper11_05.blp', '', 5, 11, 5),
+(20065, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower11_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper11_06.blp', '', 5, 11, 6),
+(20066, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower11_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper11_07.blp', '', 5, 11, 7),
+(20067, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower12_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper12_05.blp', '', 5, 12, 5),
+(20068, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower12_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper12_06.blp', '', 5, 12, 6),
+(20069, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower12_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper12_07.blp', '', 5, 12, 7),
+(20070, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower13_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper13_05.blp', '', 5, 13, 5),
+(20071, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower13_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper13_06.blp', '', 5, 13, 6),
+(20072, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower13_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper13_07.blp', '', 5, 13, 7),
+(20073, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower14_05.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper14_05.blp', '', 5, 14, 5),
+(20074, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower14_06.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper14_06.blp', '', 5, 14, 6),
+(20075, @Worgen, @Male, @Face, 'Character\\Worgen\\Male\\WorgenMaleFaceLower14_07.blp', 'Character\\Worgen\\Male\\WorgenMaleFaceUpper14_07.blp', '', 5, 14, 7),
+(20076, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair00_00.blp', 'Character\\Worgen\\FacialUpperHair00_00.blp', '', 17, 0, 0),
+(20077, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair00_01.blp', 'Character\\Worgen\\FacialUpperHair00_01.blp', '', 17, 0, 1),
+(20078, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair00_02.blp', 'Character\\Worgen\\FacialUpperHair00_02.blp', '', 17, 0, 2),
+(20079, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair00_03.blp', 'Character\\Worgen\\FacialUpperHair00_03.blp', '', 17, 0, 3),
+(20080, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair00_04.blp', 'Character\\Worgen\\FacialUpperHair00_04.blp', '', 17, 0, 4),
+(20081, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair01_00.blp', 'Character\\Worgen\\FacialUpperHair01_00.blp', '', 17, 1, 0),
+(20082, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair01_01.blp', 'Character\\Worgen\\FacialUpperHair01_01.blp', '', 17, 1, 1),
+(20083, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair01_02.blp', 'Character\\Worgen\\FacialUpperHair01_02.blp', '', 17, 1, 2),
+(20084, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair01_03.blp', 'Character\\Worgen\\FacialUpperHair01_03.blp', '', 17, 1, 3),
+(20085, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair01_04.blp', 'Character\\Worgen\\FacialUpperHair01_04.blp', '', 17, 1, 4),
+(20086, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair02_00.blp', 'Character\\Worgen\\FacialUpperHair02_00.blp', '', 17, 2, 0),
+(20087, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair02_01.blp', 'Character\\Worgen\\FacialUpperHair02_01.blp', '', 17, 2, 1),
+(20088, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair02_02.blp', 'Character\\Worgen\\FacialUpperHair02_02.blp', '', 17, 2, 2),
+(20089, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair02_03.blp', 'Character\\Worgen\\FacialUpperHair02_03.blp', '', 17, 2, 3),
+(20090, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair02_04.blp', 'Character\\Worgen\\FacialUpperHair02_04.blp', '', 17, 2, 4),
+(20091, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair03_00.blp', 'Character\\Worgen\\FacialUpperHair03_00.blp', '', 17, 3, 0),
+(20092, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair03_01.blp', 'Character\\Worgen\\FacialUpperHair03_01.blp', '', 17, 3, 1),
+(20093, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair03_02.blp', 'Character\\Worgen\\FacialUpperHair03_02.blp', '', 17, 3, 2),
+(20094, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair03_03.blp', 'Character\\Worgen\\FacialUpperHair03_03.blp', '', 17, 3, 3),
+(20095, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair03_04.blp', 'Character\\Worgen\\FacialUpperHair03_04.blp', '', 17, 3, 4),
+(20096, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair04_00.blp', 'Character\\Worgen\\FacialUpperHair04_00.blp', '', 17, 4, 0),
+(20097, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair04_01.blp', 'Character\\Worgen\\FacialUpperHair04_01.blp', '', 17, 4, 1),
+(20098, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair04_02.blp', 'Character\\Worgen\\FacialUpperHair04_02.blp', '', 17, 4, 2),
+(20099, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair04_03.blp', 'Character\\Worgen\\FacialUpperHair04_03.blp', '', 17, 4, 3),
+(20100, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair04_04.blp', 'Character\\Worgen\\FacialUpperHair04_04.blp', '', 17, 4, 4),
+(20101, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair05_00.blp', 'Character\\Worgen\\FacialUpperHair05_00.blp', '', 17, 5, 0),
+(20102, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair05_01.blp', 'Character\\Worgen\\FacialUpperHair05_01.blp', '', 17, 5, 1),
+(20103, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair05_02.blp', 'Character\\Worgen\\FacialUpperHair05_02.blp', '', 17, 5, 2),
+(20104, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair05_03.blp', 'Character\\Worgen\\FacialUpperHair05_03.blp', '', 17, 5, 3),
+(20105, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair05_04.blp', 'Character\\Worgen\\FacialUpperHair05_04.blp', '', 17, 5, 4),
+(20106, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair06_00.blp', 'Character\\Worgen\\FacialUpperHair06_00.blp', '', 17, 6, 0),
+(20107, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair06_01.blp', 'Character\\Worgen\\FacialUpperHair06_01.blp', '', 17, 6, 1),
+(20108, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair06_02.blp', 'Character\\Worgen\\FacialUpperHair06_02.blp', '', 17, 6, 2),
+(20109, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair06_03.blp', 'Character\\Worgen\\FacialUpperHair06_03.blp', '', 17, 6, 3),
+(20110, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair06_04.blp', 'Character\\Worgen\\FacialUpperHair06_04.blp', '', 17, 6, 4),
+(20111, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair07_00.blp', 'Character\\Worgen\\FacialUpperHair07_00.blp', '', 17, 7, 0),
+(20112, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair07_01.blp', 'Character\\Worgen\\FacialUpperHair07_01.blp', '', 17, 7, 1),
+(20113, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair07_02.blp', 'Character\\Worgen\\FacialUpperHair07_02.blp', '', 17, 7, 2),
+(20114, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair07_03.blp', 'Character\\Worgen\\FacialUpperHair07_03.blp', '', 17, 7, 3),
+(20115, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair07_04.blp', 'Character\\Worgen\\FacialUpperHair07_04.blp', '', 17, 7, 4),
+(20116, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair08_00.blp', 'Character\\Worgen\\FacialUpperHair08_00.blp', '', 17, 8, 0),
+(20117, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair08_01.blp', 'Character\\Worgen\\FacialUpperHair08_01.blp', '', 17, 8, 1),
+(20118, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair08_02.blp', 'Character\\Worgen\\FacialUpperHair08_02.blp', '', 17, 8, 2),
+(20119, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair08_03.blp', 'Character\\Worgen\\FacialUpperHair08_03.blp', '', 17, 8, 3),
+(20120, @Worgen, @Male, @FacialHair, 'Character\\Worgen\\FacialLowerHair08_04.blp', 'Character\\Worgen\\FacialUpperHair08_04.blp', '', 17, 8, 4),
+(20121, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 0, 0),
+(20122, @Worgen, @Male, @Hair, '', '', '', 17, 0, 1),
+(20123, @Worgen, @Male, @Hair, '', '', '', 17, 0, 2),
+(20124, @Worgen, @Male, @Hair, '', '', '', 17, 0, 3),
+(20125, @Worgen, @Male, @Hair, '', '', '', 17, 0, 4),
+(20126, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 1, 0),
+(20127, @Worgen, @Male, @Hair, '', '', '', 17, 1, 1),
+(20128, @Worgen, @Male, @Hair, '', '', '', 17, 1, 2),
+(20129, @Worgen, @Male, @Hair, '', '', '', 17, 1, 3),
+(20130, @Worgen, @Male, @Hair, '', '', '', 17, 1, 4),
+(20131, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 2, 0),
+(20132, @Worgen, @Male, @Hair, '', '', '', 17, 2, 1),
+(20133, @Worgen, @Male, @Hair, '', '', '', 17, 2, 2),
+(20134, @Worgen, @Male, @Hair, '', '', '', 17, 2, 3),
+(20135, @Worgen, @Male, @Hair, '', '', '', 17, 2, 4),
+(20136, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 3, 0),
+(20137, @Worgen, @Male, @Hair, '', '', '', 17, 3, 1),
+(20138, @Worgen, @Male, @Hair, '', '', '', 17, 3, 2),
+(20139, @Worgen, @Male, @Hair, '', '', '', 17, 3, 3),
+(20140, @Worgen, @Male, @Hair, '', '', '', 17, 3, 4),
+(20141, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 4, 0),
+(20142, @Worgen, @Male, @Hair, '', '', '', 17, 4, 1),
+(20143, @Worgen, @Male, @Hair, '', '', '', 17, 4, 2),
+(20144, @Worgen, @Male, @Hair, '', '', '', 17, 4, 3),
+(20145, @Worgen, @Male, @Hair, '', '', '', 17, 4, 4),
+(20146, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 5, 0),
+(20147, @Worgen, @Male, @Hair, '', '', '', 17, 5, 1),
+(20148, @Worgen, @Male, @Hair, '', '', '', 17, 5, 2),
+(20149, @Worgen, @Male, @Hair, '', '', '', 17, 5, 3),
+(20150, @Worgen, @Male, @Hair, '', '', '', 17, 5, 4),
+(20151, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 6, 0),
+(20152, @Worgen, @Male, @Hair, '', '', '', 17, 6, 1),
+(20153, @Worgen, @Male, @Hair, '', '', '', 17, 6, 2),
+(20154, @Worgen, @Male, @Hair, '', '', '', 17, 6, 3),
+(20155, @Worgen, @Male, @Hair, '', '', '', 17, 6, 4),
+(20156, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 7, 0),
+(20157, @Worgen, @Male, @Hair, '', '', '', 17, 7, 1),
+(20158, @Worgen, @Male, @Hair, '', '', '', 17, 7, 2),
+(20159, @Worgen, @Male, @Hair, '', '', '', 17, 7, 3),
+(20160, @Worgen, @Male, @Hair, '', '', '', 17, 7, 4),
+(20161, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 8, 0),
+(20162, @Worgen, @Male, @Hair, '', '', '', 18, 8, 1),
+(20163, @Worgen, @Male, @Hair, '', '', '', 18, 8, 2),
+(20164, @Worgen, @Male, @Hair, '', '', '', 18, 8, 3),
+(20165, @Worgen, @Male, @Hair, '', '', '', 18, 8, 4),
+(20166, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 9, 0),
+(20167, @Worgen, @Male, @Hair, '', '', '', 18, 9, 1),
+(20168, @Worgen, @Male, @Hair, '', '', '', 18, 9, 2),
+(20169, @Worgen, @Male, @Hair, '', '', '', 18, 9, 3),
+(20170, @Worgen, @Male, @Hair, '', '', '', 18, 9, 4),
+(20171, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 10, 0),
+(20172, @Worgen, @Male, @Hair, '', '', '', 18, 10, 1),
+(20173, @Worgen, @Male, @Hair, '', '', '', 18, 10, 2),
+(20174, @Worgen, @Male, @Hair, '', '', '', 18, 10, 3),
+(20175, @Worgen, @Male, @Hair, '', '', '', 18, 10, 4),
+(20176, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 11, 0),
+(20177, @Worgen, @Male, @Hair, '', '', '', 18, 11, 1),
+(20178, @Worgen, @Male, @Hair, '', '', '', 18, 11, 2),
+(20179, @Worgen, @Male, @Hair, '', '', '', 18, 11, 3),
+(20180, @Worgen, @Male, @Hair, '', '', '', 18, 11, 4),
+(20181, @Worgen, @Male, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 12, 0),
+(20182, @Worgen, @Male, @Hair, '', '', '', 18, 12, 1),
+(20183, @Worgen, @Male, @Hair, '', '', '', 18, 12, 2),
+(20184, @Worgen, @Male, @Hair, '', '', '', 18, 12, 3),
+(20185, @Worgen, @Male, @Hair, '', '', '', 18, 12, 4),
+(20186, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 0),
+(20187, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 1),
+(20188, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 2),
+(20189, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 3),
+(20190, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_regular.blp', '', '', 17, 0, 4),
+(20191, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_dk.blp', '', '', 5, 0, 5),
+(20192, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_dk.blp', '', '', 5, 0, 6),
+(20193, @Worgen, @Male, @Underwear, 'Character\\Worgen\\Male\\WorgenMaleNakedPelvisSkin_dk.blp', '', '', 5, 0, 7),
+(20194, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_00.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_00_EXTRA.BLP', '', 17, 0, 0),
+(20195, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_01.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_01_EXTRA.BLP', '', 17, 0, 1),
+(20196, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_02.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_02_EXTRA.BLP', '', 17, 0, 2),
+(20197, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_03.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_03_EXTRA.BLP', '', 17, 0, 3),
+(20198, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_04.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_04_EXTRA.BLP', '', 17, 0, 4),
+(20199, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_05.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_05_EXTRA.BLP', '', 17, 0, 5),
+(20200, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_06.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_06_EXTRA.BLP', '', 17, 0, 6),
+(20201, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_07.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_07_EXTRA.BLP', '', 17, 0, 7),
+(20202, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_08.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_08_EXTRA.BLP', '', 17, 0, 8),
+(20203, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_09.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_09_EXTRA.BLP', '', 5, 0, 9),
+(20204, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_10.blp', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_10_EXTRA.BLP', '', 5, 0, 10),
+(20205, @Worgen, @Female, @Skin, 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_11.BLP', 'Character\\Worgen\\Female\\WORGENFEMALESKIN00_11_EXTRA.BLP', '', 5, 0, 11),
+(20206, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_00.blp', '', 1, 0, 0),
+(20207, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_01.blp', '', 1, 0, 1),
+(20208, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_02.blp', '', 1, 0, 2),
+(20209, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_03.blp', '', 1, 0, 3),
+(20210, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_04.blp', '', 1, 0, 4),
+(20211, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_05.blp', '', 1, 0, 5),
+(20212, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_06.blp', '', 1, 0, 6),
+(20213, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_07.blp', '', 1, 0, 7),
+(20214, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower00_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper00_08.blp', '', 1, 0, 8),
+(20215, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_00.blp', '', 1, 1, 0),
+(20216, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_01.blp', '', 1, 1, 1),
+(20217, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_02.blp', '', 1, 1, 2),
+(20218, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_03.blp', '', 1, 1, 3),
+(20219, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_04.blp', '', 1, 1, 4),
+(20220, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_05.blp', '', 1, 1, 5),
+(20221, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_06.blp', '', 1, 1, 6),
+(20222, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_07.blp', '', 1, 1, 7),
+(20223, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower01_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper01_08.blp', '', 1, 1, 8),
+(20224, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_00.blp', '', 1, 2, 0),
+(20225, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_01.blp', '', 1, 2, 1),
+(20226, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_02.blp', '', 1, 2, 2),
+(20227, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_03.blp', '', 1, 2, 3),
+(20228, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_04.blp', '', 1, 2, 4),
+(20229, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_05.blp', '', 1, 2, 5),
+(20230, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_06.blp', '', 1, 2, 6),
+(20231, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_07.blp', '', 1, 2, 7),
+(20232, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower02_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper02_08.blp', '', 1, 2, 8),
+(20233, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_00.blp', '', 1, 3, 0),
+(20234, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_01.blp', '', 1, 3, 1),
+(20235, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_02.blp', '', 1, 3, 2),
+(20236, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_03.blp', '', 1, 3, 3),
+(20237, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_04.blp', '', 1, 3, 4),
+(20238, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_05.blp', '', 1, 3, 5),
+(20239, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_06.blp', '', 1, 3, 6),
+(20240, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_07.blp', '', 1, 3, 7),
+(20241, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower03_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper03_08.blp', '', 1, 3, 8),
+(20242, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_00.blp', '', 1, 4, 0),
+(20243, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_01.blp', '', 1, 4, 1),
+(20244, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_02.blp', '', 1, 4, 2),
+(20245, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_03.blp', '', 1, 4, 3),
+(20246, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_04.blp', '', 1, 4, 4),
+(20247, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_05.blp', '', 1, 4, 5),
+(20248, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_06.blp', '', 1, 4, 6),
+(20249, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_07.blp', '', 1, 4, 7),
+(20250, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower04_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper04_08.blp', '', 1, 4, 8),
+(20251, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_00.blp', '', 1, 5, 0),
+(20252, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_01.blp', '', 1, 5, 1),
+(20253, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_02.blp', '', 1, 5, 2),
+(20254, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_03.blp', '', 1, 5, 3),
+(20255, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_04.blp', '', 1, 5, 4),
+(20256, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_05.blp', '', 1, 5, 5),
+(20257, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_06.blp', '', 1, 5, 6),
+(20258, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_07.blp', '', 1, 5, 7),
+(20259, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower05_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper05_08.blp', '', 1, 5, 8),
+(20260, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_00.blp', '', 1, 6, 0),
+(20261, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_01.blp', '', 1, 6, 1),
+(20262, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_02.blp', '', 1, 6, 2),
+(20263, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_03.blp', '', 1, 6, 3),
+(20264, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_04.blp', '', 1, 6, 4),
+(20265, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_05.blp', '', 1, 6, 5),
+(20266, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_06.blp', '', 1, 6, 6),
+(20267, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_07.blp', '', 1, 6, 7),
+(20268, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower06_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper06_08.blp', '', 1, 6, 8),
+(20269, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_00.blp', '', 1, 7, 0),
+(20270, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_01.blp', '', 1, 7, 1),
+(20271, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_02.blp', '', 1, 7, 2),
+(20272, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_03.blp', '', 1, 7, 3),
+(20273, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_04.blp', '', 1, 7, 4),
+(20274, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_05.blp', '', 1, 7, 5),
+(20275, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_06.blp', '', 1, 7, 6),
+(20276, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_07.blp', '', 1, 7, 7),
+(20277, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_08.blp', '', 1, 7, 8),
+(20278, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_09.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_09.blp', '', 5, 7, 9),
+(20279, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_10.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_10.blp', '', 5, 7, 10),
+(20280, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower07_11.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper07_11.blp', '', 5, 7, 11),
+(20281, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_00.blp', '', 1, 8, 0),
+(20282, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_01.blp', '', 1, 8, 1),
+(20283, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_02.blp', '', 1, 8, 2),
+(20284, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_03.blp', '', 1, 8, 3),
+(20285, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_04.blp', '', 1, 8, 4),
+(20286, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_05.blp', '', 1, 8, 5),
+(20287, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_06.blp', '', 1, 8, 6),
+(20288, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_07.blp', '', 1, 8, 7),
+(20289, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower08_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper08_08.blp', '', 1, 8, 8),
+(20290, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_00.blp', '', 1, 9, 0),
+(20291, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_01.blp', '', 1, 9, 1),
+(20292, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_02.blp', '', 1, 9, 2),
+(20293, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_03.blp', '', 1, 9, 3),
+(20294, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_04.blp', '', 1, 9, 4),
+(20295, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_05.blp', '', 1, 9, 5),
+(20296, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_06.blp', '', 1, 9, 6),
+(20297, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_07.blp', '', 1, 9, 7),
+(20298, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_08.blp', '', 1, 9, 8),
+(20299, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_09.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_09.blp', '', 5, 9, 9),
+(20300, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_10.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_10.blp', '', 5, 9, 10),
+(20301, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower09_11.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper09_11.blp', '', 5, 9, 11),
+(20302, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_00.blp', '', 1, 10, 0),
+(20303, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_01.blp', '', 1, 10, 1),
+(20304, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_02.blp', '', 1, 10, 2),
+(20305, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_03.blp', '', 1, 10, 3),
+(20306, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_04.blp', '', 1, 10, 4),
+(20307, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_05.blp', '', 1, 10, 5),
+(20308, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_06.blp', '', 1, 10, 6),
+(20309, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_07.blp', '', 1, 10, 7),
+(20310, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower10_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper10_08.blp', '', 1, 10, 8),
+(20311, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_00.blp', '', 1, 11, 0),
+(20312, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_01.blp', '', 1, 11, 1),
+(20313, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_02.blp', '', 1, 11, 2),
+(20314, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_03.blp', '', 1, 11, 3),
+(20315, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_04.blp', '', 1, 11, 4),
+(20316, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_05.blp', '', 1, 11, 5),
+(20317, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_06.blp', '', 1, 11, 6),
+(20318, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_07.blp', '', 1, 11, 7),
+(20319, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower11_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper11_08.blp', '', 1, 11, 8),
+(20320, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_00.blp', '', 1, 12, 0),
+(20321, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_01.blp', '', 1, 12, 1),
+(20322, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_02.blp', '', 1, 12, 2),
+(20323, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_03.blp', '', 1, 12, 3),
+(20324, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_04.blp', '', 1, 12, 4),
+(20325, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_05.blp', '', 1, 12, 5),
+(20326, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_06.blp', '', 1, 12, 6),
+(20327, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_07.blp', '', 1, 12, 7),
+(20328, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower12_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper12_08.blp', '', 1, 12, 8),
+(20329, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_00.blp', '', 1, 13, 0),
+(20330, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_01.blp', '', 1, 13, 1),
+(20331, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_02.blp', '', 1, 13, 2),
+(20332, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_03.blp', '', 1, 13, 3),
+(20333, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_04.blp', '', 1, 13, 4),
+(20334, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_05.blp', '', 1, 13, 5),
+(20335, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_06.blp', '', 1, 13, 6),
+(20336, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_07.blp', '', 1, 13, 7),
+(20337, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_08.blp', '', 1, 13, 8),
+(20338, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_09.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_09.blp', '', 5, 13, 9),
+(20339, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_10.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_10.blp', '', 5, 13, 10),
+(20340, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower13_11.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper13_11.blp', '', 5, 13, 11),
+(20341, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_00.blp', '', 5, 14, 0),
+(20342, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_01.blp', '', 5, 14, 1),
+(20343, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_02.blp', '', 5, 14, 2),
+(20344, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_03.blp', '', 5, 14, 3),
+(20345, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_04.blp', '', 5, 14, 4),
+(20346, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_05.blp', '', 5, 14, 5),
+(20347, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_06.blp', '', 5, 14, 6),
+(20348, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_07.blp', '', 5, 14, 7),
+(20349, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower14_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper14_08.blp', '', 5, 14, 8),
+(20350, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_00.blp', '', 5, 15, 0),
+(20351, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_01.blp', '', 5, 15, 1),
+(20352, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_02.blp', '', 5, 15, 2),
+(20353, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_03.blp', '', 5, 15, 3),
+(20354, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_04.blp', '', 5, 15, 4),
+(20355, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_05.blp', '', 5, 15, 5),
+(20356, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_06.blp', '', 5, 15, 6),
+(20357, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_07.blp', '', 5, 15, 7),
+(20358, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower15_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper15_08.blp', '', 5, 15, 8),
+(20359, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_00.blp', '', 5, 16, 0),
+(20360, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_01.blp', '', 5, 16, 1),
+(20361, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_02.blp', '', 5, 16, 2),
+(20362, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_03.blp', '', 5, 16, 3),
+(20363, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_04.blp', '', 5, 16, 4),
+(20364, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_05.blp', '', 5, 16, 5),
+(20365, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_06.blp', '', 5, 16, 6),
+(20366, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_07.blp', '', 5, 16, 7),
+(20367, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_08.blp', '', 5, 16, 8),
+(20368, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_00.blp', '', 5, 17, 0),
+(20369, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_01.blp', '', 5, 17, 1),
+(20370, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_02.blp', '', 5, 17, 2),
+(20371, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_03.blp', '', 5, 17, 3),
+(20372, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_04.blp', '', 5, 17, 4),
+(20373, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_05.blp', '', 5, 17, 5),
+(20374, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_06.blp', '', 5, 17, 6),
+(20375, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_07.blp', '', 5, 17, 7),
+(20376, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower17_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper17_08.blp', '', 5, 17, 8),
+(20377, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_00.blp', '', 5, 18, 0),
+(20378, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_01.blp', '', 5, 18, 1),
+(20379, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_02.blp', '', 5, 18, 2),
+(20380, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_03.blp', '', 5, 18, 3),
+(20381, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_04.blp', '', 5, 18, 4),
+(20382, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_05.blp', '', 5, 18, 5),
+(20383, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_06.blp', '', 5, 18, 6),
+(20384, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_07.blp', '', 5, 18, 7),
+(20385, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower18_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper18_08.blp', '', 5, 18, 8),
+(20386, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_00.blp', '', 5, 19, 0),
+(20387, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_01.blp', '', 5, 19, 1),
+(20388, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_02.blp', '', 5, 19, 2),
+(20389, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_03.blp', '', 5, 19, 3),
+(20390, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_04.blp', '', 5, 19, 4),
+(20391, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_05.blp', '', 5, 19, 5),
+(20392, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_06.blp', '', 5, 19, 6),
+(20393, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_07.blp', '', 5, 19, 7),
+(20394, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower19_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper19_08.blp', '', 5, 19, 8),
+(20395, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_00.blp', '', 5, 20, 0),
+(20396, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_01.blp', '', 5, 20, 1),
+(20397, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_02.blp', '', 5, 20, 2),
+(20398, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_03.blp', '', 5, 20, 3),
+(20399, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_04.blp', '', 5, 20, 4),
+(20400, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_05.blp', '', 5, 20, 5),
+(20401, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_06.blp', '', 5, 20, 6),
+(20402, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper20_07.blp', '', 5, 20, 7),
+(20403, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceLower20_08.blp', '', 5, 20, 8),
+(20404, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_00.blp', '', 5, 21, 0),
+(20405, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_01.blp', '', 5, 21, 1),
+(20406, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_02.blp', '', 5, 21, 2),
+(20407, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_03.blp', '', 5, 21, 3),
+(20408, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_04.blp', '', 5, 21, 4),
+(20409, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_05.blp', '', 5, 21, 5),
+(20410, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_06.blp', '', 5, 21, 6),
+(20411, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_07.blp', '', 5, 21, 7),
+(20412, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower21_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper21_08.blp', '', 5, 21, 8),
+(20413, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_00.blp', '', 5, 14, 0),
+(20414, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_01.blp', '', 5, 14, 1),
+(20415, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_02.blp', '', 5, 14, 2),
+(20416, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_03.blp', '', 5, 14, 3),
+(20417, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_04.blp', '', 5, 14, 4),
+(20418, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_05.blp', '', 5, 14, 5),
+(20419, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_06.blp', '', 5, 14, 6),
+(20420, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_07.blp', '', 5, 14, 7),
+(20421, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower22_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper22_08.blp', '', 5, 14, 8),
+(20422, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_00.blp', '', 5, 23, 0),
+(20423, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_01.blp', '', 5, 23, 1),
+(20424, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_02.blp', '', 5, 23, 2),
+(20425, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_03.blp', '', 5, 23, 3),
+(20426, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_04.blp', '', 5, 23, 4),
+(20427, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_05.blp', '', 5, 23, 5),
+(20428, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_06.blp', '', 5, 23, 6),
+(20429, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_07.blp', '', 5, 23, 7),
+(20430, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower23_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper23_08.blp', '', 5, 23, 8),
+(20431, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_00.blp', '', 5, 16, 0),
+(20432, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_01.blp', '', 5, 16, 1),
+(20433, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_02.blp', '', 5, 16, 2),
+(20434, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_03.blp', '', 5, 16, 3),
+(20435, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_04.blp', '', 5, 16, 4),
+(20436, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_05.blp', '', 5, 16, 5),
+(20437, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_06.blp', '', 5, 16, 6),
+(20438, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_07.blp', '', 5, 16, 7),
+(20439, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower16_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper16_08.blp', '', 5, 16, 8),
+(20440, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_00.blp', '', 5, 25, 0),
+(20441, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_01.blp', '', 5, 25, 1),
+(20442, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_02.blp', '', 5, 25, 2),
+(20443, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_03.blp', '', 5, 25, 3),
+(20444, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_04.blp', '', 5, 25, 4),
+(20445, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_05.blp', '', 5, 25, 5),
+(20446, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_06.blp', '', 5, 25, 6),
+(20447, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_07.blp', '', 5, 25, 7),
+(20448, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower25_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper25_08.blp', '', 5, 25, 8),
+(20449, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_00.blp', '', 5, 26, 0),
+(20450, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_01.blp', '', 5, 26, 1),
+(20451, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_02.blp', '', 5, 26, 2),
+(20452, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_03.blp', '', 5, 26, 3),
+(20453, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_04.blp', '', 5, 26, 4),
+(20454, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_05.blp', '', 5, 26, 5),
+(20455, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_06.blp', '', 5, 26, 6),
+(20456, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_07.blp', '', 5, 26, 7),
+(20457, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower26_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper26_08.blp', '', 5, 26, 8),
+(20458, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_00.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_00.blp', '', 5, 27, 0),
+(20459, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_01.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_01.blp', '', 5, 27, 1),
+(20460, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_02.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_02.blp', '', 5, 27, 2),
+(20461, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_03.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_03.blp', '', 5, 27, 3),
+(20462, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_04.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_04.blp', '', 5, 27, 4),
+(20463, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_05.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_05.blp', '', 5, 27, 5),
+(20464, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_06.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_06.blp', '', 5, 27, 6),
+(20465, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_07.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_07.blp', '', 5, 27, 7),
+(20466, @Worgen, @Female, @Face, 'Character\\Worgen\\Female\\WorgenFemaleFaceLower27_08.blp', 'Character\\Worgen\\Female\\WorgenFemaleFaceUpper27_08.blp', '', 5, 27, 8),
+(20467, @Worgen, @Female, @FacialHair, '', '', '', 17, 0, 0),
+(20468, @Worgen, @Female, @FacialHair, '', '', '', 17, 0, 1),
+(20469, @Worgen, @Female, @FacialHair, '', '', '', 17, 0, 2),
+(20470, @Worgen, @Female, @FacialHair, '', '', '', 17, 0, 3),
+(20471, @Worgen, @Female, @FacialHair, '', '', '', 17, 0, 4),
+(20472, @Worgen, @Female, @FacialHair, '', '', '', 17, 1, 0),
+(20473, @Worgen, @Female, @FacialHair, '', '', '', 17, 1, 1),
+(20474, @Worgen, @Female, @FacialHair, '', '', '', 17, 1, 2),
+(20475, @Worgen, @Female, @FacialHair, '', '', '', 17, 1, 3),
+(20476, @Worgen, @Female, @FacialHair, '', '', '', 17, 1, 4),
+(20477, @Worgen, @Female, @FacialHair, '', '', '', 17, 2, 0),
+(20478, @Worgen, @Female, @FacialHair, '', '', '', 17, 2, 1),
+(20479, @Worgen, @Female, @FacialHair, '', '', '', 17, 2, 2),
+(20480, @Worgen, @Female, @FacialHair, '', '', '', 17, 2, 3),
+(20481, @Worgen, @Female, @FacialHair, '', '', '', 17, 2, 4),
+(20482, @Worgen, @Female, @FacialHair, '', '', '', 17, 3, 0),
+(20483, @Worgen, @Female, @FacialHair, '', '', '', 17, 3, 1),
+(20484, @Worgen, @Female, @FacialHair, '', '', '', 17, 3, 2),
+(20485, @Worgen, @Female, @FacialHair, '', '', '', 17, 3, 3),
+(20486, @Worgen, @Female, @FacialHair, '', '', '', 17, 3, 4),
+(20487, @Worgen, @Female, @FacialHair, '', '', '', 17, 4, 0),
+(20488, @Worgen, @Female, @FacialHair, '', '', '', 17, 4, 1),
+(20489, @Worgen, @Female, @FacialHair, '', '', '', 17, 4, 2),
+(20490, @Worgen, @Female, @FacialHair, '', '', '', 17, 4, 3),
+(20491, @Worgen, @Female, @FacialHair, '', '', '', 17, 4, 4),
+(20492, @Worgen, @Female, @FacialHair, '', '', '', 17, 5, 0),
+(20493, @Worgen, @Female, @FacialHair, '', '', '', 17, 5, 1),
+(20494, @Worgen, @Female, @FacialHair, '', '', '', 17, 5, 2),
+(20495, @Worgen, @Female, @FacialHair, '', '', '', 17, 5, 3),
+(20496, @Worgen, @Female, @FacialHair, '', '', '', 17, 5, 4),
+(20497, @Worgen, @Female, @FacialHair, '', '', '', 17, 6, 0),
+(20498, @Worgen, @Female, @FacialHair, '', '', '', 17, 6, 1),
+(20499, @Worgen, @Female, @FacialHair, '', '', '', 17, 6, 2),
+(20500, @Worgen, @Female, @FacialHair, '', '', '', 17, 6, 3),
+(20501, @Worgen, @Female, @FacialHair, '', '', '', 17, 6, 4),
+(20502, @Worgen, @Female, @FacialHair, '', '', '', 17, 7, 0),
+(20503, @Worgen, @Female, @FacialHair, '', '', '', 17, 7, 1),
+(20504, @Worgen, @Female, @FacialHair, '', '', '', 17, 7, 2),
+(20505, @Worgen, @Female, @FacialHair, '', '', '', 17, 7, 3),
+(20506, @Worgen, @Female, @FacialHair, '', '', '', 17, 7, 4),
+(20507, @Worgen, @Female, @FacialHair, '', '', '', 17, 8, 0),
+(20508, @Worgen, @Female, @FacialHair, '', '', '', 17, 8, 1),
+(20509, @Worgen, @Female, @FacialHair, '', '', '', 17, 8, 2),
+(20510, @Worgen, @Female, @FacialHair, '', '', '', 17, 8, 3),
+(20511, @Worgen, @Female, @FacialHair, '', '', '', 17, 8, 4),
+(20512, @Worgen, @Female, @FacialHair, '', '', '', 17, 9, 0),
+(20513, @Worgen, @Female, @FacialHair, '', '', '', 17, 9, 1),
+(20514, @Worgen, @Female, @FacialHair, '', '', '', 17, 9, 2),
+(20515, @Worgen, @Female, @FacialHair, '', '', '', 17, 9, 3),
+(20516, @Worgen, @Female, @FacialHair, '', '', '', 17, 9, 4),
+(20517, @Worgen, @Female, @FacialHair, '', '', '', 17, 10, 0),
+(20518, @Worgen, @Female, @FacialHair, '', '', '', 17, 10, 1),
+(20519, @Worgen, @Female, @FacialHair, '', '', '', 17, 10, 2),
+(20520, @Worgen, @Female, @FacialHair, '', '', '', 17, 10, 3),
+(20521, @Worgen, @Female, @FacialHair, '', '', '', 17, 10, 4),
+(20522, @Worgen, @Female, @FacialHair, '', '', '', 17, 11, 0),
+(20523, @Worgen, @Female, @FacialHair, '', '', '', 17, 11, 1),
+(20524, @Worgen, @Female, @FacialHair, '', '', '', 17, 11, 2),
+(20525, @Worgen, @Female, @FacialHair, '', '', '', 17, 11, 3),
+(20526, @Worgen, @Female, @FacialHair, '', '', '', 17, 11, 4),
+(20527, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 0, 0),
+(20528, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 0, 1),
+(20529, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 0, 2),
+(20530, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 0, 3),
+(20531, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 0, 4),
+(20532, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 1, 0),
+(20533, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 1, 1),
+(20534, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 1, 2),
+(20535, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 1, 3),
+(20536, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 1, 4),
+(20537, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 2, 0),
+(20538, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 2, 1),
+(20539, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 2, 2),
+(20540, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 2, 3),
+(20541, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 2, 4),
+(20542, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 3, 0),
+(20543, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 3, 1),
+(20544, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 3, 2),
+(20545, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 3, 3),
+(20546, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 3, 4),
+(20547, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 4, 0),
+(20548, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 4, 1),
+(20549, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 4, 2),
+(20550, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 4, 3),
+(20551, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 4, 4),
+(20552, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 5, 0),
+(20553, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 5, 1),
+(20554, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 5, 2),
+(20555, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 5, 3),
+(20556, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 5, 4),
+(20557, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 6, 0),
+(20558, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 6, 1),
+(20559, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 6, 2),
+(20560, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 6, 3),
+(20561, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 6, 4),
+(20562, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 7, 0),
+(20563, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 7, 1),
+(20564, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 7, 2),
+(20565, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 7, 3),
+(20566, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 7, 4),
+(20567, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 8, 0),
+(20568, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 8, 1),
+(20569, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 8, 2),
+(20570, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 8, 3),
+(20571, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 8, 4),
+(20572, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 17, 9, 0),
+(20573, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 17, 9, 1),
+(20574, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 17, 9, 2),
+(20575, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 17, 9, 3),
+(20576, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 17, 9, 4),
+(20577, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 10, 0),
+(20578, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 10, 1),
+(20579, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 10, 2),
+(20580, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 10, 3),
+(20581, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 10, 4),
+(20582, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 11, 0),
+(20583, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 11, 1),
+(20584, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 11, 2),
+(20585, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 11, 3),
+(20586, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 11, 4),
+(20587, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 12, 0),
+(20588, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 12, 1),
+(20589, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 12, 2),
+(20590, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 12, 3),
+(20591, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 12, 4),
+(20592, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 13, 0),
+(20593, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 13, 1),
+(20594, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 13, 2),
+(20595, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 13, 3),
+(20596, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 13, 4),
+(20597, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_00.blp', '', '', 18, 14, 0),
+(20598, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_01.blp', '', '', 18, 14, 1),
+(20599, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_02.blp', '', '', 18, 14, 2),
+(20600, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_03.blp', '', '', 18, 14, 3),
+(20601, @Worgen, @Female, @Hair, 'Character\\Worgen\\Hair00_04.blp', '', '', 18, 14, 4),
+(20602, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 0),
+(20603, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 1),
+(20604, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 2),
+(20605, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 3),
+(20606, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 4),
+(20607, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 5),
+(20608, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 6),
+(20609, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 7),
+(20610, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_regular.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_regular.blp', '', 17, 0, 8),
+(20611, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_dk.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_dk.blp', '', 5, 0, 9),
+(20612, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_dk.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_dk.blp', '', 5, 0, 10),
+(20613, @Worgen, @Female, @Underwear, 'Character\\Worgen\\Female\\WorgenFemaleNakedPelvisSkin_dk.blp', 'Character\\Worgen\\Female\\WorgenFemaleNakedTorsoSkin_dk.blp', '', 5, 0, 11),
+(23000, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_00.blp', '', '', 17, 0, 0),
+(23001, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_01.blp', '', '', 17, 0, 1),
+(23002, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_02.blp', '', '', 17, 0, 2),
+(23003, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_03.blp', '', '', 17, 0, 3),
+(23004, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_04.blp', '', '', 17, 0, 4),
+(23005, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_05.blp', '', '', 17, 0, 5),
+(23006, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_06.blp', '', '', 17, 0, 6),
+(23007, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_07.blp', '', '', 17, 0, 7),
+(23008, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_08.blp', '', '', 17, 0, 8),
+(23009, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_09.blp', '', '', 5, 0, 9),
+(23010, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_10.blp', '', '', 5, 0, 10),
+(23011, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_11.blp', '', '', 5, 0, 11),
+(23012, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_100.blp', '', '', 8, 0, 12),
+(23013, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_101.blp', '', '', 8, 0, 13),
+(23014, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_102.blp', '', '', 8, 0, 14),
+(23015, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_103.blp', '', '', 8, 0, 15),
+(23016, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_104.blp', '', '', 8, 0, 16),
+(23017, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_105.blp', '', '', 8, 0, 17),
+(23018, @Goblin, @Male, @Skin, 'Character\\Goblin\\Male\\GoblinMaleSkin00_106.blp', '', '', 8, 0, 18),
+(23019, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_00.blp', '', 1, 0, 0),
+(23020, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_01.blp', '', 1, 0, 1),
+(23021, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_02.blp', '', 1, 0, 2),
+(23022, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_03.blp', '', 1, 0, 3),
+(23023, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_04.blp', '', 1, 0, 4),
+(23024, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_05.blp', '', 1, 0, 5),
+(23025, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_06.blp', '', 1, 0, 6),
+(23026, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_07.blp', '', 1, 0, 7),
+(23027, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_08.blp', '', 1, 0, 8),
+(23028, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_09.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_09.blp', '', 5, 0, 9),
+(23029, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_10.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_10.blp', '', 5, 0, 10),
+(23030, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_11.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_11.blp', '', 5, 0, 11),
+(23031, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_00.blp', '', 1, 1, 0),
+(23032, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_01.blp', '', 1, 1, 1),
+(23033, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_02.blp', '', 1, 1, 2),
+(23034, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_03.blp', '', 1, 1, 3),
+(23035, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_04.blp', '', 1, 1, 4),
+(23036, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_05.blp', '', 1, 1, 5),
+(23037, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_06.blp', '', 1, 1, 6),
+(23038, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_07.blp', '', 1, 1, 7),
+(23039, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_08.blp', '', 1, 1, 8),
+(23040, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_09.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_09.blp', '', 5, 1, 9),
+(23041, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_10.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_10.blp', '', 5, 1, 10),
+(23042, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_11.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_11.blp', '', 5, 1, 11),
+(23043, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_00.blp', '', 1, 2, 0),
+(23044, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_01.blp', '', 1, 2, 1),
+(23045, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_02.blp', '', 1, 2, 2),
+(23046, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_03.blp', '', 1, 2, 3),
+(23047, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_04.blp', '', 1, 2, 4),
+(23048, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_05.blp', '', 1, 2, 5),
+(23049, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_06.blp', '', 1, 2, 6),
+(23050, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_07.blp', '', 1, 2, 7),
+(23051, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_08.blp', '', 1, 2, 8),
+(23052, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_09.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_09.blp', '', 5, 2, 9),
+(23053, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_10.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_10.blp', '', 5, 2, 10),
+(23054, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_11.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_11.blp', '', 5, 2, 11),
+(23055, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_00.blp', '', 1, 3, 0),
+(23056, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_01.blp', '', 1, 3, 1),
+(23057, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_02.blp', '', 1, 3, 2),
+(23058, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_03.blp', '', 1, 3, 3),
+(23059, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_04.blp', '', 1, 3, 4),
+(23060, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_05.blp', '', 1, 3, 5),
+(23061, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_06.blp', '', 1, 3, 6),
+(23062, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_07.blp', '', 1, 3, 7),
+(23063, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_08.blp', '', 1, 3, 8),
+(23064, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_00.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_00.blp', '', 1, 4, 0),
+(23065, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_01.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_01.blp', '', 1, 4, 1),
+(23066, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_02.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_02.blp', '', 1, 4, 2),
+(23067, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_03.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_03.blp', '', 1, 4, 3),
+(23068, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_04.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_04.blp', '', 1, 4, 4),
+(23069, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_05.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_05.blp', '', 1, 4, 5),
+(23070, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_06.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_06.blp', '', 1, 4, 6),
+(23071, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_07.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_07.blp', '', 1, 4, 7),
+(23072, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_08.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_08.blp', '', 1, 4, 8),
+(23073, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_12.blp', '', 5, 5, 0),
+(23074, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_13.blp', '', 5, 5, 1),
+(23075, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_14.blp', '', 5, 5, 2),
+(23076, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_15.blp', '', 5, 5, 3),
+(23077, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_16.blp', '', 5, 5, 4),
+(23078, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_17.blp', '', 5, 5, 5),
+(23079, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_18.blp', '', 5, 5, 6),
+(23080, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_19.blp', '', 5, 5, 7),
+(23081, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower00_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper00_20.blp', '', 5, 5, 8),
+(23082, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_12.blp', '', 5, 6, 0),
+(23083, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_13.blp', '', 5, 6, 1),
+(23084, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_14.blp', '', 5, 6, 2),
+(23085, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_15.blp', '', 5, 6, 3),
+(23086, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_16.blp', '', 5, 6, 4),
+(23087, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_17.blp', '', 5, 6, 5),
+(23088, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_18.blp', '', 5, 6, 6),
+(23089, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_19.blp', '', 5, 6, 7),
+(23090, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower01_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper01_20.blp', '', 5, 6, 8),
+(23091, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_12.blp', '', 5, 7, 0),
+(23092, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_13.blp', '', 5, 7, 1),
+(23093, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_14.blp', '', 5, 7, 2),
+(23094, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_15.blp', '', 5, 7, 3),
+(23095, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_16.blp', '', 5, 7, 4),
+(23096, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_17.blp', '', 5, 7, 5),
+(23097, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_18.blp', '', 5, 7, 6),
+(23098, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_19.blp', '', 5, 7, 7),
+(23099, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower02_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper02_20.blp', '', 5, 7, 8),
+(23100, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_12.blp', '', 5, 8, 0),
+(23101, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_13.blp', '', 5, 8, 1),
+(23102, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_14.blp', '', 5, 8, 2),
+(23103, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_15.blp', '', 5, 8, 3),
+(23104, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_16.blp', '', 5, 8, 4),
+(23105, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_17.blp', '', 5, 8, 5),
+(23106, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_18.blp', '', 5, 8, 6),
+(23107, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_19.blp', '', 5, 8, 7),
+(23108, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower03_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper03_20.blp', '', 5, 8, 8),
+(23109, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_12.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_12.blp', '', 5, 9, 0),
+(23110, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_13.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_13.blp', '', 5, 9, 1),
+(23111, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_14.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_14.blp', '', 5, 9, 2),
+(23112, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_15.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_15.blp', '', 5, 9, 3),
+(23113, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_16.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_16.blp', '', 5, 9, 4),
+(23114, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_17.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_17.blp', '', 5, 9, 5),
+(23115, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_18.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_18.blp', '', 5, 9, 6),
+(23116, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_19.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_19.blp', '', 5, 9, 7),
+(23117, @Goblin, @Male, @Face, 'Character\\Goblin\\Male\\GoblinMaleFaceLower04_20.blp', 'Character\\Goblin\\Male\\GoblinMaleFaceUpper04_20.blp', '', 5, 9, 8),
+(23118, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 0),
+(23119, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 1),
+(23120, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 2),
+(23121, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 3),
+(23122, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 4),
+(23123, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 5),
+(23124, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 6),
+(23125, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 7),
+(23126, @Goblin, @Male, @FacialHair, '', '', '', 17, 0, 8),
+(23127, @Goblin, @Male, @FacialHair, '', '', '', 5, 0, 9),
+(23128, @Goblin, @Male, @FacialHair, '', '', '', 5, 0, 10),
+(23129, @Goblin, @Male, @FacialHair, '', '', '', 5, 0, 11),
+(23130, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 0),
+(23131, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 1),
+(23132, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 2),
+(23133, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 3),
+(23134, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 4),
+(23135, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 5),
+(23136, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 6),
+(23137, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 7),
+(23138, @Goblin, @Male, @FacialHair, '', '', '', 17, 1, 8),
+(23139, @Goblin, @Male, @FacialHair, '', '', '', 5, 1, 9),
+(23140, @Goblin, @Male, @FacialHair, '', '', '', 5, 1, 10),
+(23141, @Goblin, @Male, @FacialHair, '', '', '', 5, 1, 11),
+(23142, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 0),
+(23143, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 1),
+(23144, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 2),
+(23145, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 3),
+(23146, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 4),
+(23147, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 5),
+(23148, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 6),
+(23149, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 7),
+(23150, @Goblin, @Male, @FacialHair, '', '', '', 17, 2, 8),
+(23151, @Goblin, @Male, @FacialHair, '', '', '', 5, 2, 9),
+(23152, @Goblin, @Male, @FacialHair, '', '', '', 5, 2, 10),
+(23153, @Goblin, @Male, @FacialHair, '', '', '', 5, 2, 11),
+(23154, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 0),
+(23155, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 1),
+(23156, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 2),
+(23157, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 3),
+(23158, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 4),
+(23159, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 5),
+(23160, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 6),
+(23161, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 7),
+(23162, @Goblin, @Male, @FacialHair, '', '', '', 17, 3, 8),
+(23163, @Goblin, @Male, @FacialHair, '', '', '', 5, 3, 9),
+(23164, @Goblin, @Male, @FacialHair, '', '', '', 5, 3, 10),
+(23165, @Goblin, @Male, @FacialHair, '', '', '', 5, 3, 11),
+(23166, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 0),
+(23167, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 1),
+(23168, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 2),
+(23169, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 3),
+(23170, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 4),
+(23171, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 5),
+(23172, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 6),
+(23173, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 7),
+(23174, @Goblin, @Male, @FacialHair, '', '', '', 17, 4, 8),
+(23175, @Goblin, @Male, @FacialHair, '', '', '', 5, 4, 9),
+(23176, @Goblin, @Male, @FacialHair, '', '', '', 5, 4, 10),
+(23177, @Goblin, @Male, @FacialHair, '', '', '', 5, 4, 11),
+(23178, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 0),
+(23179, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 1),
+(23180, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 2),
+(23181, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 3),
+(23182, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 4),
+(23183, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 5),
+(23184, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 6),
+(23185, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 7),
+(23186, @Goblin, @Male, @FacialHair, '', '', '', 17, 5, 8),
+(23187, @Goblin, @Male, @FacialHair, '', '', '', 5, 5, 9),
+(23188, @Goblin, @Male, @FacialHair, '', '', '', 5, 5, 10),
+(23189, @Goblin, @Male, @FacialHair, '', '', '', 5, 5, 11),
+(23190, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 0),
+(23191, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 1),
+(23192, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 2),
+(23193, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 3),
+(23194, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 4),
+(23195, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 5),
+(23196, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 6),
+(23197, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 7),
+(23198, @Goblin, @Male, @FacialHair, '', '', '', 17, 6, 8),
+(23199, @Goblin, @Male, @FacialHair, '', '', '', 5, 6, 9),
+(23200, @Goblin, @Male, @FacialHair, '', '', '', 5, 6, 10),
+(23201, @Goblin, @Male, @FacialHair, '', '', '', 5, 6, 11),
+(23202, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 0),
+(23203, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 1),
+(23204, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 2),
+(23205, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 3),
+(23206, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 4),
+(23207, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 5),
+(23208, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 6),
+(23209, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 7),
+(23210, @Goblin, @Male, @FacialHair, '', '', '', 17, 7, 8),
+(23211, @Goblin, @Male, @FacialHair, '', '', '', 5, 7, 9),
+(23212, @Goblin, @Male, @FacialHair, '', '', '', 5, 7, 10),
+(23213, @Goblin, @Male, @FacialHair, '', '', '', 5, 7, 11),
+(23214, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 0),
+(23215, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 1),
+(23216, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 2),
+(23217, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 3),
+(23218, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 4),
+(23219, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 5),
+(23220, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 6),
+(23221, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 7),
+(23222, @Goblin, @Male, @FacialHair, '', '', '', 17, 8, 8),
+(23223, @Goblin, @Male, @FacialHair, '', '', '', 5, 8, 9),
+(23224, @Goblin, @Male, @FacialHair, '', '', '', 5, 8, 10),
+(23225, @Goblin, @Male, @FacialHair, '', '', '', 5, 8, 11),
+(23226, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 0),
+(23227, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 1),
+(23228, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 2),
+(23229, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 3),
+(23230, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 4),
+(23231, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 5),
+(23232, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 6),
+(23233, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 7),
+(23234, @Goblin, @Male, @FacialHair, '', '', '', 17, 9, 8),
+(23235, @Goblin, @Male, @FacialHair, '', '', '', 5, 9, 9),
+(23236, @Goblin, @Male, @FacialHair, '', '', '', 5, 9, 10),
+(23237, @Goblin, @Male, @FacialHair, '', '', '', 5, 9, 11),
+(23238, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 0),
+(23239, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 1),
+(23240, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 2),
+(23241, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 3),
+(23242, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 4),
+(23243, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 5),
+(23244, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 6),
+(23245, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 7),
+(23246, @Goblin, @Male, @FacialHair, '', '', '', 17, 10, 8),
+(23247, @Goblin, @Male, @FacialHair, '', '', '', 5, 10, 9),
+(23248, @Goblin, @Male, @FacialHair, '', '', '', 5, 10, 10),
+(23249, @Goblin, @Male, @FacialHair, '', '', '', 5, 10, 11),
+(23250, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 0, 0),
+(23251, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 0, 1),
+(23252, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 0, 2),
+(23253, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 0, 3),
+(23254, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 0, 4),
+(23255, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 0, 5),
+(23256, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 0, 6),
+(23257, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 0, 7),
+(23258, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 0, 8),
+(23259, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 0, 9),
+(23260, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 0, 10),
+(23261, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 0, 11),
+(23262, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 1, 0),
+(23263, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 1, 1),
+(23264, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 1, 2),
+(23265, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 1, 3),
+(23266, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 1, 4),
+(23267, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 1, 5),
+(23268, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 1, 6),
+(23269, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 1, 7),
+(23270, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 1, 8),
+(23271, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 1, 9),
+(23272, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 1, 10),
+(23273, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 1, 11),
+(23274, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 2, 0),
+(23275, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 2, 1),
+(23276, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 2, 2),
+(23277, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 2, 3),
+(23278, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 2, 4),
+(23279, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 2, 5),
+(23280, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 2, 6),
+(23281, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 2, 7),
+(23282, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 2, 8),
+(23283, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 2, 9),
+(23284, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 2, 10),
+(23285, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 2, 11),
+(23286, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 3, 0),
+(23287, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 3, 1),
+(23288, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 3, 2),
+(23289, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 3, 3),
+(23290, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 3, 4),
+(23291, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 3, 5),
+(23292, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 3, 6),
+(23293, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 3, 7),
+(23294, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 3, 8),
+(23295, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 3, 9),
+(23296, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 3, 10),
+(23297, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 3, 11),
+(23298, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 4, 0),
+(23299, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 4, 1),
+(23300, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 4, 2),
+(23301, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 4, 3),
+(23302, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 4, 4),
+(23303, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 4, 5),
+(23304, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 4, 6),
+(23305, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 4, 7),
+(23306, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 4, 8),
+(23307, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 4, 9),
+(23308, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 4, 10),
+(23309, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 4, 11),
+(23310, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 5, 0),
+(23311, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 5, 1),
+(23312, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 5, 2),
+(23313, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 5, 3),
+(23314, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 5, 4),
+(23315, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 5, 5),
+(23316, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 5, 6),
+(23317, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 5, 7),
+(23318, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 5, 8),
+(23319, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 5, 9),
+(23320, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 5, 10),
+(23321, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 5, 11),
+(23322, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 6, 0),
+(23323, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 6, 1),
+(23324, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 6, 2),
+(23325, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 6, 3),
+(23326, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 6, 4),
+(23327, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 6, 5),
+(23328, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 6, 6),
+(23329, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 6, 7),
+(23330, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 6, 8),
+(23331, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 6, 9),
+(23332, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 6, 10),
+(23333, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 6, 11),
+(23334, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 7, 0),
+(23335, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 7, 1),
+(23336, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 7, 2),
+(23337, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 7, 3),
+(23338, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 7, 4),
+(23339, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 7, 5),
+(23340, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 7, 6),
+(23341, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 7, 7),
+(23342, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 7, 8),
+(23343, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 7, 9),
+(23344, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 7, 10),
+(23345, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 7, 11),
+(23346, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 8, 0),
+(23347, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 8, 1),
+(23348, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 8, 2),
+(23349, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 8, 3),
+(23350, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 8, 4),
+(23351, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 8, 5),
+(23352, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 8, 6),
+(23353, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 8, 7),
+(23354, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 8, 8),
+(23355, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 8, 9),
+(23356, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 8, 10),
+(23357, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 8, 11),
+(23358, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 9, 0),
+(23359, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 9, 1),
+(23360, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 9, 2),
+(23361, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 9, 3),
+(23362, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 9, 4),
+(23363, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 9, 5),
+(23364, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 9, 6),
+(23365, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 9, 7),
+(23366, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 9, 8),
+(23367, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 9, 9),
+(23368, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 9, 10),
+(23369, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 9, 11),
+(23370, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 10, 0),
+(23371, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 10, 1),
+(23372, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 10, 2),
+(23373, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 10, 3),
+(23374, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 10, 4),
+(23375, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 10, 5),
+(23376, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 10, 6),
+(23377, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 10, 7),
+(23378, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 10, 8),
+(23379, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 10, 9),
+(23380, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 10, 10),
+(23381, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 10, 11),
+(23382, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 11, 0),
+(23383, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 11, 1),
+(23384, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 11, 2),
+(23385, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 11, 3),
+(23386, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 11, 4),
+(23387, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 11, 5),
+(23388, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 11, 6),
+(23389, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 11, 7),
+(23390, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 11, 8),
+(23391, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 11, 9),
+(23392, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 11, 10),
+(23393, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 11, 11),
+(23394, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 12, 0),
+(23395, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 12, 1),
+(23396, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 12, 2),
+(23397, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 12, 3),
+(23398, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 12, 4),
+(23399, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 12, 5),
+(23400, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 12, 6),
+(23401, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 12, 7),
+(23402, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 12, 8),
+(23403, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 12, 9),
+(23404, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 12, 10),
+(23405, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 12, 11),
+(23406, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 13, 0),
+(23407, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 13, 1),
+(23408, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 13, 2),
+(23409, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 13, 3),
+(23410, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 13, 4),
+(23411, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 13, 5),
+(23412, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 13, 6),
+(23413, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 13, 7),
+(23414, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 13, 8),
+(23415, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 13, 9),
+(23416, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 13, 10),
+(23417, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 13, 11),
+(23418, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 14, 0),
+(23419, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 14, 1),
+(23420, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 14, 2),
+(23421, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 14, 3),
+(23422, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 14, 4),
+(23423, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 14, 5),
+(23424, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 14, 6),
+(23425, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 14, 7),
+(23426, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 14, 8),
+(23427, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 14, 9),
+(23428, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 14, 10),
+(23429, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 14, 11),
+(23430, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 15, 0),
+(23431, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 15, 1),
+(23432, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 15, 2),
+(23433, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 15, 3),
+(23434, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 15, 4),
+(23435, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 15, 5),
+(23436, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 15, 6),
+(23437, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 15, 7),
+(23438, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 15, 8),
+(23439, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 15, 9),
+(23440, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 15, 10),
+(23441, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 15, 11),
+(23442, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 16, 0),
+(23443, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 16, 1),
+(23444, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 16, 2),
+(23445, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 16, 3),
+(23446, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 16, 4),
+(23447, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 16, 5),
+(23448, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 16, 6),
+(23449, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 16, 7),
+(23450, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 16, 8),
+(23451, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 16, 9),
+(23452, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 16, 10),
+(23453, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 16, 11),
+(23454, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 17, 0),
+(23455, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 17, 1),
+(23456, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 17, 2),
+(23457, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 17, 3),
+(23458, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 17, 4),
+(23459, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 17, 5),
+(23460, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 17, 6),
+(23461, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 17, 7),
+(23462, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 17, 8),
+(23463, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 17, 9),
+(23464, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 17, 10),
+(23465, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 17, 11),
+(23466, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 18, 0),
+(23467, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 18, 1),
+(23468, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 18, 2),
+(23469, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 18, 3),
+(23470, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 18, 4),
+(23471, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 18, 5),
+(23472, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 18, 6),
+(23473, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 18, 7),
+(23474, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 18, 8),
+(23475, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 18, 9),
+(23476, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 18, 10),
+(23477, @Goblin, @Male, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 18, 11),
+(23478, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_00.blp', '', '', 17, 0, 0),
+(23479, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_01.blp', '', '', 17, 0, 1),
+(23480, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_02.blp', '', '', 17, 0, 2),
+(23481, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_03.blp', '', '', 17, 0, 3),
+(23482, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_04.blp', '', '', 17, 0, 4),
+(23483, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_05.blp', '', '', 17, 0, 5),
+(23484, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_06.blp', '', '', 17, 0, 6),
+(23485, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_07.blp', '', '', 17, 0, 7),
+(23486, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_08.blp', '', '', 17, 0, 8),
+(23487, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_09.blp', '', '', 5, 0, 9),
+(23488, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_10.blp', '', '', 5, 0, 10),
+(23489, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_11.blp', '', '', 5, 0, 11),
+(23490, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_100.blp', '', '', 8, 0, 12),
+(23491, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_101.blp', '', '', 8, 0, 13),
+(23492, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_102.blp', '', '', 8, 0, 14),
+(23493, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_103.blp', '', '', 8, 0, 15),
+(23494, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_104.blp', '', '', 8, 0, 16),
+(23495, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_105.blp', '', '', 8, 0, 17),
+(23496, @Goblin, @Male, @Underwear, 'Character\\Goblin\\Male\\GoblinMaleNakedPelvisSkin00_106.blp', '', '', 8, 0, 18),
+(23497, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_00.blp', '', '', 17, 0, 0),
+(23498, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_01.blp', '', '', 17, 0, 1),
+(23499, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_02.blp', '', '', 17, 0, 2),
+(23500, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_03.blp', '', '', 17, 0, 3),
+(23501, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_04.blp', '', '', 17, 0, 4),
+(23502, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_05.blp', '', '', 17, 0, 5),
+(23503, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_06.blp', '', '', 17, 0, 6),
+(23504, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_07.blp', '', '', 17, 0, 7),
+(23505, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_08.blp', '', '', 17, 0, 8),
+(23506, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_09.blp', '', '', 5, 0, 9),
+(23507, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_10.blp', '', '', 5, 0, 10),
+(23508, @Goblin, @Female, @Skin, 'Character\\Goblin\\Female\\GoblinFemaleSkin00_11.blp', '', '', 5, 0, 11),
+(23509, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_00.blp', '', 1, 0, 0),
+(23510, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_01.blp', '', 1, 0, 1),
+(23511, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_02.blp', '', 1, 0, 2),
+(23512, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_03.blp', '', 1, 0, 3),
+(23513, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_04.blp', '', 1, 0, 4),
+(23514, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_05.blp', '', 1, 0, 5),
+(23515, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_06.blp', '', 1, 0, 6),
+(23516, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_07.blp', '', 1, 0, 7),
+(23517, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_08.blp', '', 1, 0, 8),
+(23518, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_09.blp', '', 5, 0, 9),
+(23519, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_10.blp', '', 5, 0, 10),
+(23520, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower00_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper00_11.blp', '', 5, 0, 11),
+(23521, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_00.blp', '', 1, 1, 0),
+(23522, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_01.blp', '', 1, 1, 1),
+(23523, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_02.blp', '', 1, 1, 2),
+(23524, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_03.blp', '', 1, 1, 3),
+(23525, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_04.blp', '', 1, 1, 4),
+(23526, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_05.blp', '', 1, 1, 5),
+(23527, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_06.blp', '', 1, 1, 6),
+(23528, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_07.blp', '', 1, 1, 7),
+(23529, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower01_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper01_08.blp', '', 1, 1, 8),
+(23530, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_00.blp', '', 1, 2, 0),
+(23531, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_01.blp', '', 1, 2, 1),
+(23532, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_02.blp', '', 1, 2, 2),
+(23533, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_03.blp', '', 1, 2, 3),
+(23534, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_04.blp', '', 1, 2, 4),
+(23535, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_05.blp', '', 1, 2, 5),
+(23536, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_06.blp', '', 1, 2, 6),
+(23537, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_07.blp', '', 1, 2, 7),
+(23538, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower02_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper02_08.blp', '', 1, 2, 8),
+(23539, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_00.blp', '', 1, 3, 0),
+(23540, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_01.blp', '', 1, 3, 1),
+(23541, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_02.blp', '', 1, 3, 2),
+(23542, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_03.blp', '', 1, 3, 3),
+(23543, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_04.blp', '', 1, 3, 4),
+(23544, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_05.blp', '', 1, 3, 5),
+(23545, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_06.blp', '', 1, 3, 6),
+(23546, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_07.blp', '', 1, 3, 7),
+(23547, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower03_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper03_08.blp', '', 1, 3, 8),
+(23548, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_00.blp', '', 1, 4, 0),
+(23549, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_01.blp', '', 1, 4, 1),
+(23550, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_02.blp', '', 1, 4, 2),
+(23551, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_03.blp', '', 1, 4, 3),
+(23552, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_04.blp', '', 1, 4, 4),
+(23553, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_05.blp', '', 1, 4, 5),
+(23554, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_06.blp', '', 1, 4, 6),
+(23555, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_07.blp', '', 1, 4, 7),
+(23556, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower04_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper04_08.blp', '', 1, 4, 8),
+(23557, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_00.blp', '', 1, 5, 0),
+(23558, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_01.blp', '', 1, 5, 1),
+(23559, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_02.blp', '', 1, 5, 2),
+(23560, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_03.blp', '', 1, 5, 3),
+(23561, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_04.blp', '', 1, 5, 4),
+(23562, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_05.blp', '', 1, 5, 5),
+(23563, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_06.blp', '', 1, 5, 6),
+(23564, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_07.blp', '', 1, 5, 7),
+(23565, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower05_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper05_08.blp', '', 1, 5, 8),
+(23566, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_00.blp', '', 1, 6, 0),
+(23567, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_01.blp', '', 1, 6, 1),
+(23568, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_02.blp', '', 1, 6, 2),
+(23569, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_03.blp', '', 1, 6, 3),
+(23570, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_04.blp', '', 1, 6, 4),
+(23571, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_05.blp', '', 1, 6, 5),
+(23572, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_06.blp', '', 1, 6, 6),
+(23573, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_07.blp', '', 1, 6, 7),
+(23574, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_08.blp', '', 1, 6, 8),
+(23575, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_09.blp', '', 5, 6, 9),
+(23576, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_10.blp', '', 5, 6, 10),
+(23577, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower06_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper06_11.blp', '', 5, 6, 11),
+(23578, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_00.blp', '', 1, 7, 0),
+(23579, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_01.blp', '', 1, 7, 1),
+(23580, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_02.blp', '', 1, 7, 2),
+(23581, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_03.blp', '', 1, 7, 3),
+(23582, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_04.blp', '', 1, 7, 4),
+(23583, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_05.blp', '', 1, 7, 5),
+(23584, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_06.blp', '', 1, 7, 6),
+(23585, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_07.blp', '', 1, 7, 7),
+(23586, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower07_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper07_08.blp', '', 1, 7, 8),
+(23587, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_00.blp', '', 1, 8, 0),
+(23588, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_01.blp', '', 1, 8, 1),
+(23589, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_02.blp', '', 1, 8, 2),
+(23590, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_03.blp', '', 1, 8, 3),
+(23591, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_04.blp', '', 1, 8, 4),
+(23592, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_05.blp', '', 1, 8, 5),
+(23593, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_06.blp', '', 1, 8, 6),
+(23594, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_07.blp', '', 1, 8, 7),
+(23595, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower08_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper08_08.blp', '', 1, 8, 8),
+(23596, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_00.blp', '', 1, 9, 0),
+(23597, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_01.blp', '', 1, 9, 1),
+(23598, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_02.blp', '', 1, 9, 2),
+(23599, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_03.blp', '', 1, 9, 3),
+(23600, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_04.blp', '', 1, 9, 4),
+(23601, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_05.blp', '', 1, 9, 5),
+(23602, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_06.blp', '', 1, 9, 6),
+(23603, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_07.blp', '', 1, 9, 7),
+(23604, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_08.blp', '', 1, 9, 8),
+(23605, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_09.blp', '', 5, 9, 9),
+(23606, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_10.blp', '', 5, 9, 10),
+(23607, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower09_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper09_11.blp', '', 5, 9, 11),
+(23608, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_00.blp', '', 5, 10, 0),
+(23609, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_01.blp', '', 5, 10, 1),
+(23610, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_02.blp', '', 5, 10, 2),
+(23611, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_03.blp', '', 5, 10, 3),
+(23612, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_04.blp', '', 5, 10, 4),
+(23613, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_05.blp', '', 5, 10, 5),
+(23614, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_06.blp', '', 5, 10, 6),
+(23615, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_07.blp', '', 5, 10, 7),
+(23616, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower10_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper10_08.blp', '', 5, 10, 8),
+(23617, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_00.blp', '', 5, 11, 0),
+(23618, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_01.blp', '', 5, 11, 1),
+(23619, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_02.blp', '', 5, 11, 2),
+(23620, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_03.blp', '', 5, 11, 3),
+(23621, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_04.blp', '', 5, 11, 4),
+(23622, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_05.blp', '', 5, 11, 5),
+(23623, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_06.blp', '', 5, 11, 6),
+(23624, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_07.blp', '', 5, 11, 7),
+(23625, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower11_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper11_08.blp', '', 5, 11, 8),
+(23626, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_00.blp', '', 5, 12, 0),
+(23627, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_01.blp', '', 5, 12, 1),
+(23628, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_02.blp', '', 5, 12, 2),
+(23629, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_03.blp', '', 5, 12, 3),
+(23630, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_04.blp', '', 5, 12, 4),
+(23631, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_05.blp', '', 5, 12, 5),
+(23632, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_06.blp', '', 5, 12, 6),
+(23633, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_07.blp', '', 5, 12, 7),
+(23634, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower12_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper12_08.blp', '', 5, 12, 8),
+(23635, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_00.blp', '', 5, 13, 0),
+(23636, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_01.blp', '', 5, 13, 1),
+(23637, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_02.blp', '', 5, 13, 2),
+(23638, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_03.blp', '', 5, 13, 3),
+(23639, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_04.blp', '', 5, 13, 4),
+(23640, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_05.blp', '', 5, 13, 5),
+(23641, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_06.blp', '', 5, 13, 6),
+(23642, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_07.blp', '', 5, 13, 7),
+(23643, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower13_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper13_08.blp', '', 5, 13, 8),
+(23644, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_00.blp', '', 5, 14, 0),
+(23645, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_01.blp', '', 5, 14, 1),
+(23646, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_02.blp', '', 5, 14, 2),
+(23647, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_03.blp', '', 5, 14, 3),
+(23648, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_04.blp', '', 5, 14, 4),
+(23649, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_05.blp', '', 5, 14, 5),
+(23650, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_06.blp', '', 5, 14, 6),
+(23651, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_07.blp', '', 5, 14, 7),
+(23652, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower14_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper14_08.blp', '', 5, 14, 8),
+(23653, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_00.blp', '', 5, 15, 0),
+(23654, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_01.blp', '', 5, 15, 1),
+(23655, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_02.blp', '', 5, 15, 2),
+(23656, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_03.blp', '', 5, 15, 3),
+(23657, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_04.blp', '', 5, 15, 4),
+(23658, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_05.blp', '', 5, 15, 5),
+(23659, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_06.blp', '', 5, 15, 6),
+(23660, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_07.blp', '', 5, 15, 7),
+(23661, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower15_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper15_08.blp', '', 5, 15, 8),
+(23662, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_00.blp', '', 5, 16, 0),
+(23663, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_01.blp', '', 5, 16, 1),
+(23664, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_02.blp', '', 5, 16, 2),
+(23665, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_03.blp', '', 5, 16, 3),
+(23666, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_04.blp', '', 5, 16, 4),
+(23667, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_05.blp', '', 5, 16, 5),
+(23668, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_06.blp', '', 5, 16, 6),
+(23669, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_07.blp', '', 5, 16, 7),
+(23670, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower16_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper16_08.blp', '', 5, 16, 8),
+(23671, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_00.blp', '', 5, 17, 0),
+(23672, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_01.blp', '', 5, 17, 1),
+(23673, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_02.blp', '', 5, 17, 2),
+(23674, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_03.blp', '', 5, 17, 3),
+(23675, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_04.blp', '', 5, 17, 4),
+(23676, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_05.blp', '', 5, 17, 5),
+(23677, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_06.blp', '', 5, 17, 6),
+(23678, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_07.blp', '', 5, 17, 7),
+(23679, @Goblin, @Female, @Face, 'Character\\Goblin\\Female\\GoblinFemaleFaceLower17_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleFaceUpper17_08.blp', '', 5, 17, 8),
+(23680, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 1, 0, 0),
+(23681, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 1, 0, 1),
+(23682, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 1, 0, 2),
+(23683, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 1, 0, 3),
+(23684, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 1, 0, 4),
+(23685, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 1, 0, 5),
+(23686, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 1, 0, 6),
+(23687, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 1, 0, 7),
+(23688, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 1, 0, 8),
+(23689, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 5, 0, 9),
+(23690, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 5, 0, 10),
+(23691, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 5, 0, 11),
+(23692, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 1, 0),
+(23693, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 1, 1),
+(23694, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 1, 2),
+(23695, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 1, 3),
+(23696, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 1, 4),
+(23697, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 1, 5),
+(23698, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 1, 6),
+(23699, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 1, 7),
+(23700, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 1, 8),
+(23701, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 1, 9),
+(23702, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 1, 10),
+(23703, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 1, 11),
+(23704, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 2, 0),
+(23705, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 2, 1),
+(23706, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 2, 2),
+(23707, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 2, 3),
+(23708, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 2, 4),
+(23709, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 2, 5),
+(23710, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 2, 6),
+(23711, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 2, 7),
+(23712, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 2, 8),
+(23713, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 2, 9),
+(23714, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 2, 10),
+(23715, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 2, 11),
+(23716, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 3, 0),
+(23717, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 3, 1),
+(23718, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 3, 2),
+(23719, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 3, 3),
+(23720, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 3, 4),
+(23721, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 3, 5),
+(23722, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 3, 6),
+(23723, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 3, 7),
+(23724, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 3, 8),
+(23725, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 3, 9),
+(23726, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 3, 10),
+(23727, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 3, 11),
+(23728, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 4, 0),
+(23729, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 4, 1),
+(23730, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 4, 2),
+(23731, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 4, 3),
+(23732, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 4, 4),
+(23733, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 4, 5),
+(23734, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 4, 6),
+(23735, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 4, 7),
+(23736, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 4, 8),
+(23737, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 4, 9),
+(23738, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 4, 10),
+(23739, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 4, 11),
+(23740, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 5, 0),
+(23741, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 5, 1),
+(23742, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 5, 2),
+(23743, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 5, 3),
+(23744, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 5, 4),
+(23745, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 5, 5),
+(23746, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 5, 6),
+(23747, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 5, 7),
+(23748, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 5, 8),
+(23749, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 5, 9),
+(23750, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 5, 10),
+(23751, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 5, 11),
+(23752, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 6, 0),
+(23753, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 6, 1),
+(23754, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 6, 2),
+(23755, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 6, 3),
+(23756, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 6, 4),
+(23757, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 6, 5),
+(23758, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 6, 6),
+(23759, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 6, 7),
+(23760, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 6, 8),
+(23761, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 6, 9),
+(23762, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 6, 10),
+(23763, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 6, 11),
+(23764, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 7, 0),
+(23765, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 7, 1),
+(23766, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 7, 2),
+(23767, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 7, 3),
+(23768, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 7, 4),
+(23769, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 7, 5),
+(23770, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 7, 6),
+(23771, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 7, 7),
+(23772, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 7, 8),
+(23773, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 7, 9),
+(23774, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 7, 10),
+(23775, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 7, 11),
+(23776, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 8, 0),
+(23777, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 8, 1),
+(23778, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 8, 2),
+(23779, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 8, 3),
+(23780, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 8, 4),
+(23781, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 8, 5),
+(23782, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 8, 6),
+(23783, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 8, 7),
+(23784, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 8, 8),
+(23785, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 8, 9),
+(23786, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 8, 10),
+(23787, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 8, 11),
+(23788, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 9, 0),
+(23789, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 9, 1),
+(23790, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 9, 2),
+(23791, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 9, 3),
+(23792, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 9, 4),
+(23793, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 9, 5),
+(23794, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 9, 6),
+(23795, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 9, 7),
+(23796, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 9, 8),
+(23797, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 9, 9),
+(23798, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 9, 10),
+(23799, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 9, 11),
+(23800, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_00.blp', 'Character\\Goblin\\ScalpUpperHair00_00.blp', '', 17, 10, 0),
+(23801, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_01.blp', 'Character\\Goblin\\ScalpUpperHair00_01.blp', '', 17, 10, 1),
+(23802, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_02.blp', 'Character\\Goblin\\ScalpUpperHair00_02.blp', '', 17, 10, 2),
+(23803, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_03.blp', 'Character\\Goblin\\ScalpUpperHair00_03.blp', '', 17, 10, 3),
+(23804, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_04.blp', 'Character\\Goblin\\ScalpUpperHair00_04.blp', '', 17, 10, 4),
+(23805, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_05.blp', 'Character\\Goblin\\ScalpUpperHair00_05.blp', '', 17, 10, 5),
+(23806, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_06.blp', 'Character\\Goblin\\ScalpUpperHair00_06.blp', '', 17, 10, 6),
+(23807, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_07.blp', 'Character\\Goblin\\ScalpUpperHair00_07.blp', '', 17, 10, 7),
+(23808, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_08.blp', 'Character\\Goblin\\ScalpUpperHair00_08.blp', '', 17, 10, 8),
+(23809, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_09.blp', 'Character\\Goblin\\ScalpUpperHair00_09.blp', '', 17, 10, 9),
+(23810, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_10.blp', 'Character\\Goblin\\ScalpUpperHair00_10.blp', '', 17, 10, 10),
+(23811, @Goblin, @Female, @FacialHair, 'Character\\Goblin\\ScalpLowerHair00_11.blp', 'Character\\Goblin\\ScalpUpperHair00_11.blp', '', 17, 10, 11),
+(23812, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 0, 0),
+(23813, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 0, 1),
+(23814, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 0, 2),
+(23815, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 0, 3),
+(23816, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 0, 4),
+(23817, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 0, 5),
+(23818, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 0, 6),
+(23819, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 0, 7),
+(23820, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 0, 8),
+(23821, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 0, 9),
+(23822, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 0, 10),
+(23823, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 0, 11),
+(23824, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 1, 0),
+(23825, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 1, 1),
+(23826, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 1, 2),
+(23827, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 1, 3),
+(23828, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 1, 4),
+(23829, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 1, 5),
+(23830, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 1, 6),
+(23831, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 1, 7),
+(23832, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 1, 8),
+(23833, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 1, 9),
+(23834, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 1, 10),
+(23835, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 1, 11),
+(23836, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 2, 0),
+(23837, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 2, 1),
+(23838, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 2, 2),
+(23839, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 2, 3),
+(23840, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 2, 4),
+(23841, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 2, 5),
+(23842, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 2, 6),
+(23843, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 2, 7),
+(23844, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 2, 8),
+(23845, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 2, 9),
+(23846, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 2, 10),
+(23847, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 2, 11),
+(23848, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 3, 0),
+(23849, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 3, 1),
+(23850, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 3, 2),
+(23851, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 3, 3),
+(23852, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 3, 4),
+(23853, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 3, 5),
+(23854, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 3, 6),
+(23855, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 3, 7),
+(23856, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 3, 8),
+(23857, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 3, 9),
+(23858, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 3, 10),
+(23859, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 3, 11),
+(23860, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 4, 0),
+(23861, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 4, 1),
+(23862, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 4, 2),
+(23863, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 4, 3),
+(23864, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 4, 4),
+(23865, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 4, 5),
+(23866, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 4, 6),
+(23867, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 4, 7),
+(23868, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 4, 8),
+(23869, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 4, 9),
+(23870, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 4, 10),
+(23871, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 4, 11),
+(23872, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 5, 0),
+(23873, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 5, 1),
+(23874, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 5, 2),
+(23875, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 5, 3),
+(23876, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 5, 4),
+(23877, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 5, 5),
+(23878, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 5, 6),
+(23879, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 5, 7),
+(23880, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 5, 8),
+(23881, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 5, 9),
+(23882, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 5, 10),
+(23883, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 5, 11),
+(23884, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 6, 0),
+(23885, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 6, 1),
+(23886, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 6, 2),
+(23887, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 6, 3),
+(23888, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 6, 4),
+(23889, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 6, 5),
+(23890, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 6, 6),
+(23891, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 6, 7),
+(23892, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 6, 8),
+(23893, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 6, 9),
+(23894, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 6, 10),
+(23895, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 6, 11),
+(23896, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 7, 0),
+(23897, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 7, 1),
+(23898, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 7, 2),
+(23899, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 7, 3),
+(23900, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 7, 4),
+(23901, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 7, 5),
+(23902, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 7, 6),
+(23903, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 7, 7),
+(23904, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 7, 8),
+(23905, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 7, 9),
+(23906, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 7, 10),
+(23907, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 7, 11),
+(23908, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 8, 0),
+(23909, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 8, 1),
+(23910, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 8, 2),
+(23911, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 8, 3),
+(23912, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 8, 4),
+(23913, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 8, 5),
+(23914, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 8, 6),
+(23915, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 8, 7),
+(23916, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 8, 8),
+(23917, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 8, 9),
+(23918, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 8, 10),
+(23919, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 8, 11),
+(23920, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 9, 0),
+(23921, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 9, 1),
+(23922, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 9, 2),
+(23923, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 9, 3),
+(23924, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 9, 4),
+(23925, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 9, 5),
+(23926, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 9, 6),
+(23927, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 9, 7),
+(23928, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 9, 8),
+(23929, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 9, 9),
+(23930, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 9, 10),
+(23931, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 9, 11),
+(23932, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 10, 0),
+(23933, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 10, 1),
+(23934, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 10, 2),
+(23935, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 10, 3),
+(23936, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 10, 4),
+(23937, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 10, 5),
+(23938, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 10, 6),
+(23939, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 10, 7),
+(23940, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 10, 8),
+(23941, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 10, 9),
+(23942, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 10, 10),
+(23943, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 10, 11),
+(23944, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 17, 11, 0),
+(23945, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 17, 11, 1),
+(23946, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 17, 11, 2),
+(23947, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 17, 11, 3),
+(23948, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 17, 11, 4),
+(23949, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 17, 11, 5),
+(23950, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 17, 11, 6),
+(23951, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 17, 11, 7),
+(23952, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 17, 11, 8),
+(23953, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 5, 11, 9),
+(23954, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 5, 11, 10),
+(23955, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 5, 11, 11),
+(23956, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 12, 0),
+(23957, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 12, 1),
+(23958, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 12, 2),
+(23959, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 12, 3),
+(23960, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 12, 4),
+(23961, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 12, 5),
+(23962, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 12, 6),
+(23963, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 12, 7),
+(23964, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 12, 8),
+(23965, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 12, 9),
+(23966, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 12, 10),
+(23967, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 12, 11),
+(23968, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 13, 0),
+(23969, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 13, 1),
+(23970, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 13, 2),
+(23971, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 13, 3),
+(23972, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 13, 4),
+(23973, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 13, 5),
+(23974, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 13, 6),
+(23975, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 13, 7),
+(23976, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 13, 8),
+(23977, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 13, 9),
+(23978, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 13, 10),
+(23979, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 13, 11),
+(23980, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 14, 0),
+(23981, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 14, 1),
+(23982, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 14, 2),
+(23983, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 14, 3),
+(23984, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 14, 4),
+(23985, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 14, 5),
+(23986, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 14, 6),
+(23987, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 14, 7),
+(23988, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 14, 8),
+(23989, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 14, 9),
+(23990, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 14, 10),
+(23991, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 14, 11),
+(23992, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 15, 0),
+(23993, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 15, 1),
+(23994, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 15, 2),
+(23995, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 15, 3),
+(23996, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 15, 4),
+(23997, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 15, 5),
+(23998, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 15, 6),
+(23999, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 15, 7),
+(24000, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 15, 8),
+(24001, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 15, 9),
+(24002, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 15, 10),
+(24003, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 15, 11),
+(24004, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_00.blp', '', '', 18, 16, 0),
+(24005, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_01.blp', '', '', 18, 16, 1),
+(24006, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_02.blp', '', '', 18, 16, 2),
+(24007, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_03.blp', '', '', 18, 16, 3),
+(24008, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_04.blp', '', '', 18, 16, 4),
+(24009, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_05.blp', '', '', 18, 16, 5),
+(24010, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_06.blp', '', '', 18, 16, 6),
+(24011, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_07.blp', '', '', 18, 16, 7),
+(24012, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_08.blp', '', '', 18, 16, 8),
+(24013, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_09.blp', '', '', 6, 16, 9),
+(24014, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_10.blp', '', '', 6, 16, 10),
+(24015, @Goblin, @Female, @Hair, 'Character\\Goblin\\Hair00_11.blp', '', '', 6, 16, 11),
+(24016, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_00.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_00.blp', '', 17, 0, 0),
+(24017, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_01.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_01.blp', '', 17, 0, 1),
+(24018, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_02.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_02.blp', '', 17, 0, 2),
+(24019, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_03.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_03.blp', '', 17, 0, 3),
+(24020, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_04.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_04.blp', '', 17, 0, 4),
+(24021, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_05.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_05.blp', '', 17, 0, 5),
+(24022, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_06.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_06.blp', '', 17, 0, 6),
+(24023, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_07.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_07.blp', '', 17, 0, 7),
+(24024, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_08.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_08.blp', '', 17, 0, 8),
+(24025, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_09.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_09.blp', '', 5, 0, 9),
+(24026, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_10.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_10.blp', '', 5, 0, 10),
+(24027, @Goblin, @Female, @Underwear, 'Character\\Goblin\\Female\\GoblinFemaleNakedPelvisSkin00_11.blp', 'Character\\Goblin\\Female\\GoblinFemaleNakedTorsoSkin00_11.blp', '', 5, 0, 11);

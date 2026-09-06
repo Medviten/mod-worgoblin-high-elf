@@ -1,5 +1,5 @@
 CHARACTER_FACING_INCREMENT = 2;
-MAX_RACES = 15;
+MAX_RACES = 16;
 MAX_CLASSES_PER_RACE = 10;
 NUM_CHAR_CUSTOMIZATIONS = 5;
 MIN_CHAR_NAME_LENGTH = 2;
@@ -13,8 +13,8 @@ PAID_SERVICE_CHARACTER_ID = nil;
 PAID_SERVICE_TYPE = nil;
 
 FACTION_BACKDROP_COLOR_TABLE = {
-	["Alliance"] = {0.5, 0.5, 0.5, 0.09, 0.09, 0.19},
-	["Horde"] = {0.5, 0.2, 0.2, 0.19, 0.05, 0.05},
+	["Alliance"]             = {0.5, 0.5, 0.5, 0.09, 0.09, 0.19},
+	["Horde"]                = {0.5, 0.2, 0.2, 0.19, 0.05, 0.05},
 };
 FRAMES_TO_BACKDROP_COLOR = { 
 	"CharacterCreateCharacterRace",
@@ -23,51 +23,53 @@ FRAMES_TO_BACKDROP_COLOR = {
 	"CharacterCreateNameEdit",
 };
 RACE_ICON_TCOORDS = {
-	["HUMAN_MALE"]		= {0, 0.125, 0, 0.25},
-	["DWARF_MALE"]		= {0.125, 0.25, 0, 0.25},
-	["GNOME_MALE"]		= {0.25, 0.375, 0, 0.25},
-	["NIGHTELF_MALE"]	= {0.375, 0.5, 0, 0.25},
-	["DRAENEI_MALE"]	= {0.5, 0.625, 0, 0.25},
-   	["WORGEN_MALE"]   	= {0.625, 0.750, 0, 0.25},
-    ["HIGHELF_MALE"]    = {0.750, 0.875, 0, 0.25},
+	["HUMAN_MALE"]		     = {0, 0.125, 0, 0.25},
+	["DWARF_MALE"]		     = {0.125, 0.25, 0, 0.25},
+	["GNOME_MALE"]		     = {0.25, 0.375, 0, 0.25},
+	["NIGHTELF_MALE"]	     = {0.375, 0.5, 0, 0.25},
+	["DRAENEI_MALE"]	     = {0.5, 0.625, 0, 0.25},
+   	["WORGEN_MALE"]   	     = {0.625, 0.750, 0, 0.25},
+    ["HIGHELF_MALE"]         = {0.750, 0.875, 0, 0.25},
+    ["DARKIRONDWARF_MALE"]   = {0.875, 1.0, 0, 0.25},
 	
-	["TAUREN_MALE"]		= {0, 0.125, 0.25, 0.5},
-	["SCOURGE_MALE"]	= {0.125, 0.25, 0.25, 0.5},
-	["TROLL_MALE"]		= {0.25, 0.375, 0.25, 0.5},
-	["ORC_MALE"]		= {0.375, 0.5, 0.25, 0.5},
-	["BLOODELF_MALE"]	= {0.5, 0.625, 0.25, 0.5},
-	["GOBLIN_MALE"]    	= {0.625, 0.750, 0.25, 0.5},
-	["MAGHAR_MALE"]     = {0.750, 0.875, 0.25, 0.5},
-	["OGRE_MALE"]       = {0.875, 1.0, 0.25, 0.5},
+	["TAUREN_MALE"]		     = {0, 0.125, 0.25, 0.5},
+	["SCOURGE_MALE"]	     = {0.125, 0.25, 0.25, 0.5},
+	["TROLL_MALE"]		     = {0.25, 0.375, 0.25, 0.5},
+	["ORC_MALE"]		     = {0.375, 0.5, 0.25, 0.5},
+	["BLOODELF_MALE"]	     = {0.5, 0.625, 0.25, 0.5},
+	["GOBLIN_MALE"]    	     = {0.625, 0.750, 0.25, 0.5},
+	["MAGHAR_MALE"]          = {0.750, 0.875, 0.25, 0.5},
+	["OGRE_MALE"]            = {0.875, 1.0, 0.25, 0.5},
 
-	["HUMAN_FEMALE"]	= {0, 0.125, 0.5, 0.75},  
-	["DWARF_FEMALE"]	= {0.125, 0.25, 0.5, 0.75},
-	["GNOME_FEMALE"]	= {0.25, 0.375, 0.5, 0.75},
-	["NIGHTELF_FEMALE"]	= {0.375, 0.5, 0.5, 0.75},
-	["DRAENEI_FEMALE"]	= {0.5, 0.625, 0.5, 0.75},
-   	["WORGEN_FEMALE"]  	= {0.625, 0.750, 0.5, 0.75},
-    ["HIGHELF_FEMALE"]  = {0.750, 0.875, 0.5, 0.75},
+	["HUMAN_FEMALE"]	     = {0, 0.125, 0.5, 0.75},  
+	["DWARF_FEMALE"]	     = {0.125, 0.25, 0.5, 0.75},
+	["GNOME_FEMALE"]	     = {0.25, 0.375, 0.5, 0.75},
+	["NIGHTELF_FEMALE"]	     = {0.375, 0.5, 0.5, 0.75},
+	["DRAENEI_FEMALE"]	     = {0.5, 0.625, 0.5, 0.75},
+   	["WORGEN_FEMALE"]  	     = {0.625, 0.750, 0.5, 0.75},
+    ["HIGHELF_FEMALE"]       = {0.750, 0.875, 0.5, 0.75},
+    ["DARKIRONDWARF_FEMALE"] = {0.875, 1.0, 0.5, 0.75},
 	
-	["TAUREN_FEMALE"]	= {0, 0.125, 0.75, 1.0},   
-	["SCOURGE_FEMALE"]	= {0.125, 0.25, 0.75, 1.0}, 
-	["TROLL_FEMALE"]	= {0.25, 0.375, 0.75, 1.0}, 
-	["ORC_FEMALE"]		= {0.375, 0.5, 0.75, 1.0}, 
-	["BLOODELF_FEMALE"]	= {0.5, 0.625, 0.75, 1.0}, 
-   	["GOBLIN_FEMALE"]  	= {0.625, 0.750, 0.75, 1.0},
-    ["MAGHAR_FEMALE"]   = {0.750, 0.875, 0.75, 1.0},
-    ["OGRE_FEMALE"]     = {0.875, 1.0, 0.75, 1.0},
+	["TAUREN_FEMALE"]	     = {0, 0.125, 0.75, 1.0},   
+	["SCOURGE_FEMALE"]	     = {0.125, 0.25, 0.75, 1.0}, 
+	["TROLL_FEMALE"]	     = {0.25, 0.375, 0.75, 1.0}, 
+	["ORC_FEMALE"]		     = {0.375, 0.5, 0.75, 1.0}, 
+	["BLOODELF_FEMALE"]	     = {0.5, 0.625, 0.75, 1.0}, 
+   	["GOBLIN_FEMALE"]  	     = {0.625, 0.750, 0.75, 1.0},
+    ["MAGHAR_FEMALE"]        = {0.750, 0.875, 0.75, 1.0},
+    ["OGRE_FEMALE"]          = {0.875, 1.0, 0.75, 1.0},
 };
 CLASS_ICON_TCOORDS = {
-	["WARRIOR"]	= {0, 0.25, 0, 0.25},
-	["MAGE"]	= {0.25, 0.49609375, 0, 0.25},
-	["ROGUE"]	= {0.49609375, 0.7421875, 0, 0.25},
-	["DRUID"]	= {0.7421875, 0.98828125, 0, 0.25},
-	["HUNTER"]	= {0, 0.25, 0.25, 0.5},
-	["SHAMAN"]	= {0.25, 0.49609375, 0.25, 0.5},
-	["PRIEST"]	= {0.49609375, 0.7421875, 0.25, 0.5},
-	["WARLOCK"]	= {0.7421875, 0.98828125, 0.25, 0.5},
-	["PALADIN"]	= {0, 0.25, 0.5, 0.75},
-	["DEATHKNIGHT"]	= {0.25, 0.49609375, 0.5, 0.75},
+	["WARRIOR"]	             = {0, 0.25, 0, 0.25},
+	["MAGE"]	             = {0.25, 0.49609375, 0, 0.25},
+	["ROGUE"]	             = {0.49609375, 0.7421875, 0, 0.25},
+	["DRUID"]	             = {0.7421875, 0.98828125, 0, 0.25},
+	["HUNTER"]	             = {0, 0.25, 0.25, 0.5},
+	["SHAMAN"]	             = {0.25, 0.49609375, 0.25, 0.5},
+	["PRIEST"]	             = {0.49609375, 0.7421875, 0.25, 0.5},
+	["WARLOCK"]	             = {0.7421875, 0.98828125, 0.25, 0.5},
+	["PALADIN"]	             = {0, 0.25, 0.5, 0.75},
+	["DEATHKNIGHT"]	         = {0.25, 0.49609375, 0.5, 0.75},
 };
 
 function CharacterCreate_OnLoad(self)
@@ -563,4 +565,3 @@ function CharacterChangeFixup()
 		end
 	end
 end
-
