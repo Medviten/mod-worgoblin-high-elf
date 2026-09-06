@@ -3908,7 +3908,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	6, -- Effect_2
 	0, -- Effect_3
 	1, -- EffectDieSides_1
-	0, -- EffectDieSides_2
+	1, -- EffectDieSides_2
 	0, -- EffectDieSides_3
 	0, -- EffectRealPointsPerLevel_1
 	0, -- EffectRealPointsPerLevel_2
@@ -3943,7 +3943,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-    55274, -- EffectMiscValue_1: Running Wild (male)
+    @WorgenWildMaleTemplate, -- EffectMiscValue_1: Running Wild (male)
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -4181,7 +4181,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-    55274, -- EffectMiscValue_1: Running Wild (male)
+    @WorgenWildMaleTemplate, -- EffectMiscValue_1: Running Wild (male)
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -4384,7 +4384,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	6, -- Effect_2
 	0, -- Effect_3
 	1, -- EffectDieSides_1
-	0, -- EffectDieSides_2
+	1, -- EffectDieSides_2
 	0, -- EffectDieSides_3
 	0, -- EffectRealPointsPerLevel_1
 	0, -- EffectRealPointsPerLevel_2
@@ -4419,7 +4419,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-    55275, -- EffectMiscValue_1: Running Wild (female)
+    @WorgenWildFemaleTemplate, -- EffectMiscValue_1: Running Wild (female)
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -4622,7 +4622,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	6, -- Effect_2
 	0, -- Effect_3
 	1, -- EffectDieSides_1
-	0, -- EffectDieSides_2
+	1, -- EffectDieSides_2
 	0, -- EffectDieSides_3
 	0, -- EffectRealPointsPerLevel_1
 	0, -- EffectRealPointsPerLevel_2
@@ -4657,7 +4657,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-    55275, -- EffectMiscValue_1: Running Wild (female)
+    @WorgenWildFemaleTemplate, -- EffectMiscValue_1: Running Wild (female)
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
