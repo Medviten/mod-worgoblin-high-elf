@@ -1,0 +1,35 @@
+# List of modpaks to skip entirely when running build-dbc.sh, one pattern
+# per line. Handy for testing without a specific modpak, or temporarily
+# excluding something that's broken. A skipped modpak's dbc/ folder (and
+# everything else in it) is never scanned.
+#
+# Each pattern is matched as a LITERAL SUBSTRING against the modpak's
+# directory name (not a shell glob) -- e.g. the modpak folder
+# "F-001_localization" is matched by any of:
+#
+#   F-001_localization
+#   F-001
+#   localization
+#
+# Pick something specific enough that it won't accidentally match other
+# modpaks.
+#
+# Blank lines and lines starting with # are ignored. Copy this file to
+# build-dbc.blacklist (or point BLACKLIST_FILE at your own path in
+# build-dbc.conf) and uncomment/add whatever you need.
+
+# Example: skip the localization modpak while testing.
+F-001_localization
+#F-002_move-npc-races
+#F-003_morph-with-gear
+F-011_zep-goblin-start
+#F-029_mod-arac
+#F-030_mod-worgoblin
+#F-031_mod-azerothcore-high-elf
+#F-032_mod-maghar
+#F-033_mod-playable-ogres
+F-034_mod-dark-iron-dwarf
+F-036_patch-open-azeroth
+#F-040_mod-druid-forms
+#F-041_mod-extra-models
+#F-077_mod-faction-free

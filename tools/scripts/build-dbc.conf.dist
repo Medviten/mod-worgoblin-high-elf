@@ -1,0 +1,21 @@
+MODPAKS="/path/to/mod-worgoblin-high-elf/modpaks"
+DBCTOOL="/path/to/dbctool"
+ORIGINAL_DBC="/path/to/dbctool/originaldbc"
+LOCAL_SERVER_DBC="/path/to/server/data/dbc"
+
+MYSQL_HOST="127.0.0.1"
+MYSQL_PORT="63306"
+MYSQL_USER="acore"
+MYSQL_PASSWORD="acore"
+
+DBC_DATABASE="dbc"
+
+SERVER_HOST="medviten@100.110.63.66"
+SERVER_DBC="/path/to/server/data/dbc"
+
+EXTRA_SQL_DATABASES=("test_world" "test_world")
+EXTRA_SQL_PATTERNS=("sql/db-world/base/*.sql" "sql/db-world/extra/*F-030*.sql")
+EXTRA_SQL_DUMPS=("/path/to/ac-worldserver.sql")
+
+# Clean baseline database dump instead of reimporting DBCs every time
+DBC_BASELINE="/path/to/dbc-baseline.sql"
