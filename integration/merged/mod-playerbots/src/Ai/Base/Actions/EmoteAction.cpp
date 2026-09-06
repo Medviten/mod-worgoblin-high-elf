@@ -881,6 +881,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_NIGHTELF:
             case RACE_UNDEAD_PLAYER:
             case RACE_TROLL:
@@ -924,6 +925,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_UNDEAD_PLAYER:
             case RACE_TROLL:
             {
@@ -991,6 +993,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 2;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             {
                 if (Gender == GENDER_MALE)
                     return 3;
@@ -1014,6 +1017,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_GNOME:
             {
                 if (Gender == GENDER_MALE)
@@ -1073,6 +1077,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 2;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             {
                 if (Gender == GENDER_MALE)
                     return 3;
@@ -1109,6 +1114,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 3;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_TAUREN:
             {
                 if (Gender == GENDER_MALE)
@@ -1153,6 +1159,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 2;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_TROLL:
             {
                 if (Gender == GENDER_MALE)
@@ -1183,6 +1190,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 2;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_TROLL:
             {
                 if (Gender == GENDER_MALE)
@@ -1198,6 +1206,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_NIGHTELF:
             case RACE_UNDEAD_PLAYER:
             case RACE_TAUREN:
@@ -1225,6 +1234,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_NIGHTELF:
             case RACE_ORC:
             case RACE_UNDEAD_PLAYER:
@@ -1265,6 +1275,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 3;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_TROLL:
             {
                 if (Gender == GENDER_MALE)
@@ -1303,6 +1314,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_TROLL:
             {
                 if (Gender == GENDER_MALE)
@@ -1348,6 +1360,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 3;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             {
                 if (Gender == GENDER_MALE)
                     return 4;
@@ -1369,6 +1382,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
         {
             case RACE_HUMAN:
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_NIGHTELF:
             case RACE_GNOME:
             case RACE_ORC:
@@ -1407,6 +1421,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 3;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             {
                 if (Gender == GENDER_MALE)
                     return 5;
@@ -1434,6 +1449,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 3;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             case RACE_TAUREN:
             {
                 if (Gender == GENDER_MALE)
@@ -1494,6 +1510,7 @@ uint32 EmoteActionBase::GetNumberOfEmoteVariants(TextEmotes emote, uint8 Race, u
                 return 6;
             }
             case RACE_DWARF:
+            case RACE_DARKIRONDWARF:
             {
                 if (Gender == GENDER_MALE)
                     return 6;

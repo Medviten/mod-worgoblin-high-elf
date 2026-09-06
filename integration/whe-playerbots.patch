@@ -1,7 +1,7 @@
-diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/playerbots_rpg_races.sql
---- a/data/sql/world/base/playerbots_rpg_races.sql	2026-06-25 00:27:27.320598400 +0200
-+++ b/data/sql/world/base/playerbots_rpg_races.sql	2026-08-28 15:15:14.232540100 +0200
-@@ -23,12 +23,14 @@
+diff -ruN originals/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql merged/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql
+--- originals/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql	2026-06-25 00:27:27.320598400 +0200
++++ merged/mod-playerbots/data/sql/world/base/playerbots_rpg_races.sql	2026-09-06 22:13:48.337418400 +0200
+@@ -23,80 +23,102 @@
  -- Draenei Bloodmyst Isle
  (NULL, 17553, 11, 10, 20),
  --
@@ -16,11 +16,17 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 8931, 1, 10, 20),
 +(NULL, 8931, 13, 10, 20),
  --
- --       DWARVES & GNOMES
+---       DWARVES & GNOMES
++--       DWARVES, GNOMES & DARK IRON DWARVES
  --
-@@ -39,59 +41,73 @@
+ -- Innkeeper Belm, Kharanos
+ (NULL, 1247, 3, 1, 10),
+ (NULL, 1247, 7, 1, 10),
++(NULL, 1247, 16, 1, 10),
+ -- Innkeeper Hearthstove, Loch Modan
  (NULL, 6734, 3, 10, 20),
  (NULL, 6734, 7, 10, 20),
++(NULL, 6734, 16, 10, 20),
  --
 ---       NIGHT ELVES
 +--       NIGHT ELVES & WORGEN
@@ -48,6 +54,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 5111, 11, 20, 80), -- draenei
 +(NULL, 5111, 12, 10, 80), -- worgen
 +(NULL, 5111, 13, 10, 80), -- high elves
++(NULL, 5111, 16, 10, 80), -- dark iron dwarves
  --
  -- Innkeeper Allison, Stormwind
  (NULL, 6740, 1, 10, 80), -- human
@@ -58,6 +65,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 6740, 11, 20, 80), -- draenei
 +(NULL, 6740, 12, 10, 80), -- worgen
 +(NULL, 6740, 13, 10, 80), -- high elves
++(NULL, 6740, 16, 10, 80), -- dark iron dwarves
  --
  -- Caregiver Breel Exodar
  (NULL, 16739, 11, 10, 80), -- draenei
@@ -68,6 +76,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 16739, 7, 60, 80), -- gnomes
 +(NULL, 16739, 12, 60, 80), -- worgen
 +(NULL, 16739, 13, 60, 80), -- high elves
++(NULL, 16739, 16, 60, 80), -- dark iron dwarves
  --
  --       ALLIANCE CONTESTED LOCATIONS
  --
@@ -103,12 +112,19 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Helbrek, Wetlands
  --
-@@ -104,10 +120,13 @@
+ (NULL, 1464, 3, 20, 30), -- dwarves
+ (NULL, 1464, 7, 20, 30), -- gnomes
++(NULL, 1464, 16, 20, 30), -- dark iron dwarves
+ --
+ -- Innkeeper Trelayne, Duskwood
+ --
+@@ -104,250 +126,352 @@
  (NULL, 6790, 3, 18, 30), -- dwarves
  (NULL, 6790, 7, 18, 30), -- gnomes
  (NULL, 6790, 11, 20, 30), -- draenei
 +(NULL, 6790, 12, 20, 30), -- worgen
 +(NULL, 6790, 13, 18, 30), -- high elves
++(NULL, 6790, 16, 18, 30), -- dark iron dwarves
  --
  -- Innkeeper Brianna, Redridge Mountains
  --
@@ -117,7 +133,12 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Anderson, Southshore, Hillsbrad
  (NULL, 2352, 1, 20, 30), -- human
-@@ -119,21 +138,26 @@
+ (NULL, 2352, 3, 20, 30), -- dwarves
+ (NULL, 2352, 7, 20, 30), -- gnomes
+ (NULL, 2352, 11, 20, 30), -- draenei
++(NULL, 2352, 16, 20, 30), -- dark iron dwarves
+ --
+ -- Captain Nials, Refuge Pointe, Arathi
  (NULL, 2700, 1, 30, 40), -- human
  (NULL, 2700, 3, 30, 40), -- dwarves
  (NULL, 2700, 7, 30, 40), -- gnomes
@@ -126,6 +147,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 2700, 11, 30, 40), -- draenei
 +(NULL, 2700, 12, 30, 40), -- worgen
 +(NULL, 2700, 13, 30, 40), -- high elves
++(NULL, 2700, 16, 30, 40), -- dark iron dwarves
  --
  -- Lt. Doren, Stranglethorn Vale
  (NULL, 469, 1, 30, 45), -- human
@@ -134,8 +156,9 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
 +(NULL, 469, 4, 30, 45), -- night elves
  (NULL, 469, 7, 30, 45), -- gnomes
  (NULL, 469, 11, 30, 45), -- draenei
-+(NULL, 469, 13, 30, 45), -- high elves
 +(NULL, 469, 12, 30, 45), -- worgen
++(NULL, 469, 13, 30, 45), -- high elves
++(NULL, 469, 16, 30, 45), -- dark iron dwarves
  --
  -- Innkeeper Janene, Theramore
  (NULL, 6272, 1, 35, 45), -- human
@@ -143,14 +166,19 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 6272, 7, 35, 45), -- gnomes
  (NULL, 6272, 11, 35, 45), -- draenei
 +(NULL, 6272, 13, 35, 45), -- high elves
++(NULL, 6272, 16, 35, 45), -- dark iron dwarves
  --
  -- Innkeeper Prospector Ryedol, Badlands Q-giver
  (NULL, 2910, 3, 35, 45), -- dwarves
-@@ -143,211 +167,270 @@
+ (NULL, 2910, 7, 35, 45), -- gnomes
++(NULL, 2910, 16, 35, 45), -- dark iron dwarves
+ --
+ -- Innkeeper Thulfram, Hinterlands, Dwarven Outpost
  (NULL, 7744, 3, 40, 50), -- dwarves
  (NULL, 7744, 1, 40, 50), -- human
  (NULL, 7744, 7, 40, 50), -- gnomes
 +(NULL, 7744, 13, 40, 50), -- high elves
++(NULL, 7744, 16, 40, 50), -- dark iron dwarves
  --
  -- Loh'atu, Azshara alliance camp Q-giver 11548
 -(NULL, 11548, 4, 45, 55), -- elves
@@ -169,6 +197,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 8022, 11, 45, 55), -- draenei
 +(NULL, 8022, 12, 45, 55), -- worgen
 +(NULL, 8022, 13, 45, 55), -- high elves
++(NULL, 8022, 16, 45, 55), -- dark iron dwarves
  --
  -- Gothine the Hooded, Felwood Alliance camp
 -(NULL, 9465, 4, 48, 55), -- elves
@@ -179,6 +208,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 9465, 11, 48, 55), -- draenei
 +(NULL, 9465, 12, 48, 55), -- worgen
 +(NULL, 9465, 13, 48, 55), -- high elves
++(NULL, 9465, 16, 48, 55), -- dark iron dwarves
  --
  -- Muigin, Alliance Q-giver, Un'Goro
  (NULL, 9119, 1, 48, 55), -- human
@@ -189,6 +219,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 9119, 11, 48, 55), -- draenei
 +(NULL, 9119, 12, 48, 55), -- worgen
 +(NULL, 9119, 13, 48, 55), -- high elves
++(NULL, 9119, 16, 48, 55), -- dark iron dwarves
  --
  -- Alchemist Arbington, West Plaguelands, Human
  (NULL, 11056, 1, 51, 58), -- human
@@ -199,6 +230,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 11056, 11, 51, 58), -- draenei
 +(NULL, 11056, 12, 51, 58), -- worgen
 +(NULL, 11056, 13, 51, 58), -- high elves
++(NULL, 11056, 16, 51, 58), -- dark iron dwarves
  --
  -- Borgus Stourarm, Alliance Taxi, Burning Steppes
  (NULL, 2299, 1, 50, 60), -- human
@@ -209,6 +241,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 2299, 11, 50, 60), -- draenei
 +(NULL, 2299, 12, 50, 60), -- worgen
 +(NULL, 2299, 13, 50, 60), -- high elves
++(NULL, 2299, 16, 50, 60), -- dark iron dwarves
  --
  -- Marshal Bluewall, Alliance camp, Silithus
  (NULL, 17080, 1, 55, 60), -- human
@@ -219,6 +252,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 17080, 11, 55, 60), -- draenei
 +(NULL, 17080, 12, 55, 60), -- worgen
 +(NULL, 17080, 13, 55, 60), -- high elves
++(NULL, 17080, 16, 55, 60), -- dark iron dwarves
  --
  --           OUTLAND
  --
@@ -231,6 +265,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 19229, 11, 58, 59), -- draenei
 +(NULL, 19229, 12, 58, 59), -- worgen
 +(NULL, 19229, 13, 58, 59), -- high elves
++(NULL, 19229, 16, 58, 59), -- dark iron dwarves
  --
  -- Sid Limbardi, Honor Hold, Hellfire
  (NULL, 16826, 1, 58, 63), -- human
@@ -241,6 +276,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 16826, 11, 58, 63), -- draenei
 +(NULL, 16826, 12, 58, 63), -- worgen
 +(NULL, 16826, 13, 58, 63), -- high elves
++(NULL, 16826, 16, 58, 63), -- dark iron dwarves
  --
  -- Caregiver Ophera Windfury, Draenei, Hellfire
  (NULL, 18906, 1, 60, 63), -- human
@@ -251,6 +287,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 18906, 11, 60, 63), -- draenei
 +(NULL, 18906, 12, 60, 63), -- worgen
 +(NULL, 18906, 13, 60, 63), -- high elves
++(NULL, 18906, 16, 60, 63), -- dark iron dwarves
  --
  -- Caregiver Abidaar, Telredor, Zangarmarsh
  (NULL, 18251, 1, 60, 63), -- human
@@ -261,6 +298,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 18251, 11, 60, 63), -- draenei
 +(NULL, 18251, 12, 60, 63), -- worgen
 +(NULL, 18251, 13, 60, 63), -- high elves
++(NULL, 18251, 16, 60, 63), -- dark iron dwarves
  --
  -- Caregiver Kerp, Orebor, Zangarmarsh
  (NULL, 18908, 1, 61, 64), -- human
@@ -271,6 +309,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 18908, 11, 61, 64), -- draenei
 +(NULL, 18908, 12, 61, 64), -- worgen
 +(NULL, 18908, 13, 61, 64), -- high elves
++(NULL, 18908, 16, 61, 64), -- dark iron dwarves
  --
  -- Innkeeper Biribi, Terrokar
  (NULL, 19296, 1, 62, 65), -- human
@@ -281,6 +320,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 19296, 11, 62, 65), -- draenei
 +(NULL, 19296, 12, 62, 65), -- worgen
 +(NULL, 19296, 13, 62, 65), -- high elves
++(NULL, 19296, 16, 62, 65), -- dark iron dwarves
  --
  -- Caregiver Isel, Telaar, Nagrand
  (NULL, 18914, 1, 64, 67), -- human
@@ -291,6 +331,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 18914, 11, 64, 67), -- draenei
 +(NULL, 18914, 12, 64, 67), -- worgen
 +(NULL, 18914, 13, 64, 67), -- high elves
++(NULL, 18914, 16, 64, 67), -- dark iron dwarves
  --
  -- Innkeeper Shaunessy, Sylvanaar, Blade's Edge
  (NULL, 19495, 1, 65, 68), -- human
@@ -301,6 +342,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 19495, 11, 65, 68), -- draenei
 +(NULL, 19495, 12, 65, 68), -- worgen
 +(NULL, 19495, 13, 65, 68), -- high elves
++(NULL, 19495, 16, 65, 68), -- dark iron dwarves
  --
  -- Innkeeper Fizir Doc Clocktock, Blade's Edge
  (NULL, 21110, 1, 65, 68), -- human
@@ -311,6 +353,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 21110, 11, 65, 68), -- draenei
 +(NULL, 21110, 12, 65, 68), -- worgen
 +(NULL, 21110, 13, 65, 68), -- high elves
++(NULL, 21110, 16, 65, 68), -- dark iron dwarves
  --
  -- Innkeeper Dreg Cloudsweeper, Shadowmoon
  (NULL, 19352, 1, 67, 70), -- human
@@ -321,6 +364,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 19352, 11, 67, 70), -- draenei
 +(NULL, 19352, 12, 67, 70), -- worgen
 +(NULL, 19352, 13, 67, 70), -- high elves
++(NULL, 19352, 16, 67, 70), -- dark iron dwarves
  --
  --           NORTHREND
  --
@@ -333,6 +377,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 32413, 11, 72, 80), -- draenei
 +(NULL, 32413, 12, 72, 80), -- worgen
 +(NULL, 32413, 13, 72, 80), -- high elves
++(NULL, 32413, 16, 72, 80), -- dark iron dwarves
  --
  -- James Deacon, Valiance Keep, Borean Tundra
  (NULL, 25245, 1, 68, 72), -- human
@@ -343,6 +388,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 25245, 11, 68, 72), -- draenei
 +(NULL, 25245, 12, 68, 72), -- worgen
 +(NULL, 25245, 13, 68, 72), -- high elves
++(NULL, 25245, 16, 68, 72), -- dark iron dwarves
  --
  -- "Charlie" Northtop, Fizzcrank Airstrip, Borean Tundra
  (NULL, 26596, 1, 69, 72), -- human
@@ -353,6 +399,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 26596, 11, 69, 72), -- draenei
 +(NULL, 26596, 12, 69, 72), -- worgen
 +(NULL, 26596, 13, 69, 72), -- high elves
++(NULL, 26596, 16, 69, 72), -- dark iron dwarves
  --
  -- Innkeeper Hazel Lagras, Valgarde, Howling Fjord
  (NULL, 23731, 1, 68, 72), -- human
@@ -363,6 +410,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 23731, 11, 68, 72), -- draenei
 +(NULL, 23731, 12, 68, 72), -- worgen
 +(NULL, 23731, 13, 68, 72), -- high elves
++(NULL, 23731, 16, 68, 72), -- dark iron dwarves
  --
  -- Innkeeper Celeste Goodhutch, Westguard Keep, Howling Fjord
  (NULL, 23937, 1, 69, 72), -- human
@@ -373,6 +421,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 23937, 11, 69, 72), -- draenei
 +(NULL, 23937, 12, 69, 72), -- worgen
 +(NULL, 23937, 13, 69, 72), -- high elves
++(NULL, 23937, 16, 69, 72), -- dark iron dwarves
  --
  -- Christina Daniels, Fort Wildervar, Howling Fjord
  (NULL, 24057, 1, 70, 72), -- human
@@ -383,6 +432,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 24057, 11, 70, 72), -- draenei
 +(NULL, 24057, 12, 70, 72), -- worgen
 +(NULL, 24057, 13, 70, 72), -- high elves
++(NULL, 24057, 16, 70, 72), -- dark iron dwarves
  --
  -- Jennifer Bell, Amberpine Lodge, Grizzly Hills
  (NULL, 27066, 1, 70, 74), -- human
@@ -393,6 +443,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 27066, 11, 70, 74), -- draenei
 +(NULL, 27066, 12, 70, 74), -- worgen
 +(NULL, 27066, 13, 70, 74), -- high elves
++(NULL, 27066, 16, 70, 74), -- dark iron dwarves
  --
  -- Quartermaster McCarty, Westfall Brigade Encampment, Grizzly Hills
  (NULL, 26375, 1, 70, 74), -- human
@@ -403,6 +454,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 26375, 11, 70, 74), -- draenei
 +(NULL, 26375, 12, 70, 74), -- worgen
 +(NULL, 26375, 13, 70, 74), -- high elves
++(NULL, 26375, 16, 70, 74), -- dark iron dwarves
  --
  -- Illusia Lune, Wintergarde Keep, Dragonblight
  (NULL, 27042, 1, 71, 75), -- human
@@ -413,6 +465,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 27042, 11, 71, 75), -- draenei
 +(NULL, 27042, 12, 71, 75), -- worgen
 +(NULL, 27042, 13, 71, 75), -- high elves
++(NULL, 27042, 16, 71, 75), -- dark iron dwarves
  --
  -- Naohain, Stars' Rest, Dragonblight
  (NULL, 27052, 1, 71, 75), -- human
@@ -423,6 +476,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 27052, 11, 71, 75), -- draenei
 +(NULL, 27052, 12, 71, 75), -- worgen
 +(NULL, 27052, 13, 71, 75), -- high elves
++(NULL, 27052, 16, 71, 75), -- dark iron dwarves
  --
  -- Gunda Boldhammer, Frosthold, Storm Peaks
  (NULL, 29926, 1, 77, 80), -- human
@@ -433,6 +487,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 29926, 11, 77, 80), -- draenei
 +(NULL, 29926, 12, 77, 80), -- worgen
 +(NULL, 29926, 13, 77, 80), -- high elves
++(NULL, 29926, 16, 77, 80), -- dark iron dwarves
  --
  -- Caris Sunlance, Argent Tournament, Icecrown
  (NULL, 33970, 1, 80, 80), -- human
@@ -443,10 +498,11 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 33970, 11, 80, 80), -- draenei
 +(NULL, 33970, 12, 80, 80), -- worgen
 +(NULL, 33970, 13, 80, 80), -- high elves
++(NULL, 33970, 16, 80, 80), -- dark iron dwarves
  --
  --       ALLIANCE MOUNT VENDORS
  --
-@@ -363,11 +446,14 @@
+@@ -363,11 +487,14 @@
  --
  --       HORDE
  --
@@ -464,7 +520,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  --       TAUREN
  --
-@@ -383,9 +469,9 @@
+@@ -383,9 +510,9 @@
  --
  --       BLOOD ELVES
  --
@@ -476,7 +532,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 16542, 10, 10, 20),
  --
  --       HORDE CITIES
-@@ -396,6 +482,9 @@
+@@ -396,6 +523,9 @@
  (NULL, 6929, 6, 10, 80), -- tauren
  (NULL, 6929, 5, 20, 80), -- undead
  (NULL, 6929, 10, 20, 80), -- blood elves
@@ -486,7 +542,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Pala, Thunder Bluff, Mulgore
  (NULL, 6746, 6, 10, 80), -- tauren
-@@ -411,6 +500,9 @@
+@@ -411,6 +541,9 @@
  (NULL, 17630, 5, 60, 80), -- undead
  (NULL, 17630, 6, 60, 80), -- tauren
  (NULL, 17630, 8, 60, 80), -- trolls
@@ -496,7 +552,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  -- Innkeeper Delaniel Silvermoon Entrance
  (NULL, 15433, 10, 5, 7), -- blood elves
  --
-@@ -422,23 +514,35 @@
+@@ -422,23 +555,35 @@
  (NULL, 3934, 8, 10, 25), -- trolls
  (NULL, 3934, 10, 20, 25), -- blood elves
  -- (NULL, 3934, 5, 15, 25), -- undead
@@ -532,7 +588,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Shay, Tarren Mill, Hillsbrad
  (NULL, 2388, 5, 20, 30), -- undead
-@@ -451,15 +555,24 @@
+@@ -451,15 +596,24 @@
  (NULL, 12196, 2, 18, 30), -- orcs
  (NULL, 12196, 8, 18, 30), -- trolls
  (NULL, 12196, 10, 20, 30), -- blood elves
@@ -557,7 +613,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Adegwa, Arathi, Hammerfall
  (NULL, 9501, 2, 30, 40), -- orcs
-@@ -467,6 +580,9 @@
+@@ -467,6 +621,9 @@
  (NULL, 9501, 6, 30, 40), -- tauren
  (NULL, 9501, 8, 30, 40), -- trolls
  (NULL, 9501, 10, 30, 40), -- blood elves
@@ -567,7 +623,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Lard, Revantusk Village , Hinterlands
  (NULL, 14731, 2, 40, 50), -- orcs
-@@ -474,6 +590,9 @@
+@@ -474,6 +631,9 @@
  (NULL, 14731, 6, 40, 50), -- tauren
  (NULL, 14731, 8, 40, 50), -- trolls
  (NULL, 14731, 10, 40, 50), -- blood elves
@@ -577,7 +633,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Shul'kar, Kargath Outpost, Badlands
  (NULL, 9356, 2, 35, 45), -- orcs
-@@ -481,6 +600,9 @@
+@@ -481,6 +641,9 @@
  (NULL, 9356, 6, 35, 45), -- tauren
  (NULL, 9356, 8, 35, 45), -- trolls
  (NULL, 9356, 10, 35, 45), -- blood elves
@@ -587,7 +643,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Karakul, Swamp of Sorrows
  (NULL, 6930, 2, 35, 45), -- orcs
-@@ -488,6 +610,9 @@
+@@ -488,6 +651,9 @@
  (NULL, 6930, 6, 35, 45), -- tauren
  (NULL, 6930, 8, 35, 45), -- trolls
  (NULL, 6930, 10, 35, 45), -- blood elves
@@ -597,7 +653,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Thulbek, Grom Gol, Stranglethorn Vale
  (NULL, 5814, 2, 30, 45), -- orcs
-@@ -495,17 +620,26 @@
+@@ -495,17 +661,26 @@
  (NULL, 5814, 6, 30, 45), -- tauren
  (NULL, 5814, 8, 30, 45), -- trolls
  (NULL, 5814, 10, 30, 45), -- blood elves
@@ -624,7 +680,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Winna Hazzard, Felwood horde camp
  (NULL, 9996, 2, 48, 55), -- orcs
-@@ -513,6 +647,9 @@
+@@ -513,6 +688,9 @@
  (NULL, 9996, 8, 48, 55), -- trolls
  (NULL, 9996, 5, 48, 55), -- undead
  (NULL, 9996, 10, 48, 55), -- blood elves
@@ -634,7 +690,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Larion, Horde Q-giver, Un'Goro
  (NULL, 9118, 2, 48, 55), -- orcs
-@@ -520,6 +657,9 @@
+@@ -520,6 +698,9 @@
  (NULL, 9118, 8, 48, 55), -- trolls
  (NULL, 9118, 5, 48, 55), -- undead
  (NULL, 9118, 10, 48, 55), -- blood elves
@@ -644,7 +700,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Vahgruk, Horde Taxi, Burning Steppes
  (NULL, 13177, 2, 50, 60), -- orcs
-@@ -527,6 +667,9 @@
+@@ -527,6 +708,9 @@
  (NULL, 13177, 6, 50, 60), -- tauren
  (NULL, 13177, 8, 50, 60), -- trolls
  (NULL, 13177, 10, 50, 60), -- blood elves
@@ -654,7 +710,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- General Kirika, Horde camp, Silithus
  (NULL, 17079, 2, 55, 60), -- orcs
-@@ -534,6 +677,9 @@
+@@ -534,6 +718,9 @@
  (NULL, 17079, 6, 55, 60), -- tauren
  (NULL, 17079, 8, 55, 60), -- trolls
  (NULL, 17079, 10, 55, 60), -- blood elves
@@ -664,7 +720,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  --        OUTLAND
  --
-@@ -543,6 +689,9 @@
+@@ -543,6 +730,9 @@
  (NULL, 19253, 6, 58, 59), -- tauren
  (NULL, 19253, 8, 58, 59), -- trolls
  (NULL, 19253, 10, 58, 59), -- blood elves
@@ -674,7 +730,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Floyd Pinkus, Thrallmar, Hellfire
  (NULL, 16602, 2, 58, 63), -- orcs
-@@ -550,6 +699,9 @@
+@@ -550,6 +740,9 @@
  (NULL, 16602, 6, 58, 63), -- tauren
  (NULL, 16602, 8, 58, 63), -- trolls
  (NULL, 16602, 10, 58, 63), -- blood elves
@@ -684,7 +740,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Bazil, Falcon Watch, Hellfire
  (NULL, 18905, 2, 60, 63), -- orcs
-@@ -557,6 +709,9 @@
+@@ -557,6 +750,9 @@
  (NULL, 18905, 6, 60, 63), -- tauren
  (NULL, 18905, 8, 60, 63), -- trolls
  (NULL, 18905, 10, 60, 63), -- blood elves
@@ -694,7 +750,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Merajit, Zabra'jin, Zangarmarsh
  (NULL, 18245, 2, 60, 64), -- orcs
-@@ -564,6 +719,9 @@
+@@ -564,6 +760,9 @@
  (NULL, 18245, 6, 60, 64), -- tauren
  (NULL, 18245, 8, 60, 64), -- trolls
  (NULL, 18245, 10, 60, 64), -- blood elves
@@ -704,7 +760,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Grilka, Terrokar
  (NULL, 18957, 2, 62, 65), -- orcs
-@@ -571,6 +729,9 @@
+@@ -571,6 +770,9 @@
  (NULL, 18957, 6, 62, 65), -- tauren
  (NULL, 18957, 8, 62, 65), -- trolls
  (NULL, 18957, 10, 62, 65), -- blood elves
@@ -714,7 +770,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Matron Tikkit, Garadar, Nagrand
  (NULL, 18913, 2, 62, 65), -- orcs
-@@ -578,6 +739,9 @@
+@@ -578,6 +780,9 @@
  (NULL, 18913, 6, 62, 65), -- tauren
  (NULL, 18913, 8, 62, 65), -- trolls
  (NULL, 18913, 10, 62, 65), -- blood elves
@@ -724,7 +780,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Matron Varah, Mok'Nathal, Blade's Edge
  (NULL, 21088, 2, 65, 68), -- orcs
-@@ -585,6 +749,9 @@
+@@ -585,6 +790,9 @@
  (NULL, 21088, 6, 65, 68), -- tauren
  (NULL, 21088, 8, 65, 68), -- trolls
  (NULL, 21088, 10, 65, 68), -- blood elves
@@ -734,7 +790,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Gholah, Thunderlord, Blade's Edge
  (NULL, 19470, 2, 65, 68), -- orcs
-@@ -592,6 +759,9 @@
+@@ -592,6 +800,9 @@
  (NULL, 19470, 6, 65, 68), -- tauren
  (NULL, 19470, 8, 65, 68), -- trolls
  (NULL, 19470, 10, 65, 68), -- blood elves
@@ -744,7 +800,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Innkeeper Darg Bloodclaw, Shadowmoon Village
  (NULL, 19319, 2, 67, 70), -- orcs
-@@ -599,6 +769,9 @@
+@@ -599,6 +810,9 @@
  (NULL, 19319, 6, 67, 70), -- tauren
  (NULL, 19319, 8, 67, 70), -- trolls
  (NULL, 19319, 10, 67, 70), -- blood elves
@@ -754,7 +810,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  --        NORTHREND
  --
-@@ -608,6 +781,9 @@
+@@ -608,6 +822,9 @@
  (NULL, 31557, 6, 72, 80), -- tauren
  (NULL, 31557, 8, 72, 80), -- trolls
  (NULL, 31557, 10, 72, 80), -- blood elves
@@ -764,7 +820,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Williamson, Warsong Hold, Borean Tundra
  (NULL, 25278, 2, 68, 72), -- orcs
-@@ -615,6 +791,9 @@
+@@ -615,6 +832,9 @@
  (NULL, 25278, 6, 68, 72), -- tauren
  (NULL, 25278, 8, 68, 72), -- trolls
  (NULL, 25278, 10, 68, 72), -- blood elves
@@ -774,7 +830,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Pahu Frosthoof, Taunka'le Village, Borean Tundra
  (NULL, 26709, 2, 69, 72), -- orcs
-@@ -622,6 +801,9 @@
+@@ -622,6 +842,9 @@
  (NULL, 26709, 6, 69, 72), -- tauren
  (NULL, 26709, 8, 69, 72), -- trolls
  (NULL, 26709, 10, 69, 72), -- blood elves
@@ -784,7 +840,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Matron Magah, Bor'Gorok Outpost, Borean Tundra
  (NULL, 26709, 2, 70, 72), -- orcs
-@@ -629,6 +811,9 @@
+@@ -629,6 +852,9 @@
  (NULL, 26709, 6, 70, 72), -- tauren
  (NULL, 26709, 8, 70, 72), -- trolls
  (NULL, 26709, 10, 70, 72), -- blood elves
@@ -794,7 +850,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Basil Osgood, New Agamand, Howling Fjord
  (NULL, 24149, 2, 68, 72), -- orcs
-@@ -636,6 +821,9 @@
+@@ -636,6 +862,9 @@
  (NULL, 24149, 6, 68, 72), -- tauren
  (NULL, 24149, 8, 68, 72), -- trolls
  (NULL, 24149, 10, 68, 72), -- blood elves
@@ -804,7 +860,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Timothy Holland, Vengeance Landing, Howling Fjord
  (NULL, 24342, 2, 69, 72), -- orcs
-@@ -643,6 +831,9 @@
+@@ -643,6 +872,9 @@
  (NULL, 24342, 6, 69, 72), -- tauren
  (NULL, 24342, 8, 69, 72), -- trolls
  (NULL, 24342, 10, 69, 72), -- blood elves
@@ -814,7 +870,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Bori Wintertotem, Camp Winterhoof, Howling Fjord
  (NULL, 24033, 2, 70, 72), -- orcs
-@@ -650,6 +841,9 @@
+@@ -650,6 +882,9 @@
  (NULL, 24033, 6, 70, 72), -- tauren
  (NULL, 24033, 8, 70, 72), -- trolls
  (NULL, 24033, 10, 70, 72), -- blood elves
@@ -824,7 +880,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Barracks Master Rhekku, Conquest Hold, Grizzly Hills
  (NULL, 27125, 2, 70, 74), -- orcs
-@@ -657,6 +851,9 @@
+@@ -657,6 +892,9 @@
  (NULL, 27125, 6, 70, 74), -- tauren
  (NULL, 27125, 8, 70, 74), -- trolls
  (NULL, 27125, 10, 70, 74), -- blood elves
@@ -834,7 +890,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Aiyan Coldwind, Capm Onequah, Grizzly Hills
  (NULL, 26680, 2, 70, 74), -- orcs
-@@ -664,6 +861,9 @@
+@@ -664,6 +902,9 @@
  (NULL, 26680, 6, 70, 74), -- tauren
  (NULL, 26680, 8, 70, 74), -- trolls
  (NULL, 26680, 10, 70, 74), -- blood elves
@@ -844,7 +900,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Mrs. Winterby, Venomspite, Dragonblight
  (NULL, 27027, 2, 71, 75), -- orcs
-@@ -671,6 +871,9 @@
+@@ -671,6 +912,9 @@
  (NULL, 27027, 6, 71, 75), -- tauren
  (NULL, 27027, 8, 71, 75), -- trolls
  (NULL, 27027, 10, 71, 75), -- blood elves
@@ -854,7 +910,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Barracks Master Harga, Agmar's Hammer, Dragonblight
  (NULL, 26985, 2, 71, 75), -- orcs
-@@ -678,6 +881,9 @@
+@@ -678,6 +922,9 @@
  (NULL, 26985, 6, 71, 75), -- tauren
  (NULL, 26985, 8, 71, 75), -- trolls
  (NULL, 26985, 10, 71, 75), -- blood elves
@@ -864,7 +920,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Wabada Whiteflower, Camp Tunka'lo, Storm Peaks
  (NULL, 29971, 2, 77, 80), -- orcs
-@@ -685,6 +891,9 @@
+@@ -685,6 +932,9 @@
  (NULL, 29971, 6, 77, 80), -- tauren
  (NULL, 29971, 8, 77, 80), -- trolls
  (NULL, 29971, 10, 77, 80), -- blood elves
@@ -874,7 +930,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  --
  -- Jarin Dawnglow, Argent Tournament, Icecrown
  (NULL, 33971, 2, 80, 80), -- orcs
-@@ -692,14 +901,20 @@
+@@ -692,14 +942,20 @@
  (NULL, 33971, 6, 80, 80), -- tauren
  (NULL, 33971, 8, 80, 80), -- trolls
  (NULL, 33971, 10, 80, 80), -- blood elves
@@ -897,7 +953,7 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  -- Innkeeper Fizzgrimble, Tanaris 7733 (Neutral)
  (NULL, 7733, 0, 40, 50),
  -- Master Smith Burninate, Searing Gorge
-@@ -728,7 +943,7 @@
+@@ -728,7 +984,7 @@
  (NULL, 19531, 0, 67, 70),
  -- Innkeeper Remi Dodoso, Area 52, Netherstorm
  (NULL, 19571, 0, 67, 70),
@@ -906,17 +962,25 @@ diff -ruN a/data/sql/world/base/playerbots_rpg_races.sql b/data/sql/world/base/p
  (NULL, 25036, 0, 69, 70),
  --
  --           NORTHREND
-@@ -778,5 +993,5 @@
+@@ -778,5 +1034,5 @@
  -- (NULL, 12384, 5),
  --
  -- ENDING PLACEHOLDER
 -(NULL, 6807, 15, 90, 90)
 +(NULL, 6807, 35, 90, 90)
  ;
-diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteAction.cpp
---- a/src/Ai/Base/Actions/EmoteAction.cpp	2026-06-25 00:29:46.435141700 +0200
-+++ b/src/Ai/Base/Actions/EmoteAction.cpp	2026-08-28 15:17:16.630974900 +0200
-@@ -891,6 +891,9 @@
+diff -ruN originals/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp merged/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp
+--- originals/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp	2026-06-25 00:29:46.435141700 +0200
++++ merged/mod-playerbots/src/Ai/Base/Actions/EmoteAction.cpp	2026-09-06 22:17:57.953627700 +0200
+@@ -881,6 +881,7 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_NIGHTELF:
+             case RACE_UNDEAD_PLAYER:
+             case RACE_TROLL:
+@@ -891,6 +892,9 @@
                  return 2;
              }
              case RACE_GNOME:
@@ -926,7 +990,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 1;
-@@ -898,6 +901,8 @@
+@@ -898,6 +902,8 @@
                  return 1;
              }
              case RACE_ORC:
@@ -935,7 +999,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -943,12 +948,28 @@
+@@ -919,6 +925,7 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_UNDEAD_PLAYER:
+             case RACE_TROLL:
+             {
+@@ -943,12 +950,28 @@
                  return 2;
              }
              case RACE_ORC:
@@ -964,7 +1036,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
          }
      }
      else if (emote == 306)
-@@ -961,6 +982,8 @@
+@@ -961,6 +984,8 @@
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
              case RACE_TROLL:
@@ -973,7 +1045,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 2;
-@@ -975,6 +998,8 @@
+@@ -968,6 +993,7 @@
+                 return 2;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             {
+                 if (Gender == GENDER_MALE)
+                     return 3;
+@@ -975,6 +1001,8 @@
                  return 2;
              }
              case RACE_GNOME:
@@ -982,7 +1062,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -1007,12 +1032,22 @@
+@@ -989,6 +1017,7 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_GNOME:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1007,12 +1036,22 @@
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
              case RACE_TROLL:
@@ -1005,7 +1093,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
          }
      }
      else if (emote == 323)
-@@ -1029,6 +1064,8 @@
+@@ -1029,6 +1068,8 @@
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
              case RACE_TROLL:
@@ -1014,7 +1102,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 2;
-@@ -1049,6 +1086,14 @@
+@@ -1036,6 +1077,7 @@
+                 return 2;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             {
+                 if (Gender == GENDER_MALE)
+                     return 3;
+@@ -1049,6 +1091,14 @@
  
                  return 1;
              }
@@ -1029,7 +1125,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
          }
      }
      else if (emote == 325)
-@@ -1075,6 +1120,10 @@
+@@ -1064,6 +1114,7 @@
+                 return 3;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_TAUREN:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1075,6 +1126,10 @@
              case RACE_GNOME:
              case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
@@ -1040,7 +1144,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 2;
-@@ -1093,6 +1142,10 @@
+@@ -1093,6 +1148,10 @@
              case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
@@ -1051,7 +1155,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 2;
-@@ -1119,6 +1172,10 @@
+@@ -1100,6 +1159,7 @@
+                 return 2;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_TROLL:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1119,6 +1179,10 @@
              case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
@@ -1062,7 +1174,21 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 2;
-@@ -1146,10 +1203,14 @@
+@@ -1126,6 +1190,7 @@
+                 return 2;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_TROLL:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1141,15 +1206,20 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_NIGHTELF:
+             case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
              case RACE_TROLL:
              case RACE_GNOME:
@@ -1077,7 +1203,13 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 2;
-@@ -1169,6 +1230,8 @@
+@@ -1164,11 +1234,14 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_NIGHTELF:
+             case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
              case RACE_TROLL:
@@ -1086,7 +1218,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -1176,6 +1239,8 @@
+@@ -1176,6 +1249,8 @@
                  return 3;
              }
              case RACE_GNOME:
@@ -1095,7 +1227,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 4;
-@@ -1208,12 +1273,28 @@
+@@ -1200,6 +1275,7 @@
+                 return 3;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_TROLL:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1208,12 +1284,28 @@
                  return 3;
              }
              case RACE_ORC:
@@ -1124,7 +1264,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
          }
      }
      else if (emote == TEXT_EMOTE_NO)
-@@ -1234,6 +1315,10 @@
+@@ -1222,6 +1314,7 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_TROLL:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1234,6 +1327,10 @@
              case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
              case RACE_TAUREN:
@@ -1135,7 +1283,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -1252,6 +1337,10 @@
+@@ -1252,6 +1349,10 @@
              case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
              case RACE_TROLL:
@@ -1146,7 +1294,21 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -1285,6 +1374,8 @@
+@@ -1259,6 +1360,7 @@
+                 return 3;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             {
+                 if (Gender == GENDER_MALE)
+                     return 4;
+@@ -1280,11 +1382,14 @@
+         {
+             case RACE_HUMAN:
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_NIGHTELF:
+             case RACE_GNOME:
              case RACE_ORC:
              case RACE_TAUREN:
              case RACE_TROLL:
@@ -1155,7 +1317,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -1307,6 +1398,8 @@
+@@ -1307,6 +1412,8 @@
              case RACE_ORC:
              case RACE_TAUREN:
              case RACE_TROLL:
@@ -1164,7 +1326,23 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 3;
-@@ -1365,12 +1458,28 @@
+@@ -1314,6 +1421,7 @@
+                 return 3;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             {
+                 if (Gender == GENDER_MALE)
+                     return 5;
+@@ -1341,6 +1449,7 @@
+                 return 3;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             case RACE_TAUREN:
+             {
+                 if (Gender == GENDER_MALE)
+@@ -1365,12 +1474,28 @@
              }
              case RACE_ORC:
              case RACE_UNDEAD_PLAYER:
@@ -1193,7 +1371,15 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
          }
      }
      else if (emote == TEXT_EMOTE_JOKE)
-@@ -1406,6 +1515,8 @@
+@@ -1385,6 +1510,7 @@
+                 return 6;
+             }
+             case RACE_DWARF:
++            case RACE_DARKIRONDWARF:
+             {
+                 if (Gender == GENDER_MALE)
+                     return 6;
+@@ -1406,6 +1532,8 @@
                  return 3;
              }
              case RACE_ORC:
@@ -1202,7 +1388,7 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
              {
                  if (Gender == GENDER_MALE)
                      return 5;
-@@ -1433,6 +1544,20 @@
+@@ -1433,6 +1561,20 @@
  
                  return 7;
              }
@@ -1223,25 +1409,25 @@ diff -ruN a/src/Ai/Base/Actions/EmoteAction.cpp b/src/Ai/Base/Actions/EmoteActio
          }
      }
  
-diff -ruN a/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp b/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
---- a/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-06-25 00:30:20.486201100 +0200
-+++ b/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-08-28 15:17:52.800692200 +0200
+diff -ruN originals/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp merged/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp
+--- originals/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-06-25 00:30:20.486201100 +0200
++++ merged/mod-playerbots/src/Ai/Base/Actions/ReviveFromCorpseAction.cpp	2026-09-06 22:18:34.377227000 +0200
 @@ -252,9 +252,9 @@
      std::vector<uint32> races;
  
      if (bot->GetTeamId() == TEAM_ALLIANCE)
 -        races = {RACE_HUMAN, RACE_DWARF, RACE_GNOME, RACE_NIGHTELF, RACE_DRAENEI};
-+        races = {RACE_HUMAN, RACE_DWARF, RACE_GNOME, RACE_NIGHTELF, RACE_DRAENEI, RACE_WORGEN, RACE_HIGHELF};
++        races = {RACE_HUMAN, RACE_DWARF, RACE_GNOME, RACE_NIGHTELF, RACE_DRAENEI, RACE_WORGEN, RACE_HIGHELF, RACE_DARKIRONDWARF};
      else
 -        races = {RACE_ORC, RACE_TROLL, RACE_TAUREN, RACE_UNDEAD_PLAYER, RACE_BLOODELF};
 +        races = {RACE_ORC, RACE_TROLL, RACE_TAUREN, RACE_UNDEAD_PLAYER, RACE_BLOODELF, RACE_GOBLIN, RACE_MAGHARORC, RACE_OGRE};
  
      float graveDistance = -1;
  
-diff -ruN a/src/Bot/Cmd/ChatHelper.cpp b/src/Bot/Cmd/ChatHelper.cpp
---- a/src/Bot/Cmd/ChatHelper.cpp	2026-06-25 00:31:00.898342300 +0200
-+++ b/src/Bot/Cmd/ChatHelper.cpp	2026-08-28 15:18:39.236502500 +0200
-@@ -181,6 +181,11 @@
+diff -ruN originals/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp merged/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp
+--- originals/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp	2026-06-25 00:31:00.898342300 +0200
++++ merged/mod-playerbots/src/Bot/Cmd/ChatHelper.cpp	2026-09-06 22:19:14.737651900 +0200
+@@ -181,6 +181,12 @@
      races[RACE_UNDEAD_PLAYER] = "Undead";
      races[RACE_BLOODELF] = "Blood Elf";
      races[RACE_DRAENEI] = "Draenei";
@@ -1250,13 +1436,14 @@ diff -ruN a/src/Bot/Cmd/ChatHelper.cpp b/src/Bot/Cmd/ChatHelper.cpp
 +    races[RACE_HIGHELF] = "High Elf";
 +    races[RACE_MAGHARORC] = "Mag'har Orc";
 +    races[RACE_OGRE] = "Ogre";
++    races[RACE_DARKIRONDWARF] = "Dark Iron Dwarf";
  }
  
  std::string const ChatHelper::formatMoney(uint32 copper)
-diff -ruN a/src/Bot/Factory/PlayerbotFactory.cpp b/src/Bot/Factory/PlayerbotFactory.cpp
---- a/src/Bot/Factory/PlayerbotFactory.cpp	2026-06-25 00:31:34.168169300 +0200
-+++ b/src/Bot/Factory/PlayerbotFactory.cpp	2026-08-28 15:20:09.859893200 +0200
-@@ -3737,6 +3737,26 @@
+diff -ruN originals/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp merged/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp
+--- originals/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp	2026-06-25 00:31:34.168169300 +0200
++++ merged/mod-playerbots/src/Bot/Factory/PlayerbotFactory.cpp	2026-09-06 22:20:19.829262100 +0200
+@@ -3737,6 +3737,30 @@
              slow = {33660, 35020, 35022, 35018};
              fast = {35025, 35025, 35027};
              break;
@@ -1280,64 +1467,85 @@ diff -ruN a/src/Bot/Factory/PlayerbotFactory.cpp b/src/Bot/Factory/PlayerbotFact
 +            slow = {18990, 18989, 64657};
 +            fast = {23249, 23248, 23247};
 +            break;
++        case RACE_DARKIRONDWARF:
++            slow = {6899, 6777, 6898};
++            fast = {23238, 23239, 23240};
++            break;
          default:
              if (bot->GetTeamId() == TEAM_HORDE)
              { // Orc mounts
-diff -ruN a/src/Bot/Factory/RandomPlayerbotFactory.cpp b/src/Bot/Factory/RandomPlayerbotFactory.cpp
---- a/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-06-25 00:43:38.059201100 +0200
-+++ b/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-08-28 15:21:58.706338100 +0200
-@@ -29,9 +29,14 @@
-         case RACE_GNOME:      baseIndex = NameRaceAndGender::GnomeMale; break;
-         case RACE_TROLL:      baseIndex = NameRaceAndGender::TrollMale; break;
-         case RACE_BLOODELF:   baseIndex = NameRaceAndGender::BloodelfMale; break;
-+        case RACE_HIGHELF:    baseIndex = NameRaceAndGender::BloodelfMale; break; // Blood Elf names for High Elves
-         case RACE_DRAENEI:    baseIndex = NameRaceAndGender::DraeneiMale; break;
-+        case RACE_GOBLIN:     baseIndex = NameRaceAndGender::GnomeMale; break; // Gnome names for Goblins
-+        case RACE_MAGHARORC:  baseIndex = NameRaceAndGender::OrcMale; break; // Orc names for Mag'har Orcs
-+        case RACE_OGRE:       baseIndex = NameRaceAndGender::OrcMale; break; // Orc names for Ogres
+diff -ruN originals/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp merged/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp
+--- originals/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-06-25 00:43:38.059201100 +0200
++++ merged/mod-playerbots/src/Bot/Factory/RandomPlayerbotFactory.cpp	2026-09-06 22:22:13.772254800 +0200
+@@ -22,16 +22,22 @@
+     NameRaceAndGender baseIndex;
+     switch (race)
+     {
+-        case RACE_ORC:        baseIndex = NameRaceAndGender::OrcMale; break;
+-        case RACE_DWARF:      baseIndex = NameRaceAndGender::DwarfMale; break;
+-        case RACE_NIGHTELF:   baseIndex = NameRaceAndGender::NightelfMale; break;
+-        case RACE_TAUREN:     baseIndex = NameRaceAndGender::TaurenMale; break;
+-        case RACE_GNOME:      baseIndex = NameRaceAndGender::GnomeMale; break;
+-        case RACE_TROLL:      baseIndex = NameRaceAndGender::TrollMale; break;
+-        case RACE_BLOODELF:   baseIndex = NameRaceAndGender::BloodelfMale; break;
+-        case RACE_DRAENEI:    baseIndex = NameRaceAndGender::DraeneiMale; break;
++        case RACE_ORC:           baseIndex = NameRaceAndGender::OrcMale; break;
++        case RACE_DWARF:         baseIndex = NameRaceAndGender::DwarfMale; break;
++        case RACE_DARKIRONDWARF: baseIndex = NameRaceAndGender::DwarfMale; break; // Dwarf names for Dark Iron Dwarves
++        case RACE_NIGHTELF:      baseIndex = NameRaceAndGender::NightelfMale; break;
++        case RACE_TAUREN:        baseIndex = NameRaceAndGender::TaurenMale; break;
++        case RACE_GNOME:         baseIndex = NameRaceAndGender::GnomeMale; break;
++        case RACE_TROLL:         baseIndex = NameRaceAndGender::TrollMale; break;
++        case RACE_BLOODELF:      baseIndex = NameRaceAndGender::BloodelfMale; break;
++        case RACE_HIGHELF:       baseIndex = NameRaceAndGender::BloodelfMale; break; // Blood Elf names for High Elves
++        case RACE_DRAENEI:       baseIndex = NameRaceAndGender::DraeneiMale; break;
++        case RACE_GOBLIN:        baseIndex = NameRaceAndGender::GnomeMale; break; // Gnome names for Goblins
++        case RACE_MAGHARORC:     baseIndex = NameRaceAndGender::OrcMale; break; // Orc names for Mag'har Orcs
++        case RACE_OGRE:          baseIndex = NameRaceAndGender::OrcMale; break; // Orc names for Ogres
          case RACE_HUMAN:
          case RACE_UNDEAD_PLAYER:
 +        case RACE_WORGEN: // Generic names for Worgen
          default:
              baseIndex = NameRaceAndGender::GenericMale;
              break;
-diff -ruN a/src/Bot/PlayerbotAI.cpp b/src/Bot/PlayerbotAI.cpp
---- a/src/Bot/PlayerbotAI.cpp	2026-06-29 16:28:53.181532700 +0200
-+++ b/src/Bot/PlayerbotAI.cpp	2026-06-29 16:31:03.518952700 +0200
+diff -ruN originals/mod-playerbots/src/Bot/PlayerbotAI.cpp merged/mod-playerbots/src/Bot/PlayerbotAI.cpp
+--- originals/mod-playerbots/src/Bot/PlayerbotAI.cpp	2026-06-29 16:28:53.181532700 +0200
++++ merged/mod-playerbots/src/Bot/PlayerbotAI.cpp	2026-09-06 22:22:41.242232800 +0200
 @@ -4392,7 +4392,7 @@
  bool IsAlliance(uint8 race)
  {
      return race == RACE_HUMAN || race == RACE_DWARF || race == RACE_NIGHTELF || race == RACE_GNOME ||
 -           race == RACE_DRAENEI;
-+           race == RACE_DRAENEI || race == RACE_WORGEN || race == RACE_HIGHELF;
++           race == RACE_DRAENEI || race == RACE_WORGEN || race == RACE_HIGHELF || race == RACE_DARKIRONDWARF;
  }
  
  Player* PlayerbotAI::FindNewMaster()
-diff -ruN a/src/Bot/RandomPlayerbotMgr.cpp b/src/Bot/RandomPlayerbotMgr.cpp
---- a/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 14:54:19.446469100 +0200
-+++ b/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 16:32:12.187140400 +0200
+diff -ruN originals/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp merged/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp
+--- originals/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp	2026-06-29 14:54:19.446469100 +0200
++++ merged/mod-playerbots/src/Bot/RandomPlayerbotMgr.cpp	2026-09-06 22:23:22.317801300 +0200
 @@ -1742,7 +1742,7 @@
                      Field* fields = results->Fetch();
                      ObjectGuid guid = ObjectGuid(HighGuid::Player, fields[0].Get<uint32>());
                      uint32 race = fields[1].Get<uint32>();
 -                    bool isAlliance = race == 1 || race == 3 || race == 4 || race == 7 || race == 11;
-+                    bool isAlliance = race == 1 || race == 3 || race == 4 || race == 7 || race == 11 || race == 12 || race == 13;
++                    bool isAlliance = race == 1 || race == 3 || race == 4 || race == 7 || race == 11 || race == 12 || race == 13 || race == 16;
                      addclassCache[GetTeamClassIdx(isAlliance, claz)].insert(guid);
                      collected++;
                  } while (results->NextRow());
-diff -ruN a/src/Mgr/Travel/TravelNode.cpp b/src/Mgr/Travel/TravelNode.cpp
---- a/src/Mgr/Travel/TravelNode.cpp	2026-06-29 14:54:19.458461600 +0200
-+++ b/src/Mgr/Travel/TravelNode.cpp	2026-08-28 15:24:05.604920100 +0200
-@@ -1653,14 +1653,18 @@
+diff -ruN originals/mod-playerbots/src/Mgr/Travel/TravelNode.cpp merged/mod-playerbots/src/Mgr/Travel/TravelNode.cpp
+--- originals/mod-playerbots/src/Mgr/Travel/TravelNode.cpp	2026-06-29 14:54:19.458461600 +0200
++++ merged/mod-playerbots/src/Mgr/Travel/TravelNode.cpp	2026-09-06 22:24:14.548831000 +0200
+@@ -1653,14 +1653,19 @@
  void TravelNodeMap::generateStartNodes()
  {
      std::map<uint8, std::string> startNames;
 -    startNames[RACE_HUMAN] = "Human";
 -    startNames[RACE_ORC] = "Orc and Troll";
+-    startNames[RACE_DWARF] = "Dwarf and Gnome";
+-    startNames[RACE_NIGHTELF] = "Night Elf";
 +    startNames[RACE_HUMAN] = "Human and High Elf";
 +    startNames[RACE_ORC] = "Orc, Troll, Goblin, Mag'har Orc and Ogre";
-     startNames[RACE_DWARF] = "Dwarf and Gnome";
--    startNames[RACE_NIGHTELF] = "Night Elf";
++    startNames[RACE_DWARF] = "Dwarf, Gnome and Dark Iron Dwarf";
 +    startNames[RACE_NIGHTELF] = "Night Elf and Worgen";
      startNames[RACE_UNDEAD_PLAYER] = "Undead";
      startNames[RACE_TAUREN] = "Tauren";
@@ -1348,6 +1556,7 @@ diff -ruN a/src/Mgr/Travel/TravelNode.cpp b/src/Mgr/Travel/TravelNode.cpp
 +    startNames[RACE_WORGEN] = "Night Elf and Worgen";
 +    startNames[RACE_HIGHELF] = "Human and High Elf";
 +    startNames[RACE_MAGHARORC] = "Orc, Troll, Goblin,  Mag'har Orc and Ogre";
++    startNames[RACE_DARKIRONDWARF] = "Dwarf, Gnome and Dark Iron Dwarf";
  
      for (uint32 i = 0; i < sRaceMgr->GetMaxRaces(); i++)
      {

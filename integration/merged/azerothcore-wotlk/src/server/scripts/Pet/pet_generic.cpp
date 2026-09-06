@@ -146,7 +146,8 @@ static std::unordered_map<uint8, argentPonyBanner> argentBanners = {
     {RACE_WORGEN,        {2777, 63406, "Darnassus Champion's Pennant"}},
     {RACE_HIGHELF,       {2781, 62594, "Stormwind Champion's Pennant"}},
     {RACE_MAGHARORC,     {2783, 63433, "Orgrimmar Champion's Pennant"}},
-    {RACE_OGRE,          {2783, 63433, "Orgrimmar Champion's Pennant"}}
+    {RACE_OGRE,          {2783, 63433, "Orgrimmar Champion's Pennant"}},
+    {RACE_DARKIRONDWARF, {2780, 63427, "Ironforge Champion's Pennant"}}
 };
 
 struct npc_pet_gen_argent_pony_bridle : public ScriptedAI

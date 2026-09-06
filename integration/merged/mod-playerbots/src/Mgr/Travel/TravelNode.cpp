@@ -1655,7 +1655,7 @@ void TravelNodeMap::generateStartNodes()
     std::map<uint8, std::string> startNames;
     startNames[RACE_HUMAN] = "Human and High Elf";
     startNames[RACE_ORC] = "Orc, Troll, Goblin, Mag'har Orc and Ogre";
-    startNames[RACE_DWARF] = "Dwarf and Gnome";
+    startNames[RACE_DWARF] = "Dwarf, Gnome and Dark Iron Dwarf";
     startNames[RACE_NIGHTELF] = "Night Elf and Worgen";
     startNames[RACE_UNDEAD_PLAYER] = "Undead";
     startNames[RACE_TAUREN] = "Tauren";
@@ -1665,6 +1665,7 @@ void TravelNodeMap::generateStartNodes()
     startNames[RACE_WORGEN] = "Night Elf and Worgen";
     startNames[RACE_HIGHELF] = "Human and High Elf";
     startNames[RACE_MAGHARORC] = "Orc, Troll, Goblin,  Mag'har Orc and Ogre";
+    startNames[RACE_DARKIRONDWARF] = "Dwarf, Gnome and Dark Iron Dwarf";
 
     for (uint32 i = 0; i < sRaceMgr->GetMaxRaces(); i++)
     {

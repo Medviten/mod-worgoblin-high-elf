@@ -32,14 +32,16 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 8931, 1, 10, 20),
 (NULL, 8931, 13, 10, 20),
 --
---       DWARVES & GNOMES
+--       DWARVES, GNOMES & DARK IRON DWARVES
 --
 -- Innkeeper Belm, Kharanos
 (NULL, 1247, 3, 1, 10),
 (NULL, 1247, 7, 1, 10),
+(NULL, 1247, 16, 1, 10),
 -- Innkeeper Hearthstove, Loch Modan
 (NULL, 6734, 3, 10, 20),
 (NULL, 6734, 7, 10, 20),
+(NULL, 6734, 16, 10, 20),
 --
 --       NIGHT ELVES & WORGEN
 --
@@ -64,6 +66,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 5111, 11, 20, 80), -- draenei
 (NULL, 5111, 12, 10, 80), -- worgen
 (NULL, 5111, 13, 10, 80), -- high elves
+(NULL, 5111, 16, 10, 80), -- dark iron dwarves
 --
 -- Innkeeper Allison, Stormwind
 (NULL, 6740, 1, 10, 80), -- human
@@ -73,6 +76,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 6740, 11, 20, 80), -- draenei
 (NULL, 6740, 12, 10, 80), -- worgen
 (NULL, 6740, 13, 10, 80), -- high elves
+(NULL, 6740, 16, 10, 80), -- dark iron dwarves
 --
 -- Caregiver Breel Exodar
 (NULL, 16739, 11, 10, 80), -- draenei
@@ -82,6 +86,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 16739, 7, 60, 80), -- gnomes
 (NULL, 16739, 12, 60, 80), -- worgen
 (NULL, 16739, 13, 60, 80), -- high elves
+(NULL, 16739, 16, 60, 80), -- dark iron dwarves
 --
 --       ALLIANCE CONTESTED LOCATIONS
 --
@@ -113,6 +118,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 --
 (NULL, 1464, 3, 20, 30), -- dwarves
 (NULL, 1464, 7, 20, 30), -- gnomes
+(NULL, 1464, 16, 20, 30), -- dark iron dwarves
 --
 -- Innkeeper Trelayne, Duskwood
 --
@@ -122,6 +128,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 6790, 11, 20, 30), -- draenei
 (NULL, 6790, 12, 20, 30), -- worgen
 (NULL, 6790, 13, 18, 30), -- high elves
+(NULL, 6790, 16, 18, 30), -- dark iron dwarves
 --
 -- Innkeeper Brianna, Redridge Mountains
 --
@@ -133,6 +140,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 2352, 3, 20, 30), -- dwarves
 (NULL, 2352, 7, 20, 30), -- gnomes
 (NULL, 2352, 11, 20, 30), -- draenei
+(NULL, 2352, 16, 20, 30), -- dark iron dwarves
 --
 -- Captain Nials, Refuge Pointe, Arathi
 (NULL, 2700, 1, 30, 40), -- human
@@ -142,6 +150,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 2700, 11, 30, 40), -- draenei
 (NULL, 2700, 12, 30, 40), -- worgen
 (NULL, 2700, 13, 30, 40), -- high elves
+(NULL, 2700, 16, 30, 40), -- dark iron dwarves
 --
 -- Lt. Doren, Stranglethorn Vale
 (NULL, 469, 1, 30, 45), -- human
@@ -149,8 +158,9 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 469, 4, 30, 45), -- night elves
 (NULL, 469, 7, 30, 45), -- gnomes
 (NULL, 469, 11, 30, 45), -- draenei
-(NULL, 469, 13, 30, 45), -- high elves
 (NULL, 469, 12, 30, 45), -- worgen
+(NULL, 469, 13, 30, 45), -- high elves
+(NULL, 469, 16, 30, 45), -- dark iron dwarves
 --
 -- Innkeeper Janene, Theramore
 (NULL, 6272, 1, 35, 45), -- human
@@ -158,16 +168,19 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 6272, 7, 35, 45), -- gnomes
 (NULL, 6272, 11, 35, 45), -- draenei
 (NULL, 6272, 13, 35, 45), -- high elves
+(NULL, 6272, 16, 35, 45), -- dark iron dwarves
 --
 -- Innkeeper Prospector Ryedol, Badlands Q-giver
 (NULL, 2910, 3, 35, 45), -- dwarves
 (NULL, 2910, 7, 35, 45), -- gnomes
+(NULL, 2910, 16, 35, 45), -- dark iron dwarves
 --
 -- Innkeeper Thulfram, Hinterlands, Dwarven Outpost
 (NULL, 7744, 3, 40, 50), -- dwarves
 (NULL, 7744, 1, 40, 50), -- human
 (NULL, 7744, 7, 40, 50), -- gnomes
 (NULL, 7744, 13, 40, 50), -- high elves
+(NULL, 7744, 16, 40, 50), -- dark iron dwarves
 --
 -- Loh'atu, Azshara alliance camp Q-giver 11548
 (NULL, 11548, 4, 45, 55), -- night elves
@@ -184,6 +197,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 8022, 11, 45, 55), -- draenei
 (NULL, 8022, 12, 45, 55), -- worgen
 (NULL, 8022, 13, 45, 55), -- high elves
+(NULL, 8022, 16, 45, 55), -- dark iron dwarves
 --
 -- Gothine the Hooded, Felwood Alliance camp
 (NULL, 9465, 4, 48, 55), -- night elves
@@ -193,6 +207,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 9465, 11, 48, 55), -- draenei
 (NULL, 9465, 12, 48, 55), -- worgen
 (NULL, 9465, 13, 48, 55), -- high elves
+(NULL, 9465, 16, 48, 55), -- dark iron dwarves
 --
 -- Muigin, Alliance Q-giver, Un'Goro
 (NULL, 9119, 1, 48, 55), -- human
@@ -202,6 +217,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 9119, 11, 48, 55), -- draenei
 (NULL, 9119, 12, 48, 55), -- worgen
 (NULL, 9119, 13, 48, 55), -- high elves
+(NULL, 9119, 16, 48, 55), -- dark iron dwarves
 --
 -- Alchemist Arbington, West Plaguelands, Human
 (NULL, 11056, 1, 51, 58), -- human
@@ -211,6 +227,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 11056, 11, 51, 58), -- draenei
 (NULL, 11056, 12, 51, 58), -- worgen
 (NULL, 11056, 13, 51, 58), -- high elves
+(NULL, 11056, 16, 51, 58), -- dark iron dwarves
 --
 -- Borgus Stourarm, Alliance Taxi, Burning Steppes
 (NULL, 2299, 1, 50, 60), -- human
@@ -220,6 +237,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 2299, 11, 50, 60), -- draenei
 (NULL, 2299, 12, 50, 60), -- worgen
 (NULL, 2299, 13, 50, 60), -- high elves
+(NULL, 2299, 16, 50, 60), -- dark iron dwarves
 --
 -- Marshal Bluewall, Alliance camp, Silithus
 (NULL, 17080, 1, 55, 60), -- human
@@ -229,6 +247,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 17080, 11, 55, 60), -- draenei
 (NULL, 17080, 12, 55, 60), -- worgen
 (NULL, 17080, 13, 55, 60), -- high elves
+(NULL, 17080, 16, 55, 60), -- dark iron dwarves
 --
 --           OUTLAND
 --
@@ -240,6 +259,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 19229, 11, 58, 59), -- draenei
 (NULL, 19229, 12, 58, 59), -- worgen
 (NULL, 19229, 13, 58, 59), -- high elves
+(NULL, 19229, 16, 58, 59), -- dark iron dwarves
 --
 -- Sid Limbardi, Honor Hold, Hellfire
 (NULL, 16826, 1, 58, 63), -- human
@@ -249,6 +269,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 16826, 11, 58, 63), -- draenei
 (NULL, 16826, 12, 58, 63), -- worgen
 (NULL, 16826, 13, 58, 63), -- high elves
+(NULL, 16826, 16, 58, 63), -- dark iron dwarves
 --
 -- Caregiver Ophera Windfury, Draenei, Hellfire
 (NULL, 18906, 1, 60, 63), -- human
@@ -258,6 +279,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 18906, 11, 60, 63), -- draenei
 (NULL, 18906, 12, 60, 63), -- worgen
 (NULL, 18906, 13, 60, 63), -- high elves
+(NULL, 18906, 16, 60, 63), -- dark iron dwarves
 --
 -- Caregiver Abidaar, Telredor, Zangarmarsh
 (NULL, 18251, 1, 60, 63), -- human
@@ -267,6 +289,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 18251, 11, 60, 63), -- draenei
 (NULL, 18251, 12, 60, 63), -- worgen
 (NULL, 18251, 13, 60, 63), -- high elves
+(NULL, 18251, 16, 60, 63), -- dark iron dwarves
 --
 -- Caregiver Kerp, Orebor, Zangarmarsh
 (NULL, 18908, 1, 61, 64), -- human
@@ -276,6 +299,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 18908, 11, 61, 64), -- draenei
 (NULL, 18908, 12, 61, 64), -- worgen
 (NULL, 18908, 13, 61, 64), -- high elves
+(NULL, 18908, 16, 61, 64), -- dark iron dwarves
 --
 -- Innkeeper Biribi, Terrokar
 (NULL, 19296, 1, 62, 65), -- human
@@ -285,6 +309,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 19296, 11, 62, 65), -- draenei
 (NULL, 19296, 12, 62, 65), -- worgen
 (NULL, 19296, 13, 62, 65), -- high elves
+(NULL, 19296, 16, 62, 65), -- dark iron dwarves
 --
 -- Caregiver Isel, Telaar, Nagrand
 (NULL, 18914, 1, 64, 67), -- human
@@ -294,6 +319,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 18914, 11, 64, 67), -- draenei
 (NULL, 18914, 12, 64, 67), -- worgen
 (NULL, 18914, 13, 64, 67), -- high elves
+(NULL, 18914, 16, 64, 67), -- dark iron dwarves
 --
 -- Innkeeper Shaunessy, Sylvanaar, Blade's Edge
 (NULL, 19495, 1, 65, 68), -- human
@@ -303,6 +329,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 19495, 11, 65, 68), -- draenei
 (NULL, 19495, 12, 65, 68), -- worgen
 (NULL, 19495, 13, 65, 68), -- high elves
+(NULL, 19495, 16, 65, 68), -- dark iron dwarves
 --
 -- Innkeeper Fizir Doc Clocktock, Blade's Edge
 (NULL, 21110, 1, 65, 68), -- human
@@ -312,6 +339,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 21110, 11, 65, 68), -- draenei
 (NULL, 21110, 12, 65, 68), -- worgen
 (NULL, 21110, 13, 65, 68), -- high elves
+(NULL, 21110, 16, 65, 68), -- dark iron dwarves
 --
 -- Innkeeper Dreg Cloudsweeper, Shadowmoon
 (NULL, 19352, 1, 67, 70), -- human
@@ -321,6 +349,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 19352, 11, 67, 70), -- draenei
 (NULL, 19352, 12, 67, 70), -- worgen
 (NULL, 19352, 13, 67, 70), -- high elves
+(NULL, 19352, 16, 67, 70), -- dark iron dwarves
 --
 --           NORTHREND
 --
@@ -332,6 +361,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 32413, 11, 72, 80), -- draenei
 (NULL, 32413, 12, 72, 80), -- worgen
 (NULL, 32413, 13, 72, 80), -- high elves
+(NULL, 32413, 16, 72, 80), -- dark iron dwarves
 --
 -- James Deacon, Valiance Keep, Borean Tundra
 (NULL, 25245, 1, 68, 72), -- human
@@ -341,6 +371,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 25245, 11, 68, 72), -- draenei
 (NULL, 25245, 12, 68, 72), -- worgen
 (NULL, 25245, 13, 68, 72), -- high elves
+(NULL, 25245, 16, 68, 72), -- dark iron dwarves
 --
 -- "Charlie" Northtop, Fizzcrank Airstrip, Borean Tundra
 (NULL, 26596, 1, 69, 72), -- human
@@ -350,6 +381,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 26596, 11, 69, 72), -- draenei
 (NULL, 26596, 12, 69, 72), -- worgen
 (NULL, 26596, 13, 69, 72), -- high elves
+(NULL, 26596, 16, 69, 72), -- dark iron dwarves
 --
 -- Innkeeper Hazel Lagras, Valgarde, Howling Fjord
 (NULL, 23731, 1, 68, 72), -- human
@@ -359,6 +391,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 23731, 11, 68, 72), -- draenei
 (NULL, 23731, 12, 68, 72), -- worgen
 (NULL, 23731, 13, 68, 72), -- high elves
+(NULL, 23731, 16, 68, 72), -- dark iron dwarves
 --
 -- Innkeeper Celeste Goodhutch, Westguard Keep, Howling Fjord
 (NULL, 23937, 1, 69, 72), -- human
@@ -368,6 +401,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 23937, 11, 69, 72), -- draenei
 (NULL, 23937, 12, 69, 72), -- worgen
 (NULL, 23937, 13, 69, 72), -- high elves
+(NULL, 23937, 16, 69, 72), -- dark iron dwarves
 --
 -- Christina Daniels, Fort Wildervar, Howling Fjord
 (NULL, 24057, 1, 70, 72), -- human
@@ -377,6 +411,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 24057, 11, 70, 72), -- draenei
 (NULL, 24057, 12, 70, 72), -- worgen
 (NULL, 24057, 13, 70, 72), -- high elves
+(NULL, 24057, 16, 70, 72), -- dark iron dwarves
 --
 -- Jennifer Bell, Amberpine Lodge, Grizzly Hills
 (NULL, 27066, 1, 70, 74), -- human
@@ -386,6 +421,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 27066, 11, 70, 74), -- draenei
 (NULL, 27066, 12, 70, 74), -- worgen
 (NULL, 27066, 13, 70, 74), -- high elves
+(NULL, 27066, 16, 70, 74), -- dark iron dwarves
 --
 -- Quartermaster McCarty, Westfall Brigade Encampment, Grizzly Hills
 (NULL, 26375, 1, 70, 74), -- human
@@ -395,6 +431,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 26375, 11, 70, 74), -- draenei
 (NULL, 26375, 12, 70, 74), -- worgen
 (NULL, 26375, 13, 70, 74), -- high elves
+(NULL, 26375, 16, 70, 74), -- dark iron dwarves
 --
 -- Illusia Lune, Wintergarde Keep, Dragonblight
 (NULL, 27042, 1, 71, 75), -- human
@@ -404,6 +441,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 27042, 11, 71, 75), -- draenei
 (NULL, 27042, 12, 71, 75), -- worgen
 (NULL, 27042, 13, 71, 75), -- high elves
+(NULL, 27042, 16, 71, 75), -- dark iron dwarves
 --
 -- Naohain, Stars' Rest, Dragonblight
 (NULL, 27052, 1, 71, 75), -- human
@@ -413,6 +451,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 27052, 11, 71, 75), -- draenei
 (NULL, 27052, 12, 71, 75), -- worgen
 (NULL, 27052, 13, 71, 75), -- high elves
+(NULL, 27052, 16, 71, 75), -- dark iron dwarves
 --
 -- Gunda Boldhammer, Frosthold, Storm Peaks
 (NULL, 29926, 1, 77, 80), -- human
@@ -422,6 +461,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 29926, 11, 77, 80), -- draenei
 (NULL, 29926, 12, 77, 80), -- worgen
 (NULL, 29926, 13, 77, 80), -- high elves
+(NULL, 29926, 16, 77, 80), -- dark iron dwarves
 --
 -- Caris Sunlance, Argent Tournament, Icecrown
 (NULL, 33970, 1, 80, 80), -- human
@@ -431,6 +471,7 @@ INSERT INTO `playerbots_rpg_races` VALUES
 (NULL, 33970, 11, 80, 80), -- draenei
 (NULL, 33970, 12, 80, 80), -- worgen
 (NULL, 33970, 13, 80, 80), -- high elves
+(NULL, 33970, 16, 80, 80), -- dark iron dwarves
 --
 --       ALLIANCE MOUNT VENDORS
 --

@@ -2341,6 +2341,9 @@ public:
             case RACE_OGRE:
                 raceStr = "Ogre";
                 break;
+            case RACE_DARKIRONDWARF:
+                raceStr = "Dark Iron Dwarf";
+                break;
         }
 
         switch (classid)

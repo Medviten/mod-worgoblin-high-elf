@@ -186,6 +186,7 @@ ChatHelper::ChatHelper(PlayerbotAI* botAI) : PlayerbotAIAware(botAI)
     races[RACE_HIGHELF] = "High Elf";
     races[RACE_MAGHARORC] = "Mag'har Orc";
     races[RACE_OGRE] = "Ogre";
+    races[RACE_DARKIRONDWARF] = "Dark Iron Dwarf";
 }
 
 std::string const ChatHelper::formatMoney(uint32 copper)

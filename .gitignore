@@ -48,3 +48,16 @@ local.properties
 .cproject
 data/patch-A.MPQ/Interface/GLUES/CHARACTERCREATE/UI-CharacterCreate-Races.blp.bk
 data/patch-A.MPQ/Interface/GLUES/CHARACTERCREATE/UI-CharacterCreate-RacesRound.blp.bk
+
+/bin
+/dbc_files
+/dbc_export
+
+*.config
+*.exe
+*.dbc
+config.json
+config-windows.json
+dbctool
+# Generated artifact (superseded by Zeppelin-Craft cli/lib/spell_editor_views.py)
+spell_editor_views.sql

@@ -2351,6 +2351,10 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                 case RACE_DWARF:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10141 : 10142);
                                     break;
+                                // Dark Iron Dwarf
+                                case RACE_DARKIRONDWARF:
+                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 10141 : 10142); // Dwarf ones
+                                    break;
                                 // Gnome
                                 case RACE_GNOME:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 10148 : 10149);
@@ -2430,6 +2434,10 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                 case RACE_DWARF:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25034 : 25045);
                                     break;
+                                // Dark Iron Dwarf
+                                case RACE_DARKIRONDWARF:
+                                    target->SetDisplayId(target->getGender() == GENDER_MALE ? 25034 : 25045); // Dwarf ones
+                                    break;
                                 // Gnome
                                 case RACE_GNOME:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25035 : 25046);
@@ -2505,6 +2513,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21845 : 21843);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     if (urand(0, 1))
                                         target->SetDisplayId(target->getGender() == GENDER_MALE ? 21846 : 21848);
                                     else
@@ -2579,6 +2588,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18795 : 18794);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18797 : 18796);
                                     break;
                                 case DisplayRace::Gnome:
@@ -2625,6 +2635,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19172 : 19171);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 19174 : 19173);
                                     break;
                                 case DisplayRace::Gnome:
@@ -2671,6 +2682,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18843 : 18842);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 18845 : 18844);
                                     break;
                                 case DisplayRace::Gnome:
@@ -2717,6 +2729,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22363 : 22362);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 22365 : 22364);
                                     break;
                                 case DisplayRace::Gnome:
@@ -2763,6 +2776,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 21083 : 21084);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 16413 : 16434);
                                     break;
                                 case DisplayRace::Gnome:
@@ -2809,6 +2823,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24509 : 24520);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 24510 : 24521);
                                     break;
                                 case DisplayRace::Gnome:
@@ -2855,6 +2870,7 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25033 : 25044);
                                     break;
                                 case DisplayRace::Dwarf:
+                                case DisplayRace::DarkIronDwarf:
                                     target->SetDisplayId(target->getGender() == GENDER_MALE ? 25034 : 25045);
                                     break;
                                 case DisplayRace::Gnome:
