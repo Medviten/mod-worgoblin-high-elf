@@ -192,7 +192,7 @@ SET @WorgenFaction                   = 1165; -- Gilneas
 SET @HighElfFaction                  = 1167; -- High Elf Loyalists
 SET @MagharOrcFaction                = 1168; -- Mag'har of the Horde
 SET @OgreFaction                     = 1170; -- Stonemaul Clan
--- SET @DarkIronDwarfFaction
+-- SET @DarkIronDwarfFaction            =     ; -- Shadowforge City
 
 -- Helmet RaceMasks
 SET @HumanHelmetMask                 = 1 << 1;   -- race ID 1  → 2
