@@ -13,39 +13,39 @@ INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`
 (21987, @GoblinRacials, @GoblinRacial3, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (21988, @GoblinRacials, @GoblinRacial4, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (21989, @GoblinRacials, @GoblinRacial5, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
-(31448, @GoblinRacials, @GoblinRacial6, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0);
+(31448, @GoblinRacials, @GoblinRacial6, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0); -- Spell: Rocket Jump
 
 -- Changed values
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 590;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 592;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3269;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3270;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 3271;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3272;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 3273;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 3274;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 5989;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 5990;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 5991;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 5992;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 5993;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 5994;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 13151;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 14815;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 14816;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 14817;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 14818;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 15040;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 15041;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 15606;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 15607;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 16999;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 17000;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 17003;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 17004;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 20110;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 20283;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 20289;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 20290;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask | @WorgenMask WHERE `id` = 21723;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask | @WorgenMask WHERE `id` = 21724;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 590; -- Spell: 668 (Language: Common)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 592; -- Spell: 669 (Language: Orcish)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3269; -- Spell: 3565 (Teleport: Darnassus)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3270; -- Spell: 3562 (Teleport: Ironforge)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 3271; -- Spell: 3567 (Teleport: Orgrimmar)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3272; -- Spell: 3561 (Teleport: Stormwind)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 3273; -- Spell: 3566 (Teleport: Thunder Bluff)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 3274; -- Spell: 3563 (Teleport: Undercity)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 5989; -- Spell: 11419 (Portal: Darnassus)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 5990; -- Spell: 11416 (Portal: Ironforge)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 5991; -- Spell: 11417 (Portal: Orgrimmar)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 5992; -- Spell: 10059 (Portal: Stormwind)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 5993; -- Spell: 11420 (Portal: Thunder Bluff)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 5994; -- Spell: 11418 (Portal: Undercity)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 13151; -- Spell: 2825 (Bloodlust)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 14815; -- Spell: 32271 (Teleport: Exodar)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 14816; -- Spell: 32272 (Teleport: Silvermoon)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 14817; -- Spell: 32266 (Portal: Exodar)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 14818; -- Spell: 32267 (Portal: Silvermoon)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 15040; -- Spell: 33690 (Teleport: Shattrath)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 15041; -- Spell: 33691 (Portal: Shattrath)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 15606; -- Spell: 35715 (Teleport: Shattrath)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 15607; -- Spell: 35717 (Portal: Shattrath)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 16999; -- Spell: 49359 (Teleport: Theramore)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 17000; -- Spell: 49358 (Teleport: Stonard)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 17003; -- Spell: 49361 (Portal: Stonard)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 17004; -- Spell: 49360 (Portal: Theramore)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 20110; -- Spell: 55531 (Mechano-hog)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 20283; -- Spell: 60424 (Mekgineer's Chopper)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 20289; -- Spell: 60867 (Mekgineer's Chopper)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 20290; -- Spell: 60866 (Mechano-hog)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask | @WorgenMask WHERE `id` = 21723; -- Spell: 75460 (N/A?)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask | @WorgenMask WHERE `id` = 21724; -- Spell: 75461 (Flame Shock Passive)

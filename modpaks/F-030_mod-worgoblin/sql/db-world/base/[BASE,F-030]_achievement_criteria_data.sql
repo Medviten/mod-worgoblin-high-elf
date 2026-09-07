@@ -1,5 +1,3 @@
-SET @Goblin = 9;
-SET @Worgen = 12;
 /* Update achievement criteria involving interactions with all races to include Worgen and Goblins */
 REPLACE INTO `achievement_criteria_data` (
     `criteria_id`, -- ID from Achievement_Criteria.dbc
