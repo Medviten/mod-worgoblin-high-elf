@@ -141,7 +141,7 @@ SET @MagharOrcRacial4                = 110004; -- Unwavering Will (maybe change 
 -- SET @OgreRacial1
 -- SET @DarkIronDwarfRacial1
 
--- Factions
+-- Faction Masks
 SET @BaseAllianceMask                = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask  | @DraeneiMask;
 SET @BaseHordeMask                   = @OrcMask          | @UndeadMask | @TaurenMask    | @TrollMask  | @BloodElfMask;
 SET @AllianceMask                    = @BaseAllianceMask | @WorgenMask | @HighElfMask; -- | @DarkIronDwarfMask;
@@ -150,7 +150,17 @@ SET @UndercityMask                   = @UndeadMask   | @BloodElfMask; -- Mostly 
 SET @BarrensBros                     = @HordeMask    & ~@UndercityMask; -- Mostly for easy reputation split
 SET @PlayableRaceMask                = @AllianceMask | @HordeMask;
 
--- PLAYER faction
+-- PLAYER factions
+SET @HumanPlayer                     =    1;
+SET @OrcPlayer                       =    2;
+SET @DwarfPlayer                     =    3;
+SET @NightElfPlayer                  =    4;
+SET @UndeadPlayer                    =    5;
+SET @TaurenPlayer                    =    6;
+SET @GnomePlayer                     =    8;
+SET @TrollPlayer                     =    9;
+SET @BloodElfPlayer                  =  914;
+SET @DraeneiPlayer                   =  927;
 SET @GoblinPlayer                    = 1162;
 SET @WorgenPlayer                    = 1163;
 SET @HighElfPlayer                   = 1161;
@@ -158,7 +168,7 @@ SET @MagharOrcPlayer                 = 1166;
 SET @OgrePlayer                      = 1169;
 -- SET @DarkIronDwarfPlayer
 
--- Extra faction templates
+-- Faction templates
 SET @GoblinFactionTemplate           = 2238; -- References @GoblinPlayer
 SET @WorgenFactionTemplate           = 2239; -- References @WorgenPlayer
 SET @HighElfFactionTemplate          = 2237; -- References @HighElfPlayer
@@ -166,7 +176,17 @@ SET @MagharOrcFactionTemplate        = 2240; -- References @MagharOrcPlayer
 SET @OgreFactionTemplate             = 2241; -- References @OgrePlayer
 -- SET @DarkIronDwarfFactionTemplate -- References @DarkIronDwarfPlayer
 
--- Extra race factions
+-- Race factions
+SET @HumanFaction                    =   72; -- Stormwind
+SET @OrcFaction                      =   76; -- Orgrimmar
+SET @DwarfFaction                    =   47; -- Ironforge
+SET @NightElfFaction                 =   69; -- Darnassus
+SET @UndeadFaction                   =   68; -- Undercity
+SET @TaurenFaction                   =   81; -- Thunder Bluff
+SET @GnomeFaction                    =   54; -- Gnomeregan Exiles
+SET @TrollFaction                    =  530; -- Darkspear Trolls
+SET @BloodElfFaction                 =  911; -- Silvermoon City
+SET @DraeneiFaction                  =  930; -- Exodar
 SET @GoblinFaction                   = 1164; -- Bilgewater Cartel
 SET @WorgenFaction                   = 1165; -- Gilneas
 SET @HighElfFaction                  = 1167; -- High Elf Loyalists
