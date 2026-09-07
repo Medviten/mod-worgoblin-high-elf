@@ -19,7 +19,6 @@ UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 38; -- Skill 260: NULL
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 40; -- Skill 98: Language: Common
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 48; -- Skill 109: Language: Orcish
-UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 49; -- Skill 109: Language: Orcish
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 54; -- Skill 130: NULL
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 59; -- Skill 96: NULL
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @MagharOrcMask WHERE `id` = 62; -- Skill 268: NULL
