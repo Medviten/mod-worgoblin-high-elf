@@ -10,4 +10,4 @@ UPDATE `faction` SET `reputation_base_2` = 400, `reputation_flags_2` = 273 WHERE
 
 UPDATE `faction` SET `reputation_flags_2` = 259 WHERE `id` IN (@HumanFaction, @OrcFaction, @DwarfFaction, @NightElfFaction, @UndeadFaction, @TaurenFaction, @GnomeFaction, @TrollFaction, @BloodElfFaction, @DraeneiFaction, @GoblinFaction, @WorgenFaction, @HighElfFaction, @MagharOrcFaction, @OgreFaction)
 -- flip PEACE_FORCED (0x10) off, AT_WAR (0x02) on, for the native-race slot
-UPDATE `faction` SET `reputation_flags_1` = (`reputation_flags_N` & ~0x10) | 0x02 WHERE `id` IN (@HumanFaction, @OrcFaction, @DwarfFaction, @NightElfFaction, @UndeadFaction, @TaurenFaction, @GnomeFaction, @TrollFaction, @BloodElfFaction, @DraeneiFaction, @GoblinFaction, @WorgenFaction, @HighElfFaction, @MagharOrcFaction, @OgreFaction);
+UPDATE `faction` SET `reputation_flags_1` = (CAST(`reputation_flags_1` AS UNSIGNED) & ~16) | 2 WHERE `id` IN (@HumanFaction, @OrcFaction, @DwarfFaction, @NightElfFaction, @UndeadFaction, @TaurenFaction, @GnomeFaction, @TrollFaction, @BloodElfFaction, @DraeneiFaction, @GoblinFaction, @WorgenFaction, @HighElfFaction, @MagharOrcFaction, @OgreFaction);
