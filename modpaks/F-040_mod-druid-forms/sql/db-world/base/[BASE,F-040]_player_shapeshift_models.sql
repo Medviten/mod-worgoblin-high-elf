@@ -96,4 +96,4 @@ REPLACE INTO `player_shapeshift_model` (
 (@TravelForm,      @Worgen,   255,        2, 40816), -- ModelID: DruidTravelAlliance
 
 /* High Elf Druid forms */
-(@TravelForm,      @HighElf,  255,        2, 40816), -- ModelID: DruidTravelAlliance
+(@TravelForm,      @HighElf,  255,        2, 40816); -- ModelID: DruidTravelAlliance
