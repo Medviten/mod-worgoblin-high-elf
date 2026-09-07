@@ -1,855 +1,431 @@
 -- [F-032] mod-maghar: charsections: 426 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `charsections` WHERE `id` = 30000;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30000, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_00.blp', 'Character\\Orc\\FacialUpperHair00_00.blp', '', 17, 1, 0);
-DELETE FROM `charsections` WHERE `id` = 30001;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30001, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_01.blp', 'Character\\Orc\\FacialUpperHair00_01.blp', '', 17, 1, 1);
-DELETE FROM `charsections` WHERE `id` = 30002;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30002, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_02.blp', 'Character\\Orc\\FacialUpperHair00_02.blp', '', 17, 1, 2);
-DELETE FROM `charsections` WHERE `id` = 30003;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30003, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_03.blp', 'Character\\Orc\\FacialUpperHair00_03.blp', '', 17, 1, 3);
-DELETE FROM `charsections` WHERE `id` = 30004;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30004, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_04.blp', 'Character\\Orc\\FacialUpperHair00_04.blp', '', 17, 1, 4);
-DELETE FROM `charsections` WHERE `id` = 30005;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30005, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_05.blp', 'Character\\Orc\\FacialUpperHair00_05.blp', '', 17, 1, 5);
-DELETE FROM `charsections` WHERE `id` = 30006;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30006, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_06.blp', 'Character\\Orc\\FacialUpperHair00_06.blp', '', 17, 1, 6);
-DELETE FROM `charsections` WHERE `id` = 30007;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30007, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_07.blp', 'Character\\Orc\\FacialUpperHair00_07.blp', '', 17, 1, 7);
-DELETE FROM `charsections` WHERE `id` = 30008;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30008, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_00.blp', 'Character\\Orc\\FacialUpperHair02_00.blp', '', 17, 2, 0);
-DELETE FROM `charsections` WHERE `id` = 30009;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30009, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_01.blp', 'Character\\Orc\\FacialUpperHair02_01.blp', '', 17, 2, 1);
-DELETE FROM `charsections` WHERE `id` = 30010;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30010, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_02.blp', 'Character\\Orc\\FacialUpperHair02_02.blp', '', 17, 2, 2);
-DELETE FROM `charsections` WHERE `id` = 30011;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30011, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_03.blp', 'Character\\Orc\\FacialUpperHair02_03.blp', '', 17, 2, 3);
-DELETE FROM `charsections` WHERE `id` = 30012;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30012, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_04.blp', 'Character\\Orc\\FacialUpperHair02_04.blp', '', 17, 2, 4);
-DELETE FROM `charsections` WHERE `id` = 30013;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30013, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_05.blp', 'Character\\Orc\\FacialUpperHair02_05.blp', '', 17, 2, 5);
-DELETE FROM `charsections` WHERE `id` = 30014;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30014, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_06.blp', 'Character\\Orc\\FacialUpperHair02_06.blp', '', 17, 2, 6);
-DELETE FROM `charsections` WHERE `id` = 30015;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30015, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_07.blp', 'Character\\Orc\\FacialUpperHair02_07.blp', '', 17, 2, 7);
-DELETE FROM `charsections` WHERE `id` = 30016;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30016, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_00.blp', 'Character\\Orc\\FacialUpperHair01_00.blp', '', 17, 3, 0);
-DELETE FROM `charsections` WHERE `id` = 30017;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30017, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_01.blp', 'Character\\Orc\\FacialUpperHair01_01.blp', '', 17, 3, 1);
-DELETE FROM `charsections` WHERE `id` = 30018;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30018, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_02.blp', 'Character\\Orc\\FacialUpperHair01_02.blp', '', 17, 3, 2);
-DELETE FROM `charsections` WHERE `id` = 30019;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30019, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_03.blp', 'Character\\Orc\\FacialUpperHair01_03.blp', '', 17, 3, 3);
-DELETE FROM `charsections` WHERE `id` = 30020;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30020, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_04.blp', 'Character\\Orc\\FacialUpperHair01_04.blp', '', 17, 3, 4);
-DELETE FROM `charsections` WHERE `id` = 30021;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30021, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_05.blp', 'Character\\Orc\\FacialUpperHair01_05.blp', '', 17, 3, 5);
-DELETE FROM `charsections` WHERE `id` = 30022;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30022, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_06.blp', 'Character\\Orc\\FacialUpperHair01_06.blp', '', 17, 3, 6);
-DELETE FROM `charsections` WHERE `id` = 30023;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30023, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_07.blp', 'Character\\Orc\\FacialUpperHair01_07.blp', '', 17, 3, 7);
-DELETE FROM `charsections` WHERE `id` = 30024;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30024, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_00.blp', 'Character\\Orc\\FacialUpperHair01_00.blp', '', 17, 4, 0);
-DELETE FROM `charsections` WHERE `id` = 30025;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30025, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_01.blp', 'Character\\Orc\\FacialUpperHair01_01.blp', '', 17, 4, 1);
-DELETE FROM `charsections` WHERE `id` = 30026;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30026, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_02.blp', 'Character\\Orc\\FacialUpperHair01_02.blp', '', 17, 4, 2);
-DELETE FROM `charsections` WHERE `id` = 30027;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30027, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_03.blp', 'Character\\Orc\\FacialUpperHair01_03.blp', '', 17, 4, 3);
-DELETE FROM `charsections` WHERE `id` = 30028;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30028, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_04.blp', 'Character\\Orc\\FacialUpperHair01_04.blp', '', 17, 4, 4);
-DELETE FROM `charsections` WHERE `id` = 30029;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30029, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_05.blp', 'Character\\Orc\\FacialUpperHair01_05.blp', '', 17, 4, 5);
-DELETE FROM `charsections` WHERE `id` = 30030;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30030, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_06.blp', 'Character\\Orc\\FacialUpperHair01_06.blp', '', 17, 4, 6);
-DELETE FROM `charsections` WHERE `id` = 30031;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30031, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_07.blp', 'Character\\Orc\\FacialUpperHair01_07.blp', '', 17, 4, 7);
-DELETE FROM `charsections` WHERE `id` = 30032;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30032, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_00.blp', 'Character\\Orc\\FacialUpperHair05_00.blp', '', 17, 5, 0);
-DELETE FROM `charsections` WHERE `id` = 30033;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30033, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_01.blp', 'Character\\Orc\\FacialUpperHair05_01.blp', '', 17, 5, 1);
-DELETE FROM `charsections` WHERE `id` = 30034;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30034, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_02.blp', 'Character\\Orc\\FacialUpperHair05_02.blp', '', 17, 5, 2);
-DELETE FROM `charsections` WHERE `id` = 30035;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30035, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_03.blp', 'Character\\Orc\\FacialUpperHair05_03.blp', '', 17, 5, 3);
-DELETE FROM `charsections` WHERE `id` = 30036;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30036, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_04.blp', 'Character\\Orc\\FacialUpperHair05_04.blp', '', 17, 5, 4);
-DELETE FROM `charsections` WHERE `id` = 30037;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30037, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_05.blp', 'Character\\Orc\\FacialUpperHair05_05.blp', '', 17, 5, 5);
-DELETE FROM `charsections` WHERE `id` = 30038;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30038, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_06.blp', 'Character\\Orc\\FacialUpperHair05_06.blp', '', 17, 5, 6);
-DELETE FROM `charsections` WHERE `id` = 30039;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30039, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_07.blp', 'Character\\Orc\\FacialUpperHair05_07.blp', '', 17, 5, 7);
-DELETE FROM `charsections` WHERE `id` = 30040;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30040, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_00.blp', 'Character\\Orc\\FacialUpperHair05_00.blp', '', 17, 6, 0);
-DELETE FROM `charsections` WHERE `id` = 30041;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30041, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_01.blp', 'Character\\Orc\\FacialUpperHair05_01.blp', '', 17, 6, 1);
-DELETE FROM `charsections` WHERE `id` = 30042;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30042, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_02.blp', 'Character\\Orc\\FacialUpperHair05_02.blp', '', 17, 6, 2);
-DELETE FROM `charsections` WHERE `id` = 30043;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30043, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_03.blp', 'Character\\Orc\\FacialUpperHair05_03.blp', '', 17, 6, 3);
-DELETE FROM `charsections` WHERE `id` = 30044;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30044, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_04.blp', 'Character\\Orc\\FacialUpperHair05_04.blp', '', 17, 6, 4);
-DELETE FROM `charsections` WHERE `id` = 30045;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30045, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_05.blp', 'Character\\Orc\\FacialUpperHair05_05.blp', '', 17, 6, 5);
-DELETE FROM `charsections` WHERE `id` = 30046;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30046, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_06.blp', 'Character\\Orc\\FacialUpperHair05_06.blp', '', 17, 6, 6);
-DELETE FROM `charsections` WHERE `id` = 30047;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30047, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_07.blp', 'Character\\Orc\\FacialUpperHair05_07.blp', '', 17, 6, 7);
-DELETE FROM `charsections` WHERE `id` = 30048;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30048, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_00.blp', 'Character\\Orc\\FacialUpperHair03_00.blp', '', 17, 7, 0);
-DELETE FROM `charsections` WHERE `id` = 30049;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30049, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_01.blp', 'Character\\Orc\\FacialUpperHair03_01.blp', '', 17, 7, 1);
-DELETE FROM `charsections` WHERE `id` = 30050;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30050, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_02.blp', 'Character\\Orc\\FacialUpperHair03_02.blp', '', 17, 7, 2);
-DELETE FROM `charsections` WHERE `id` = 30051;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30051, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_03.blp', 'Character\\Orc\\FacialUpperHair03_03.blp', '', 17, 7, 3);
-DELETE FROM `charsections` WHERE `id` = 30052;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30052, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_04.blp', 'Character\\Orc\\FacialUpperHair03_04.blp', '', 17, 7, 4);
-DELETE FROM `charsections` WHERE `id` = 30053;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30053, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_05.blp', 'Character\\Orc\\FacialUpperHair03_05.blp', '', 17, 7, 5);
-DELETE FROM `charsections` WHERE `id` = 30054;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30054, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_06.blp', 'Character\\Orc\\FacialUpperHair03_06.blp', '', 17, 7, 6);
-DELETE FROM `charsections` WHERE `id` = 30055;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30055, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_07.blp', 'Character\\Orc\\FacialUpperHair03_07.blp', '', 17, 7, 7);
-DELETE FROM `charsections` WHERE `id` = 30056;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30056, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_00.blp', 'Character\\Orc\\FacialUpperHair05_00.blp', '', 17, 8, 0);
-DELETE FROM `charsections` WHERE `id` = 30057;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30057, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_01.blp', 'Character\\Orc\\FacialUpperHair05_01.blp', '', 17, 8, 1);
-DELETE FROM `charsections` WHERE `id` = 30058;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30058, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_02.blp', 'Character\\Orc\\FacialUpperHair05_02.blp', '', 17, 8, 2);
-DELETE FROM `charsections` WHERE `id` = 30059;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30059, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_03.blp', 'Character\\Orc\\FacialUpperHair05_03.blp', '', 17, 8, 3);
-DELETE FROM `charsections` WHERE `id` = 30060;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30060, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_04.blp', 'Character\\Orc\\FacialUpperHair05_04.blp', '', 17, 8, 4);
-DELETE FROM `charsections` WHERE `id` = 30061;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30061, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_05.blp', 'Character\\Orc\\FacialUpperHair05_05.blp', '', 17, 8, 5);
-DELETE FROM `charsections` WHERE `id` = 30062;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30062, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_06.blp', 'Character\\Orc\\FacialUpperHair05_06.blp', '', 17, 8, 6);
-DELETE FROM `charsections` WHERE `id` = 30063;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30063, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_07.blp', 'Character\\Orc\\FacialUpperHair05_07.blp', '', 17, 8, 7);
-DELETE FROM `charsections` WHERE `id` = 30064;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30064, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_00.blp', 'Character\\Orc\\FacialUpperHair04_00.blp', '', 17, 9, 0);
-DELETE FROM `charsections` WHERE `id` = 30065;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30065, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_01.blp', 'Character\\Orc\\FacialUpperHair04_01.blp', '', 17, 9, 1);
-DELETE FROM `charsections` WHERE `id` = 30066;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30066, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_02.blp', 'Character\\Orc\\FacialUpperHair04_02.blp', '', 17, 9, 2);
-DELETE FROM `charsections` WHERE `id` = 30067;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30067, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_03.blp', 'Character\\Orc\\FacialUpperHair04_03.blp', '', 17, 9, 3);
-DELETE FROM `charsections` WHERE `id` = 30068;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30068, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_04.blp', 'Character\\Orc\\FacialUpperHair04_04.blp', '', 17, 9, 4);
-DELETE FROM `charsections` WHERE `id` = 30069;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30069, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_05.blp', 'Character\\Orc\\FacialUpperHair04_05.blp', '', 17, 9, 5);
-DELETE FROM `charsections` WHERE `id` = 30070;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30070, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_06.blp', 'Character\\Orc\\FacialUpperHair04_06.blp', '', 17, 9, 6);
-DELETE FROM `charsections` WHERE `id` = 30071;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30071, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_07.blp', 'Character\\Orc\\FacialUpperHair04_07.blp', '', 17, 9, 7);
-DELETE FROM `charsections` WHERE `id` = 30072;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30072, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_00.blp', 'Character\\Orc\\FacialUpperHair03_00.blp', '', 17, 10, 0);
-DELETE FROM `charsections` WHERE `id` = 30073;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30073, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_01.blp', 'Character\\Orc\\FacialUpperHair03_01.blp', '', 17, 10, 1);
-DELETE FROM `charsections` WHERE `id` = 30074;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30074, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_02.blp', 'Character\\Orc\\FacialUpperHair03_02.blp', '', 17, 10, 2);
-DELETE FROM `charsections` WHERE `id` = 30075;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30075, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_03.blp', 'Character\\Orc\\FacialUpperHair03_03.blp', '', 17, 10, 3);
-DELETE FROM `charsections` WHERE `id` = 30076;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30076, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_04.blp', 'Character\\Orc\\FacialUpperHair03_04.blp', '', 17, 10, 4);
-DELETE FROM `charsections` WHERE `id` = 30077;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30077, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_05.blp', 'Character\\Orc\\FacialUpperHair03_05.blp', '', 17, 10, 5);
-DELETE FROM `charsections` WHERE `id` = 30078;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30078, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_06.blp', 'Character\\Orc\\FacialUpperHair03_06.blp', '', 17, 10, 6);
-DELETE FROM `charsections` WHERE `id` = 30079;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30079, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_07.blp', 'Character\\Orc\\FacialUpperHair03_07.blp', '', 17, 10, 7);
-DELETE FROM `charsections` WHERE `id` = 30080;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30080, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30081;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30081, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30082;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30082, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30083;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30083, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 17, 0, 3);
-DELETE FROM `charsections` WHERE `id` = 30084;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30084, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 17, 0, 4);
-DELETE FROM `charsections` WHERE `id` = 30085;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30085, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 17, 0, 5);
-DELETE FROM `charsections` WHERE `id` = 30086;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30086, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 17, 0, 6);
-DELETE FROM `charsections` WHERE `id` = 30087;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30087, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 17, 0, 7);
-DELETE FROM `charsections` WHERE `id` = 30088;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30088, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair04_00.blp', 'Character\\Orc\\ScalpUpperHair04_00.blp', 17, 1, 0);
-DELETE FROM `charsections` WHERE `id` = 30089;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30089, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair04_01.blp', 'Character\\Orc\\ScalpUpperHair04_01.blp', 17, 1, 1);
-DELETE FROM `charsections` WHERE `id` = 30090;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30090, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair04_02.blp', 'Character\\Orc\\ScalpUpperHair04_02.blp', 17, 1, 2);
-DELETE FROM `charsections` WHERE `id` = 30091;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30091, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair04_03.blp', 'Character\\Orc\\ScalpUpperHair04_03.blp', 17, 1, 3);
-DELETE FROM `charsections` WHERE `id` = 30092;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30092, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair04_04.blp', 'Character\\Orc\\ScalpUpperHair04_04.blp', 17, 1, 4);
-DELETE FROM `charsections` WHERE `id` = 30093;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30093, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair04_05.blp', 'Character\\Orc\\ScalpUpperHair04_05.blp', 17, 1, 5);
-DELETE FROM `charsections` WHERE `id` = 30094;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30094, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair04_06.blp', 'Character\\Orc\\ScalpUpperHair04_06.blp', 17, 1, 6);
-DELETE FROM `charsections` WHERE `id` = 30095;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30095, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair04_07.blp', 'Character\\Orc\\ScalpUpperHair04_07.blp', 17, 1, 7);
-DELETE FROM `charsections` WHERE `id` = 30096;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30096, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 17, 2, 0);
-DELETE FROM `charsections` WHERE `id` = 30097;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30097, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 17, 2, 1);
-DELETE FROM `charsections` WHERE `id` = 30098;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30098, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 17, 2, 2);
-DELETE FROM `charsections` WHERE `id` = 30099;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30099, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 17, 2, 3);
-DELETE FROM `charsections` WHERE `id` = 30100;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30100, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 17, 2, 4);
-DELETE FROM `charsections` WHERE `id` = 30101;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30101, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 17, 2, 5);
-DELETE FROM `charsections` WHERE `id` = 30102;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30102, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 17, 2, 6);
-DELETE FROM `charsections` WHERE `id` = 30103;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30103, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 17, 2, 7);
-DELETE FROM `charsections` WHERE `id` = 30104;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30104, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair05_00.blp', 'Character\\Orc\\ScalpUpperHair05_00.blp', 17, 3, 0);
-DELETE FROM `charsections` WHERE `id` = 30105;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30105, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair05_01.blp', 'Character\\Orc\\ScalpUpperHair05_01.blp', 17, 3, 1);
-DELETE FROM `charsections` WHERE `id` = 30106;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30106, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair05_02.blp', 'Character\\Orc\\ScalpUpperHair05_02.blp', 17, 3, 2);
-DELETE FROM `charsections` WHERE `id` = 30107;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30107, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair05_03.blp', 'Character\\Orc\\ScalpUpperHair05_03.blp', 17, 3, 3);
-DELETE FROM `charsections` WHERE `id` = 30108;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30108, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair05_04.blp', 'Character\\Orc\\ScalpUpperHair05_04.blp', 17, 3, 4);
-DELETE FROM `charsections` WHERE `id` = 30109;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30109, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair05_05.blp', 'Character\\Orc\\ScalpUpperHair05_05.blp', 17, 3, 5);
-DELETE FROM `charsections` WHERE `id` = 30110;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30110, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair05_06.blp', 'Character\\Orc\\ScalpUpperHair05_06.blp', 17, 3, 6);
-DELETE FROM `charsections` WHERE `id` = 30111;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30111, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair05_07.blp', 'Character\\Orc\\ScalpUpperHair05_07.blp', 17, 3, 7);
-DELETE FROM `charsections` WHERE `id` = 30112;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30112, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair06_00.blp', 'Character\\Orc\\ScalpUpperHair06_00.blp', 17, 4, 0);
-DELETE FROM `charsections` WHERE `id` = 30113;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30113, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair06_01.blp', 'Character\\Orc\\ScalpUpperHair06_01.blp', 17, 4, 1);
-DELETE FROM `charsections` WHERE `id` = 30114;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30114, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair06_02.blp', 'Character\\Orc\\ScalpUpperHair06_02.blp', 17, 4, 2);
-DELETE FROM `charsections` WHERE `id` = 30115;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30115, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair06_03.blp', 'Character\\Orc\\ScalpUpperHair06_03.blp', 17, 4, 3);
-DELETE FROM `charsections` WHERE `id` = 30116;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30116, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair06_04.blp', 'Character\\Orc\\ScalpUpperHair06_04.blp', 17, 4, 4);
-DELETE FROM `charsections` WHERE `id` = 30117;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30117, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair06_05.blp', 'Character\\Orc\\ScalpUpperHair06_05.blp', 17, 4, 5);
-DELETE FROM `charsections` WHERE `id` = 30118;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30118, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair06_06.blp', 'Character\\Orc\\ScalpUpperHair06_06.blp', 17, 4, 6);
-DELETE FROM `charsections` WHERE `id` = 30119;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30119, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair06_07.blp', 'Character\\Orc\\ScalpUpperHair06_07.blp', 17, 4, 7);
-DELETE FROM `charsections` WHERE `id` = 30120;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30120, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair07_00.blp', 'Character\\Orc\\ScalpUpperHair07_00.blp', 17, 5, 0);
-DELETE FROM `charsections` WHERE `id` = 30121;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30121, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair07_01.blp', 'Character\\Orc\\ScalpUpperHair07_01.blp', 17, 5, 1);
-DELETE FROM `charsections` WHERE `id` = 30122;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30122, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair07_02.blp', 'Character\\Orc\\ScalpUpperHair07_02.blp', 17, 5, 2);
-DELETE FROM `charsections` WHERE `id` = 30123;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30123, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair07_03.blp', 'Character\\Orc\\ScalpUpperHair07_03.blp', 17, 5, 3);
-DELETE FROM `charsections` WHERE `id` = 30124;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30124, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair07_04.blp', 'Character\\Orc\\ScalpUpperHair07_04.blp', 17, 5, 4);
-DELETE FROM `charsections` WHERE `id` = 30125;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30125, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair07_05.blp', 'Character\\Orc\\ScalpUpperHair07_05.blp', 17, 5, 5);
-DELETE FROM `charsections` WHERE `id` = 30126;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30126, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair07_06.blp', 'Character\\Orc\\ScalpUpperHair07_06.blp', 17, 5, 6);
-DELETE FROM `charsections` WHERE `id` = 30127;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30127, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair07_07.blp', 'Character\\Orc\\ScalpUpperHair07_07.blp', 17, 5, 7);
-DELETE FROM `charsections` WHERE `id` = 30128;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30128, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 17, 6, 0);
-DELETE FROM `charsections` WHERE `id` = 30129;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30129, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 17, 6, 1);
-DELETE FROM `charsections` WHERE `id` = 30130;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30130, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 17, 6, 2);
-DELETE FROM `charsections` WHERE `id` = 30131;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30131, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 17, 6, 3);
-DELETE FROM `charsections` WHERE `id` = 30132;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30132, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 17, 6, 4);
-DELETE FROM `charsections` WHERE `id` = 30133;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30133, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 17, 6, 5);
-DELETE FROM `charsections` WHERE `id` = 30134;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30134, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 17, 6, 6);
-DELETE FROM `charsections` WHERE `id` = 30135;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30135, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 17, 6, 7);
-DELETE FROM `charsections` WHERE `id` = 30136;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30136, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', '', '', 17, 7, 0);
-DELETE FROM `charsections` WHERE `id` = 30137;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30137, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', '', '', 17, 7, 1);
-DELETE FROM `charsections` WHERE `id` = 30138;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30138, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', '', '', 17, 7, 2);
-DELETE FROM `charsections` WHERE `id` = 30139;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30139, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', '', '', 17, 7, 3);
-DELETE FROM `charsections` WHERE `id` = 30140;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30140, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', '', '', 17, 7, 4);
-DELETE FROM `charsections` WHERE `id` = 30141;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30141, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', '', '', 17, 7, 5);
-DELETE FROM `charsections` WHERE `id` = 30142;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30142, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', '', '', 17, 7, 6);
-DELETE FROM `charsections` WHERE `id` = 30143;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30143, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', '', '', 17, 7, 7);
-DELETE FROM `charsections` WHERE `id` = 30144;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30144, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30145;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30145, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30146;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30146, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30147;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30147, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 3);
-DELETE FROM `charsections` WHERE `id` = 30148;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30148, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 4);
-DELETE FROM `charsections` WHERE `id` = 30149;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30149, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 5);
-DELETE FROM `charsections` WHERE `id` = 30150;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30150, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 6);
-DELETE FROM `charsections` WHERE `id` = 30151;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30151, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 7);
-DELETE FROM `charsections` WHERE `id` = 30152;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30152, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30153;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30153, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30154;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30154, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30155;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30155, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 3);
-DELETE FROM `charsections` WHERE `id` = 30156;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30156, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 4);
-DELETE FROM `charsections` WHERE `id` = 30157;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30157, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 5);
-DELETE FROM `charsections` WHERE `id` = 30158;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30158, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 6);
-DELETE FROM `charsections` WHERE `id` = 30159;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30159, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 7);
-DELETE FROM `charsections` WHERE `id` = 30160;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30160, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 17, 1, 0);
-DELETE FROM `charsections` WHERE `id` = 30161;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30161, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 17, 1, 1);
-DELETE FROM `charsections` WHERE `id` = 30162;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30162, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 17, 1, 2);
-DELETE FROM `charsections` WHERE `id` = 30163;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30163, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 17, 1, 3);
-DELETE FROM `charsections` WHERE `id` = 30164;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30164, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 17, 1, 4);
-DELETE FROM `charsections` WHERE `id` = 30165;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30165, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 17, 1, 5);
-DELETE FROM `charsections` WHERE `id` = 30166;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30166, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 17, 1, 6);
-DELETE FROM `charsections` WHERE `id` = 30167;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30167, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 17, 1, 7);
-DELETE FROM `charsections` WHERE `id` = 30168;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30168, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 17, 2, 0);
-DELETE FROM `charsections` WHERE `id` = 30169;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30169, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 17, 2, 1);
-DELETE FROM `charsections` WHERE `id` = 30170;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30170, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 17, 2, 2);
-DELETE FROM `charsections` WHERE `id` = 30171;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30171, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 17, 2, 3);
-DELETE FROM `charsections` WHERE `id` = 30172;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30172, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 17, 2, 4);
-DELETE FROM `charsections` WHERE `id` = 30173;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30173, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 17, 2, 5);
-DELETE FROM `charsections` WHERE `id` = 30174;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30174, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 17, 2, 6);
-DELETE FROM `charsections` WHERE `id` = 30175;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30175, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 17, 2, 7);
-DELETE FROM `charsections` WHERE `id` = 30176;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30176, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 17, 3, 0);
-DELETE FROM `charsections` WHERE `id` = 30177;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30177, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 17, 3, 1);
-DELETE FROM `charsections` WHERE `id` = 30178;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30178, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 17, 3, 2);
-DELETE FROM `charsections` WHERE `id` = 30179;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30179, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 17, 3, 3);
-DELETE FROM `charsections` WHERE `id` = 30180;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30180, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 17, 3, 4);
-DELETE FROM `charsections` WHERE `id` = 30181;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30181, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 17, 3, 5);
-DELETE FROM `charsections` WHERE `id` = 30182;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30182, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 17, 3, 6);
-DELETE FROM `charsections` WHERE `id` = 30183;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30183, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 17, 3, 7);
-DELETE FROM `charsections` WHERE `id` = 30184;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30184, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair02_00.blp', 'Character\\Orc\\ScalpUpperHair02_00.blp', 17, 4, 0);
-DELETE FROM `charsections` WHERE `id` = 30185;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30185, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair02_01.blp', 'Character\\Orc\\ScalpUpperHair02_01.blp', 17, 4, 1);
-DELETE FROM `charsections` WHERE `id` = 30186;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30186, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair02_02.blp', 'Character\\Orc\\ScalpUpperHair02_02.blp', 17, 4, 2);
-DELETE FROM `charsections` WHERE `id` = 30187;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30187, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair02_03.blp', 'Character\\Orc\\ScalpUpperHair02_03.blp', 17, 4, 3);
-DELETE FROM `charsections` WHERE `id` = 30188;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30188, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair02_04.blp', 'Character\\Orc\\ScalpUpperHair02_04.blp', 17, 4, 4);
-DELETE FROM `charsections` WHERE `id` = 30189;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30189, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair02_05.blp', 'Character\\Orc\\ScalpUpperHair02_05.blp', 17, 4, 5);
-DELETE FROM `charsections` WHERE `id` = 30190;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30190, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair02_06.blp', 'Character\\Orc\\ScalpUpperHair02_06.blp', 17, 4, 6);
-DELETE FROM `charsections` WHERE `id` = 30191;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30191, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair02_07.blp', 'Character\\Orc\\ScalpUpperHair02_07.blp', 17, 4, 7);
-DELETE FROM `charsections` WHERE `id` = 30192;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30192, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair03_00.blp', 'Character\\Orc\\ScalpUpperHair03_00.blp', 17, 5, 0);
-DELETE FROM `charsections` WHERE `id` = 30193;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30193, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair03_01.blp', 'Character\\Orc\\ScalpUpperHair03_01.blp', 17, 5, 1);
-DELETE FROM `charsections` WHERE `id` = 30194;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30194, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair03_02.blp', 'Character\\Orc\\ScalpUpperHair03_02.blp', 17, 5, 2);
-DELETE FROM `charsections` WHERE `id` = 30195;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30195, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair03_03.blp', 'Character\\Orc\\ScalpUpperHair03_03.blp', 17, 5, 3);
-DELETE FROM `charsections` WHERE `id` = 30196;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30196, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair03_04.blp', 'Character\\Orc\\ScalpUpperHair03_04.blp', 17, 5, 4);
-DELETE FROM `charsections` WHERE `id` = 30197;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30197, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair03_05.blp', 'Character\\Orc\\ScalpUpperHair03_05.blp', 17, 5, 5);
-DELETE FROM `charsections` WHERE `id` = 30198;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30198, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair03_06.blp', 'Character\\Orc\\ScalpUpperHair03_06.blp', 17, 5, 6);
-DELETE FROM `charsections` WHERE `id` = 30199;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30199, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair03_07.blp', 'Character\\Orc\\ScalpUpperHair03_07.blp', 17, 5, 7);
-DELETE FROM `charsections` WHERE `id` = 30200;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30200, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair04_00.blp', 'Character\\Orc\\ScalpUpperHair04_00.blp', 17, 6, 0);
-DELETE FROM `charsections` WHERE `id` = 30201;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30201, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair04_01.blp', 'Character\\Orc\\ScalpUpperHair04_01.blp', 17, 6, 1);
-DELETE FROM `charsections` WHERE `id` = 30202;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30202, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair04_02.blp', 'Character\\Orc\\ScalpUpperHair04_02.blp', 17, 6, 2);
-DELETE FROM `charsections` WHERE `id` = 30203;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30203, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair04_03.blp', 'Character\\Orc\\ScalpUpperHair04_03.blp', 17, 6, 3);
-DELETE FROM `charsections` WHERE `id` = 30204;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30204, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair04_04.blp', 'Character\\Orc\\ScalpUpperHair04_04.blp', 17, 6, 4);
-DELETE FROM `charsections` WHERE `id` = 30205;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30205, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair04_05.blp', 'Character\\Orc\\ScalpUpperHair04_05.blp', 17, 6, 5);
-DELETE FROM `charsections` WHERE `id` = 30206;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30206, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair04_06.blp', 'Character\\Orc\\ScalpUpperHair04_06.blp', 17, 6, 6);
-DELETE FROM `charsections` WHERE `id` = 30207;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30207, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair04_07.blp', 'Character\\Orc\\ScalpUpperHair04_07.blp', 17, 6, 7);
-DELETE FROM `charsections` WHERE `id` = 30208;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30208, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', '', '', 18, 7, 0);
-DELETE FROM `charsections` WHERE `id` = 30209;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30209, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', '', '', 18, 7, 1);
-DELETE FROM `charsections` WHERE `id` = 30210;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30210, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', '', '', 18, 7, 2);
-DELETE FROM `charsections` WHERE `id` = 30211;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30211, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', '', '', 18, 7, 3);
-DELETE FROM `charsections` WHERE `id` = 30212;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30212, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', '', '', 18, 7, 4);
-DELETE FROM `charsections` WHERE `id` = 30213;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30213, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', '', '', 18, 7, 5);
-DELETE FROM `charsections` WHERE `id` = 30214;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30214, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', '', '', 18, 7, 6);
-DELETE FROM `charsections` WHERE `id` = 30215;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30215, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', '', '', 18, 7, 7);
-DELETE FROM `charsections` WHERE `id` = 30216;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30216, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', '', '', 18, 8, 0);
-DELETE FROM `charsections` WHERE `id` = 30217;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30217, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', '', '', 18, 8, 1);
-DELETE FROM `charsections` WHERE `id` = 30218;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30218, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', '', '', 18, 8, 2);
-DELETE FROM `charsections` WHERE `id` = 30219;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30219, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', '', '', 18, 8, 3);
-DELETE FROM `charsections` WHERE `id` = 30220;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30220, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', '', '', 18, 8, 4);
-DELETE FROM `charsections` WHERE `id` = 30221;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30221, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', '', '', 18, 8, 5);
-DELETE FROM `charsections` WHERE `id` = 30222;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30222, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', '', '', 18, 8, 6);
-DELETE FROM `charsections` WHERE `id` = 30223;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30223, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', '', '', 18, 8, 7);
-DELETE FROM `charsections` WHERE `id` = 30224;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30224, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 18, 9, 0);
-DELETE FROM `charsections` WHERE `id` = 30225;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30225, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 18, 9, 1);
-DELETE FROM `charsections` WHERE `id` = 30226;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30226, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 18, 9, 2);
-DELETE FROM `charsections` WHERE `id` = 30227;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30227, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 18, 9, 3);
-DELETE FROM `charsections` WHERE `id` = 30228;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30228, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 18, 9, 4);
-DELETE FROM `charsections` WHERE `id` = 30229;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30229, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 18, 9, 5);
-DELETE FROM `charsections` WHERE `id` = 30230;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30230, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 18, 9, 6);
-DELETE FROM `charsections` WHERE `id` = 30231;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30231, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 18, 9, 7);
-DELETE FROM `charsections` WHERE `id` = 30232;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30232, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair02_00.blp', 'Character\\Orc\\ScalpUpperHair02_00.blp', 18, 10, 0);
-DELETE FROM `charsections` WHERE `id` = 30233;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30233, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair02_01.blp', 'Character\\Orc\\ScalpUpperHair02_01.blp', 18, 10, 1);
-DELETE FROM `charsections` WHERE `id` = 30234;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30234, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair02_02.blp', 'Character\\Orc\\ScalpUpperHair02_02.blp', 18, 10, 2);
-DELETE FROM `charsections` WHERE `id` = 30235;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30235, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair02_03.blp', 'Character\\Orc\\ScalpUpperHair02_03.blp', 18, 10, 3);
-DELETE FROM `charsections` WHERE `id` = 30236;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30236, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair02_04.blp', 'Character\\Orc\\ScalpUpperHair02_04.blp', 18, 10, 4);
-DELETE FROM `charsections` WHERE `id` = 30237;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30237, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair02_05.blp', 'Character\\Orc\\ScalpUpperHair02_05.blp', 18, 10, 5);
-DELETE FROM `charsections` WHERE `id` = 30238;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30238, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair02_06.blp', 'Character\\Orc\\ScalpUpperHair02_06.blp', 18, 10, 6);
-DELETE FROM `charsections` WHERE `id` = 30239;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30239, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair02_07.blp', 'Character\\Orc\\ScalpUpperHair02_07.blp', 18, 10, 7);
-DELETE FROM `charsections` WHERE `id` = 30240;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30240, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair02_00.blp', 'Character\\Orc\\ScalpUpperHair02_00.blp', 18, 11, 0);
-DELETE FROM `charsections` WHERE `id` = 30241;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30241, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair02_01.blp', 'Character\\Orc\\ScalpUpperHair02_01.blp', 18, 11, 1);
-DELETE FROM `charsections` WHERE `id` = 30242;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30242, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair02_02.blp', 'Character\\Orc\\ScalpUpperHair02_02.blp', 18, 11, 2);
-DELETE FROM `charsections` WHERE `id` = 30243;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30243, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair02_03.blp', 'Character\\Orc\\ScalpUpperHair02_03.blp', 18, 11, 3);
-DELETE FROM `charsections` WHERE `id` = 30244;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30244, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair02_04.blp', 'Character\\Orc\\ScalpUpperHair02_04.blp', 18, 11, 4);
-DELETE FROM `charsections` WHERE `id` = 30245;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30245, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair02_05.blp', 'Character\\Orc\\ScalpUpperHair02_05.blp', 18, 11, 5);
-DELETE FROM `charsections` WHERE `id` = 30246;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30246, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair02_06.blp', 'Character\\Orc\\ScalpUpperHair02_06.blp', 18, 11, 6);
-DELETE FROM `charsections` WHERE `id` = 30247;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30247, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair02_07.blp', 'Character\\Orc\\ScalpUpperHair02_07.blp', 18, 11, 7);
-DELETE FROM `charsections` WHERE `id` = 30248;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30248, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 8, 0);
-DELETE FROM `charsections` WHERE `id` = 30249;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30249, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 8, 1);
-DELETE FROM `charsections` WHERE `id` = 30250;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30250, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 8, 2);
-DELETE FROM `charsections` WHERE `id` = 30251;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30251, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 8, 3);
-DELETE FROM `charsections` WHERE `id` = 30252;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30252, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 8, 4);
-DELETE FROM `charsections` WHERE `id` = 30253;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30253, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 8, 5);
-DELETE FROM `charsections` WHERE `id` = 30254;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30254, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 8, 6);
-DELETE FROM `charsections` WHERE `id` = 30255;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30255, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 8, 7);
-DELETE FROM `charsections` WHERE `id` = 30256;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30256, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 9, 0);
-DELETE FROM `charsections` WHERE `id` = 30257;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30257, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 9, 1);
-DELETE FROM `charsections` WHERE `id` = 30258;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30258, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 9, 2);
-DELETE FROM `charsections` WHERE `id` = 30259;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30259, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 9, 3);
-DELETE FROM `charsections` WHERE `id` = 30260;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30260, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 9, 4);
-DELETE FROM `charsections` WHERE `id` = 30261;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30261, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 9, 5);
-DELETE FROM `charsections` WHERE `id` = 30262;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30262, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 9, 6);
-DELETE FROM `charsections` WHERE `id` = 30263;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30263, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 9, 7);
-DELETE FROM `charsections` WHERE `id` = 30264;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30264, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 10, 0);
-DELETE FROM `charsections` WHERE `id` = 30265;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30265, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 10, 1);
-DELETE FROM `charsections` WHERE `id` = 30266;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30266, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 10, 2);
-DELETE FROM `charsections` WHERE `id` = 30267;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30267, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 10, 3);
-DELETE FROM `charsections` WHERE `id` = 30268;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30268, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 10, 4);
-DELETE FROM `charsections` WHERE `id` = 30269;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30269, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 10, 5);
-DELETE FROM `charsections` WHERE `id` = 30270;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30270, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 10, 6);
-DELETE FROM `charsections` WHERE `id` = 30271;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30271, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 10, 7);
-DELETE FROM `charsections` WHERE `id` = 30272;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30272, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 11, 0);
-DELETE FROM `charsections` WHERE `id` = 30273;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30273, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 11, 1);
-DELETE FROM `charsections` WHERE `id` = 30274;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30274, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 11, 2);
-DELETE FROM `charsections` WHERE `id` = 30275;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30275, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 11, 3);
-DELETE FROM `charsections` WHERE `id` = 30276;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30276, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 11, 4);
-DELETE FROM `charsections` WHERE `id` = 30277;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30277, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 11, 5);
-DELETE FROM `charsections` WHERE `id` = 30278;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30278, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 11, 6);
-DELETE FROM `charsections` WHERE `id` = 30279;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30279, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 11, 7);
-DELETE FROM `charsections` WHERE `id` = 30280;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30280, @MagharOrc, @Male, @Hair, '', '', '', 5, 0, 8);
-DELETE FROM `charsections` WHERE `id` = 30281;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30281, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 5, 1, 8);
-DELETE FROM `charsections` WHERE `id` = 30282;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30282, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 5, 2, 8);
-DELETE FROM `charsections` WHERE `id` = 30283;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30283, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 5, 3, 8);
-DELETE FROM `charsections` WHERE `id` = 30284;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30284, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair02_08.blp', 'Character\\Orc\\ScalpUpperHair02_08.blp', 5, 4, 8);
-DELETE FROM `charsections` WHERE `id` = 30285;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30285, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair03_08.blp', 'Character\\Orc\\ScalpUpperHair03_08.blp', 5, 5, 8);
-DELETE FROM `charsections` WHERE `id` = 30286;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30286, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair04_08.blp', 'Character\\Orc\\ScalpUpperHair04_08.blp', 5, 6, 8);
-DELETE FROM `charsections` WHERE `id` = 30287;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30287, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', '', '', 6, 7, 8);
-DELETE FROM `charsections` WHERE `id` = 30288;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30288, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', '', '', 6, 8, 8);
-DELETE FROM `charsections` WHERE `id` = 30289;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30289, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 6, 9, 8);
-DELETE FROM `charsections` WHERE `id` = 30290;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30290, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair02_08.blp', 'Character\\Orc\\ScalpUpperHair02_08.blp', 6, 10, 8);
-DELETE FROM `charsections` WHERE `id` = 30291;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30291, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair02_08.blp', 'Character\\Orc\\ScalpUpperHair02_08.blp', 6, 11, 8);
-DELETE FROM `charsections` WHERE `id` = 30292;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30292, @MagharOrc, @Male, @FacialHair, '', '', '', 5, 0, 8);
-DELETE FROM `charsections` WHERE `id` = 30293;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30293, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_08.blp', 'Character\\Orc\\FacialUpperHair00_08.blp', '', 5, 1, 8);
-DELETE FROM `charsections` WHERE `id` = 30294;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30294, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_08.blp', 'Character\\Orc\\FacialUpperHair02_08.blp', '', 5, 2, 8);
-DELETE FROM `charsections` WHERE `id` = 30295;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30295, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_08.blp', 'Character\\Orc\\FacialUpperHair01_08.blp', '', 5, 3, 8);
-DELETE FROM `charsections` WHERE `id` = 30296;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30296, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_08.blp', 'Character\\Orc\\FacialUpperHair01_08.blp', '', 5, 4, 8);
-DELETE FROM `charsections` WHERE `id` = 30297;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30297, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_08.blp', '', '', 5, 5, 8);
-DELETE FROM `charsections` WHERE `id` = 30298;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30298, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_08.blp', '', '', 5, 6, 8);
-DELETE FROM `charsections` WHERE `id` = 30299;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30299, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_08.blp', 'Character\\Orc\\FacialUpperHair03_08.blp', '', 5, 7, 8);
-DELETE FROM `charsections` WHERE `id` = 30300;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30300, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_08.blp', '', '', 5, 8, 8);
-DELETE FROM `charsections` WHERE `id` = 30301;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30301, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_08.blp', 'Character\\Orc\\FacialUpperHair04_08.blp', '', 5, 9, 8);
-DELETE FROM `charsections` WHERE `id` = 30302;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30302, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_08.blp', 'Character\\Orc\\FacialUpperHair03_08.blp', '', 5, 10, 8);
-DELETE FROM `charsections` WHERE `id` = 30303;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30303, @MagharOrc, @Male, @Hair, '', '', '', 5, 0, 9);
-DELETE FROM `charsections` WHERE `id` = 30304;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30304, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 5, 1, 9);
-DELETE FROM `charsections` WHERE `id` = 30305;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30305, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 5, 2, 9);
-DELETE FROM `charsections` WHERE `id` = 30306;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30306, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 5, 3, 9);
-DELETE FROM `charsections` WHERE `id` = 30307;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30307, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair02_09.blp', 'Character\\Orc\\ScalpUpperHair02_09.blp', 5, 4, 9);
-DELETE FROM `charsections` WHERE `id` = 30308;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30308, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair03_09.blp', 'Character\\Orc\\ScalpUpperHair03_09.blp', 5, 5, 9);
-DELETE FROM `charsections` WHERE `id` = 30309;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30309, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair04_09.blp', 'Character\\Orc\\ScalpUpperHair04_09.blp', 5, 6, 9);
-DELETE FROM `charsections` WHERE `id` = 30310;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30310, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', '', '', 6, 7, 9);
-DELETE FROM `charsections` WHERE `id` = 30311;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30311, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', '', '', 6, 8, 9);
-DELETE FROM `charsections` WHERE `id` = 30312;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30312, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 6, 9, 9);
-DELETE FROM `charsections` WHERE `id` = 30313;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30313, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair02_09.blp', 'Character\\Orc\\ScalpUpperHair02_09.blp', 6, 10, 9);
-DELETE FROM `charsections` WHERE `id` = 30314;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30314, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair02_09.blp', 'Character\\Orc\\ScalpUpperHair02_09.blp', 6, 11, 9);
-DELETE FROM `charsections` WHERE `id` = 30315;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30315, @MagharOrc, @Male, @FacialHair, '', '', '', 5, 0, 9);
-DELETE FROM `charsections` WHERE `id` = 30316;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30316, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_09.blp', 'Character\\Orc\\FacialUpperHair00_09.blp', '', 5, 1, 9);
-DELETE FROM `charsections` WHERE `id` = 30317;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30317, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_09.blp', 'Character\\Orc\\FacialUpperHair02_09.blp', '', 5, 2, 9);
-DELETE FROM `charsections` WHERE `id` = 30318;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30318, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_09.blp', 'Character\\Orc\\FacialUpperHair01_09.blp', '', 5, 3, 9);
-DELETE FROM `charsections` WHERE `id` = 30319;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30319, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_09.blp', 'Character\\Orc\\FacialUpperHair01_09.blp', '', 5, 4, 9);
-DELETE FROM `charsections` WHERE `id` = 30320;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30320, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_09.blp', '', '', 5, 5, 9);
-DELETE FROM `charsections` WHERE `id` = 30321;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30321, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_09.blp', '', '', 5, 6, 9);
-DELETE FROM `charsections` WHERE `id` = 30322;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30322, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_09.blp', 'Character\\Orc\\FacialUpperHair03_09.blp', '', 5, 7, 9);
-DELETE FROM `charsections` WHERE `id` = 30323;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30323, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_09.blp', '', '', 5, 8, 9);
-DELETE FROM `charsections` WHERE `id` = 30324;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30324, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_09.blp', 'Character\\Orc\\FacialUpperHair04_09.blp', '', 5, 9, 9);
-DELETE FROM `charsections` WHERE `id` = 30325;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30325, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_09.blp', 'Character\\Orc\\FacialUpperHair03_09.blp', '', 5, 10, 9);
-DELETE FROM `charsections` WHERE `id` = 30326;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30326, @MagharOrc, @Male, @Hair, '', '', '', 5, 0, 10);
-DELETE FROM `charsections` WHERE `id` = 30327;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30327, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 5, 1, 10);
-DELETE FROM `charsections` WHERE `id` = 30328;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30328, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 5, 2, 10);
-DELETE FROM `charsections` WHERE `id` = 30329;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30329, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 5, 3, 10);
-DELETE FROM `charsections` WHERE `id` = 30330;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30330, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair02_10.blp', 'Character\\Orc\\ScalpUpperHair02_10.blp', 5, 4, 10);
-DELETE FROM `charsections` WHERE `id` = 30331;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30331, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair03_10.blp', 'Character\\Orc\\ScalpUpperHair03_10.blp', 5, 5, 10);
-DELETE FROM `charsections` WHERE `id` = 30332;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30332, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair04_10.blp', 'Character\\Orc\\ScalpUpperHair04_10.blp', 5, 6, 10);
-DELETE FROM `charsections` WHERE `id` = 30333;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30333, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', '', '', 6, 7, 10);
-DELETE FROM `charsections` WHERE `id` = 30334;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30334, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', '', '', 6, 8, 10);
-DELETE FROM `charsections` WHERE `id` = 30335;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30335, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 6, 9, 10);
-DELETE FROM `charsections` WHERE `id` = 30336;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30336, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair02_10.blp', 'Character\\Orc\\ScalpUpperHair02_10.blp', 6, 10, 10);
-DELETE FROM `charsections` WHERE `id` = 30337;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30337, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair02_10.blp', 'Character\\Orc\\ScalpUpperHair02_10.blp', 6, 11, 10);
-DELETE FROM `charsections` WHERE `id` = 30338;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30338, @MagharOrc, @Male, @FacialHair, '', '', '', 5, 0, 10);
-DELETE FROM `charsections` WHERE `id` = 30339;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30339, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_10.blp', 'Character\\Orc\\FacialUpperHair00_10.blp', '', 5, 1, 10);
-DELETE FROM `charsections` WHERE `id` = 30340;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30340, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_10.blp', 'Character\\Orc\\FacialUpperHair02_10.blp', '', 5, 2, 10);
-DELETE FROM `charsections` WHERE `id` = 30341;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30341, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_10.blp', 'Character\\Orc\\FacialUpperHair01_10.blp', '', 5, 3, 10);
-DELETE FROM `charsections` WHERE `id` = 30342;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30342, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_10.blp', 'Character\\Orc\\FacialUpperHair01_10.blp', '', 5, 4, 10);
-DELETE FROM `charsections` WHERE `id` = 30343;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30343, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_10.blp', '', '', 5, 5, 10);
-DELETE FROM `charsections` WHERE `id` = 30344;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30344, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_10.blp', '', '', 5, 6, 10);
-DELETE FROM `charsections` WHERE `id` = 30345;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30345, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_10.blp', 'Character\\Orc\\FacialUpperHair03_10.blp', '', 5, 7, 10);
-DELETE FROM `charsections` WHERE `id` = 30346;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30346, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_10.blp', '', '', 5, 8, 10);
-DELETE FROM `charsections` WHERE `id` = 30347;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30347, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_10.blp', 'Character\\Orc\\FacialUpperHair04_10.blp', '', 5, 9, 10);
-DELETE FROM `charsections` WHERE `id` = 30348;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30348, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_10.blp', 'Character\\Orc\\FacialUpperHair03_10.blp', '', 5, 10, 10);
-DELETE FROM `charsections` WHERE `id` = 30349;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30349, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 5, 0, 8);
-DELETE FROM `charsections` WHERE `id` = 30350;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30350, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair04_08.blp', 'Character\\Orc\\ScalpUpperHair04_08.blp', 5, 1, 8);
-DELETE FROM `charsections` WHERE `id` = 30351;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30351, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 5, 2, 8);
-DELETE FROM `charsections` WHERE `id` = 30352;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30352, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair05_08.blp', 'Character\\Orc\\ScalpUpperHair05_08.blp', 5, 3, 8);
-DELETE FROM `charsections` WHERE `id` = 30353;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30353, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair06_08.blp', 'Character\\Orc\\ScalpUpperHair06_08.blp', 5, 4, 8);
-DELETE FROM `charsections` WHERE `id` = 30354;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30354, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair07_08.blp', 'Character\\Orc\\ScalpUpperHair07_08.blp', 5, 5, 8);
-DELETE FROM `charsections` WHERE `id` = 30355;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30355, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 5, 6, 8);
-DELETE FROM `charsections` WHERE `id` = 30356;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30356, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', '', '', 5, 7, 8);
-DELETE FROM `charsections` WHERE `id` = 30357;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30357, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 8, 8);
-DELETE FROM `charsections` WHERE `id` = 30358;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30358, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 9, 8);
-DELETE FROM `charsections` WHERE `id` = 30359;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30359, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 10, 8);
-DELETE FROM `charsections` WHERE `id` = 30360;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30360, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 11, 8);
-DELETE FROM `charsections` WHERE `id` = 30361;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30361, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 5, 0, 9);
-DELETE FROM `charsections` WHERE `id` = 30362;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30362, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair04_09.blp', 'Character\\Orc\\ScalpUpperHair04_09.blp', 5, 1, 9);
-DELETE FROM `charsections` WHERE `id` = 30363;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30363, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 5, 2, 9);
-DELETE FROM `charsections` WHERE `id` = 30364;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30364, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair05_09.blp', 'Character\\Orc\\ScalpUpperHair05_09.blp', 5, 3, 9);
-DELETE FROM `charsections` WHERE `id` = 30365;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30365, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair06_09.blp', 'Character\\Orc\\ScalpUpperHair06_09.blp', 5, 4, 9);
-DELETE FROM `charsections` WHERE `id` = 30366;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30366, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair07_09.blp', 'Character\\Orc\\ScalpUpperHair07_09.blp', 5, 5, 9);
-DELETE FROM `charsections` WHERE `id` = 30367;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30367, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 5, 6, 9);
-DELETE FROM `charsections` WHERE `id` = 30368;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30368, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', '', '', 5, 7, 9);
-DELETE FROM `charsections` WHERE `id` = 30369;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30369, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 8, 9);
-DELETE FROM `charsections` WHERE `id` = 30370;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30370, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 9, 9);
-DELETE FROM `charsections` WHERE `id` = 30371;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30371, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 10, 9);
-DELETE FROM `charsections` WHERE `id` = 30372;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30372, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 11, 9);
-DELETE FROM `charsections` WHERE `id` = 30373;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30373, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 5, 0, 10);
-DELETE FROM `charsections` WHERE `id` = 30374;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30374, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair04_10.blp', 'Character\\Orc\\ScalpUpperHair04_10.blp', 5, 1, 10);
-DELETE FROM `charsections` WHERE `id` = 30375;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30375, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 5, 2, 10);
-DELETE FROM `charsections` WHERE `id` = 30376;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30376, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair05_10.blp', 'Character\\Orc\\ScalpUpperHair05_10.blp', 5, 3, 10);
-DELETE FROM `charsections` WHERE `id` = 30377;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30377, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair06_10.blp', 'Character\\Orc\\ScalpUpperHair06_10.blp', 5, 4, 10);
-DELETE FROM `charsections` WHERE `id` = 30378;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30378, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair07_10.blp', 'Character\\Orc\\ScalpUpperHair07_10.blp', 5, 5, 10);
-DELETE FROM `charsections` WHERE `id` = 30379;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30379, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 5, 6, 10);
-DELETE FROM `charsections` WHERE `id` = 30380;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30380, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', '', '', 5, 7, 10);
-DELETE FROM `charsections` WHERE `id` = 30381;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30381, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 8, 10);
-DELETE FROM `charsections` WHERE `id` = 30382;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30382, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 9, 10);
-DELETE FROM `charsections` WHERE `id` = 30383;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30383, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 10, 10);
-DELETE FROM `charsections` WHERE `id` = 30384;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30384, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 11, 10);
-DELETE FROM `charsections` WHERE `id` = 30385;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30385, @MagharOrc, @Female, @Skin, 'Character\\Orc\\Female\\OrcFemaleSkin00_09.blp', '', '', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30386;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30386, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower00_09.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper00_09.blp', '', 1, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30387;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30387, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower07_09.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper07_09.blp', '', 1, 7, 0);
-DELETE FROM `charsections` WHERE `id` = 30388;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30388, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower08_09.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper08_09.blp', '', 1, 8, 0);
-DELETE FROM `charsections` WHERE `id` = 30389;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30389, @MagharOrc, @Female, @Underwear, 'Character\\Orc\\Female\\OrcFemaleNakedPelvisSkin00_09.blp', 'Character\\Orc\\Female\\OrcFemaleNakedTorsoSkin00_09.blp', '', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30390;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30390, @MagharOrc, @Female, @Skin, 'Character\\Orc\\Female\\OrcFemaleSkin00_10.blp', '', '', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30391;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30391, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower00_10.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper00_10.blp', '', 1, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30392;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30392, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower07_10.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper07_10.blp', '', 1, 7, 1);
-DELETE FROM `charsections` WHERE `id` = 30393;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30393, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower08_10.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper08_10.blp', '', 1, 8, 1);
-DELETE FROM `charsections` WHERE `id` = 30394;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30394, @MagharOrc, @Female, @Underwear, 'Character\\Orc\\Female\\OrcFemaleNakedPelvisSkin00_10.blp', 'Character\\Orc\\Female\\OrcFemaleNakedTorsoSkin00_10.blp', '', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30395;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30395, @MagharOrc, @Female, @Skin, 'Character\\Orc\\Female\\OrcFemaleSkin00_11.blp', '', '', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30396;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30396, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower00_11.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper00_11.blp', '', 1, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30397;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30397, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower07_11.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper07_11.blp', '', 1, 7, 2);
-DELETE FROM `charsections` WHERE `id` = 30398;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30398, @MagharOrc, @Female, @Face, 'Character\\Orc\\Female\\OrcFemaleFaceLower08_11.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper08_11.blp', '', 1, 8, 2);
-DELETE FROM `charsections` WHERE `id` = 30399;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30399, @MagharOrc, @Female, @Underwear, 'Character\\Orc\\Female\\OrcFemaleNakedPelvisSkin00_11.blp', 'Character\\Orc\\Female\\OrcFemaleNakedTorsoSkin00_11.blp', '', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30400;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30400, @MagharOrc, @Male, @Skin, 'Character\\Orc\\Male\\OrcMaleSkin00_09.blp', '', '', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30401;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30401, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower00_09.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper00_09.blp', '', 1, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30402;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30402, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower01_09.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper01_09.blp', '', 1, 1, 0);
-DELETE FROM `charsections` WHERE `id` = 30403;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30403, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower05_09.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper05_09.blp', '', 1, 5, 0);
-DELETE FROM `charsections` WHERE `id` = 30404;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30404, @MagharOrc, @Male, @Underwear, 'Character\\Orc\\Male\\OrcMaleNakedPelvisSkin00_09.blp', '', '', 17, 0, 0);
-DELETE FROM `charsections` WHERE `id` = 30405;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30405, @MagharOrc, @Male, @Skin, 'Character\\Orc\\Male\\OrcMaleSkin00_10.blp', '', '', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30406;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30406, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower00_10.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper00_10.blp', '', 1, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30407;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30407, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower01_10.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper01_10.blp', '', 1, 1, 1);
-DELETE FROM `charsections` WHERE `id` = 30408;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30408, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower05_10.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper05_10.blp', '', 1, 5, 1);
-DELETE FROM `charsections` WHERE `id` = 30409;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30409, @MagharOrc, @Male, @Underwear, 'Character\\Orc\\Male\\OrcMaleNakedPelvisSkin00_10.blp', '', '', 17, 0, 1);
-DELETE FROM `charsections` WHERE `id` = 30410;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30410, @MagharOrc, @Male, @Skin, 'Character\\Orc\\Male\\OrcMaleSkin00_11.blp', '', '', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30411;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30411, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower00_11.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper00_11.blp', '', 1, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30412;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30412, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower01_11.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper01_11.blp', '', 1, 1, 2);
-DELETE FROM `charsections` WHERE `id` = 30413;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30413, @MagharOrc, @Male, @Face, 'Character\\Orc\\Male\\OrcMaleFaceLower05_11.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper05_11.blp', '', 1, 5, 2);
-DELETE FROM `charsections` WHERE `id` = 30414;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30414, @MagharOrc, @Male, @Underwear, 'Character\\Orc\\Male\\OrcMaleNakedPelvisSkin00_11.blp', '', '', 17, 0, 2);
-DELETE FROM `charsections` WHERE `id` = 30415;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30415, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 12, 0);
-DELETE FROM `charsections` WHERE `id` = 30416;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30416, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 12, 1);
-DELETE FROM `charsections` WHERE `id` = 30417;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30417, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 12, 2);
-DELETE FROM `charsections` WHERE `id` = 30418;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30418, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 12, 3);
-DELETE FROM `charsections` WHERE `id` = 30419;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30419, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 12, 4);
-DELETE FROM `charsections` WHERE `id` = 30420;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30420, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 12, 5);
-DELETE FROM `charsections` WHERE `id` = 30421;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30421, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 12, 6);
-DELETE FROM `charsections` WHERE `id` = 30422;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30422, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 12, 7);
-DELETE FROM `charsections` WHERE `id` = 30423;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30423, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 12, 8);
-DELETE FROM `charsections` WHERE `id` = 30424;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30424, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 12, 9);
-DELETE FROM `charsections` WHERE `id` = 30425;
-INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES (30425, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 12, 10);
+DELETE FROM `charsections` WHERE `id` BETWEEN 30000 AND 30425;
+INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES
+(30000, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_00.blp', 'Character\\Orc\\FacialUpperHair00_00.blp', '', 17, 1, 0),
+(30001, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_01.blp', 'Character\\Orc\\FacialUpperHair00_01.blp', '', 17, 1, 1),
+(30002, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_02.blp', 'Character\\Orc\\FacialUpperHair00_02.blp', '', 17, 1, 2),
+(30003, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_03.blp', 'Character\\Orc\\FacialUpperHair00_03.blp', '', 17, 1, 3),
+(30004, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_04.blp', 'Character\\Orc\\FacialUpperHair00_04.blp', '', 17, 1, 4),
+(30005, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_05.blp', 'Character\\Orc\\FacialUpperHair00_05.blp', '', 17, 1, 5),
+(30006, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_06.blp', 'Character\\Orc\\FacialUpperHair00_06.blp', '', 17, 1, 6),
+(30007, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_07.blp', 'Character\\Orc\\FacialUpperHair00_07.blp', '', 17, 1, 7),
+(30008, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_00.blp', 'Character\\Orc\\FacialUpperHair02_00.blp', '', 17, 2, 0),
+(30009, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_01.blp', 'Character\\Orc\\FacialUpperHair02_01.blp', '', 17, 2, 1),
+(30010, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_02.blp', 'Character\\Orc\\FacialUpperHair02_02.blp', '', 17, 2, 2),
+(30011, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_03.blp', 'Character\\Orc\\FacialUpperHair02_03.blp', '', 17, 2, 3),
+(30012, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_04.blp', 'Character\\Orc\\FacialUpperHair02_04.blp', '', 17, 2, 4),
+(30013, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_05.blp', 'Character\\Orc\\FacialUpperHair02_05.blp', '', 17, 2, 5),
+(30014, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_06.blp', 'Character\\Orc\\FacialUpperHair02_06.blp', '', 17, 2, 6),
+(30015, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_07.blp', 'Character\\Orc\\FacialUpperHair02_07.blp', '', 17, 2, 7),
+(30016, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_00.blp', 'Character\\Orc\\FacialUpperHair01_00.blp', '', 17, 3, 0),
+(30017, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_01.blp', 'Character\\Orc\\FacialUpperHair01_01.blp', '', 17, 3, 1),
+(30018, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_02.blp', 'Character\\Orc\\FacialUpperHair01_02.blp', '', 17, 3, 2),
+(30019, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_03.blp', 'Character\\Orc\\FacialUpperHair01_03.blp', '', 17, 3, 3),
+(30020, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_04.blp', 'Character\\Orc\\FacialUpperHair01_04.blp', '', 17, 3, 4),
+(30021, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_05.blp', 'Character\\Orc\\FacialUpperHair01_05.blp', '', 17, 3, 5),
+(30022, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_06.blp', 'Character\\Orc\\FacialUpperHair01_06.blp', '', 17, 3, 6),
+(30023, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_07.blp', 'Character\\Orc\\FacialUpperHair01_07.blp', '', 17, 3, 7),
+(30024, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_00.blp', 'Character\\Orc\\FacialUpperHair01_00.blp', '', 17, 4, 0),
+(30025, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_01.blp', 'Character\\Orc\\FacialUpperHair01_01.blp', '', 17, 4, 1),
+(30026, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_02.blp', 'Character\\Orc\\FacialUpperHair01_02.blp', '', 17, 4, 2),
+(30027, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_03.blp', 'Character\\Orc\\FacialUpperHair01_03.blp', '', 17, 4, 3),
+(30028, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_04.blp', 'Character\\Orc\\FacialUpperHair01_04.blp', '', 17, 4, 4),
+(30029, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_05.blp', 'Character\\Orc\\FacialUpperHair01_05.blp', '', 17, 4, 5),
+(30030, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_06.blp', 'Character\\Orc\\FacialUpperHair01_06.blp', '', 17, 4, 6),
+(30031, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_07.blp', 'Character\\Orc\\FacialUpperHair01_07.blp', '', 17, 4, 7),
+(30032, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_00.blp', 'Character\\Orc\\FacialUpperHair05_00.blp', '', 17, 5, 0),
+(30033, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_01.blp', 'Character\\Orc\\FacialUpperHair05_01.blp', '', 17, 5, 1),
+(30034, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_02.blp', 'Character\\Orc\\FacialUpperHair05_02.blp', '', 17, 5, 2),
+(30035, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_03.blp', 'Character\\Orc\\FacialUpperHair05_03.blp', '', 17, 5, 3),
+(30036, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_04.blp', 'Character\\Orc\\FacialUpperHair05_04.blp', '', 17, 5, 4),
+(30037, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_05.blp', 'Character\\Orc\\FacialUpperHair05_05.blp', '', 17, 5, 5),
+(30038, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_06.blp', 'Character\\Orc\\FacialUpperHair05_06.blp', '', 17, 5, 6),
+(30039, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_07.blp', 'Character\\Orc\\FacialUpperHair05_07.blp', '', 17, 5, 7),
+(30040, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_00.blp', 'Character\\Orc\\FacialUpperHair05_00.blp', '', 17, 6, 0),
+(30041, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_01.blp', 'Character\\Orc\\FacialUpperHair05_01.blp', '', 17, 6, 1),
+(30042, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_02.blp', 'Character\\Orc\\FacialUpperHair05_02.blp', '', 17, 6, 2),
+(30043, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_03.blp', 'Character\\Orc\\FacialUpperHair05_03.blp', '', 17, 6, 3),
+(30044, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_04.blp', 'Character\\Orc\\FacialUpperHair05_04.blp', '', 17, 6, 4),
+(30045, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_05.blp', 'Character\\Orc\\FacialUpperHair05_05.blp', '', 17, 6, 5),
+(30046, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_06.blp', 'Character\\Orc\\FacialUpperHair05_06.blp', '', 17, 6, 6),
+(30047, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_07.blp', 'Character\\Orc\\FacialUpperHair05_07.blp', '', 17, 6, 7),
+(30048, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_00.blp', 'Character\\Orc\\FacialUpperHair03_00.blp', '', 17, 7, 0),
+(30049, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_01.blp', 'Character\\Orc\\FacialUpperHair03_01.blp', '', 17, 7, 1),
+(30050, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_02.blp', 'Character\\Orc\\FacialUpperHair03_02.blp', '', 17, 7, 2),
+(30051, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_03.blp', 'Character\\Orc\\FacialUpperHair03_03.blp', '', 17, 7, 3),
+(30052, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_04.blp', 'Character\\Orc\\FacialUpperHair03_04.blp', '', 17, 7, 4),
+(30053, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_05.blp', 'Character\\Orc\\FacialUpperHair03_05.blp', '', 17, 7, 5),
+(30054, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_06.blp', 'Character\\Orc\\FacialUpperHair03_06.blp', '', 17, 7, 6),
+(30055, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_07.blp', 'Character\\Orc\\FacialUpperHair03_07.blp', '', 17, 7, 7),
+(30056, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_00.blp', 'Character\\Orc\\FacialUpperHair05_00.blp', '', 17, 8, 0),
+(30057, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_01.blp', 'Character\\Orc\\FacialUpperHair05_01.blp', '', 17, 8, 1),
+(30058, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_02.blp', 'Character\\Orc\\FacialUpperHair05_02.blp', '', 17, 8, 2),
+(30059, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_03.blp', 'Character\\Orc\\FacialUpperHair05_03.blp', '', 17, 8, 3),
+(30060, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_04.blp', 'Character\\Orc\\FacialUpperHair05_04.blp', '', 17, 8, 4),
+(30061, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_05.blp', 'Character\\Orc\\FacialUpperHair05_05.blp', '', 17, 8, 5),
+(30062, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_06.blp', 'Character\\Orc\\FacialUpperHair05_06.blp', '', 17, 8, 6),
+(30063, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_07.blp', 'Character\\Orc\\FacialUpperHair05_07.blp', '', 17, 8, 7),
+(30064, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_00.blp', 'Character\\Orc\\FacialUpperHair04_00.blp', '', 17, 9, 0),
+(30065, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_01.blp', 'Character\\Orc\\FacialUpperHair04_01.blp', '', 17, 9, 1),
+(30066, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_02.blp', 'Character\\Orc\\FacialUpperHair04_02.blp', '', 17, 9, 2),
+(30067, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_03.blp', 'Character\\Orc\\FacialUpperHair04_03.blp', '', 17, 9, 3),
+(30068, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_04.blp', 'Character\\Orc\\FacialUpperHair04_04.blp', '', 17, 9, 4),
+(30069, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_05.blp', 'Character\\Orc\\FacialUpperHair04_05.blp', '', 17, 9, 5),
+(30070, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_06.blp', 'Character\\Orc\\FacialUpperHair04_06.blp', '', 17, 9, 6),
+(30071, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_07.blp', 'Character\\Orc\\FacialUpperHair04_07.blp', '', 17, 9, 7),
+(30072, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_00.blp', 'Character\\Orc\\FacialUpperHair03_00.blp', '', 17, 10, 0),
+(30073, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_01.blp', 'Character\\Orc\\FacialUpperHair03_01.blp', '', 17, 10, 1),
+(30074, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_02.blp', 'Character\\Orc\\FacialUpperHair03_02.blp', '', 17, 10, 2),
+(30075, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_03.blp', 'Character\\Orc\\FacialUpperHair03_03.blp', '', 17, 10, 3),
+(30076, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_04.blp', 'Character\\Orc\\FacialUpperHair03_04.blp', '', 17, 10, 4),
+(30077, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_05.blp', 'Character\\Orc\\FacialUpperHair03_05.blp', '', 17, 10, 5),
+(30078, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_06.blp', 'Character\\Orc\\FacialUpperHair03_06.blp', '', 17, 10, 6),
+(30079, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_07.blp', 'Character\\Orc\\FacialUpperHair03_07.blp', '', 17, 10, 7),
+(30080, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 17, 0, 0),
+(30081, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 17, 0, 1),
+(30082, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 17, 0, 2),
+(30083, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 17, 0, 3),
+(30084, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 17, 0, 4),
+(30085, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 17, 0, 5),
+(30086, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 17, 0, 6),
+(30087, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 17, 0, 7),
+(30088, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair04_00.blp', 'Character\\Orc\\ScalpUpperHair04_00.blp', 17, 1, 0),
+(30089, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair04_01.blp', 'Character\\Orc\\ScalpUpperHair04_01.blp', 17, 1, 1),
+(30090, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair04_02.blp', 'Character\\Orc\\ScalpUpperHair04_02.blp', 17, 1, 2),
+(30091, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair04_03.blp', 'Character\\Orc\\ScalpUpperHair04_03.blp', 17, 1, 3),
+(30092, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair04_04.blp', 'Character\\Orc\\ScalpUpperHair04_04.blp', 17, 1, 4),
+(30093, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair04_05.blp', 'Character\\Orc\\ScalpUpperHair04_05.blp', 17, 1, 5),
+(30094, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair04_06.blp', 'Character\\Orc\\ScalpUpperHair04_06.blp', 17, 1, 6),
+(30095, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair04_07.blp', 'Character\\Orc\\ScalpUpperHair04_07.blp', 17, 1, 7),
+(30096, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 17, 2, 0),
+(30097, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 17, 2, 1),
+(30098, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 17, 2, 2),
+(30099, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 17, 2, 3),
+(30100, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 17, 2, 4),
+(30101, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 17, 2, 5),
+(30102, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 17, 2, 6),
+(30103, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 17, 2, 7),
+(30104, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair05_00.blp', 'Character\\Orc\\ScalpUpperHair05_00.blp', 17, 3, 0),
+(30105, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair05_01.blp', 'Character\\Orc\\ScalpUpperHair05_01.blp', 17, 3, 1),
+(30106, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair05_02.blp', 'Character\\Orc\\ScalpUpperHair05_02.blp', 17, 3, 2),
+(30107, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair05_03.blp', 'Character\\Orc\\ScalpUpperHair05_03.blp', 17, 3, 3),
+(30108, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair05_04.blp', 'Character\\Orc\\ScalpUpperHair05_04.blp', 17, 3, 4),
+(30109, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair05_05.blp', 'Character\\Orc\\ScalpUpperHair05_05.blp', 17, 3, 5),
+(30110, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair05_06.blp', 'Character\\Orc\\ScalpUpperHair05_06.blp', 17, 3, 6),
+(30111, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair05_07.blp', 'Character\\Orc\\ScalpUpperHair05_07.blp', 17, 3, 7),
+(30112, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair06_00.blp', 'Character\\Orc\\ScalpUpperHair06_00.blp', 17, 4, 0),
+(30113, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair06_01.blp', 'Character\\Orc\\ScalpUpperHair06_01.blp', 17, 4, 1),
+(30114, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair06_02.blp', 'Character\\Orc\\ScalpUpperHair06_02.blp', 17, 4, 2),
+(30115, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair06_03.blp', 'Character\\Orc\\ScalpUpperHair06_03.blp', 17, 4, 3),
+(30116, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair06_04.blp', 'Character\\Orc\\ScalpUpperHair06_04.blp', 17, 4, 4),
+(30117, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair06_05.blp', 'Character\\Orc\\ScalpUpperHair06_05.blp', 17, 4, 5),
+(30118, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair06_06.blp', 'Character\\Orc\\ScalpUpperHair06_06.blp', 17, 4, 6),
+(30119, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair06_07.blp', 'Character\\Orc\\ScalpUpperHair06_07.blp', 17, 4, 7),
+(30120, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair07_00.blp', 'Character\\Orc\\ScalpUpperHair07_00.blp', 17, 5, 0),
+(30121, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair07_01.blp', 'Character\\Orc\\ScalpUpperHair07_01.blp', 17, 5, 1),
+(30122, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair07_02.blp', 'Character\\Orc\\ScalpUpperHair07_02.blp', 17, 5, 2),
+(30123, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair07_03.blp', 'Character\\Orc\\ScalpUpperHair07_03.blp', 17, 5, 3),
+(30124, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair07_04.blp', 'Character\\Orc\\ScalpUpperHair07_04.blp', 17, 5, 4),
+(30125, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair07_05.blp', 'Character\\Orc\\ScalpUpperHair07_05.blp', 17, 5, 5),
+(30126, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair07_06.blp', 'Character\\Orc\\ScalpUpperHair07_06.blp', 17, 5, 6),
+(30127, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair07_07.blp', 'Character\\Orc\\ScalpUpperHair07_07.blp', 17, 5, 7),
+(30128, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 17, 6, 0),
+(30129, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 17, 6, 1),
+(30130, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 17, 6, 2),
+(30131, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 17, 6, 3),
+(30132, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 17, 6, 4),
+(30133, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 17, 6, 5),
+(30134, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 17, 6, 6),
+(30135, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 17, 6, 7),
+(30136, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', '', '', 17, 7, 0),
+(30137, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', '', '', 17, 7, 1),
+(30138, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', '', '', 17, 7, 2),
+(30139, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', '', '', 17, 7, 3),
+(30140, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', '', '', 17, 7, 4),
+(30141, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', '', '', 17, 7, 5),
+(30142, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', '', '', 17, 7, 6),
+(30143, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', '', '', 17, 7, 7),
+(30144, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 0),
+(30145, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 1),
+(30146, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 2),
+(30147, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 3),
+(30148, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 4),
+(30149, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 5),
+(30150, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 6),
+(30151, @MagharOrc, @Male, @FacialHair, '', '', '', 17, 0, 7),
+(30152, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 0),
+(30153, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 1),
+(30154, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 2),
+(30155, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 3),
+(30156, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 4),
+(30157, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 5),
+(30158, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 6),
+(30159, @MagharOrc, @Male, @Hair, '', '', '', 17, 0, 7),
+(30160, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 17, 1, 0),
+(30161, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 17, 1, 1),
+(30162, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 17, 1, 2),
+(30163, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 17, 1, 3),
+(30164, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 17, 1, 4),
+(30165, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 17, 1, 5),
+(30166, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 17, 1, 6),
+(30167, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 17, 1, 7),
+(30168, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 17, 2, 0),
+(30169, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 17, 2, 1),
+(30170, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 17, 2, 2),
+(30171, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 17, 2, 3),
+(30172, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 17, 2, 4),
+(30173, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 17, 2, 5),
+(30174, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 17, 2, 6),
+(30175, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 17, 2, 7),
+(30176, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 17, 3, 0),
+(30177, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 17, 3, 1),
+(30178, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 17, 3, 2),
+(30179, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 17, 3, 3),
+(30180, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 17, 3, 4),
+(30181, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 17, 3, 5),
+(30182, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 17, 3, 6),
+(30183, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 17, 3, 7),
+(30184, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair02_00.blp', 'Character\\Orc\\ScalpUpperHair02_00.blp', 17, 4, 0),
+(30185, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair02_01.blp', 'Character\\Orc\\ScalpUpperHair02_01.blp', 17, 4, 1),
+(30186, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair02_02.blp', 'Character\\Orc\\ScalpUpperHair02_02.blp', 17, 4, 2),
+(30187, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair02_03.blp', 'Character\\Orc\\ScalpUpperHair02_03.blp', 17, 4, 3),
+(30188, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair02_04.blp', 'Character\\Orc\\ScalpUpperHair02_04.blp', 17, 4, 4),
+(30189, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair02_05.blp', 'Character\\Orc\\ScalpUpperHair02_05.blp', 17, 4, 5),
+(30190, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair02_06.blp', 'Character\\Orc\\ScalpUpperHair02_06.blp', 17, 4, 6),
+(30191, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair02_07.blp', 'Character\\Orc\\ScalpUpperHair02_07.blp', 17, 4, 7),
+(30192, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair03_00.blp', 'Character\\Orc\\ScalpUpperHair03_00.blp', 17, 5, 0),
+(30193, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair03_01.blp', 'Character\\Orc\\ScalpUpperHair03_01.blp', 17, 5, 1),
+(30194, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair03_02.blp', 'Character\\Orc\\ScalpUpperHair03_02.blp', 17, 5, 2),
+(30195, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair03_03.blp', 'Character\\Orc\\ScalpUpperHair03_03.blp', 17, 5, 3),
+(30196, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair03_04.blp', 'Character\\Orc\\ScalpUpperHair03_04.blp', 17, 5, 4),
+(30197, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair03_05.blp', 'Character\\Orc\\ScalpUpperHair03_05.blp', 17, 5, 5),
+(30198, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair03_06.blp', 'Character\\Orc\\ScalpUpperHair03_06.blp', 17, 5, 6),
+(30199, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair03_07.blp', 'Character\\Orc\\ScalpUpperHair03_07.blp', 17, 5, 7),
+(30200, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair04_00.blp', 'Character\\Orc\\ScalpUpperHair04_00.blp', 17, 6, 0),
+(30201, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair04_01.blp', 'Character\\Orc\\ScalpUpperHair04_01.blp', 17, 6, 1),
+(30202, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair04_02.blp', 'Character\\Orc\\ScalpUpperHair04_02.blp', 17, 6, 2),
+(30203, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair04_03.blp', 'Character\\Orc\\ScalpUpperHair04_03.blp', 17, 6, 3),
+(30204, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair04_04.blp', 'Character\\Orc\\ScalpUpperHair04_04.blp', 17, 6, 4),
+(30205, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair04_05.blp', 'Character\\Orc\\ScalpUpperHair04_05.blp', 17, 6, 5),
+(30206, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair04_06.blp', 'Character\\Orc\\ScalpUpperHair04_06.blp', 17, 6, 6),
+(30207, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair04_07.blp', 'Character\\Orc\\ScalpUpperHair04_07.blp', 17, 6, 7),
+(30208, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', '', '', 18, 7, 0),
+(30209, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', '', '', 18, 7, 1),
+(30210, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', '', '', 18, 7, 2),
+(30211, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', '', '', 18, 7, 3),
+(30212, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', '', '', 18, 7, 4),
+(30213, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', '', '', 18, 7, 5),
+(30214, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', '', '', 18, 7, 6),
+(30215, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', '', '', 18, 7, 7),
+(30216, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', '', '', 18, 8, 0),
+(30217, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', '', '', 18, 8, 1),
+(30218, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', '', '', 18, 8, 2),
+(30219, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', '', '', 18, 8, 3),
+(30220, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', '', '', 18, 8, 4),
+(30221, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', '', '', 18, 8, 5),
+(30222, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', '', '', 18, 8, 6),
+(30223, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', '', '', 18, 8, 7),
+(30224, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair00_00.blp', 18, 9, 0),
+(30225, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair00_01.blp', 18, 9, 1),
+(30226, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair00_02.blp', 18, 9, 2),
+(30227, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair00_03.blp', 18, 9, 3),
+(30228, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair00_04.blp', 18, 9, 4),
+(30229, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair00_05.blp', 18, 9, 5),
+(30230, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair00_06.blp', 18, 9, 6),
+(30231, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair00_07.blp', 18, 9, 7),
+(30232, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair02_00.blp', 'Character\\Orc\\ScalpUpperHair02_00.blp', 18, 10, 0),
+(30233, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair02_01.blp', 'Character\\Orc\\ScalpUpperHair02_01.blp', 18, 10, 1),
+(30234, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair02_02.blp', 'Character\\Orc\\ScalpUpperHair02_02.blp', 18, 10, 2),
+(30235, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair02_03.blp', 'Character\\Orc\\ScalpUpperHair02_03.blp', 18, 10, 3),
+(30236, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair02_04.blp', 'Character\\Orc\\ScalpUpperHair02_04.blp', 18, 10, 4),
+(30237, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair02_05.blp', 'Character\\Orc\\ScalpUpperHair02_05.blp', 18, 10, 5),
+(30238, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair02_06.blp', 'Character\\Orc\\ScalpUpperHair02_06.blp', 18, 10, 6),
+(30239, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair02_07.blp', 'Character\\Orc\\ScalpUpperHair02_07.blp', 18, 10, 7),
+(30240, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair02_00.blp', 'Character\\Orc\\ScalpUpperHair02_00.blp', 18, 11, 0),
+(30241, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair02_01.blp', 'Character\\Orc\\ScalpUpperHair02_01.blp', 18, 11, 1),
+(30242, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair02_02.blp', 'Character\\Orc\\ScalpUpperHair02_02.blp', 18, 11, 2),
+(30243, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair02_03.blp', 'Character\\Orc\\ScalpUpperHair02_03.blp', 18, 11, 3),
+(30244, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair02_04.blp', 'Character\\Orc\\ScalpUpperHair02_04.blp', 18, 11, 4),
+(30245, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair02_05.blp', 'Character\\Orc\\ScalpUpperHair02_05.blp', 18, 11, 5),
+(30246, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair02_06.blp', 'Character\\Orc\\ScalpUpperHair02_06.blp', 18, 11, 6),
+(30247, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair02_07.blp', 'Character\\Orc\\ScalpUpperHair02_07.blp', 18, 11, 7),
+(30248, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair01_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 8, 0),
+(30249, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair01_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 8, 1),
+(30250, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair01_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 8, 2),
+(30251, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair01_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 8, 3),
+(30252, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair01_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 8, 4),
+(30253, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair01_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 8, 5),
+(30254, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair01_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 8, 6),
+(30255, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair01_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 8, 7),
+(30256, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 9, 0),
+(30257, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 9, 1),
+(30258, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 9, 2),
+(30259, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 9, 3),
+(30260, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 9, 4),
+(30261, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 9, 5),
+(30262, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 9, 6),
+(30263, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 9, 7),
+(30264, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 10, 0),
+(30265, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 10, 1),
+(30266, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 10, 2),
+(30267, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 10, 3),
+(30268, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 10, 4),
+(30269, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 10, 5),
+(30270, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 10, 6),
+(30271, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 10, 7),
+(30272, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 11, 0),
+(30273, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 11, 1),
+(30274, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 11, 2),
+(30275, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 11, 3),
+(30276, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 11, 4),
+(30277, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 11, 5),
+(30278, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 11, 6),
+(30279, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 11, 7),
+(30280, @MagharOrc, @Male, @Hair, '', '', '', 5, 0, 8),
+(30281, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 5, 1, 8),
+(30282, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 5, 2, 8),
+(30283, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 5, 3, 8),
+(30284, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair02_08.blp', 'Character\\Orc\\ScalpUpperHair02_08.blp', 5, 4, 8),
+(30285, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair03_08.blp', 'Character\\Orc\\ScalpUpperHair03_08.blp', 5, 5, 8),
+(30286, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair04_08.blp', 'Character\\Orc\\ScalpUpperHair04_08.blp', 5, 6, 8),
+(30287, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', '', '', 6, 7, 8),
+(30288, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', '', '', 6, 8, 8),
+(30289, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 6, 9, 8),
+(30290, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair02_08.blp', 'Character\\Orc\\ScalpUpperHair02_08.blp', 6, 10, 8),
+(30291, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair02_08.blp', 'Character\\Orc\\ScalpUpperHair02_08.blp', 6, 11, 8),
+(30292, @MagharOrc, @Male, @FacialHair, '', '', '', 5, 0, 8),
+(30293, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_08.blp', 'Character\\Orc\\FacialUpperHair00_08.blp', '', 5, 1, 8),
+(30294, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_08.blp', 'Character\\Orc\\FacialUpperHair02_08.blp', '', 5, 2, 8),
+(30295, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_08.blp', 'Character\\Orc\\FacialUpperHair01_08.blp', '', 5, 3, 8),
+(30296, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_08.blp', 'Character\\Orc\\FacialUpperHair01_08.blp', '', 5, 4, 8),
+(30297, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_08.blp', '', '', 5, 5, 8),
+(30298, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_08.blp', '', '', 5, 6, 8),
+(30299, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_08.blp', 'Character\\Orc\\FacialUpperHair03_08.blp', '', 5, 7, 8),
+(30300, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_08.blp', '', '', 5, 8, 8),
+(30301, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_08.blp', 'Character\\Orc\\FacialUpperHair04_08.blp', '', 5, 9, 8),
+(30302, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_08.blp', 'Character\\Orc\\FacialUpperHair03_08.blp', '', 5, 10, 8),
+(30303, @MagharOrc, @Male, @Hair, '', '', '', 5, 0, 9),
+(30304, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 5, 1, 9),
+(30305, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 5, 2, 9),
+(30306, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 5, 3, 9),
+(30307, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair02_09.blp', 'Character\\Orc\\ScalpUpperHair02_09.blp', 5, 4, 9),
+(30308, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair03_09.blp', 'Character\\Orc\\ScalpUpperHair03_09.blp', 5, 5, 9),
+(30309, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair04_09.blp', 'Character\\Orc\\ScalpUpperHair04_09.blp', 5, 6, 9),
+(30310, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', '', '', 6, 7, 9),
+(30311, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', '', '', 6, 8, 9),
+(30312, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 6, 9, 9),
+(30313, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair02_09.blp', 'Character\\Orc\\ScalpUpperHair02_09.blp', 6, 10, 9),
+(30314, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair02_09.blp', 'Character\\Orc\\ScalpUpperHair02_09.blp', 6, 11, 9),
+(30315, @MagharOrc, @Male, @FacialHair, '', '', '', 5, 0, 9),
+(30316, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_09.blp', 'Character\\Orc\\FacialUpperHair00_09.blp', '', 5, 1, 9),
+(30317, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_09.blp', 'Character\\Orc\\FacialUpperHair02_09.blp', '', 5, 2, 9),
+(30318, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_09.blp', 'Character\\Orc\\FacialUpperHair01_09.blp', '', 5, 3, 9),
+(30319, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_09.blp', 'Character\\Orc\\FacialUpperHair01_09.blp', '', 5, 4, 9),
+(30320, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_09.blp', '', '', 5, 5, 9),
+(30321, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_09.blp', '', '', 5, 6, 9),
+(30322, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_09.blp', 'Character\\Orc\\FacialUpperHair03_09.blp', '', 5, 7, 9),
+(30323, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_09.blp', '', '', 5, 8, 9),
+(30324, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_09.blp', 'Character\\Orc\\FacialUpperHair04_09.blp', '', 5, 9, 9),
+(30325, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_09.blp', 'Character\\Orc\\FacialUpperHair03_09.blp', '', 5, 10, 9),
+(30326, @MagharOrc, @Male, @Hair, '', '', '', 5, 0, 10),
+(30327, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 5, 1, 10),
+(30328, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 5, 2, 10),
+(30329, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 5, 3, 10),
+(30330, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair02_10.blp', 'Character\\Orc\\ScalpUpperHair02_10.blp', 5, 4, 10),
+(30331, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair03_10.blp', 'Character\\Orc\\ScalpUpperHair03_10.blp', 5, 5, 10),
+(30332, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair04_10.blp', 'Character\\Orc\\ScalpUpperHair04_10.blp', 5, 6, 10),
+(30333, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', '', '', 6, 7, 10),
+(30334, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', '', '', 6, 8, 10),
+(30335, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 6, 9, 10),
+(30336, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair02_10.blp', 'Character\\Orc\\ScalpUpperHair02_10.blp', 6, 10, 10),
+(30337, @MagharOrc, @Male, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair02_10.blp', 'Character\\Orc\\ScalpUpperHair02_10.blp', 6, 11, 10),
+(30338, @MagharOrc, @Male, @FacialHair, '', '', '', 5, 0, 10),
+(30339, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair00_10.blp', 'Character\\Orc\\FacialUpperHair00_10.blp', '', 5, 1, 10),
+(30340, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair02_10.blp', 'Character\\Orc\\FacialUpperHair02_10.blp', '', 5, 2, 10),
+(30341, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_10.blp', 'Character\\Orc\\FacialUpperHair01_10.blp', '', 5, 3, 10),
+(30342, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair01_10.blp', 'Character\\Orc\\FacialUpperHair01_10.blp', '', 5, 4, 10),
+(30343, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_10.blp', '', '', 5, 5, 10),
+(30344, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_10.blp', '', '', 5, 6, 10),
+(30345, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_10.blp', 'Character\\Orc\\FacialUpperHair03_10.blp', '', 5, 7, 10),
+(30346, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair05_10.blp', '', '', 5, 8, 10),
+(30347, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair04_10.blp', 'Character\\Orc\\FacialUpperHair04_10.blp', '', 5, 9, 10),
+(30348, @MagharOrc, @Male, @FacialHair, 'Character\\Orc\\FacialLowerHair03_10.blp', 'Character\\Orc\\FacialUpperHair03_10.blp', '', 5, 10, 10),
+(30349, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair00_08.blp', 5, 0, 8),
+(30350, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair04_08.blp', 'Character\\Orc\\ScalpUpperHair04_08.blp', 5, 1, 8),
+(30351, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 5, 2, 8),
+(30352, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair05_08.blp', 'Character\\Orc\\ScalpUpperHair05_08.blp', 5, 3, 8),
+(30353, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair06_08.blp', 'Character\\Orc\\ScalpUpperHair06_08.blp', 5, 4, 8),
+(30354, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair07_08.blp', 'Character\\Orc\\ScalpUpperHair07_08.blp', 5, 5, 8),
+(30355, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 5, 6, 8),
+(30356, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', '', '', 5, 7, 8),
+(30357, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair01_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 8, 8),
+(30358, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 9, 8),
+(30359, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 10, 8),
+(30360, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 11, 8),
+(30361, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair00_09.blp', 5, 0, 9),
+(30362, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair04_09.blp', 'Character\\Orc\\ScalpUpperHair04_09.blp', 5, 1, 9),
+(30363, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 5, 2, 9),
+(30364, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair05_09.blp', 'Character\\Orc\\ScalpUpperHair05_09.blp', 5, 3, 9),
+(30365, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair06_09.blp', 'Character\\Orc\\ScalpUpperHair06_09.blp', 5, 4, 9),
+(30366, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair07_09.blp', 'Character\\Orc\\ScalpUpperHair07_09.blp', 5, 5, 9),
+(30367, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 5, 6, 9),
+(30368, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', '', '', 5, 7, 9),
+(30369, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair01_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 8, 9),
+(30370, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 9, 9),
+(30371, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 10, 9),
+(30372, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 11, 9),
+(30373, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair00_10.blp', 5, 0, 10),
+(30374, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair04_10.blp', 'Character\\Orc\\ScalpUpperHair04_10.blp', 5, 1, 10),
+(30375, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 5, 2, 10),
+(30376, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair05_10.blp', 'Character\\Orc\\ScalpUpperHair05_10.blp', 5, 3, 10),
+(30377, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair06_10.blp', 'Character\\Orc\\ScalpUpperHair06_10.blp', 5, 4, 10),
+(30378, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair07_10.blp', 'Character\\Orc\\ScalpUpperHair07_10.blp', 5, 5, 10),
+(30379, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 5, 6, 10),
+(30380, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', '', '', 5, 7, 10),
+(30381, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair01_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 8, 10),
+(30382, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 9, 10),
+(30383, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 10, 10),
+(30384, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 11, 10),
+(30385, @MagharOrc, @Female, @Skin, 'Character\\Orc\\Female\\OrcFemaleSkin00_09.blp', '', '', 17, 0, 0),
+(30386, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower00_09.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper00_09.blp', '', 1, 0, 0),
+(30387, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower07_09.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper07_09.blp', '', 1, 7, 0),
+(30388, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower08_09.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper08_09.blp', '', 1, 8, 0),
+(30389, @MagharOrc, @Female, @Underwear, 'Character\\Orc\\Female\\OrcFemaleNakedPelvisSkin00_09.blp', 'Character\\Orc\\Female\\OrcFemaleNakedTorsoSkin00_09.blp', '', 17, 0, 0),
+(30390, @MagharOrc, @Female, @Skin, 'Character\\Orc\\Female\\OrcFemaleSkin00_10.blp', '', '', 17, 0, 1),
+(30391, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower00_10.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper00_10.blp', '', 1, 0, 1),
+(30392, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower07_10.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper07_10.blp', '', 1, 7, 1),
+(30393, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower08_10.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper08_10.blp', '', 1, 8, 1),
+(30394, @MagharOrc, @Female, @Underwear, 'Character\\Orc\\Female\\OrcFemaleNakedPelvisSkin00_10.blp', 'Character\\Orc\\Female\\OrcFemaleNakedTorsoSkin00_10.blp', '', 17, 0, 1),
+(30395, @MagharOrc, @Female, @Skin, 'Character\\Orc\\Female\\OrcFemaleSkin00_11.blp', '', '', 17, 0, 2),
+(30396, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower00_11.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper00_11.blp', '', 1, 0, 2),
+(30397, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower07_11.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper07_11.blp', '', 1, 7, 2),
+(30398, @MagharOrc, @Female, @Face, 'Character\\Maghar\\Female\\OrcFemaleFaceLower08_11.blp', 'Character\\Orc\\Female\\OrcFemaleFaceUpper08_11.blp', '', 1, 8, 2),
+(30399, @MagharOrc, @Female, @Underwear, 'Character\\Orc\\Female\\OrcFemaleNakedPelvisSkin00_11.blp', 'Character\\Orc\\Female\\OrcFemaleNakedTorsoSkin00_11.blp', '', 17, 0, 2),
+(30400, @MagharOrc, @Male, @Skin, 'Character\\Orc\\Male\\OrcMaleSkin00_09.blp', '', '', 17, 0, 0),
+(30401, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower00_09.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper00_09.blp', '', 1, 0, 0),
+(30402, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower01_09.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper01_09.blp', '', 1, 1, 0),
+(30403, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower05_09.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper05_09.blp', '', 1, 5, 0),
+(30404, @MagharOrc, @Male, @Underwear, 'Character\\Orc\\Male\\OrcMaleNakedPelvisSkin00_09.blp', '', '', 17, 0, 0),
+(30405, @MagharOrc, @Male, @Skin, 'Character\\Orc\\Male\\OrcMaleSkin00_10.blp', '', '', 17, 0, 1),
+(30406, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower00_10.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper00_10.blp', '', 1, 0, 1),
+(30407, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower01_10.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper01_10.blp', '', 1, 1, 1),
+(30408, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower05_10.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper05_10.blp', '', 1, 5, 1),
+(30409, @MagharOrc, @Male, @Underwear, 'Character\\Orc\\Male\\OrcMaleNakedPelvisSkin00_10.blp', '', '', 17, 0, 1),
+(30410, @MagharOrc, @Male, @Skin, 'Character\\Orc\\Male\\OrcMaleSkin00_11.blp', '', '', 17, 0, 2),
+(30411, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower00_11.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper00_11.blp', '', 1, 0, 2),
+(30412, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower01_11.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper01_11.blp', '', 1, 1, 2),
+(30413, @MagharOrc, @Male, @Face, 'Character\\Maghar\\Male\\OrcMaleFaceLower05_11.blp', 'Character\\Orc\\Male\\OrcMaleFaceUpper05_11.blp', '', 1, 5, 2),
+(30414, @MagharOrc, @Male, @Underwear, 'Character\\Orc\\Male\\OrcMaleNakedPelvisSkin00_11.blp', '', '', 17, 0, 2),
+(30415, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_00.blp', 'Character\\Orc\\ScalpLowerHair00_00.blp', 'Character\\Orc\\ScalpUpperHair01_00.blp', 18, 12, 0),
+(30416, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_01.blp', 'Character\\Orc\\ScalpLowerHair00_01.blp', 'Character\\Orc\\ScalpUpperHair01_01.blp', 18, 12, 1),
+(30417, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_02.blp', 'Character\\Orc\\ScalpLowerHair00_02.blp', 'Character\\Orc\\ScalpUpperHair01_02.blp', 18, 12, 2),
+(30418, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_03.blp', 'Character\\Orc\\ScalpLowerHair00_03.blp', 'Character\\Orc\\ScalpUpperHair01_03.blp', 18, 12, 3),
+(30419, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_04.blp', 'Character\\Orc\\ScalpLowerHair00_04.blp', 'Character\\Orc\\ScalpUpperHair01_04.blp', 18, 12, 4),
+(30420, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_05.blp', 'Character\\Orc\\ScalpLowerHair00_05.blp', 'Character\\Orc\\ScalpUpperHair01_05.blp', 18, 12, 5),
+(30421, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_06.blp', 'Character\\Orc\\ScalpLowerHair00_06.blp', 'Character\\Orc\\ScalpUpperHair01_06.blp', 18, 12, 6),
+(30422, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_07.blp', 'Character\\Orc\\ScalpLowerHair00_07.blp', 'Character\\Orc\\ScalpUpperHair01_07.blp', 18, 12, 7),
+(30423, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_08.blp', 'Character\\Orc\\ScalpLowerHair00_08.blp', 'Character\\Orc\\ScalpUpperHair01_08.blp', 6, 12, 8),
+(30424, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_09.blp', 'Character\\Orc\\ScalpLowerHair00_09.blp', 'Character\\Orc\\ScalpUpperHair01_09.blp', 6, 12, 9),
+(30425, @MagharOrc, @Female, @Hair, 'Character\\Orc\\Hair00_10.blp', 'Character\\Orc\\ScalpLowerHair00_10.blp', 'Character\\Orc\\ScalpUpperHair01_10.blp', 6, 12, 10);
