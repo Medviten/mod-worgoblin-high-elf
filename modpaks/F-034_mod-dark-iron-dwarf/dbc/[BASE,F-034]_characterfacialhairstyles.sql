@@ -1,4 +1,4 @@
--- characterfacialhairstyles: 21 inserts, 3 updates, 39 deletes
+-- characterfacialhairstyles: 16 inserts, 0 updates, 0 deletes
 
 -- Insertions
 DELETE FROM `characterfacialhairstyles` WHERE `race` IN (@DarkIronDwarf, @DarkIronDwarf);
