@@ -86,7 +86,7 @@ UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @High
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask WHERE `id` = 1073;
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask WHERE `id` = 1082;
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask WHERE `id` = 1085;
-UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask `reputation_race_mask_3` = `reputation_race_mask_3` | @HighElfMask WHERE `id` = 1090;
+UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask, `reputation_race_mask_3` = `reputation_race_mask_3` | @HighElfMask WHERE `id` = 1090;
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask WHERE `id` = 1091;
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask WHERE `id` = 1094;
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @HighElfMask WHERE `id` = 1104;
