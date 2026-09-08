@@ -3,5 +3,5 @@ INSERT INTO `faction` (`id`, `reputation_index`, `reputation_race_mask_1`, `repu
 (@ZandalariTrollPlayer, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', 5, 5, '"PLAYER"," Mag\'har Orc"', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712188),
 (@ZandalariTrollFaction, @ZandalariTrollFactionRepIndex, @BarrensBros & ~@ZandalariTrollMask, @AllianceMask, @ZandalariTrollMask, @UndercityMask, 0, 0, 0, 0, 3100, -42000, 4000, 500, 273, 6, 17, 17, 67, '1.0000000000000000', '0.2500000000000000', 7, 5, 'Zuldazar', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 'The capital of the Zandalari Empire', '', '', '', '', '', '', '.', '', '', '', '', '', '', '', '', 16712190);
 
-UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @ZandalariTrollMask, `reputation_race_mask_2` = @AllianceMask, `reputation_race_mask_4` = @UndercityMask WHERE `id` IN (@OrcFaction, @TaurenFaction, @TrollFaction);
-UPDATE `faction` SET `reputation_race_mask_1` = @UndercityMask, `reputation_race_mask_2` = @AllianceMask, `reputation_race_mask_4` = @BarrensBros WHERE `id` IN (@UndeadFaction, @BloodElfFaction);
+UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @ZandalariTrollMask WHERE `id` IN (@OrcFaction, @TaurenFaction, @TrollFaction);
+UPDATE `faction` SET `reputation_race_mask_4` = `reputation_race_mask_4` | @ZandalariTroll WHERE `id` IN (@UndeadFaction, @BloodElfFaction);
