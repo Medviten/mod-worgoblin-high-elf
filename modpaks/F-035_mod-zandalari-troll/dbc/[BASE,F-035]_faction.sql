@@ -4,4 +4,4 @@ INSERT INTO `faction` (`id`, `reputation_index`, `reputation_race_mask_1`, `repu
 (@ZandalariTrollFaction, @ZandalariTrollFactionRepIndex, @BarrensBros & ~@ZandalariTrollMask, @AllianceMask, @ZandalariTrollMask, @UndercityMask, 0, 0, 0, 0, 3100, -42000, 4000, 500, 273, 6, 17, 17, 67, '1.0000000000000000', '0.2500000000000000', 7, 5, 'Zuldazar', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 'The capital of the Zandalari Empire', '', '', '', '', '', '', '.', '', '', '', '', '', '', '', '', 16712190);
 
 UPDATE `faction` SET `reputation_race_mask_1` = `reputation_race_mask_1` | @ZandalariTrollMask WHERE `id` IN (@OrcFaction, @TaurenFaction, @TrollFaction);
-UPDATE `faction` SET `reputation_race_mask_4` = `reputation_race_mask_4` | @ZandalariTrollMask WHERE `id` IN (@UndeadFaction, @BloodElfFaction);
+UPDATE `faction` SET `reputation_race_mask_3` = `reputation_race_mask_3` | @ZandalariTrollMask WHERE `id` IN (@UndeadFaction, @BloodElfFaction);
