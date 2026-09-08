@@ -5,9 +5,9 @@ UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask
 WHERE (`race_mask` & @TrollMask) <> 0;
 
 -- Dedicated racial skill line.
-DELETE FROM `skillraceclassinfo` WHERE `id` = 1143;
-INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`)
-VALUES (1143, @ZandalariTrollRacials, @ZandalariTrollMask, @AllClassMask, 1170, 0, 0, 0);
+-- DELETE FROM `skillraceclassinfo` WHERE `id` = 1143;
+-- INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`)
+-- VALUES (1143, @ZandalariTrollRacials, @ZandalariTrollMask, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 21; -- Skill 293: Plate Mail
@@ -24,7 +24,6 @@ UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask 
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 38; -- Skill 260: NULL
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 40; -- Skill 98: Language: Common
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 48; -- Skill 109: Language: Orcish
-UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 49; -- Skill 109: Language: Orcish
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 54; -- Skill 130: NULL
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 59; -- Skill 96: NULL
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask WHERE `id` = 62; -- Skill 268: NULL
