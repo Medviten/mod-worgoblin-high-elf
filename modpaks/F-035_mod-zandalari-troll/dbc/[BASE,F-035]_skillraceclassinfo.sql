@@ -2,7 +2,7 @@
 
 -- Give Zandalari every skill permission a normal troll has.
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @ZandalariTrollMask
-WHERE (`race_mask` & @DwarfMask) <> 0;
+WHERE (`race_mask` & @TrollMask) <> 0;
 
 -- Dedicated racial skill line.
 DELETE FROM `skillraceclassinfo` WHERE `id` = 1143;
