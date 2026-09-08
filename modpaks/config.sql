@@ -23,7 +23,7 @@ SET @Worgen                          =   12;
 SET @HighElf                         =   13;
 SET @MagharOrc                       =   14;
 SET @Ogre                            =   15;
--- SET @DarkIronDwarf                   =   16;
+SET @DarkIronDwarf                   =   16;
 SET @Gilnean                         =   23;
 
 -- NPC Races
@@ -54,7 +54,7 @@ SET @WorgenMask                      = 1 << (12 - 1);  -- race ID 12 → 2048
 SET @HighElfMask                     = 1 << (13 - 1);  -- race ID 13 → 4096
 SET @MagharOrcMask                   = 1 << (14 - 1);  -- race ID 14 → 8192
 SET @OgreMask                        = 1 << (15 - 1);  -- race ID 15 → 16384
--- SET @DarkIronDwarfMask               = 1 << (16 - 1);  -- race ID 16 → 32768
+SET @DarkIronDwarfMask               = 1 << (16 - 1);  -- race ID 16 → 32768
 SET @GilneanMask                     = 1 << (23 - 1);  -- race ID 23 → 4194304
 
 -- New Race Models
@@ -70,8 +70,8 @@ SET @MagharOrcMaleModel              =    51; -- orc
 SET @MagharOrcFemaleModel            =    52; -- orc
 SET @OgreMaleModel                   =  4892; -- one head (physical type)
 SET @OgreFemaleModel                 =  4893; -- two heads (magic type)
--- SET @DarkIronDwarfMaleModel          =
--- SET @DarkIronDwarfFemaleModel        =
+SET @DarkIronDwarfMaleModel          = 40000; -- backport from
+SET @DarkIronDwarfFemaleModel        = 40001; -- Shadowlands
 
 
 -- Display IDs
@@ -87,8 +87,8 @@ SET @MagharOrcMaleDisplay            =  94226;
 SET @MagharOrcFemaleDisplay          =  94227;
 SET @OgreMaleDisplay                 =  62110;
 SET @OgreFemaleDisplay               =  62111;
--- SET @DarkIronDwarfMaleDisplay        =
--- SET @DarkIronDwarfFemaleDisplay      =
+SET @DarkIronDwarfMaleDisplay        =  40000;
+SET @DarkIronDwarfFemaleDisplay      =  40001;
 
 -- CreatureDisplayInfoExtra
 SET @WorgenMaleDisplayExtra          =  45424;
@@ -101,8 +101,8 @@ SET @MagharOrcMaleDisplayExtra       =  45437;
 SET @MagharOrcFemaleDisplayExtra     =  45438;
 SET @OgreMaleDisplayExtra            =  45439;
 SET @OgreFemaleDisplayExtra          =  45440;
--- SET @DarkIronDwarfMaleDisplayExtra   =
--- SET @DarkIronDwarfFemaleDisplayExtra =
+SET @DarkIronDwarfMaleDisplayExtra   =  45441;
+SET @DarkIronDwarfFemaleDisplayExtra =  45442;
 
 -- creature_template
 SET @WorgenWildMaleTemplate          =  55274;
@@ -116,7 +116,7 @@ SET @GoblinRacials                   =    790;
 SET @HighElfRacials                  =    791;
 SET @MagharOrcRacials                =    792;
 SET @OgreRacials                     =    793;
--- SET @DarkIronDwarfRacials            =    794;
+SET @DarkIronDwarfRacials            =    794;
 
 -- Racial spells
 SET @WorgenRacial1                   =  68975; -- Viciousness
@@ -166,7 +166,7 @@ SET @WorgenPlayer                    = 1163;
 SET @HighElfPlayer                   = 1161;
 SET @MagharOrcPlayer                 = 1166;
 SET @OgrePlayer                      = 1169;
--- SET @DarkIronDwarfPlayer
+SET @DarkIronDwarfPlayer
 
 -- Faction templates
 SET @GoblinFactionTemplate           = 2238; -- References @GoblinPlayer
@@ -174,7 +174,7 @@ SET @WorgenFactionTemplate           = 2239; -- References @WorgenPlayer
 SET @HighElfFactionTemplate          = 2237; -- References @HighElfPlayer
 SET @MagharOrcFactionTemplate        = 2240; -- References @MagharOrcPlayer
 SET @OgreFactionTemplate             = 2241; -- References @OgrePlayer
--- SET @DarkIronDwarfFactionTemplate -- References @DarkIronDwarfPlayer
+SET @DarkIronDwarfFactionTemplate    = 2242; -- References @DarkIronDwarfPlayer
 
 -- Race factions
 SET @HumanFaction                    =   72; -- Stormwind
@@ -192,7 +192,15 @@ SET @WorgenFaction                   = 1165; -- Gilneas
 SET @HighElfFaction                  = 1167; -- High Elf Loyalists
 SET @MagharOrcFaction                = 1168; -- Mag'har of the Horde
 SET @OgreFaction                     = 1170; -- Stonemaul Clan
--- SET @DarkIronDwarfFaction            =     ; -- Shadowforge City
+SET @DarkIronDwarfFaction            = 1171; -- Shadowforge City
+
+-- Reputation Indices
+SET @GoblinFactionRepIndex           = 105;
+SET @WorgenFactionRepIndex           = 106;
+SET @HighElfFactionRepIndex          = 107;
+SET @MagharOrcFactionRepIndex        = 108;
+SET @OgreFactionRepIndex             = 109;
+SET @DarkIronDwarfFactionRepIndex    = 110;
 
 -- Helmet RaceMasks
 SET @HumanHelmetMask                 = 1 << 1;   -- race ID 1  → 2
@@ -210,8 +218,46 @@ SET @WorgenHelmetMask                = 1 << 12;  -- race ID 12 → 4096
 SET @HighElfHelmetMask               = 1 << 13;  -- race ID 13 → 8192
 SET @MagharOrcHelmetMask             = 1 << 14;  -- race ID 14 → 16384
 SET @OgreHelmetMask                  = 1 << 15;  -- race ID 15 → 32768
--- SET @DarkIronDwarfHelmetMask         = 1 << 16;  -- race ID 16 → 65536
+SET @DarkIronDwarfHelmetMask         = 1 << 16;  -- race ID 16 → 65536
 SET @GilneanHelmetMask               = 1 << 23;  -- race ID 23 → 8388608
+
+-- Achievements
+SET @KnowThyEnemyAlliance            =   246;
+SET @KnowThyEnemyHorde               =  1005;
+SET @ShakeYourBunnyMaker             =  2422;
+SET @CheckYourHead                   =   291;
+SET @GoblinAchievement               =  1429;
+SET @WorgenAchievement               =  1430;
+SET @HighElfAchievement              =  1431;
+SET @MagharOrcAchievement            =  1432;
+SET @OgreAchievement                 =  1433;
+SET @DarkIronDwarfAchievement        =  1434;
+
+-- Achievement Criteria
+SET @GoblinCriteria1                 = 13471; -- Achievement 1005: Know Thy Enemy
+SET @WorgenCriteria1                 = 13472; -- Achievement 246: Know Thy Enemy
+SET @GoblinCriteria2                 = 13473; -- Achievement 2422: Shake Your Bunny-Maker
+SET @WorgenCriteria2                 = 13474; -- Achievement 2422: Shake Your Bunny-Maker
+SET @GoblinCriteria3                 = 13475; -- Achievement 291: Check Your Head
+SET @WorgenCriteria3                 = 13476; -- Achievement 291: Check Your Head
+SET @GoblinCriteria4                 = 13477; -- @GoblinAchievement: Realm First! Level 80 Goblin
+SET @WorgenCriteria4                 = 13478; -- @WorgenAchievement: Realm First! Level 80 Worgen
+SET @HighElfCriteria1                = 13484; -- Achievement 246: Know Thy Enemy
+SET @HighElfCriteria2                = 13485; -- Achievement 2422: Shake Your Bunny-Maker
+SET @HighElfCriteria3                = 19215; -- Achievement 291: Check Your Head
+SET @HighElfCriteria4                = 19216; -- @HighElfAchievement: Realm First! Level 80 High Elf
+SET @MagharOrcCriteria1              = 13498; -- Achievement 1005: Know Thy Enemy
+SET @MagharOrcCriteria2              = 13499; -- Achievement 2422: Shake Your Bunny-Maker
+SET @MagharOrcCriteria3              = 13500; -- Achievement 291: Check Your Head
+SET @MagharOrcCriteria4              = 19217; -- @HighElfAchievement: Realm First! Level 80 High Elf
+SET @OgreCriteria1                   = 19218; -- Achievement 1005: Know Thy Enemy
+SET @OgreCriteria2                   = 19219; -- Achievement 2422: Shake Your Bunny-Maker
+SET @OgreCriteria3                   = 19220; -- Achievement 291: Check Your Head
+SET @OgreCriteria4                   = 19221; -- @OgreAchievement: Realm First! Level 80 Ogre
+SET @DarkIronDwarfCritera1           = 19222; -- Achievement 1005: Know Thy Enemy
+SET @DarkIronDwarfCritera2           = 19223; -- Achievement 2422: Shake Your Bunny-Maker
+SET @DarkIronDwarfCritera3           = 19224; -- Achievement 291: Check Your Head
+SET @DarkIronDwarfCritera4           = 19225; -- @DarkIronDwarfAchievement: Realm First! Level 80 Dark Iron Dwarf
 
 -- Classes
 SET @Warrior                         =    1;
