@@ -1,135 +1,71 @@
 -- [F-032] mod-maghar: vocaluisounds: 66 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `vocaluisounds` WHERE `id` = 2354;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2354, 0, @MagharOrc, 2284, 2341, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2355;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2355, 2, @MagharOrc, 2285, 2342, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2356;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2356, 3, @MagharOrc, 2286, 2343, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2357;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2357, 4, @MagharOrc, 2287, 2344, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2358;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2358, 5, @MagharOrc, 2288, 2345, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2359;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2359, 7, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2360;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2360, 10, @MagharOrc, 2290, 2347, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2361;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2361, 11, @MagharOrc, 2291, 2348, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2362;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2362, 12, @MagharOrc, 2292, 2349, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2363;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2363, 14, @MagharOrc, 2293, 2350, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2364;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2364, 15, @MagharOrc, 2294, 2351, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2365;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2365, 17, @MagharOrc, 2295, 2352, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2366;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2366, 19, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2367;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2367, 20, @MagharOrc, 2297, 2354, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2368;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2368, 21, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2369;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2369, 22, @MagharOrc, 2299, 2356, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2370;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2370, 23, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2371;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2371, 24, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2372;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2372, 25, @MagharOrc, 2302, 2359, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2373;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2373, 26, @MagharOrc, 2305, 2360, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2374;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2374, 27, @MagharOrc, 2306, 2361, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2375;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2375, 28, @MagharOrc, 2307, 2362, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2376;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2376, 29, @MagharOrc, 2308, 2363, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2377;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2377, 30, @MagharOrc, 2309, 2364, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2378;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2378, 31, @MagharOrc, 2310, 2365, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2379;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2379, 32, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2380;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2380, 33, @MagharOrc, 2312, 2367, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2381;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2381, 34, @MagharOrc, 2313, 2368, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2382;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2382, 35, @MagharOrc, 2314, 2369, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2383;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2383, 36, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2384;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2384, 37, @MagharOrc, 2316, 2371, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2385;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2385, 38, @MagharOrc, 2317, 2372, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2386;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2386, 39, @MagharOrc, 2319, 2374, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2387;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2387, 40, @MagharOrc, 2319, 2374, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2388;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2388, 41, @MagharOrc, 2320, 2375, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2389;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2389, 43, @MagharOrc, 2321, 2376, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2390;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2390, 44, @MagharOrc, 2322, 2377, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2391;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2391, 45, @MagharOrc, 2323, 2378, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2392;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2392, 46, @MagharOrc, 2324, 2379, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2393;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2393, 47, @MagharOrc, 2325, 2380, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2394;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2394, 48, @MagharOrc, 2326, 2381, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2395;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2395, 49, @MagharOrc, 2327, 2382, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2396;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2396, 50, @MagharOrc, 2328, 2383, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2397;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2397, 51, @MagharOrc, 2329, 2384, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2398;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2398, 52, @MagharOrc, 2330, 2385, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2399;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2399, 53, @MagharOrc, 2331, 2386, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2400;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2400, 54, @MagharOrc, 2332, 2387, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2401;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2401, 55, @MagharOrc, 2333, 2388, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2402;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2402, 56, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2403;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2403, 57, @MagharOrc, 2335, 2390, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2404;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2404, 58, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2405;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2405, 59, @MagharOrc, 2337, 2392, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2406;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2406, 60, @MagharOrc, 2338, 2393, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2407;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2407, 61, @MagharOrc, 2339, 2394, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2408;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2408, 62, @MagharOrc, 2340, 2395, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2409;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2409, 1, @MagharOrc, 2945, 2962, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2410;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2410, 6, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2411;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2411, 8, @MagharOrc, 2947, 2964, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2412;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2412, 9, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2413;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2413, 13, @MagharOrc, 2949, 2966, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2414;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2414, 16, @MagharOrc, 4294967295, 4294967295, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2415;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2415, 18, @MagharOrc, 2951, 2968, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2416;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2416, 42, @MagharOrc, 2952, 2969, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2417;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2417, 63, @MagharOrc, 2953, 2970, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2418;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2418, 64, @MagharOrc, 2954, 2971, 0, 0);
-DELETE FROM `vocaluisounds` WHERE `id` = 2419;
-INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES (2419, 65, @MagharOrc, 2955, 2972, 0, 0);
+DELETE FROM `vocaluisounds` WHERE `id` BETWEEN 2354 AND 2419;
+INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES
+(2354, 0, @MagharOrc, 2284, 2341, 0, 0),
+(2355, 2, @MagharOrc, 2285, 2342, 0, 0),
+(2356, 3, @MagharOrc, 2286, 2343, 0, 0),
+(2357, 4, @MagharOrc, 2287, 2344, 0, 0),
+(2358, 5, @MagharOrc, 2288, 2345, 0, 0),
+(2359, 7, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2360, 10, @MagharOrc, 2290, 2347, 0, 0),
+(2361, 11, @MagharOrc, 2291, 2348, 0, 0),
+(2362, 12, @MagharOrc, 2292, 2349, 0, 0),
+(2363, 14, @MagharOrc, 2293, 2350, 0, 0),
+(2364, 15, @MagharOrc, 2294, 2351, 0, 0),
+(2365, 17, @MagharOrc, 2295, 2352, 0, 0),
+(2366, 19, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2367, 20, @MagharOrc, 2297, 2354, 0, 0),
+(2368, 21, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2369, 22, @MagharOrc, 2299, 2356, 0, 0),
+(2370, 23, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2371, 24, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2372, 25, @MagharOrc, 2302, 2359, 0, 0),
+(2373, 26, @MagharOrc, 2305, 2360, 0, 0),
+(2374, 27, @MagharOrc, 2306, 2361, 0, 0),
+(2375, 28, @MagharOrc, 2307, 2362, 0, 0),
+(2376, 29, @MagharOrc, 2308, 2363, 0, 0),
+(2377, 30, @MagharOrc, 2309, 2364, 0, 0),
+(2378, 31, @MagharOrc, 2310, 2365, 0, 0),
+(2379, 32, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2380, 33, @MagharOrc, 2312, 2367, 0, 0),
+(2381, 34, @MagharOrc, 2313, 2368, 0, 0),
+(2382, 35, @MagharOrc, 2314, 2369, 0, 0),
+(2383, 36, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2384, 37, @MagharOrc, 2316, 2371, 0, 0),
+(2385, 38, @MagharOrc, 2317, 2372, 0, 0),
+(2386, 39, @MagharOrc, 2319, 2374, 0, 0),
+(2387, 40, @MagharOrc, 2319, 2374, 0, 0),
+(2388, 41, @MagharOrc, 2320, 2375, 0, 0),
+(2389, 43, @MagharOrc, 2321, 2376, 0, 0),
+(2390, 44, @MagharOrc, 2322, 2377, 0, 0),
+(2391, 45, @MagharOrc, 2323, 2378, 0, 0),
+(2392, 46, @MagharOrc, 2324, 2379, 0, 0),
+(2393, 47, @MagharOrc, 2325, 2380, 0, 0),
+(2394, 48, @MagharOrc, 2326, 2381, 0, 0),
+(2395, 49, @MagharOrc, 2327, 2382, 0, 0),
+(2396, 50, @MagharOrc, 2328, 2383, 0, 0),
+(2397, 51, @MagharOrc, 2329, 2384, 0, 0),
+(2398, 52, @MagharOrc, 2330, 2385, 0, 0),
+(2399, 53, @MagharOrc, 2331, 2386, 0, 0),
+(2400, 54, @MagharOrc, 2332, 2387, 0, 0),
+(2401, 55, @MagharOrc, 2333, 2388, 0, 0),
+(2402, 56, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2403, 57, @MagharOrc, 2335, 2390, 0, 0),
+(2404, 58, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2405, 59, @MagharOrc, 2337, 2392, 0, 0),
+(2406, 60, @MagharOrc, 2338, 2393, 0, 0),
+(2407, 61, @MagharOrc, 2339, 2394, 0, 0),
+(2408, 62, @MagharOrc, 2340, 2395, 0, 0),
+(2409, 1, @MagharOrc, 2945, 2962, 0, 0),
+(2410, 6, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2411, 8, @MagharOrc, 2947, 2964, 0, 0),
+(2412, 9, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2413, 13, @MagharOrc, 2949, 2966, 0, 0),
+(2414, 16, @MagharOrc, 4294967295, 4294967295, 0, 0),
+(2415, 18, @MagharOrc, 2951, 2968, 0, 0),
+(2416, 42, @MagharOrc, 2952, 2969, 0, 0),
+(2417, 63, @MagharOrc, 2953, 2970, 0, 0),
+(2418, 64, @MagharOrc, 2954, 2971, 0, 0),
+(2419, 65, @MagharOrc, 2955, 2972, 0, 0);
