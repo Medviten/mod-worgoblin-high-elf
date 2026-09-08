@@ -1,4 +1,4 @@
--- faction: 8 inserts, 90 updates, 0 deletes
+-- faction: 2 inserts, 90 updates, 0 deletes
 
 -- New entries
 DELETE FROM `faction` WHERE `id` IN (@OgrePlayer, @OgreFaction);
