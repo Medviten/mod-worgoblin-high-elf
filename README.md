@@ -365,6 +365,7 @@ Special thanks to:
 * **Amarion** – playable Ogres
 * **Baercraft** – lots of support and bugfixes, especially with Playerbots compatibility and the playable Dark Iron Dwarves
 * **Justurn / Zeppelin-Craft** – inspiration for modular DBC handling in SQL
+* **Nehyren** – [retroported](https://github.com/tbcstar/Nehyren) Shadowlands models
 * **gitdalisar** for the [Faction Free]([url](https://github.com/gitdalisar/mod-Faction-Free)) module
 * The AzerothCore community
 * Everyone else who has helped test, debug, translate and improve the project
