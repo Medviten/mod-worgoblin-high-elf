@@ -54,10 +54,10 @@ SET @DraeneiMask                      = 1 << (@Draenei        - 1);  -- race ID 
 SET @WorgenMask                       = 1 << (@Worgen         - 1);  -- race ID 12 → 2048
 SET @HighElfMask                      = 1 << (@HighElf        - 1);  -- race ID 13 → 4096
 SET @MagharOrcMask                    = 1 << (@MagharOrc      - 1);  -- race ID 14 → 8192
-SET @OgreMask                         = 1 << (@OgreMask       - 1);  -- race ID 15 → 16384
+SET @OgreMask                         = 1 << (@Ogre           - 1);  -- race ID 15 → 16384
 SET @DarkIronDwarfMask                = 1 << (@DarkIronDwarf  - 1);  -- race ID 16 → 32768
 SET @ZandalariTrollMask               = 1 << (@ZandalariTroll - 1);  -- race ID 17 → 65536
-SET @GilneanMask                      = 1 << (@GilneanMask    - 1);  -- race ID 23 → 4194304
+SET @GilneanMask                      = 1 << (@Gilnean        - 1);  -- race ID 23 → 4194304
 
 -- New Race Models
 SET @WorgenMaleModel                  =  3141; -- bipedal
