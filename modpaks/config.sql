@@ -144,7 +144,7 @@ SET @MagharOrcRacial4                = 110004; -- Unwavering Will (maybe change 
 -- Faction Masks
 SET @BaseAllianceMask                = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask  | @DraeneiMask;
 SET @BaseHordeMask                   = @OrcMask          | @UndeadMask | @TaurenMask    | @TrollMask  | @BloodElfMask;
-SET @AllianceMask                    = @BaseAllianceMask | @WorgenMask | @HighElfMask; -- | @DarkIronDwarfMask;
+SET @AllianceMask                    = @BaseAllianceMask | @WorgenMask | @HighElfMask   | @DarkIronDwarfMask;
 SET @HordeMask                       = @BaseHordeMask    | @GoblinMask | @MagharOrcMask | @OgreMask;
 SET @UndercityMask                   = @UndeadMask   | @BloodElfMask; -- Mostly for easy reputation split
 SET @BarrensBros                     = @HordeMask    & ~@UndercityMask; -- Mostly for easy reputation split
@@ -166,7 +166,7 @@ SET @WorgenPlayer                    = 1163;
 SET @HighElfPlayer                   = 1161;
 SET @MagharOrcPlayer                 = 1166;
 SET @OgrePlayer                      = 1169;
-SET @DarkIronDwarfPlayer
+SET @DarkIronDwarfPlayer             = 1172;
 
 -- Faction templates
 SET @GoblinFactionTemplate           = 2238; -- References @GoblinPlayer
