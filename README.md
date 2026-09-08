@@ -1,123 +1,390 @@
+# mod-worgoblin-high-elf
+
+> [!WARNING]
+>
+> ## Work in Progress
+>
+> This module is **not finished yet** and is still under active development.
+>
+> It is currently intended for testing, development and experienced AzerothCore users. Features, DBC files, SQL structure and compatibility may still change between versions.
+>
+> Bugs are expected, especially with unusual race/class combinations, ARAC and PlayerBots integration.
+>
+> **Please make backups before installing or updating the module.**
+
+A highly modular approach to DBC-heavy mods, relying on DBCTool to bulk edit DBCs in MySQL before exporting them. First and foremost a custom race module for **AzerothCore 3.3.5a**.
+
+This project started as a merger of Worgoblin and AzerothCore High Elf (which are mutually exclusive out of the box), as well as ARAC, and has since been expanded with additional playable races and mods like Faction Free.
+
+ Early on, my focus was primarily on merging the DBCs into one functioning package, but inspired by Justurn's Zeppelin-Craft project, it has increasingly shifted towards modularity and developer flexibility.
+
+My SQL files make heavy use of variables for readability and editability. You're welcome. ;)
+
+If you don't want to modify anything and just want to add more races, it can seem daunting to have them all separated into mopaks like this, but the original, clean and cut approach is carried forward by [Baercraft](https://github.com/Baercraft/mod-worgoblin-high-elf)'s fork. This division of labour lets us cater to both preferences.
+
+---
+
 # Purpose
-This repository is my attempt at merging the Worgoblin and AzerothCore High Elf modules, as well as some other DBC-reliant modules. Any two modules that rely on the same DBCs need to be merged manually, unfortunately. This requires making them compatible in certain ways, and at the end of the day, I had to make some editorial decisions that went beyond a simple merger.
 
-## patch-J.MPQ
-If you don't like these changes, the optional patch-J.MPQ is a simple patch that contains (client-side and, optionally, server-side) DBCs that disable my taxipath edits, Flying in Azeroth, ARAC's race/class additions, and even interface files that hide the extra races themselves from the character creation screen (but you can safely delete that Interface folder if you want to make them).
+Custom races in WoW 3.3.5a require changes across several systems at the same time:
 
-Another method is to delete my edited TaxiPath.dbc, TaxiPathNodes.dbc, and AreaTable.dbc from patch-A.MPQ – the ones in patch-J.MPQ are the default enUS ones anyway. However, ChrRaces.dbc is edited to include the custom races.
+* AzerothCore server data
+* DBC files
+* Client patches
+* SQL
+* Race/class definitions
+* Racials and skills
 
-I also considered making a patch that would camouflage the extra races as existing ones (Worgen –> Night Elf, Goblin –> Orc, High Elf –> Human), but it would be too much work to make it work properly, e.g. not crashing as soon as you get too close to a barber shop. It would also be too much to work to maintain.
+Using several independent follow-up patches can provide more flexibility, but it also increases the possibility of mismatched files or installation-order problems because only the last of each DBC counts at runtime.
 
-## Modpaks
-I'm trying out a system for handling DBC files as (idempotent) SQL, inspired by Justurn's [zpaks](https://github.com/ZepplinCore-Development/Zeppelin-Craft/tree/main). The idea is to make even DBC-reliant systems more modular and easier to bulk edit. For now, it's only the Worgoblin DBCs, but I'll try to incorporate all the mods I've used into the modpak format.
+To solve that, this repository lets you prepare DBCs in MySQL before exporting them, ready to use. Blacklist the modpaks you don't need, point build-dbc.sh to a disposable MySQL database, and watch it construct the DBCs for you.
 
-## ARAC (All Races All Classes)
-Allows all races to be all classes. The updated version fixed some bugs in the original and adds a few spells. I noticed some missing combinations (e.g. Blood Elf Druid) were missing spells in some files, so I have added those in there as well as extending the module to cover Worgen, Goblins and High Elves.
+If you want to change something, simply add or edit an SQL file and have it apply after the file it overrides.
 
-## Worgoblin Module
-[![core-build](https://github.com/benjymansy123/mod-worgoblin/actions/workflows/core-build.yml/badge.svg)](https://github.com/benjymansy123/mod-worgoblin/actions/workflows/core-build.yml)
+---
 
-This is a module for [AzerothCore](http://www.azerothcore.org) that adds Worgen, Goblins, and numerous features related to their playability.
+# Playable Races
 
-### Features
-- Worgen as a playable Alliance race and goblins as a playable Horde race
-- Optional alpha Worgen models and Gilnean voices
-- Mage and warlock class trainers in Teldrassil (I ought to extend this to give ARAC combinations access to trainers in their starting areas)
-- Compatibility patches for PlayerBots and Individual Progression modules
-- Worgen and Troll druid forms (Horde forms follow skin colour in AC, but the patch makes it so everyone but Tauren defaults to hair colour)
-- Running Wild (w/o start animation)
+In addition to the original WoW 3.3.5a races, the project currently includes the following custom playable races:
 
-#### NYI Features
-- Mount vendors
-- Vanilla goblin models
-- Two Forms (currently requires lua support to work)
+* **Worgen**
+* **Goblin**
+* **High Elf**
+* **Mag'har Orc**
+* **Ogre**
+* **Dark Iron Dwarf**
 
-### Important Notes
-This module makes *heavy* use of client patching and modification. Because of this, it is recommended to use a [clean, unmodified enUS WoW client](https://www.chromiecraft.com/downloads) as issues have been reported due to use of other clients, such as the one offered from Warmane. The HD patch included on the ChromieCraft website has been known to cause issues with this patch. It is for that reason that it's recommended for you to use the HD patch adapted to the Worgoblin module in particular, which can be found [here](https://github.com/benjymansy123/mod-worgoblin/releases/tag/hd-patch) with instructions on how to install it.
+Further improvements and additional races may be added over time.
 
-(It may not work with *this* module, however.)
+---
 
-## AzerothCore High Elf
-Mod to add High Elves as playable characters on Azeroth Core with support for mod-playerbots. By Abracadaniel22.
+# Features
 
-### Features
-- A new High Elf alliance race is added
-- - It shares the same models as the Blood Elf race
-- - It shares the same starting zone, reputation, skills as the humans (but Turtle WoW-based racials)
-- - High Elves can be any class (except shaman or druid in the non-ARAC version)
-- Compatible with HD models
+The project aims to integrate the custom races into AzerothCore while preserving the standard WoW 3.3.5a systems as much as possible.
 
-# How to Install
+Development includes support for:
 
-## 1) Replace the DBC files in your AzerothCore Data directory with the ones provided in data/patch-A.MPQ/DBFilesClient
+* Custom playable races
+* Starting locations
+* Languages
+* Racial abilities
+* Starting skills
+* Reputation
+* Character creation
+* Race/class definitions
+* Armor and weapon proficiencies
+* Client-side race definitions
+* Worgen features
+* PlayerBots compatibility
+* All Races All Classes
 
-Copy the contents of the DBFilesClient folder (`mod-worgoblin-high-elf/data/patch-A.MPQ/DBFilesClient`) to your AzerothCore `Data/dbc` directory (defined by `DataDir` in `worldserver.conf`). I recommend backing up your DBC folder before overwriting these files.
+Not every feature or race/class combination should currently be considered complete.
 
-If you're using the alpha models and/or Gilnean voice files, overwrite the relevant DBC files.
+---
 
-## 2) Copy patch-A.MPQ from (`mod-worgoblin-high-elf/data/patch-A.MPQ`) to your Data folder in your WoW client
+# ARAC – All Races All Classes
 
-Overwrite the relevant files in `patch-A.MPQ/DBFilesClient` if you're using the alpha models and/or Gilnean voice files.
+Support for **All Races All Classes (ARAC)** is currently being integrated directly into the project.
 
-## 2.5) Optional: compatibility patches
+Current ARAC development includes:
 
-### AzerothCore
+* Race/class availability
+* Armor proficiencies
+* Weapon proficiencies
+* Class SkillLines
+* Starting skills
+* Class abilities
+* Custom race support
 
-You can skip this, but certain things won't work, like Goblin racial discounts and Running Wild.
+Some unusual race/class combinations may still have missing abilities, incorrect proficiencies or other issues.
 
-To apply the patch, copy whe-acore.patch to the root of your AzerothCore directory and run the following commands from there:
+Testing and detailed bug reports are very welcome.
 
-```
-git apply --ignore-space-change --ignore-whitespace whe-acore.patch
+---
+
+# Client Patch
+
+The project uses **`patch-A.MPQ`** as its primary client patch.
+
+It contains the client-side files required by the custom races, including modified DBC files and other race-related client data.
+
+It also ships `patch-J.MPQ`. This is intended to reverse as many changes as possible, client-side only, for purist users who still want to play on their friends' modified servers.
+
+---
+
+# Worgen
+
+The original Worgoblin module remains an important foundation of this project, which features:
+
+* Playable Worgen
+* Worgen racial abilities (now even Running Wild and Two Forms)
+* Worgen druid forms (including some post-Cataclysm ones)
+* Faction handling (Gilneas faction)
+* Racial mounts
+* ARAC support
+
+---
+
+# Goblin
+
+Goblins are also from the original Worgoblin module. They were more complete than Worgen, so all I've contributed is really the ARAC additions. Features include:
+
+* Playable Goblins
+* Goblin racial abilities
+* Faction handling (Bilgewater Cartel faction)
+* Racial mounts
+* ARAC support
+
+---
+
+# High Elf
+
+High Elf support originates from the minimalist **AzerothCore High Elf** project by Abracadaniel22, itself built on Worgoblin.
+
+The race has since received more features and now includes:
+
+* Playable High Elves
+* High Elf racial abilities (based on TurtleWoW's)
+* Faction handling
+* ARAC support
+
+They currently use Blood Elf sounds, but that may change in the future, since custom High Elf sounds exist.
+
+---
+
+# Mag'har Orc
+
+Mag'har Orcs were shared with the community by Mattiks, built on Orcs much like High Elves built on Blood Elves.
+
+Features include:
+
+* Playable Mag'har Orcs
+* Mag'har Orc racial abilities
+* Faction handling
+* ARAC support
+
+---
+
+# Ogre
+
+Playable Ogres were kindly shared with the modding community by Amarion. They are still somewhat early in development, so the only customization options are currently skin colour and number of heads (gender – females have two), and they don't have racial abilities yet.
+
+Features include:
+
+* Playable Ogres
+* Faction handling
+* ARAC support
+
+---
+
+# Dark Iron Dwarf
+
+Dark Iron Dwarves were kindly shared with the community by Baercraft. Their integration is also still under active development.
+
+---
+
+# PlayerBots
+
+PlayerBots support is provided through whe-playerbots.patch. You can apply it to your playerbots root directory using Git:
+
+```text
+ git apply --ignore-space-change --ignore-whitespace whe-playerbots.patch
 git add .
-git commit -m "Add worgoblin-high-elf acore patch"
+git commit -m "Add whe-playerbots patch"
 ```
 
-### [Playerbots](https://github.com/liyunfan1223/mod-playerbots)
+In the future, there may be modularity support for this as well.
 
-This patch fixes the problem of bots failing to recognize Worgen and High Elf as Alliance races and allows playerbots to spawn as Worgen, Goblins and High Elves.
+---
 
-To apply the patch, copy whe-playerbots.patch to the root of your Playerbots directory and run the following commands from there:
+# Installation
 
+## 1. Install the module
+
+Copy the module into your AzerothCore modules directory:
+
+```text
+AzerothCore/
+└── modules/
+    └── mod-worgoblin-high-elf/
 ```
-git apply --ignore-space-change --ignore-whitespace whe-playerbots.patch
+
+---
+
+## 2. Apply whe-acore.patch
+
+Copy mod-worgoblin-high-elf/integration/whe-acore.patch into your AzerothCore root directory. Apply it like this:
+
+```text
+ git apply --ignore-space-change --ignore-whitespace whe-playerbots.patch
 git add .
-git commit -m "Add worgoblin-high-elf playerbots patch"
+git commit -m "Add whe-playerbots patch"
 ```
 
-There is also a patch for Individual Progression. I tried to merge it too, but I don't use that mod myself and so can't test it. Take it for what it's worth.
+## 3. Set up the DBC-SQL pipeline
 
-## 3) Compile and install AzerothCore
+Edit the config file in worgoblin-high-elf/tools/dbctool/ and point it to a disposable database. It will drop and recreate it.
 
-See AzerothCore's [official documentation](https://www.azerothcore.org/wiki/installing-a-module) for more details about compiling and installing modules. If you applied one of the compatibility patches after a previous installation, you will have to recompile AzerothCore.
+Import clean DBCs, make any modifications you want, and then dump the database. Point DBCTool at this dump – it's your save state.
 
-## 4) Remove signature checks from your WoW executable
-Windows users can use [this patcher](https://www.wowmodding.net/files/file/283-wow-335-patcher-custom-item-fix/) created by kebabstorm to patch Wow.exe file (also available from [this](https://github.com/anzz1/WoWPatcher335/releases) GitHub repository). macOS users can download this [pre-patched .app file](https://github.com/benjymansy123/custom-race-ac-12_6_21/releases/download/sig-check/WoW.app.zip), since no easy patcher exists for macOS.
+Edit the blacklist in worgoblin-high-elf/tools/scripts/ by uncommenting features to exclude. Edit build-dbc.conf with your paths and logins, then run build-dbc.sh.
 
-Because WoW uses signature checks so as to not allow Interface files to be modified, we need to remove those checks in order to be able to use custom races. This is accomplished using the patcher included in the repo. Move the patcher into your WoW client directory and run it. Again, feel free to make a backup of your original executable.
+It should put the new DBCs straight into your server's data/dbc directory, overwriting whatever is already in there.
 
-There is a longstanding bug in WotLK that causes your mouse to reset to the center of the screen, resulting in frequent disorientation while playing. It requires a patched client executable to fix, which causes compatibility issues with this module. However, you can use the script provided [here](https://github.com/idempotentiation/mod-worgoblin/releases/tag/patched-client-merger) to merge the two patched executables, allowing you to use this module alongside the camera fix.
+**Back up your existing DBC directory before running any scripts.**
 
-## 5) Run the provided SQL files against your world database
+It can also reset your world database before running the modpak SQL files against it, so make a dump for it to use as a save state.
 
-Some tables in the database override DBC files. I am not sure exactly how that works, but I know that sometimes things don't work until I change the DB to agree with the DBC.
+---
 
-Assuming you are using default names for your databases, log into MySQL and run, e.g.:
+## 4. Install patch-A.MPQ
 
+Copy:
+
+```text
+patch-A.MPQ
 ```
-use acore_world;
-source /path/to/modules/mod-worgoblin-high-elf/data/sql/base/world/mod-worgoblin-high-elf.sql;
+
+into the `Data` directory of your WoW 3.3.5a client.
+
+Example:
+
+```text
+World of Warcraft/
+└── Data/
+    └── patch-A.MPQ
 ```
 
-You currently need to run one file at a time.
+You should also replace the DBCs with the ones from the pipeline to ensure compatibility with the server.
 
-And with that, you are all done!
+---
+
+## 5. Compile AzerothCore
+
+After installing or updating the module, compile AzerothCore normally.
+
+Changes to the module's C++ source code require recompilation.
+
+See the official AzerothCore documentation for information about installing and compiling modules:
+
+https://www.azerothcore.org/wiki/installing-a-module
+
+---
+
+## 6. Client Executable
+
+Custom races require a WoW 3.3.5a client that allows modified client files.
+
+You may therefore need a patched WoW executable with signature checks disabled.
+
+A commonly used patcher is available here:
+
+https://github.com/anzz1/WoWPatcher335
+
+Always keep a backup of your original executable.
+
+Some [clients](https://drive.google.com/file/d/1M7QVeIaXHV5ru9s7mvo52P-eOjQedSkS/view?usp=sharing) are also downloadable with such checks already disabled.
+
+---
+
+# Development Status
+
+This project is currently in **active development**.
+
+The current focus includes:
+
+* Improving ARAC compatibility
+* Testing race/class combinations
+* Correcting skills and spells
+* Improving racial abilities
+* Improving PlayerBots compatibility
+
+Some systems are already working well, while others are still being redesigned or tested.
+
+Users should currently expect possible issues with:
+
+* ARAC combinations
+* Starting skills
+* Racials
+* Reputation
+* Druid forms
+* PlayerBots
+* Characters created with older development versions
+
+For reliable testing, creating a **new character** after major updates is recommended.
+
+---
+
+# Bug Reports
+
+Bug reports and testing feedback are very welcome.
+
+When reporting a problem, please include whenever possible:
+
+* Module version
+* AzerothCore revision
+* Race
+* Class
+* Client locale
+* Whether the character was newly created
+* Relevant worldserver log output
+
+For race/class problems, please describe exactly which skill, spell, racial, armor type or weapon proficiency is missing.
+
+This makes problems significantly easier to reproduce and fix.
+
+---
+
+# Updating
+
+Because this project is still in active development, files and database structures may change between versions.
+
+Before updating:
+
+* Back up your world database
+* Back up your DBC directory
+* Back up `patch-A.MPQ`
+* Keep your previous working module version
+
+Do not assume that characters created with one development version will always behave identically after a future update.
+
+---
 
 # Credits
-* heyitsbench and Helias for the [Worgoblin]([url](https://github.com/heyitsbench/mod-worgoblin)) [modules]([url](https://github.com/Helias/mod-worgoblin))
-* idempotentiation for the [Worgoblin fork]([url](https://github.com/idempotentiation/mod-worgoblin)) with patches
-* abracadaniel22 for the [High Elf custom race]([url](https://github.com/abracadaniel22/azerothcore-highelf)) and [Fly Anywhere]([url](https://github.com/abracadaniel22/mod-fly-anywhere)) modules
-* heyitsbench (again) for the original [ARAC]([url](https://github.com/heyitsbench/mod-arac)) module
-* ChromWolf for the updated [ARAC]([url](https://github.com/ChromWolf/mod-arac-updated)) module
-* gitdalisar for the [Faction Free]([url](https://github.com/gitdalisar/mod-Faction-Free)) module (which I may or may not implement in the future)
-* Several people who helped on Discord
+
+This project builds upon the work of many developers in the AzerothCore and WoW modding communities.
+
+Special thanks to:
+
+* **heyitsbench** and **Helias** – original [Worgoblin]([url](https://github.com/heyitsbench/mod-worgoblin)) [module]([url](https://github.com/Helias/mod-worgoblin)) adaptations
+* **idempotentiation** – [Worgoblin fork]([url](https://github.com/idempotentiation/mod-worgoblin)) and Playerbots compatibility work
+* **abracadaniel22** – [AzerothCore High Elf]([url](https://github.com/abracadaniel22/azerothcore-highelf)) and [Fly Anywhere]([url](https://github.com/abracadaniel22/mod-fly-anywhere)) modules
+* **heyitsbench** – original [ARAC]([url](https://github.com/heyitsbench/mod-arac)) module
+* **ChromWolf** – updated [ARAC]([url](https://github.com/ChromWolf/mod-arac-updated)) module with custom spells for Blood Elves and Draenei
+* **Mattiks** – playable Mag'har Orcs
+* **Amarion** – playable Ogres
+* **Baercraft** – lots of support and bugfixes, especially with Playerbots compatibility and the playable Dark Iron Dwarves
+* **Justurn / Zeppelin-Craft** – inspiration for modular DBC handling in SQL
+* **gitdalisar** for the [Faction Free]([url](https://github.com/gitdalisar/mod-Faction-Free)) module
+* The AzerothCore community
+* Everyone else who has helped test, debug, translate and improve the project
+
+---
+
+# Contributing
+
+Testing, fixes, translations and compatibility improvements are welcome.
+
+This project is still evolving, so contributions that improve compatibility across different races, classes and client languages are particularly useful.
+
+---
+
+# Disclaimer
+
+This is a community project for **AzerothCore and World of Warcraft 3.3.5a modding**.
+
+It is not affiliated with or endorsed by Blizzard Entertainment.
+
+---
+
+**Current Status: 🚧 Work in Progress / Development Version**
