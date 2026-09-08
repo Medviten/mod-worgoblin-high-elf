@@ -1,7 +1,7 @@
 -- characterfacialhairstyles: 21 inserts, 3 updates, 39 deletes
 
 -- Insertions
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @DarkIronDwarf, @DarkIronDwarf;
+DELETE FROM `characterfacialhairstyles` WHERE `race` IN (@DarkIronDwarf, @DarkIronDwarf);
 INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES
 (@DarkIronDwarf, @Male, 0, 0, 0, 0, 0, 0),
 (@DarkIronDwarf, @Male, 1, 2, 0, 1, 0, 0),
