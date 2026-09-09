@@ -8,11 +8,11 @@ SET @Hair                             =    3;
 SET @Underwear                        =    4;
 
 -- CharSections
-SET CharacterCreateMask               =    1;
-SET BarbershopMask                    =    2;
-SET DeathKnightTextureMask            =    4;
-SET NPCSkinMask                       =    8;
-SET RegularMask                       =    16;
+SET @CharacterCreateMask               =    1;
+SET @BarbershopMask                    =    2;
+SET @DeathKnightTextureMask            =    4;
+SET @NPCSkinMask                       =    8;
+SET @RegularMask                       =    16;
 
 -- Playable Races
 SET @Human                            =    1;
