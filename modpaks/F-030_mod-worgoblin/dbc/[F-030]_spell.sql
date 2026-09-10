@@ -1,39 +1,6 @@
 -- spell: 16 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `spell` WHERE `id` = @WorgenRacial1; -- Viciousness
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@WorgenRacial1, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 0, 1, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 290, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1573, 0, 0, 'Viciousness', '포악함', 'Acharnement', 'Garstigkeit', '恶意', '兇惡', 'Saña', 'Saña', 'Озлобленность', '', '', '', '', '', '', '', 16712190, 'Racial Passive', '종족 지속효과', 'Raciale passive', 'Passive Volksfähigkeit', '被动种族特长', '種族特長，被動', 'Pasivo racial', 'Pasivo racial', 'Расовая, пассивная', '', '', '', '', '', '', '', 16712190, 'Increases critical strike chance by $s1%.', '치명타율이 $s1%만큼 증가합니다.', 'Augmente les chances de coup critique de $s1%.', 'Erhöht die kritische Trefferchance um $s1%.', '使爆击几率提高$s1%。', '致命一擊機率提高$s1%。', 'Aumenta la probabilidad de golpe crítico un $s1%.', 'Aumenta la probabilidad de golpe crítico un $s1%.', 'Повышает вероятность нанесения критического урона на $s1%.', '', '', '', '', '', '', '', 16712190, 'Criticial strike chance increased by $s1%.', '치명타율 $s1%만큼 증가', 'Chances de coup critique augmentées de $s1%.', 'Kritische Trefferchance um $s1% erhöht.', '爆击几率提高$s1%。', '致命一擊機率提高$s1%。', 'Probabilidad de golpe crítico aumentada un $s1%.', 'Probabilidad de golpe crítico aumentada un $s1%.', 'Вероятность нанесения критического урона увеличена на $s1%.', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '1.0000000000000000', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = @WorgenRacial2; -- Aberration
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@WorgenRacial2, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 0, 1, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 207, 0, 0, 'Aberration', '돌연변이', 'Aberration', 'Anomalie', '畸变', '變異', 'Desviación', 'Aberración', 'Аберрация', '', '', '', '', '', '', '', 16712190, 'Racial Passive', '종족 지속효과', 'Raciale passive', 'Passive Volksfähigkeit', '被动种族特长', '種族特長，被動', 'Pasivo racial', 'Pasivo racial', 'Расовая, пассивная', '', '', '', '', '', '', '', 16712190, 'Reduces the chance you will be hit by Nature and Shadow spells by $s1%.', '해로운 자연 및 암흑 마법 효과에 대한 저항력이 $s1만큼 증가합니다.', 'Augmente votre résistance aux effets de Nature et d\'Ombre néfastes de $s1.', 'Erhöht Euren Widerstand gegen schädliche Natur- und Schatteneffekte um $s1.', '使你对有害的自然和暗影效果抗性提高$s1。', '使你對有害的暗影和自然效果的抗性提高$s1點。', 'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', 'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', 'Повышает сопротивляемость отрицательным эффектам сил природы и темной магии на $s1.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = @WorgenRacial3; -- Flayer
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@WorgenRacial3, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 6, 0, 1, 1, 0, '0E-16', '0E-16', '0E-16', 14, -1001, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 98, 107, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 393, 10, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 64, 0, 0, 0, 0, 0, 262, 0, 0, 'Flayer', '갈퀴손', 'Ecorcheur', 'Schinder', '剥皮专家', '剝皮者', 'Despellejador', 'Despellejador', 'Живодер', '', '', '', '', '', '', '', 16712190, 'Racial Passive', '종족 지속효과', 'Raciale passive', 'Passive Volksfähigkeit', '被动种族特长', '種族特長，被動', 'Pasivo racial', 'Pasivo racial', 'Расовая, пассивная', '', '', '', '', '', '', '', 16712190, 'Skinning skill increased by $s1 and allows you to skin faster.', '무두질 숙련도가 $s1만큼 증가하고 속도가 빨라집니다.', 'Compétence de dépeçage augmentée de $s1 et vitesse de dépeçage augmentée.', 'Kürschnereifertigkeit um $s1 erhöht. Gestattet es Euch, schneller zu häuten.', '剥皮技能等级提高$s1，并加快你的剥皮速度。', '剝皮技能提高$s1點，並使你的剝皮速度提高。', 'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', 'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', 'Навык снятия шкур увеличен на $s1, вы снимаете шкуры быстрее.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = @WorgenRacial4; -- Darkflight
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@WorgenRacial4, 44, 0, 0, 16, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 120000, 0, 0, 0, 0, 101, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 0, 1, 0, 0, '0E-16', '0E-16', '0E-16', 39, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 366937, 0, 0, 'Darkflight', '암흑질주', 'Sombre course', 'Finstere Pfade', '疾步夜行', '暗月疾奔', 'Huida oscura', 'Ímpetu oscuro', 'Легкость тьмы', '', '', '', '', '', '', '', 16712190, 'Racial', '종족 특성', 'Raciale', 'Volksfähigkeit', '种族特长', '種族特長', 'Racial', 'Racial', 'Расовая', '', '', '', '', '', '', '', 16712190, 'Activates your true form, increasing current movement speed by an additional $s1% for $d.', '진정한 모습으로 변신하여 $d 동안 이동 속도가 추가로 $s1%만큼 증가합니다.', 'Active votre forme véritable, ce qui augmente votre vitesse de déplacement actuelle de $s1% supplémentaires pendant $d.', 'Aktiviert Eure wahre Form und erhöht Euer derzeitiges Bewegungstempo $d lang um zusätzlich $s1%.', '进入你的原形，使当前移动速度提高$s1%，持续$d。', '現出原形，使當前移動速度額外提高$s1%，持續$d。', 'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento actual un $s1% durante $d.', 'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento un $s1% durante $d.', 'Ворген принимает свой истинный облик. Скорость его передвижения повышается на $s1% на $d.', '', '', '', '', '', '', '', 16712190, 'True form activated, movement speed increased by an additional $s1%.', '진정한 모습으로 변신하여 이동 속도 추가로 $s1%만큼 증가', 'Forme véritable activée, vitesse de déplacement augmentée de $s1% supplémentaires.', 'Zeigt die wahre Gestalt. Bewegungstempo um zusätzlich $s1% erhöht.', '进入原形，移动速度额外提高$s1%。', '現出原形，移動速度提高$s1%。', 'Forma verdadera activada y velocidad de movimiento aumentada un $s1% extra.', 'Forma verdadera activada. Velocidad de movimiento aumentada un $s1%.', 'Принят истинный облик, скорость передвижения повышена на $s1%.', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 8, 64, 0, 0, 0, 0, 2, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = 68995; -- Two Forms
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (68995, 0, 0, 0, 402981120, 0, 0, 268435456, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 2000, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 20707, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 463876, 0, 0, 'Two Forms', '두 가지 모습', 'Deux formes', 'Zwei Gestalten', '双形态', '雙重形態', 'Dos formas', 'Dos formas', 'Два облика', '', '', '', '', '', '', '', 16712190, 'Racial', '종족 특성', 'Raciale', 'Volksfähigkeit', '种族特长', '種族特長', 'Racial', 'Racial', 'Расовая', '', '', '', '', '', '', '', 16712190, 'Turn into your currently inactive form.', '현재와 다른 모습으로 변신합니다.', 'Vous prenez la forme qui n\'était pas active.', 'Verwandelt Euch in Eure momentan inaktive Form.', '使你变成另一个形态。', '轉變成目前未啟動的那個形態。', 'Vuelves a tu otra forma.', 'Vuelves a tu otra forma.', 'Принять противоположный облик.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = 68996; -- Two Forms
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (68996, 0, 0, 0, 402981120, 0, 0, 268435456, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 2000, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 20708, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 463876, 0, 0, 'Two Forms', '두 가지 모습', 'Deux formes', 'Zwei Gestalten', '双形态', '雙重形態', 'Dos formas', 'Dos formas', 'Два облика', '', '', '', '', '', '', '', 16712190, 'Racial', '종족 특성', 'Raciale', 'Volksfähigkeit', '种族特长', '種族特長', 'Racial', 'Racial', 'Расовая', '', '', '', '', '', '', '', 16712190, 'Turn into your currently inactive form.', '현재와 다른 모습으로 변신합니다.', 'Vous prenez la forme qui n\'était pas active.', 'Verwandelt Euch in Eure momentan inaktive Form.', '使你变成另一个形态。', '轉變成目前未啟動的那個形態。', 'Vuelves a tu otra forma.', 'Vuelves a tu otra forma.', 'Принять противоположный облик.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = @GoblinRacial1; -- Rocket Barrage
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@GoblinRacial1, 0, 0, 0, 0, 136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 120000, 120000, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, '10.0000000000000000', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 2, 0, 0, 20, 0, 0, '0E-16', '0E-16', '0E-16', 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 12397, 0, 2665, 0, 0, 'Rocket Barrage', '로켓 연발탄', 'Barrage de fusées', 'Raketenbeschuss', '火箭弹幕', '火箭彈', 'Tromba de cohetes', 'Tromba de cohetes', 'Ракетный обстрел', '', '', '', '', '', '', '', 16712190, 'Racial', '종족 특성', 'Raciale', 'Volksfähigkeit', '种族特长', '種族特長', 'Racial', 'Racial', 'Расовая', '', '', '', '', '', '', '', 16712190, 'Launches your belt rockets at an enemy, dealing $s1 fire damage.', '적에게 허리띠 로켓을 발사하여 $s1의 화염 피해를 입힙니다.', 'Projette vos fusées de ceinture sur un ennemi et lui inflige $s1 points de dégâts de Feu.', 'Feuert Eure Gürtelraketen auf einen Feind ab, die $s1 Feuerschaden verursachen.', '向一个敌人发射腰带上的火箭，造成$s1点火焰伤害。', '向敵人發射火箭，對其造成$s1點火焰傷害。', 'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', 'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', 'Выстрел из закрепленного на поясе гранатомета, наносящий $s1 ед. урона от огня.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712188, 0, 133, 1500, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = @GoblinRacial2; -- Time is Money
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@GoblinRacial2, 0, 0, 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 6, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 192, 216, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 369214, 0, 0, 'Time is Money', '시간은 돈', 'Le temps, c\'est de l\'argent', 'Zeit ist Geld', '时间就是金钱', '時間就是金錢', 'El tiempo es oro', 'El tiempo es oro', 'Время - деньги', '', '', '', '', '', '', '', 16712190, 'Racial Passive', '종족 지속효과', 'Raciale passive', 'Passive Volksfähigkeit', '被动种族特长', '種族特長，被動', 'Pasivo racial', 'Pasivo racial', 'Расовая, пассивная', '', '', '', '', '', '', '', 16712190, 'Cash in on a 1% increase to attack and casting speed.', '공격 및 시전 속도가 $s1%만큼 증가합니다.', 'Encaisse une augmentation de $s1% des vitesses d\'attaque et d\'incantation.', 'Lasst Euch eine Erhöhung von Angriffs- und Zaubertempo um $s1% auszahlen.', '趁机使攻击和施法速度提高$s1%。', '攻擊和施法速度提高$s1%並從中牟利。', 'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', 'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', 'Скорость атаки и произнесения заклинаний повышена на $s1%, причем совершенно бесплатно!', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = @GoblinRacial3; -- Best Deals Anywhere
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@GoblinRacial3, 0, 0, 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4331, 0, 0, 'Best Deals Anywhere', '거래의 달인', 'Dur en affaires', 'Schnäppchenjäger', '哪里都有好买卖', '最佳折扣', 'Los mejores precios del mercado', 'Los mejores precios del mercado', 'Самые выгодные цены!', '', '', '', '', '', '', '', 16712190, 'Racial Passive', '종족 지속효과', 'Raciale passive', 'Passive Volksfähigkeit', '被动种族特长', '種族特長，被動', 'Pasivo racial', 'Pasivo racial', 'Расовая, пассивная', '', '', '', '', '', '', '', 16712190, 'Always receive the best possible gold discount, regardless of faction.', '평판에 관계없이 항상 최대 할인을 받습니다.', 'Vous bénéficiez toujours de la meilleure réduction de prix, quelle que soit votre réputation envers la faction.', 'Bekommt immer den bestmöglichen Goldrabatt, egal bei welcher Fraktion.', '无论和哪个阵营进行交易都能获得最优惠的折扣。', '不論陣營，永遠可獲得最佳的買賣折扣。', 'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', 'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', 'Максимальные скидки у всех фракций.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = @GoblinRacial4; -- Better Living Through Chemistry
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@GoblinRacial4, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 0, 1, 0, 0, '0E-16', '0E-16', '0E-16', 14, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 98, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 171, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 370670, 0, 0, 'Better Living Through Chemistry', '연금술로 나아지는 삶', 'La chimie pour une vie meilleure', 'Fortschritt durch Chemie', '化学让生活更美好', '化學讓人生更精彩', 'Es cuestión de química', 'Es cuestión de química', 'Занимательная химия', '', '', '', '', '', '', '', 16712190, 'Racial Passive', '종족 지속효과', 'Raciale passive', 'Passive Volksfähigkeit', '被动种族特长', '種族特長，被動', 'Pasivo racial', 'Pasivo racial', 'Расовая, пассивная', '', '', '', '', '', '', '', 16712190, 'Alchemy skill increased by $s1.', '연금술 숙련도가 $s1만큼 증가합니다.', 'Compétence en alchimie augmentée de $s1.', 'Alchemiefertigkeit um $s1 erhöht.', '炼金术技能提高$s1点。', '鍊金術技能提高$s1點。', 'Habilidad en alquimia aumentada $s1 p.', 'Habilidad en alquimia aumentada $s1 p.', 'Навык алхимии повышен на $s1.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = @GoblinRacial5; -- Pack Hobgoblin
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@GoblinRacial5, 0, 0, 0, 256, 0, 0, 256, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1800000, 18000, 0, 0, 0, 0, 101, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 28, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 36613, 0, 0, 2421, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 370211, 0, 0, 'Pack Hobgoblin', '짐꾼 밥통고블린', 'Hobgobelin de bât', 'Packhobgoblin', '呼叫大胖', '攜帶大哥布林', 'Hobgoblin de bolsillo', 'Hobgoblin de bolsillo', 'Подручный хобгоблин', '', '', '', '', '', '', '', 16712190, 'Racial', '종족 특성', 'Raciale', 'Volksfähigkeit', '种族特长', '種族特長', 'Racial', 'Racial', 'Расовая', '', '', '', '', '', '', '', 16712190, 'Calls in your friend, Gobber, allowing you bank access for $d.', '친구 고버를 불러 $d 동안 은행을 이용할 수 있습니다.', 'Appelle votre ami, Gobeur, ce qui vous donne accès à votre banque pendant $d.', 'Ruft Euren Freund Gobber, der Euch $d lang Zugriff auf Euer Bankfach gewährt.', '召唤你的朋友大胖，让你能够在$d内使用银行。', '呼喚你的朋友古柏，使你能夠使用銀行$d。', 'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', 'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', 'Вызов вашего приятеля Гоббера. Дает доступ к банку на $d.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 133, 1500, 0, 0, 0, 0, 0, 0, 0, 4, 0, '1.0000000000000000', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = @GoblinRacial6; -- Rocket Jump
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (@GoblinRacial6, 1252, 0, 0, 537133072, 1024, 67108864, 1073807360, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 90000, 90000, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 138, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 74, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 200, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 7779, 0, 370769, 0, 0, 'Rocket Jump', '로켓 도약', 'Fusées de saut', 'Raketensprung', '火箭跳', '火箭跳躍', 'Salto con cohete', 'Salto con cohete', 'Реактивный прыжок', '', '', '', '', '', '', '', 16712190, 'Racial', '종족 특성', 'Raciale', 'Volksfähigkeit', '种族特长', '種族特長', 'Racial', 'Racial', 'Расовая', '', '', '', '', '', '', '', 16712190, 'Activates your rocket belt to jump forward.', '로켓 허리띠를 작동시켜 전방으로 도약합니다.', 'Active votre ceinture de fusées pour vous faire sauter en avant.', 'Aktiviert Euren Raketengürtel, um vorwärts zu springen.', '使用你的火箭腰带向前跳跃。', '啟動你的火箭腰帶，往前跳躍。', 'Activa tu cinturón de cohetes para saltar hacia delante.', 'Activa tu cinturón de cohetes para saltar hacia delante.', 'Прыжок вперед на большое расстояние с помощью реактивного пояса.', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 0, 133, 1500, 0, 0, 0, 0, 0, 0, 0, 4, 0, '1.0000000000000000', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0);
-DELETE FROM `spell` WHERE `id` = 87090; -- Goblin Trike
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (87090, 0, 0, 21, 269844752, 0, 0, 536870912, 0, 0, 131072, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 31, 128, 0, 0, 101, 0, 0, 0, 1, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 6, 0, 1, 1, '0E-16', '0E-16', '0E-16', 0, 309, 59, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 78, 207, 32, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 46754, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 7644, 0, 936, 0, 0, 'Goblin Trike', '고블린 세발차', 'Triklomoteur gobelin', 'Goblinisches Trike', '地精三轮摩托', '哥布林機動車', 'Triciclo goblin', 'Triciclo goblin', 'Гоблинский трицикл', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 'Summons and dismisses a rideable Goblin Trike.', '고블린 세발차에 올라타거나 내립니다.', 'Invoque et renvoie un triklomoteur gobelin.', 'Beschwört ein reitbares goblinisches Trike und gibt es wieder frei.', '召唤或解散一个可供骑乘的地精三轮摩托。', '召喚或解散一臺可供騎乘的哥布林機動車。', 'Invoca y retira un triciclo goblin que se puede montar.', 'Invoca y retira un triciclo goblin que se puede montar.', 'Позволяет призывать и отпускать гоблинский трицикл.', '', '', '', '', '', '', '', 16712190, 'Increases ground speed by $s3%.', '이동 속도 $s3%만큼 증가', 'Augmente la vitesse au sol de $s3%.', 'Erhöht Tempo am Boden um $s3%.', '地面速度提高$s3%。', '地面移動速度提高$s3%。', 'Aumenta la velocidad por tierra un $s3%.', 'Aumenta la velocidad por tierra un $s3%.', 'Скорость бега повышена на $s3%.', '', '', '', '', '', '', '', 16712190, 0, 330, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = 87091; -- Goblin Turbo-Trike
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (87091, 0, 0, 21, 269844752, 0, 0, 536870912, 0, 0, 131072, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 31, 128, 0, 0, 101, 0, 0, 0, 1, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 6, 0, 1, 1, '0E-16', '0E-16', '0E-16', 0, 309, 99, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 78, 207, 32, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 46755, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 7644, 0, 343, 0, 0, 'Goblin Turbo-Trike', '고블린 터보 세발차', 'Triklomoteur turbo gobelin', 'Goblinisches Turbotrike', '地精三轮摩托涡轮增压型', '哥布林渦輪機動車', 'Turbo triciclo goblin', 'Turbo triciclo goblin', 'Гоблинский турботрицикл', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 'Summons and dismisses a Goblin Turbo-Trike.', '고블린 세발차에 올라타거나 내립니다.', 'Invoque et renvoie un Triklomoteur turbo gobelin.', 'Beschwört ein reitbares goblinisches Turbotrike oder gibt es wieder frei.', '召唤或解散一辆地精三轮摩托涡轮增压型。', '召喚或解散一臺可供騎乘的哥布林渦輪機動車。', 'Invoca y retira un turbo triciclo goblin.', 'Invoca y retira un turbo triciclo goblin.', 'Позволяет призывать и отпускать гоблинский турботрицикл.', '', '', '', '', '', '', '', 16712190, 'Increases ground speed by $s3%.', '이동 속도 $s3%만큼 증가', 'Augmente la vitesse au sol de $s3%.', 'Erhöht Tempo am Boden um $s3%.', '地面速度提高$s3%。', '地面移動速度提高$s3%。', 'Aumenta la velocidad por tierra un $s3%.', 'Aumenta la velocidad por tierra un $s3%.', 'Скорость бега повышена на $s3%.', '', '', '', '', '', '', '', 16712190, 0, 330, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = 103195; -- Mountain Horse
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (103195, 0, 0, 21, 269844752, 0, 0, 536870912, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 31, 128, 0, 0, 101, 0, 0, 0, 1, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 6, 0, 1, 1, '0E-16', '0E-16', '0E-16', 0, 309, 59, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 78, 207, 32, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 55272, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 7644, 0, 1176, 0, 0, 'Mountain Horse', '산악 야생마', 'Cheval des montagnes', 'Bergpferd', '高山马', '高山馬', 'Caballo de montaña', 'Caballo de montaña', 'Горный конь', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 'Summons and dismisses a rideable Mountain Horse.', '산악 야생마에 올라타거나 내립니다.', 'Invoque et renvoie un cheval des montagnes.', 'Beschwört ein reitbares Bergpferd oder gibt es wieder frei.', '召唤或解散一匹可供骑乘的高山马。', '召喚或解散一隻可供騎乘的高山馬。', 'Invoca y retira a un caballo de montaña que se puede montar.', 'Invoca y retira a un caballo de montaña que se puede montar.', 'Призывает или отпускает горного коня.', '', '', '', '', '', '', '', 16712190, 'Increases ground speed by $s3%.', '이동 속도 $s3%만큼 증가', 'Augmente la vitesse au sol de $s3%.', 'Erhöht Tempo am Boden um $s3%.', '地面速度提高$s3%。', '地面移動速度提高$s3%。', 'Aumenta la velocidad por tierra un $s3%.', 'Aumenta la velocidad por tierra un $s3%.', 'Скорость бега повышена на $s3%.', '', '', '', '', '', '', '', 16712190, 0, 330, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '1.0000000000000000', 0, 0);
-DELETE FROM `spell` WHERE `id` = 103196; -- Swift Mountain Horse
-INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES (103196, 0, 0, 21, 269844752, 0, 0, 536870912, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 31, 128, 0, 0, 101, 0, 0, 0, 1, 21, 0, 0, 0, 0, 0, 1, '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 6, 0, 6, 0, 1, 1, '0E-16', '0E-16', '0E-16', 0, 309, 99, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 78, 207, 32, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 55273, 0, 0, 0, 0, 0, 0, 0, 0, '0E-16', '0E-16', '0E-16', 0, 0, 0, 0, 0, 0, 0, 0, 0, 7644, 0, 1176, 0, 0, 'Swift Mountain Horse', '날쌘 산악 야생마', 'Cheval des montagnes rapide', 'Schnelles Bergpferd', '迅捷高山马', '迅捷高山馬', 'Caballo de montaña presto', 'Caballo de montaña presto', 'Стремительный горный конь', '', '', '', '', '', '', '', 16712190, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 16712190, 'Summons and dismisses a rideable Swift Mountain Horse.', '날쌘 산악 야생마에 올라타거나 내립니다.', 'Invoque et renvoie un cheval des montagnes rapide.', 'Beschwört ein reitbares schnelles Bergpferd oder gibt es wieder frei.', '召唤或解散一匹可供骑乘的迅捷高山马。', '召喚或解散一隻可供騎乘的迅捷高山馬。', 'Invoca y retira a un caballo de montaña presto que se puede montar.', 'Invoca y retira a un caballo de montaña presto que se puede montar.', 'Призывает или отпускает стремительного горного коня.', '', '', '', '', '', '', '', 16712190, 'Increases ground speed by $s3%.', '이동 속도 $s3%만큼 증가', 'Augmente la vitesse au sol de $s3%.', 'Erhöht Tempo am Boden um $s3%.', '地面速度提高$s3%。', '地面移動速度提高$s3%。', 'Aumenta la velocidad por tierra un $s3%.', 'Aumenta la velocidad por tierra un $s3%.', 'Скорость бега повышена на $s3%.', '', '', '', '', '', '', '', 16712190, 0, 330, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1.0000000000000000', '1.0000000000000000', '1.0000000000000000', 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '0E-16', '0E-16', '1.0000000000000000', 0, 0);
-
 REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES
 /* Skinning */
 /* Apprentice skinning */
@@ -175,51 +142,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Apprentice', -- NameSubtext_Lang_enUS
-	'초급', -- NameSubtext_Lang_enGB
-	'Apprenti', -- NameSubtext_Lang_koKR
-	'Lehrling', -- NameSubtext_Lang_frFR
-	'初级', -- NameSubtext_Lang_deDE
-	'初級', -- NameSubtext_Lang_enCN
-	'Aprendiz', -- NameSubtext_Lang_zhCN
-	'Aprendiz', -- NameSubtext_Lang_enTW
-	'Ученик', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'초급', -- NameSubtext_Lang_koKR
+	'Apprenti', -- NameSubtext_Lang_frFR
+	'Lehrling', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'初级', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'初級', -- NameSubtext_Lang_zhTW
+	'Aprendiz', -- NameSubtext_Lang_esES
+	'Aprendiz', -- NameSubtext_Lang_esMX
+	'Ученик', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'The basics of how to skin animals for their pelts and furs for use in Leatherworking.  Gives a potential skinning skill of 75.  Requires a Skinning Knife.', -- Description_Lang_enUS
-	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 75로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB
-	'Les rudiments du Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 75. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR
-	'Grundlagen, wie man Tiere häutet und ihre Pelze und Felle für die Lederverarbeitung bearbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 75. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR
-	'基本的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得75点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE
-	'基本的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得75點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN
-	'Información básica sobre el desuello de animales para conseguir pelambres y pelajes para usarlos en peletería. Otorga una habilidad potencial para desollar de 75 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN
-	'Información básica sobre el desuello de animales para conseguir pelambres y pelajes para usarlos en peletería. Otorga una habilidad potencial para desollar de 75 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW
-	'Обучает способности снимать шкуры и мех с животных. Полученные материалы в дальнейшем используются в кожевничестве. Позволяет развить навык до уровня 75. Требуется нож для снятия шкур.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 75로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_koKR
+	'Les rudiments du Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 75. Nécessite un Couteau à dépecer.', -- Description_Lang_frFR
+	'Grundlagen, wie man Tiere häutet und ihre Pelze und Felle für die Lederverarbeitung bearbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 75. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'基本的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得75点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'基本的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得75點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_zhTW
+	'Información básica sobre el desuello de animales para conseguir pelambres y pelajes para usarlos en peletería. Otorga una habilidad potencial para desollar de 75 p. Requiere un cuchillo para desollar.', -- Description_Lang_esES
+	'Información básica sobre el desuello de animales para conseguir pelambres y pelajes para usarlos en peletería. Otorga una habilidad potencial para desollar de 75 p. Requiere un cuchillo para desollar.', -- Description_Lang_esMX
+	'Обучает способности снимать шкуры и мех с животных. Полученные материалы в дальнейшем используются в кожевничестве. Позволяет развить навык до уровня 75. Требуется нож для снятия шкур.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -412,51 +379,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Journeyman', -- NameSubtext_Lang_enUS
-	'수습', -- NameSubtext_Lang_enGB
-	'Compagnon', -- NameSubtext_Lang_koKR
-	'Geselle', -- NameSubtext_Lang_frFR
-	'中级', -- NameSubtext_Lang_deDE
-	'中級', -- NameSubtext_Lang_enCN
-	'Oficial', -- NameSubtext_Lang_zhCN
-	'Oficial', -- NameSubtext_Lang_enTW
-	'Подмастерье', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'수습', -- NameSubtext_Lang_koKR
+	'Compagnon', -- NameSubtext_Lang_frFR
+	'Geselle', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'中级', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'中級', -- NameSubtext_Lang_zhTW
+	'Oficial', -- NameSubtext_Lang_esES
+	'Oficial', -- NameSubtext_Lang_esMX
+	'Подмастерье', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Advanced skills in skinning the leather from beasts for use in Leatherworking.  Gives a potential skinning skill of 150. Requires a Skinning Knife.', -- Description_Lang_enUS
-	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 150으로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB
-	'Spécialisation du talent Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 150. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR
-	'Erweiterte Fertigkeiten der Kürschnerei, wie man das Leder von Wildtieren für die Lederverarbeitung bearbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 150. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR
-	'高级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得150点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE
-	'高級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得150點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN
-	'Habilidades avanzadas en desuello de animales para utilizar el cuero en peletería. Proporciona una habilidad potencial en desuello de 150 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN
-	'Habilidades avanzadas en desuello de animales para utilizar el cuero en peletería. Proporciona una habilidad potencial en desuello de 150 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW
-	'Навык подмастерья в профессии снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 150. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 150으로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_koKR
+	'Spécialisation du talent Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 150. Nécessite un Couteau à dépecer.', -- Description_Lang_frFR
+	'Erweiterte Fertigkeiten der Kürschnerei, wie man das Leder von Wildtieren für die Lederverarbeitung bearbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 150. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'高级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得150点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'高級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得150點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_zhTW
+	'Habilidades avanzadas en desuello de animales para utilizar el cuero en peletería. Proporciona una habilidad potencial en desuello de 150 p. Requiere un cuchillo para desollar.', -- Description_Lang_esES
+	'Habilidades avanzadas en desuello de animales para utilizar el cuero en peletería. Proporciona una habilidad potencial en desuello de 150 p. Requiere un cuchillo para desollar.', -- Description_Lang_esMX
+	'Навык подмастерья в профессии снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 150. Требует наличия ножа для снятия шкур.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -649,51 +616,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Expert', -- NameSubtext_Lang_enUS
-	'숙련', -- NameSubtext_Lang_enGB
-	'Expert', -- NameSubtext_Lang_koKR
-	'Experte', -- NameSubtext_Lang_frFR
-	'高级', -- NameSubtext_Lang_deDE
-	'高級', -- NameSubtext_Lang_enCN
-	'Experto', -- NameSubtext_Lang_zhCN
-	'Experto', -- NameSubtext_Lang_enTW
-	'Умелец', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'숙련', -- NameSubtext_Lang_koKR
+	'Expert', -- NameSubtext_Lang_frFR
+	'Experte', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'高级', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'高級', -- NameSubtext_Lang_zhTW
+	'Experto', -- NameSubtext_Lang_esES
+	'Experto', -- NameSubtext_Lang_esMX
+	'Умелец', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Expert skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 225.  Requires a Skinning Knife.', -- Description_Lang_enUS
-	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 225로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB
-	'Expertise en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 225. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR
-	'Experten-Fertigkeiten der Kürschnerei, wie man Bälge von Wildtieren für die Lederverarbeitung verarbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 225. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR
-	'专家级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得225点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE
-	'專家級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得225點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN
-	'Habilidad experta en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 225 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN
-	'Habilidad experta en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 225 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW
-	'Навык умельца в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 225. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 225로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_koKR
+	'Expertise en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 225. Nécessite un Couteau à dépecer.', -- Description_Lang_frFR
+	'Experten-Fertigkeiten der Kürschnerei, wie man Bälge von Wildtieren für die Lederverarbeitung verarbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 225. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'专家级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得225点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'專家級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得225點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_zhTW
+	'Habilidad experta en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 225 p. Requiere un cuchillo para desollar.', -- Description_Lang_esES
+	'Habilidad experta en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 225 p. Requiere un cuchillo para desollar.', -- Description_Lang_esMX
+	'Навык умельца в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 225. Требует наличия ножа для снятия шкур.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -886,51 +853,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Artisan', -- NameSubtext_Lang_enUS
-	'전문', -- NameSubtext_Lang_enGB
-	'Artisan', -- NameSubtext_Lang_koKR
-	'Fachmann', -- NameSubtext_Lang_frFR
-	'专家级', -- NameSubtext_Lang_deDE
-	'專家級', -- NameSubtext_Lang_enCN
-	'Artesano', -- NameSubtext_Lang_zhCN
-	'Artesano', -- NameSubtext_Lang_enTW
-	'Искусник', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'전문', -- NameSubtext_Lang_koKR
+	'Artisan', -- NameSubtext_Lang_frFR
+	'Fachmann', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'专家级', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'專家級', -- NameSubtext_Lang_zhTW
+	'Artesano', -- NameSubtext_Lang_esES
+	'Artesano', -- NameSubtext_Lang_esMX
+	'Искусник', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Artisan skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 300.  Requires a Skinning Knife.', -- Description_Lang_enUS
-	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 300으로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB
-	'Compétence d\'artisan en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 300. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR
-	'Fachmannfertigkeit der Kürschnerei, wie man Bälge von Wildtieren für die Lederverarbeitung verarbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 300. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR
-	'专家级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得300点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE
-	'專家級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得300點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN
-	'Habilidad artesana en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 300 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN
-	'Habilidad artesana en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 300 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW
-	'Навык искусника в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 300. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 300으로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_koKR
+	'Compétence d\'artisan en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 300. Nécessite un Couteau à dépecer.', -- Description_Lang_frFR
+	'Fachmannfertigkeit der Kürschnerei, wie man Bälge von Wildtieren für die Lederverarbeitung verarbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 300. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'专家级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得300点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'專家級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得300點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_zhTW
+	'Habilidad artesana en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 300 p. Requiere un cuchillo para desollar.', -- Description_Lang_esES
+	'Habilidad artesana en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 300 p. Requiere un cuchillo para desollar.', -- Description_Lang_esMX
+	'Навык искусника в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 300. Требует наличия ножа для снятия шкур.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -1123,17 +1090,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
@@ -1360,51 +1327,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Master', -- NameSubtext_Lang_enUS
-	'대가', -- NameSubtext_Lang_enGB
-	'Maître', -- NameSubtext_Lang_koKR
-	'Meister', -- NameSubtext_Lang_frFR
-	'大师级', -- NameSubtext_Lang_deDE
-	'大師級', -- NameSubtext_Lang_enCN
-	'Maestro', -- NameSubtext_Lang_zhCN
-	'Maestro', -- NameSubtext_Lang_enTW
-	'Мастер', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'대가', -- NameSubtext_Lang_koKR
+	'Maître', -- NameSubtext_Lang_frFR
+	'Meister', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'大师级', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'大師級', -- NameSubtext_Lang_zhTW
+	'Maestro', -- NameSubtext_Lang_esES
+	'Maestro', -- NameSubtext_Lang_esMX
+	'Мастер', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Master skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 375.  Requires a Skinning Knife.', -- Description_Lang_enUS
-	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 375로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB
-	'Compétence de maître en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 375. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR
-	'Meisterliche Fertigkeiten der Kürschnerei, der Vorbereitung von Häuten von Wildtieren für die Lederverarbeitung. Verleiht eine potenzielle Kürschnerfertigkeit von 375. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR
-	'大师级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得375点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE
-	'大師級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得375點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN
-	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 375 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN
-	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 375 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW
-	'Навык мастера в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 375. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 375로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_koKR
+	'Compétence de maître en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 375. Nécessite un Couteau à dépecer.', -- Description_Lang_frFR
+	'Meisterliche Fertigkeiten der Kürschnerei, der Vorbereitung von Häuten von Wildtieren für die Lederverarbeitung. Verleiht eine potenzielle Kürschnerfertigkeit von 375. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'大师级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得375点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'大師級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得375點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_zhTW
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 375 p. Requiere un cuchillo para desollar.', -- Description_Lang_esES
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 375 p. Requiere un cuchillo para desollar.', -- Description_Lang_esMX
+	'Навык мастера в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 375. Требует наличия ножа для снятия шкур.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -1597,51 +1564,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Grand Master', -- NameSubtext_Lang_enUS
-	'거장', -- NameSubtext_Lang_enGB
-	'Grand maître', -- NameSubtext_Lang_koKR
-	'Großmeister', -- NameSubtext_Lang_frFR
-	'宗师级', -- NameSubtext_Lang_deDE
-	'宗師級', -- NameSubtext_Lang_enCN
-	'Gran maestro', -- NameSubtext_Lang_zhCN
-	'Gran maestro', -- NameSubtext_Lang_enTW
-	'Великий мастер', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'거장', -- NameSubtext_Lang_koKR
+	'Grand maître', -- NameSubtext_Lang_frFR
+	'Großmeister', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'宗师级', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'宗師級', -- NameSubtext_Lang_zhTW
+	'Gran maestro', -- NameSubtext_Lang_esES
+	'Gran maestro', -- NameSubtext_Lang_esMX
+	'Великий мастер', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Master skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 450.  Requires a Skinning Knife.', -- Description_Lang_enUS
-	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 450로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB
-	'Compétence de maîtrise en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 450. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR
-	'Meisterliche Fertigkeiten der Kürschnerei, der Vorbereitung von Häuten von Wildtieren für die Lederverarbeitung. Verleiht eine potenzielle Kürschnerfertigkeit von 450. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR
-	'宗师级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得450点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE
-	'宗師級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得450點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN
-	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 450 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN
-	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 450 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW
-	'Отточенное умение снятия шкур для последующего использования в кожевничестве. Максимально доступный уровень навыка – 450. Требуется нож для снятия шкур.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 450로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_koKR
+	'Compétence de maîtrise en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 450. Nécessite un Couteau à dépecer.', -- Description_Lang_frFR
+	'Meisterliche Fertigkeiten der Kürschnerei, der Vorbereitung von Häuten von Wildtieren für die Lederverarbeitung. Verleiht eine potenzielle Kürschnerfertigkeit von 450. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'宗师级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得450点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'宗師級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得450點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_zhTW
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 450 p. Requiere un cuchillo para desollar.', -- Description_Lang_esES
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 450 p. Requiere un cuchillo para desollar.', -- Description_Lang_esMX
+	'Отточенное умение снятия шкур для последующего использования в кожевничестве. Максимально доступный уровень навыка – 450. Требуется нож для снятия шкур.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -1834,17 +1801,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Skinning', -- Name_Lang_enUS
-	'무두질', -- Name_Lang_enGB
-	'Dépeçage', -- Name_Lang_koKR
-	'Kürschnerei', -- Name_Lang_frFR
-	'剥皮', -- Name_Lang_deDE
-	'剝皮', -- Name_Lang_enCN
-	'Desuello', -- Name_Lang_zhCN
-	'Desuello', -- Name_Lang_enTW
-	'Снятие шкур', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'무두질', -- Name_Lang_koKR
+	'Dépeçage', -- Name_Lang_frFR
+	'Kürschnerei', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮', -- Name_Lang_zhTW
+	'Desuello', -- Name_Lang_esES
+	'Desuello', -- Name_Lang_esMX
+	'Снятие шкур', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
@@ -1868,17 +1835,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- NameSubtext_Lang_Unk
 	16712188, -- NameSubtext_Lang_Mask
 	'Increases your skill in Skinning to 300.', -- Description_Lang_enUS
-	'무두질 숙련도가 300으로 증가합니다.', -- Description_Lang_enGB
-	'Porte votre compétence en Dépeçage à 300.', -- Description_Lang_koKR
-	'Erhöht Eure Kürschnereifertigkeit auf 300.', -- Description_Lang_frFR
-	'使你的剥皮技能提高到300点。', -- Description_Lang_deDE
-	'使你的剝皮技能提升為300點。', -- Description_Lang_enCN
-	'Aumenta tu habilidad en desuello a 300 p.', -- Description_Lang_zhCN
-	'Aumenta tu habilidad en desuello a 300 p.', -- Description_Lang_enTW
-	'Повышает ваш навык снятия шкур до 300.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'무두질 숙련도가 300으로 증가합니다.', -- Description_Lang_koKR
+	'Porte votre compétence en Dépeçage à 300.', -- Description_Lang_frFR
+	'Erhöht Eure Kürschnereifertigkeit auf 300.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'使你的剥皮技能提高到300点。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'使你的剝皮技能提升為300點。', -- Description_Lang_zhTW
+	'Aumenta tu habilidad en desuello a 300 p.', -- Description_Lang_esES
+	'Aumenta tu habilidad en desuello a 300 p.', -- Description_Lang_esMX
+	'Повышает ваш навык снятия шкур до 300.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -2073,68 +2040,68 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Viciousness', -- Name_Lang_enUS
-	'포악함', -- Name_Lang_enGB
-	'Acharnement', -- Name_Lang_koKR
-	'Garstigkeit', -- Name_Lang_frFR
-	'恶意', -- Name_Lang_deDE
-	'兇惡', -- Name_Lang_enCN
-	'Saña', -- Name_Lang_zhCN
-	'Saña', -- Name_Lang_enTW
-	'Озлобленность', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'포악함', -- Name_Lang_koKR
+	'Acharnement', -- Name_Lang_frFR
+	'Garstigkeit', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'恶意', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'兇惡', -- Name_Lang_zhTW
+	'Saña', -- Name_Lang_esES
+	'Saña', -- Name_Lang_esMX
+	'Озлобленность', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長，被動', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長，被動', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Increases critical strike chance by $s1%.', -- Description_Lang_enUS
-	'치명타율이 $s1%만큼 증가합니다.', -- Description_Lang_enGB
-	'Augmente les chances de coup critique de $s1%.', -- Description_Lang_koKR
-	'Erhöht die kritische Trefferchance um $s1%.', -- Description_Lang_frFR
-	'使爆击几率提高$s1%。', -- Description_Lang_deDE
-	'致命一擊機率提高$s1%。', -- Description_Lang_enCN
-	'Aumenta la probabilidad de golpe crítico un $s1%.', -- Description_Lang_zhCN
-	'Aumenta la probabilidad de golpe crítico un $s1%.', -- Description_Lang_enTW
-	'Повышает вероятность нанесения критического урона на $s1%.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'치명타율이 $s1%만큼 증가합니다.', -- Description_Lang_koKR
+	'Augmente les chances de coup critique de $s1%.', -- Description_Lang_frFR
+	'Erhöht die kritische Trefferchance um $s1%.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'使爆击几率提高$s1%。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'致命一擊機率提高$s1%。', -- Description_Lang_zhTW
+	'Aumenta la probabilidad de golpe crítico un $s1%.', -- Description_Lang_esES
+	'Aumenta la probabilidad de golpe crítico un $s1%.', -- Description_Lang_esMX
+	'Повышает вероятность нанесения критического урона на $s1%.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
 	'', -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
 	'Criticial strike chance increased by $s1%.', -- AuraDescription_Lang_enUS
-	'치명타율 $s1%만큼 증가', -- AuraDescription_Lang_enGB
-	'Chances de coup critique augmentées de $s1%.', -- AuraDescription_Lang_koKR
-	'Kritische Trefferchance um $s1% erhöht.', -- AuraDescription_Lang_frFR
-	'爆击几率提高$s1%。', -- AuraDescription_Lang_deDE
-	'致命一擊機率提高$s1%。', -- AuraDescription_Lang_enCN
-	'Probabilidad de golpe crítico aumentada un $s1%.', -- AuraDescription_Lang_zhCN
-	'Probabilidad de golpe crítico aumentada un $s1%.', -- AuraDescription_Lang_enTW
-	'Вероятность нанесения критического урона увеличена на $s1%.', -- AuraDescription_Lang_zhTW
-	'', -- AuraDescription_Lang_esES
-	'', -- AuraDescription_Lang_esMX
-	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_enGB
+	'치명타율 $s1%만큼 증가', -- AuraDescription_Lang_koKR
+	'Chances de coup critique augmentées de $s1%.', -- AuraDescription_Lang_frFR
+	'Kritische Trefferchance um $s1% erhöht.', -- AuraDescription_Lang_deDE
+	'', -- AuraDescription_Lang_enCN
+	'爆击几率提高$s1%。', -- AuraDescription_Lang_zhCN
+	'', -- AuraDescription_Lang_enTW
+	'致命一擊機率提高$s1%。', -- AuraDescription_Lang_zhTW
+	'Probabilidad de golpe crítico aumentada un $s1%.', -- AuraDescription_Lang_esES
+	'Probabilidad de golpe crítico aumentada un $s1%.', -- AuraDescription_Lang_esMX
+	'Вероятность нанесения критического урона увеличена на $s1%.', -- AuraDescription_Lang_ruRU
 	'', -- AuraDescription_Lang_ptPT
 	'', -- AuraDescription_Lang_ptBR
 	'', -- AuraDescription_Lang_itIT
@@ -2310,51 +2277,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Aberration', -- Name_Lang_enUS
-	'돌연변이', -- Name_Lang_enGB
-	'Aberration', -- Name_Lang_koKR
-	'Anomalie', -- Name_Lang_frFR
-	'畸变', -- Name_Lang_deDE
-	'變異', -- Name_Lang_enCN
-	'Desviación', -- Name_Lang_zhCN
-	'Aberración', -- Name_Lang_enTW
-	'Аберрация', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'돌연변이', -- Name_Lang_koKR
+	'Aberration', -- Name_Lang_frFR
+	'Anomalie', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'畸变', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'變異', -- Name_Lang_zhTW
+	'Desviación', -- Name_Lang_esES
+	'Aberración', -- Name_Lang_esMX
+	'Аберрация', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長，被動', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長，被動', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Reduces the chance you will be hit by Nature and Shadow spells by $s1%.', -- Description_Lang_enUS
-	'해로운 자연 및 암흑 마법 효과에 대한 저항력이 $s1만큼 증가합니다.', -- Description_Lang_enGB
-	'Augmente votre résistance aux effets de Nature et d\'Ombre néfastes de $s1.', -- Description_Lang_koKR
-	'Erhöht Euren Widerstand gegen schädliche Natur- und Schatteneffekte um $s1.', -- Description_Lang_frFR
-	'使你对有害的自然和暗影效果抗性提高$s1。', -- Description_Lang_deDE
-	'使你對有害的暗影和自然效果的抗性提高$s1點。', -- Description_Lang_enCN
-	'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', -- Description_Lang_zhCN
-	'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', -- Description_Lang_enTW
-	'Повышает сопротивляемость отрицательным эффектам сил природы и темной магии на $s1.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'해로운 자연 및 암흑 마법 효과에 대한 저항력이 $s1만큼 증가합니다.', -- Description_Lang_koKR
+	'Augmente votre résistance aux effets de Nature et d\'Ombre néfastes de $s1.', -- Description_Lang_frFR
+	'Erhöht Euren Widerstand gegen schädliche Natur- und Schatteneffekte um $s1.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'使你对有害的自然和暗影效果抗性提高$s1。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'使你對有害的暗影和自然效果的抗性提高$s1點。', -- Description_Lang_zhTW
+	'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', -- Description_Lang_esES
+	'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', -- Description_Lang_esMX
+	'Повышает сопротивляемость отрицательным эффектам сил природы и темной магии на $s1.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -2547,51 +2514,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Flayer', -- Name_Lang_enUS
-	'갈퀴손', -- Name_Lang_enGB
-	'Ecorcheur', -- Name_Lang_koKR
-	'Schinder', -- Name_Lang_frFR
-	'剥皮专家', -- Name_Lang_deDE
-	'剝皮者', -- Name_Lang_enCN
-	'Despellejador', -- Name_Lang_zhCN
-	'Despellejador', -- Name_Lang_enTW
-	'Живодер', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'갈퀴손', -- Name_Lang_koKR
+	'Ecorcheur', -- Name_Lang_frFR
+	'Schinder', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'剥皮专家', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'剝皮者', -- Name_Lang_zhTW
+	'Despellejador', -- Name_Lang_esES
+	'Despellejador', -- Name_Lang_esMX
+	'Живодер', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長，被動', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長，被動', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Skinning skill increased by $s1 and allows you to skin faster.', -- Description_Lang_enUS
-	'무두질 숙련도가 $s1만큼 증가하고 속도가 빨라집니다.', -- Description_Lang_enGB
-	'Compétence de dépeçage augmentée de $s1 et vitesse de dépeçage augmentée.', -- Description_Lang_koKR
-	'Kürschnereifertigkeit um $s1 erhöht. Gestattet es Euch, schneller zu häuten.', -- Description_Lang_frFR
-	'剥皮技能等级提高$s1，并加快你的剥皮速度。', -- Description_Lang_deDE
-	'剝皮技能提高$s1點，並使你的剝皮速度提高。', -- Description_Lang_enCN
-	'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', -- Description_Lang_zhCN
-	'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', -- Description_Lang_enTW
-	'Навык снятия шкур увеличен на $s1, вы снимаете шкуры быстрее.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'무두질 숙련도가 $s1만큼 증가하고 속도가 빨라집니다.', -- Description_Lang_koKR
+	'Compétence de dépeçage augmentée de $s1 et vitesse de dépeçage augmentée.', -- Description_Lang_frFR
+	'Kürschnereifertigkeit um $s1 erhöht. Gestattet es Euch, schneller zu häuten.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'剥皮技能等级提高$s1，并加快你的剥皮速度。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'剝皮技能提高$s1點，並使你的剝皮速度提高。', -- Description_Lang_zhTW
+	'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', -- Description_Lang_esES
+	'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', -- Description_Lang_esMX
+	'Навык снятия шкур увеличен на $s1, вы снимаете шкуры быстрее.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -2784,68 +2751,68 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Darkflight', -- Name_Lang_enUS
-	'암흑질주', -- Name_Lang_enGB
-	'Sombre course', -- Name_Lang_koKR
-	'Finstere Pfade', -- Name_Lang_frFR
-	'疾步夜行', -- Name_Lang_deDE
-	'暗月疾奔', -- Name_Lang_enCN
-	'Huida oscura', -- Name_Lang_zhCN
-	'Ímpetu oscuro', -- Name_Lang_enTW
-	'Легкость тьмы', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'암흑질주', -- Name_Lang_koKR
+	'Sombre course', -- Name_Lang_frFR
+	'Finstere Pfade', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'疾步夜行', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'暗月疾奔', -- Name_Lang_zhTW
+	'Huida oscura', -- Name_Lang_esES
+	'Ímpetu oscuro', -- Name_Lang_esMX
+	'Легкость тьмы', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial', -- NameSubtext_Lang_enUS
-	'종족 특성', -- NameSubtext_Lang_enGB
-	'Raciale', -- NameSubtext_Lang_koKR
-	'Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'种族特长', -- NameSubtext_Lang_deDE
-	'種族特長', -- NameSubtext_Lang_enCN
-	'Racial', -- NameSubtext_Lang_zhCN
-	'Racial', -- NameSubtext_Lang_enTW
-	'Расовая', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 특성', -- NameSubtext_Lang_koKR
+	'Raciale', -- NameSubtext_Lang_frFR
+	'Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長', -- NameSubtext_Lang_zhTW
+	'Racial', -- NameSubtext_Lang_esES
+	'Racial', -- NameSubtext_Lang_esMX
+	'Расовая', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Activates your true form, increasing current movement speed by an additional $s1% for $d.', -- Description_Lang_enUS
-	'진정한 모습으로 변신하여 $d 동안 이동 속도가 추가로 $s1%만큼 증가합니다.', -- Description_Lang_enGB
-	'Active votre forme véritable, ce qui augmente votre vitesse de déplacement actuelle de $s1% supplémentaires pendant $d.', -- Description_Lang_koKR
-	'Aktiviert Eure wahre Form und erhöht Euer derzeitiges Bewegungstempo $d lang um zusätzlich $s1%.', -- Description_Lang_frFR
-	'进入你的原形，使当前移动速度提高$s1%，持续$d。', -- Description_Lang_deDE
-	'現出原形，使當前移動速度額外提高$s1%，持續$d。', -- Description_Lang_enCN
-	'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento actual un $s1% durante $d.', -- Description_Lang_zhCN
-	'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento un $s1% durante $d.', -- Description_Lang_enTW
-	'Ворген принимает свой истинный облик. Скорость его передвижения повышается на $s1% на $d.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'진정한 모습으로 변신하여 $d 동안 이동 속도가 추가로 $s1%만큼 증가합니다.', -- Description_Lang_koKR
+	'Active votre forme véritable, ce qui augmente votre vitesse de déplacement actuelle de $s1% supplémentaires pendant $d.', -- Description_Lang_frFR
+	'Aktiviert Eure wahre Form und erhöht Euer derzeitiges Bewegungstempo $d lang um zusätzlich $s1%.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'进入你的原形，使当前移动速度提高$s1%，持续$d。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'現出原形，使當前移動速度額外提高$s1%，持續$d。', -- Description_Lang_zhTW
+	'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento actual un $s1% durante $d.', -- Description_Lang_esES
+	'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento un $s1% durante $d.', -- Description_Lang_esMX
+	'Ворген принимает свой истинный облик. Скорость его передвижения повышается на $s1% на $d.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
 	'', -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
 	'True form activated, movement speed increased by an additional $s1%.', -- AuraDescription_Lang_enUS
-	'진정한 모습으로 변신하여 이동 속도 추가로 $s1%만큼 증가', -- AuraDescription_Lang_enGB
-	'Forme véritable activée, vitesse de déplacement augmentée de $s1% supplémentaires.', -- AuraDescription_Lang_koKR
-	'Zeigt die wahre Gestalt. Bewegungstempo um zusätzlich $s1% erhöht.', -- AuraDescription_Lang_frFR
-	'进入原形，移动速度额外提高$s1%。', -- AuraDescription_Lang_deDE
-	'現出原形，移動速度提高$s1%。', -- AuraDescription_Lang_enCN
-	'Forma verdadera activada y velocidad de movimiento aumentada un $s1% extra.', -- AuraDescription_Lang_zhCN
-	'Forma verdadera activada. Velocidad de movimiento aumentada un $s1%.', -- AuraDescription_Lang_enTW
-	'Принят истинный облик, скорость передвижения повышена на $s1%.', -- AuraDescription_Lang_zhTW
-	'', -- AuraDescription_Lang_esES
-	'', -- AuraDescription_Lang_esMX
-	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_enGB
+	'진정한 모습으로 변신하여 이동 속도 추가로 $s1%만큼 증가', -- AuraDescription_Lang_koKR
+	'Forme véritable activée, vitesse de déplacement augmentée de $s1% supplémentaires.', -- AuraDescription_Lang_frFR
+	'Zeigt die wahre Gestalt. Bewegungstempo um zusätzlich $s1% erhöht.', -- AuraDescription_Lang_deDE
+	'', -- AuraDescription_Lang_enCN
+	'进入原形，移动速度额外提高$s1%。', -- AuraDescription_Lang_zhCN
+	'', -- AuraDescription_Lang_enTW
+	'現出原形，移動速度提高$s1%。', -- AuraDescription_Lang_zhTW
+	'Forma verdadera activada y velocidad de movimiento aumentada un $s1% extra.', -- AuraDescription_Lang_esES
+	'Forma verdadera activada. Velocidad de movimiento aumentada un $s1%.', -- AuraDescription_Lang_esMX
+	'Принят истинный облик, скорость передвижения повышена на $s1%.', -- AuraDescription_Lang_ruRU
 	'', -- AuraDescription_Lang_ptPT
 	'', -- AuraDescription_Lang_ptBR
 	'', -- AuraDescription_Lang_itIT
@@ -4923,51 +4890,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Rocket Barrage', -- Name_Lang_enUS
-	'로켓 연발탄', -- Name_Lang_enGB
-	'Barrage de fusées', -- Name_Lang_koKR
-	'Raketenbeschuss', -- Name_Lang_frFR
-	'火箭弹幕', -- Name_Lang_deDE
-	'火箭彈', -- Name_Lang_enCN
-	'Tromba de cohetes', -- Name_Lang_zhCN
-	'Tromba de cohetes', -- Name_Lang_enTW
-	'Ракетный обстрел', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'로켓 연발탄', -- Name_Lang_koKR
+	'Barrage de fusées', -- Name_Lang_frFR
+	'Raketenbeschuss', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'火箭弹幕', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'火箭彈', -- Name_Lang_zhTW
+	'Tromba de cohetes', -- Name_Lang_esES
+	'Tromba de cohetes', -- Name_Lang_esMX
+	'Ракетный обстрел', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial', -- NameSubtext_Lang_enUS
-	'종족 특성', -- NameSubtext_Lang_enGB
-	'Raciale', -- NameSubtext_Lang_koKR
-	'Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'种族特长', -- NameSubtext_Lang_deDE
-	'種族特長', -- NameSubtext_Lang_enCN
-	'Racial', -- NameSubtext_Lang_zhCN
-	'Racial', -- NameSubtext_Lang_enTW
-	'Расовая', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 특성', -- NameSubtext_Lang_koKR
+	'Raciale', -- NameSubtext_Lang_frFR
+	'Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長', -- NameSubtext_Lang_zhTW
+	'Racial', -- NameSubtext_Lang_esES
+	'Racial', -- NameSubtext_Lang_esMX
+	'Расовая', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Launches your belt rockets at an enemy, dealing $s1 fire damage.', -- Description_Lang_enUS
-	'적에게 허리띠 로켓을 발사하여 $s1의 화염 피해를 입힙니다.', -- Description_Lang_enGB
-	'Projette vos fusées de ceinture sur un ennemi et lui inflige $s1 points de dégâts de Feu.', -- Description_Lang_koKR
-	'Feuert Eure Gürtelraketen auf einen Feind ab, die $s1 Feuerschaden verursachen.', -- Description_Lang_frFR
-	'向一个敌人发射腰带上的火箭，造成$s1点火焰伤害。', -- Description_Lang_deDE
-	'向敵人發射火箭，對其造成$s1點火焰傷害。', -- Description_Lang_enCN
-	'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', -- Description_Lang_zhCN
-	'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', -- Description_Lang_enTW
-	'Выстрел из закрепленного на поясе гранатомета, наносящий $s1 ед. урона от огня.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'적에게 허리띠 로켓을 발사하여 $s1의 화염 피해를 입힙니다.', -- Description_Lang_koKR
+	'Projette vos fusées de ceinture sur un ennemi et lui inflige $s1 points de dégâts de Feu.', -- Description_Lang_frFR
+	'Feuert Eure Gürtelraketen auf einen Feind ab, die $s1 Feuerschaden verursachen.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'向一个敌人发射腰带上的火箭，造成$s1点火焰伤害。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'向敵人發射火箭，對其造成$s1點火焰傷害。', -- Description_Lang_zhTW
+	'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', -- Description_Lang_esES
+	'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', -- Description_Lang_esMX
+	'Выстрел из закрепленного на поясе гранатомета, наносящий $s1 ед. урона от огня.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -5160,51 +5127,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Time is Money', -- Name_Lang_enUS
-	'시간은 돈', -- Name_Lang_enGB
-	'Le temps, c\'est de l\'argent', -- Name_Lang_koKR
-	'Zeit ist Geld', -- Name_Lang_frFR
-	'时间就是金钱', -- Name_Lang_deDE
-	'時間就是金錢', -- Name_Lang_enCN
-	'El tiempo es oro', -- Name_Lang_zhCN
-	'El tiempo es oro', -- Name_Lang_enTW
-	'Время - деньги', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'시간은 돈', -- Name_Lang_koKR
+	'Le temps, c\'est de l\'argent', -- Name_Lang_frFR
+	'Zeit ist Geld', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'时间就是金钱', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'時間就是金錢', -- Name_Lang_zhTW
+	'El tiempo es oro', -- Name_Lang_esES
+	'El tiempo es oro', -- Name_Lang_esMX
+	'Время - деньги', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長，被動', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長，被動', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Cash in on a 1% increase to attack and casting speed.', -- Description_Lang_enUS
-	'공격 및 시전 속도가 $s1%만큼 증가합니다.', -- Description_Lang_enGB
-	'Encaisse une augmentation de $s1% des vitesses d\'attaque et d\'incantation.', -- Description_Lang_koKR
-	'Lasst Euch eine Erhöhung von Angriffs- und Zaubertempo um $s1% auszahlen.', -- Description_Lang_frFR
-	'趁机使攻击和施法速度提高$s1%。', -- Description_Lang_deDE
-	'攻擊和施法速度提高$s1%並從中牟利。', -- Description_Lang_enCN
-	'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', -- Description_Lang_zhCN
-	'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', -- Description_Lang_enTW
-	'Скорость атаки и произнесения заклинаний повышена на $s1%, причем совершенно бесплатно!', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'공격 및 시전 속도가 $s1%만큼 증가합니다.', -- Description_Lang_koKR
+	'Encaisse une augmentation de $s1% des vitesses d\'attaque et d\'incantation.', -- Description_Lang_frFR
+	'Lasst Euch eine Erhöhung von Angriffs- und Zaubertempo um $s1% auszahlen.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'趁机使攻击和施法速度提高$s1%。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'攻擊和施法速度提高$s1%並從中牟利。', -- Description_Lang_zhTW
+	'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', -- Description_Lang_esES
+	'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', -- Description_Lang_esMX
+	'Скорость атаки и произнесения заклинаний повышена на $s1%, причем совершенно бесплатно!', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -5397,51 +5364,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Best Deals Anywhere', -- Name_Lang_enUS
-	'거래의 달인', -- Name_Lang_enGB
-	'Dur en affaires', -- Name_Lang_koKR
-	'Schnäppchenjäger', -- Name_Lang_frFR
-	'哪里都有好买卖', -- Name_Lang_deDE
-	'最佳折扣', -- Name_Lang_enCN
-	'Los mejores precios del mercado', -- Name_Lang_zhCN
-	'Los mejores precios del mercado', -- Name_Lang_enTW
-	'Самые выгодные цены!', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'거래의 달인', -- Name_Lang_koKR
+	'Dur en affaires', -- Name_Lang_frFR
+	'Schnäppchenjäger', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'哪里都有好买卖', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'最佳折扣', -- Name_Lang_zhTW
+	'Los mejores precios del mercado', -- Name_Lang_esES
+	'Los mejores precios del mercado', -- Name_Lang_esMX
+	'Самые выгодные цены!', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長，被動', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長，被動', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Always receive the best possible gold discount, regardless of faction.', -- Description_Lang_enUS
-	'평판에 관계없이 항상 최대 할인을 받습니다.', -- Description_Lang_enGB
-	'Vous bénéficiez toujours de la meilleure réduction de prix, quelle que soit votre réputation envers la faction.', -- Description_Lang_koKR
-	'Bekommt immer den bestmöglichen Goldrabatt, egal bei welcher Fraktion.', -- Description_Lang_frFR
-	'无论和哪个阵营进行交易都能获得最优惠的折扣。', -- Description_Lang_deDE
-	'不論陣營，永遠可獲得最佳的買賣折扣。', -- Description_Lang_enCN
-	'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', -- Description_Lang_zhCN
-	'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', -- Description_Lang_enTW
-	'Максимальные скидки у всех фракций.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'평판에 관계없이 항상 최대 할인을 받습니다.', -- Description_Lang_koKR
+	'Vous bénéficiez toujours de la meilleure réduction de prix, quelle que soit votre réputation envers la faction.', -- Description_Lang_frFR
+	'Bekommt immer den bestmöglichen Goldrabatt, egal bei welcher Fraktion.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'无论和哪个阵营进行交易都能获得最优惠的折扣。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'不論陣營，永遠可獲得最佳的買賣折扣。', -- Description_Lang_zhTW
+	'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', -- Description_Lang_esES
+	'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', -- Description_Lang_esMX
+	'Максимальные скидки у всех фракций.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -5634,51 +5601,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Better Living Through Chemistry', -- Name_Lang_enUS
-	'연금술로 나아지는 삶', -- Name_Lang_enGB
-	'La chimie pour une vie meilleure', -- Name_Lang_koKR
-	'Fortschritt durch Chemie', -- Name_Lang_frFR
-	'化学让生活更美好', -- Name_Lang_deDE
-	'化學讓人生更精彩', -- Name_Lang_enCN
-	'Es cuestión de química', -- Name_Lang_zhCN
-	'Es cuestión de química', -- Name_Lang_enTW
-	'Занимательная химия', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'연금술로 나아지는 삶', -- Name_Lang_koKR
+	'La chimie pour une vie meilleure', -- Name_Lang_frFR
+	'Fortschritt durch Chemie', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'化学让生活更美好', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'化學讓人生更精彩', -- Name_Lang_zhTW
+	'Es cuestión de química', -- Name_Lang_esES
+	'Es cuestión de química', -- Name_Lang_esMX
+	'Занимательная химия', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長，被動', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長，被動', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Alchemy skill increased by $s1.', -- Description_Lang_enUS
-	'연금술 숙련도가 $s1만큼 증가합니다.', -- Description_Lang_enGB
-	'Compétence en alchimie augmentée de $s1.', -- Description_Lang_koKR
-	'Alchemiefertigkeit um $s1 erhöht.', -- Description_Lang_frFR
-	'炼金术技能提高$s1点。', -- Description_Lang_deDE
-	'鍊金術技能提高$s1點。', -- Description_Lang_enCN
-	'Habilidad en alquimia aumentada $s1 p.', -- Description_Lang_zhCN
-	'Habilidad en alquimia aumentada $s1 p.', -- Description_Lang_enTW
-	'Навык алхимии повышен на $s1.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'연금술 숙련도가 $s1만큼 증가합니다.', -- Description_Lang_koKR
+	'Compétence en alchimie augmentée de $s1.', -- Description_Lang_frFR
+	'Alchemiefertigkeit um $s1 erhöht.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'炼金术技能提高$s1点。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'鍊金術技能提高$s1點。', -- Description_Lang_zhTW
+	'Habilidad en alquimia aumentada $s1 p.', -- Description_Lang_esES
+	'Habilidad en alquimia aumentada $s1 p.', -- Description_Lang_esMX
+	'Навык алхимии повышен на $s1.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -5871,51 +5838,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Pack Hobgoblin', -- Name_Lang_enUS
-	'짐꾼 밥통고블린', -- Name_Lang_enGB
-	'Hobgobelin de bât', -- Name_Lang_koKR
-	'Packhobgoblin', -- Name_Lang_frFR
-	'呼叫大胖', -- Name_Lang_deDE
-	'攜帶大哥布林', -- Name_Lang_enCN
-	'Hobgoblin de bolsillo', -- Name_Lang_zhCN
-	'Hobgoblin de bolsillo', -- Name_Lang_enTW
-	'Подручный хобгоблин', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'짐꾼 밥통고블린', -- Name_Lang_koKR
+	'Hobgobelin de bât', -- Name_Lang_frFR
+	'Packhobgoblin', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'呼叫大胖', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'攜帶大哥布林', -- Name_Lang_zhTW
+	'Hobgoblin de bolsillo', -- Name_Lang_esES
+	'Hobgoblin de bolsillo', -- Name_Lang_esMX
+	'Подручный хобгоблин', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial', -- NameSubtext_Lang_enUS
-	'종족 특성', -- NameSubtext_Lang_enGB
-	'Raciale', -- NameSubtext_Lang_koKR
-	'Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'种族特长', -- NameSubtext_Lang_deDE
-	'種族特長', -- NameSubtext_Lang_enCN
-	'Racial', -- NameSubtext_Lang_zhCN
-	'Racial', -- NameSubtext_Lang_enTW
-	'Расовая', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 특성', -- NameSubtext_Lang_koKR
+	'Raciale', -- NameSubtext_Lang_frFR
+	'Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長', -- NameSubtext_Lang_zhTW
+	'Racial', -- NameSubtext_Lang_esES
+	'Racial', -- NameSubtext_Lang_esMX
+	'Расовая', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Calls in your friend, Gobber, allowing you bank access for $d.', -- Description_Lang_enUS
-	'친구 고버를 불러 $d 동안 은행을 이용할 수 있습니다.', -- Description_Lang_enGB
-	'Appelle votre ami, Gobeur, ce qui vous donne accès à votre banque pendant $d.', -- Description_Lang_koKR
-	'Ruft Euren Freund Gobber, der Euch $d lang Zugriff auf Euer Bankfach gewährt.', -- Description_Lang_frFR
-	'召唤你的朋友大胖，让你能够在$d内使用银行。', -- Description_Lang_deDE
-	'呼喚你的朋友古柏，使你能夠使用銀行$d。', -- Description_Lang_enCN
-	'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', -- Description_Lang_zhCN
-	'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', -- Description_Lang_enTW
-	'Вызов вашего приятеля Гоббера. Дает доступ к банку на $d.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'친구 고버를 불러 $d 동안 은행을 이용할 수 있습니다.', -- Description_Lang_koKR
+	'Appelle votre ami, Gobeur, ce qui vous donne accès à votre banque pendant $d.', -- Description_Lang_frFR
+	'Ruft Euren Freund Gobber, der Euch $d lang Zugriff auf Euer Bankfach gewährt.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'召唤你的朋友大胖，让你能够在$d内使用银行。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'呼喚你的朋友古柏，使你能夠使用銀行$d。', -- Description_Lang_zhTW
+	'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', -- Description_Lang_esES
+	'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', -- Description_Lang_esMX
+	'Вызов вашего приятеля Гоббера. Дает доступ к банку на $d.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -6108,51 +6075,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Rocket Jump', -- Name_Lang_enUS
-	'로켓 도약', -- Name_Lang_enGB
-	'Fusées de saut', -- Name_Lang_koKR
-	'Raketensprung', -- Name_Lang_frFR
-	'火箭跳', -- Name_Lang_deDE
-	'火箭跳躍', -- Name_Lang_enCN
-	'Salto con cohete', -- Name_Lang_zhCN
-	'Salto con cohete', -- Name_Lang_enTW
-	'Реактивный прыжок', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'로켓 도약', -- Name_Lang_koKR
+	'Fusées de saut', -- Name_Lang_frFR
+	'Raketensprung', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'火箭跳', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'火箭跳躍', -- Name_Lang_zhTW
+	'Salto con cohete', -- Name_Lang_esES
+	'Salto con cohete', -- Name_Lang_esMX
+	'Реактивный прыжок', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial', -- NameSubtext_Lang_enUS
-	'종족 특성', -- NameSubtext_Lang_enGB
-	'Raciale', -- NameSubtext_Lang_koKR
-	'Volksfähigkeit', -- NameSubtext_Lang_frFR
-	'种族特长', -- NameSubtext_Lang_deDE
-	'種族特長', -- NameSubtext_Lang_enCN
-	'Racial', -- NameSubtext_Lang_zhCN
-	'Racial', -- NameSubtext_Lang_enTW
-	'Расовая', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 특성', -- NameSubtext_Lang_koKR
+	'Raciale', -- NameSubtext_Lang_frFR
+	'Volksfähigkeit', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長', -- NameSubtext_Lang_zhTW
+	'Racial', -- NameSubtext_Lang_esES
+	'Racial', -- NameSubtext_Lang_esMX
+	'Расовая', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Activates your rocket belt to jump forward.', -- Description_Lang_enUS
-	'로켓 허리띠를 작동시켜 전방으로 도약합니다.', -- Description_Lang_enGB
-	'Active votre ceinture de fusées pour vous faire sauter en avant.', -- Description_Lang_koKR
-	'Aktiviert Euren Raketengürtel, um vorwärts zu springen.', -- Description_Lang_frFR
-	'使用你的火箭腰带向前跳跃。', -- Description_Lang_deDE
-	'啟動你的火箭腰帶，往前跳躍。', -- Description_Lang_enCN
-	'Activa tu cinturón de cohetes para saltar hacia delante.', -- Description_Lang_zhCN
-	'Activa tu cinturón de cohetes para saltar hacia delante.', -- Description_Lang_enTW
-	'Прыжок вперед на большое расстояние с помощью реактивного пояса.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'로켓 허리띠를 작동시켜 전방으로 도약합니다.', -- Description_Lang_koKR
+	'Active votre ceinture de fusées pour vous faire sauter en avant.', -- Description_Lang_frFR
+	'Aktiviert Euren Raketengürtel, um vorwärts zu springen.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'使用你的火箭腰带向前跳跃。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'啟動你的火箭腰帶，往前跳躍。', -- Description_Lang_zhTW
+	'Activa tu cinturón de cohetes para saltar hacia delante.', -- Description_Lang_esES
+	'Activa tu cinturón de cohetes para saltar hacia delante.', -- Description_Lang_esMX
+	'Прыжок вперед на большое расстояние с помощью реактивного пояса.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -6347,17 +6314,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Goblin Trike', -- Name_Lang_enUS
-	'고블린 세발차', -- Name_Lang_enGB
-	'Triklomoteur gobelin', -- Name_Lang_koKR
-	'Goblinisches Trike', -- Name_Lang_frFR
-	'地精三轮摩托', -- Name_Lang_deDE
-	'哥布林機動車', -- Name_Lang_enCN
-	'Triciclo goblin', -- Name_Lang_zhCN
-	'Triciclo goblin', -- Name_Lang_enTW
-	'Гоблинский трицикл', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'고블린 세발차', -- Name_Lang_koKR
+	'Triklomoteur gobelin', -- Name_Lang_frFR
+	'Goblinisches Trike', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'地精三轮摩托', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'哥布林機動車', -- Name_Lang_zhTW
+	'Triciclo goblin', -- Name_Lang_esES
+	'Triciclo goblin', -- Name_Lang_esMX
+	'Гоблинский трицикл', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
@@ -6380,7 +6347,8 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
-	'Summons and dismisses a rideable Goblin Trike.', -- Description_Lang_enUS
+	
+'Summons and dismisses a rideable Goblin Trike.', -- Description_Lang_enUS
 	'고블린 세발차에 올라타거나 내립니다.', -- Description_Lang_enGB
 	'Invoque et renvoie un triklomoteur gobelin.', -- Description_Lang_koKR
 	'Beschwört ein reitbares goblinisches Trike und gibt es wieder frei.', -- Description_Lang_frFR
@@ -6398,17 +6366,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
 	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
-	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB
-	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR
-	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR
-	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE
-	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW
-	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW
-	'', -- AuraDescription_Lang_esES
-	'', -- AuraDescription_Lang_esMX
-	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_enGB
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_koKR
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_frFR
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_deDE
+	'', -- AuraDescription_Lang_enCN
+	'地面速度提高$s3%。', -- AuraDescription_Lang_zhCN
+	'', -- AuraDescription_Lang_enTW
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_zhTW
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esES
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esMX
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_ruRU
 	'', -- AuraDescription_Lang_ptPT
 	'', -- AuraDescription_Lang_ptBR
 	'', -- AuraDescription_Lang_itIT
@@ -6584,17 +6552,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Goblin Turbo-Trike', -- Name_Lang_enUS
-	'고블린 터보 세발차', -- Name_Lang_enGB
-	'Triklomoteur turbo gobelin', -- Name_Lang_koKR
-	'Goblinisches Turbotrike', -- Name_Lang_frFR
-	'地精三轮摩托涡轮增压型', -- Name_Lang_deDE
-	'哥布林渦輪機動車', -- Name_Lang_enCN
-	'Turbo triciclo goblin', -- Name_Lang_zhCN
-	'Turbo triciclo goblin', -- Name_Lang_enTW
-	'Гоблинский турботрицикл', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'고블린 터보 세발차', -- Name_Lang_koKR
+	'Triklomoteur turbo gobelin', -- Name_Lang_frFR
+	'Goblinisches Turbotrike', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'地精三轮摩托涡轮增压型', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'哥布林渦輪機動車', -- Name_Lang_zhTW
+	'Turbo triciclo goblin', -- Name_Lang_esES
+	'Turbo triciclo goblin', -- Name_Lang_esMX
+	'Гоблинский турботрицикл', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
@@ -6618,34 +6586,34 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Summons and dismisses a Goblin Turbo-Trike.', -- Description_Lang_enUS
-	'고블린 세발차에 올라타거나 내립니다.', -- Description_Lang_enGB
-	'Invoque et renvoie un Triklomoteur turbo gobelin.', -- Description_Lang_koKR
-	'Beschwört ein reitbares goblinisches Turbotrike oder gibt es wieder frei.', -- Description_Lang_frFR
-	'召唤或解散一辆地精三轮摩托涡轮增压型。', -- Description_Lang_deDE
-	'召喚或解散一臺可供騎乘的哥布林渦輪機動車。', -- Description_Lang_enCN
-	'Invoca y retira un turbo triciclo goblin.', -- Description_Lang_zhCN
-	'Invoca y retira un turbo triciclo goblin.', -- Description_Lang_enTW
-	'Позволяет призывать и отпускать гоблинский турботрицикл.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'고블린 세발차에 올라타거나 내립니다.', -- Description_Lang_koKR
+	'Invoque et renvoie un Triklomoteur turbo gobelin.', -- Description_Lang_frFR
+	'Beschwört ein reitbares goblinisches Turbotrike oder gibt es wieder frei.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'召唤或解散一辆地精三轮摩托涡轮增压型。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'召喚或解散一臺可供騎乘的哥布林渦輪機動車。', -- Description_Lang_zhTW
+	'Invoca y retira un turbo triciclo goblin.', -- Description_Lang_esES
+	'Invoca y retira un turbo triciclo goblin.', -- Description_Lang_esMX
+	'Позволяет призывать и отпускать гоблинский турботрицикл.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
 	'', -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
 	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
-	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB
-	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR
-	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR
-	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE
-	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW
-	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW
-	'', -- AuraDescription_Lang_esES
-	'', -- AuraDescription_Lang_esMX
-	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_enGB
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_koKR
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_frFR
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_deDE
+	'', -- AuraDescription_Lang_enCN
+	'地面速度提高$s3%。', -- AuraDescription_Lang_zhCN
+	'', -- AuraDescription_Lang_enTW
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_zhTW
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esES
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esMX
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_ruRU
 	'', -- AuraDescription_Lang_ptPT
 	'', -- AuraDescription_Lang_ptBR
 	'', -- AuraDescription_Lang_itIT
@@ -6821,17 +6789,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Mountain Horse', -- Name_Lang_enUS
-	'산악 야생마', -- Name_Lang_enGB
-	'Cheval des montagnes', -- Name_Lang_koKR
-	'Bergpferd', -- Name_Lang_frFR
-	'高山马', -- Name_Lang_deDE
-	'高山馬', -- Name_Lang_enCN
-	'Caballo de montaña', -- Name_Lang_zhCN
-	'Caballo de montaña', -- Name_Lang_enTW
-	'Горный конь', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'산악 야생마', -- Name_Lang_koKR
+	'Cheval des montagnes', -- Name_Lang_frFR
+	'Bergpferd', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'高山马', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'高山馬', -- Name_Lang_zhTW
+	'Caballo de montaña', -- Name_Lang_esES
+	'Caballo de montaña', -- Name_Lang_esMX
+	'Горный конь', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
@@ -6854,7 +6822,8 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
-	'Summons and dismisses a rideable Mountain Horse.', -- Description_Lang_enUS
+	
+'Summons and dismisses a rideable Mountain Horse.', -- Description_Lang_enUS
 	'산악 야생마에 올라타거나 내립니다.', -- Description_Lang_enGB
 	'Invoque et renvoie un cheval des montagnes.', -- Description_Lang_koKR
 	'Beschwört ein reitbares Bergpferd oder gibt es wieder frei.', -- Description_Lang_frFR
@@ -6872,17 +6841,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
 	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
-	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB
-	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR
-	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR
-	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE
-	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW
-	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW
-	'', -- AuraDescription_Lang_esES
-	'', -- AuraDescription_Lang_esMX
-	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_enGB
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_koKR
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_frFR
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_deDE
+	'', -- AuraDescription_Lang_enCN
+	'地面速度提高$s3%。', -- AuraDescription_Lang_zhCN
+	'', -- AuraDescription_Lang_enTW
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_zhTW
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esES
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esMX
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_ruRU
 	'', -- AuraDescription_Lang_ptPT
 	'', -- AuraDescription_Lang_ptBR
 	'', -- AuraDescription_Lang_itIT
@@ -7058,17 +7027,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Swift Mountain Horse', -- Name_Lang_enUS
-	'날쌘 산악 야생마', -- Name_Lang_enGB
-	'Cheval des montagnes rapide', -- Name_Lang_koKR
-	'Schnelles Bergpferd', -- Name_Lang_frFR
-	'迅捷高山马', -- Name_Lang_deDE
-	'迅捷高山馬', -- Name_Lang_enCN
-	'Caballo de montaña presto', -- Name_Lang_zhCN
-	'Caballo de montaña presto', -- Name_Lang_enTW
-	'Стремительный горный конь', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'날쌘 산악 야생마', -- Name_Lang_koKR
+	'Cheval des montagnes rapide', -- Name_Lang_frFR
+	'Schnelles Bergpferd', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'迅捷高山马', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'迅捷高山馬', -- Name_Lang_zhTW
+	'Caballo de montaña presto', -- Name_Lang_esES
+	'Caballo de montaña presto', -- Name_Lang_esMX
+	'Стремительный горный конь', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
@@ -7091,7 +7060,8 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
-	'Summons and dismisses a rideable Swift Mountain Horse.', -- Description_Lang_enUS
+	
+'Summons and dismisses a rideable Swift Mountain Horse.', -- Description_Lang_enUS
 	'날쌘 산악 야생마에 올라타거나 내립니다.', -- Description_Lang_enGB
 	'Invoque et renvoie un cheval des montagnes rapide.', -- Description_Lang_koKR
 	'Beschwört ein reitbares schnelles Bergpferd oder gibt es wieder frei.', -- Description_Lang_frFR
@@ -7109,17 +7079,17 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- Description_Lang_Unk
 	16712190, -- Description_Lang_Mask
 	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
-	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB
-	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR
-	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR
-	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE
-	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN
-	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW
-	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW
-	'', -- AuraDescription_Lang_esES
-	'', -- AuraDescription_Lang_esMX
-	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_enGB
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_koKR
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_frFR
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_deDE
+	'', -- AuraDescription_Lang_enCN
+	'地面速度提高$s3%。', -- AuraDescription_Lang_zhCN
+	'', -- AuraDescription_Lang_enTW
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_zhTW
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esES
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_esMX
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_ruRU
 	'', -- AuraDescription_Lang_ptPT
 	'', -- AuraDescription_Lang_ptBR
 	'', -- AuraDescription_Lang_itIT
@@ -8950,51 +8920,51 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- ActiveIconID
 	0, -- SpellPriority
 	'Bow Specialization', -- Name_Lang_enUS
-	'활류 전문화', -- Name_Lang_enGB
-	'Spécialisation Arc', -- Name_Lang_koKR
-	'Bogen-Spezialisierung', -- Name_Lang_frFR
-	'弓专精', -- Name_Lang_deDE
-	'弓箭專精', -- Name_Lang_enCN
-	'Especialización en arcos', -- Name_Lang_zhCN
-	'Especialización en arcos', -- Name_Lang_enTW
-	'Специализация на владении луками', -- Name_Lang_zhTW
-	'', -- Name_Lang_esES
-	'', -- Name_Lang_esMX
-	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_enGB
+	'활류 전문화', -- Name_Lang_koKR
+	'Spécialisation Arc', -- Name_Lang_frFR
+	'Bogen-Spezialisierung', -- Name_Lang_deDE
+	'', -- Name_Lang_enCN
+	'弓专精', -- Name_Lang_zhCN
+	'', -- Name_Lang_enTW
+	'弓箭專精', -- Name_Lang_zhTW
+	'Especialización en arcos', -- Name_Lang_esES
+	'Especialización en arcos', -- Name_Lang_esMX
+	'Специализация на владении луками', -- Name_Lang_ruRU
 	'', -- Name_Lang_ptPT
 	'', -- Name_Lang_ptBR
 	'', -- Name_Lang_itIT
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Volk passiv', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая, пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Volk passiv', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая, пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Your chance to critically hit with Bows is increased by $s1%.', -- Description_Lang_enUS
-	'활로 치명타를 적중시킬 확률이 $s1%만큼 증가합니다.', -- Description_Lang_enGB
-	'Vos chances de réussir un coup critique avec les Arcs sont augmentées de $s1%.', -- Description_Lang_koKR
-	'Eure Chance, mit Bögen einen kritischen Treffer zu erzielen, wird um $s1% erhöht.', -- Description_Lang_frFR
-	'弓类武器的爆击几率提高$s1%。', -- Description_Lang_deDE
-	'使弓類武器攻擊的致命一擊機率提高$s1%。', -- Description_Lang_enCN
-	'Aumenta tu probabilidad de asestar un golpe crítico con arcos un $s1%.', -- Description_Lang_zhCN
-	'Aumenta tu probabilidad de asestar un golpe crítico con arcos un $s1%.', -- Description_Lang_enTW
-	'Увеличение вероятности нанесения критического урона при использовании луков на $s1%.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'활로 치명타를 적중시킬 확률이 $s1%만큼 증가합니다.', -- Description_Lang_koKR
+	'Vos chances de réussir un coup critique avec les Arcs sont augmentées de $s1%.', -- Description_Lang_frFR
+	'Eure Chance, mit Bögen einen kritischen Treffer zu erzielen, wird um $s1% erhöht.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'弓类武器的爆击几率提高$s1%。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'使弓類武器攻擊的致命一擊機率提高$s1%。', -- Description_Lang_zhTW
+	'Aumenta tu probabilidad de asestar un golpe crítico con arcos un $s1%.', -- Description_Lang_esES
+	'Aumenta tu probabilidad de asestar un golpe crítico con arcos un $s1%.', -- Description_Lang_esMX
+	'Увеличение вероятности нанесения критического урона при использовании луков на $s1%.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT
@@ -9203,34 +9173,34 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	'', -- Name_Lang_Unk
 	16712190, -- Name_Lang_Mask
 	'Racial Passive', -- NameSubtext_Lang_enUS
-	'종족 지속효과', -- NameSubtext_Lang_enGB
-	'Raciale passive', -- NameSubtext_Lang_koKR
-	'Volk Passiv', -- NameSubtext_Lang_frFR
-	'被动种族特长', -- NameSubtext_Lang_deDE
-	'種族特長', -- NameSubtext_Lang_enCN
-	'Pasivo racial', -- NameSubtext_Lang_zhCN
-	'Pasivo racial', -- NameSubtext_Lang_enTW
-	'Расовая пассивная', -- NameSubtext_Lang_zhTW
-	'', -- NameSubtext_Lang_esES
-	'', -- NameSubtext_Lang_esMX
-	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_enGB
+	'종족 지속효과', -- NameSubtext_Lang_koKR
+	'Raciale passive', -- NameSubtext_Lang_frFR
+	'Volk Passiv', -- NameSubtext_Lang_deDE
+	'', -- NameSubtext_Lang_enCN
+	'被动种族特长', -- NameSubtext_Lang_zhCN
+	'', -- NameSubtext_Lang_enTW
+	'種族特長', -- NameSubtext_Lang_zhTW
+	'Pasivo racial', -- NameSubtext_Lang_esES
+	'Pasivo racial', -- NameSubtext_Lang_esMX
+	'Расовая пассивная', -- NameSubtext_Lang_ruRU
 	'', -- NameSubtext_Lang_ptPT
 	'', -- NameSubtext_Lang_ptBR
 	'', -- NameSubtext_Lang_itIT
 	'', -- NameSubtext_Lang_Unk
 	16712190, -- NameSubtext_Lang_Mask
 	'Enchanting skill increased by $s1.', -- Description_Lang_enUS
-	'마법부여 숙련도가 $s1만큼 증가합니다.', -- Description_Lang_enGB
-	'Compétence en Enchantement augmentée de $s1.', -- Description_Lang_koKR
-	'Fertigkeit in der Verzauberkunst um $s1 erhöht.', -- Description_Lang_frFR
-	'附魔技能提高$s1点。', -- Description_Lang_deDE
-	'附魔技能提高$s1點。', -- Description_Lang_enCN
-	'Habilidad de encantamiento aumentada $s1 p.', -- Description_Lang_zhCN
-	'Habilidad de encantamiento aumentada $s1 p.', -- Description_Lang_enTW
-	'Навык в профессии ""Наложение чар"" повышен на $s1.', -- Description_Lang_zhTW
-	'', -- Description_Lang_esES
-	'', -- Description_Lang_esMX
-	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_enGB
+	'마법부여 숙련도가 $s1만큼 증가합니다.', -- Description_Lang_koKR
+	'Compétence en Enchantement augmentée de $s1.', -- Description_Lang_frFR
+	'Fertigkeit in der Verzauberkunst um $s1 erhöht.', -- Description_Lang_deDE
+	'', -- Description_Lang_enCN
+	'附魔技能提高$s1点。', -- Description_Lang_zhCN
+	'', -- Description_Lang_enTW
+	'附魔技能提高$s1點。', -- Description_Lang_zhTW
+	'Habilidad de encantamiento aumentada $s1 p.', -- Description_Lang_esES
+	'Habilidad de encantamiento aumentada $s1 p.', -- Description_Lang_esMX
+	'Навык в профессии ""Наложение чар"" повышен на $s1.', -- Description_Lang_ruRU
 	'', -- Description_Lang_ptPT
 	'', -- Description_Lang_ptBR
 	'', -- Description_Lang_itIT

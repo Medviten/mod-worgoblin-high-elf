@@ -84,7 +84,6 @@ SET @DarkIronDwarfFemaleModel         = 40001; -- Shadowlands
 SET @ZandalariTrollMaleModel          = 40002; -- backport from
 SET @ZandalariTrollFemaleModel        = 40003; -- Shadowlands
 
-
 -- Display IDs
 SET @WorgenMaleDisplay                =  29422;
 SET @WorgenFemaleDisplay              =  29423;
@@ -157,6 +156,12 @@ SET @MagharOrcRacial4                 = 110004; -- Unwavering Will (maybe change
 -- SET @OgreRacial1
 -- SET @DarkIronDwarfRacial1
 -- SET @ZandalariTrollRacial1
+
+-- Mount spells
+SET @GoblinTrike                      =  87090;
+SET @GoblinTurboTrike                 =  87091;
+SET @MountainHorse                    = 103195;
+SET @SwiftMountainHorse               = 103196;
 
 -- Faction Masks
 SET @BaseAllianceMask                 = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask  | @DraeneiMask;
