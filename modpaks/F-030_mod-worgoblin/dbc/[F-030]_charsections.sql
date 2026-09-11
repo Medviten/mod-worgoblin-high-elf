@@ -1,6 +1,6 @@
 -- Gilnean race support
 
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charstartoutfit);
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
 
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES
 (@CharSectionsID := @CharSectionsID +1, @Gilnean, @Male, 0, 'Character\\Human\\Male\\HumanMaleSkin00_00.blp', '', '', 17, 0, 0),

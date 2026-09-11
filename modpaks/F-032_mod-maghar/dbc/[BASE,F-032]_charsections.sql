@@ -1,7 +1,7 @@
 -- [F-032] mod-maghar: charsections: 426 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charstartoutfit);
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
 
 DELETE FROM `charsections` WHERE `id` BETWEEN 30000 AND 30425; -- Mag'har Orc default
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES

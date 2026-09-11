@@ -1,7 +1,7 @@
 -- [F-031] mod-azerothcore-high-elf: charsections: 3135 inserts, 88 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charstartoutfit);
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
 
 DELETE FROM `charsections` WHERE `id` BETWEEN 26000 AND 27066; -- High Elf default
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES

@@ -1,7 +1,7 @@
 -- charsections: 456 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charstartoutfit);
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
 
 DELETE FROM `charsections` WHERE `race` = @ZandalariTroll;
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES

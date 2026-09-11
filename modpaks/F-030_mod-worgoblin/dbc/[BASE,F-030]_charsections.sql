@@ -1,7 +1,7 @@
 -- charsections: 1642 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charstartoutfit);
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
 
 DELETE FROM `charsections` WHERE `id` BETWEEN 20000 AND 20613; -- Worgen default
 DELETE FROM `charsections` WHERE `id` BETWEEN 23000 AND 24027; -- Goblin default
