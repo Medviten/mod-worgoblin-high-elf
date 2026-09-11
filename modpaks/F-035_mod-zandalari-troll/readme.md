@@ -7,5 +7,6 @@
 - Racial faction
 
 ### Known Issues
+- No ears for males
 - Voice may not be working
 - No racial abilities yet (Darkspear ones as placeholders)
