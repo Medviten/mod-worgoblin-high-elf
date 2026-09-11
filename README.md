@@ -4,13 +4,15 @@
 >
 > ## Work in Progress
 >
-> This module is **not finished yet** and is still under active development.
+> This module is **not finished yet** and is still in active development.
 >
 > It is currently intended for testing, development and experienced AzerothCore users. Features, DBC files, SQL structure and compatibility may still change between versions.
 >
 > Bugs are expected, especially with unusual race/class combinations, ARAC and PlayerBots integration.
 >
 > **Please make backups before installing or updating the module.**
+
+This is designed to *replace* your DBCs and world DB! Back them up!
 
 A highly modular approach to DBC-heavy mods, relying on DBCTool to bulk edit DBCs in MySQL before exporting them. First and foremost a custom race module for **AzerothCore 3.3.5a**.
 
