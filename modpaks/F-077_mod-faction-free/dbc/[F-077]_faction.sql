@@ -32,3 +32,8 @@ UPDATE `faction` SET `reputation_race_mask_1` = @PlayableRaceMask WHERE `id` IN 
     @BloodElfFaction, @DraeneiFaction, @GoblinFaction, @WorgenFaction,
     @HighElfFaction, @MagharOrcFaction, @OgreFaction, @DarkIronDwarfFaction, @ZandalariTrollFaction
 );
+UPDATE `faction` SET `reputation_race_mask_2` = 0 WHERE `id` IN (
+    @HumanFaction, @OrcFaction, @DwarfFaction, @NightElfFaction, @UndeadFaction, @TaurenFaction, @GnomeFaction, @TrollFaction,
+    @BloodElfFaction, @DraeneiFaction, @GoblinFaction, @WorgenFaction,
+    @HighElfFaction, @MagharOrcFaction, @OgreFaction, @DarkIronDwarfFaction, @ZandalariTrollFaction
+);
