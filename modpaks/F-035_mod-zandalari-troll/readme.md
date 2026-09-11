@@ -3,8 +3,8 @@
 
 ### Features
 - Playable Zandalari Trolls
-- Most druid forms
-- Racial faction
+    - BfA druid forms
+    - BfA racial faction: Zuldazar
 
 ### Known Issues
 - No ears for males

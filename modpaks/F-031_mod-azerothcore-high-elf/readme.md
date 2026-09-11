@@ -3,8 +3,10 @@
 
 ### Features
 - Playable High Elves
-- ARAC additions
-- Racial abilities (based on TurtleWoW's)
+    - Racial abilities (based on TurtleWoW's)
+        - Enchanting bonus nerfed (identical to Blood Elf bonus)
+    - ARAC additions: shaman, druid
+    - Racial faction: High Elven Loyalists (for lack of a better idea)
 
 ### Known Issues
 - Blood Elf voices reference things like going to Undercity and flying bats

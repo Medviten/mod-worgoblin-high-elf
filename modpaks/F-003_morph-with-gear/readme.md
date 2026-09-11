@@ -1,8 +1,16 @@
 # mod-worgoblin-high-elf
 ## F-003_morph-with-gear
 
-### Purpose
-This adds display IDs you can morph into while retaining your gear for all playable races.
+### Features
+- Adds "gearless" display IDs for all stock races that don't already have them:
+   - Orc (male)
+   - Dwarf (female)
+   - Night Elf (female)
+   - Undead (male and female)
+   - Troll (female)
+   - Draenei (male)
 
 ### Known Issues
-- Removed the custom NPC-race equivalents because those either didn't really work (female Fel Orc) or crashed the game (everyone else).
+- (Removed) NPC-race equivalents don't work:
+   - Fel Orc (female) looks like the male, but bugged
+   - Every other NPC race crashes the game

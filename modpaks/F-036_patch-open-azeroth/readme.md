@@ -4,8 +4,8 @@
 ### Features
 - Flyable Eastern Kingdoms and Kalimdor
 - Moves coordinates for Azuremyst and Quel'Thalas NPCs, spawns, quests, graveyards, etc.
-- Adds music and sounds to new zones
+- Music and sounds in new zones
 
 ### Known Issues
 - Kezan map not clickable
-- Minimaps not done some places
+- Minimaps not visible in some places
