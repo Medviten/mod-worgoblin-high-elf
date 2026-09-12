@@ -1,6 +1,8 @@
 -- vocaluisounds: 184 inserts, 0 updates, 0 deletes
 
 -- New entries
+SET @VocalUISoundsID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`vocaluisounds`);
+
 -- DELETE FROM `vocaluisounds` WHERE `id` BETWEEN 862 AND 1042 OR `id` IN (@VocalUISoundsID := @VocalUISoundsID +1, 1069, 1074); -- Worgoblin default
 INSERT INTO `vocaluisounds` (`id`, `vocal_ui_enum`, `race_id`, `normal_sound_id_1`, `normal_sound_id_2`, `pissed_sound_id_1`, `pissed_sound_id_2`) VALUES
 (@VocalUISoundsID := @VocalUISoundsID +1, 56, @Worgen, 0, 0, 0, 0),
