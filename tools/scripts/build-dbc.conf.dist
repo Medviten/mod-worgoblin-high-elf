@@ -17,5 +17,7 @@ EXTRA_SQL_DATABASES=("test_world" "test_world")
 EXTRA_SQL_PATTERNS=("sql/db-world/base/*.sql" "sql/db-world/extra/*F-030*.sql")
 EXTRA_SQL_DUMPS=("/path/to/ac-worldserver.sql")
 
+GIT_PULL_DIR="/path/to/mod-worgoblin-high-elf"
+
 # Clean baseline database dump instead of reimporting DBCs every time
 DBC_BASELINE="/path/to/dbc-baseline.sql"

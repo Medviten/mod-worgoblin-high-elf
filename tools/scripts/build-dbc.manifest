@@ -1,0 +1,33 @@
+# Definitive list of active modpaks, in the exact order they should be
+# applied. This replaces the old blacklist entirely: only modpaks listed
+# here are used at all, and the order of these lines is now the actual
+# processing order (not alphabetical).
+#
+# One modpak folder name per line, matched EXACTLY against the folder's
+# basename under $MODPAKS (not a substring, and not a glob). A line
+# referencing a folder that doesn't exist is a hard error -- this list is
+# meant to catch typos, not silently ignore them.
+#
+# Blank lines and lines starting with # are ignored. Copy this file to
+# build-dbc.manifest (or point MANIFEST_FILE at your own path in
+# build-dbc.conf) and list your modpaks in the order you want them
+# applied.
+#
+# Example:
+F-001_localization # Turn this off if you don't need it
+F-008_move-npc-races
+F-009_morph-with-gear
+F-002_mod-arac
+F-004_mod-worgoblin
+F-005_mod-azerothcore-high-elf
+F-007_mod-maghar
+F-014_mod-playable-ogres
+F-016_mod-dark-iron-dwarf
+F-017_mod-zandalari-troll
+#F-010_patch-open-azeroth # Off by default (most people don't use OA)
+#F-011_mod-druid-forms # Off by default
+#F-012_mod-extra-models # Off by default
+F-006_mod-fly-anywhere
+#F-003_mod-faction-free # Off by default
+#F-015_mod-instamount # Off by default
+#F-013_zep-goblin-start # Off (requires OA and is not compatible yet)
