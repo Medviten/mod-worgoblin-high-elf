@@ -15,6 +15,7 @@
 #
 # Example:
 F-001_localization # Turn this off if you don't need it
+#F-018_squished_client # Off by default (most people don't use squished client)
 F-008_move-npc-races
 F-009_morph-with-gear
 F-002_mod-arac

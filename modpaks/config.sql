@@ -353,3 +353,7 @@ SET @EversongWoods                    = 3431;
 
 SET @Northrend                        =  609;
 SET @ScarletEnclave                   = 4298;
+
+-- TaxiNodes
+SET @TaxiNodeAuberdine                =   26;
+SET @TaxiNodeExodar                   =   94;
