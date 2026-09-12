@@ -1,8 +1,8 @@
-SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM dbc.taxipathnode);
+SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM dbc.taxipath);
 SET @TaxiAuberdineExodar := @TaxiPathID := @TaxiPathID +1;
 SET @TaxiExodarAuberdine := @TaxiPathID := @TaxiPathID +1;
 
-DELETE FROM `taxi_path` WHERE `id` IN (@TaxiAuberdineExodar, @TaxiExodarAuberdine);
-INSERT INTO `taxi_path` (`id`, `fromtaxinode`, `totaxinode`, `cost`) VALUES
+DELETE FROM `taxipath` WHERE `id` IN (@TaxiAuberdineExodar, @TaxiExodarAuberdine);
+INSERT INTO `taxipath` (`id`, `fromtaxinode`, `totaxinode`, `cost`) VALUES
 (@TaxiAuberdineExodar, @TaxiNodeAuberdine, @TaxiNodeExodar, 250), -- Auberdine – Exodar
 (@TaxiExodarAuberdine, @TaxiNodeExodar, @TaxiNodeAuberdine, 250); -- Exodar – Auberdine
