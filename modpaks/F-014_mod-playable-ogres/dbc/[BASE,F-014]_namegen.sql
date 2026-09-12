@@ -1,51 +1,31 @@
 -- namegen: 24 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `namegen` WHERE `id` = 19500;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19500, 'Grok', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19501;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19501, 'Mogor', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19502;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19502, 'Tharg', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19503;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19503, 'Krol', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19504;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19504, 'Gorlash', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19505;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19505, 'Brugor', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19506;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19506, 'Dorgok', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19507;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19507, 'Krosh', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19508;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19508, 'Grimnok', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19509;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19509, 'Lunk', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19510;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19510, 'Urok', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19511;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19511, 'Zorbo', @Ogre, @Male);
-DELETE FROM `namegen` WHERE `id` = 19512;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19512, 'Chogara', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19513;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19513, 'Mogra', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19514;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19514, 'Urda', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19515;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19515, 'Grulla', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19516;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19516, 'Zogra', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19517;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19517, 'Karga', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19518;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19518, 'Maghara', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19519;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19519, 'Brogga', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19520;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19520, 'Gorma', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19521;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19521, 'Hargala', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19522;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19522, 'Thokra', @Ogre, @Female);
-DELETE FROM `namegen` WHERE `id` = 19523;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19523, 'Wulgra', @Ogre, @Female);
+SET @NameGenID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`namegen`);
+
+DELETE FROM `namegen` WHERE `id` BETWEEN 19500 AND 19523;
+INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES
+(@NameGenID := @NameGenID +1, 'Grok', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Mogor', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Tharg', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Krol', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Gorlash', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Brugor', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Dorgok', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Krosh', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Grimnok', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Lunk', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Urok', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Zorbo', @Ogre, @Male),
+(@NameGenID := @NameGenID +1, 'Chogara', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Mogra', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Urda', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Grulla', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Zogra', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Karga', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Maghara', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Brogga', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Gorma', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Hargala', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Thokra', @Ogre, @Female),
+(@NameGenID := @NameGenID +1, 'Wulgra', @Ogre, @Female);

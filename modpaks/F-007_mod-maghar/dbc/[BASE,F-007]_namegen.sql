@@ -1,123 +1,67 @@
 -- [F-032] mod-maghar: namegen: 7143 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `namegen` WHERE `id` = 18994;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18994, 'Durak', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 18995;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18995, 'Gorvash', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 18996;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18996, 'Zagdush', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 18997;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18997, 'Marokh', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 18998;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18998, 'Urgan', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 18999;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18999, 'Drogath', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19000;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19000, 'Karguk', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19001;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19001, 'Thurgan', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19002;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19002, 'Morkha', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19003;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19003, 'Ruggak', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19004;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19004, 'Dargul', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19005;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19005, 'Sharguk', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19006;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19006, 'Volrath', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19007;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19007, 'Grulkar', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19008;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19008, 'Odgrim', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19009;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19009, 'Tharzuk', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19010;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19010, 'Belgor', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19011;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19011, 'Hargal', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19012;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19012, 'Zundak', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19013;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19013, 'Morgum', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19014;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19014, 'Drakgar', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19015;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19015, 'Urzul', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19016;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19016, 'Skarvyn', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19017;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19017, 'Golmash', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19018;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19018, 'Vorgak', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19019;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19019, 'Hulgar', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19020;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19020, 'Ragmesh', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19021;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19021, 'Turgok', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19022;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19022, 'Wargash', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19023;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19023, 'Grombul', @MagharOrc, @Male);
-DELETE FROM `namegen` WHERE `id` = 19024;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19024, 'Grezha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19025;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19025, 'Morka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19026;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19026, 'Zulrah', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19027;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19027, 'Kasha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19028;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19028, 'Durna', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19029;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19029, 'Velka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19030;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19030, 'Shagra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19031;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19031, 'Tergha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19032;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19032, 'Mokra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19033;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19033, 'Vashka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19034;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19034, 'Ruga', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19035;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19035, 'Zarga', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19036;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19036, 'Helka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19037;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19037, 'Durgha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19038;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19038, 'Nagra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19039;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19039, 'Shelgra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19040;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19040, 'Vorka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19041;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19041, 'Ashra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19042;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19042, 'Gruna', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19043;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19043, 'Melgha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19044;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19044, 'Torka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19045;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19045, 'Ulgra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19046;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19046, 'Zhenra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19047;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19047, 'Karga', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19048;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19048, 'Drenka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19049;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19049, 'Halgra', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19050;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19050, 'Murgha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19051;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19051, 'Selka', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19052;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19052, 'Wragha', @MagharOrc, @Female);
-DELETE FROM `namegen` WHERE `id` = 19053;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (19053, 'Onaka', @MagharOrc, @Female);
+SET @NameGenID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`namegen`);
+
+-- DELETE FROM `namegen` WHERE `id` BETWEEN 18994 AND 19053;
+INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES
+(@NameGenID := @NameGenID +1, 'Durak', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Gorvash', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Zagdush', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Marokh', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Urgan', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Drogath', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Karguk', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Thurgan', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Morkha', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Ruggak', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Dargul', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Sharguk', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Volrath', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Grulkar', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Odgrim', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Tharzuk', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Belgor', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Hargal', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Zundak', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Morgum', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Drakgar', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Urzul', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Skarvyn', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Golmash', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Vorgak', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Hulgar', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Ragmesh', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Turgok', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Wargash', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Grombul', @MagharOrc, @Male),
+(@NameGenID := @NameGenID +1, 'Grezha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Morka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Zulrah', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Kasha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Durna', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Velka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Shagra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Tergha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Mokra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Vashka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Ruga', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Zarga', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Helka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Durgha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Nagra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Shelgra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Vorka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Ashra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Gruna', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Melgha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Torka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Ulgra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Zhenra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Karga', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Drenka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Halgra', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Murgha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Selka', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Wragha', @MagharOrc, @Female),
+(@NameGenID := @NameGenID +1, 'Onaka', @MagharOrc, @Female);

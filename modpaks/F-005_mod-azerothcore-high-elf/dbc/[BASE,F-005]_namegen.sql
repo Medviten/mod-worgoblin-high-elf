@@ -1,791 +1,401 @@
 -- [F-031] mod-azerothcore-high-elf: namegen: 7143 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `namegen` WHERE `id` = 18600;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18600, 'Acheroth', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18601;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18601, 'Adonys', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18602;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18602, 'Alastor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18603;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18603, 'Alendel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18604;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18604, 'Alindian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18605;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18605, 'Ammath', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18606;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18606, 'Anastalin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18607;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18607, 'Andor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18608;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18608, 'Ardeyn', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18609;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18609, 'Astaron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18610;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18610, 'Basriel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18611;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18611, 'Bironys', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18612;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18612, 'Borill', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18613;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18613, 'Bulinard', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18614;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18614, 'Capziel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18615;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18615, 'Celoenus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18616;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18616, 'Cerunath', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18617;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18617, 'Coridan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18618;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18618, 'Daenil', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18619;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18619, 'Dakian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18620;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18620, 'Danash', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18621;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18621, 'Denastrian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18622;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18622, 'Dorann', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18623;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18623, 'Dorillian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18624;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18624, 'Ellimast', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18625;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18625, 'Falin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18626;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18626, 'Fastalor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18627;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18627, 'Felendren', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18628;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18628, 'Fennidaul', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18629;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18629, 'Gabrial', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18630;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18630, 'Geranis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18631;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18631, 'Geron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18632;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18632, 'Gordring', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18633;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18633, 'Gullivan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18634;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18634, 'Hacinth', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18635;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18635, 'Halis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18636;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18636, 'Hathvelion', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18637;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18637, 'Hynalan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18638;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18638, 'Iavis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18639;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18639, 'Indorian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18640;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18640, 'Istolus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18641;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18641, 'Ithanas', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18642;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18642, 'Jesthenis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18643;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18643, 'Jonovath', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18644;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18644, 'Kaladrin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18645;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18645, 'Kuularin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18646;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18646, 'Kelivard', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18647;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18647, 'Knastus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18648;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18648, 'Kordril', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18649;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18649, 'Lammash', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18650;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18650, 'Landalor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18651;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18651, 'Landorian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18652;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18652, 'Lanthan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18653;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18653, 'Lazuriel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18654;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18654, 'Lennivan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18655;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18655, 'Lorastian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18656;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18656, 'Lothos', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18657;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18657, 'Luminorian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18658;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18658, 'Mandarian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18659;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18659, 'Martik', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18660;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18660, 'Mastinicus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18661;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18661, 'Mathreyn', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18662;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18662, 'Myrokos', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18663;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18663, 'Narinicus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18664;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18664, 'Nelluth', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18665;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18665, 'Nerendil', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18666;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18666, 'Nirael', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18667;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18667, 'Ophion', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18668;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18668, 'Orastian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18669;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18669, 'Orthin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18670;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18670, 'Perimath', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18671;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18671, 'Kiril', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18672;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18672, 'Rallin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18673;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18673, 'Rameth', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18674;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18674, 'Regethon', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18675;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18675, 'Relivanth', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18676;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18676, 'Rindorell', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18677;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18677, 'Ruibar', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18678;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18678, 'Salindorian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18679;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18679, 'Salovanth', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18680;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18680, 'Sarcyon', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18681;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18681, 'Sathein', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18682;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18682, 'Sathranis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18683;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18683, 'Sennistan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18684;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18684, 'Shalibar', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18685;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18685, 'Solastus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18686;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18686, 'Symmael', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18687;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18687, 'Tarrath', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18688;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18688, 'Taumas', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18689;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18689, 'Telenus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18690;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18690, 'Tennish', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18691;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18691, 'Thaelas', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18692;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18692, 'Theirean', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18693;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18693, 'Thorian', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18694;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18694, 'Ticonash', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18695;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18695, 'Vasyleios', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18696;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18696, 'Vedoran', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18697;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18697, 'Velendris', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18698;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18698, 'Westinar', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18699;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18699, 'Xanthus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18700;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18700, 'Aendis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18701;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18701, 'Aendron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18702;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18702, 'Aenesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18703;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18703, 'Aeniel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18704;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18704, 'Aenin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18705;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18705, 'Aenlan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18706;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18706, 'Aenleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18707;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18707, 'Aenllan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18708;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18708, 'Aenlor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18709;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18709, 'Aenstus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18710;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18710, 'Amordis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18711;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18711, 'Amordron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18712;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18712, 'Amoresh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18713;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18713, 'Amoriel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18714;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18714, 'Amorin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18715;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18715, 'Amorlan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18716;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18716, 'Amorleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18717;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18717, 'Amorllan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18718;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18718, 'Amorlor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18719;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18719, 'Amorstus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18720;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18720, 'Keedis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18721;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18721, 'Keeiel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18722;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18722, 'Keein', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18723;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18723, 'Keelan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18724;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18724, 'Keelor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18725;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18725, 'Keleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18726;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18726, 'Kellan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18727;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18727, 'Keyadis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18728;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18728, 'Keyadron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18729;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18729, 'Keyaesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18730;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18730, 'Keyaiel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18731;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18731, 'Keyain', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18732;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18732, 'Keyalan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18733;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18733, 'Keyaleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18734;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18734, 'Keyallan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18735;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18735, 'Keyalor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18736;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18736, 'Keyastus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18737;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18737, 'Kiedron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18738;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18738, 'Kiestus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18739;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18739, 'Kredis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18740;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18740, 'Kredron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18741;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18741, 'Kreiel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18742;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18742, 'Krein', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18743;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18743, 'Krelan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18744;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18744, 'Kreleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18745;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18745, 'Krellan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18746;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18746, 'Krelor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18747;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18747, 'Krestus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18748;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18748, 'Kriesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18749;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18749, 'Myrodis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18750;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18750, 'Myrodron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18751;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18751, 'Myroesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18752;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18752, 'Myroiel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18753;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18753, 'Myroin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18754;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18754, 'Myrolan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18755;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18755, 'Myroleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18756;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18756, 'Myrollan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18757;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18757, 'Myrolor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18758;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18758, 'Myrostus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18759;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18759, 'Sandis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18760;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18760, 'Sandron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18761;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18761, 'Sanesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18762;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18762, 'Saniel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18763;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18763, 'Sanin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18764;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18764, 'Sanlan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18765;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18765, 'Sanleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18766;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18766, 'Sanllan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18767;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18767, 'Sanlor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18768;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18768, 'Sanstus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18769;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18769, 'Tydis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18770;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18770, 'Tydron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18771;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18771, 'Tyesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18772;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18772, 'Tyiel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18773;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18773, 'Tyin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18774;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18774, 'Tylan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18775;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18775, 'Tyleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18776;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18776, 'Tyllan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18777;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18777, 'Tylor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18778;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18778, 'Tystus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18779;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18779, 'Vyndis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18780;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18780, 'Vyndron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18781;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18781, 'Vynesh', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18782;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18782, 'Vyniel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18783;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18783, 'Vynin', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18784;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18784, 'Vynlan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18785;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18785, 'Vynleron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18786;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18786, 'Vynllan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18787;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18787, 'Vynlor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18788;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18788, 'Vynstus', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18789;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18789, 'Weledis', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18790;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18790, 'Weledron', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18791;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18791, 'Weleiel', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18792;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18792, 'Welein', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18793;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18793, 'Welelan', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18794;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18794, 'Welelor', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18795;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18795, 'Welish', @HighElf, @Male);
-DELETE FROM `namegen` WHERE `id` = 18796;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18796, 'Acantha', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18797;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18797, 'Aelyste', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18798;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18798, 'Aerin', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18799;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18799, 'Alectria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18800;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18800, 'Aleinia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18801;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18801, 'Alinderial', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18802;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18802, 'Anadarindia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18803;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18803, 'Areyn', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18804;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18804, 'Astella', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18805;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18805, 'Avalina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18806;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18806, 'Belamun', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18807;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18807, 'Belleria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18808;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18808, 'Braelyn', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18809;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18809, 'Brisalyna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18810;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18810, 'Cala', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18811;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18811, 'Callysta', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18812;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18812, 'Celina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18813;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18813, 'Celosia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18814;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18814, 'Charisse', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18815;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18815, 'Cyndala', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18816;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18816, 'Daestra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18817;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18817, 'Delindis', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18818;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18818, 'Desdemina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18819;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18819, 'Dorala', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18820;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18820, 'Dyonissa', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18821;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18821, 'Elianne', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18822;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18822, 'Elisara', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18823;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18823, 'Evelyne', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18824;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18824, 'Faelina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18825;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18825, 'Faeraline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18826;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18826, 'Felinis', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18827;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18827, 'Garridel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18828;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18828, 'Gelindril', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18829;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18829, 'Genistina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18830;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18830, 'Hycintha', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18831;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18831, 'Ilektra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18832;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18832, 'Ionae', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18833;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18833, 'Irissa', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18834;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18834, 'Janeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18835;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18835, 'Jasmintha', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18836;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18836, 'Kaelynitha', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18837;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18837, 'Kanaria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18838;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18838, 'Kelisendra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18839;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18839, 'Larianna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18840;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18840, 'Larissa', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18841;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18841, 'Lilatha', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18842;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18842, 'Lilithelys', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18843;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18843, 'Lindrys', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18844;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18844, 'Lionna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18845;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18845, 'Liralei', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18846;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18846, 'Lithilia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18847;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18847, 'Luminil', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18848;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18848, 'Medea', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18849;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18849, 'Melanthe', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18850;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18850, 'Mellindra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18851;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18851, 'Meniara', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18852;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18852, 'Morgana', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18853;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18853, 'Nadina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18854;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18854, 'Narcisse', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18855;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18855, 'Narina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18856;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18856, 'Nesseline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18857;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18857, 'Nymue', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18858;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18858, 'Nyssa', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18859;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18859, 'Oleanda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18860;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18860, 'Ophira', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18861;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18861, 'Oriana', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18862;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18862, 'Pyranda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18863;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18863, 'Pyrena', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18864;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18864, 'Keirra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18865;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18865, 'Quelastia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18866;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18866, 'Raelaria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18867;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18867, 'Raelis', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18868;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18868, 'Rashelle', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18869;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18869, 'Reanna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18870;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18870, 'Reladriel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18871;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18871, 'Rinna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18872;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18872, 'Sanossa', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18873;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18873, 'Sareyn', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18874;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18874, 'Sathiel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18875;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18875, 'Savalyne', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18876;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18876, 'Sedina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18877;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18877, 'Selestia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18878;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18878, 'Selinasta', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18879;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18879, 'Selindia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18880;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18880, 'Sharra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18881;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18881, 'Shatharia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18882;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18882, 'Sinaris', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18883;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18883, 'Solanna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18884;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18884, 'Sunamun', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18885;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18885, 'Syrenni', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18886;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18886, 'Taina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18887;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18887, 'Tannaria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18888;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18888, 'Tannis', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18889;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18889, 'Teestina', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18890;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18890, 'Tyria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18891;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18891, 'Thela', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18892;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18892, 'Thelindaria', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18893;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18893, 'Tirilliae', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18894;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18894, 'Tirivana', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18895;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18895, 'Vania', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18896;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18896, 'Vara', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18897;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18897, 'Varallia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18898;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18898, 'Velaena', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18899;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18899, 'Velirra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18900;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18900, 'Vynna', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18901;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18901, 'Wylethia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18902;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18902, 'Xanthia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18903;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18903, 'Zaliene', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18904;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18904, 'Braeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18905;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18905, 'Braedori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18906;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18906, 'Braedra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18907;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18907, 'Braedrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18908;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18908, 'Braeice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18909;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18909, 'Braeline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18910;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18910, 'Braendra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18911;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18911, 'Braesong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18912;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18912, 'Braevia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18913;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18913, 'Deydori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18914;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18914, 'Deydra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18915;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18915, 'Deydrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18916;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18916, 'Deyeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18917;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18917, 'Deyice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18918;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18918, 'Deyline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18919;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18919, 'Deyndra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18920;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18920, 'Deysong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18921;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18921, 'Deyvia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18922;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18922, 'Erodori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18923;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18923, 'Erodra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18924;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18924, 'Erodrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18925;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18925, 'Eroeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18926;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18926, 'Eroice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18927;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18927, 'Eroline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18928;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18928, 'Erondra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18929;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18929, 'Erosong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18930;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18930, 'Erovia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18931;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18931, 'Galdori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18932;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18932, 'Galdra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18933;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18933, 'Galdrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18934;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18934, 'Galeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18935;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18935, 'Galice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18936;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18936, 'Galline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18937;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18937, 'Galndra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18938;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18938, 'Galsong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18939;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18939, 'Galvia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18940;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18940, 'Lithdori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18941;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18941, 'Lithdra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18942;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18942, 'Lithdrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18943;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18943, 'Litheda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18944;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18944, 'Lithice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18945;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18945, 'Lithline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18946;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18946, 'Lithndra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18947;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18947, 'Lithsong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18948;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18948, 'Lithvia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18949;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18949, 'Noradori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18950;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18950, 'Noradra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18951;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18951, 'Noradrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18952;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18952, 'Noraeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18953;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18953, 'Noraice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18954;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18954, 'Noraline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18955;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18955, 'Norandra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18956;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18956, 'Norasong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18957;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18957, 'Noravia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18958;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18958, 'Tanddori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18959;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18959, 'Tanddra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18960;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18960, 'Tanddrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18961;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18961, 'Tandeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18962;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18962, 'Tandice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18963;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18963, 'Tandline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18964;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18964, 'Tandndra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18965;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18965, 'Tandsong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18966;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18966, 'Tandvia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18967;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18967, 'Traydori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18968;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18968, 'Traydra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18969;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18969, 'Traydrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18970;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18970, 'Trayeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18971;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18971, 'Trayice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18972;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18972, 'Trayline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18973;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18973, 'Trayndra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18974;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18974, 'Traysong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18975;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18975, 'Trayvia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18976;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18976, 'Velidori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18977;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18977, 'Velidra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18978;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18978, 'Velidrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18979;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18979, 'Velieda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18980;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18980, 'Veliice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18981;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18981, 'Veliline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18982;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18982, 'Velindra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18983;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18983, 'Velisong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18984;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18984, 'Velivia', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18985;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18985, 'Zaradori', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18986;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18986, 'Zaradra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18987;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18987, 'Zaradrel', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18988;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18988, 'Zaraeda', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18989;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18989, 'Zaraice', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18990;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18990, 'Zaraline', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18991;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18991, 'Zarandra', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18992;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18992, 'Zarasong', @HighElf, @Female);
-DELETE FROM `namegen` WHERE `id` = 18993;
-INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES (18993, 'Zaravia', @HighElf, @Female);
+SET @NameGenID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`namegen`);
+
+-- DELETE FROM `namegen` WHERE `id` BETWEEN 18600 AND 18993;
+INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES
+(@NameGenID := @NameGenID +1, 'Acheroth', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Adonys', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Alastor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Alendel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Alindian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ammath', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Anastalin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Andor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ardeyn', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Astaron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Basriel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Bironys', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Borill', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Bulinard', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Capziel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Celoenus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Cerunath', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Coridan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Daenil', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Dakian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Danash', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Denastrian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Dorann', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Dorillian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ellimast', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Falin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Fastalor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Felendren', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Fennidaul', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Gabrial', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Geranis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Geron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Gordring', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Gullivan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Hacinth', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Halis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Hathvelion', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Hynalan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Iavis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Indorian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Istolus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ithanas', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Jesthenis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Jonovath', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kaladrin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kuularin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kelivard', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Knastus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kordril', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Lammash', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Landalor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Landorian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Lanthan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Lazuriel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Lennivan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Lorastian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Lothos', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Luminorian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Mandarian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Martik', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Mastinicus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Mathreyn', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrokos', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Narinicus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Nelluth', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Nerendil', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Nirael', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ophion', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Orastian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Orthin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Perimath', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kiril', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Rallin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Rameth', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Regethon', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Relivanth', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Rindorell', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ruibar', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Salindorian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Salovanth', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sarcyon', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sathein', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sathranis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sennistan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Shalibar', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Solastus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Symmael', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tarrath', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Taumas', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Telenus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tennish', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Thaelas', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Theirean', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Thorian', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Ticonash', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vasyleios', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vedoran', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Velendris', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Westinar', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Xanthus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aendis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aendron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aeniel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenlan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenllan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenlor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Aenstus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amordis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amordron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amoresh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amoriel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amorin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amorlan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amorleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amorllan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amorlor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Amorstus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keedis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keeiel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keein', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keelan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keelor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kellan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyadis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyadron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyaesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyaiel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyain', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyalan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyaleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyallan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyalor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Keyastus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kiedron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kiestus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kredis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kredron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kreiel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Krein', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Krelan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kreleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Krellan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Krelor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Krestus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Kriesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrodis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrodron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myroesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myroiel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myroin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrolan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myroleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrollan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrolor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Myrostus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sandis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sandron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Saniel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanlan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanllan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanlor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Sanstus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tydis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tydron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tyesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tyiel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tyin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tylan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tyleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tyllan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tylor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Tystus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vyndis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vyndron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynesh', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vyniel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynin', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynlan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynleron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynllan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynlor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Vynstus', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Weledis', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Weledron', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Weleiel', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Welein', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Welelan', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Welelor', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Welish', @HighElf, @Male),
+(@NameGenID := @NameGenID +1, 'Acantha', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Aelyste', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Aerin', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Alectria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Aleinia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Alinderial', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Anadarindia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Areyn', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Astella', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Avalina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Belamun', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Belleria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braelyn', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Brisalyna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Cala', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Callysta', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Celina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Celosia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Charisse', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Cyndala', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Daestra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Delindis', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Desdemina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Dorala', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Dyonissa', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Elianne', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Elisara', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Evelyne', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Faelina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Faeraline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Felinis', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Garridel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Gelindril', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Genistina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Hycintha', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Ilektra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Ionae', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Irissa', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Janeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Jasmintha', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Kaelynitha', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Kanaria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Kelisendra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Larianna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Larissa', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lilatha', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lilithelys', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lindrys', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lionna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Liralei', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithilia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Luminil', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Medea', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Melanthe', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Mellindra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Meniara', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Morgana', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Nadina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Narcisse', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Narina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Nesseline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Nymue', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Nyssa', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Oleanda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Ophira', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Oriana', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Pyranda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Pyrena', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Keirra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Quelastia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Raelaria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Raelis', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Rashelle', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Reanna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Reladriel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Rinna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sanossa', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sareyn', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sathiel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Savalyne', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sedina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Selestia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Selinasta', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Selindia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sharra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Shatharia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sinaris', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Solanna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Sunamun', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Syrenni', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Taina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tannaria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tannis', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Teestina', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tyria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Thela', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Thelindaria', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tirilliae', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tirivana', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Vania', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Vara', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Varallia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velaena', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velirra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Vynna', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Wylethia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Xanthia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaliene', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braedori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braedra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braedrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braeice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braeline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braendra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braesong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Braevia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deydori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deydra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deydrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deyeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deyice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deyline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deyndra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deysong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Deyvia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Erodori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Erodra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Erodrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Eroeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Eroice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Eroline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Erondra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Erosong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Erovia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galdori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galdra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galdrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galndra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galsong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Galvia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithdori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithdra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithdrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Litheda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithndra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithsong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Lithvia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noradori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noradra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noradrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noraeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noraice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noraline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Norandra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Norasong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Noravia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tanddori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tanddra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tanddrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tandeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tandice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tandline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tandndra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tandsong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Tandvia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Traydori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Traydra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Traydrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Trayeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Trayice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Trayline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Trayndra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Traysong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Trayvia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velidori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velidra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velidrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velieda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Veliice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Veliline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velindra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velisong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Velivia', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaradori', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaradra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaradrel', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaraeda', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaraice', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaraline', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zarandra', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zarasong', @HighElf, @Female),
+(@NameGenID := @NameGenID +1, 'Zaravia', @HighElf, @Female);
