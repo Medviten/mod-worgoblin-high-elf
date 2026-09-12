@@ -1,8 +1,8 @@
-SET @TaxiPathNodeID = (SELECT COALESCE(MAX(id), 0) FROM dbc.taxipathnode);
+SET @TaxiPathNodeID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`taxipathnode`);
 
 -- DELETE FROM `taxipath` WHERE `id` BETWEEN 46875 AND 46900; -- default
 
-SET @NodeIndex = 0; -- Auberdine – Exodar
+SET @NodeIndex = -1; -- Auberdine – Exodar
 INSERT INTO `taxipathnode`(`id`, `path_id`, `node_index`, `map`, `x`, `y`, `z`, `flags`, `delay`, `arrival_event_id`, `departure_event_id`) VALUES
 (@TaxiPathNodeID := @TaxiPathNodeID +1, @TaxiAuberdineExodar, @NodeIndex := @NodeIndex +1, @Kalimdor, 6342.436, 559.1641, 17.87325, 0, 0, 0, 0),
 (@TaxiPathNodeID := @TaxiPathNodeID +1, @TaxiAuberdineExodar, @NodeIndex := @NodeIndex +1, @Kalimdor, 6347.235, 566.6008, 18.52698, 0, 0, 0, 0),
@@ -18,7 +18,7 @@ INSERT INTO `taxipathnode`(`id`, `path_id`, `node_index`, `map`, `x`, `y`, `z`, 
 (@TaxiPathNodeID := @TaxiPathNodeID +1, @TaxiAuberdineExodar, @NodeIndex := @NodeIndex +1, @Outland, -4003.116, -11931.13, 38.47455, 0, 0, 0, 0),
 (@TaxiPathNodeID := @TaxiPathNodeID +1, @TaxiAuberdineExodar, @NodeIndex := @NodeIndex +1, @Outland, -4054.752, -11793.4, 11.11395, 0, 0, 0, 0);
 
-SET @NodeIndex = 0; -- Exodar – Auberdine
+SET @NodeIndex = -1; -- Exodar – Auberdine
 INSERT INTO `taxipathnode`(`id`, `path_id`, `node_index`, `map`, `x`, `y`, `z`, `flags`, `delay`, `arrival_event_id`, `departure_event_id`) VALUES
 (@TaxiPathNodeID := @TaxiPathNodeID +1, @TaxiExodarAuberdine, @NodeIndex := @NodeIndex +1, @Outland, -4053.573, -11789.13, 9.947286, 0, 0, 0, 0),
 (@TaxiPathNodeID := @TaxiPathNodeID +1, @TaxiExodarAuberdine, @NodeIndex := @NodeIndex +1, @Outland, -4003.116, -11931.13, 38.47455, 0, 0, 0, 0),
