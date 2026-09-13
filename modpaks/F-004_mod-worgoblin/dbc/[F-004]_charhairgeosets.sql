@@ -1,84 +1,47 @@
 -- Gilnean race support
 
-DELETE FROM `charhairgeosets` WHERE `id` = 631;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (631, @Gilnean, @Male, 0, 0, 1);
-DELETE FROM `charhairgeosets` WHERE `id` = 632;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (632, @Gilnean, @Male, 1, 2, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 633;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (633, @Gilnean, @Male, 2, 3, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 634;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (634, @Gilnean, @Male, 3, 4, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 635;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (635, @Gilnean, @Male, 4, 5, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 636;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (636, @Gilnean, @Male, 5, 6, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 637;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (637, @Gilnean, @Male, 6, 7, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 638;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (638, @Gilnean, @Male, 7, 8, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 639;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (639, @Gilnean, @Male, 8, 9, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 640;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (640, @Gilnean, @Male, 9, 10, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 641;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (641, @Gilnean, @Male, 10, 11, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 642;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (642, @Gilnean, @Male, 11, 12, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 643;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (643, @Gilnean, @Female, 0, 2, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 644;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (644, @Gilnean, @Female, 1, 3, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 645;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (645, @Gilnean, @Female, 2, 4, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 646;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (646, @Gilnean, @Female, 3, 5, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 647;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (647, @Gilnean, @Female, 4, 6, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 648;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (648, @Gilnean, @Female, 5, 7, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 649;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (649, @Gilnean, @Female, 6, 8, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 650;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (650, @Gilnean, @Female, 7, 9, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 651;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (651, @Gilnean, @Female, 8, 10, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 652;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (652, @Gilnean, @Female, 9, 11, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 653;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (653, @Gilnean, @Female, 10, 12, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 654;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (654, @Gilnean, @Female, 11, 13, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 655;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (655, @Gilnean, @Female, 12, 14, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 656;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (656, @Gilnean, @Female, 13, 15, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 657;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (657, @Gilnean, @Female, 14, 16, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 658;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (658, @Gilnean, @Female, 15, 17, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 659;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (659, @Gilnean, @Female, 16, 18, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 660;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (660, @Gilnean, @Female, 17, 19, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 661;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (661, @Gilnean, @Female, 18, 20, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 662;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (662, @Gilnean, @Female, 19, 21, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 663;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (663, @Gilnean, @Female, 20, 22, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 664;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (664, @Gilnean, @Female, 21, 23, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 665;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (665, @Gilnean, @Female, 22, 24, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 666;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (666, @Gilnean, @Female, 23, 25, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 667;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (667, @Gilnean, @Male, 12, 13, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 668;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (668, @Gilnean, @Male, 13, 14, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 669;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (669, @Gilnean, @Male, 14, 15, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 670;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (670, @Gilnean, @Male, 15, 16, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 671;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (671, @Gilnean, @Male, 16, 17, 0);
+SET @CharHairGeosetsID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`charhairgeosets`);
+
+DELETE FROM `charhairgeosets` WHERE `id` BETWEEN 631 AND 671;
+INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 0, 0, 1),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 1, 2, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 2, 3, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 3, 4, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 4, 5, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 5, 6, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 6, 7, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 7, 8, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 8, 9, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 9, 10, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 10, 11, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 11, 12, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 0, 2, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 1, 3, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 2, 4, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 3, 5, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 4, 6, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 5, 7, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 6, 8, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 7, 9, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 8, 10, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 9, 11, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 10, 12, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 11, 13, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 12, 14, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 13, 15, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 14, 16, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 15, 17, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 16, 18, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 17, 19, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 18, 20, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 19, 21, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 20, 22, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 21, 23, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 22, 24, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Female, 23, 25, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 12, 13, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 13, 14, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 14, 15, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 15, 16, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 16, 17, 0);

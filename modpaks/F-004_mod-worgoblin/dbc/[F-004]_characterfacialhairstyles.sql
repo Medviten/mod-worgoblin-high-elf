@@ -1,34 +1,20 @@
 -- Gilnean race support
 
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 0;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 0, 1, 1, 1, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 1;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 1, 1, 2, 1, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 2;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 2, 1, 2, 1, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 3;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 3, 2, 1, 2, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 4;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 4, 2, 2, 2, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 5;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 5, 1, 2, 2, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 6;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 6, 2, 2, 1, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 7;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 7, 1, 2, 1, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 0 AND `variation_id` = 8;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 0, 8, 1, 1, 1, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 0;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 0, 0, 0, 0, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 1;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 1, 0, 2, 0, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 2;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 2, 0, 3, 0, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 3;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 3, 0, 4, 0, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 4;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 4, 0, 5, 0, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 5;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 5, 0, 6, 0, 0, 0);
-DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean AND `gender` = 1 AND `variation_id` = 6;
-INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES (@Gilnean, 1, 6, 0, 7, 0, 0, 0);
+DELETE FROM `characterfacialhairstyles` WHERE `race` = @Gilnean;
+INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geoset_1`, `geoset_2`, `geoset_3`, `geoset_4`, `geoset_5`) VALUES
+(@Gilnean, @Male,   0, 1, 1, 1, 0, 0),
+(@Gilnean, @Male,   1, 1, 2, 1, 0, 0),
+(@Gilnean, @Male,   2, 1, 2, 1, 0, 0),
+(@Gilnean, @Male,   3, 2, 1, 2, 0, 0),
+(@Gilnean, @Male,   4, 2, 2, 2, 0, 0),
+(@Gilnean, @Male,   5, 1, 2, 2, 0, 0),
+(@Gilnean, @Male,   6, 2, 2, 1, 0, 0),
+(@Gilnean, @Male,   7, 1, 2, 1, 0, 0),
+(@Gilnean, @Male,   8, 1, 1, 1, 0, 0),
+(@Gilnean, @Female, 0, 0, 0, 0, 0, 0),
+(@Gilnean, @Female, 1, 0, 2, 0, 0, 0),
+(@Gilnean, @Female, 2, 0, 3, 0, 0, 0),
+(@Gilnean, @Female, 3, 0, 4, 0, 0, 0),
+(@Gilnean, @Female, 4, 0, 5, 0, 0, 0),
+(@Gilnean, @Female, 5, 0, 6, 0, 0, 0),
+(@Gilnean, @Female, 6, 0, 7, 0, 0, 0);

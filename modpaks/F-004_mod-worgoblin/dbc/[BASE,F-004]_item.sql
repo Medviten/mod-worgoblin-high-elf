@@ -1,111 +1,59 @@
 -- item: 54 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `item` WHERE `id` = 49399;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49399, 4, 1, -1, 7, 62549, 20, 0);
-DELETE FROM `item` WHERE `id` = 49400;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49400, 4, 1, -1, 7, 62561, 7, 0);
-DELETE FROM `item` WHERE `id` = 49401;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49401, 4, 1, -1, 7, 62448, 8, 0);
-DELETE FROM `item` WHERE `id` = 49403;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49403, 4, 1, -1, 7, 62557, 20, 0);
-DELETE FROM `item` WHERE `id` = 49404;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49404, 4, 1, -1, 7, 62559, 7, 0);
-DELETE FROM `item` WHERE `id` = 49406;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49406, 4, 1, -1, 7, 62568, 8, 0);
-DELETE FROM `item` WHERE `id` = 49407;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49407, 4, 1, -1, 7, 68132, 8, 0);
-DELETE FROM `item` WHERE `id` = 49408;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49408, 4, 1, -1, 7, 62565, 20, 0);
-DELETE FROM `item` WHERE `id` = 49409;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49409, 4, 1, -1, 7, 62566, 7, 0);
-DELETE FROM `item` WHERE `id` = 49502;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49502, 4, 2, -1, 7, 62614, 5, 0);
-DELETE FROM `item` WHERE `id` = 49503;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49503, 4, 2, -1, 7, 69187, 7, 0);
-DELETE FROM `item` WHERE `id` = 49504;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49504, 4, 2, -1, 7, 62617, 8, 0);
-DELETE FROM `item` WHERE `id` = 49505;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49505, 4, 1, -1, 7, 62618, 20, 0);
-DELETE FROM `item` WHERE `id` = 49506;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49506, 4, 1, -1, 7, 62621, 7, 0);
-DELETE FROM `item` WHERE `id` = 49508;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49508, 4, 1, -1, 7, 9929, 8, 0);
-DELETE FROM `item` WHERE `id` = 49510;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49510, 4, 1, -1, 7, 65789, 20, 0);
-DELETE FROM `item` WHERE `id` = 49512;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49512, 4, 1, -1, 7, 62598, 7, 0);
-DELETE FROM `item` WHERE `id` = 49514;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49514, 4, 2, -1, 7, 65799, 5, 0);
-DELETE FROM `item` WHERE `id` = 49515;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49515, 4, 2, -1, 7, 69188, 7, 0);
-DELETE FROM `item` WHERE `id` = 49516;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49516, 4, 2, -1, 7, 65798, 8, 0);
-DELETE FROM `item` WHERE `id` = 49520;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49520, 4, 1, -1, 7, 65787, 20, 0);
-DELETE FROM `item` WHERE `id` = 49521;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49521, 4, 1, -1, 7, 62621, 7, 0);
-DELETE FROM `item` WHERE `id` = 49522;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49522, 4, 1, -1, 7, 4143, 8, 0);
-DELETE FROM `item` WHERE `id` = 49524;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49524, 4, 3, -1, 7, 69181, 5, 0);
-DELETE FROM `item` WHERE `id` = 49527;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49527, 4, 3, -1, 7, 69185, 8, 0);
-DELETE FROM `item` WHERE `id` = 49528;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49528, 4, 3, -1, 7, 69183, 7, 0);
-DELETE FROM `item` WHERE `id` = 49529;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49529, 4, 3, -1, 7, 69182, 10, 0);
-DELETE FROM `item` WHERE `id` = 49531;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49531, 4, 1, -1, 7, 6318, 8, 0);
-DELETE FROM `item` WHERE `id` = 49563;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49563, 4, 2, -1, 7, 65854, 5, 0);
-DELETE FROM `item` WHERE `id` = 49564;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49564, 4, 2, -1, 7, 65851, 8, 0);
-DELETE FROM `item` WHERE `id` = 49565;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49565, 4, 2, -1, 7, 65852, 10, 0);
-DELETE FROM `item` WHERE `id` = 49566;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49566, 4, 2, -1, 7, 65853, 7, 0);
-DELETE FROM `item` WHERE `id` = 49567;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49567, 4, 0, -1, 7, 62558, 4, 0);
-DELETE FROM `item` WHERE `id` = 49568;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49568, 4, 2, -1, 7, 62706, 7, 0);
-DELETE FROM `item` WHERE `id` = 49569;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49569, 4, 2, -1, 7, 62707, 8, 0);
-DELETE FROM `item` WHERE `id` = 49570;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49570, 4, 2, -1, 7, 98023, 5, 0);
-DELETE FROM `item` WHERE `id` = 49571;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49571, 4, 2, -1, 7, 69176, 10, 0);
-DELETE FROM `item` WHERE `id` = 49572;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49572, 4, 2, -1, 7, 65849, 7, 0);
-DELETE FROM `item` WHERE `id` = 49573;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49573, 4, 2, -1, 7, 69175, 10, 0);
-DELETE FROM `item` WHERE `id` = 49574;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49574, 4, 2, -1, 7, 65850, 5, 0);
-DELETE FROM `item` WHERE `id` = 49575;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49575, 4, 2, -1, 7, 65847, 8, 0);
-DELETE FROM `item` WHERE `id` = 49576;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49576, 4, 3, -1, 7, 68130, 7, 0);
-DELETE FROM `item` WHERE `id` = 49577;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49577, 4, 3, -1, 7, 68129, 6, 0);
-DELETE FROM `item` WHERE `id` = 49578;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49578, 4, 3, -1, 7, 68128, 5, 0);
-DELETE FROM `item` WHERE `id` = 49579;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (49579, 4, 3, -1, 7, 68131, 8, 0);
-DELETE FROM `item` WHERE `id` = 52532;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (52532, 2, 1, -1, 1, 65743, 17, 1);
-DELETE FROM `item` WHERE `id` = 52550;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (52550, 4, 2, -1, 7, 65801, 5, 0);
-DELETE FROM `item` WHERE `id` = 52551;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (52551, 4, 2, -1, 7, 62573, 7, 0);
-DELETE FROM `item` WHERE `id` = 52552;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (52552, 4, 2, -1, 7, 65800, 8, 0);
-DELETE FROM `item` WHERE `id` = 62461;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (62461, 15, 5, -1, 4, 134237, 0, 0);
-DELETE FROM `item` WHERE `id` = 62462;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (62462, 15, 5, -1, 4, 134238, 0, 0);
-DELETE FROM `item` WHERE `id` = 73838;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (73838, 15, 5, -1, 4, 132261, 0, 0);
-DELETE FROM `item` WHERE `id` = 73839;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (73839, 15, 5, -1, 4, 132261, 0, 0);
-DELETE FROM `item` WHERE `id` = 90000;
-INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES (90000, 12, 0, -1, -1, 75787, 0, 0);
+DELETE FROM `item` WHERE `id` IN (49399, 49400, 49401, 49403, 49404, 49406, 49407, 49408, 49409, 49502, 49503, 49504, 49505, 49506, 49508, 49510, 49512, 49514, 49515, 49516, 49520, 49521, 49522, 49524, 49527, 49528, 49529, 49531, 49563, 49564, 49565, 49566, 49567, 49568, 49569, 49570, 49571, 49572, 49573, 49574, 49575, 49576, 49577, 49578, 49579, 52532, 52550, 52551, 52552, 62461, 62462, 73838, 73839, 90000);
+INSERT INTO `item` (`id`, `class`, `subclass`, `sound_override_subclass`, `material`, `display_id`, `inventory_type`, `sheath`) VALUES
+(49399, 4, 1, -1, 7, 62549, 20, 0),
+(49400, 4, 1, -1, 7, 62561, 7, 0),
+(49401, 4, 1, -1, 7, 62448, 8, 0),
+(49403, 4, 1, -1, 7, 62557, 20, 0),
+(49404, 4, 1, -1, 7, 62559, 7, 0),
+(49406, 4, 1, -1, 7, 62568, 8, 0),
+(49407, 4, 1, -1, 7, 68132, 8, 0),
+(49408, 4, 1, -1, 7, 62565, 20, 0),
+(49409, 4, 1, -1, 7, 62566, 7, 0),
+(49502, 4, 2, -1, 7, 62614, 5, 0),
+(49503, 4, 2, -1, 7, 69187, 7, 0),
+(49504, 4, 2, -1, 7, 62617, 8, 0),
+(49505, 4, 1, -1, 7, 62618, 20, 0),
+(49506, 4, 1, -1, 7, 62621, 7, 0),
+(49508, 4, 1, -1, 7, 9929, 8, 0),
+(49510, 4, 1, -1, 7, 65789, 20, 0),
+(49512, 4, 1, -1, 7, 62598, 7, 0),
+(49514, 4, 2, -1, 7, 65799, 5, 0),
+(49515, 4, 2, -1, 7, 69188, 7, 0),
+(49516, 4, 2, -1, 7, 65798, 8, 0),
+(49520, 4, 1, -1, 7, 65787, 20, 0),
+(49521, 4, 1, -1, 7, 62621, 7, 0),
+(49522, 4, 1, -1, 7, 4143, 8, 0),
+(49524, 4, 3, -1, 7, 69181, 5, 0),
+(49527, 4, 3, -1, 7, 69185, 8, 0),
+(49528, 4, 3, -1, 7, 69183, 7, 0),
+(49529, 4, 3, -1, 7, 69182, 10, 0),
+(49531, 4, 1, -1, 7, 6318, 8, 0),
+(49563, 4, 2, -1, 7, 65854, 5, 0),
+(49564, 4, 2, -1, 7, 65851, 8, 0),
+(49565, 4, 2, -1, 7, 65852, 10, 0),
+(49566, 4, 2, -1, 7, 65853, 7, 0),
+(49567, 4, 0, -1, 7, 62558, 4, 0),
+(49568, 4, 2, -1, 7, 62706, 7, 0),
+(49569, 4, 2, -1, 7, 62707, 8, 0),
+(49570, 4, 2, -1, 7, 98023, 5, 0),
+(49571, 4, 2, -1, 7, 69176, 10, 0),
+(49572, 4, 2, -1, 7, 65849, 7, 0),
+(49573, 4, 2, -1, 7, 69175, 10, 0),
+(49574, 4, 2, -1, 7, 65850, 5, 0),
+(49575, 4, 2, -1, 7, 65847, 8, 0),
+(49576, 4, 3, -1, 7, 68130, 7, 0),
+(49577, 4, 3, -1, 7, 68129, 6, 0),
+(49578, 4, 3, -1, 7, 68128, 5, 0),
+(49579, 4, 3, -1, 7, 68131, 8, 0),
+(52532, 2, 1, -1, 1, 65743, 17, 1),
+(52550, 4, 2, -1, 7, 65801, 5, 0),
+(52551, 4, 2, -1, 7, 62573, 7, 0),
+(52552, 4, 2, -1, 7, 65800, 8, 0),
+(62461, 15, 5, -1, 4, 134237, 0, 0),
+(62462, 15, 5, -1, 4, 134238, 0, 0),
+(73838, 15, 5, -1, 4, 132261, 0, 0),
+(73839, 15, 5, -1, 4, 132261, 0, 0),
+(90000, 12, 0, -1, -1, 75787, 0, 0);

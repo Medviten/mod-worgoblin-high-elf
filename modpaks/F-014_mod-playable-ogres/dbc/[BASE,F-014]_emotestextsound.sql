@@ -3,7 +3,7 @@
 -- New entries
 SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`emotestextsound`);
 
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 2554 AND 2635;
+-- DELETE FROM `emotestextsound` WHERE `id` BETWEEN 2554 AND 2635;
 INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES
 (@EmotesTextSoundID := @EmotesTextSoundID +1, 14, @Ogre, @Male, 7956),
 (@EmotesTextSoundID := @EmotesTextSoundID +1, 14, @Ogre, @Female, 7956),
