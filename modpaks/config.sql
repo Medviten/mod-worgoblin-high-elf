@@ -32,6 +32,9 @@ SET @MagharOrc                        =   14;
 SET @Ogre                             =   15;
 SET @DarkIronDwarf                    =   16;
 SET @ZandalariTroll                   =   17;
+SET @Vulpera                          =   18;
+SET @AlliancePandaren                 =   19;
+SET @HordePandaren                    =   20;
 SET @Gilnean                          =   23;
 
 -- NPC Races
@@ -47,24 +50,27 @@ SET @NorthrendSkeleton                =   40;
 SET @IceTroll                         =   41;
 
 -- RaceMasks
-SET @HumanMask                        = 1 << (@Human          - 1);  -- race ID 1  → 1
-SET @OrcMask                          = 1 << (@Orc            - 1);  -- race ID 2  → 2
-SET @DwarfMask                        = 1 << (@Dwarf          - 1);  -- race ID 3  → 4
-SET @NightElfMask                     = 1 << (@NightElf       - 1);  -- race ID 4  → 8
-SET @UndeadMask                       = 1 << (@Undead         - 1);  -- race ID 5  → 16
-SET @TaurenMask                       = 1 << (@Tauren         - 1);  -- race ID 6  → 32
-SET @GnomeMask                        = 1 << (@Gnome          - 1);  -- race ID 7  → 64
-SET @TrollMask                        = 1 << (@Troll          - 1);  -- race ID 8  → 128
-SET @GoblinMask                       = 1 << (@Goblin         - 1);  -- race ID 9  → 256
-SET @BloodElfMask                     = 1 << (@BloodElf       - 1);  -- race ID 10 → 512
-SET @DraeneiMask                      = 1 << (@Draenei        - 1);  -- race ID 11 → 1024
-SET @WorgenMask                       = 1 << (@Worgen         - 1);  -- race ID 12 → 2048
-SET @HighElfMask                      = 1 << (@HighElf        - 1);  -- race ID 13 → 4096
-SET @MagharOrcMask                    = 1 << (@MagharOrc      - 1);  -- race ID 14 → 8192
-SET @OgreMask                         = 1 << (@Ogre           - 1);  -- race ID 15 → 16384
-SET @DarkIronDwarfMask                = 1 << (@DarkIronDwarf  - 1);  -- race ID 16 → 32768
-SET @ZandalariTrollMask               = 1 << (@ZandalariTroll - 1);  -- race ID 17 → 65536
-SET @GilneanMask                      = 1 << (@Gilnean        - 1);  -- race ID 23 → 4194304
+SET @HumanMask                        = 1 << (@Human            - 1);  -- race ID 1  → 1
+SET @OrcMask                          = 1 << (@Orc              - 1);  -- race ID 2  → 2
+SET @DwarfMask                        = 1 << (@Dwarf            - 1);  -- race ID 3  → 4
+SET @NightElfMask                     = 1 << (@NightElf         - 1);  -- race ID 4  → 8
+SET @UndeadMask                       = 1 << (@Undead           - 1);  -- race ID 5  → 16
+SET @TaurenMask                       = 1 << (@Tauren           - 1);  -- race ID 6  → 32
+SET @GnomeMask                        = 1 << (@Gnome            - 1);  -- race ID 7  → 64
+SET @TrollMask                        = 1 << (@Troll            - 1);  -- race ID 8  → 128
+SET @GoblinMask                       = 1 << (@Goblin           - 1);  -- race ID 9  → 256
+SET @BloodElfMask                     = 1 << (@BloodElf         - 1);  -- race ID 10 → 512
+SET @DraeneiMask                      = 1 << (@Draenei          - 1);  -- race ID 11 → 1024
+SET @WorgenMask                       = 1 << (@Worgen           - 1);  -- race ID 12 → 2048
+SET @HighElfMask                      = 1 << (@HighElf          - 1);  -- race ID 13 → 4096
+SET @MagharOrcMask                    = 1 << (@MagharOrc        - 1);  -- race ID 14 → 8192
+SET @OgreMask                         = 1 << (@Ogre             - 1);  -- race ID 15 → 16384
+SET @DarkIronDwarfMask                = 1 << (@DarkIronDwarf    - 1);  -- race ID 16 → 32768
+SET @ZandalariTrollMask               = 1 << (@ZandalariTroll   - 1);  -- race ID 17 → 65536
+SET @VulperaMask                      = 1 << (@Vulpera          - 1);  -- race ID 18 → 131072
+SET @AlliancePandarenMask             = 1 << (@AlliancePandaren - 1);  -- race ID 19 → 262144
+SET @HordePandarenMask                = 1 << (@HordePandaren    - 1);  -- race ID 20 → 524288
+SET @GilneanMask                      = 1 << (@Gilnean          - 1);  -- race ID 23 → 4194304
 
 -- New Race Models
 SET @WorgenMaleModel                  =  3141; -- bipedal
@@ -83,6 +89,8 @@ SET @DarkIronDwarfMaleModel           = 40000; -- backport from
 SET @DarkIronDwarfFemaleModel         = 40001; -- Shadowlands
 SET @ZandalariTrollMaleModel          = 40002; -- backport from
 SET @ZandalariTrollFemaleModel        = 40003; -- Shadowlands
+SET @VulperaMaleModel                 = 40004; -- backport from
+SET @VulperaFemaleModel               = 40005; -- Shadowlands
 
 -- Display IDs
 SET @WorgenMaleDisplay                =  29422;
@@ -101,6 +109,8 @@ SET @DarkIronDwarfMaleDisplay         =  40000;
 SET @DarkIronDwarfFemaleDisplay       =  40001;
 SET @ZandalariTrollMaleDisplay        =  40002;
 SET @ZandalariTrollFemaleDisplay      =  40003;
+SET @VulperaMaleDisplay               =  40004;
+SET @VulperaFemaleDisplay             =  40005;
 
 -- CreatureDisplayInfoExtra
 SET @WorgenMaleDisplayExtra           =  45424;
@@ -115,8 +125,10 @@ SET @OgreMaleDisplayExtra             =  45439;
 SET @OgreFemaleDisplayExtra           =  45440;
 SET @DarkIronDwarfMaleDisplayExtra    =  45441;
 SET @DarkIronDwarfFemaleDisplayExtra  =  45442;
-SET @ZandalariTrollMaleDisplayExtra   =  45441;
-SET @ZandalariTrollFemaleDisplayExtra =  45442;
+SET @ZandalariTrollMaleDisplayExtra   =  45443;
+SET @ZandalariTrollFemaleDisplayExtra =  45444;
+SET @VulperaMaleDisplayExtra          =  45445;
+SET @VulperaFemaleDisplayExtra        =  45446;
 
 -- creature_template
 SET @WorgenWildMaleTemplate           =  55274;
@@ -132,6 +144,8 @@ SET @MagharOrcRacials                 =    792;
 SET @OgreRacials                      =    793;
 SET @DarkIronDwarfRacials             =    794;
 SET @ZandalariTrollRacials            =    795;
+SET @VulperaRacials                   =    796;
+SET @PandarenRacials                  =    797;
 
 -- Racial spells
 SET @WorgenRacial1                    =  68975; -- Viciousness
@@ -156,18 +170,21 @@ SET @MagharOrcRacial4                 = 110004; -- Unwavering Will (maybe change
 -- SET @OgreRacial1
 -- SET @DarkIronDwarfRacial1
 -- SET @ZandalariTrollRacial1
+-- SET @VulperaRacial1
+-- SET @PandarenRacial1
 
 -- Mount spells
 SET @GoblinTrike                      =  87090;
 SET @GoblinTurboTrike                 =  87091;
 SET @MountainHorse                    = 103195;
 SET @SwiftMountainHorse               = 103196;
+SET @CaravanHyena                     = 110021;
 
 -- Faction Masks
 SET @BaseAllianceMask                 = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask  | @DraeneiMask;
 SET @BaseHordeMask                    = @OrcMask          | @UndeadMask | @TaurenMask    | @TrollMask  | @BloodElfMask;
 SET @AllianceMask                     = @BaseAllianceMask | @WorgenMask | @HighElfMask   | @DarkIronDwarfMask;
-SET @HordeMask                        = @BaseHordeMask    | @GoblinMask | @MagharOrcMask | @OgreMask   | @ZandalariTrollMask;
+SET @HordeMask                        = @BaseHordeMask    | @GoblinMask | @MagharOrcMask | @OgreMask   | @ZandalariTrollMask | @Vulpera;
 SET @UndercityMask                    = @UndeadMask   | @BloodElfMask; -- Mostly for easy reputation split
 SET @BarrensBros                      = @HordeMask    & ~@UndercityMask; -- Mostly for easy reputation split
 SET @PlayableRaceMask                 = @AllianceMask | @HordeMask;
@@ -190,6 +207,9 @@ SET @MagharOrcPlayer                  = 1166;
 SET @OgrePlayer                       = 1169;
 SET @DarkIronDwarfPlayer              = 1172;
 SET @ZandalariTrollPlayer             = 1174;
+SET @VulperaPlayer                    = 1176;
+SET @AlliancePandarenPlayer           = 1178;
+SET @HordePandarenPlayer              = 1180;
 
 -- Faction templates
 SET @GoblinFactionTemplate            = 2238; -- References @GoblinPlayer
@@ -199,6 +219,9 @@ SET @MagharOrcFactionTemplate         = 2240; -- References @MagharOrcPlayer
 SET @OgreFactionTemplate              = 2241; -- References @OgrePlayer
 SET @DarkIronDwarfFactionTemplate     = 2242; -- References @DarkIronDwarfPlayer
 SET @ZandalariTrollFactionTemplate    = 2243; -- References @ZandalariTrollPlayer
+SET @VulperaFactionTemplate           = 2244; -- References @VulperaPlayer
+SET @AlliancePandarenFactionTemplate  = 2245; -- References @AlliancePandarenPlayer
+SET @HordePandarenFactionTemplate  = 2246; -- References @HordePandarenPlayer
 
 -- Race factions
 SET @HumanFaction                     =   72; -- Stormwind
@@ -218,6 +241,9 @@ SET @MagharOrcFaction                 = 1168; -- Mag'har of the Horde
 SET @OgreFaction                      = 1170; -- Stonemaul Clan
 SET @DarkIronDwarfFaction             = 1171; -- Shadowforge City
 SET @ZandalariTrollFaction            = 1173; -- Zuldazar
+SET @VulperaFaction                   = 1175; -- Voldunai
+SET @AlliancePandarenFaction          = 1177; -- Tushui Pandaren
+SET @HordePandarenFaction             = 1179; -- Huojin Pandaren
 
 -- Reputation Indices
 SET @GoblinFactionRepIndex            = 105;
@@ -227,26 +253,32 @@ SET @MagharOrcFactionRepIndex         = 108;
 SET @OgreFactionRepIndex              = 109;
 SET @DarkIronDwarfFactionRepIndex     = 110;
 SET @ZandalariTrollFactionRepIndex    = 111;
+SET @VulperaFactionRepIndex           = 112;
+SET @AlliancePandarenFactionRepIndex  = 113;
+SET @HordePandarenFactionRepIndex     = 114;
 
 -- Helmet RaceMasks
-SET @HumanHelmetMask                  = 1 << @Human;          -- race ID 1  → 2
-SET @OrcHelmetMask                    = 1 << @Orc;            -- race ID 2  → 4
-SET @DwarfHelmetMask                  = 1 << @Dwarf;          -- race ID 3  → 8
-SET @NightElfHelmetMask               = 1 << @NightElf;       -- race ID 4  → 16
-SET @UndeadHelmetMask                 = 1 << @Undead;         -- race ID 5  → 32
-SET @TaurenHelmetMask                 = 1 << @Tauren;         -- race ID 6  → 64
-SET @GnomeHelmetMask                  = 1 << @Gnome;          -- race ID 7  → 128
-SET @TrollHelmetMask                  = 1 << @Troll;          -- race ID 8  → 256
-SET @GoblinHelmetMask                 = 1 << @Goblin;         -- race ID 9  → 512
-SET @BloodElfHelmetMask               = 1 << @BloodElf;       -- race ID 10 → 1024
-SET @DraeneiHelmetMask                = 1 << @Draenei;        -- race ID 11 → 2048
-SET @WorgenHelmetMask                 = 1 << @Worgen;         -- race ID 12 → 4096
-SET @HighElfHelmetMask                = 1 << @HighElf;        -- race ID 13 → 8192
-SET @MagharOrcHelmetMask              = 1 << @MagharOrc;      -- race ID 14 → 16384
-SET @OgreHelmetMask                   = 1 << @Ogre;           -- race ID 15 → 32768
-SET @DarkIronDwarfHelmetMask          = 1 << @DarkIronDwarf;  -- race ID 16 → 65536
-SET @ZandalariTrollHelmetMask         = 1 << @ZandalariTroll; -- race ID 17 → 131072
-SET @GilneanHelmetMask                = 1 << @Gilnean;        -- race ID 23 → 8388608
+SET @HumanHelmetMask                  = 1 << @Human;            -- race ID 1  → 2
+SET @OrcHelmetMask                    = 1 << @Orc;              -- race ID 2  → 4
+SET @DwarfHelmetMask                  = 1 << @Dwarf;            -- race ID 3  → 8
+SET @NightElfHelmetMask               = 1 << @NightElf;         -- race ID 4  → 16
+SET @UndeadHelmetMask                 = 1 << @Undead;           -- race ID 5  → 32
+SET @TaurenHelmetMask                 = 1 << @Tauren;           -- race ID 6  → 64
+SET @GnomeHelmetMask                  = 1 << @Gnome;            -- race ID 7  → 128
+SET @TrollHelmetMask                  = 1 << @Troll;            -- race ID 8  → 256
+SET @GoblinHelmetMask                 = 1 << @Goblin;           -- race ID 9  → 512
+SET @BloodElfHelmetMask               = 1 << @BloodElf;         -- race ID 10 → 1024
+SET @DraeneiHelmetMask                = 1 << @Draenei;          -- race ID 11 → 2048
+SET @WorgenHelmetMask                 = 1 << @Worgen;           -- race ID 12 → 4096
+SET @HighElfHelmetMask                = 1 << @HighElf;          -- race ID 13 → 8192
+SET @MagharOrcHelmetMask              = 1 << @MagharOrc;        -- race ID 14 → 16384
+SET @OgreHelmetMask                   = 1 << @Ogre;             -- race ID 15 → 32768
+SET @DarkIronDwarfHelmetMask          = 1 << @DarkIronDwarf;    -- race ID 16 → 65536
+SET @ZandalariTrollHelmetMask         = 1 << @ZandalariTroll;   -- race ID 17 → 131072
+SET @VulperaHelmetMask                = 1 << @Vulpera;          -- race ID 18 → 262144
+SET @AlliancePandarenHelmetMask       = 1 << @AlliancePandaren; -- race ID 19 → 524288
+SET @HordePandarenHelmetMask          = 1 << @HordePandaren;    -- race ID 20 → 1048576
+SET @GilneanHelmetMask                = 1 << @Gilnean;          -- race ID 23 → 8388608
 
 -- Achievements
 SET @KnowThyEnemyAlliance             =   246;
@@ -260,6 +292,9 @@ SET @MagharOrcAchievement             =  1432;
 SET @OgreAchievement                  =  1433;
 SET @DarkIronDwarfAchievement         =  1434;
 SET @ZandalariTrollAchievement        =  1435;
+SET @VulperaAchievement               =  1436;
+SET @AlliancePandarenAchievement      =  1437;
+SET @HordePandarenAchievement         =  1438;
 
 -- Achievement Criteria
 SET @GoblinCriteria1                  = 13471; -- Achievement 1005: Know Thy Enemy
@@ -282,14 +317,26 @@ SET @OgreCriteria1                    = 19218; -- Achievement 1005: Know Thy Ene
 SET @OgreCriteria2                    = 19219; -- Achievement 2422: Shake Your Bunny-Maker
 SET @OgreCriteria3                    = 19220; -- Achievement 291: Check Your Head
 SET @OgreCriteria4                    = 19221; -- @OgreAchievement: Realm First! Level 80 Ogre
-SET @DarkIronDwarfCriteria1            = 19222; -- Achievement 1005: Know Thy Enemy
-SET @DarkIronDwarfCriteria2            = 19223; -- Achievement 2422: Shake Your Bunny-Maker
-SET @DarkIronDwarfCriteria3            = 19224; -- Achievement 291: Check Your Head
-SET @DarkIronDwarfCriteria4            = 19225; -- @DarkIronDwarfAchievement: Realm First! Level 80 Dark Iron Dwarf
+SET @DarkIronDwarfCriteria1           = 19222; -- Achievement 246: Know Thy Enemy
+SET @DarkIronDwarfCriteria2           = 19223; -- Achievement 2422: Shake Your Bunny-Maker
+SET @DarkIronDwarfCriteria3           = 19224; -- Achievement 291: Check Your Head
+SET @DarkIronDwarfCriteria4           = 19225; -- @DarkIronDwarfAchievement: Realm First! Level 80 Dark Iron Dwarf
 SET @ZandalariTrollCriteria1          = 19226; -- Achievement 1005: Know Thy Enemy
 SET @ZandalariTrollCriteria2          = 19227; -- Achievement 2422: Shake Your Bunny-Maker
 SET @ZandalariTrollCriteria3          = 19228; -- Achievement 291: Check Your Head
 SET @ZandalariTrollCriteria4          = 19229; -- @ZandalariTrollAchievement: Realm First! Level 80 Zandalari Troll
+SET @VulperaCriteria1                 = 19230; -- Achievement 1005: Know Thy Enemy
+SET @VulperaCriteria2                 = 19231; -- Achievement 2422: Shake Your Bunny-Maker
+SET @VulperaCriteria3                 = 19232; -- Achievement 291: Check Your Head
+SET @VulperaCriteria4                 = 19233; -- @VulperaAchievement: Realm First! Level 80 Vulpera
+SET @AlliancePandarenCriteria1        = 19234; -- Achievement 246: Know Thy Enemy
+SET @AlliancePandarenCriteria2        = 19235; -- Achievement 2422: Shake Your Bunny-Maker
+SET @AlliancePandarenCriteria3        = 19236; -- Achievement 291: Check Your Head
+SET @AlliancePandarenCriteria4        = 19237; -- @AlliancePandarenAchievement: Realm First! Level 80 Pandaren (Alliance)
+SET @HordePandarenCriteria1           = 19238; -- Achievement 1005: Know Thy Enemy
+SET @HordePandarenCriteria2           = 19239; -- Achievement 2422: Shake Your Bunny-Maker
+SET @HordePandarenCriteria3           = 19240; -- Achievement 291: Check Your Head
+SET @HordePandarenCriteria4           = 19241; -- @HordePandarenAchievement: Realm First! Level 80 Pandaren (Horde)
 
 -- Classes
 SET @Warrior                          =    1;
@@ -337,19 +384,19 @@ SET @EasternKingdoms                  =    0;
 SET @DunMorogh                        =    1;
 SET @ElwynnForest                     =   12;
 SET @TirisfalGlades                   =   85;
-SET @Gilneas                          = 4714;
-SET @GilneasCity                      = 4755;
+SET @Gilneas                          = 4714; -- Open Azeroth
+SET @GilneasCity                      = 4755; -- Open Azeroth
 
 SET @Kalimdor                         =    1;
 SET @Durotar                          =   14;
 SET @Teldrassil                       =  141;
 SET @Mulgore                          =  215;
-SET @Kezan                            = 4737;
-SET @LostIsles                        = 4720;
+SET @Kezan                            = 4737; -- Open Azeroth
+SET @LostIsles                        = 4720; -- Open Azeroth
 
 SET @Outland                          =  530;
-SET @AzuremystIsle                    = 3526;
-SET @EversongWoods                    = 3431;
+SET @AzuremystIsle                    = 3526; -- Outland map
+SET @EversongWoods                    = 3431; -- Outland map
 
 SET @Northrend                        =  609;
 SET @ScarletEnclave                   = 4298;
