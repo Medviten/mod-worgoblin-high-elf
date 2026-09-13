@@ -1,167 +1,89 @@
 -- [F-032] mod-maghar: emotestextsound: 720 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `emotestextsound` WHERE `id` = 3000;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3000, 14, @MagharOrc, @Female, 7955);
-DELETE FROM `emotestextsound` WHERE `id` = 3001;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3001, 14, @MagharOrc, @Male, 7956);
-DELETE FROM `emotestextsound` WHERE `id` = 3002;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3002, 19, @MagharOrc, @Male, 6361);
-DELETE FROM `emotestextsound` WHERE `id` = 3003;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3003, 19, @MagharOrc, @Female, 6352);
-DELETE FROM `emotestextsound` WHERE `id` = 3004;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3004, 21, @MagharOrc, @Male, 2701);
-DELETE FROM `emotestextsound` WHERE `id` = 3005;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3005, 21, @MagharOrc, @Female, 2713);
-DELETE FROM `emotestextsound` WHERE `id` = 3006;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3006, 26, @MagharOrc, @Male, 6366);
-DELETE FROM `emotestextsound` WHERE `id` = 3007;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3007, 26, @MagharOrc, @Female, 6357);
-DELETE FROM `emotestextsound` WHERE `id` = 3008;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3008, 55, @MagharOrc, @Male, 6360);
-DELETE FROM `emotestextsound` WHERE `id` = 3009;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3009, 55, @MagharOrc, @Female, 6351);
-DELETE FROM `emotestextsound` WHERE `id` = 3010;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3010, 66, @MagharOrc, @Male, 6363);
-DELETE FROM `emotestextsound` WHERE `id` = 3011;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3011, 66, @MagharOrc, @Female, 6354);
-DELETE FROM `emotestextsound` WHERE `id` = 3012;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3012, 67, @MagharOrc, @Male, 6362);
-DELETE FROM `emotestextsound` WHERE `id` = 3013;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3013, 67, @MagharOrc, @Female, 6353);
-DELETE FROM `emotestextsound` WHERE `id` = 3014;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3014, 85, @MagharOrc, @Female, 7921);
-DELETE FROM `emotestextsound` WHERE `id` = 3015;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3015, 85, @MagharOrc, @Male, 7922);
-DELETE FROM `emotestextsound` WHERE `id` = 3016;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3016, 97, @MagharOrc, @Male, 6364);
-DELETE FROM `emotestextsound` WHERE `id` = 3017;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3017, 97, @MagharOrc, @Female, 6355);
-DELETE FROM `emotestextsound` WHERE `id` = 3018;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3018, 102, @MagharOrc, @Male, 6360);
-DELETE FROM `emotestextsound` WHERE `id` = 3019;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3019, 102, @MagharOrc, @Female, 6351);
-DELETE FROM `emotestextsound` WHERE `id` = 3020;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3020, 104, @MagharOrc, @Female, 7971);
-DELETE FROM `emotestextsound` WHERE `id` = 3021;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3021, 104, @MagharOrc, @Male, 7972);
-DELETE FROM `emotestextsound` WHERE `id` = 3022;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3022, 106, @MagharOrc, @Female, 7939);
-DELETE FROM `emotestextsound` WHERE `id` = 3023;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3023, 106, @MagharOrc, @Male, 7940);
-DELETE FROM `emotestextsound` WHERE `id` = 3024;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3024, 183, @MagharOrc, @Male, 2703);
-DELETE FROM `emotestextsound` WHERE `id` = 3025;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3025, 183, @MagharOrc, @Female, 2715);
-DELETE FROM `emotestextsound` WHERE `id` = 3026;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3026, 264, @MagharOrc, @Male, 7638);
-DELETE FROM `emotestextsound` WHERE `id` = 3027;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3027, 264, @MagharOrc, @Female, 7639);
-DELETE FROM `emotestextsound` WHERE `id` = 3028;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3028, 303, @MagharOrc, @Male, 2692);
-DELETE FROM `emotestextsound` WHERE `id` = 3029;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3029, 303, @MagharOrc, @Female, 2704);
-DELETE FROM `emotestextsound` WHERE `id` = 3030;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3030, 304, @MagharOrc, @Male, 2693);
-DELETE FROM `emotestextsound` WHERE `id` = 3031;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3031, 304, @MagharOrc, @Female, 2705);
-DELETE FROM `emotestextsound` WHERE `id` = 3032;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3032, 305, @MagharOrc, @Male, 2694);
-DELETE FROM `emotestextsound` WHERE `id` = 3033;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3033, 305, @MagharOrc, @Female, 2706);
-DELETE FROM `emotestextsound` WHERE `id` = 3034;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3034, 306, @MagharOrc, @Male, 2695);
-DELETE FROM `emotestextsound` WHERE `id` = 3035;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3035, 306, @MagharOrc, @Female, 2707);
-DELETE FROM `emotestextsound` WHERE `id` = 3036;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3036, 307, @MagharOrc, @Male, 2696);
-DELETE FROM `emotestextsound` WHERE `id` = 3037;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3037, 307, @MagharOrc, @Female, 2708);
-DELETE FROM `emotestextsound` WHERE `id` = 3038;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3038, 323, @MagharOrc, @Male, 2697);
-DELETE FROM `emotestextsound` WHERE `id` = 3039;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3039, 323, @MagharOrc, @Female, 2709);
-DELETE FROM `emotestextsound` WHERE `id` = 3040;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3040, 324, @MagharOrc, @Male, 2698);
-DELETE FROM `emotestextsound` WHERE `id` = 3041;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3041, 324, @MagharOrc, @Female, 2710);
-DELETE FROM `emotestextsound` WHERE `id` = 3042;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3042, 325, @MagharOrc, @Male, 2699);
-DELETE FROM `emotestextsound` WHERE `id` = 3043;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3043, 325, @MagharOrc, @Female, 2711);
-DELETE FROM `emotestextsound` WHERE `id` = 3044;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3044, 326, @MagharOrc, @Male, 2700);
-DELETE FROM `emotestextsound` WHERE `id` = 3045;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3045, 326, @MagharOrc, @Female, 2712);
-DELETE FROM `emotestextsound` WHERE `id` = 3046;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3046, 327, @MagharOrc, @Male, 2702);
-DELETE FROM `emotestextsound` WHERE `id` = 3047;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3047, 327, @MagharOrc, @Female, 2714);
-DELETE FROM `emotestextsound` WHERE `id` = 3048;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3048, 328, @MagharOrc, @Male, 6367);
-DELETE FROM `emotestextsound` WHERE `id` = 3049;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3049, 328, @MagharOrc, @Female, 6358);
-DELETE FROM `emotestextsound` WHERE `id` = 3050;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3050, 329, @MagharOrc, @Male, 6368);
-DELETE FROM `emotestextsound` WHERE `id` = 3051;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3051, 329, @MagharOrc, @Female, 6359);
-DELETE FROM `emotestextsound` WHERE `id` = 3052;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3052, 453, @MagharOrc, @Female, 6356);
-DELETE FROM `emotestextsound` WHERE `id` = 3053;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3053, 453, @MagharOrc, @Male, 6365);
-DELETE FROM `emotestextsound` WHERE `id` = 3054;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3054, 20, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3055;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3055, 20, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3056;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3056, 22, @MagharOrc, @Female, 6934);
-DELETE FROM `emotestextsound` WHERE `id` = 3057;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3057, 22, @MagharOrc, @Male, 6939);
-DELETE FROM `emotestextsound` WHERE `id` = 3058;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3058, 23, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3059;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3059, 23, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3060;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3060, 31, @MagharOrc, @Female, 6936);
-DELETE FROM `emotestextsound` WHERE `id` = 3061;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3061, 31, @MagharOrc, @Male, 6941);
-DELETE FROM `emotestextsound` WHERE `id` = 3062;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3062, 45, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3063;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3063, 45, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3064;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3064, 47, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3065;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3065, 47, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3066;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3066, 52, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3067;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3067, 52, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3068;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3068, 58, @MagharOrc, @Male, 6942);
-DELETE FROM `emotestextsound` WHERE `id` = 3069;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3069, 58, @MagharOrc, @Female, 6937);
-DELETE FROM `emotestextsound` WHERE `id` = 3070;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3070, 60, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3071;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3071, 60, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3072;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3072, 65, @MagharOrc, @Female, 6936);
-DELETE FROM `emotestextsound` WHERE `id` = 3073;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3073, 65, @MagharOrc, @Male, 6941);
-DELETE FROM `emotestextsound` WHERE `id` = 3074;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3074, 75, @MagharOrc, @Female, 25259);
-DELETE FROM `emotestextsound` WHERE `id` = 3075;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3075, 75, @MagharOrc, @Male, 25260);
-DELETE FROM `emotestextsound` WHERE `id` = 3076;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3076, 76, @MagharOrc, @Male, 6943);
-DELETE FROM `emotestextsound` WHERE `id` = 3077;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3077, 76, @MagharOrc, @Female, 6938);
-DELETE FROM `emotestextsound` WHERE `id` = 3078;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3078, 136, @MagharOrc, @Female, 6934);
-DELETE FROM `emotestextsound` WHERE `id` = 3079;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3079, 136, @MagharOrc, @Male, 6939);
-DELETE FROM `emotestextsound` WHERE `id` = 3080;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3080, 143, @MagharOrc, @Female, 6936);
-DELETE FROM `emotestextsound` WHERE `id` = 3081;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (3081, 143, @MagharOrc, @Male, 6941);
+SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`emotestextsound`);
+
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 3000 AND 3081;
+INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 14, @MagharOrc, @Female, 7955),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 14, @MagharOrc, @Male, 7956),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 19, @MagharOrc, @Male, 6361),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 19, @MagharOrc, @Female, 6352),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 21, @MagharOrc, @Male, 2701),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 21, @MagharOrc, @Female, 2713),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 26, @MagharOrc, @Male, 6366),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 26, @MagharOrc, @Female, 6357),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 55, @MagharOrc, @Male, 6360),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 55, @MagharOrc, @Female, 6351),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 66, @MagharOrc, @Male, 6363),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 66, @MagharOrc, @Female, 6354),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 67, @MagharOrc, @Male, 6362),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 67, @MagharOrc, @Female, 6353),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 85, @MagharOrc, @Female, 7921),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 85, @MagharOrc, @Male, 7922),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 97, @MagharOrc, @Male, 6364),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 97, @MagharOrc, @Female, 6355),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 102, @MagharOrc, @Male, 6360),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 102, @MagharOrc, @Female, 6351),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 104, @MagharOrc, @Female, 7971),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 104, @MagharOrc, @Male, 7972),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 106, @MagharOrc, @Female, 7939),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 106, @MagharOrc, @Male, 7940),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 183, @MagharOrc, @Male, 2703),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 183, @MagharOrc, @Female, 2715),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 264, @MagharOrc, @Male, 7638),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 264, @MagharOrc, @Female, 7639),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 303, @MagharOrc, @Male, 2692),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 303, @MagharOrc, @Female, 2704),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 304, @MagharOrc, @Male, 2693),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 304, @MagharOrc, @Female, 2705),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 305, @MagharOrc, @Male, 2694),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 305, @MagharOrc, @Female, 2706),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 306, @MagharOrc, @Male, 2695),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 306, @MagharOrc, @Female, 2707),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 307, @MagharOrc, @Male, 2696),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 307, @MagharOrc, @Female, 2708),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 323, @MagharOrc, @Male, 2697),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 323, @MagharOrc, @Female, 2709),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 324, @MagharOrc, @Male, 2698),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 324, @MagharOrc, @Female, 2710),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 325, @MagharOrc, @Male, 2699),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 325, @MagharOrc, @Female, 2711),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 326, @MagharOrc, @Male, 2700),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 326, @MagharOrc, @Female, 2712),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 327, @MagharOrc, @Male, 2702),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 327, @MagharOrc, @Female, 2714),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 328, @MagharOrc, @Male, 6367),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 328, @MagharOrc, @Female, 6358),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 329, @MagharOrc, @Male, 6368),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 329, @MagharOrc, @Female, 6359),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 453, @MagharOrc, @Female, 6356),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 453, @MagharOrc, @Male, 6365),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 20, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 20, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 22, @MagharOrc, @Female, 6934),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 22, @MagharOrc, @Male, 6939),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 23, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 23, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 31, @MagharOrc, @Female, 6936),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 31, @MagharOrc, @Male, 6941),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 45, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 45, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 47, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 47, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 52, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 52, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 58, @MagharOrc, @Male, 6942),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 58, @MagharOrc, @Female, 6937),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 60, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 60, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 65, @MagharOrc, @Female, 6936),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 65, @MagharOrc, @Male, 6941),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 75, @MagharOrc, @Female, 25259),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 75, @MagharOrc, @Male, 25260),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 76, @MagharOrc, @Male, 6943),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 76, @MagharOrc, @Female, 6938),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 136, @MagharOrc, @Female, 6934),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 136, @MagharOrc, @Male, 6939),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 143, @MagharOrc, @Female, 6936),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 143, @MagharOrc, @Male, 6941);

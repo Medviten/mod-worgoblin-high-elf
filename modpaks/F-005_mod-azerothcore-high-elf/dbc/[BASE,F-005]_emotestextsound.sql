@@ -1,110 +1,61 @@
 -- [F-031] mod-azerothcore-high-elf: emotestextsound: 720 inserts, 0 updates, 0 deletes
 
 -- New entries
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2500, 14, @HighElf, @Female, 10025);
-DELETE FROM `emotestextsound` WHERE `id` = 2501;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2501, 14, @HighElf, @Male, 10026);
-DELETE FROM `emotestextsound` WHERE `id` = 2502;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2502, 19, @HighElf, @Female, 9636);
-DELETE FROM `emotestextsound` WHERE `id` = 2503;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2503, 19, @HighElf, @Male, 9654);
-DELETE FROM `emotestextsound` WHERE `id` = 2504;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2504, 21, @HighElf, @Female, 9632);
-DELETE FROM `emotestextsound` WHERE `id` = 2505;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2505, 21, @HighElf, @Male, 9656);
-DELETE FROM `emotestextsound` WHERE `id` = 2506;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2506, 26, @HighElf, @Female, 9641);
-DELETE FROM `emotestextsound` WHERE `id` = 2507;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2507, 26, @HighElf, @Male, 9657);
-DELETE FROM `emotestextsound` WHERE `id` = 2508;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2508, 55, @HighElf, @Female, 9635);
-DELETE FROM `emotestextsound` WHERE `id` = 2509;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2509, 55, @HighElf, @Male, 9662);
-DELETE FROM `emotestextsound` WHERE `id` = 2510;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2510, 66, @HighElf, @Female, 9638);
-DELETE FROM `emotestextsound` WHERE `id` = 2511;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2511, 66, @HighElf, @Male, 9665);
-DELETE FROM `emotestextsound` WHERE `id` = 2512;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2512, 67, @HighElf, @Female, 9637);
-DELETE FROM `emotestextsound` WHERE `id` = 2513;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2513, 67, @HighElf, @Male, 9666);
-DELETE FROM `emotestextsound` WHERE `id` = 2514;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2514, 85, @HighElf, @Female, 10573);
-DELETE FROM `emotestextsound` WHERE `id` = 2515;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2515, 85, @HighElf, @Male, 10575);
-DELETE FROM `emotestextsound` WHERE `id` = 2516;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2516, 97, @HighElf, @Female, 9639);
-DELETE FROM `emotestextsound` WHERE `id` = 2517;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2517, 97, @HighElf, @Male, 9671);
-DELETE FROM `emotestextsound` WHERE `id` = 2518;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2518, 102, @HighElf, @Female, 9635);
-DELETE FROM `emotestextsound` WHERE `id` = 2519;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2519, 102, @HighElf, @Male, 9662);
-DELETE FROM `emotestextsound` WHERE `id` = 2520;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2520, 104, @HighElf, @Female, 10032);
-DELETE FROM `emotestextsound` WHERE `id` = 2521;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2521, 104, @HighElf, @Male, 10033);
-DELETE FROM `emotestextsound` WHERE `id` = 2522;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2522, 106, @HighElf, @Female, 10574);
-DELETE FROM `emotestextsound` WHERE `id` = 2523;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2523, 106, @HighElf, @Male, 10576);
-DELETE FROM `emotestextsound` WHERE `id` = 2524;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2524, 183, @HighElf, @Female, 9634);
-DELETE FROM `emotestextsound` WHERE `id` = 2525;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2525, 183, @HighElf, @Male, 9669);
-DELETE FROM `emotestextsound` WHERE `id` = 2526;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2526, 264, @HighElf, @Female, 9644);
-DELETE FROM `emotestextsound` WHERE `id` = 2527;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2527, 264, @HighElf, @Male, 9672);
-DELETE FROM `emotestextsound` WHERE `id` = 2528;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2528, 303, @HighElf, @Female, 9623);
-DELETE FROM `emotestextsound` WHERE `id` = 2529;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2529, 303, @HighElf, @Male, 9663);
-DELETE FROM `emotestextsound` WHERE `id` = 2530;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2530, 304, @HighElf, @Female, 9624);
-DELETE FROM `emotestextsound` WHERE `id` = 2531;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2531, 304, @HighElf, @Male, 9664);
-DELETE FROM `emotestextsound` WHERE `id` = 2532;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2532, 305, @HighElf, @Female, 9625);
-DELETE FROM `emotestextsound` WHERE `id` = 2533;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2533, 305, @HighElf, @Male, 9655);
-DELETE FROM `emotestextsound` WHERE `id` = 2534;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2534, 306, @HighElf, @Female, 9626);
-DELETE FROM `emotestextsound` WHERE `id` = 2535;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2535, 306, @HighElf, @Male, 9658);
-DELETE FROM `emotestextsound` WHERE `id` = 2536;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2536, 307, @HighElf, @Female, 9627);
-DELETE FROM `emotestextsound` WHERE `id` = 2537;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2537, 307, @HighElf, @Male, 9653);
-DELETE FROM `emotestextsound` WHERE `id` = 2538;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2538, 323, @HighElf, @Female, 9628);
-DELETE FROM `emotestextsound` WHERE `id` = 2539;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2539, 323, @HighElf, @Male, 9667);
-DELETE FROM `emotestextsound` WHERE `id` = 2540;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2540, 324, @HighElf, @Female, 9629);
-DELETE FROM `emotestextsound` WHERE `id` = 2541;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2541, 324, @HighElf, @Male, 9660);
-DELETE FROM `emotestextsound` WHERE `id` = 2542;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2542, 325, @HighElf, @Female, 9630);
-DELETE FROM `emotestextsound` WHERE `id` = 2543;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2543, 325, @HighElf, @Male, 9673);
-DELETE FROM `emotestextsound` WHERE `id` = 2544;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2544, 326, @HighElf, @Female, 9631);
-DELETE FROM `emotestextsound` WHERE `id` = 2545;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2545, 326, @HighElf, @Male, 9661);
-DELETE FROM `emotestextsound` WHERE `id` = 2546;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2546, 327, @HighElf, @Female, 9633);
-DELETE FROM `emotestextsound` WHERE `id` = 2547;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2547, 327, @HighElf, @Male, 9668);
-DELETE FROM `emotestextsound` WHERE `id` = 2548;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2548, 328, @HighElf, @Female, 9642);
-DELETE FROM `emotestextsound` WHERE `id` = 2549;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2549, 328, @HighElf, @Male, 9659);
-DELETE FROM `emotestextsound` WHERE `id` = 2550;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2550, 329, @HighElf, @Female, 9643);
-DELETE FROM `emotestextsound` WHERE `id` = 2551;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2551, 329, @HighElf, @Male, 9670);
-DELETE FROM `emotestextsound` WHERE `id` = 2552;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2552, 453, @HighElf, @Female, 9640);
-DELETE FROM `emotestextsound` WHERE `id` = 2553;
-INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES (2553, 453, @HighElf, @Male, 9674);
+SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`emotestextsound`);
+
+DELETE FROM `emotestextsound` WHERE `id` BETWEEN 2501 AND 2553;
+INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 14, @HighElf, @Female, 10025),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 14, @HighElf, @Male, 10026),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 19, @HighElf, @Female, 9636),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 19, @HighElf, @Male, 9654),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 21, @HighElf, @Female, 9632),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 21, @HighElf, @Male, 9656),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 26, @HighElf, @Female, 9641),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 26, @HighElf, @Male, 9657),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 55, @HighElf, @Female, 9635),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 55, @HighElf, @Male, 9662),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 66, @HighElf, @Female, 9638),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 66, @HighElf, @Male, 9665),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 67, @HighElf, @Female, 9637),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 67, @HighElf, @Male, 9666),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 85, @HighElf, @Female, 10573),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 85, @HighElf, @Male, 10575),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 97, @HighElf, @Female, 9639),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 97, @HighElf, @Male, 9671),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 102, @HighElf, @Female, 9635),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 102, @HighElf, @Male, 9662),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 104, @HighElf, @Female, 10032),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 104, @HighElf, @Male, 10033),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 106, @HighElf, @Female, 10574),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 106, @HighElf, @Male, 10576),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 183, @HighElf, @Female, 9634),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 183, @HighElf, @Male, 9669),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 264, @HighElf, @Female, 9644),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 264, @HighElf, @Male, 9672),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 303, @HighElf, @Female, 9623),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 303, @HighElf, @Male, 9663),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 304, @HighElf, @Female, 9624),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 304, @HighElf, @Male, 9664),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 305, @HighElf, @Female, 9625),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 305, @HighElf, @Male, 9655),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 306, @HighElf, @Female, 9626),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 306, @HighElf, @Male, 9658),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 307, @HighElf, @Female, 9627),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 307, @HighElf, @Male, 9653),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 323, @HighElf, @Female, 9628),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 323, @HighElf, @Male, 9667),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 324, @HighElf, @Female, 9629),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 324, @HighElf, @Male, 9660),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 325, @HighElf, @Female, 9630),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 325, @HighElf, @Male, 9673),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 326, @HighElf, @Female, 9631),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 326, @HighElf, @Male, 9661),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 327, @HighElf, @Female, 9633),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 327, @HighElf, @Male, 9668),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 328, @HighElf, @Female, 9642),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 328, @HighElf, @Male, 9659),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 329, @HighElf, @Female, 9643),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 329, @HighElf, @Male, 9670),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 453, @HighElf, @Female, 9640),
+(@EmotesTextSoundID := @EmotesTextSoundID +1, 453, @HighElf, @Male, 9674);
