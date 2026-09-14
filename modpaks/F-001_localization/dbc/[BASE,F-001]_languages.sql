@@ -1,0 +1,20 @@
+-- languages: 0 inserts, 17 updates, 0 deletes
+
+-- Changed values
+UPDATE `languages` SET `name_kokr` = '오크어', `name_frfr` = 'Orc', `name_dede` = 'Orcisch', `name_zhcn` = '兽人语', `name_zhtw` = '獸人語', `name_eses` = 'Orco', `name_esmx` = 'Orco', `name_ruru` = 'орочий' WHERE `id` = 1;
+UPDATE `languages` SET `name_kokr` = '나이트 엘프어', `name_frfr` = 'Darnassien', `name_dede` = 'Darnassisch', `name_zhcn` = '达纳苏斯语', `name_zhtw` = '達納蘇斯語', `name_eses` = 'Darnassiano', `name_esmx` = 'Darnassiano', `name_ruru` = 'дарнасский' WHERE `id` = 2;
+UPDATE `languages` SET `name_kokr` = '타우렌어', `name_frfr` = 'Taurahe', `name_dede` = 'Taurisch', `name_zhcn` = '牛头人语', `name_zhtw` = '牛頭人語', `name_eses` = 'Taurahe', `name_esmx` = 'Taurahe', `name_ruru` = 'таурахэ' WHERE `id` = 3;
+UPDATE `languages` SET `name_kokr` = '드워프어', `name_frfr` = 'Nain', `name_dede` = 'Zwergisch', `name_zhcn` = '矮人语', `name_zhtw` = '矮人語', `name_eses` = 'Enánico', `name_esmx` = 'Enánico', `name_ruru` = 'дворфийский' WHERE `id` = 6;
+UPDATE `languages` SET `name_kokr` = '공용어', `name_frfr` = 'Commun', `name_dede` = 'Gemeinsprache', `name_zhcn` = '通用语', `name_zhtw` = '通用語', `name_eses` = 'Lengua común', `name_esmx` = 'Lengua común', `name_ruru` = 'всеобщий' WHERE `id` = 7;
+UPDATE `languages` SET `name_kokr` = '악마어', `name_frfr` = 'Démoniaque', `name_dede` = 'Dämonisch', `name_zhcn` = '恶魔语', `name_zhtw` = '惡魔語', `name_eses` = 'Demoníaco', `name_esmx` = 'Demoníaco', `name_ruru` = 'язык демонов' WHERE `id` = 8;
+UPDATE `languages` SET `name_kokr` = '티탄어', `name_frfr` = 'Titan', `name_dede` = 'Titanisch', `name_zhcn` = '泰坦语', `name_zhtw` = '泰坦語', `name_eses` = 'Titánico', `name_esmx` = 'Titánico', `name_ruru` = 'язык титанов' WHERE `id` = 9;
+UPDATE `languages` SET `name_kokr` = '하이엘프어', `name_frfr` = 'Thalassien', `name_dede` = 'Thalassisch', `name_zhcn` = '萨拉斯语', `name_zhtw` = '薩拉斯語', `name_eses` = 'Thalassiano', `name_esmx` = 'Thalassiano', `name_ruru` = 'талассийский' WHERE `id` = 10;
+UPDATE `languages` SET `name_kokr` = '용언', `name_frfr` = 'Draconique', `name_dede` = 'Drachisch', `name_zhcn` = '龙语', `name_zhtw` = '龍語', `name_eses` = 'Dracónico', `name_esmx` = 'Dracónico', `name_ruru` = 'драконий' WHERE `id` = 11;
+UPDATE `languages` SET `name_kokr` = '정령어', `name_frfr` = 'Kalimag', `name_dede` = 'Kalimagisch', `name_zhcn` = '卡利姆多语', `name_zhtw` = '卡林多語', `name_eses` = 'Kalimag', `name_esmx` = 'Kalimag', `name_ruru` = 'калимаг' WHERE `id` = 12;
+UPDATE `languages` SET `name_kokr` = '노움어', `name_frfr` = 'Gnome', `name_dede` = 'Gnomisch', `name_zhcn` = '侏儒语', `name_zhtw` = '地精語', `name_eses` = 'Gnomótico', `name_esmx` = 'Gnomótico', `name_ruru` = 'гномский' WHERE `id` = 13;
+UPDATE `languages` SET `name_kokr` = '트롤어', `name_frfr` = 'Troll', `name_dede` = 'Trollisch', `name_zhcn` = '巨魔语', `name_zhtw` = '食人妖語', `name_eses` = 'Trol', `name_esmx` = 'Trol', `name_ruru` = 'язык троллей' WHERE `id` = 14;
+UPDATE `languages` SET `name_kokr` = '언데드어', `name_frfr` = 'Bas-parler', `name_dede` = 'Gossensprache', `name_zhcn` = '亡灵语', `name_zhtw` = '不死族語', `name_eses` = 'Viscerálico', `name_esmx` = 'Viscerálico', `name_ruru` = 'наречие нежити' WHERE `id` = 33;
+UPDATE `languages` SET `name_kokr` = '드레나이어', `name_frfr` = 'Draeneï', `name_dede` = 'Draeneiisch', `name_zhcn` = '德莱尼语', `name_zhtw` = '德萊尼語', `name_eses` = 'Draenei', `name_esmx` = 'Draenei', `name_ruru` = 'дренейский' WHERE `id` = 35;
+UPDATE `languages` SET `name_kokr` = '좀비어', `name_frfr` = 'Zombie', `name_dede` = 'Zombie', `name_zhcn` = '僵尸语', `name_zhtw` = '殭屍語', `name_eses` = 'Zombie', `name_esmx` = 'Zombie', `name_ruru` = 'наречие зомби' WHERE `id` = 36;
+UPDATE `languages` SET `name_kokr` = '노움 이진 언어', `name_frfr` = 'Binaire gnome', `name_dede` = 'Gnomenbinär', `name_zhcn` = '侏儒二进制', `name_zhtw` = '地精二進位語', `name_eses` = 'Binario gnomo', `name_esmx` = 'Binario gnomo', `name_ruru` = 'машинный гномский' WHERE `id` = 37;
+UPDATE `languages` SET `name_kokr` = '고블린 이진 언어', `name_frfr` = 'Binaire gobelin', `name_dede` = 'Goblinbinär', `name_zhcn` = '地精二进制', `name_zhtw` = '哥布林二進位語', `name_eses` = 'Binario goblin', `name_esmx` = 'Binario goblin', `name_ruru` = 'машинный гоблинский' WHERE `id` = 38;

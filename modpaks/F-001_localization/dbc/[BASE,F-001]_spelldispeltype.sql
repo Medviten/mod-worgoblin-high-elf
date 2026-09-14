@@ -1,0 +1,15 @@
+-- spelldispeltype: 0 inserts, 12 updates, 0 deletes
+
+-- Changed values
+UPDATE `spelldispeltype` SET `name_kokr` = '없음', `name_frfr` = 'Aucun', `name_dede` = 'Keine', `name_zhcn` = '无', `name_zhtw` = '無', `name_eses` = 'Nada', `name_esmx` = 'Nada', `name_ruru` = 'Нет' WHERE `id` = 0;
+UPDATE `spelldispeltype` SET `name_kokr` = '마법', `name_frfr` = 'Magie', `name_dede` = 'Magie', `name_zhcn` = '魔法', `name_zhtw` = '魔法', `name_eses` = 'Magia', `name_esmx` = 'Magia', `name_ruru` = 'Магия' WHERE `id` = 1;
+UPDATE `spelldispeltype` SET `name_kokr` = '저주', `name_frfr` = 'Malédiction', `name_dede` = 'Fluch', `name_zhcn` = '诅咒', `name_zhtw` = '詛咒', `name_eses` = 'Maldición', `name_esmx` = 'Maldición', `name_ruru` = 'Проклятие' WHERE `id` = 2;
+UPDATE `spelldispeltype` SET `name_kokr` = '질병', `name_frfr` = 'Maladie', `name_dede` = 'Krankheit', `name_zhcn` = '疾病', `name_zhtw` = '疾病', `name_eses` = 'Enfermedad', `name_esmx` = 'Enfermedad', `name_ruru` = 'Болезнь' WHERE `id` = 3;
+UPDATE `spelldispeltype` SET `name_kokr` = '독', `name_frfr` = 'Poison', `name_dede` = 'Gift', `name_zhcn` = '中毒', `name_zhtw` = '中毒', `name_eses` = 'Veneno', `name_esmx` = 'Veneno', `name_ruru` = 'Яд' WHERE `id` = 4;
+UPDATE `spelldispeltype` SET `name_kokr` = '은신', `name_frfr` = 'Camouflage', `name_dede` = 'Verstohlenheit', `name_zhcn` = '潜行', `name_zhtw` = '潛行', `name_eses` = 'Sigilo', `name_esmx` = 'Sigilo', `name_ruru` = 'Незаметность' WHERE `id` = 5;
+UPDATE `spelldispeltype` SET `name_kokr` = '투명', `name_frfr` = 'Invisibilité', `name_dede` = 'Unsichtbarkeit', `name_zhcn` = '隐形', `name_zhtw` = '隱形', `name_eses` = 'Invisibilidad', `name_esmx` = 'Invisibilidad', `name_ruru` = 'Невидимость' WHERE `id` = 6;
+UPDATE `spelldispeltype` SET `name_kokr` = '모두', `name_frfr` = 'Tous (M+M+M+P)', `name_dede` = 'Alle(M+C+D+P)', `name_zhcn` = '全部(魔法+诅咒+疾病+中毒)', `name_zhtw` = '全部(魔法+詛咒+疾病+中毒)', `name_eses` = 'Todo (M + M + E + V)', `name_esmx` = 'Todo (M + M + E + V)', `name_ruru` = 'Все (М+П+Б+Я)' WHERE `id` = 7;
+UPDATE `spelldispeltype` SET `name_kokr` = '특수 - NPC만', `name_frfr` = 'Spécial – PNJ uniquement', `name_dede` = 'Spezial - nur NSC', `name_zhcn` = '特殊 - NPC专有', `name_zhtw` = '特殊 - NPC專有', `name_eses` = 'Especial: solo PNJ', `name_esmx` = 'Especial: solo PNJ', `name_ruru` = 'Особые: только NPC' WHERE `id` = 8;
+UPDATE `spelldispeltype` SET `name_kokr` = '격노', `name_frfr` = 'Enrager', `name_dede` = 'Wut', `name_zhcn` = '激怒', `name_zhtw` = '狂怒', `name_eses` = 'Enfurecer', `name_esmx` = 'Enfurecer', `name_ruru` = 'Исступление' WHERE `id` = 9;
+UPDATE `spelldispeltype` SET `name_kokr` = 'ZG Trinkets', `name_frfr` = 'Bijoux ZG', `name_dede` = 'ZG Schmuckstück', `name_zhcn` = 'ZG Trinkets', `name_zhtw` = 'ZG小飾品', `name_eses` = 'Abalorios de ZG', `name_esmx` = 'Abalorios de ZG', `name_ruru` = 'Эффекты ZG' WHERE `id` = 10;
+UPDATE `spelldispeltype` SET `name_kokr` = 'ZZOLD UNUSED', `name_frfr` = 'ZZOLD INUTILISE', `name_dede` = 'ZZOLD UNUSED', `name_zhcn` = 'ZZOLD UNUSED', `name_zhtw` = 'ZZOLD UNUSED', `name_eses` = 'ZZOLD UNUSED', `name_esmx` = 'ZZOLD UNUSED', `name_ruru` = 'ZZOLD UNUSED' WHERE `id` = 11;

@@ -1,0 +1,11 @@
+-- skilllinecategory: 0 inserts, 8 updates, 0 deletes
+
+-- Changed values
+UPDATE `skilllinecategory` SET `name_kokr` = '능력치', `name_frfr` = 'Caractéristiques', `name_dede` = 'Attribute', `name_zhcn` = '属性', `name_zhtw` = '屬性', `name_eses` = 'Atributos', `name_esmx` = 'Atributos', `name_ruru` = 'Характеристики' WHERE `id` = 5;
+UPDATE `skilllinecategory` SET `name_kokr` = '무기 기술', `name_frfr` = 'Compétences d’armes', `name_dede` = 'Waffenfertigkeiten', `name_zhcn` = '武器技能', `name_zhtw` = '武器技能', `name_eses` = 'Habilidades con armas', `name_esmx` = 'Habilidades con armas', `name_ruru` = 'Оружейные навыки' WHERE `id` = 6;
+UPDATE `skilllinecategory` SET `name_kokr` = '직업 기술', `name_frfr` = 'Compétences de classe', `name_dede` = 'Klassenfertigkeiten', `name_zhcn` = '职业技能', `name_zhtw` = '職業技能', `name_eses` = 'Habilidades de clase', `name_esmx` = 'Habilidades de clase', `name_ruru` = 'Классовые навыки' WHERE `id` = 7;
+UPDATE `skilllinecategory` SET `name_kokr` = '방어구 숙련', `name_frfr` = 'Armures utilisables', `name_dede` = 'Rüstungssachverstand', `name_zhcn` = '护甲精通', `name_zhtw` = '護甲精通', `name_eses` = 'Armaduras disponibles', `name_esmx` = 'Armaduras disponibles', `name_ruru` = 'Доспехи' WHERE `id` = 8;
+UPDATE `skilllinecategory` SET `name_kokr` = '보조 기술', `name_frfr` = 'Compétences secondaires', `name_dede` = 'Sekundäre Fertigkeiten', `name_zhcn` = '辅助技能', `name_zhtw` = '次要技能', `name_eses` = 'Habilidades secundarias', `name_esmx` = 'Habilidades secundarias', `name_ruru` = 'Вспомогательные навыки' WHERE `id` = 9;
+UPDATE `skilllinecategory` SET `name_kokr` = '언어', `name_frfr` = 'Langues', `name_dede` = 'Sprachen', `name_zhcn` = '语言', `name_zhtw` = '語言', `name_eses` = 'Idiomas', `name_esmx` = 'Idiomas', `name_ruru` = 'Языки' WHERE `id` = 10;
+UPDATE `skilllinecategory` SET `name_kokr` = '전문 기술', `name_frfr` = 'Métiers', `name_dede` = 'Berufe', `name_zhcn` = '专业', `name_zhtw` = '專業技能', `name_eses` = 'Profesiones', `name_esmx` = 'Profesiones', `name_ruru` = 'Профессии' WHERE `id` = 11;
+UPDATE `skilllinecategory` SET `name_kokr` = '표시 안됨', `name_frfr` = 'Non affiché', `name_dede` = 'Nicht angezeigt', `name_zhcn` = '不显示', `name_zhtw` = '不顯示', `name_eses` = 'No se muestra', `name_esmx` = 'No se muestra', `name_ruru` = 'Не отображается' WHERE `id` = 12;

@@ -1,0 +1,20 @@
+-- itemclass: 0 inserts, 17 updates, 0 deletes
+
+-- Changed values
+UPDATE `itemclass` SET `name_kokr` = '소비용품', `name_frfr` = 'Consommable', `name_dede` = 'Verbrauchbar', `name_zhcn` = '消耗品', `name_zhtw` = '消耗品', `name_eses` = 'Consumible', `name_esmx` = 'Consumible', `name_ruru` = 'Расходуемые' WHERE `id` = 0;
+UPDATE `itemclass` SET `name_kokr` = '가방', `name_frfr` = 'Conteneur', `name_dede` = 'Behälter', `name_zhcn` = '容器', `name_zhtw` = '容器', `name_eses` = 'Contenedor', `name_esmx` = 'Contenedor', `name_ruru` = 'Сумки' WHERE `id` = 1;
+UPDATE `itemclass` SET `name_kokr` = '무기', `name_frfr` = 'Arme', `name_dede` = 'Waffe', `name_zhcn` = '武器', `name_zhtw` = '武器', `name_eses` = 'Arma', `name_esmx` = 'Arma', `name_ruru` = 'Оружие' WHERE `id` = 2;
+UPDATE `itemclass` SET `name_kokr` = '보석', `name_frfr` = 'Gemme', `name_dede` = 'Edelstein', `name_zhcn` = '珠宝', `name_zhtw` = '珠寶', `name_eses` = 'Gema', `name_esmx` = 'Gema', `name_ruru` = 'Самоцветы' WHERE `id` = 3;
+UPDATE `itemclass` SET `name_kokr` = '방어구', `name_frfr` = 'Armure', `name_dede` = 'Rüstung', `name_zhcn` = '护甲', `name_zhtw` = '護甲', `name_eses` = 'Armadura', `name_esmx` = 'Armadura', `name_ruru` = 'Доспехи' WHERE `id` = 4;
+UPDATE `itemclass` SET `name_kokr` = '재료', `name_frfr` = 'Composant', `name_dede` = 'Reagenz', `name_zhcn` = '材料', `name_zhtw` = '材料', `name_eses` = 'Componente', `name_esmx` = 'Componente', `name_ruru` = 'Реагенты' WHERE `id` = 5;
+UPDATE `itemclass` SET `name_kokr` = '투사체', `name_frfr` = 'Projectile', `name_dede` = 'Projektil', `name_zhcn` = '弹药', `name_zhtw` = '彈藥', `name_eses` = 'Proyectil', `name_esmx` = 'Proyectil', `name_ruru` = 'Боеприпасы' WHERE `id` = 6;
+UPDATE `itemclass` SET `name_kokr` = '직업용품', `name_frfr` = 'Artisanat', `name_dede` = 'Handwerkswaren', `name_zhcn` = '商品', `name_zhtw` = '商品', `name_eses` = 'Objeto comerciable', `name_esmx` = 'Objeto comerciable', `name_ruru` = 'Хозяйственные товары' WHERE `id` = 7;
+UPDATE `itemclass` SET `name_kokr` = '일반', `name_frfr` = 'Générique(OBSOLETE)', `name_dede` = 'Generic(OBSOLETE)', `name_zhcn` = 'Generic(OBSOLETE)', `name_zhtw` = '通用(廢棄)', `name_eses` = 'Genérico (OBSOLETO)', `name_esmx` = 'Genérico (OBSOLETO)', `name_ruru` = 'Стандартные(НЕ ИСП.)' WHERE `id` = 8;
+UPDATE `itemclass` SET `name_kokr` = '제조법', `name_frfr` = 'Recette', `name_dede` = 'Rezept', `name_zhcn` = '配方', `name_zhtw` = '配方', `name_eses` = 'Receta', `name_esmx` = 'Receta', `name_ruru` = 'Рецепты' WHERE `id` = 9;
+UPDATE `itemclass` SET `name_kokr` = '돈', `name_frfr` = 'Argent', `name_dede` = 'Money', `name_zhcn` = 'Money(OBSOLETE)', `name_zhtw` = '金錢', `name_eses` = 'Dinero', `name_esmx` = 'Dinero', `name_ruru` = 'Деньги' WHERE `id` = 10;
+UPDATE `itemclass` SET `name_kokr` = '화살통', `name_frfr` = 'Carquois', `name_dede` = 'Köcher', `name_zhcn` = '箭袋', `name_zhtw` = '箭袋', `name_eses` = 'Carcaj', `name_esmx` = 'Carcaj', `name_ruru` = 'Амуниция' WHERE `id` = 11;
+UPDATE `itemclass` SET `name_kokr` = '퀘스트', `name_frfr` = 'Quête', `name_dede` = 'Quest', `name_zhcn` = '任务', `name_zhtw` = '任務', `name_eses` = 'Misión', `name_esmx` = 'Misión', `name_ruru` = 'Задания' WHERE `id` = 12;
+UPDATE `itemclass` SET `name_kokr` = '열쇠', `name_frfr` = 'Clé', `name_dede` = 'Schlüssel', `name_zhcn` = '钥匙', `name_zhtw` = '鑰匙', `name_eses` = 'Llave', `name_esmx` = 'Llave', `name_ruru` = 'Ключи' WHERE `id` = 13;
+UPDATE `itemclass` SET `name_kokr` = '물건', `name_frfr` = 'Permanent(OBSOLETE)', `name_dede` = 'Dauerhaft(ÜBERFLÜSSIG)', `name_zhcn` = '永久', `name_zhtw` = '永久(廢棄)', `name_eses` = 'Permanente (OBSOLETO)', `name_esmx` = 'Permanente (OBSOLETO)', `name_ruru` = 'Постоянные(НЕ ИСП.)' WHERE `id` = 14;
+UPDATE `itemclass` SET `name_kokr` = '기타', `name_frfr` = 'Divers', `name_dede` = 'Verschiedenes', `name_zhcn` = '其它', `name_zhtw` = '雜項', `name_eses` = 'Miscelánea', `name_esmx` = 'Miscelánea', `name_ruru` = 'Разное' WHERE `id` = 15;
+UPDATE `itemclass` SET `name_kokr` = '문양', `name_frfr` = 'Glyphe', `name_dede` = 'Glyphe', `name_zhcn` = '雕文', `name_zhtw` = '雕紋', `name_eses` = 'Glifo', `name_esmx` = 'Glifo', `name_ruru` = 'Символы' WHERE `id` = 16;
