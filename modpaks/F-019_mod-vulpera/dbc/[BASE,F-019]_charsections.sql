@@ -152,4 +152,4 @@ INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`,
 (@CharSectionsID := @CharSectionsID +1, @Vulpera, @Female, @Underwear, 'Character\\Vulpera\\Female\\vulperafemalenakedpelvisskin00_04', 'Character\\Vulpera\\Female\\vulperafemalenakedtorsoskin00_04', '', 17, 0, 4),
 (@CharSectionsID := @CharSectionsID +1, @Vulpera, @Female, @Underwear, 'Character\\Vulpera\\Female\\vulperafemalenakedpelvisskin00_05', 'Character\\Vulpera\\Female\\vulperafemalenakedtorsoskin00_05', '', 17, 0, 5),
 (@CharSectionsID := @CharSectionsID +1, @Vulpera, @Female, @Underwear, 'Character\\Vulpera\\Female\\vulperafemalenakedpelvisskin00_06', 'Character\\Vulpera\\Female\\vulperafemalenakedtorsoskin00_06', '', 17, 0, 6),
-(@CharSectionsID := @CharSectionsID +1, @Vulpera, @Female, @Underwear, 'Character\\Vulpera\\Female\\vulperafemalenakedpelvisskin00_07', 'Character\\Vulpera\\Female\\vulperafemalenakedtorsoskin00_07', '', 17, 0, 7),
+(@CharSectionsID := @CharSectionsID +1, @Vulpera, @Female, @Underwear, 'Character\\Vulpera\\Female\\vulperafemalenakedpelvisskin00_07', 'Character\\Vulpera\\Female\\vulperafemalenakedtorsoskin00_07', '', 17, 0, 7);
