@@ -1,10 +1,10 @@
 -- [F-031] mod-azerothcore-high-elf: creaturedisplayinfoextra: 2 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `creaturedisplayinfoextra` WHERE `id` = @HighElfMaleDisplayExtra;
-INSERT INTO `creaturedisplayinfoextra` (`id`, `race`, `gender`, `skin_color`, `face_type`, `hair_style`, `hair_color`, `facial_hair`, `helm_id`, `shoulders_id`, `shirt_id`, `chest_id`, `belt_id`, `legs_id`, `boots_id`, `wrists_id`, `gloves_id`, `tabard_id`, `cape_id`, `can_equip`, `texture`) VALUES (@HighElfMaleDisplayExtra, @HighElf, @Male, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '');
-DELETE FROM `creaturedisplayinfoextra` WHERE `id` = @HighElfFemaleDisplayExtra;
-INSERT INTO `creaturedisplayinfoextra` (`id`, `race`, `gender`, `skin_color`, `face_type`, `hair_style`, `hair_color`, `facial_hair`, `helm_id`, `shoulders_id`, `shirt_id`, `chest_id`, `belt_id`, `legs_id`, `boots_id`, `wrists_id`, `gloves_id`, `tabard_id`, `cape_id`, `can_equip`, `texture`) VALUES (@HighElfFemaleDisplayExtra, @HighElf, @Female, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '');
+DELETE FROM `creaturedisplayinfoextra` WHERE `id` IN (@HighElfMaleDisplayExtra, @HighElfFemaleDisplayExtra);
+INSERT INTO `creaturedisplayinfoextra` (`id`, `race`, `gender`, `skin_color`, `face_type`, `hair_style`, `hair_color`, `facial_hair`, `helm_id`, `shoulders_id`, `shirt_id`, `chest_id`, `belt_id`, `legs_id`, `boots_id`, `wrists_id`, `gloves_id`, `tabard_id`, `cape_id`, `can_equip`, `texture`) VALUES
+(@HighElfMaleDisplayExtra,   @HighElf, @Male,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, ''),
+(@HighElfFemaleDisplayExtra, @HighElf, @Female, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, '');
 
 /* These are probably not needed.
 DELETE FROM `creaturedisplayinfoextra` WHERE `id` = 22348;

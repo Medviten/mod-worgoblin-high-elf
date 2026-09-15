@@ -1,53 +1,32 @@
 -- [F-032] mod-maghar: charhairgeosets: 25 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `charhairgeosets` WHERE `id` = 606;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (606, @MagharOrc, @Male, 0, 0, 1);
-DELETE FROM `charhairgeosets` WHERE `id` = 607;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (607, @MagharOrc, @Male, 1, 2, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 608;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (608, @MagharOrc, @Male, 2, 3, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 609;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (609, @MagharOrc, @Male, 3, 4, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 610;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (610, @MagharOrc, @Male, 4, 5, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 611;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (611, @MagharOrc, @Male, 5, 6, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 612;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (612, @MagharOrc, @Male, 6, 7, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 613;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (613, @MagharOrc, @Female, 0, 2, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 614;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (614, @MagharOrc, @Female, 1, 3, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 615;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (615, @MagharOrc, @Female, 2, 4, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 616;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (616, @MagharOrc, @Female, 3, 5, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 617;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (617, @MagharOrc, @Female, 4, 6, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 618;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (618, @MagharOrc, @Female, 5, 7, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 619;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (619, @MagharOrc, @Female, 6, 8, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 620;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (620, @MagharOrc, @Female, 7, 0, 1);
-DELETE FROM `charhairgeosets` WHERE `id` = 621;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (621, @MagharOrc, @Female, 9, 10, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 622;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (622, @MagharOrc, @Female, 10, 11, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 623;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (623, @MagharOrc, @Female, 11, 12, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 624;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (624, @MagharOrc, @Female, 12, 13, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 625;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (625, @MagharOrc, @Male, 7, 8, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 626;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (626, @MagharOrc, @Male, 8, 9, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 627;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (627, @MagharOrc, @Male, 9, 10, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 628;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (628, @MagharOrc, @Male, 10, 11, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 629;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (629, @MagharOrc, @Male, 11, 12, 0);
-DELETE FROM `charhairgeosets` WHERE `id` = 630;
-INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES (630, @MagharOrc, @Female, 8, 9, 0);
+SET @CharHairGeosetsID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`charhairgeosets`);
+
+DELETE FROM `charhairgeosets` WHERE `race` = @MagharOrc;
+INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    0,  0, 1),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    1,  2, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    2,  3, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    3,  4, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    4,  5, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    5,  6, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    6,  7, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  0,  2, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  1,  3, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  2,  4, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  3,  5, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  4,  6, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  5,  7, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  6,  8, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  7,  0, 1),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  9, 10, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female, 10, 11, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female, 11, 12, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female, 12, 13, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    7,  8, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    8,  9, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,    9, 10, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,   10, 11, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Male,   11, 12, 0),
+(@CharHairGeosetsID := @CharHairGeosetsID +1, @MagharOrc, @Female,  8,  9, 0);

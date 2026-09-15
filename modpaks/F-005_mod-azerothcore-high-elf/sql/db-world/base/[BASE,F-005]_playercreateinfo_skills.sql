@@ -15,4 +15,4 @@ UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @HighElfMask WHER
 /* Add racial skills */
 DELETE FROM `playercreateinfo_skills` WHERE `raceMask` IN (@HighElfMask) AND `classMask` = 0;
 INSERT IGNORE INTO `playercreateinfo_skills` (`raceMask`, `classMask`, `skill`, `rank`, `comment`) VALUES
-(@HighElfMask, 0, 791, 0, 'High Elf - Racial');
+(@HighElfMask, 0, @HighElfRacials, 0, 'High Elf - Racial');

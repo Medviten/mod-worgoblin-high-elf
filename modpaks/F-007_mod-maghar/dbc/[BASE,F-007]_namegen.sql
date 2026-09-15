@@ -3,7 +3,7 @@
 -- New entries
 SET @NameGenID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`namegen`);
 
--- DELETE FROM `namegen` WHERE `id` BETWEEN 18994 AND 19053;
+DELETE FROM `namegen` WHERE `race` = @MagharOrc;
 INSERT INTO `namegen` (`id`, `name`, `race_id`, `sex`) VALUES
 (@NameGenID := @NameGenID +1, 'Durak', @MagharOrc, @Male),
 (@NameGenID := @NameGenID +1, 'Gorvash', @MagharOrc, @Male),

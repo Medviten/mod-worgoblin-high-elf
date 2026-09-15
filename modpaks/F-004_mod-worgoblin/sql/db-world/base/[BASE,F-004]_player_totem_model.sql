@@ -1,4 +1,5 @@
-/* Add totem models for races that don't currently have shaman class
+/* Worgoblin default is also fine
+
 DELETE FROM `player_totem_model` WHERE `TotemID` IN (1, 2, 3, 4) AND `RaceID` IN (@Goblin, @Worgen);
 INSERT INTO `player_totem_model` (`TotemID`, `RaceID`, `ModelID`) VALUES
 -- Worgen (Race ID 12) - Use nature-themed totems
@@ -8,7 +9,6 @@ INSERT INTO `player_totem_model` (`TotemID`, `RaceID`, `ModelID`) VALUES
 (4, @Worgen, 30760), -- Air (borrowing from Troll style for nature theme)
 
 -- Goblin (Race ID 9) - Use mechanical/technological totems
-
 (1, @Goblin, 30754), -- Fire (borrowing from Dwarf style - similar culture)
 (2, @Goblin, 30753), -- Earth (borrowing from Dwarf style - similar culture)
 (3, @Goblin, 30755), -- Water (borrowing from Dwarf style - similar culture)
@@ -20,27 +20,15 @@ INSERT INTO `player_totem_model` (`TotemID`, `RaceID`, `ModelID`) VALUES
 (3, @Goblin, 4587),
 (4, @Goblin, 4590); */
 
--- Alliance default totems is the Dwarf ones
-SET @WorgenFireTotem := 30754;
-SET @WorgenEarthTotem := 30753;
-SET @WorgenWaterTotem := 30755;
-SET @WorgenAirTotem := 30736;
-
--- Horde default totems is the Orc ones.
-SET @GoblinFireTotem := 30758;
-SET @GoblinEarthTotem := 30757;
-SET @GoblinWaterTotem := 30759;
-SET @GoblinAirTotem := 30756;
-
 -- Goblin and Worgen
-DELETE FROM player_totem_model WHERE RaceID IN (@Goblin, @Worgen);
-INSERT INTO player_totem_model (TotemID, RaceID, ModelID) VALUES 
-(1, @Goblin, @GoblinFireTotem),
-(2, @Goblin, @GoblinEarthTotem),
-(3, @Goblin, @GoblinWaterTotem),
-(4, @Goblin, @GoblinAirTotem),
+DELETE FROM `player_totem_model` WHERE `RaceID` IN (@Goblin, @Worgen);
+INSERT INTO `player_totem_model` (`TotemID`, `RaceID`, `ModelID`) VALUES 
+(1, @Goblin, @HordeFireTotem),
+(2, @Goblin, @HordeEarthTotem),
+(3, @Goblin, @HordeWaterTotem),
+(4, @Goblin, @HordeAirTotem),
 
-(1, @Worgen, @WorgenFireTotem),
-(2, @Worgen, @WorgenEarthTotem),
-(3, @Worgen, @WorgenWaterTotem),
-(4, @Worgen, @WorgenAirTotem);
+(1, @Worgen, @AllianceFireTotem),
+(2, @Worgen, @AllianceEarthTotem),
+(3, @Worgen, @AllianceWaterTotem),
+(4, @Worgen, @AllianceAirTotem);

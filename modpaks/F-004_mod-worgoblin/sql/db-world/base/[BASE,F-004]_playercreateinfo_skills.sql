@@ -11,5 +11,5 @@ UPDATE `playercreateinfo_skills` SET `racemask` = `racemask` | @WorgenMask WHERE
 /* Add racial skills */
 DELETE FROM `playercreateinfo_skills` WHERE `raceMask` IN (@GoblinMask, @WorgenMask) AND `classMask` = 0;
 INSERT IGNORE INTO `playercreateinfo_skills` (`raceMask`, `classMask`, `skill`, `rank`, `comment`) VALUES
-(@GoblinMask, 0, 790, 0, 'Goblin - Racial'),
-(@WorgenMask, 0, 789, 0, 'Worgen - Racial');
+(@GoblinMask, 0, @GoblinRacials, 0, 'Goblin - Racial'),
+(@WorgenMask, 0, @WorgenRacials, 0, 'Worgen - Racial');

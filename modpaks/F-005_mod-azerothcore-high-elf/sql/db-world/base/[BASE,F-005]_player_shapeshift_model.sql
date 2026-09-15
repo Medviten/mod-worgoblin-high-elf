@@ -7,5 +7,5 @@ REPLACE INTO `player_shapeshift_model` (
 ) VALUES
 
 /* Alliance Travel form – high elf */
-(@TravelForm, @HighElf, 255, 2, 40816); -- ModelID: DruidTravelAlliance
+(@TravelForm, @HighElf, 255, 2, @AllianceTravelForm); -- ModelID: 40816 (DruidTravelAlliance)
 

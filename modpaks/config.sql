@@ -152,6 +152,10 @@ SET @WorgenRacial1                    =  68975; -- Viciousness
 SET @WorgenRacial2                    =  68976; -- Aberration
 SET @WorgenRacial3                    =  68978; -- Flayer
 SET @WorgenRacial4                    =  68992; -- Darkflight
+SET @RunningWildMale60                =  87840;
+SET @RunningWildFemale60              =  87841;
+SET @RunningWildMale100               = 110010;
+SET @RunningWildFemale100             = 110011;
 SET @GoblinRacial1                    =  69041; -- Rocket Barrage
 SET @GoblinRacial2                    =  69042; -- Time is Money
 SET @GoblinRacial3                    =  69044; -- Best Deals Anywhere
@@ -179,6 +183,7 @@ SET @GoblinTurboTrike                 =  87091;
 SET @MountainHorse                    = 103195;
 SET @SwiftMountainHorse               = 103196;
 SET @CaravanHyena                     = 110021;
+SET @CaravanHyenaAlt                  = 110021;
 
 -- Faction Masks
 SET @BaseAllianceMask                 = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask  | @DraeneiMask;
@@ -369,41 +374,57 @@ SET @ManaClassMask                    = @PaladinMask  | @HunterMask | @PriestMas
 SET @NonDKMask                        = @AllClassMask & ~@DeathKnightMask;
 
 -- Druid Forms
-SET @CatForm                          =  1;
-SET @TreeForm                         =  2;
-SET @TravelForm                       =  3;
-SET @AquaticForm                      =  4;
-SET @BearForm                         =  5;
-SET @DireBearForm                     =  8;
-SET @SwiftFlightForm                  = 27;
-SET @FlightForm                       = 29;
-SET @MoonkinForm                      = 31;
+SET @CatForm                          =     1;
+SET @TreeForm                         =     2;
+SET @TravelForm                       =     3;
+SET @AquaticForm                      =     4;
+SET @BearForm                         =     5;
+SET @DireBearForm                     =     8;
+SET @SwiftFlightForm                  =    27;
+SET @FlightForm                       =    29;
+SET @MoonkinForm                      =    31;
+
+SET @AllianceTravelForm               = 40816;
+SET @HordeTravelForm                  = 45339;
+
+-- Default totems Alliance (Dwarf)
+SET @AllianceFireTotem               := 30754;
+SET @AllianceEarthTotem              := 30753;
+SET @AllianceWaterTotem              := 30755;
+SET @AllianceAirTotem                := 30736;
+
+-- Default totems Horde (Orc)
+SET @HordeFireTotem                  := 30758;
+SET @HordeEarthTotem                 := 30757;
+SET @HordeWaterTotem                 := 30759;
+SET @HordeAirTotem                   := 30756;
+
 
 -- Locations
-SET @EasternKingdoms                  =    0;
-SET @DunMorogh                        =    1;
-SET @ElwynnForest                     =   12;
-SET @TirisfalGlades                   =   85;
-SET @Gilneas                          = 4714; -- Open Azeroth
-SET @GilneasCity                      = 4755; -- Open Azeroth
+SET @EasternKingdoms                  =     0;
+SET @DunMorogh                        =     1;
+SET @ElwynnForest                     =    12;
+SET @TirisfalGlades                   =    85;
+SET @Gilneas                          =  4714; -- Open Azeroth
+SET @GilneasCity                      =  4755; -- Open Azeroth
 
-SET @Kalimdor                         =    1;
-SET @Durotar                          =   14;
-SET @Teldrassil                       =  141;
-SET @Mulgore                          =  215;
-SET @Kezan                            = 4737; -- Open Azeroth
-SET @LostIsles                        = 4720; -- Open Azeroth
+SET @Kalimdor                         =     1;
+SET @Durotar                          =    14;
+SET @Teldrassil                       =   141;
+SET @Mulgore                          =   215;
+SET @Kezan                            =  4737; -- Open Azeroth
+SET @LostIsles                        =  4720; -- Open Azeroth
 
-SET @Outland                          =  530;
-SET @AzuremystIsle                    = 3526; -- Outland map
-SET @EversongWoods                    = 3431; -- Outland map
+SET @Outland                          =   530;
+SET @AzuremystIsle                    =  3526; -- Outland map
+SET @EversongWoods                    =  3431; -- Outland map
 
-SET @Northrend                        =  609;
-SET @ScarletEnclave                   = 4298;
+SET @Northrend                        =   609;
+SET @ScarletEnclave                   =  4298;
 
 -- TaxiNodes
-SET @TaxiNodeAuberdine                =   26;
-SET @TaxiNodeExodar                   =   94;
+SET @TaxiNodeAuberdine                =    26;
+SET @TaxiNodeExodar                   =    94;
 
 -- New TaxiPathNodes
 SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`taxipath`);
