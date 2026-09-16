@@ -42,7 +42,7 @@ INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `s
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Goblin, @Male, 16, 17, 0),
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Goblin, @Male, 17, 18, 0),
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Worgen, @Male, 2, 4, 0),
-(@CharHairGeosetsID := @CharHairGeosetsID +1, @Worgen, @Male, 0, 2, 0),
+-- (@CharHairGeosetsID := @CharHairGeosetsID +1, @Worgen, @Male, 0, 2, 0),
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Worgen, @Male, 1, 3, 0),
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Worgen, @Male, 3, 5, 0),
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Worgen, @Male, 6, 8, 0),
