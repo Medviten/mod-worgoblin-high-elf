@@ -91,8 +91,8 @@ SET @ZandalariTrollMaleModel          =  40002; -- backport from
 SET @ZandalariTrollFemaleModel        =  40003; -- Shadowlands
 SET @VulperaMaleModel                 =  40004;
 SET @VulperaFemaleModel               =  40005;
-SET @AlliancePandarenMaleModel        =  40006;
-SET @AlliancePandarenFemaleModel      =  40007;
+SET @PandarenMaleModel        =  40006;
+SET @PandarenFemaleModel      =  40007;
 
 -- Display IDs
 SET @WorgenMaleDisplay                =  29422;
@@ -113,8 +113,8 @@ SET @ZandalariTrollMaleDisplay        =  40002;
 SET @ZandalariTrollFemaleDisplay      =  40003;
 SET @VulperaMaleDisplay               =  40004;
 SET @VulperaFemaleDisplay             =  40005;
-SET @VulperaMaleDisplay               =  40006;
-SET @VulperaFemaleDisplay             =  40007;
+SET @PandarenMaleDisplay               =  40006;
+SET @PandarenFemaleDisplay             =  40007;
 
 -- CreatureDisplayInfoExtra
 SET @WorgenMaleDisplayExtra           =  45424;
@@ -133,8 +133,8 @@ SET @ZandalariTrollMaleDisplayExtra   =  45443;
 SET @ZandalariTrollFemaleDisplayExtra =  45444;
 SET @VulperaMaleDisplayExtra          =  45445;
 SET @VulperaFemaleDisplayExtra        =  45446;
-SET @VulperaMaleDisplayExtra          =  45447;
-SET @VulperaFemaleDisplayExtra        =  45448;
+SET @PandarenMaleDisplayExtra          =  45447;
+SET @PandarenFemaleDisplayExtra        =  45448;
 
 -- creature_template
 SET @WorgenWildMaleTemplate           =  55274;
