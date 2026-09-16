@@ -9,5 +9,7 @@ INSERT INTO `charbaseinfo` (`race`, `class`) VALUES
 (@HighElf, @Rogue),
 (@HighElf, @Priest),
 (@HighElf, @DeathKnight),
+(@HighElf, @Shaman), -- ARAC
 (@HighElf, @Mage),
-(@HighElf, @Warlock);
+(@HighElf, @Warlock),
+(@HighElf, @Druid); -- ARAC
