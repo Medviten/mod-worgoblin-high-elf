@@ -73,24 +73,26 @@ SET @HordePandarenMask                = 1 << (@HordePandaren    - 1);  -- race I
 SET @GilneanMask                      = 1 << (@Gilnean          - 1);  -- race ID 23 → 4194304
 
 -- New Race Models
-SET @WorgenMaleModel                  =  3141; -- bipedal
-SET @WorgenFemaleModel                =  3142; -- bipedal
-SET @WorgenWildMaleModel              =  3626; -- quadrupedal
-SET @WorgenWildFemaleModel            =  3627; -- quadrupedal
-SET @GilneanMaleModel                 =    49; -- human
-SET @GilneanFemaleModel               =    50; -- human
-SET @HighElfMaleModel                 =  2208; -- blood elf
-SET @HighElfFemaleModel               =  2209; -- blood elf
-SET @MagharOrcMaleModel               =    51; -- orc
-SET @MagharOrcFemaleModel             =    52; -- orc
-SET @OgreMaleModel                    =  4892; -- one head (physical type)
-SET @OgreFemaleModel                  =  4893; -- two heads (magic type)
-SET @DarkIronDwarfMaleModel           = 40000; -- backport from
-SET @DarkIronDwarfFemaleModel         = 40001; -- Shadowlands
-SET @ZandalariTrollMaleModel          = 40002; -- backport from
-SET @ZandalariTrollFemaleModel        = 40003; -- Shadowlands
-SET @VulperaMaleModel                 = 40004; -- backport from
-SET @VulperaFemaleModel               = 40005; -- Shadowlands
+SET @WorgenMaleModel                  =   3141; -- bipedal
+SET @WorgenFemaleModel                =   3142; -- bipedal
+SET @WorgenWildMaleModel              =   3626; -- quadrupedal
+SET @WorgenWildFemaleModel            =   3627; -- quadrupedal
+SET @GilneanMaleModel                 =     49; -- human
+SET @GilneanFemaleModel               =     50; -- human
+SET @HighElfMaleModel                 =   2208; -- blood elf
+SET @HighElfFemaleModel               =   2209; -- blood elf
+SET @MagharOrcMaleModel               =     51; -- orc
+SET @MagharOrcFemaleModel             =     52; -- orc
+SET @OgreMaleModel                    =   4892; -- one head (physical type)
+SET @OgreFemaleModel                  =   4893; -- two heads (magic type)
+SET @DarkIronDwarfMaleModel           =  40000; -- backport from
+SET @DarkIronDwarfFemaleModel         =  40001; -- Shadowlands
+SET @ZandalariTrollMaleModel          =  40002; -- backport from
+SET @ZandalariTrollFemaleModel        =  40003; -- Shadowlands
+SET @VulperaMaleModel                 =  40004;
+SET @VulperaFemaleModel               =  40005;
+SET @AlliancePandarenMaleModel        =  40006;
+SET @AlliancePandarenFemaleModel      =  40007;
 
 -- Display IDs
 SET @WorgenMaleDisplay                =  29422;
@@ -111,6 +113,8 @@ SET @ZandalariTrollMaleDisplay        =  40002;
 SET @ZandalariTrollFemaleDisplay      =  40003;
 SET @VulperaMaleDisplay               =  40004;
 SET @VulperaFemaleDisplay             =  40005;
+SET @VulperaMaleDisplay               =  40006;
+SET @VulperaFemaleDisplay             =  40007;
 
 -- CreatureDisplayInfoExtra
 SET @WorgenMaleDisplayExtra           =  45424;
@@ -129,6 +133,8 @@ SET @ZandalariTrollMaleDisplayExtra   =  45443;
 SET @ZandalariTrollFemaleDisplayExtra =  45444;
 SET @VulperaMaleDisplayExtra          =  45445;
 SET @VulperaFemaleDisplayExtra        =  45446;
+SET @VulperaMaleDisplayExtra          =  45447;
+SET @VulperaFemaleDisplayExtra        =  45448;
 
 -- creature_template
 SET @WorgenWildMaleTemplate           =  55274;
