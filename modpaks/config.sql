@@ -398,16 +398,16 @@ SET @AllianceTravelForm                 =    40816;
 SET @HordeTravelForm                    =    45339;
 
 -- Default totems Alliance (Dwarf)
-SET @AllianceFireTotem               :  =    30754;
-SET @AllianceEarthTotem              :  =    30753;
-SET @AllianceWaterTotem              :  =    30755;
-SET @AllianceAirTotem                :  =    30736;
+SET @AllianceFireTotem                 :=    30754;
+SET @AllianceEarthTotem                :=    30753;
+SET @AllianceWaterTotem                :=    30755;
+SET @AllianceAirTotem                  :=    30736;
 
 -- Default totems Horde (Orc)
-SET @HordeFireTotem                  :  =    30758;
-SET @HordeEarthTotem                 :  =    30757;
-SET @HordeWaterTotem                 :  =    30759;
-SET @HordeAirTotem                   :  =    30756;
+SET @HordeFireTotem                    :=    30758;
+SET @HordeEarthTotem                   :=    30757;
+SET @HordeWaterTotem                   :=    30759;
+SET @HordeAirTotem                     :=    30756;
 
 
 -- Locations
@@ -485,8 +485,8 @@ SET @TaxiNodeExodar                     =       94;
 
 -- New TaxiPathNodes
 SET @TaxiPathID   = (SELECT COALESCE(MAX(id), 0) FROM `dbc_db`.`taxipath`);
-SET @TaxiAuberdineExodar :  = @TaxiPathID :  = @TaxiPathID +1;
-SET @TaxiExodarAuberdine :  = @TaxiPathID :  = @TaxiPathID +1;
+SET @TaxiAuberdineExodar   := @TaxiPathID   := @TaxiPathID +1;
+SET @TaxiExodarAuberdine   := @TaxiPathID   := @TaxiPathID +1;
 
 -- Talents
 SET @MageFire   = 41;
