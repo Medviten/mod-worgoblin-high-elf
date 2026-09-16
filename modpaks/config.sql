@@ -423,15 +423,15 @@ SET @Northrend                        =      609;
 SET @ScarletEnclave                   =     4298;
 
 -- Start coordinates
-SET OrcStartX                         = -618.518;
-SET OrcStartY                         = -4251.67;
-SET OrcStartZ                         =   38.718;
-SET OrcStartO                         =        0;
+SET @OrcStartX                         = -618.518;
+SET @OrcStartY                         = -4251.67;
+SET @OrcStartZ                         =   38.718;
+SET @OrcStartO                         =        0;
 
-SET DKStartX                          =  2358.44;
-SET DKStartX                          =  -5666.9;
-SET DKStartX                          =  426.023;
-SET DKStartO                          =  3.65997;
+SET @DKStartX                          =  2358.44;
+SET @DKStartX                          =  -5666.9;
+SET @DKStartX                          =  426.023;
+SET @DKStartO                          =  3.65997;
 
 -- TaxiNodes
 SET @TaxiNodeAuberdine                =       26;
