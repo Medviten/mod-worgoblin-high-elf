@@ -17,7 +17,7 @@ INSERT INTO `characterfacialhairstyles` (`race`, `gender`, `variation_id`, `geos
 (@Vulpera, @Female,  3, 3, 0, 0, 0, 0),
 (@Vulpera, @Female,  4, 4, 0, 0, 0, 0),
 (@Vulpera, @Female,  5, 5, 0, 0, 0, 0),
-(@Vulpera, @Female,  6, 6, 0, 0, 0, 0);
+(@Vulpera, @Female,  6, 6, 0, 0, 0, 0),
 (@Vulpera, @Male,    0, 1, 0, 1, 0, 0),
 (@Vulpera, @Male,    1, 1, 1, 1, 0, 0),
 (@Vulpera, @Male,    2, 1, 0, 2, 0, 0),
