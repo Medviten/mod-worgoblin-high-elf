@@ -7,7 +7,6 @@
     - Racial faction: Stonemaul Clan
 
 ### Known Issues
-- Voice may not be working
 - No racial abilities yet
 - Currently sitting in a barber chair crashes the client
 - Can only customize skin colour
