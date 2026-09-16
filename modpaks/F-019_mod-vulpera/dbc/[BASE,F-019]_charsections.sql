@@ -1,7 +1,7 @@
 -- charsections: 0 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`charsections`);
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM `charsections`);
 
 DELETE FROM `charsections` WHERE `race` = @Vulpera;
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES

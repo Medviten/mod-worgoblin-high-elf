@@ -374,59 +374,105 @@ SET @ManaClassMask                    = @PaladinMask  | @HunterMask | @PriestMas
 SET @NonDKMask                        = @AllClassMask & ~@DeathKnightMask;
 
 -- Druid Forms
-SET @CatForm                          =     1;
-SET @TreeForm                         =     2;
-SET @TravelForm                       =     3;
-SET @AquaticForm                      =     4;
-SET @BearForm                         =     5;
-SET @DireBearForm                     =     8;
-SET @SwiftFlightForm                  =    27;
-SET @FlightForm                       =    29;
-SET @MoonkinForm                      =    31;
+SET @CatForm                          =        1;
+SET @TreeForm                         =        2;
+SET @TravelForm                       =        3;
+SET @AquaticForm                      =        4;
+SET @BearForm                         =        5;
+SET @DireBearForm                     =        8;
+SET @SwiftFlightForm                  =       27;
+SET @FlightForm                       =       29;
+SET @MoonkinForm                      =       31;
 
-SET @AllianceTravelForm               = 40816;
-SET @HordeTravelForm                  = 45339;
+SET @AllianceTravelForm               =    40816;
+SET @HordeTravelForm                  =    45339;
 
 -- Default totems Alliance (Dwarf)
-SET @AllianceFireTotem               := 30754;
-SET @AllianceEarthTotem              := 30753;
-SET @AllianceWaterTotem              := 30755;
-SET @AllianceAirTotem                := 30736;
+SET @AllianceFireTotem               :=    30754;
+SET @AllianceEarthTotem              :=    30753;
+SET @AllianceWaterTotem              :=    30755;
+SET @AllianceAirTotem                :=    30736;
 
 -- Default totems Horde (Orc)
-SET @HordeFireTotem                  := 30758;
-SET @HordeEarthTotem                 := 30757;
-SET @HordeWaterTotem                 := 30759;
-SET @HordeAirTotem                   := 30756;
+SET @HordeFireTotem                  :=    30758;
+SET @HordeEarthTotem                 :=    30757;
+SET @HordeWaterTotem                 :=    30759;
+SET @HordeAirTotem                   :=    30756;
 
 
 -- Locations
-SET @EasternKingdoms                  =     0;
-SET @DunMorogh                        =     1;
-SET @ElwynnForest                     =    12;
-SET @TirisfalGlades                   =    85;
-SET @Gilneas                          =  4714; -- Open Azeroth
-SET @GilneasCity                      =  4755; -- Open Azeroth
+SET @EasternKingdoms                  =        0;
+SET @DunMorogh                        =        1;
+SET @ElwynnForest                     =       12;
+SET @TirisfalGlades                   =       85;
+SET @Gilneas                          =     4714; -- Open Azeroth
+SET @GilneasCity                      =     4755; -- Open Azeroth
 
-SET @Kalimdor                         =     1;
-SET @Durotar                          =    14;
-SET @Teldrassil                       =   141;
-SET @Mulgore                          =   215;
-SET @Kezan                            =  4737; -- Open Azeroth
-SET @LostIsles                        =  4720; -- Open Azeroth
+SET @Kalimdor                         =        1;
+SET @Durotar                          =       14;
+SET @Teldrassil                       =      141;
+SET @Mulgore                          =      215;
+SET @Kezan                            =     4737; -- Open Azeroth
+SET @LostIsles                        =     4720; -- Open Azeroth
 
-SET @Outland                          =   530;
-SET @AzuremystIsle                    =  3526; -- Outland map
-SET @EversongWoods                    =  3431; -- Outland map
+SET @Outland                          =      530;
+SET @AzuremystIsle                    =     3526; -- Outland map
+SET @EversongWoods                    =     3431; -- Outland map
 
-SET @Northrend                        =   609;
-SET @ScarletEnclave                   =  4298;
+SET @Northrend                        =      609;
+SET @ScarletEnclave                   =     4298;
+
+-- Start coordinates
+SET OrcStartX                         = -618.518;
+SET OrcStartY                         = -4251.67;
+SET OrcStartZ                         =   38.718;
+SET OrcStartO                         =        0;
+
+SET DKStartX                          =  2358.44;
+SET DKStartX                          =  -5666.9;
+SET DKStartX                          =  426.023;
+SET DKStartO                          =  3.65997;
 
 -- TaxiNodes
-SET @TaxiNodeAuberdine                =    26;
-SET @TaxiNodeExodar                   =    94;
+SET @TaxiNodeAuberdine                =       26;
+SET @TaxiNodeExodar                   =       94;
 
 -- New TaxiPathNodes
-SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`taxipath`);
+SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM `taxipath`);
 SET @TaxiAuberdineExodar := @TaxiPathID := @TaxiPathID +1;
 SET @TaxiExodarAuberdine := @TaxiPathID := @TaxiPathID +1;
+
+-- Talents
+SET @MageFire = 41;
+SET @MageFrost = 61;
+SET @MageArcane = 81;
+SET @WarriorArms = 161;
+SET @WarriorProtection = 163;
+SET @WarriorFury = 164;
+SET @RogueCombat = 181;
+SET @RogueAssassination = 182;
+SET @RogueSubtlety = 183;
+SET @PriestDiscipline = 201;
+SET @PriestHoly = 202;
+SET @PriestShadow = 203;
+SET @ShamanElementalCombat = 261;
+SET @ShamanRestoration = 262;
+SET @ShamanEnhancement = 263;
+SET @DruidFeralCombat = 281;
+SET @DruidRestoration = 282;
+SET @DruidBalance = 283;
+SET @WarlockDestruction = 301;
+SET @WarlockCurses = 302;
+SET @WarlockDemonology = 303;
+SET @HunterBeastMastery = 361;
+SET @HunterSurvival = 362;
+SET @HunterMarksmanship = 363;
+SET @PaladinRetribution = 381;
+SET @PaladinHoly = 382;
+SET @PaladinProtection = 383;
+SET @DKBlood = 398;
+SET @DKFrost = 399;
+SET @DKUnholy = 400;
+SET @HunterPetTenacity = 409;
+SET @HunterPetFerocity = 410;
+SET @HunterPetCunning = 411;

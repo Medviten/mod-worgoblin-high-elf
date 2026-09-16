@@ -1,4 +1,4 @@
-SET @TaxiPathNodeID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`taxipathnode`);
+SET @TaxiPathNodeID = (SELECT COALESCE(MAX(id), 0) FROM `taxipathnode`);
 
 -- DELETE FROM `taxipath` WHERE `id` BETWEEN 46875 AND 46900; -- default
 

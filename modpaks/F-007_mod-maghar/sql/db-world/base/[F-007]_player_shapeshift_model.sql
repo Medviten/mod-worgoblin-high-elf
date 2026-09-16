@@ -6,4 +6,4 @@ REPLACE INTO `player_shapeshift_model` (
     `ModelID` -- ID from CreatureDisplayInfo.dbc or creaturedisplayinfo_dbc (*not* from CreatureModelData.dbc!)
 ) VALUES
 /* Horde Travel forms – Mag'har Orc */
-(@TravelForm, @MagharOrc, 255, 2, 45339); -- ModelID: DruidTravelHorde
+(@TravelForm, @MagharOrc, 255, 2, @HordeTravelForm); -- ModelID: 45339 (DruidTravelHorde)

@@ -1,10 +1,10 @@
 -- [F-032] mod-maghar: skilllineability: 35 inserts, 61 updates, 0 deletes
 
 -- New entries
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31459; -- Ancestral Call
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31460; -- Savage Blood
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31461; -- Sympathetic Vigor
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 31462; -- Unwavering Will (Open Skies?)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial1; -- Ancestral Call
+UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial2; -- Savage Blood
+UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial3; -- Sympathetic Vigor
+UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial4; -- Unwavering Will (Open Skies?)
 
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 590; -- Spell: 668 (Language: Common)

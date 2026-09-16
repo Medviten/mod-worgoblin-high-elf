@@ -87,12 +87,6 @@ DBC_DUMP="${DBC_DUMP:-}"
 # skipped.
 MANIFEST_FILE="${MANIFEST_FILE:-$SCRIPT_DIR/build-dbc.manifest}"
 
-# Optional: cd here and run `git pull` before anything else, to make
-# iterating on SQL changes in a git-tracked modpaks/integration repo
-# easier -- no need to pull by hand before every test run. Leave
-# empty/unset to skip entirely.
-GIT_PULL_DIR="${GIT_PULL_DIR:-}"
-
 # --core-patch: relative find -path glob (same syntax as EXTRA_SQL_PATTERNS)
 # for locating core-patch files inside each modpak, and where to write the
 # combined result.
@@ -756,14 +750,6 @@ SQL
 
 echo "Checking configuration..."
 
-if [[ -n "$GIT_PULL_DIR" ]]; then
-    command -v git >/dev/null \
-        || { echo "ERROR: git command not found." >&2; exit 1; }
-
-    [[ -d "$GIT_PULL_DIR" ]] \
-        || { echo "ERROR: GIT_PULL_DIR does not exist: $GIT_PULL_DIR" >&2; exit 1; }
-fi
-
 if [[ "$CORE_PATCH_MODE" != true ]]; then
     [[ -d "$MODPAKS" ]] \
         || { echo "ERROR: MODPAKS does not exist: $MODPAKS" >&2; exit 1; }
@@ -787,16 +773,6 @@ if [[ "$CORE_PATCH_MODE" != true ]]; then
 
     command -v mysql >/dev/null \
         || { echo "ERROR: mysql command not found." >&2; exit 1; }
-fi
-
-###############################################################################
-# Pull latest changes (optional)
-###############################################################################
-
-if [[ -n "$GIT_PULL_DIR" ]]; then
-    echo
-    echo "Pulling latest changes in $GIT_PULL_DIR..."
-    (cd "$GIT_PULL_DIR" && git pull)
 fi
 
 ###############################################################################
