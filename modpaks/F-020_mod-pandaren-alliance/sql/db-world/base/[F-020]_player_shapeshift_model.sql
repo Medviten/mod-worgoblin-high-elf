@@ -6,4 +6,4 @@ REPLACE INTO `player_shapeshift_model` (
     `ModelID` -- ID from CreatureDisplayInfo.dbc or creaturedisplayinfo_dbc (*not* from CreatureModelData.dbc!)
 ) VALUES
 /* Alliance Pandaren Druid forms */
-(@TravelForm, @AlliancePandaren, 255, 2, @AllianceTravelForm), -- ModelID: 40816 (DruidTravelAlliance)
+(@TravelForm, @AlliancePandaren, 255, 2, @AllianceTravelForm); -- ModelID: 40816 (DruidTravelAlliance)
