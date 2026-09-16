@@ -475,8 +475,8 @@ SET @DraeneiStartZ                       =  100.615;
 SET @DraeneiStartO                       =  2.08364;
 
 SET @DKStartX                            =  2358.44;
-SET @DKStartX                            =  -5666.9;
-SET @DKStartX                            =  426.023;
+SET @DKStartY                            =  -5666.9;
+SET @DKStartZ                            =  426.023;
 SET @DKStartO                            =  3.65997;
 
 -- TaxiNodes

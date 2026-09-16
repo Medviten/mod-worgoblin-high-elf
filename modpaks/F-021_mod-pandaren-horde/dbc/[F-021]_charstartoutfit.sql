@@ -1,4 +1,4 @@
--- charstartoutfit: 33 inserts, 0 updates, 0 deletes
+-- charstartoutfit: 6 inserts, 0 updates, 0 deletes
 
 -- New entries
 SET @CharStartOutfitID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`charstartoutfit`);

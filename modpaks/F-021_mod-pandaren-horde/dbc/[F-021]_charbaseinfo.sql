@@ -1,7 +1,7 @@
--- charbaseinfo: 16 inserts, 0 updates, 0 deletes
+-- charbaseinfo: 3 inserts, 0 updates, 0 deletes
 
 -- New entries
-DELETE FROM `charbaseinfo` WHERE `race` IN (@HordePandaren);
+DELETE FROM `charbaseinfo` WHERE `race` = @HordePandaren AND `class` IN (@Paladin, @Warlock, @Druid);
 INSERT INTO `charbaseinfo` (`race`, `class`) VALUES
 (@HordePandaren, @Paladin),
 (@HordePandaren, @Warlock),

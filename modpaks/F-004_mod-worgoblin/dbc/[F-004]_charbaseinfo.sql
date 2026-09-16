@@ -1,8 +1,8 @@
 -- ARAC additions
 
 -- New entries
-DELETE FROM `charbaseinfo` WHERE `race` = @Goblin AND (`class` = @Paladin OR `class` = @Druid);
-DELETE FROM `charbaseinfo` WHERE `race` = @Worgen AND (`class` = @Paladin OR `class` = @Shaman);
+DELETE FROM `charbaseinfo` WHERE `race` = @Goblin AND `class` IN (@Paladin, @Druid);
+DELETE FROM `charbaseinfo` WHERE `race` = @Worgen AND `class` IN (@Paladin, @Shaman);
 INSERT INTO `charbaseinfo` (`race`, `class`) VALUES
 (@Goblin, @Paladin),
 (@Goblin, @Druid),
