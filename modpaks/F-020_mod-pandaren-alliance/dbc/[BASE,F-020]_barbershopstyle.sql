@@ -1,4 +1,4 @@
--- barbershopstyle: 107 inserts, 0 updates, 0 deletes
+-- barbershopstyle: 8 inserts, 0 updates, 0 deletes
 
 -- New entries
 SET @BarbershopStyleID = (SELECT COALESCE(MAX(id), 0) FROM `barbershopstyle`);

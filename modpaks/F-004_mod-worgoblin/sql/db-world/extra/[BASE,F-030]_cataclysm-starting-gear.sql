@@ -1,6 +1,3 @@
-SET @GoblinMask =  256;
-SET @WorgenMask = 2048;
-SET @RogueMask  =    8;
 /* Add Cataclysm starting equipment for worgen and goblin, and allows worgen/goblin rogues to use axes/maces, respectively */
 /* Worgen */
 DELETE FROM `item_template` WHERE  `entry` IN (49407, 49409, 49408, 49567, 49401, 49400, 49399, 49575, 49573, 49572, 49574, 49406, 49404, 49403, 49564, 49565, 49566, 49563, 49577, 49579, 49576, 49578, 49569, 49571, 49568, 49570); -- Worgen starting gear
