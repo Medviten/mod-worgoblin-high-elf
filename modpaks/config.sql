@@ -438,7 +438,7 @@ SET @TaxiNodeAuberdine                =       26;
 SET @TaxiNodeExodar                   =       94;
 
 -- New TaxiPathNodes
-SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM `taxipath`);
+SET @TaxiPathID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`taxipath`);
 SET @TaxiAuberdineExodar := @TaxiPathID := @TaxiPathID +1;
 SET @TaxiExodarAuberdine := @TaxiPathID := @TaxiPathID +1;
 
