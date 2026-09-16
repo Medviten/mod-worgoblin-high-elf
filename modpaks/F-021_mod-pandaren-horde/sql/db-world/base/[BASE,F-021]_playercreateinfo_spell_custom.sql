@@ -407,7 +407,7 @@ INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
 -- (@HordePandarenMask, @ShamanMask, '25908', 'Tranquil Air Totem'), -- Removed?
 (@HordePandarenMask, @ShamanMask, '27763', 'Totem'),
 (@HordePandarenMask, @ShamanMask, '33736', 'Water Shield'),
-(@HordePandarenMask, @ShamanMask, '36936', 'Totemic Recall');
+(@HordePandarenMask, @ShamanMask, '36936', 'Totemic Recall'),
 
 -- Horde Pandaren Mage
 (@HordePandarenMask, @MageMask, '668', 'Language Common'),
