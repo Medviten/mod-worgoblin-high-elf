@@ -14,6 +14,9 @@ SET @DeathKnightTextureMask              =   4;
 SET @NPCSkinMask                         =   8;
 SET @RegularMask                         =  16;
 
+-- Reputation Level
+SET @Exalted                            =  128;
+
 -- Playable Races
 SET @Human                              =    1;
 SET @Orc                                =    2;
@@ -211,7 +214,15 @@ SET @MagharOrcRacial4                   = 110004; -- Unwavering Will (maybe chan
 -- SET @VulperaRacial1
 -- SET @PandarenRacial1
 
--- Mount spells
+-- Weapon Skills
+SET @AxeSkill                           =     44;
+SET @MaceSkill                          =     54;
+
+-- Mount Models
+SET @GoblinTrikeModel                   =   3623;
+SET @GoblinTurboTrikeModel              =   3624;
+
+-- Mount Spells
 SET @GoblinTrike                        =  87090;
 SET @GoblinTurboTrike                   =  87091;
 SET @MountainHorse                      = 103195;

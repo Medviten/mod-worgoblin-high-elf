@@ -1,0 +1,9260 @@
+-- spell: 16 inserts, 0 updates, 0 deletes
+
+-- New entries
+REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES
+/* Skinning */
+/* Apprentice skinning */
+(
+	8613, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	1024, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	1026, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	12, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	95, -- Effect_1
+	118, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	5, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	25, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	393, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	1008, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	736, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Apprentice', -- NameSubtext_Lang_enUS
+	'초급', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Apprenti', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Lehrling', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'初级', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'初級', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Aprendiz', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Aprendiz', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Ученик', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'The basics of how to skin animals for their pelts and furs for use in Leatherworking.  Gives a potential skinning skill of 75.  Requires a Skinning Knife.', -- Description_Lang_enUS
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 75로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Les rudiments du Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 75. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR \(actually frFR\)
+	'Grundlagen, wie man Tiere häutet und ihre Pelze und Felle für die Lederverarbeitung bearbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 75. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR \(actually deDE\)
+	'基本的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得75点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE \(actually zhCN\)
+	'基本的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得75點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN \(actually zhTW\)
+	'Información básica sobre el desuello de animales para conseguir pelambres y pelajes para usarlos en peletería. Otorga una habilidad potencial para desollar de 75 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN \(actually esES\)
+	'Información básica sobre el desuello de animales para conseguir pelambres y pelajes para usarlos en peletería. Otorga una habilidad potencial para desollar de 75 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW \(actually esMX\)
+	'Обучает способности снимать шкуры и мех с животных. Полученные материалы в дальнейшем используются в кожевничестве. Позволяет развить навык до уровня 75. Требуется нож для снятия шкур.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	166, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Journeyman skinning */
+(
+	8617, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	1024, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	1026, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	12, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	95, -- Effect_1
+	118, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	5, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	1, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	25, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	393, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	1008, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	736, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Journeyman', -- NameSubtext_Lang_enUS
+	'수습', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Compagnon', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Geselle', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'中级', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'中級', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Oficial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Oficial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Подмастерье', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Advanced skills in skinning the leather from beasts for use in Leatherworking.  Gives a potential skinning skill of 150. Requires a Skinning Knife.', -- Description_Lang_enUS
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 150으로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Spécialisation du talent Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 150. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR \(actually frFR\)
+	'Erweiterte Fertigkeiten der Kürschnerei, wie man das Leder von Wildtieren für die Lederverarbeitung bearbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 150. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR \(actually deDE\)
+	'高级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得150点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE \(actually zhCN\)
+	'高級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得150點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidades avanzadas en desuello de animales para utilizar el cuero en peletería. Proporciona una habilidad potencial en desuello de 150 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidades avanzadas en desuello de animales para utilizar el cuero en peletería. Proporciona una habilidad potencial en desuello de 150 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык подмастерья в профессии снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 150. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	166, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Expert skinning */
+(
+    8618, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	1024, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	1026, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	12, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	95, -- Effect_1
+	118, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	5, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	2, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	25, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	393, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	1008, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	736, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Expert', -- NameSubtext_Lang_enUS
+	'숙련', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Expert', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Experte', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'高级', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'高級', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Experto', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Experto', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Умелец', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Expert skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 225.  Requires a Skinning Knife.', -- Description_Lang_enUS
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 225로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Expertise en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 225. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR \(actually frFR\)
+	'Experten-Fertigkeiten der Kürschnerei, wie man Bälge von Wildtieren für die Lederverarbeitung verarbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 225. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR \(actually deDE\)
+	'专家级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得225点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE \(actually zhCN\)
+	'專家級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得225點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidad experta en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 225 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidad experta en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 225 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык умельца в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 225. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	166, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Artisan skinning */
+(
+	10768, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	1024, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	1026, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	12, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	95, -- Effect_1
+	118, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	5, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	3, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	25, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	393, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	1008, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	736, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Artisan', -- NameSubtext_Lang_enUS
+	'전문', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Artisan', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Fachmann', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'专家级', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'專家級', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Artesano', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Artesano', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Искусник', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Artisan skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 300.  Requires a Skinning Knife.', -- Description_Lang_enUS
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 300으로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Compétence d\'artisan en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 300. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR \(actually frFR\)
+	'Fachmannfertigkeit der Kürschnerei, wie man Bälge von Wildtieren für die Lederverarbeitung verarbeitet. Verleiht eine potenzielle Kürschnereifertigkeit von 300. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR \(actually deDE\)
+	'专家级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得300点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE \(actually zhCN\)
+	'專家級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得300點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidad artesana en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 300 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidad artesana en desuello de animales para utilizar los pellejos en peletería. Proporciona una habilidad potencial en desuello de 300 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык искусника в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 300. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	166, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Skinning */
+(
+	13697, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	192, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	4, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	30, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	393, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712188, -- NameSubtext_Lang_Mask
+	'', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712188, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Master skinning */
+(
+	32678, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	1024, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	1026, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	12, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	95, -- Effect_1
+	118, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	5, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	4, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	25, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	393, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	1008, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	736, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Master', -- NameSubtext_Lang_enUS
+	'대가', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Maître', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Meister', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'大师级', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'大師級', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Maestro', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Maestro', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Мастер', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Master skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 375.  Requires a Skinning Knife.', -- Description_Lang_enUS
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 375로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Compétence de maître en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 375. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR \(actually frFR\)
+	'Meisterliche Fertigkeiten der Kürschnerei, der Vorbereitung von Häuten von Wildtieren für die Lederverarbeitung. Verleiht eine potenzielle Kürschnerfertigkeit von 375. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR \(actually deDE\)
+	'大师级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得375点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE \(actually zhCN\)
+	'大師級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得375點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 375 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 375 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык мастера в деле снятия шкур со зверей. Шкуры в дальнейшем используются в кожевничестве. Дает возможность развить навык до уровня 375. Требует наличия ножа для снятия шкур.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	166, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Grand master skinning */
+(
+	50305, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	1024, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	1026, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	12, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	95, -- Effect_1
+	118, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	5, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	5, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	25, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	393, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	1008, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	736, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Grand Master', -- NameSubtext_Lang_enUS
+	'거장', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Grand maître', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Großmeister', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'宗师级', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'宗師級', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Gran maestro', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Gran maestro', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Великий мастер', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Master skill in skinning the hides from beasts for use in Leatherworking.  Gives a potential skinning skill of 450.  Requires a Skinning Knife.', -- Description_Lang_enUS
+	'동물의 가죽을 벗겨 가죽세공에 사용할 수 있도록 가공합니다. 무두질의 최대 숙련도가 450로 증가합니다. 무두질용 손칼이 필요합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Compétence de maîtrise en Dépeçage qui permet de récupérer des peaux et des fourrures utilisées en Travail du cuir. Permet d\'utiliser Dépeçage au niveau de compétence maximum de 450. Nécessite un Couteau à dépecer.', -- Description_Lang_koKR \(actually frFR\)
+	'Meisterliche Fertigkeiten der Kürschnerei, der Vorbereitung von Häuten von Wildtieren für die Lederverarbeitung. Verleiht eine potenzielle Kürschnerfertigkeit von 450. Es wird ein Kürschnermesser benötigt.', -- Description_Lang_frFR \(actually deDE\)
+	'宗师级的剥皮技能，让你可以从动物身上获取皮革和毛皮以用于制皮业。使你获得450点的剥皮技能上限。需要一把剥皮小刀。', -- Description_Lang_deDE \(actually zhCN\)
+	'宗師級的剝皮技能，讓你可以從動物身上獲取皮革和毛皮以用於製皮技能。使你獲得450點的剝皮技能上限。需要一把剝皮小刀。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 450 p. Requiere un cuchillo para desollar.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidad de maestro en desuello de pellejos de bestias para usarlas en peletería. Da una habilidad potencial de 450 p. Requiere un cuchillo para desollar.', -- Description_Lang_enTW \(actually esMX\)
+	'Отточенное умение снятия шкур для последующего использования в кожевничестве. Максимально доступный уровень навыка – 450. Требуется нож для снятия шкур.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	166, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Skinning */
+(
+	52158, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	0, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	3, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	274, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	50, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Skinning', -- Name_Lang_enUS
+	'무두질', -- Name_Lang_enGB \(actually koKR\)
+	'Dépeçage', -- Name_Lang_koKR \(actually frFR\)
+	'Kürschnerei', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮', -- Name_Lang_enCN \(actually zhTW\)
+	'Desuello', -- Name_Lang_zhCN \(actually esES\)
+	'Desuello', -- Name_Lang_enTW \(actually esMX\)
+	'Снятие шкур', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712188, -- NameSubtext_Lang_Mask
+	'Increases your skill in Skinning to 300.', -- Description_Lang_enUS
+	'무두질 숙련도가 300으로 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Porte votre compétence en Dépeçage à 300.', -- Description_Lang_koKR \(actually frFR\)
+	'Erhöht Eure Kürschnereifertigkeit auf 300.', -- Description_Lang_frFR \(actually deDE\)
+	'使你的剥皮技能提高到300点。', -- Description_Lang_deDE \(actually zhCN\)
+	'使你的剝皮技能提升為300點。', -- Description_Lang_enCN \(actually zhTW\)
+	'Aumenta tu habilidad en desuello a 300 p.', -- Description_Lang_zhCN \(actually esES\)
+	'Aumenta tu habilidad en desuello a 300 p.', -- Description_Lang_enTW \(actually esMX\)
+	'Повышает ваш навык снятия шкур до 300.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	64, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Worgen racials */
+/* Viciousness (Worgen racial) */
+(
+	@WorgenRacial1, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	290, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1573, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Viciousness', -- Name_Lang_enUS
+	'포악함', -- Name_Lang_enGB \(actually koKR\)
+	'Acharnement', -- Name_Lang_koKR \(actually frFR\)
+	'Garstigkeit', -- Name_Lang_frFR \(actually deDE\)
+	'恶意', -- Name_Lang_deDE \(actually zhCN\)
+	'兇惡', -- Name_Lang_enCN \(actually zhTW\)
+	'Saña', -- Name_Lang_zhCN \(actually esES\)
+	'Saña', -- Name_Lang_enTW \(actually esMX\)
+	'Озлобленность', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長，被動', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Increases critical strike chance by $s1%.', -- Description_Lang_enUS
+	'치명타율이 $s1%만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Augmente les chances de coup critique de $s1%.', -- Description_Lang_koKR \(actually frFR\)
+	'Erhöht die kritische Trefferchance um $s1%.', -- Description_Lang_frFR \(actually deDE\)
+	'使爆击几率提高$s1%。', -- Description_Lang_deDE \(actually zhCN\)
+	'致命一擊機率提高$s1%。', -- Description_Lang_enCN \(actually zhTW\)
+	'Aumenta la probabilidad de golpe crítico un $s1%.', -- Description_Lang_zhCN \(actually esES\)
+	'Aumenta la probabilidad de golpe crítico un $s1%.', -- Description_Lang_enTW \(actually esMX\)
+	'Повышает вероятность нанесения критического урона на $s1%.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Criticial strike chance increased by $s1%.', -- AuraDescription_Lang_enUS
+	'치명타율 $s1%만큼 증가', -- AuraDescription_Lang_enGB \(actually koKR\)
+	'Chances de coup critique augmentées de $s1%.', -- AuraDescription_Lang_koKR \(actually frFR\)
+	'Kritische Trefferchance um $s1% erhöht.', -- AuraDescription_Lang_frFR \(actually deDE\)
+	'爆击几率提高$s1%。', -- AuraDescription_Lang_deDE \(actually zhCN\)
+	'致命一擊機率提高$s1%。', -- AuraDescription_Lang_enCN \(actually zhTW\)
+	'Probabilidad de golpe crítico aumentada un $s1%.', -- AuraDescription_Lang_zhCN \(actually esES\)
+	'Probabilidad de golpe crítico aumentada un $s1%.', -- AuraDescription_Lang_enTW \(actually esMX\)
+	'Вероятность нанесения критического урона увеличена на $s1%.', -- AuraDescription_Lang_zhTW \(actually ruRU\)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Aberration (Worgen racial) */
+(
+	@WorgenRacial2, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	22, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	40, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	207, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Aberration', -- Name_Lang_enUS
+	'돌연변이', -- Name_Lang_enGB \(actually koKR\)
+	'Aberration', -- Name_Lang_koKR \(actually frFR\)
+	'Anomalie', -- Name_Lang_frFR \(actually deDE\)
+	'畸变', -- Name_Lang_deDE \(actually zhCN\)
+	'變異', -- Name_Lang_enCN \(actually zhTW\)
+	'Desviación', -- Name_Lang_zhCN \(actually esES\)
+	'Aberración', -- Name_Lang_enTW \(actually esMX\)
+	'Аберрация', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長，被動', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Reduces the chance you will be hit by Nature and Shadow spells by $s1%.', -- Description_Lang_enUS
+	'해로운 자연 및 암흑 마법 효과에 대한 저항력이 $s1만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Augmente votre résistance aux effets de Nature et d\'Ombre néfastes de $s1.', -- Description_Lang_koKR \(actually frFR\)
+	'Erhöht Euren Widerstand gegen schädliche Natur- und Schatteneffekte um $s1.', -- Description_Lang_frFR \(actually deDE\)
+	'使你对有害的自然和暗影效果抗性提高$s1。', -- Description_Lang_deDE \(actually zhCN\)
+	'使你對有害的暗影和自然效果的抗性提高$s1點。', -- Description_Lang_enCN \(actually zhTW\)
+	'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', -- Description_Lang_zhCN \(actually esES\)
+	'Aumenta $s1 p. tu resistencia a los efectos dañinos de Naturaleza y de las sombras.', -- Description_Lang_enTW \(actually esMX\)
+	'Повышает сопротивляемость отрицательным эффектам сил природы и темной магии на $s1.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Flayer (Worgen racial) */
+(
+	@WorgenRacial3, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	14, -- EffectBasePoints_1
+	-1001, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	98, -- EffectAura_1
+	107, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	393, -- EffectMiscValue_1
+	10, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	64, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	262, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Flayer', -- Name_Lang_enUS
+	'갈퀴손', -- Name_Lang_enGB \(actually koKR\)
+	'Ecorcheur', -- Name_Lang_koKR \(actually frFR\)
+	'Schinder', -- Name_Lang_frFR \(actually deDE\)
+	'剥皮专家', -- Name_Lang_deDE \(actually zhCN\)
+	'剝皮者', -- Name_Lang_enCN \(actually zhTW\)
+	'Despellejador', -- Name_Lang_zhCN \(actually esES\)
+	'Despellejador', -- Name_Lang_enTW \(actually esMX\)
+	'Живодер', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長，被動', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Skinning skill increased by $s1 and allows you to skin faster.', -- Description_Lang_enUS
+	'무두질 숙련도가 $s1만큼 증가하고 속도가 빨라집니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Compétence de dépeçage augmentée de $s1 et vitesse de dépeçage augmentée.', -- Description_Lang_koKR \(actually frFR\)
+	'Kürschnereifertigkeit um $s1 erhöht. Gestattet es Euch, schneller zu häuten.', -- Description_Lang_frFR \(actually deDE\)
+	'剥皮技能等级提高$s1，并加快你的剥皮速度。', -- Description_Lang_deDE \(actually zhCN\)
+	'剝皮技能提高$s1點，並使你的剝皮速度提高。', -- Description_Lang_enCN \(actually zhTW\)
+	'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', -- Description_Lang_zhCN \(actually esES\)
+	'Tu habilidad en desuello aumenta $s1 p. y te permite desollar más rápido.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык снятия шкур увеличен на $s1, вы снимаете шкуры быстрее.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	3, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Darkflight (Worgen racial) */
+(
+	@WorgenRacial4, -- ID
+	44, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	32, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	120000, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	1, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	39, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	31, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	6, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	366937, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Darkflight', -- Name_Lang_enUS
+	'암흑질주', -- Name_Lang_enGB \(actually koKR\)
+	'Sombre course', -- Name_Lang_koKR \(actually frFR\)
+	'Finstere Pfade', -- Name_Lang_frFR \(actually deDE\)
+	'疾步夜行', -- Name_Lang_deDE \(actually zhCN\)
+	'暗月疾奔', -- Name_Lang_enCN \(actually zhTW\)
+	'Huida oscura', -- Name_Lang_zhCN \(actually esES\)
+	'Ímpetu oscuro', -- Name_Lang_enTW \(actually esMX\)
+	'Легкость тьмы', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'종족 특성', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Activates your true form, increasing current movement speed by an additional $s1% for $d.', -- Description_Lang_enUS
+	'진정한 모습으로 변신하여 $d 동안 이동 속도가 추가로 $s1%만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Active votre forme véritable, ce qui augmente votre vitesse de déplacement actuelle de $s1% supplémentaires pendant $d.', -- Description_Lang_koKR \(actually frFR\)
+	'Aktiviert Eure wahre Form und erhöht Euer derzeitiges Bewegungstempo $d lang um zusätzlich $s1%.', -- Description_Lang_frFR \(actually deDE\)
+	'进入你的原形，使当前移动速度提高$s1%，持续$d。', -- Description_Lang_deDE \(actually zhCN\)
+	'現出原形，使當前移動速度額外提高$s1%，持續$d。', -- Description_Lang_enCN \(actually zhTW\)
+	'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento actual un $s1% durante $d.', -- Description_Lang_zhCN \(actually esES\)
+	'Activa tu forma verdadera, lo que aumenta tu velocidad de movimiento un $s1% durante $d.', -- Description_Lang_enTW \(actually esMX\)
+	'Ворген принимает свой истинный облик. Скорость его передвижения повышается на $s1% на $d.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'True form activated, movement speed increased by an additional $s1%.', -- AuraDescription_Lang_enUS
+	'진정한 모습으로 변신하여 이동 속도 추가로 $s1%만큼 증가', -- AuraDescription_Lang_enGB \(actually koKR\)
+	'Forme véritable activée, vitesse de déplacement augmentée de $s1% supplémentaires.', -- AuraDescription_Lang_koKR \(actually frFR\)
+	'Zeigt die wahre Gestalt. Bewegungstempo um zusätzlich $s1% erhöht.', -- AuraDescription_Lang_frFR \(actually deDE\)
+	'进入原形，移动速度额外提高$s1%。', -- AuraDescription_Lang_deDE \(actually zhCN\)
+	'現出原形，移動速度提高$s1%。', -- AuraDescription_Lang_enCN \(actually zhTW\)
+	'Forma verdadera activada y velocidad de movimiento aumentada un $s1% extra.', -- AuraDescription_Lang_zhCN \(actually esES\)
+	'Forma verdadera activada. Velocidad de movimiento aumentada un $s1%.', -- AuraDescription_Lang_enTW \(actually esMX\)
+	'Принят истинный облик, скорость передвижения повышена на $s1%.', -- AuraDescription_Lang_zhTW \(actually ruRU\)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	8, -- SpellClassSet
+	64, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	2, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Human Form (semi-permanent, male) */
+(
+	68994, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	256|262144|134217728|268435456|536870912, -- Attributes: 256: SPELL_ATTR0_DO_NOT_LOG, 262144: SPELL_ATTR0_DO_NOT_SHEATH, 134217728: SPELL_ATTR0_ALLOW_WHILE_SITTING, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	268435456, -- AttributesEx: 268435456: SPELL_ATTR1_NO_AURA_ICON
+	0, -- AttributesEx2
+	1048576|536870912, -- AttributesEx3: 1048576: SPELL_ATTR3_ALLOW_AURA_WHILE_DEAD, 536870912: SPELL_ATTR3_IGNORE_CASTER_MODIFIERS
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	4096|131072, -- AttributesEx6: 4096: SPELL_ATTR6_ALLOW_WHILE_RIDING_VEHICLE, 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	@WorgenRacial4, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	55276, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	463876, -- SpellIconID
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Two Forms", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Turn into your currently inactive form.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Human form", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	8, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Two Forms (semi-permanent, female) */
+(
+	110020, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	256|262144|134217728|268435456|536870912, -- Attributes: 256: SPELL_ATTR0_DO_NOT_LOG, 262144: SPELL_ATTR0_DO_NOT_SHEATH, 134217728: SPELL_ATTR0_ALLOW_WHILE_SITTING, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	268435456, -- AttributesEx: 268435456: SPELL_ATTR1_NO_AURA_ICON
+	0, -- AttributesEx2
+	1048576|536870912, -- AttributesEx3: 1048576: SPELL_ATTR3_ALLOW_AURA_WHILE_DEAD, 536870912: SPELL_ATTR3_IGNORE_CASTER_MODIFIERS
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	4096|131072, -- AttributesEx6: 4096: SPELL_ATTR6_ALLOW_WHILE_RIDING_VEHICLE, 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	@WorgenRacial4, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	55277, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	463876, -- SpellIconID
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Two Forms", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Turn into your currently inactive form.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Human form", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	8, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Two Forms (male) */
+(
+	68996, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	256|262144|134217728|268435456|536870912, -- Attributes: 256: SPELL_ATTR0_DO_NOT_LOG, 262144: SPELL_ATTR0_DO_NOT_SHEATH, 134217728: SPELL_ATTR0_ALLOW_WHILE_SITTING, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	268435456, -- AttributesEx: 268435456: SPELL_ATTR1_NO_AURA_ICON
+	0, -- AttributesEx2
+	1048576|536870912, -- AttributesEx3: 1048576: SPELL_ATTR3_ALLOW_AURA_WHILE_DEAD, 536870912: SPELL_ATTR3_IGNORE_CASTER_MODIFIERS
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	4096|131072, -- AttributesEx6: 4096: SPELL_ATTR6_ALLOW_WHILE_RIDING_VEHICLE, 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	@WorgenRacial4, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	4096|8192, -- AuraInterruptFlags: 4096: AURA_INTERRUPT_FLAG_MELEE_ATTACK, 8192: AURA_INTERRUPT_FLAG_SPELL_ATTACK
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	55276, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	463876, -- SpellIconID
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Two Forms", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Turn into your currently inactive form.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Human form", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	8, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Two Forms (female) */
+(
+	68995, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	256|262144|134217728|268435456|536870912, -- Attributes: 256: SPELL_ATTR0_DO_NOT_LOG, 262144: SPELL_ATTR0_DO_NOT_SHEATH, 134217728: SPELL_ATTR0_ALLOW_WHILE_SITTING, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	268435456, -- AttributesEx: 268435456: SPELL_ATTR1_NO_AURA_ICON
+	0, -- AttributesEx2
+	1048576|536870912, -- AttributesEx3: 1048576: SPELL_ATTR3_ALLOW_AURA_WHILE_DEAD, 536870912: SPELL_ATTR3_IGNORE_CASTER_MODIFIERS
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	4096|131072, -- AttributesEx6: 4096: SPELL_ATTR6_ALLOW_WHILE_RIDING_VEHICLE, 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	@WorgenRacial4, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	4096|8192, -- AuraInterruptFlags: 4096: AURA_INTERRUPT_FLAG_MELEE_ATTACK, 8192: AURA_INTERRUPT_FLAG_SPELL_ATTACK
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	55277, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	463876, -- SpellIconID
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Two Forms", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Turn into your currently inactive form.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Human form", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	8, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Running Wild (male, 60%) */
+(
+	87840, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16|32768|65536|1048576|268435456|536870912, -- Attributes: 16: SPELL_ATTR0_IS_ABILITY, 32768: SPELL_ATTR0_OUTDOORS_ONLY, 65536: SPELL_ATTR0_NOT_SHAPESHIFTED, 1048576: SPELL_ATTR0_CANCELS_AUTO_ATTACK_COMBAT, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3: 536870912: SPELL_ATTR3_IGNORE_CASTER_AND_TARGET_RESTRICTIONS
+	134217728, -- AttributesEx4: 134217728: SPELL_ATTR4_FORCE_DISPLAY_CASTBAR
+	0, -- AttributesEx5
+	131072, -- AttributesEx6: 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	4, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	2048|4096|8192|32768|131072, -- AuraInterruptFlags: 2048: AURA_INTERRUPT_FLAG_USE, 4096: AURA_INTERRUPT_FLAG_MELEE_ATTACK, 8192: AURA_INTERRUPT_FLAG_SPELL_ATTACK, 32768: AURA_INTERRUPT_FLAG_TRANSFORM, 131072: AURA_INTERRUPT_FLAG_MOUNT
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	20, -- BaseLevel
+	20, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	59, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	31, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+    @WorgenWildMaleTemplate, -- EffectMiscValue_1: Running Wild (male)
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	5499, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	514641, -- SpellIconID: Running Wild
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Running Wild", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Drop to all fours to run as fast as a wild animal.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Ground speed increased by $s2%.", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Running Wild (male, 100%) */
+(
+	110010, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16|32768|65536|1048576|268435456|536870912, -- Attributes: 16: SPELL_ATTR0_IS_ABILITY, 32768: SPELL_ATTR0_OUTDOORS_ONLY, 65536: SPELL_ATTR0_NOT_SHAPESHIFTED, 1048576: SPELL_ATTR0_CANCELS_AUTO_ATTACK_COMBAT, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3: 536870912: SPELL_ATTR3_IGNORE_CASTER_AND_TARGET_RESTRICTIONS
+	134217728, -- AttributesEx4: 134217728: SPELL_ATTR4_FORCE_DISPLAY_CASTBAR
+	0, -- AttributesEx5
+	131072, -- AttributesEx6: 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	4, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	2048|4096|8192|32768|131072, -- AuraInterruptFlags: 2048: AURA_INTERRUPT_FLAG_USE, 4096: AURA_INTERRUPT_FLAG_MELEE_ATTACK, 8192: AURA_INTERRUPT_FLAG_SPELL_ATTACK, 32768: AURA_INTERRUPT_FLAG_TRANSFORM, 131072: AURA_INTERRUPT_FLAG_MOUNT
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	20, -- BaseLevel
+	20, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	99, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	31, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+    @WorgenWildMaleTemplate, -- EffectMiscValue_1: Running Wild (male)
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	5499, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	514641, -- SpellIconID: Running Wild
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Running Wild", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Drop to all fours to run as fast as a wild animal.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Ground speed increased by $s2%.", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Running Wild (female, 60%) */
+(
+	87841, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16|32768|65536|1048576|268435456|536870912, -- Attributes: 16: SPELL_ATTR0_IS_ABILITY, 32768: SPELL_ATTR0_OUTDOORS_ONLY, 65536: SPELL_ATTR0_NOT_SHAPESHIFTED, 1048576: SPELL_ATTR0_CANCELS_AUTO_ATTACK_COMBAT, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3: 536870912: SPELL_ATTR3_IGNORE_CASTER_AND_TARGET_RESTRICTIONS
+	134217728, -- AttributesEx4: 134217728: SPELL_ATTR4_FORCE_DISPLAY_CASTBAR
+	0, -- AttributesEx5
+	131072, -- AttributesEx6: 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	4, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	2048|4096|8192|32768|131072, -- AuraInterruptFlags: 2048: AURA_INTERRUPT_FLAG_USE, 4096: AURA_INTERRUPT_FLAG_MELEE_ATTACK, 8192: AURA_INTERRUPT_FLAG_SPELL_ATTACK, 32768: AURA_INTERRUPT_FLAG_TRANSFORM, 131072: AURA_INTERRUPT_FLAG_MOUNT
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	20, -- BaseLevel
+	20, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	59, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	31, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+    @WorgenWildFemaleTemplate, -- EffectMiscValue_1: Running Wild (female)
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	5499, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	514641, -- SpellIconID: Running Wild
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Running Wild", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Drop to all fours to run as fast as a wild animal.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Ground speed increased by $s2%.", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Running Wild (female, 100%) */
+(
+	110011, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	16|32768|65536|1048576|268435456|536870912, -- Attributes: 16: SPELL_ATTR0_IS_ABILITY, 32768: SPELL_ATTR0_OUTDOORS_ONLY, 65536: SPELL_ATTR0_NOT_SHAPESHIFTED, 1048576: SPELL_ATTR0_CANCELS_AUTO_ATTACK_COMBAT, 268435456: SPELL_ATTR0_NOT_IN_COMBAT_ONLY_PEACEFUL, 536870912: SPELL_ATTR0_NO_IMMUNITIES
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3: 536870912: SPELL_ATTR3_IGNORE_CASTER_AND_TARGET_RESTRICTIONS
+	134217728, -- AttributesEx4: 134217728: SPELL_ATTR4_FORCE_DISPLAY_CASTBAR
+	0, -- AttributesEx5
+	131072, -- AttributesEx6: 131072: SPELL_ATTR6_ALLOW_EQUIP_WHILE_CASTING
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	4, -- CastingTimeIndex
+	1500, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	2048|4096|8192|32768|131072, -- AuraInterruptFlags: 2048: AURA_INTERRUPT_FLAG_USE, 4096: AURA_INTERRUPT_FLAG_MELEE_ATTACK, 8192: AURA_INTERRUPT_FLAG_SPELL_ATTACK, 32768: AURA_INTERRUPT_FLAG_TRANSFORM, 131072: AURA_INTERRUPT_FLAG_MOUNT
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	20, -- BaseLevel
+	20, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	99, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	56, -- EffectAura_1
+	31, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+    @WorgenWildFemaleTemplate, -- EffectMiscValue_1: Running Wild (female)
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	5499, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	514641, -- SpellIconID: Running Wild
+	122, -- ActiveIconID
+	0, -- SpellPriority
+	"Running Wild", -- Name_Lang_enUS
+	"", -- Name_Lang_enGB (actually koKR)
+	"", -- Name_Lang_koKR (actually frFR)
+	"", -- Name_Lang_frFR (actually deDE)
+	"", -- Name_Lang_deDE (actually zhCN)
+	"", -- Name_Lang_enCN (actually zhTW)
+	"", -- Name_Lang_zhCN (actually esES)
+	"", -- Name_Lang_enTW (actually esMX)
+	"", -- Name_Lang_zhTW (actually ruRU)
+	"", -- Name_Lang_esES
+	"", -- Name_Lang_esMX
+	"", -- Name_Lang_ruRU
+	"", -- Name_Lang_ptPT
+	"", -- Name_Lang_ptBR
+	"", -- Name_Lang_itIT
+	"", -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	"Racial", -- NameSubtext_Lang_enUS
+	"", -- NameSubtext_Lang_enGB (actually koKR)
+	"", -- NameSubtext_Lang_koKR (actually frFR)
+	"", -- NameSubtext_Lang_frFR (actually deDE)
+	"", -- NameSubtext_Lang_deDE (actually zhCN)
+	"", -- NameSubtext_Lang_enCN (actually zhTW)
+	"", -- NameSubtext_Lang_zhCN (actually esES)
+	"", -- NameSubtext_Lang_enTW (actually esMX)
+	"", -- NameSubtext_Lang_zhTW (actually ruRU)
+	"", -- NameSubtext_Lang_esES
+	"", -- NameSubtext_Lang_esMX
+	"", -- NameSubtext_Lang_ruRU
+	"", -- NameSubtext_Lang_ptPT
+	"", -- NameSubtext_Lang_ptBR
+	"", -- NameSubtext_Lang_itIT
+	"", -- NameSubtext_Lang_Unk
+	16712172, -- NameSubtext_Lang_Mask
+	"Drop to all fours to run as fast as a wild animal.", -- Description_Lang_enUS
+	"", -- Description_Lang_enGB (actually koKR)
+	"", -- Description_Lang_koKR (actually frFR)
+	"", -- Description_Lang_frFR (actually deDE)
+	"", -- Description_Lang_deDE (actually zhCN)
+	"", -- Description_Lang_enCN (actually zhTW)
+	"", -- Description_Lang_zhCN (actually esES)
+	"", -- Description_Lang_enTW (actually esMX)
+	"", -- Description_Lang_zhTW (actually ruRU)
+	"", -- Description_Lang_esES
+	"", -- Description_Lang_esMX
+	"", -- Description_Lang_ruRU
+	"", -- Description_Lang_ptPT
+	"", -- Description_Lang_ptBR
+	"", -- Description_Lang_itIT
+	"", -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	"Ground speed increased by $s2%.", -- AuraDescription_Lang_enUS
+	"", -- AuraDescription_Lang_enGB (actually koKR)
+	"", -- AuraDescription_Lang_koKR (actually frFR)
+	"", -- AuraDescription_Lang_frFR (actually deDE)
+	"", -- AuraDescription_Lang_deDE (actually zhCN)
+	"", -- AuraDescription_Lang_enCN (actually zhTW)
+	"", -- AuraDescription_Lang_zhCN (actually esES)
+	"", -- AuraDescription_Lang_enTW (actually esMX)
+	"", -- AuraDescription_Lang_zhTW (actually ruRU)
+	"", -- AuraDescription_Lang_esES
+	"", -- AuraDescription_Lang_esMX
+	"", -- AuraDescription_Lang_ruRU
+	"", -- AuraDescription_Lang_ptPT
+	"", -- AuraDescription_Lang_ptBR
+	"", -- AuraDescription_Lang_itIT
+	"", -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Goblin Racials */
+/* Rocket Barrage (goblin racial) */
+(
+	@GoblinRacial1, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	0, -- Attributes
+	136, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	120000, -- RecoveryTime
+	120000, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	4, -- RangeIndex
+	10, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	2, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	20, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	15, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	0, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	12397, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	2665, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Rocket Barrage', -- Name_Lang_enUS
+	'로켓 연발탄', -- Name_Lang_enGB \(actually koKR\)
+	'Barrage de fusées', -- Name_Lang_koKR \(actually frFR\)
+	'Raketenbeschuss', -- Name_Lang_frFR \(actually deDE\)
+	'火箭弹幕', -- Name_Lang_deDE \(actually zhCN\)
+	'火箭彈', -- Name_Lang_enCN \(actually zhTW\)
+	'Tromba de cohetes', -- Name_Lang_zhCN \(actually esES\)
+	'Tromba de cohetes', -- Name_Lang_enTW \(actually esMX\)
+	'Ракетный обстрел', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'종족 특성', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Launches your belt rockets at an enemy, dealing $s1 fire damage.', -- Description_Lang_enUS
+	'적에게 허리띠 로켓을 발사하여 $s1의 화염 피해를 입힙니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Projette vos fusées de ceinture sur un ennemi et lui inflige $s1 points de dégâts de Feu.', -- Description_Lang_koKR \(actually frFR\)
+	'Feuert Eure Gürtelraketen auf einen Feind ab, die $s1 Feuerschaden verursachen.', -- Description_Lang_frFR \(actually deDE\)
+	'向一个敌人发射腰带上的火箭，造成$s1点火焰伤害。', -- Description_Lang_deDE \(actually zhCN\)
+	'向敵人發射火箭，對其造成$s1點火焰傷害。', -- Description_Lang_enCN \(actually zhTW\)
+	'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', -- Description_Lang_zhCN \(actually esES\)
+	'Lanza a un enemigo los cohetes de tu cinturón, que infligen $s1 p. de daño de Fuego.', -- Description_Lang_enTW \(actually esMX\)
+	'Выстрел из закрепленного на поясе гранатомета, наносящий $s1 ед. урона от огня.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	1500, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	4, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Time is Money (goblin racial) */
+(
+	@GoblinRacial2, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	64, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	1, -- EffectBasePoints_1
+	1, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	192, -- EffectAura_1
+	216, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	369214, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Time is Money', -- Name_Lang_enUS
+	'시간은 돈', -- Name_Lang_enGB \(actually koKR\)
+	'Le temps, c\'est de l\'argent', -- Name_Lang_koKR \(actually frFR\)
+	'Zeit ist Geld', -- Name_Lang_frFR \(actually deDE\)
+	'时间就是金钱', -- Name_Lang_deDE \(actually zhCN\)
+	'時間就是金錢', -- Name_Lang_enCN \(actually zhTW\)
+	'El tiempo es oro', -- Name_Lang_zhCN \(actually esES\)
+	'El tiempo es oro', -- Name_Lang_enTW \(actually esMX\)
+	'Время - деньги', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長，被動', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Cash in on a 1% increase to attack and casting speed.', -- Description_Lang_enUS
+	'공격 및 시전 속도가 $s1%만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Encaisse une augmentation de $s1% des vitesses d\'attaque et d\'incantation.', -- Description_Lang_koKR \(actually frFR\)
+	'Lasst Euch eine Erhöhung von Angriffs- und Zaubertempo um $s1% auszahlen.', -- Description_Lang_frFR \(actually deDE\)
+	'趁机使攻击和施法速度提高$s1%。', -- Description_Lang_deDE \(actually zhCN\)
+	'攻擊和施法速度提高$s1%並從中牟利。', -- Description_Lang_enCN \(actually zhTW\)
+	'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', -- Description_Lang_zhCN \(actually esES\)
+	'Cobra un $s1% de aumento de velocidad de ataque y de lanzamiento de hechizos.', -- Description_Lang_enTW \(actually esMX\)
+	'Скорость атаки и произнесения заклинаний повышена на $s1%, причем совершенно бесплатно!', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Best Deals Anywhere (goblin racial) */
+(
+	@GoblinRacial3, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	64, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	0, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	0, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	4331, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Best Deals Anywhere', -- Name_Lang_enUS
+	'거래의 달인', -- Name_Lang_enGB \(actually koKR\)
+	'Dur en affaires', -- Name_Lang_koKR \(actually frFR\)
+	'Schnäppchenjäger', -- Name_Lang_frFR \(actually deDE\)
+	'哪里都有好买卖', -- Name_Lang_deDE \(actually zhCN\)
+	'最佳折扣', -- Name_Lang_enCN \(actually zhTW\)
+	'Los mejores precios del mercado', -- Name_Lang_zhCN \(actually esES\)
+	'Los mejores precios del mercado', -- Name_Lang_enTW \(actually esMX\)
+	'Самые выгодные цены!', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長，被動', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Always receive the best possible gold discount, regardless of faction.', -- Description_Lang_enUS
+	'평판에 관계없이 항상 최대 할인을 받습니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Vous bénéficiez toujours de la meilleure réduction de prix, quelle que soit votre réputation envers la faction.', -- Description_Lang_koKR \(actually frFR\)
+	'Bekommt immer den bestmöglichen Goldrabatt, egal bei welcher Fraktion.', -- Description_Lang_frFR \(actually deDE\)
+	'无论和哪个阵营进行交易都能获得最优惠的折扣。', -- Description_Lang_deDE \(actually zhCN\)
+	'不論陣營，永遠可獲得最佳的買賣折扣。', -- Description_Lang_enCN \(actually zhTW\)
+	'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', -- Description_Lang_zhCN \(actually esES\)
+	'Al comerciar con oro, consigue siempre el mejor descuento con cualquier facción.', -- Description_Lang_enTW \(actually esMX\)
+	'Максимальные скидки у всех фракций.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	0, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Better Living Through Chemistry (goblin racial) */
+(
+	@GoblinRacial4, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	14, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	98, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	171, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	370670, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Better Living Through Chemistry', -- Name_Lang_enUS
+	'연금술로 나아지는 삶', -- Name_Lang_enGB \(actually koKR\)
+	'La chimie pour une vie meilleure', -- Name_Lang_koKR \(actually frFR\)
+	'Fortschritt durch Chemie', -- Name_Lang_frFR \(actually deDE\)
+	'化学让生活更美好', -- Name_Lang_deDE \(actually zhCN\)
+	'化學讓人生更精彩', -- Name_Lang_enCN \(actually zhTW\)
+	'Es cuestión de química', -- Name_Lang_zhCN \(actually esES\)
+	'Es cuestión de química', -- Name_Lang_enTW \(actually esMX\)
+	'Занимательная химия', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Passive Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長，被動', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Alchemy skill increased by $s1.', -- Description_Lang_enUS
+	'연금술 숙련도가 $s1만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Compétence en alchimie augmentée de $s1.', -- Description_Lang_koKR \(actually frFR\)
+	'Alchemiefertigkeit um $s1 erhöht.', -- Description_Lang_frFR \(actually deDE\)
+	'炼金术技能提高$s1点。', -- Description_Lang_deDE \(actually zhCN\)
+	'鍊金術技能提高$s1點。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidad en alquimia aumentada $s1 p.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidad en alquimia aumentada $s1 p.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык алхимии повышен на $s1.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Pack Hobgoblin (goblin racial) */
+(
+	@GoblinRacial5, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	256, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	256, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	1800000, -- RecoveryTime
+	18000, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	3, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	28, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	47, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	7, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	36613, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	2421, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	370211, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Pack Hobgoblin', -- Name_Lang_enUS
+	'짐꾼 밥통고블린', -- Name_Lang_enGB \(actually koKR\)
+	'Hobgobelin de bât', -- Name_Lang_koKR \(actually frFR\)
+	'Packhobgoblin', -- Name_Lang_frFR \(actually deDE\)
+	'呼叫大胖', -- Name_Lang_deDE \(actually zhCN\)
+	'攜帶大哥布林', -- Name_Lang_enCN \(actually zhTW\)
+	'Hobgoblin de bolsillo', -- Name_Lang_zhCN \(actually esES\)
+	'Hobgoblin de bolsillo', -- Name_Lang_enTW \(actually esMX\)
+	'Подручный хобгоблин', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'종족 특성', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Calls in your friend, Gobber, allowing you bank access for $d.', -- Description_Lang_enUS
+	'친구 고버를 불러 $d 동안 은행을 이용할 수 있습니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Appelle votre ami, Gobeur, ce qui vous donne accès à votre banque pendant $d.', -- Description_Lang_koKR \(actually frFR\)
+	'Ruft Euren Freund Gobber, der Euch $d lang Zugriff auf Euer Bankfach gewährt.', -- Description_Lang_frFR \(actually deDE\)
+	'召唤你的朋友大胖，让你能够在$d内使用银行。', -- Description_Lang_deDE \(actually zhCN\)
+	'呼喚你的朋友古柏，使你能夠使用銀行$d。', -- Description_Lang_enCN \(actually zhTW\)
+	'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', -- Description_Lang_zhCN \(actually esES\)
+	'Llama a tu amigo Gargajo, que te permite acceder al banco durante $d.', -- Description_Lang_enTW \(actually esMX\)
+	'Вызов вашего приятеля Гоббера. Дает доступ к банку на $d.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	1500, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	4, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Rocket Jump (goblin racial) */
+(
+	@GoblinRacial6, -- ID
+	1252, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	537133072, -- Attributes
+	1024, -- AttributesEx
+	67108864, -- AttributesEx2
+	1073807360, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	90000, -- RecoveryTime
+	90000, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	138, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	0, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	74, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	0, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	200, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	7779, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	370769, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Rocket Jump', -- Name_Lang_enUS
+	'로켓 도약', -- Name_Lang_enGB \(actually koKR\)
+	'Fusées de saut', -- Name_Lang_koKR \(actually frFR\)
+	'Raketensprung', -- Name_Lang_frFR \(actually deDE\)
+	'火箭跳', -- Name_Lang_deDE \(actually zhCN\)
+	'火箭跳躍', -- Name_Lang_enCN \(actually zhTW\)
+	'Salto con cohete', -- Name_Lang_zhCN \(actually esES\)
+	'Salto con cohete', -- Name_Lang_enTW \(actually esMX\)
+	'Реактивный прыжок', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'종족 특성', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Volksfähigkeit', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Activates your rocket belt to jump forward.', -- Description_Lang_enUS
+	'로켓 허리띠를 작동시켜 전방으로 도약합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Active votre ceinture de fusées pour vous faire sauter en avant.', -- Description_Lang_koKR \(actually frFR\)
+	'Aktiviert Euren Raketengürtel, um vorwärts zu springen.', -- Description_Lang_frFR \(actually deDE\)
+	'使用你的火箭腰带向前跳跃。', -- Description_Lang_deDE \(actually zhCN\)
+	'啟動你的火箭腰帶，往前跳躍。', -- Description_Lang_enCN \(actually zhTW\)
+	'Activa tu cinturón de cohetes para saltar hacia delante.', -- Description_Lang_zhCN \(actually esES\)
+	'Activa tu cinturón de cohetes para saltar hacia delante.', -- Description_Lang_enTW \(actually esMX\)
+	'Прыжок вперед на большое расстояние с помощью реактивного пояса.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	1500, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	4, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Mounts */
+/* Goblin Trike */
+(
+	87090, -- ID
+	0, -- Category
+	0, -- DispelType
+	21, -- Mechanic
+	269844752, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	131072, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	128, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	1, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	6, -- Effect_3
+	0, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	1, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	309, -- EffectBasePoints_2
+	59, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	78, -- EffectAura_1
+	207, -- EffectAura_2
+	32, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	46754, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	7644, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	936, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Goblin Trike', -- Name_Lang_enUS
+	'고블린 세발차', -- Name_Lang_enGB \(actually koKR\)
+	'Triklomoteur gobelin', -- Name_Lang_koKR \(actually frFR\)
+	'Goblinisches Trike', -- Name_Lang_frFR \(actually deDE\)
+	'地精三轮摩托', -- Name_Lang_deDE \(actually zhCN\)
+	'哥布林機動車', -- Name_Lang_enCN \(actually zhTW\)
+	'Triciclo goblin', -- Name_Lang_zhCN \(actually esES\)
+	'Triciclo goblin', -- Name_Lang_enTW \(actually esMX\)
+	'Гоблинский трицикл', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	
+'Summons and dismisses a rideable Goblin Trike.', -- Description_Lang_enUS
+	'고블린 세발차에 올라타거나 내립니다.', -- Description_Lang_enGB (actually koKR)
+	'Invoque et renvoie un triklomoteur gobelin.', -- Description_Lang_koKR (actually frFR)
+	'Beschwört ein reitbares goblinisches Trike und gibt es wieder frei.', -- Description_Lang_frFR (actually deDE)
+	'召唤或解散一个可供骑乘的地精三轮摩托。', -- Description_Lang_deDE (actually zhCN)
+	'召喚或解散一臺可供騎乘的哥布林機動車。', -- Description_Lang_enCN (actually zhTW)
+	'Invoca y retira un triciclo goblin que se puede montar.', -- Description_Lang_zhCN (actually esES)
+	'Invoca y retira un triciclo goblin que se puede montar.', -- Description_Lang_enTW (actually esMX)
+	'Позволяет призывать и отпускать гоблинский трицикл.', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB \(actually koKR\)
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR \(actually frFR\)
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR \(actually deDE\)
+	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE \(actually zhCN\)
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN \(actually zhTW\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN \(actually esES\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW \(actually esMX\)
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW \(actually ruRU\)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Goblin Turbo-Trike */
+(
+	87091, -- ID
+	0, -- Category
+	0, -- DispelType
+	21, -- Mechanic
+	269844752, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	131072, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	128, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	1, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	6, -- Effect_3
+	0, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	1, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	309, -- EffectBasePoints_2
+	99, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	78, -- EffectAura_1
+	207, -- EffectAura_2
+	32, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	46755, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	7644, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	343, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Goblin Turbo-Trike', -- Name_Lang_enUS
+	'고블린 터보 세발차', -- Name_Lang_enGB \(actually koKR\)
+	'Triklomoteur turbo gobelin', -- Name_Lang_koKR \(actually frFR\)
+	'Goblinisches Turbotrike', -- Name_Lang_frFR \(actually deDE\)
+	'地精三轮摩托涡轮增压型', -- Name_Lang_deDE \(actually zhCN\)
+	'哥布林渦輪機動車', -- Name_Lang_enCN \(actually zhTW\)
+	'Turbo triciclo goblin', -- Name_Lang_zhCN \(actually esES\)
+	'Turbo triciclo goblin', -- Name_Lang_enTW \(actually esMX\)
+	'Гоблинский турботрицикл', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Summons and dismisses a Goblin Turbo-Trike.', -- Description_Lang_enUS
+	'고블린 세발차에 올라타거나 내립니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Invoque et renvoie un Triklomoteur turbo gobelin.', -- Description_Lang_koKR \(actually frFR\)
+	'Beschwört ein reitbares goblinisches Turbotrike oder gibt es wieder frei.', -- Description_Lang_frFR \(actually deDE\)
+	'召唤或解散一辆地精三轮摩托涡轮增压型。', -- Description_Lang_deDE \(actually zhCN\)
+	'召喚或解散一臺可供騎乘的哥布林渦輪機動車。', -- Description_Lang_enCN \(actually zhTW\)
+	'Invoca y retira un turbo triciclo goblin.', -- Description_Lang_zhCN \(actually esES\)
+	'Invoca y retira un turbo triciclo goblin.', -- Description_Lang_enTW \(actually esMX\)
+	'Позволяет призывать и отпускать гоблинский турботрицикл.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB \(actually koKR\)
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR \(actually frFR\)
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR \(actually deDE\)
+	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE \(actually zhCN\)
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN \(actually zhTW\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN \(actually esES\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW \(actually esMX\)
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW \(actually ruRU\)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Mountain Horse */
+(
+	103195, -- ID
+	0, -- Category
+	0, -- DispelType
+	21, -- Mechanic
+	269844752, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	128, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	1, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	6, -- Effect_3
+	0, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	1, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	309, -- EffectBasePoints_2
+	59, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	78, -- EffectAura_1
+	207, -- EffectAura_2
+	32, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	55272, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	7644, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1176, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Mountain Horse', -- Name_Lang_enUS
+	'산악 야생마', -- Name_Lang_enGB \(actually koKR\)
+	'Cheval des montagnes', -- Name_Lang_koKR \(actually frFR\)
+	'Bergpferd', -- Name_Lang_frFR \(actually deDE\)
+	'高山马', -- Name_Lang_deDE \(actually zhCN\)
+	'高山馬', -- Name_Lang_enCN \(actually zhTW\)
+	'Caballo de montaña', -- Name_Lang_zhCN \(actually esES\)
+	'Caballo de montaña', -- Name_Lang_enTW \(actually esMX\)
+	'Горный конь', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	
+'Summons and dismisses a rideable Mountain Horse.', -- Description_Lang_enUS
+	'산악 야생마에 올라타거나 내립니다.', -- Description_Lang_enGB (actually koKR)
+	'Invoque et renvoie un cheval des montagnes.', -- Description_Lang_koKR (actually frFR)
+	'Beschwört ein reitbares Bergpferd oder gibt es wieder frei.', -- Description_Lang_frFR (actually deDE)
+	'召唤或解散一匹可供骑乘的高山马。', -- Description_Lang_deDE (actually zhCN)
+	'召喚或解散一隻可供騎乘的高山馬。', -- Description_Lang_enCN (actually zhTW)
+	'Invoca y retira a un caballo de montaña que se puede montar.', -- Description_Lang_zhCN (actually esES)
+	'Invoca y retira a un caballo de montaña que se puede montar.', -- Description_Lang_enTW (actually esMX)
+	'Призывает или отпускает горного коня.', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB \(actually koKR\)
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR \(actually frFR\)
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR \(actually deDE\)
+	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE \(actually zhCN\)
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN \(actually zhTW\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN \(actually esES\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW \(actually esMX\)
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW \(actually ruRU\)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+/* Swift Mountain Horse */
+(
+	103196, -- ID
+	0, -- Category
+	0, -- DispelType
+	21, -- Mechanic
+	269844752, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	536870912, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	31, -- InterruptFlags
+	128, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	1, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	6, -- Effect_3
+	0, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	1, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	309, -- EffectBasePoints_2
+	99, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	78, -- EffectAura_1
+	207, -- EffectAura_2
+	32, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	55273, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	7644, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1176, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Swift Mountain Horse', -- Name_Lang_enUS
+	'날쌘 산악 야생마', -- Name_Lang_enGB \(actually koKR\)
+	'Cheval des montagnes rapide', -- Name_Lang_koKR \(actually frFR\)
+	'Schnelles Bergpferd', -- Name_Lang_frFR \(actually deDE\)
+	'迅捷高山马', -- Name_Lang_deDE \(actually zhCN\)
+	'迅捷高山馬', -- Name_Lang_enCN \(actually zhTW\)
+	'Caballo de montaña presto', -- Name_Lang_zhCN \(actually esES\)
+	'Caballo de montaña presto', -- Name_Lang_enTW \(actually esMX\)
+	'Стремительный горный конь', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	
+'Summons and dismisses a rideable Swift Mountain Horse.', -- Description_Lang_enUS
+	'날쌘 산악 야생마에 올라타거나 내립니다.', -- Description_Lang_enGB (actually koKR)
+	'Invoque et renvoie un cheval des montagnes rapide.', -- Description_Lang_koKR (actually frFR)
+	'Beschwört ein reitbares schnelles Bergpferd oder gibt es wieder frei.', -- Description_Lang_frFR (actually deDE)
+	'召唤或解散一匹可供骑乘的迅捷高山马。', -- Description_Lang_deDE (actually zhCN)
+	'召喚或解散一隻可供騎乘的迅捷高山馬。', -- Description_Lang_enCN (actually zhTW)
+	'Invoca y retira a un caballo de montaña presto que se puede montar.', -- Description_Lang_zhCN (actually esES)
+	'Invoca y retira a un caballo de montaña presto que se puede montar.', -- Description_Lang_enTW (actually esMX)
+	'Призывает или отпускает стремительного горного коня.', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Increases ground speed by $s3%.', -- AuraDescription_Lang_enUS
+	'이동 속도 $s3%만큼 증가', -- AuraDescription_Lang_enGB \(actually koKR\)
+	'Augmente la vitesse au sol de $s3%.', -- AuraDescription_Lang_koKR \(actually frFR\)
+	'Erhöht Tempo am Boden um $s3%.', -- AuraDescription_Lang_frFR \(actually deDE\)
+	'地面速度提高$s3%。', -- AuraDescription_Lang_deDE \(actually zhCN\)
+	'地面移動速度提高$s3%。', -- AuraDescription_Lang_enCN \(actually zhTW\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_zhCN \(actually esES\)
+	'Aumenta la velocidad por tierra un $s3%.', -- AuraDescription_Lang_enTW \(actually esMX\)
+	'Скорость бега повышена на $s3%.', -- AuraDescription_Lang_zhTW \(actually ruRU\)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* Mag'har Orc Racials */
+(
+	110001, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	65552, -- Attributes
+	32, -- AttributesEx
+	147456, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	120000, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	1, -- BaseLevel
+	1, -- SpellLevel
+	8, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	4, -- EffectRealPointsPerLevel_1
+	2, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	5, -- EffectBasePoints_1
+	4, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	99, -- EffectAura_1
+	13, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	126, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	47, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1465, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Ancestral Call', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Calls upon the strength of your uncorrupted ancestors,  increasing your attack power by $s1 and your spell damage by $s2. Lasts $d.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Attack power and spell damage increased.', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	2, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110002, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	6, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	1, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	14, -- EffectBasePoints_1
+	14, -- EffectBasePoints_2
+	14, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	178, -- EffectAura_1
+	178, -- EffectAura_2
+	178, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	2, -- EffectMiscValue_1
+	3, -- EffectMiscValue_2
+	4, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	2283, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Savage Blood', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Your untainted blood grants a $s1% chance to resist Curse,  Disease and Poison effects.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110003, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	208, -- Attributes
+	1024, -- AttributesEx
+	4194308, -- AttributesEx2
+	268435456, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	6, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	119, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	9, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	12, -- EffectRadiusIndex_1
+	12, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	133, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1511, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Sympathetic Vigor', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Your bond with the wilds of Draenor increases your pet’s maximum health by $s1%.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	8, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110004, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	-16, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	232, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	12, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	3722, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Unwavering Will', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Your unbroken spirit reduces the duration of Stun effects by an additional $s1%.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+
+/* High Elf Racials (based on Turtle WoW's) */
+(
+	110005, -- ID
+	0, -- Category
+	1, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	180000, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	15, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	28, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	6, -- Effect_2
+	6, -- Effect_3
+	1, -- EffectDieSides_1
+	1, -- EffectDieSides_2
+	1, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	1, -- EffectBasePoints_1
+	39, -- EffectBasePoints_2
+	9, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	1, -- ImplicitTargetA_2
+	1, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	21, -- EffectAura_1
+	24, -- EffectAura_2
+	24, -- EffectAura_3
+	1000, -- EffectAuraPeriod_1
+	1000, -- EffectAuraPeriod_2
+	1000, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	1, -- EffectMiscValue_2
+	3, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	2756, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	47, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Quel’dorei Meditation', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Focus your mind in quiet meditation,  restoring 10% of your maximum mana,  20 rage,  or 50 energy over $d,  depending on your primary resource.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Meditating,  restoring mana,  rage,  or energy.', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	1500, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	1, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	64, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110006, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	64, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	1, -- BaseLevel
+	1, -- SpellLevel
+	0, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	1, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	137, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	1, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	112, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Swiftness of the Rangers', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Agility increased by $s1%.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	0, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110007, -- ID
+	0, -- Category
+	1, -- DispelType
+	0, -- Mechanic
+	16, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	16, -- CastingTimeIndex
+	180000, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	15, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	28, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	39, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	24, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	1000, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	6, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	2756, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	47, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Quel’dorei Meditation', -- Name_Lang_enUS
+	'', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial', -- NameSubtext_Lang_enUS
+	'', -- NameSubtext_Lang_enGB (actually koKR)
+	'', -- NameSubtext_Lang_koKR (actually frFR)
+	'', -- NameSubtext_Lang_frFR (actually deDE)
+	'', -- NameSubtext_Lang_deDE (actually zhCN)
+	'', -- NameSubtext_Lang_enCN (actually zhTW)
+	'', -- NameSubtext_Lang_zhCN (actually esES)
+	'', -- NameSubtext_Lang_enTW (actually esMX)
+	'', -- NameSubtext_Lang_zhTW (actually ruRU)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Focus your mind in quiet meditation,  generating 20 runic power over $d.', -- Description_Lang_enUS
+	'', -- Description_Lang_enGB (actually koKR)
+	'', -- Description_Lang_koKR (actually frFR)
+	'', -- Description_Lang_frFR (actually deDE)
+	'', -- Description_Lang_deDE (actually zhCN)
+	'', -- Description_Lang_enCN (actually zhTW)
+	'', -- Description_Lang_zhCN (actually esES)
+	'', -- Description_Lang_enTW (actually esMX)
+	'', -- Description_Lang_zhTW (actually ruRU)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'Meditating,  generating runic power.', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712190, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	133, -- StartRecoveryCategory
+	1500, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	1, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	64, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	0, -- EffectBonusMultiplier_2
+	0, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110008, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	2, -- EquippedItemClass
+	4, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	0, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	52, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	0, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1814, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Bow Specialization', -- Name_Lang_enUS
+	'활류 전문화', -- Name_Lang_enGB \(actually koKR\)
+	'Spécialisation Arc', -- Name_Lang_koKR \(actually frFR\)
+	'Bogen-Spezialisierung', -- Name_Lang_frFR \(actually deDE\)
+	'弓专精', -- Name_Lang_deDE \(actually zhCN\)
+	'弓箭專精', -- Name_Lang_enCN \(actually zhTW\)
+	'Especialización en arcos', -- Name_Lang_zhCN \(actually esES\)
+	'Especialización en arcos', -- Name_Lang_enTW \(actually esMX\)
+	'Специализация на владении луками', -- Name_Lang_zhTW \(actually ruRU\)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Volk passiv', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая, пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Your chance to critically hit with Bows is increased by $s1%.', -- Description_Lang_enUS
+	'활로 치명타를 적중시킬 확률이 $s1%만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Vos chances de réussir un coup critique avec les Arcs sont augmentées de $s1%.', -- Description_Lang_koKR \(actually frFR\)
+	'Eure Chance, mit Bögen einen kritischen Treffer zu erzielen, wird um $s1% erhöht.', -- Description_Lang_frFR \(actually deDE\)
+	'弓类武器的爆击几率提高$s1%。', -- Description_Lang_deDE \(actually zhCN\)
+	'使弓類武器攻擊的致命一擊機率提高$s1%。', -- Description_Lang_enCN \(actually zhTW\)
+	'Aumenta tu probabilidad de asestar un golpe crítico con arcos un $s1%.', -- Description_Lang_zhCN \(actually esES\)
+	'Aumenta tu probabilidad de asestar un golpe crítico con arcos un $s1%.', -- Description_Lang_enTW \(actually esMX\)
+	'Увеличение вероятности нанесения критического урона при использовании луков на $s1%.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	1, -- EffectChainAmplitude_2
+	1, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+),
+(
+	110009, -- ID
+	0, -- Category
+	0, -- DispelType
+	0, -- Mechanic
+	80, -- Attributes
+	0, -- AttributesEx
+	0, -- AttributesEx2
+	0, -- AttributesEx3
+	0, -- AttributesEx4
+	0, -- AttributesEx5
+	0, -- AttributesEx6
+	0, -- AttributesEx7
+	0, -- ShapeshiftMask
+	0, -- unk_320_2
+	0, -- ShapeshiftExclude
+	0, -- unk_320_3
+	0, -- Targets
+	0, -- TargetCreatureType
+	0, -- RequiresSpellFocus
+	0, -- FacingCasterFlags
+	0, -- CasterAuraState
+	0, -- TargetAuraState
+	0, -- ExcludeCasterAuraState
+	0, -- ExcludeTargetAuraState
+	0, -- CasterAuraSpell
+	0, -- TargetAuraSpell
+	0, -- ExcludeCasterAuraSpell
+	0, -- ExcludeTargetAuraSpell
+	1, -- CastingTimeIndex
+	0, -- RecoveryTime
+	0, -- CategoryRecoveryTime
+	0, -- InterruptFlags
+	0, -- AuraInterruptFlags
+	0, -- ChannelInterruptFlags
+	0, -- ProcTypeMask
+	101, -- ProcChance
+	0, -- ProcCharges
+	0, -- MaxLevel
+	0, -- BaseLevel
+	0, -- SpellLevel
+	21, -- DurationIndex
+	0, -- PowerType
+	0, -- ManaCost
+	0, -- ManaCostPerLevel
+	0, -- ManaPerSecond
+	0, -- ManaPerSecondPerLevel
+	1, -- RangeIndex
+	0, -- Speed
+	0, -- ModalNextSpell
+	0, -- CumulativeAura
+	0, -- Totem_1
+	0, -- Totem_2
+	0, -- Reagent_1
+	0, -- Reagent_2
+	0, -- Reagent_3
+	0, -- Reagent_4
+	0, -- Reagent_5
+	0, -- Reagent_6
+	0, -- Reagent_7
+	0, -- Reagent_8
+	0, -- ReagentCount_1
+	0, -- ReagentCount_2
+	0, -- ReagentCount_3
+	0, -- ReagentCount_4
+	0, -- ReagentCount_5
+	0, -- ReagentCount_6
+	0, -- ReagentCount_7
+	0, -- ReagentCount_8
+	-1, -- EquippedItemClass
+	0, -- EquippedItemSubclass
+	0, -- EquippedItemInvTypes
+	6, -- Effect_1
+	0, -- Effect_2
+	0, -- Effect_3
+	1, -- EffectDieSides_1
+	0, -- EffectDieSides_2
+	0, -- EffectDieSides_3
+	0, -- EffectRealPointsPerLevel_1
+	0, -- EffectRealPointsPerLevel_2
+	0, -- EffectRealPointsPerLevel_3
+	9, -- EffectBasePoints_1
+	0, -- EffectBasePoints_2
+	0, -- EffectBasePoints_3
+	0, -- EffectMechanic_1
+	0, -- EffectMechanic_2
+	0, -- EffectMechanic_3
+	1, -- ImplicitTargetA_1
+	0, -- ImplicitTargetA_2
+	0, -- ImplicitTargetA_3
+	0, -- ImplicitTargetB_1
+	0, -- ImplicitTargetB_2
+	0, -- ImplicitTargetB_3
+	0, -- EffectRadiusIndex_1
+	0, -- EffectRadiusIndex_2
+	0, -- EffectRadiusIndex_3
+	98, -- EffectAura_1
+	0, -- EffectAura_2
+	0, -- EffectAura_3
+	0, -- EffectAuraPeriod_1
+	0, -- EffectAuraPeriod_2
+	0, -- EffectAuraPeriod_3
+	0, -- EffectMultipleValue_1
+	0, -- EffectMultipleValue_2
+	0, -- EffectMultipleValue_3
+	0, -- EffectChainTargets_1
+	0, -- EffectChainTargets_2
+	0, -- EffectChainTargets_3
+	0, -- EffectItemType_1
+	0, -- EffectItemType_2
+	0, -- EffectItemType_3
+	333, -- EffectMiscValue_1
+	0, -- EffectMiscValue_2
+	0, -- EffectMiscValue_3
+	0, -- EffectMiscValueB_1
+	0, -- EffectMiscValueB_2
+	0, -- EffectMiscValueB_3
+	0, -- EffectTriggerSpell_1
+	0, -- EffectTriggerSpell_2
+	0, -- EffectTriggerSpell_3
+	0, -- EffectPointsPerCombo_1
+	0, -- EffectPointsPerCombo_2
+	0, -- EffectPointsPerCombo_3
+	0, -- EffectSpellClassMaskA_1
+	0, -- EffectSpellClassMaskA_2
+	0, -- EffectSpellClassMaskA_3
+	0, -- EffectSpellClassMaskB_1
+	0, -- EffectSpellClassMaskB_2
+	0, -- EffectSpellClassMaskB_3
+	0, -- EffectSpellClassMaskC_1
+	0, -- EffectSpellClassMaskC_2
+	0, -- EffectSpellClassMaskC_3
+	0, -- SpellVisualID_1
+	0, -- SpellVisualID_2
+	1901, -- SpellIconID
+	0, -- ActiveIconID
+	0, -- SpellPriority
+	'Enchanting Specialization', -- Name_Lang_enUS
+	'비전 친화', -- Name_Lang_enGB (actually koKR)
+	'', -- Name_Lang_koKR (actually frFR)
+	'', -- Name_Lang_frFR (actually deDE)
+	'', -- Name_Lang_deDE (actually zhCN)
+	'', -- Name_Lang_enCN (actually zhTW)
+	'', -- Name_Lang_zhCN (actually esES)
+	'', -- Name_Lang_enTW (actually esMX)
+	'', -- Name_Lang_zhTW (actually ruRU)
+	'', -- Name_Lang_esES
+	'', -- Name_Lang_esMX
+	'', -- Name_Lang_ruRU
+	'', -- Name_Lang_ptPT
+	'', -- Name_Lang_ptBR
+	'', -- Name_Lang_itIT
+	'', -- Name_Lang_Unk
+	16712190, -- Name_Lang_Mask
+	'Racial Passive', -- NameSubtext_Lang_enUS
+	'종족 지속효과', -- NameSubtext_Lang_enGB \(actually koKR\)
+	'Raciale passive', -- NameSubtext_Lang_koKR \(actually frFR\)
+	'Volk Passiv', -- NameSubtext_Lang_frFR \(actually deDE\)
+	'被动种族特长', -- NameSubtext_Lang_deDE \(actually zhCN\)
+	'種族特長', -- NameSubtext_Lang_enCN \(actually zhTW\)
+	'Pasivo racial', -- NameSubtext_Lang_zhCN \(actually esES\)
+	'Pasivo racial', -- NameSubtext_Lang_enTW \(actually esMX\)
+	'Расовая пассивная', -- NameSubtext_Lang_zhTW \(actually ruRU\)
+	'', -- NameSubtext_Lang_esES
+	'', -- NameSubtext_Lang_esMX
+	'', -- NameSubtext_Lang_ruRU
+	'', -- NameSubtext_Lang_ptPT
+	'', -- NameSubtext_Lang_ptBR
+	'', -- NameSubtext_Lang_itIT
+	'', -- NameSubtext_Lang_Unk
+	16712190, -- NameSubtext_Lang_Mask
+	'Enchanting skill increased by $s1.', -- Description_Lang_enUS
+	'마법부여 숙련도가 $s1만큼 증가합니다.', -- Description_Lang_enGB \(actually koKR\)
+	'Compétence en Enchantement augmentée de $s1.', -- Description_Lang_koKR \(actually frFR\)
+	'Fertigkeit in der Verzauberkunst um $s1 erhöht.', -- Description_Lang_frFR \(actually deDE\)
+	'附魔技能提高$s1点。', -- Description_Lang_deDE \(actually zhCN\)
+	'附魔技能提高$s1點。', -- Description_Lang_enCN \(actually zhTW\)
+	'Habilidad de encantamiento aumentada $s1 p.', -- Description_Lang_zhCN \(actually esES\)
+	'Habilidad de encantamiento aumentada $s1 p.', -- Description_Lang_enTW \(actually esMX\)
+	'Навык в профессии ""Наложение чар"" повышен на $s1.', -- Description_Lang_zhTW \(actually ruRU\)
+	'', -- Description_Lang_esES
+	'', -- Description_Lang_esMX
+	'', -- Description_Lang_ruRU
+	'', -- Description_Lang_ptPT
+	'', -- Description_Lang_ptBR
+	'', -- Description_Lang_itIT
+	'', -- Description_Lang_Unk
+	16712190, -- Description_Lang_Mask
+	'', -- AuraDescription_Lang_enUS
+	'', -- AuraDescription_Lang_enGB (actually koKR)
+	'', -- AuraDescription_Lang_koKR (actually frFR)
+	'', -- AuraDescription_Lang_frFR (actually deDE)
+	'', -- AuraDescription_Lang_deDE (actually zhCN)
+	'', -- AuraDescription_Lang_enCN (actually zhTW)
+	'', -- AuraDescription_Lang_zhCN (actually esES)
+	'', -- AuraDescription_Lang_enTW (actually esMX)
+	'', -- AuraDescription_Lang_zhTW (actually ruRU)
+	'', -- AuraDescription_Lang_esES
+	'', -- AuraDescription_Lang_esMX
+	'', -- AuraDescription_Lang_ruRU
+	'', -- AuraDescription_Lang_ptPT
+	'', -- AuraDescription_Lang_ptBR
+	'', -- AuraDescription_Lang_itIT
+	'', -- AuraDescription_Lang_Unk
+	16712188, -- AuraDescription_Lang_Mask
+	0, -- ManaCostPct
+	0, -- StartRecoveryCategory
+	0, -- StartRecoveryTime
+	0, -- MaxTargetLevel
+	0, -- SpellClassSet
+	0, -- SpellClassMask_1
+	0, -- SpellClassMask_2
+	0, -- SpellClassMask_3
+	0, -- MaxTargets
+	0, -- DefenseType
+	0, -- PreventionType
+	0, -- StanceBarOrder
+	1, -- EffectChainAmplitude_1
+	0, -- EffectChainAmplitude_2
+	0, -- EffectChainAmplitude_3
+	0, -- MinFactionID
+	0, -- MinReputation
+	0, -- RequiredAuraVision
+	0, -- RequiredTotemCategoryID_1
+	0, -- RequiredTotemCategoryID_2
+	0, -- RequiredAreasID
+	1, -- SchoolMask
+	0, -- RuneCostID
+	0, -- SpellMissileID
+	0, -- PowerDisplayID
+	1, -- EffectBonusMultiplier_1
+	1, -- EffectBonusMultiplier_2
+	1, -- EffectBonusMultiplier_3
+	0, -- SpellDescriptionVariableID
+	0 -- SpellDifficultyID
+);
+
+UPDATE `spell` SET `category` = 0, `recovery_time` = 120000, `category_recovery_time` = 0 WHERE `id` = 68992;
+UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `effect_misc_value_a_1` = 55277, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` = 68995;
+UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `interrupt_flags` = 31, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `effect_misc_value_a_1` = 55276, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_subtext_flags` = 16712172, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` = 68996;

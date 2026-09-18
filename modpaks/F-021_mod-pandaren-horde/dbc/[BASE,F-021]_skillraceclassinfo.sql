@@ -3,7 +3,7 @@
 -- New entries
 DELETE FROM `skillraceclassinfo` WHERE `id` = 9172; -- HordePandaren racials
 INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES
-(9172, @HordePandarenRacials, @HordePandarenMask, @AllClassMask, 1170, 0, 0, 0);
+(9172, @PandarenRacials, @HordePandarenMask, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @HordePandarenMask WHERE `id` = 21; -- skill: 293 (plate mail)

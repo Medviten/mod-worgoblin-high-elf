@@ -3,7 +3,7 @@
 -- New entries
 DELETE FROM `skillraceclassinfo` WHERE `id` = 9171; -- AlliancePandaren racials
 INSERT INTO `skillraceclassinfo` (`id`, `skill_id`, `race_mask`, `class_mask`, `flags`, `min_level`, `skill_tier_id`, `skill_cost_id`) VALUES
-(9171, @AlliancePandarenRacials, @AlliancePandarenMask, @AllClassMask, 1170, 0, 0, 0);
+(9171, @PandarenRacials, @AlliancePandarenMask, @AllClassMask, 1170, 0, 0, 0);
 
 -- Changed values
 UPDATE `skillraceclassinfo` SET `race_mask` = `race_mask` | @AlliancePandarenMask WHERE `id` = 21; -- skill: 293 (plate mail)
