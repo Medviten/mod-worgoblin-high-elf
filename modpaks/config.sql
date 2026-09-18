@@ -146,6 +146,30 @@ SET @WorgenWildFemaleTemplate           =  55275;
 SET @GilneanMaleTemplate                =  55276;
 SET @GilneanFemaleTemplate              =  55277;
 
+-- Exploration Sounds
+SET @HumanExplorationSound              =   4140;
+SET @OrcExplorationSound                =   4141;
+SET @DwarfExplorationSound              =   4147;
+SET @NightElfExplorationSound           =   4145;
+SET @UndeadExplorationSound             =   4142;
+SET @TaurenExplorationSound             =   4143;
+SET @GnomeExplorationSound              =   4146;
+SET @TrollExplorationSound              =   4144;
+SET @BloodElfExplorationSound           =   4142; -- same as undead
+SET @DraeneiExplorationSound            =   4140; -- same as human
+
+-- Cinematic Sequences
+SET @HumanCinematicSequence             =     81;
+SET @OrcCinematicSequence               =     21;
+SET @DwarfCinematicSequence             =     41;
+SET @NightElfCinematicSequence          =     61;
+SET @UndeadCinematicSequence            =      2;
+SET @TaurenCinematicSequence            =    141;
+SET @GnomeCinematicSequence             =    101;
+SET @TrollCinematicSequence             =    121;
+SET @BloodElfCinematicSequence          =    162;
+SET @DraeneiCinematicSequence           =    163;
+
 -- Racial skills
 SET @WorgenRacials                      =    789;
 SET @GoblinRacials                      =    790;

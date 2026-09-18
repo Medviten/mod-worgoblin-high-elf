@@ -1,9 +1,8 @@
 -- charsections: 508 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
-
 DELETE FROM `charsections` WHERE `race` = @DarkIronDwarf;
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM `charsections`);
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES
 (@CharSectionsID := @CharSectionsID +1, @DarkIronDwarf, @Male, @Skin, 'Character\\Darkirondwarf\\male\\darkirondwarfMaleSkin00_00.blp', '', '', 17, 0, 0),
 (@CharSectionsID := @CharSectionsID +1, @DarkIronDwarf, @Male, @Underwear, 'Character\\Darkirondwarf\\male\\darkirondwarfMaleNakedPelvisSkin00_00.blp', '', '', 17, 0, 0),
