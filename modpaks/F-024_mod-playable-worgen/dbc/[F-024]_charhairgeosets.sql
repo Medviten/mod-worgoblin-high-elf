@@ -1,8 +1,7 @@
 -- Gilnean race support
 
+DELETE FROM `charhairgeosets` WHERE `race` = @Gilnean;
 SET @CharHairGeosetsID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`charhairgeosets`);
-
-DELETE FROM `charhairgeosets` WHERE `id` BETWEEN 631 AND 671;
 INSERT INTO `charhairgeosets` (`id`, `race`, `gender`, `variation`, `geoset`, `show_scalp`) VALUES
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 0, 0, 1),
 (@CharHairGeosetsID := @CharHairGeosetsID +1, @Gilnean, @Male, 1, 2, 0),

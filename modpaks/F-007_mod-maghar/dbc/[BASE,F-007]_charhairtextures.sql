@@ -1,9 +1,8 @@
 -- [F-032] mod-maghar: charhairtextures: 24 inserts, 2 updates, 0 deletes
 
 -- New entries
-SET @CharHairTexturesID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`charhairtextures`);
-
 DELETE FROM `charhairtextures` WHERE `race` = @MagharOrc;
+SET @CharHairTexturesID = (SELECT COALESCE(MAX(id), 0) FROM `charhairtextures`);
 INSERT INTO `charhairtextures` (`id`, `race`, `gender`, `unk_1`, `unk_2`, `unk_3`, `unk_4`, `unk_5`) VALUES
 (@CharHairTexturesID := @CharHairTexturesID +1, @MagharOrc, @Male,   0,   70, 0,  0,  0),
 (@CharHairTexturesID := @CharHairTexturesID +1, @MagharOrc, @Male,   0,    8, 0,  1,  1),

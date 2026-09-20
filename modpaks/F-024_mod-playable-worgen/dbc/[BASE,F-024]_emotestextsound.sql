@@ -1,21 +1,8 @@
 -- emotestextsound: 526 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`emotestextsound`);
-
-/*
-DELETE FROM `emotestextsound` WHERE `id` = 567; -- Gilnean female
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 569 AND 571; -- Gilnean female
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 574 AND 591; -- Gilnean female
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 594 AND 614; -- Gilnean male
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 616 AND 709; -- Goblin male, female (638 on), Worgen male (660 on), female (680 on), Gilnean
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 716 AND 763; -- There are stock races in there too – not sure why
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 765 AND 840;
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 842 AND 847;
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 874 AND 966;
-DELETE FROM `emotestextsound` WHERE `id` = 979;
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 981 AND 1119;
-DELETE FROM `emotestextsound` WHERE `id` BETWEEN 1121 AND 1146; */
+DELETE FROM `emotestextsound` WHERE `race_id` = @Gilnean;
+SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `emotestextsound`);
 INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES
 (@EmotesTextSoundID := @EmotesTextSoundID +1, 19, @Gilnean, @Female, 18761),
 (@EmotesTextSoundID := @EmotesTextSoundID +1, 21, @Gilnean, @Female, 18643),

@@ -4,12 +4,12 @@ DELETE FROM `creaturedisplayinfo` WHERE `id` IN (@WorgenWildMaleDisplay, @Worgen
 DELETE FROM `creaturedisplayinfo` WHERE `id` BETWEEN 33650 AND 33669;
 
 INSERT INTO `creaturedisplayinfo` (`id`, `model_id`, `sound_id`, `extended_display_info_id`, `creature_model_scale`, `creature_model_alpha`, `texture_variation_1`, `texture_variation_2`, `texture_variation_3`, `portrait_texture_name`, `blood_level`, `blood_id`, `npc_sound_id`, `praticle_color_id`, `creature_geoset_data`, `obj_effect_package_id`) VALUES
-(92600, 3141, 0, 62100, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0),
-(92601, 3141, 0, 62101, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0),
-(92602, 3142, 0, 62102, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0),
-(92603, 3142, 0, 62103, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0),
-(92604, 3142, 0, 62104, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0),
-(92605, 3141, 0, 62105, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0),
+(92600, 3141, 0, 62100, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0), -- male worgen
+(92601, 3141, 0, 62101, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0), -- male worgen
+(92602, 3142, 0, 62102, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0), -- female worgen
+(92603, 3142, 0, 62103, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0), -- female worgen
+(92604, 3142, 0, 62104, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0), -- female worgen
+(92605, 3141, 0, 62105, '1.0000000000000000', 255, '', '', '', '', 0, 0, 0, 0, 0, 0), -- male worgen
 
 -- Worgen racial support
 (@WorgenWildMaleDisplay, @WorgenWildMaleModel, 0, @WorgenMaleDisplayExtra, 1, 255, '', '', '', '', 3, 0, 0, 0, 0, 0),

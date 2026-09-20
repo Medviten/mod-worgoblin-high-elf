@@ -1,9 +1,8 @@
 -- charsections: 0 inserts, 0 updates, 0 deletes
 
 -- New entries
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM `charsections`);
-
 DELETE FROM `charsections` WHERE `race` = @Vulpera;
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM `charsections`);
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES
 (@CharSectionsID := @CharSectionsID +1, @Vulpera, 0, 0, 'character\\vulpera\\male\\vulperamaleskin00_00.blp', 'character\\vulpera\\male\\vulperamaleskintail00_00.blp', '', 17, 0,  0),
 (@CharSectionsID := @CharSectionsID +1, @Vulpera, 0, 0, 'character\\vulpera\\male\\vulperamaleskin00_01.blp', 'character\\vulpera\\male\\vulperamaleskintail00_01.blp', '', 17, 0,  1),

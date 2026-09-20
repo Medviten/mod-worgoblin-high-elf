@@ -1,7 +1,7 @@
 -- Gilnean race support
 
-SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM dbc.charsections);
-
+DELETE FROM `charsections` WHERE `race` = @Gilnean;
+SET @CharSectionsID = (SELECT COALESCE(MAX(id), 0) FROM `charsections`);
 INSERT INTO `charsections` (`id`, `race`, `gender`, `base_section`, `texture_1`, `texture_2`, `texture_3`, `flags`, `type`, `color_index`) VALUES
 (@CharSectionsID := @CharSectionsID +1, @Gilnean, @Male, 0, 'Character\\Human\\Male\\HumanMaleSkin00_00.blp', '', '', 17, 0, 0),
 (@CharSectionsID := @CharSectionsID +1, @Gilnean, @Male, 0, 'Character\\Human\\Male\\HumanMaleSkin00_01.blp', '', '', 17, 0, 1),

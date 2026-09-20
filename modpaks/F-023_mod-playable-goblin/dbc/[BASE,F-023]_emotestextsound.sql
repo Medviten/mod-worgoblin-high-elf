@@ -2,7 +2,7 @@
 
 -- New entries
 DELETE FROM `emotestextsound` WHERE `race_id` = @Goblin;
-SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `dbc`.`emotestextsound`);
+SET @EmotesTextSoundID = (SELECT COALESCE(MAX(id), 0) FROM `emotestextsound`);
 INSERT INTO `emotestextsound` (`id`, `emotes_text_id`, `race_id`, `sex_id`, `sound_id`) VALUES
 (@EmotesTextSoundID := @EmotesTextSoundID +1,  26, @Goblin, @Male,   19091),
 (@EmotesTextSoundID := @EmotesTextSoundID +1, 307, @Goblin, @Male,   19086),
