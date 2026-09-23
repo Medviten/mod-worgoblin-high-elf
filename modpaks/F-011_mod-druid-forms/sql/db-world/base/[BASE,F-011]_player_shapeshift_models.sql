@@ -20,7 +20,7 @@ REPLACE INTO `player_shapeshift_model` (
 (@TravelForm,      @NightElf,  255,       2, 40816), -- ModelID: DruidTravelAlliance
 
 /* Undead Druid Forms */
-(@TreeForm,        @Undead,    255,   @Male, 94144), -- ModelID: EntSkinDead
+(@TreeForm,        @Undead,    255, @Male,   94144), -- ModelID: EntSkinDead
 (@TreeForm,        @Undead,    255, @Female, 94141), -- ModelID: EntSkinDiseased
 (@BearForm,        @Undead,    255,       2, 94139), -- ModelID: BearSkinBrownDiseased
 (@BearForm,        @Undead,      0,       2, 94140), -- ModelID: BearSkinWhiteDiseased
@@ -83,17 +83,8 @@ REPLACE INTO `player_shapeshift_model` (
 (@SwiftFlightForm, @Troll,    255,        2, 37730), -- ModelID: EpicDruidFlightTroll1, EpicDruidFlightTroll2
 (@TravelForm,      @Troll,    255,        2, 45339), -- ModelID: DruidTravelHorde
 
-/* Goblin Druid forms */
-(@TravelForm,      @Goblin,   255,        2, 45339), -- ModelID: DruidTravelHorde
-
 /* Blood Elf Druid forms */
 (@TravelForm,      @BloodElf, 255,        2, 45339), -- ModelID: DruidTravelHorde
 
 /* Draenei Druid forms */
-(@TravelForm,      @Draenei,  255,        2, 40816), -- ModelID: DruidTravelAlliance
-
-/* Worgen Druid forms */
-(@TravelForm,      @Worgen,   255,        2, 40816), -- ModelID: DruidTravelAlliance
-
-/* High Elf Druid forms */
-(@TravelForm,      @HighElf,  255,        2, 40816); -- ModelID: DruidTravelAlliance
+(@TravelForm,      @Draenei,  255,        2, 40816); -- ModelID: DruidTravelAlliance

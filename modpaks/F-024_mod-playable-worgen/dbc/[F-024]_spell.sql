@@ -1,11 +1,19 @@
 -- spell: 16 inserts, 0 updates, 0 deletes
 
 -- New entries
-REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES
+DELETE FROM `spell` WHERE `id` IN (
+	@ApprenticeSkinning, @JourneymanSkinning, @ExpertSkinning,      @ArtisanSkinning,
+	@Skinning1,          @MasterSkinning,     @GrandMasterSkinning, @Skinning2,
+	@WorgenRacial1,      @WorgenRacial2,      @WorgenRacial3,       @WorgenRacial4,
+	@TwoFormsMale,       @TwoFormsFemale,     @HumanFormMale,       @HumanFormFemale,
+	@RunningWildMale60,  @RunningWildMale100, @RunningWildFemale60, @RunningWildFemale100,
+	@MountainHorse,      @SwiftMountainHorse
+);
+INSERT INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `attributes_ex_1`, `attributes_ex_2`, `attributes_ex_3`, `attributes_ex_4`, `attributes_ex_5`, `attributes_ex_6`, `attributes_ex_7`, `stances`, `unk_1`, `excluded_stances`, `unk_2`, `targets`, `target_creature_type`, `spell_focus_object`, `facing_caster_flags`, `caster_aura_state`, `target_aura_state`, `excluded_caster_aura_state`, `excluded_target_aura_state`, `caster_aura_spell`, `target_aura_spell`, `excluded_caster_aura_spell`, `excluded_target_aura_spell`, `cast_time_index`, `recovery_time`, `category_recovery_time`, `interrupt_flags`, `aura_interrupt_flags`, `channel_interrupt_flags`, `proc_flags`, `proc_chance`, `proc_charges`, `max_level`, `base_level`, `spell_level`, `duration_index`, `power_type`, `power_cost`, `power_cost_per_level`, `power_per_second`, `power_per_second_per_level`, `range_index`, `speed`, `modal_next_spell`, `stack_amount`, `totem_1`, `totem_2`, `reagent_1`, `reagent_2`, `reagent_3`, `reagent_4`, `reagent_5`, `reagent_6`, `reagent_7`, `reagent_8`, `reagent_count_1`, `reagent_count_2`, `reagent_count_3`, `reagent_count_4`, `reagent_count_5`, `reagent_count_6`, `reagent_count_7`, `reagent_count_8`, `equipped_item_class`, `equipped_item_subclass_mask`, `equipped_item_inventorytype_mask`, `effect_1`, `effect_2`, `effect_3`, `effect_die_sides_1`, `effect_die_sides_2`, `effect_die_sides_3`, `effect_real_points_per_level_1`, `effect_real_points_per_level_2`, `effect_real_points_per_level_3`, `effect_base_points_1`, `effect_base_points_2`, `effect_base_points_3`, `effect_mechanic_1`, `effect_mechanic_2`, `effect_mechanic_3`, `effect_implicit_target_a_1`, `effect_implicit_target_a_2`, `effect_implicit_target_a_3`, `effect_implicit_target_b_1`, `effect_implicit_target_b_2`, `effect_implicit_target_b_3`, `effect_radius_index_1`, `effect_radius_index_2`, `effect_radius_index_3`, `effect_apply_aura_name_1`, `effect_apply_aura_name_2`, `effect_apply_aura_name_3`, `effect_amplitude_1`, `effect_amplitude_2`, `effect_amplitude_3`, `effect_multiple_value_1`, `effect_multiple_value_2`, `effect_multiple_value_3`, `effect_chain_target_1`, `effect_chain_target_2`, `effect_chain_target_3`, `effect_item_type_1`, `effect_item_type_2`, `effect_item_type_3`, `effect_misc_value_a_1`, `effect_misc_value_a_2`, `effect_misc_value_a_3`, `effect_misc_value_b_1`, `effect_misc_value_b_2`, `effect_misc_value_b_3`, `effect_trigger_spell_1`, `effect_trigger_spell_2`, `effect_trigger_spell_3`, `effect_points_per_combo_point_1`, `effect_points_per_combo_point_2`, `effect_points_per_combo_point_3`, `effect_spell_class_mask_a_1`, `effect_spell_class_mask_a_2`, `effect_spell_class_mask_a_3`, `effect_spell_class_mask_b_1`, `effect_spell_class_mask_b_2`, `effect_spell_class_mask_b_3`, `effect_spell_class_mask_c_1`, `effect_spell_class_mask_c_2`, `effect_spell_class_mask_c_3`, `spell_visual_1`, `spell_visual_2`, `spell_icon_id`, `active_icon_id`, `spell_priority`, `spell_name_enus`, `spell_name_kokr`, `spell_name_frfr`, `spell_name_dede`, `spell_name_zhcn`, `spell_name_zhtw`, `spell_name_eses`, `spell_name_esmx`, `spell_name_ruru`, `spell_name_jajp`, `spell_name_ptpt`, `spell_name_itit`, `spell_name_unused_1`, `spell_name_unused_2`, `spell_name_unused_3`, `spell_name_unused_4`, `spell_name_flags`, `spell_subtext_enus`, `spell_subtext_kokr`, `spell_subtext_frfr`, `spell_subtext_dede`, `spell_subtext_zhcn`, `spell_subtext_zhtw`, `spell_subtext_eses`, `spell_subtext_esmx`, `spell_subtext_ruru`, `spell_subtext_jajp`, `spell_subtext_ptpt`, `spell_subtext_itit`, `spell_subtext_unused_1`, `spell_subtext_unused_2`, `spell_subtext_unused_3`, `spell_subtext_unused_4`, `spell_subtext_flags`, `spell_desc_enus`, `spell_desc_kokr`, `spell_desc_frfr`, `spell_desc_dede`, `spell_desc_zhcn`, `spell_desc_zhtw`, `spell_desc_eses`, `spell_desc_esmx`, `spell_desc_ruru`, `spell_desc_jajp`, `spell_desc_ptpt`, `spell_desc_itit`, `spell_desc_unused_1`, `spell_desc_unused_2`, `spell_desc_unused_3`, `spell_desc_unused_4`, `spell_desc_flags`, `spell_tooltip_enus`, `spell_tooltip_kokr`, `spell_tooltip_frfr`, `spell_tooltip_dede`, `spell_tooltip_zhcn`, `spell_tooltip_zhtw`, `spell_tooltip_eses`, `spell_tooltip_esmx`, `spell_tooltip_ruru`, `spell_tooltip_jajp`, `spell_tooltip_ptpt`, `spell_tooltip_itit`, `spell_tooltip_unused_1`, `spell_tooltip_unused_2`, `spell_tooltip_unused_3`, `spell_tooltip_unused_4`, `spell_tooltip_flags`, `power_cost_percentage`, `start_recovery_category`, `start_recovery_time`, `maximum_target_level`, `spell_class_set`, `spell_class_mask_1`, `spell_class_mask_2`, `spell_class_mask_3`, `max_affected_targets`, `damage_class`, `prevention_type`, `stance_bar_order`, `effect_damage_multiplier_1`, `effect_damage_multiplier_2`, `effect_damage_multiplier_3`, `min_faction_id`, `min_reputation`, `req_aura_vision`, `totem_category_1`, `totem_category_2`, `area_group_id`, `school_mask`, `rune_cost_id`, `spell_missile_id`, `power_display_id`, `effect_bonus_multiplier_1`, `effect_bonus_multiplier_2`, `effect_bonus_multiplier_3`, `spell_desc_variable_id`, `spell_difficulty_id`) VALUES
 /* Skinning */
 /* Apprentice skinning */
 (
-	8613, -- ID
+	@ApprenticeSkinning, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -242,7 +250,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Journeyman skinning */
 (
-	8617, -- ID
+	@JourneymanSkinning, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -479,7 +487,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Expert skinning */
 (
-    8618, -- ID
+    @ExpertSkinning, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -716,7 +724,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Artisan skinning */
 (
-	10768, -- ID
+	@ArtisanSkinning, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -951,9 +959,9 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- SpellDescriptionVariableID
 	0 -- SpellDifficultyID
 ),
-/* Skinning */
+/* Skinning 1 */
 (
-	13697, -- ID
+	@Skinning1, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -1190,7 +1198,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Master skinning */
 (
-	32678, -- ID
+	@MasterSkinning, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -1427,7 +1435,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Grand master skinning */
 (
-	50305, -- ID
+	@GrandMasterSkinning, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -1662,9 +1670,9 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- SpellDescriptionVariableID
 	0 -- SpellDifficultyID
 ),
-/* Skinning */
+/* Skinning 2 */
 (
-	52158, -- ID
+	@Skinning2, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -2851,7 +2859,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Human Form (semi-permanent, male) */
 (
-	68994, -- ID
+	@HumanFormMale, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -2961,7 +2969,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-	55276, -- EffectMiscValue_1
+	@GilneanMaleTemplate, -- EffectMiscValue_1
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -3088,7 +3096,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Human Form (semi-permanent, female) */
 (
-	110020, -- ID
+	@HumanFormFemale, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -3198,7 +3206,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-	55277, -- EffectMiscValue_1
+	@GilneanFemaleTemplate, -- EffectMiscValue_1
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -3325,7 +3333,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Two Forms (male) */
 (
-	68996, -- ID
+	@TwoFormsMale, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -3435,7 +3443,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-	55276, -- EffectMiscValue_1
+	@GilneanMaleTemplate, -- EffectMiscValue_1
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -3562,7 +3570,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Two Forms (female) */
 (
-	68995, -- ID
+	@TwoFormsFemale, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -3672,7 +3680,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0, -- EffectItemType_1
 	0, -- EffectItemType_2
 	0, -- EffectItemType_3
-	55277, -- EffectMiscValue_1
+	@GilneanFemaleTemplate, -- EffectMiscValue_1
 	0, -- EffectMiscValue_2
 	0, -- EffectMiscValue_3
 	0, -- EffectMiscValueB_1
@@ -3800,7 +3808,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 
 /* Running Wild (male, 60%) */
 (
-	87840, -- ID
+	@RunningWildMale60, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -4038,7 +4046,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 
 /* Running Wild (male, 100%) */
 (
-	110010, -- ID
+	@RunningWildMale100, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -4276,7 +4284,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 
 /* Running Wild (female, 60%) */
 (
-	87841, -- ID
+	@RunningWildFemale60, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -4514,7 +4522,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 
 /* Running Wild (female, 100%) */
 (
-	110011, -- ID
+	@RunningWildFemale100, -- ID
 	0, -- Category
 	0, -- DispelType
 	0, -- Mechanic
@@ -4753,7 +4761,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 /* Mounts */
 /* Mountain Horse */
 (
-	103195, -- ID
+	@MountainHorse, -- ID
 	0, -- Category
 	0, -- DispelType
 	21, -- Mechanic
@@ -4990,7 +4998,7 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 ),
 /* Swift Mountain Horse */
 (
-	103196, -- ID
+	@SwiftMountainHorse, -- ID
 	0, -- Category
 	0, -- DispelType
 	21, -- Mechanic
@@ -5226,6 +5234,8 @@ REPLACE INTO `spell` (`id`, `category`, `dispel`, `mechanic`, `attributes`, `att
 	0 -- SpellDifficultyID
 );
 
-UPDATE `spell` SET `category` = 0, `recovery_time` = 120000, `category_recovery_time` = 0 WHERE `id` = 68992;
-UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `effect_misc_value_a_1` = 55277, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` = 68995;
-UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `interrupt_flags` = 31, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `effect_misc_value_a_1` = 55276, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_subtext_flags` = 16712172, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` = 68996;
+-- Separate recovery for Darkflight (shouldn't share cooldown with Sprint, etc.)
+UPDATE `spell` SET `category` = 0, `recovery_time` = 120000, `category_recovery_time` = 0 WHERE `id` = @WorgenRacial4;
+
+-- Adjusts attributes for Two Forms
+UPDATE `spell` SET `attributes` = 402915584, `attributes_ex_1` = 268435456, `attributes_ex_3` = 537919488, `attributes_ex_6` = 135168, `excluded_caster_aura_spell` = 68992, `recovery_time` = 1500, `interrupt_flags` = 31, `aura_interrupt_flags` = 12288, `spell_level` = 1, `effect_die_sides_1` = 1, `effect_amplitude_3` = 0, `spell_visual_1` = 4228, `spell_visual_2` = 4228, `active_icon_id` = 122, `spell_subtext_flags` = 16712172, `spell_tooltip_enus` = 'Human form', `start_recovery_category` = 133, `spell_class_set` = 1, `spell_class_mask_3` = 64 WHERE `id` IN (@TwoFormsMale, @TwoFormsFemale);

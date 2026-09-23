@@ -1,105 +1,44 @@
--- [F-029] mod-arac: charbaseinfo: 38 (new) inserts, 0 updates, 0 deletes
+-- [F-029] mod-arac: charbaseinfo
 
--- Clean slate + 100 inserts
+-- Clean slate + every non-NULL race/class combination
 DELETE FROM `charbaseinfo` WHERE `class` in (@Warrior, @Paladin, @Hunter, @Rogue, @Priest, @DeathKnight, @Shaman, @Mage, @Warlock, @Druid);
-INSERT INTO `charbaseinfo` (`race`, `class`) VALUES
-    (@Human, @Warrior),
-    (@Human, @Paladin),
-    (@Human, @Hunter),
-    (@Human, @Rogue),
-    (@Human, @Priest),
-    (@Human, @DeathKnight),
-    (@Human, @Shaman),
-    (@Human, @Mage),
-    (@Human, @Warlock),
-    (@Human, @Druid),
-    (@Orc, @Warrior),
-    (@Orc, @Paladin),
-    (@Orc, @Hunter),
-    (@Orc, @Rogue),
-    (@Orc, @Priest),
-    (@Orc, @DeathKnight),
-    (@Orc, @Shaman),
-    (@Orc, @Mage),
-    (@Orc, @Warlock),
-    (@Orc, @Druid),
-    (@Dwarf, @Warrior),
-    (@Dwarf, @Paladin),
-    (@Dwarf, @Hunter),
-    (@Dwarf, @Rogue),
-    (@Dwarf, @Priest),
-    (@Dwarf, @DeathKnight),
-    (@Dwarf, @Shaman),
-    (@Dwarf, @Mage),
-    (@Dwarf, @Warlock),
-    (@Dwarf, @Druid),
-    (@NightElf, @Warrior),
-    (@NightElf, @Paladin),
-    (@NightElf, @Hunter),
-    (@NightElf, @Rogue),
-    (@NightElf, @Priest),
-    (@NightElf, @DeathKnight),
-    (@NightElf, @Shaman),
-    (@NightElf, @Mage),
-    (@NightElf, @Warlock),
-    (@NightElf, @Druid),
-    (@Undead, @Warrior),
-    (@Undead, @Paladin),
-    (@Undead, @Hunter),
-    (@Undead, @Rogue),
-    (@Undead, @Priest),
-    (@Undead, @DeathKnight),
-    (@Undead, @Shaman),
-    (@Undead, @Mage),
-    (@Undead, @Warlock),
-    (@Undead, @Druid),
-    (@Tauren, @Warrior),
-    (@Tauren, @Paladin),
-    (@Tauren, @Hunter),
-    (@Tauren, @Rogue),
-    (@Tauren, @Priest),
-    (@Tauren, @DeathKnight),
-    (@Tauren, @Shaman),
-    (@Tauren, @Mage),
-    (@Tauren, @Warlock),
-    (@Tauren, @Druid),
-    (@Gnome, @Warrior),
-    (@Gnome, @Paladin),
-    (@Gnome, @Hunter),
-    (@Gnome, @Rogue),
-    (@Gnome, @Priest),
-    (@Gnome, @DeathKnight),
-    (@Gnome, @Shaman),
-    (@Gnome, @Mage),
-    (@Gnome, @Warlock),
-    (@Gnome, @Druid),
-    (@Troll, @Warrior),
-    (@Troll, @Paladin),
-    (@Troll, @Hunter),
-    (@Troll, @Rogue),
-    (@Troll, @Priest),
-    (@Troll, @DeathKnight),
-    (@Troll, @Shaman),
-    (@Troll, @Mage),
-    (@Troll, @Warlock),
-    (@Troll, @Druid),
-    (@BloodElf, @Warrior),
-    (@BloodElf, @Paladin),
-    (@BloodElf, @Hunter),
-    (@BloodElf, @Rogue),
-    (@BloodElf, @Priest),
-    (@BloodElf, @DeathKnight),
-    (@BloodElf, @Shaman),
-    (@BloodElf, @Mage),
-    (@BloodElf, @Warlock),
-    (@BloodElf, @Druid),
-    (@Draenei, @Warrior),
-    (@Draenei, @Paladin),
-    (@Draenei, @Hunter),
-    (@Draenei, @Rogue),
-    (@Draenei, @Priest),
-    (@Draenei, @DeathKnight),
-    (@Draenei, @Shaman),
-    (@Draenei, @Mage),
-    (@Draenei, @Warlock),
-    (@Draenei, @Druid);
+INSERT INTO `charbaseinfo` (`race`, `class`)
+SELECT `r`.`race`, `c`.`class`
+FROM (
+    SELECT @Human AS `race`
+    UNION ALL SELECT @Orc
+    UNION ALL SELECT @Dwarf
+    UNION ALL SELECT @NightElf
+    UNION ALL SELECT @Undead
+    UNION ALL SELECT @Tauren
+    UNION ALL SELECT @Gnome
+    UNION ALL SELECT @Troll
+    UNION ALL SELECT @Goblin -- race 9
+    UNION ALL SELECT @BloodElf
+    UNION ALL SELECT @Draenei
+    UNION ALL SELECT @Worgen -- race 12
+    UNION ALL SELECT @HighElf
+    UNION ALL SELECT @MagharOrc
+    UNION ALL SELECT @Ogre
+    UNION ALL SELECT @DarkIronDwarf
+    UNION ALL SELECT @ZandalariTroll
+    UNION ALL SELECT @Vulpera
+    UNION ALL SELECT @AlliancePandaren
+    UNION ALL SELECT @HordePandaren
+    UNION ALL SELECT @Broken
+    UNION ALL SELECT @KulTiran
+) AS `r`
+CROSS JOIN (
+    SELECT @Warrior AS `class`
+    UNION ALL SELECT @Paladin
+    UNION ALL SELECT @Hunter
+    UNION ALL SELECT @Rogue
+    UNION ALL SELECT @Priest
+    UNION ALL SELECT @DeathKnight
+    UNION ALL SELECT @Shaman
+    UNION ALL SELECT @Mage
+    UNION ALL SELECT @Warlock
+    UNION ALL SELECT @Druid
+) AS `c`
+WHERE `r`.`race` IS NOT NULL
+  AND `c`.`class` IS NOT NULL;
