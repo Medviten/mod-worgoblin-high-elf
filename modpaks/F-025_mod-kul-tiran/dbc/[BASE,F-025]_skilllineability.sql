@@ -8,7 +8,6 @@ INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`
 (21982, @KulTiranRacials, @KulTiranRacial2, @KulTiranMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (21983, @KulTiranRacials, @KulTiranRacial3, @KulTiranMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (21984, @KulTiranRacials, @KulTiranRacial4, @KulTiranMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0);
-*/
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @KulTiranMask WHERE `id` = 590; -- Spell: 668 (Language: Common)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @KulTiranMask WHERE `id` = 3269; -- Spell: 3565 (Teleport: Darnassus)
@@ -27,3 +26,4 @@ UPDATE `skilllineability` SET `required_races` = `required_races` | @KulTiranMas
 UPDATE `skilllineability` SET `required_races` = `required_races` | @KulTiranMask WHERE `id` = 20289; -- Spell: 60867 (Mekgineer's Chopper)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @KulTiranMask WHERE `id` = 21723; -- Spell: 75460 (N/A?)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @KulTiranMask WHERE `id` = 21724; -- Spell: 75461 (Flame Shock Passive)
+*/

@@ -1,13 +1,13 @@
--- [F-032] mod-maghar: skilllineability: 35 inserts, 61 updates, 0 deletes
+-- [F-032] mod-maghar: skilllineability: 4 inserts, 29 updates, 0 deletes
 
 -- New entries
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial1; -- Ancestral Call
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial2; -- Savage Blood
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial3; -- Sympathetic Vigor
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = @MagharOrcRacial4; -- Unwavering Will (Open Skies?)
-
+INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`, `required_classes`, `excluded_races`, `excluded_classes`, `min_skill_value`, `spell_parent_id`, `acquire_method`, `skill_grey_level`, `skill_yellow_level`, `character_points_1`, `character_points_2`) VALUES
+(31459, @MagharOrcRacials, @MagharOrcRacial1, @MagharOrcMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Ancestral Call
+(31460, @MagharOrcRacials, @MagharOrcRacial2, @MagharOrcMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Savage Blood
+(31461, @MagharOrcRacials, @MagharOrcRacial4, @MagharOrcMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0), -- Sympathetic Vigor
+(31462, @MagharOrcRacials, @MagharOrcRacial5, @MagharOrcMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0); -- Unwavering Will (Open Skies?)
+/*
 -- Changed values
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 590; -- Spell: 668 (Language: Common)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 592; -- Spell: 669 (Language: Orcish)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 3271; -- Spell: 3567 (Teleport: Orgrimmar)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 3273; -- Spell: 3566 (Teleport: Thunder Bluff)
@@ -15,10 +15,7 @@ UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMa
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 5991; -- Spell: 11417 (Portal: Orgrimmar)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 5993; -- Spell: 11420 (Portal: Thunder Bluff)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 5994; -- Spell: 11418 (Portal: Undercity)
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 7594; -- Spell: 13819 (Warhorse) [ARAC]
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 12518; -- Spell: 23214 (Charger) [ARAC]
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 13151; -- Spell: 2825 (Bloodlust)
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 14023; -- Spell: 13312 (N/A)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 14784; -- Spell: 31898 (Judgement of Blood) [ARAC]
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 14816; -- Spell: 32272 (Teleport: Silvermoon)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 14818; -- Spell: 32267 (Portal: Silvermoon)
@@ -37,5 +34,6 @@ UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMa
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 20290; -- Spell: 60866 (Mechano-hog)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 20867; -- Spell: 63645 (Activate Primary Spec)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 20868; -- Spell: 63644 (Activate Secondary Spec)
-UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 21723; -- Spell: 75460 (N/A)
+-- UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 21723; -- Spell: 75460 (N/A)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @MagharOrcMask WHERE `id` = 21724; -- Spell: 75461 (Flame Shock Passive)
+*/

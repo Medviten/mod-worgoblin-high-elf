@@ -12,7 +12,6 @@ Epicurean: Your love of food allows you to receive double the stats from Well Fe
 Gourmand: Your Cooking skill is increased by 5.
 Inner Peace: Your rested experience bonus lasts twice as long as normal.
 Quaking Palm: Strikes the target with lightning speed, incapacitating them for 4 sec, and turns off your attack.
-*/
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @HordePandarenMask WHERE `id` = 592; -- Spell: 669 (Language: Orcish)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @HordePandarenMask WHERE `id` = 3271; -- Spell: 3567 (Teleport: Orgrimmar)
@@ -32,3 +31,4 @@ UPDATE `skilllineability` SET `required_races` = `required_races` | @HordePandar
 UPDATE `skilllineability` SET `required_races` = `required_races` | @HordePandarenMask WHERE `id` = 20290; -- Spell: 60866 (Mechano-hog)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @HordePandarenMask WHERE `id` = 21723; -- Spell: 75460 (N/A?)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @HordePandarenMask WHERE `id` = 21724; -- Spell: 75461 (Flame Shock Passive)
+*/

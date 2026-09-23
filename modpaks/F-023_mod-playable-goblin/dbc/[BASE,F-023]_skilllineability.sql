@@ -11,6 +11,7 @@ INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`
 (21989, @GoblinRacials, @GoblinRacial5, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (31448, @GoblinRacials, @GoblinRacial6, @GoblinMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0); -- Spell: Rocket Jump
 
+/*
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = @OrcishSkillLineAbilityHorde; -- Spell: 669 (Language: Orcish)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = @TeleportOrgrimmarSkillLineAbility; -- Spell: 3567 (Teleport: Orgrimmar)
@@ -30,3 +31,4 @@ UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask 
 UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = @MechanoHogSkillLineAbility2; -- Spell: 60866 (Mechano-hog)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = 21723; -- Spell: 75460 (N/A?)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @GoblinMask WHERE `id` = @FlameShockPassiveSkillLineAbility; -- Spell: 75461 (Flame Shock Passive)
+*/

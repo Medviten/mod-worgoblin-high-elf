@@ -9,65 +9,35 @@ INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`
 (31466, @HighElfRacials, @HighElfRacial4, @HighElfMask, 0,                0, 0, 1, 0, 2, 0, 0, 0, 0),
 (31467, @HighElfRacials, @HighElfRacial5, @HighElfMask, 0,                0, 0, 1, 0, 2, 0, 0, 0, 0);
 
+/*
 -- Changed values
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 590;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 592;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 727;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 3269;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 3270;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 3271;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 3272;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 3273;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 3274;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 5989;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 5990;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 5991;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 5992;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 5993;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 5994;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 7594;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 12518;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 13151;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14013;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14022;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14023;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14779;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14784;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14787;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14788;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14795;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14815;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14816;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14817;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 14818;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15034;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15035;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15040;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15041;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15252;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15253;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15606;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 15607;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 16999;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 17000;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 17003;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 17004;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 17510;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 18299;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 18308;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 18311;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 18314;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20089;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20090;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20091;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20092;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20110;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20171;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20283;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20289;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20290;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20665;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20867;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 20868;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 21723;
-UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 21724;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @CommonSkillLineAbilityAlliance;
+-- UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @OrcishSkillLineAbilityHorde; -- It worked even with this, IDK why.
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @ThalassianSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @TeleportDarnassusSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @TeleportIronforgeSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @TeleportStormwindSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @PortalDarnassusSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @PortalIronforgeSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @PortalStormwindSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @WarhorseSkillLineAbility1; -- Spell: 13819 (Warhorse)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @ChargerSkillLineAbility1; -- Spell: 23214 (Charger)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @HolyVengeanceSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @JudgementofVengeanceSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @HeroismSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @TeleportExodarSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @PortalExodarSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @TeleportShattrathSkillLineAbilityAlliance;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @PortalShattrathSkillLineAbilityAlliance;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @TeleportTheramoreSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @PortalTheramoreSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @JudgementoftheMartyrSkillLineAbility;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @ChargerSkillLineAbility2; -- Spell: 23214 (Charger)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @WarhorseSkillLineAbility2; -- Spell: 13819 (Warhorse)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @MekgineersChopperSkillLineAbility1;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @MekgineersChopperSkillLineAbility2;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @ActivatePrimarySpec;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @ActivateSecondarySpec;
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = 21723; -- Assassination, Spell: 75460 (N/A)
+UPDATE `skilllineability` SET `required_races` = `required_races` | @HighElfMask WHERE `id` = @FlameShockPassiveSkillLineAbility;
+*/

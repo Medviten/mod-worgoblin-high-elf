@@ -7,7 +7,7 @@ INSERT INTO `skilllineability` (`id`, `skill_line`, `spell_id`, `required_races`
 (21982, @WorgenRacials, @WorgenRacial2, @WorgenMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (21983, @WorgenRacials, @WorgenRacial3, @WorgenMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0),
 (21984, @WorgenRacials, @WorgenRacial4, @WorgenMask, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0);
-
+/*
 -- Changed values
 UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 590; -- Spell: 668 (Language: Common)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 3269; -- Spell: 3565 (Teleport: Darnassus)
@@ -26,3 +26,4 @@ UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask 
 UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 20289; -- Spell: 60867 (Mekgineer's Chopper)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 21723; -- Spell: 75460 (N/A?)
 UPDATE `skilllineability` SET `required_races` = `required_races` | @WorgenMask WHERE `id` = 21724; -- Spell: 75461 (Flame Shock Passive)
+*/
