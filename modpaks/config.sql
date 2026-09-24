@@ -561,27 +561,54 @@ SET @WorgenRacialSkillRaceClass                      =    971;
 SET @GoblinRacialSkillRaceClass                      =    972;
 
 -- Weapon SkillRaceClass
+SET @AxesHunterSkillRaceClass1                       =    117; -- Hunter: Orc, Dwarf, Tauren, Troll
+SET @2HAxePaladinSkillRaceClass                      =    122; -- Paladin (up to bit 18)
+SET @DaggersRogueWarlockSkillRaceClass               =    129; -- Rogue, warlock (up to bit 15)
 SET @GunsHunterStartSkillRaceClass                   =    133; -- Hunter
 SET @GunsNonHunterSkillRaceClass                     =    134; -- Warrior, Rogue
-SET @SwordsWarriorSkillRaceClass                    =     140; -- Warrior, except Dwarf, Tauren, Troll (they are in 140 for some reason)
+SET @MacesPriestShamanSkillRaceClass                 =    135; -- Priest, Shaman
+SET @SwordsWarriorSkillRaceClass                     =    140; -- Warrior, except Dwarf, Tauren, Troll (they are in 140 for some reason)
 SET @SwordsHunterSkillRaceClass                      =    328; -- Hunter, except Draenei (they are alone in 880 for some reason)
 SET @FistWeaponsSkillRaceClass                       =    330; -- Warrior, Hunter, Rogue, Shaman, Druid
-SET @2HAxeWarriorSkillRaceClass                      =    622; -- Warrior
-SET @2HMaceSkillRaceClass1                           =    624; -- Warrior
-SET @2HMaceSkillRaceClass2                           =    625; -- Warrior
-SET @AxesHunterSkillRaceClass                        =    628; -- Hunter
-SET @AxesWarriorSkillRaceClass                       =    630; -- Warrior
-SET @DaggersHunterSkillRaceClass                     =    632; -- Hunter
-SET @DaggersWarriorSkillRaceClass                    =    634; -- Warrior
+SET @AxesOtherSkillRaceClass                         =    335; -- Paladin, Rogue, Shaman
+SET @DaggersCastersSkillRaceClass                    =    323; -- Priest, Shaman, Mage (up to bit 15)
+SET @2HAxeWarriorSkillRaceClass                      =    622; -- Warrior, except Orc, Dwarf (they are in 621 for some reason)
+SET @2HMaceSkillRaceClass1                           =    624; -- Warrior, Tauren
+SET @2HMaceSkillRaceClass2                           =    625; -- Warrior, except Tauren for some reason
+SET @AxesHunterSkillRaceClass2                       =    628; -- Hunter: Night Elf, Blood Elf, Draenei
+SET @AxesWarriorSkillRaceClass1                      =    629; -- Warrior: Human, Orc, Dwarf, Tauren, Troll
+SET @AxesWarriorSkillRaceClass2                      =    630; -- Warrior: Night Elf, Undead, Gnome, Draenei
+SET @DaggersHunterSkillRaceClass1                    =    631; -- Hunter: Night Elf, Blood Elf
+SET @DaggersHunterSkillRaceClass2                    =    632; -- Hunter: Orc, Dwarf, Tauren, Troll, Draenei
+SET @DaggersWarriorSkillRaceClass1                   =    633; -- Warrior: Night Elf, Undead, Gnome, Troll
+SET @DaggersWarriorSkillRaceClass2                   =    634; -- Warrior: Human, Orc, Dwarf, Tauren, Draenei
 SET @GunsHunterLearnSkillRaceClass                   =    635; -- Hunter
-SET @MacesWarriorSkillRaceClass                      =    637; -- Warrior
-SET @DaggersDruidSkillRaceClass                      =    642; -- Druid
-SET @MacesDruidSkillRaceClass                        =    644; -- Druid
+SET @MacesWarriorSkillRaceClass1                     =    636; -- Warrior: Human, Dwarf, Night Elf, Tauren, Gnome, Draenei
+SET @MacesWarriorSkillRaceClass2                     =    637; -- Warrior: Orc, Undead, Troll, Blood Elf
+SET @DaggersDruidTaurenSkillRaceClass                =    641; -- Druid: Tauren
+SET @DaggersDruidNightElfSkillRaceClass              =    642; -- Druid: Night Elf
+SET @MacesDruidNightElfSkillRaceClass                =    643; -- Druid: Night Elf
+SET @MacesDruidTaurenSkillRaceClass                  =    644; -- Druid: Tauren
+SET @2HAxeShamanSkillRaceClass                       =    701; -- Shaman (up to bit 18)
 SET @SwordsRogueSkillRaceClass                       =    872; -- Rogue
 SET @SwordsMageWarlockSkillRaceClass                 =    881; -- Mage, Warlock
-SET @SwordsPaladinAllianceSkillRaceClass             =    885; -- Paladin (Alliance: Human, Dwarf, Draenei)
+SET @SwordsPaladinSkillRaceClass                     =    885; -- Paladin (Alliance: Human, Dwarf, Draenei)
 SET @SwordsPaladinHordeSkillRaceClass                =    886; -- Paladin (Horde: Blood Elf)
+SET @MacesPaladinSkillRaceClass                      =    888; -- Paladin, except Blood Elf (up to bit 18)
+SET @MacesPaladinBloodElfSkillRaceClass              =    889; -- Paladin: Blood Elf
+SET @2HAxeDKSkillRaceClass                           =    907; -- DK (up to bit 19)
 SET @SwordsDKSkillRaceClass                          =    910; -- DK (up to bit 18)
+SET @AxesDKSkillRaceClass                            =    912; -- DK (up to bit 18)
+SET @MacesDKSkillRaceClass                           =    914; -- DK (up to bit 18)
+SET @2HAxeHunterSkillRaceClass                       =    970; -- Hunter (up to bit 18)
+SET @StavesCastersSkillRaceClass                     =    138; -- Priest, Shaman, Mage, Warlock, Druid (up to bit 15)
+SET @StavesWarriorHunterSkillRaceClass               =    139; -- Warrior, Hunter (up to bit 15)
+SET @PolearmsSkillRaceClass                          =    229; -- Warrior, Paladin, Hunter, Druid (up to bit 15)
+SET @PolearmsDKSkillRaceClass                        =    915; -- DK (up to bit 18)
+SET @DualWieldRogueSkillRaceClass                    =    131; -- Rogue (up to bit 15)
+SET @DualWieldWarriorHunterSkillRaceClass            =    132; -- Warrior, Hunter (up to bit 15)
+SET @DualWieldShamanSkillRaceClass                   =    883; -- Shaman (up to bit 15)
+SET @DualWieldDKSkillRaceClass                       =    913; -- DK (up to bit 18)
 
 -- Gear SkillRaceClass
 SET @PlateMailSkillRaceClass                         =     21; -- Warrior, paladin
@@ -626,10 +653,10 @@ SET @WolfRidingOrcSkillRaceClass                     =     94; -- Orc
 SET @HorseRidingGeneralSkillRaceClass                =    441; -- Orc, Dwarf, Night Elf, Undead, Gnome, Troll (no Tauren, Blood Elf or Draenei)
 SET @RamRidingGeneralSkillRaceClass                  =    442; -- Human, Orc, Night Elf, Undead, Gnome, Troll (no Tauren, Blood Elf or Draenei)
 SET @WolfRidingGeneralSkillRaceClass                 =    443; -- Human, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll, Goblin (no Blood Elf or Draenei)
-SET @RaptorRidingSkillRaceClass                      =    446; 
+SET @RaptorRidingGeneralSkillRaceClass               =    446; -- Human, Orc, Dwarf, Night Elf, Undead, Gnome
 SET @MechanostriderPilotingGnomeSkillRaceClass       =    461; -- Gnome
-SET @UndeadHorsemanshipSkillRaceClass                =    463;
-SET @TigerRidingGeneralSkillRaceClass                =    481; -- Human, Orc, Dwarf,    
+SET @UndeadHorsemanshipGeneralSkillRaceClass         =    463; -- Human, Orc, Dwarf, Night Elf, Gnome, Troll
+SET @TigerRidingGeneralSkillRaceClass                =    481; -- Human, Orc, Dwarf, Undead, Gnome, Troll
 SET @MechanostriderPilotingDwarfSkillRaceClass       =    501; -- Dwarf
 
 -- Mount Models
@@ -664,13 +691,18 @@ SET @CaravanHyena                                    = 110021;
 SET @CaravanHyenaAlt                                 = 110021;
 
 -- Faction Masks
-SET @BaseAllianceMask                                = @HumanMask        | @DwarfMask  | @NightElfMask  | @GnomeMask         | @DraeneiMask;
-SET @BaseHordeMask                                   = @OrcMask          | @UndeadMask | @TaurenMask    | @TrollMask         | @BloodElfMask;
+SET @VanillaAllianceMask                             = @HumanMask           | @DwarfMask  | @NightElfMask  | @GnomeMask;
+SET @VanillaHordeMask                                = @OrcMask             | @UndeadMask | @TaurenMask    | @TrollMask;
+SET @BaseAllianceMask                                = @VanillaAllianceMask | @DraeneiMask;
+SET @BaseHordeMask                                   = @VanillaHordeMask    | @BloodElfMask;
 SET @AllianceMask                                    = @BaseAllianceMask; -- | @WorgenMask | @HighElfMask   | @DarkIronDwarfMask | @AlliancePandarenMask | @KulTiranMask;
 SET @HordeMask                                       = @BaseHordeMask;    -- | @GoblinMask | @MagharOrcMask | @OgreMask          | @ZandalariTrollMask | @VulperaMask;
-SET @UndercityMask                                   = @UndeadMask       | @BloodElfMask; -- Mostly for easy reputation split
-SET @BarrensBros                                     = @HordeMask        & ~@UndercityMask; -- Mostly for easy reputation split
-SET @PlayableRaceMask                                = @AllianceMask     | @HordeMask;
+SET @UndercityMask                                   = @UndeadMask          | @BloodElfMask; -- Mostly for easy reputation split
+SET @BarrensBros                                     = @HordeMask           & ~@UndercityMask; -- Mostly for easy reputation split
+SET @PlayableRaceMask                                = @AllianceMask        | @HordeMask;
+SET @GunHunters                                      = @DwarfMask           | @TaurenMask | @GnomeMask;
+SET @CrossbowHunters                                 = @DraeneiMask         | @HumanMask  | @UndeadMask;
+SET @BowHunters                                      = @PlayableRaceMask    & ~(@GunHunters | @CrossbowHunters);
 
 -- Race and PLAYER factions
 SET @HumanFaction                                    =   72; -- Stormwind

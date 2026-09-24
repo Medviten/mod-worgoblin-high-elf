@@ -4,8 +4,9 @@ SET @DarkIronDwarfMask = 1 << (@DarkIronDwarf - 1); -- race ID 16 → 32768
 SET @DarkIronDwarfHelmetMask = 1 << @DarkIronDwarf; -- race ID 16 → 65536
 
 -- Important variable update
-SET @AllianceMask = @AllianceMask | @DarkIronDwarfMask;
+SET @AllianceMask     = @AllianceMask | @DarkIronDwarfMask;
 SET @PlayableRaceMask = @AllianceMask | @HordeMask;
+SET @GunHunters       = @GunHunters   | @DarkIronDwarfMask;
 
 -- Miscellaneous
 SET @DarkIronDwarfExplorationSound = @DwarfExplorationSound;

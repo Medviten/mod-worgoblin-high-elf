@@ -1,5 +1,5 @@
-INSERT IGNORE INTO `playercreateinfo` VALUES
-/* Horde Pandaren starting zone (Mulgore) */
+DELETE FROM `playercreateinfo` WHERE `race` = @HordePandaren;
+INSERT INTO `playercreateinfo` (`race`,`class`,`map`,`zone`,`position_x`,`position_y`,`position_z`,`orientation`) VALUES
 (@HordePandaren, @Warrior,     @Kalimdor,  @Mulgore,         @TaurenStartX, @TaurenStartY, @TaurenStartZ, @TaurenStartO), 
 (@HordePandaren, @Hunter,      @Kalimdor,  @Mulgore,         @TaurenStartX, @TaurenStartY, @TaurenStartZ, @TaurenStartO), 
 (@HordePandaren, @Rogue,       @Kalimdor,  @Mulgore,         @TaurenStartX, @TaurenStartY, @TaurenStartZ, @TaurenStartO), 

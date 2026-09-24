@@ -7,6 +7,7 @@ SET @MagharOrcHelmetMask = 1 << @MagharOrc;  -- race ID 14 → 16384
 SET @HordeMask        = @HordeMask    |  @MagharOrcMask;
 SET @BarrensBros      = @HordeMask    & ~@UndercityMask;
 SET @PlayableRaceMask = @AllianceMask |  @HordeMask;
+SET @BowHunters       = @BowHunters   |  @MagharOrcMask;
 
 -- Miscellaneous
 SET @MagharOrcExplorationSound             = @OrcExplorationSound;

@@ -1,5 +1,5 @@
-INSERT IGNORE INTO `playercreateinfo` VALUES
-/* Alliance Pandaren starting zone (Elwynn Forest) */
+DELETE FROM `playercreateinfo` WHERE `race` = @AlliancePandaren;
+INSERT INTO `playercreateinfo` (`race`,`class`,`map`,`zone`,`position_x`,`position_y`,`position_z`,`orientation`) VALUES
 (@AlliancePandaren, @Warrior,     @EasternKingdoms,  @ElwynnForest,      @HumanStartX, @HumanStartY, @HumanStartZ, @HumanStartO),
 (@AlliancePandaren, @Hunter,      @EasternKingdoms,  @ElwynnForest,      @HumanStartX, @HumanStartY, @HumanStartZ, @HumanStartO),
 (@AlliancePandaren, @Rogue,       @EasternKingdoms,  @ElwynnForest,      @HumanStartX, @HumanStartY, @HumanStartZ, @HumanStartO),

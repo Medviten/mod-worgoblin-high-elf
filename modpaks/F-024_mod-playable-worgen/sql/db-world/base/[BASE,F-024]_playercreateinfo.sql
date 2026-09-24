@@ -1,5 +1,5 @@
-INSERT IGNORE INTO `playercreateinfo` VALUES
-/* Worgen starting zone */
+DELETE FROM `playercreateinfo` WHERE `race` = @Worgen;
+INSERT INTO `playercreateinfo` VALUES
 (@Worgen, @Warrior,     @Kalimdor,  @Teldrassil,      @NightElfStartX,  @NightElfStartY, @NightElfStartZ, @NightElfStartO),
 (@Worgen, @Hunter,      @Kalimdor,  @Teldrassil,      @NightElfStartX,  @NightElfStartY, @NightElfStartZ, @NightElfStartO),
 (@Worgen, @Rogue,       @Kalimdor,  @Teldrassil,      @NightElfStartX,  @NightElfStartY, @NightElfStartZ, @NightElfStartO),

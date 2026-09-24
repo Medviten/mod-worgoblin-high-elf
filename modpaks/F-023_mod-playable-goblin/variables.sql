@@ -4,9 +4,10 @@ SET @GoblinMask = 1 << (@Goblin - 1); -- default: 256
 SET @GoblinHelmetMask = 1 << @Goblin; -- default: 512
 
 -- Important variable update
-SET @HordeMask = @HordeMask | @GoblinMask;
-SET @BarrensBros = @HordeMask & ~@UndercityMask;
+SET @HordeMask        = @HordeMask    | @GoblinMask;
+SET @BarrensBros      = @HordeMask    & ~@UndercityMask;
 SET @PlayableRaceMask = @AllianceMask | @HordeMask;
+SET @GunHunters       = @GunHunters   | @GoblinMask;
 
 -- Miscellaneous
 SET @GoblinExplorationSound = @OrcExplorationSound;

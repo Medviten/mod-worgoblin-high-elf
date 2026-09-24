@@ -1,5 +1,5 @@
-INSERT IGNORE INTO `playercreateinfo` VALUES
-/* High Elf starting zone (Elwynn Forest) */
+DELETE FROM `playercreateinfo` WHERE `race` = @HighElf;
+INSERT INTO `playercreateinfo` (`race`,`class`,`map`,`zone`,`position_x`,`position_y`,`position_z`,`orientation`) VALUES
 (@HighElf, @Warrior,     @EasternKingdoms, @ElwynnForest,   @HumanStartX, @HumanStartY, @HumanStartZ, @HumanStartO), 
 (@HighElf, @Paladin,     @EasternKingdoms, @ElwynnForest,   @HumanStartX, @HumanStartY, @HumanStartZ, @HumanStartO), 
 (@HighElf, @Hunter,      @EasternKingdoms, @ElwynnForest,   @HumanStartX, @HumanStartY, @HumanStartZ, @HumanStartO), 

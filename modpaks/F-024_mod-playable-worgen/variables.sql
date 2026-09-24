@@ -4,8 +4,9 @@ SET @WorgenMask                            = 1 << (@Worgen - 1); -- default: 204
 SET @WorgenHelmetMask                      = 1 << @Worgen; -- default: 4096
 
 -- Important variable update
-SET @AllianceMask                          = @AllianceMask | @WorgenMask;
+SET @AllianceMask                          = @AllianceMask     | @WorgenMask;
 SET @PlayableRaceMask                      = @PlayableRaceMask | @WorgenMask;
+SET @GunHunters                            = @GunHunters       | @WorgenMask;
 
 -- Miscellaneous
 SET @WorgenExplorationSound                = @TaurenExplorationSound;

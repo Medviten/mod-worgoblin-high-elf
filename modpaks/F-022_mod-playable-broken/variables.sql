@@ -4,8 +4,9 @@ SET @BrokenMask = 1 << (@Broken - 1);
 SET @BrokenHelmetMask = 1 << @Broken;
 
 -- Important variable update
-SET @AllianceMask = @AllianceMask | @BrokenMask;
-SET @PlayableRaceMask = @AllianceMask | @HordeMask;
+SET @AllianceMask     = @AllianceMask    | @BrokenMask;
+SET @PlayableRaceMask = @AllianceMask    | @HordeMask;
+SET @CrossbowHunters  = @CrossbowHunters | @BrokenMask;
 
 -- Miscellaneous
 SET @BrokenExplorationSound = @DraeneiExplorationSound;

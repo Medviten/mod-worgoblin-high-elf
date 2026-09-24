@@ -9,8 +9,9 @@ SET @WorgenHelmetMask = 1 << @Worgen;     -- default: 4096
 -- Important variable update
 SET @AllianceMask     = @AllianceMask |  @WorgenMask;
 SET @HordeMask        = @HordeMask    |  @GoblinMask;
-SET @BarrensBros      = @HordeMask    & ~@UndercityMask
+SET @BarrensBros      = @HordeMask    & ~@UndercityMask;
 SET @PlayableRaceMask = @AllianceMask |  @HordeMask;
+SET @GunHunters       = @GunHunters   |  @WorgenMask | @GoblinMask;
 
 -- Miscellaneous
 SET @WorgenExplorationSound = @TaurenExplorationSound;

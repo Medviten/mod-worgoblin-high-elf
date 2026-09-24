@@ -4,8 +4,9 @@ SET @AlliancePandarenMask = 1 << (@AlliancePandaren - 1); -- race ID 19 → 2621
 SET @AlliancePandarenHelmetMask = 1 << @AlliancePandaren; -- race ID 19 → 524288
 
 -- Important variable update
-SET @AllianceMask = @AllianceMask | @AlliancePandarenMask;
-SET @PlayableRaceMask = @AllianceMask | @HordeMask;
+SET @AllianceMask     = @AllianceMask    | @AlliancePandarenMask;
+SET @PlayableRaceMask = @AllianceMask    | @HordeMask;
+SET @CrossbowHunters  = @CrossbowHunters | @AlliancePandarenMask;
 
 -- Miscellaneous
 SET @AlliancePandarenExplorationSound = @TaurenExplorationSound;
