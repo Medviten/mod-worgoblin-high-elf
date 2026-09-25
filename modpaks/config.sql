@@ -267,9 +267,11 @@ SET @BrokenRacials                                   =    798;
 SET @KulTiranRacials                                 =    799;
 
 -- Racial spells
+SET @Cannibalize                                     =  20577; -- Undead racial
 SET @BloodElfRacial1                                 =  80866; -- Arcane Torrent (Druid Feral)
-SET @BloodElfRacial2                                 =  80867; -- Arcane Torrent (Druid Mana)
+SET @BloodElfRacial2                                 =  80865; -- Used to be 80867; -- Arcane Torrent (Druid Mana, unshapeshift)
 SET @BloodElfRacial3                                 =  80868; -- Arcane Torrent (Rage)
+SET @BloodElfRacial4                                 =  80867; -- Legacy split druid spell
 SET @DraeneiRacial1                                  =  80869; -- Gift of the Naaru (Druid)
 SET @DraeneiRacial2                                  =  80870; -- Gift of the Naaru (Rogue)
 SET @DraeneiRacial3                                  =  80871; -- Gift of the Naaru (Warlock)
@@ -436,12 +438,19 @@ SET @DruidAquaticKulTiranLightDisplay                = 94210;
 SET @DruidTreeKulTiranDisplay                        = 94214;
 
 -- Weapon Skills
+SET @SwordSkill                                      =     43;
 SET @AxeSkill                                        =     44;
 SET @BowSkill                                        =     45;
 SET @GunSkill                                        =     46;
 SET @MaceSkill                                       =     54;
+SET @DualWieldSkill                                  =    118;
+SET @StaveSkill                                      =    136;
 SET @2HMaceSkill                                     =    160;
+SET @2HAxeSkill                                      =    172;
 SET @DaggerSkill                                     =    173;
+SET @CrossbowSkill                                   =    226;
+SET @PolearmSkill                                    =    229;
+SET @FistWeaponSkill                                 =    473;
 
 -- Gear Skills
 SET @PlateMailSkill                                  =    293;
@@ -688,7 +697,7 @@ SET @GoblinTurboTrike                                =  87091;
 SET @MountainHorse                                   = 103195;
 SET @SwiftMountainHorse                              = 103196;
 SET @CaravanHyena                                    = 110021;
-SET @CaravanHyenaAlt                                 = 110021;
+SET @CaravanHyenaAlt                                 = 110022;
 
 -- Faction Masks
 SET @VanillaAllianceMask                             = @HumanMask           | @DwarfMask  | @NightElfMask  | @GnomeMask;
@@ -703,6 +712,7 @@ SET @PlayableRaceMask                                = @AllianceMask        | @H
 SET @GunHunters                                      = @DwarfMask           | @TaurenMask | @GnomeMask;
 SET @CrossbowHunters                                 = @DraeneiMask         | @HumanMask  | @UndeadMask;
 SET @BowHunters                                      = @PlayableRaceMask    & ~(@GunHunters | @CrossbowHunters);
+SET @DaggersRogueOnly                                = @TaurenMask          | @DraeneiMask;
 
 -- Race and PLAYER factions
 SET @HumanFaction                                    =   72; -- Stormwind
